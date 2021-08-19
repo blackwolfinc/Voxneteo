@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'IBMPlexSans-Semibold';
+  src: url("../../assets/fonts/IBMPlexSans-SemiBold.ttf");
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  max-width: 144rem;
+}
+
+.section-1 .container {
+  position: relative;
+  max-width: 144rem;
+  height: 80.7rem;
+  background-image: url("../../assets/images/header-homepage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-1 .nav {
+  background: transparent;
+  overflow: hidden;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 6rem;
+}
+
+.section-1 .nav .nav-item {
+  margin-right: 4rem;
+  font-family: 'IBMPlexSans-SemiBold';
+  font-weight: 600;
+}
+
+.section-1 .nav .nav-item .nav-link {
+  color: #ffffff;
+  font-size: 1.8rem;
+}
+
+.section-1 .nav .badge {
+  border: 2px solid #E5E5E5;
+  font-weight: bold;
+  width: 17.5rem;
+}
+
+.section-1 .nav .badge .nav-link {
+  font-size: 1.6rem;
+  margin: 1.3rem 3rem 1.5rem 3.9rem;
+}
+/*# sourceMappingURL=introduction.css.map */

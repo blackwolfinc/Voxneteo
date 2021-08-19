@@ -1,0 +1,58 @@
+$color1: #ffffff;
+$color2: #E5E5E5;
+$maxWidth: 144rem;
+
+@font-face {
+    font-family: 'IBMPlexSans-Semibold';
+    src: url('../../assets/fonts/IBMPlexSans-SemiBold.ttf');
+}
+
+* {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    max-width: $maxWidth;
+}
+
+.section-1 {
+    .container {
+        position: relative;
+        max-width: $maxWidth;
+        height: 80.7rem;
+        background-image: url('../../assets/images/header-homepage.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }  
+    .nav {
+        background: transparent;
+        overflow: hidden;
+        justify-content: flex-end;
+        align-items: center;
+        padding-top: 6rem;
+
+        .nav-item {
+            margin-right: 4rem;
+            font-family: 'IBMPlexSans-SemiBold';
+            font-weight: 600;
+
+            .nav-link {
+                color: $color1;
+                font-size: 1.8rem;
+            }
+        }
+        .badge {
+            border: 2px solid $color2;
+            font-weight: bold;
+            width: 17.5rem;
+
+            .nav-link {
+                font-size: 1.6rem;
+                margin: 1.3rem 3rem 1.5rem 3.9rem;
+            }
+        }
+    }
+}
