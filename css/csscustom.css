@@ -1,0 +1,265 @@
+	@font-face /*perintah untuk memanggil font eksternal*/
+  	{
+    	font-family: 'IBM Plex Sans'; /*memberikan nama bebas untuk font*/
+    	src: url('dist\Fonts\webfont-ibm-plex.ttf');
+
+    	font-family: 'Butler Light';
+  		src: url('dist\Fonts\webfont-butler\Butler-Light.ttf');/*memanggil file font eksternalnya di folder nexa*/
+  	}
+
+	.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+		color: white;
+	}
+
+	.navbar-light .navbar-nav .nav-link {
+    	color: white;
+	}
+
+	ul.navbar-nav  li.nav-item {
+		padding-left: 0px;
+		padding-right: 80px;
+
+	}
+
+	ul.navbar-nav  li.nav-item  a.nav-link {
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		/*font-family: IBM Plex Sans;*/
+		font-size: 18px;
+ 		font-weight: 600;
+  		letter-spacing: -0.26px;
+  		line-height: 23px;
+	}
+
+	ul.navbar-nav {
+		height: 54px;
+		padding-bottom: 17.2px;
+		padding-top: 13.8px;
+		margin-left: 320px;
+
+	}
+
+	ul.navbar-nav > li.nav-item.dropdown {
+  		padding-left: 100px;
+	}
+
+	ul.navbar-nav > li.nav-item.dropdown > a#navbarDropdown.nav-link  {
+		border: 2px solid #E5E5E5;
+  		border-radius: 24px;
+  		padding-left: 39px;
+  		margin-top: -13px;
+  		margin-bottom: -13px;
+  		padding-top: 13px;
+  		padding-bottom: 13px;
+
+	}
+
+	.dropdown-toggle::after {
+		margin-right: 27.7px;
+		margin-left: 30px;
+		color: #F05E36;
+	}
+
+	img.img-fluid {
+		position: absolute;
+		z-index: 1;
+	}
+
+	nav.navbar.navbar-expand-lg {
+		position: absolute;
+		z-index: 2;	
+		width: 100%;
+		padding: 0;		
+	}
+
+	nav.navbar.navbar-expand-lg div.container-fluid {
+		margin-top: 70px;
+		padding-left: 0;
+		padding-right: 0;	
+	}
+
+	div.row > div.col.p-0 > div.row > div.col-12 {
+		position: relative;
+		z-index: 2;
+	}
+
+	div.row > div.col.p-0 > div.row {
+		margin: 0;
+	}
+
+	div.row > div.col.p-0 > div.row > div#titleCol.col-12 {
+		width: 989px;
+		display: inline-block;
+		padding: 0;
+	}
+
+	div.row > div.col.p-0 > div.row > div#titleCol.col-12 > h1 {
+		color: #FFFFFF;
+	    font-family: Butler;
+	    font-size: 100px;
+	    font-weight: 300;
+	    letter-spacing: -1.47px;
+	    line-height: 100px;
+	    margin-top: 70.83px;
+	    margin-left: 110px;
+	    display: inline-block;
+	    width: 989px;
+	}
+
+	div.row > div.col.p-0 > div.row > div#logoCol.col-12 {
+		width: 989px;
+		display: inline-block;
+		padding: 0;
+	}
+
+
+	div.row > div.col.p-0 > div.row > div.col-12 > img.img-thumbnail {
+		background-color: transparent;
+		border: none;
+		padding-top: 20.22px;
+		padding-left: 88.24px;
+		padding-right: 89.76px;
+		padding-bottom: 34.39px;
+		margin-top: 160px;
+		margin-left: 24px;
+	}
+
+	div.container-fluid > div#dua.row > div#kolom2.col-6 > img {
+		height: 400px;
+  		width: 807px;
+	}
+
+	div.container-fluid > div#dua.row {
+		margin-top: 210px;
+	}
+
+	div.container-fluid > div#dua.row > div#kolom1.col-6 > h5 {
+		margin-top: 103px;
+		margin-left: 111px;
+		height: 180px;
+  		width: 417px;
+  		color: #0A2939;
+  		/*font-family: "IBM Plex Sans";*/
+  		font-size: 24px;
+  		font-weight: 500;
+  		letter-spacing: -0.35px;
+  		line-height: 40px;
+	}
+
+	div.container-fluid > div#dua.row > div#kolom1.col-6 > ul {
+		height: 180px;
+  		width: 417px;
+  		margin-left: 111px;
+	}
+
+	div.container-fluid > div#dua.row > div#kolom1.col-6 > ul > li {
+		color: #0A2939;
+  		font-family: Butler;
+  		font-size: 40px;
+  		font-weight: 300;
+  		letter-spacing: 0;
+  		line-height: 48px;
+	}
+
+	div.container-fluid > div#dua.row > div#kolom1.col-6 > ul > li.active {
+		color: #F05E36;
+	}
+
+	div.container-fluid > div#dua.row > div#kolom2.col-6 > h5 {
+		height: 168px;
+	    width: 593px;
+	    color: #0A2939;
+	    /*font-family: "IBM Plex Sans";*/
+	    font-size: 18px;
+	    font-weight: 300;
+	    letter-spacing: -0.1px;
+	    line-height: 30px;
+	    margin-top: 82px;
+	    text-align: justify;
+	    margin-bottom: 37px;
+	}
+
+	div#dua.row > div#kolom2.col-6 > button.btn.btn-primary {
+		height: 48px;
+  		width: 289px;
+  		border-radius: 24px;
+  		background-color: #F05E36;
+  		border: none;
+	}
+
+
+	@media (max-width: 575.98px) {
+
+	img.img-fluid {
+		height: 320px;
+	}
+
+	ul.navbar-nav.mx-auto {
+		margin-top: 0px;
+	}
+
+	nav.navbar.navbar-expand-lg div.container-fluid {
+		margin-top: 0px;
+		padding-left: 0;
+		padding-right: 0;	
+	}
+
+	div.row > div.col.p-0 > div.row {
+		margin-right: 24px;
+		margin-left: 24px;
+	}
+
+	div.row > div.col.p-0 > div.row > div#logoCol.col-12 > img.img-thumbnail {
+		position: inherit;
+		z-index: 2;
+		text-align: center;
+		margin-top: 64px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		margin-bottom: 16px;
+		width: 186px;
+		height: 64px;
+		padding: 0px;
+	}
+
+	div.row > div.col.p-0 > div.row > div#titleCol.col-12 > h1 {
+		position: inherit;
+		z-index: 2;
+		text-align: center;
+		font-family: Butler;
+	    font-size: 34px;
+	    font-weight: 300;
+	    letter-spacing: -0.5px;
+	    line-height: 38px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    margin-top: 0;
+	    width: auto;
+	    display: block;
+	}
+		
+	}
+
+	// Small devices (landscape phones, 576px and up)
+	@media (min-width: 576px) and (max-width: 767.98px) {
+
+	}
+
+	// Medium devices (tablets, 768px and up)
+	@media (min-width: 768px) and (max-width: 991.98px) {
+
+	}
+
+	// Large devices (desktops, 992px and up)
+	@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+	}
+
+	// Extra large devices (large desktops, 1200px and up)
+	@media (min-width: 1200px) {
+
+	}
