@@ -1,31 +1,53 @@
 $color1: #ffffff;
 $color2: #E5E5E5;
 $color3: #F05E36;
+$color4: #0A2939;
+$color5: #002F39;
+$color6: #F66E49;
 $maxWidth: 144rem;
-$fontFamily1: 'IBMPlexSans-SemiBold';
-$fontFamily2: 'IBMPlexSans-Light';
-$fontFamily3: 'Butler-Light';
-$fontFamily4: 'IBMPlexSans-Medium';
+$ibmReguler: 'IBMPlexSans';
+$ibmSemiBold: 'IBMPlexSans-SemiBold';
+$ibmSemiBoldItalic: 'IBMPlexSans-SemiBoldItalic';
+$ibmLight: 'IBMPlexSans-Light';
+$ibmMedium: 'IBMPlexSans-Medium';
+$butlerLight: 'Butler-Light';
+$butler: 'Butler';
+$minionItalic: 'Minion-DisplayItalic';
 $size1: 1.6rem;
 
 @font-face {
-    font-family: $fontFamily1;
-    src: url('../../assets/fonts/IBMPlexSans-SemiBold.ttf');
+    font-family: $ibmReguler;
+    src: url('../../assets/fonts/webfont-ibm-plex/IBMPlexSans.ttf');
+}
+@font-face {
+    font-family: $ibmSemiBold;
+    src: url('../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBold.ttf');
+}
+@font-face {
+    font-family: $ibmLight;
+    src: url('../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Light.ttf');
+}
+@font-face {
+    font-family: $ibmMedium;
+    src: url('../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Medium.ttf');
+}
+@font-face {
+    font-family: $ibmSemiBoldItalic;
+    src: url('../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBoldItalic.ttf');
 }
 
 @font-face {
-    font-family: $fontFamily2;
-    src: url('../../assets/fonts/IBMPlexSans-Light.ttf');
+    font-family: $butlerLight;
+    src: url('../../assets/fonts/webfont-butler/Butler-Light.ttf');
+}
+@font-face {
+    font-family: $butler;
+    src: url('../../assets/fonts/webfont-butler/Butler.ttf');
 }
 
 @font-face {
-    font-family: $fontFamily3;
-    src: url('../../assets/fonts/Butler-Light.ttf');
-}
-
-@font-face {
-    font-family: $fontFamily4;
-    src: url('../../assets/fonts/IBMPlexSans-Medium.ttf');
+    font-family: $minionItalic;
+    src: url('../../assets/fonts/webfont-minion/Minion-DisplayItalic.ttf');
 }
 
 * {
@@ -51,13 +73,11 @@ body {
     .nav {
         background: transparent;
         overflow: hidden;
-        justify-content: flex-end;
-        align-items: center;
         padding-top: 6rem;
 
         .nav-item {
             margin-right: 4rem;
-            font-family: $fontFamily1;
+            font-family: $ibmSemiBold;
             font-weight: 600;
 
             .nav-link {
@@ -68,14 +88,12 @@ body {
         .badge {
             border: 2px solid $color2;
             font-weight: bold;
-            display: flex;
-            flex-direction: row;
             margin-left: 10.7rem;
             margin-right: 14.4rem;
 
             .nav-link {
                 font-size: $size1;
-                margin: 1.3rem 3rem 1.5rem 3.9rem;
+                margin-left: 3.9rem;
             }
             .icon-dropdown {
                 padding: 2rem 2.7rem 2rem 0;
@@ -91,7 +109,8 @@ body {
 
         h1 {
             margin-bottom: 6rem;
-            font-family: $fontFamily4;
+            font-family: $ibmMedium;
+            color: $color4;
             letter-spacing: -0.35px;
             line-height: 4rem;
             width: 41.7rem;
@@ -100,11 +119,12 @@ body {
         ul.dashed {
             list-style-type: none;
             width: 66.2rem;
-            font-family: $fontFamily3;
+            font-family: $butlerLight;
         }
         ul.dashed > li {
             text-indent: -20px;
             font-size: 4rem;
+            color: $color4;
             line-height: 4.8rem;
             margin-bottom: 2.4rem;
         }
@@ -127,7 +147,7 @@ body {
             margin-bottom: 8.2rem;
         }
         h4 {
-            font-family: $fontFamily2;
+            font-family: $ibmLight;
             font-size: $size1;
             letter-spacing: -0.1px;
             line-height: 3rem;
@@ -137,18 +157,156 @@ body {
             margin-bottom: 3.7rem;
         }
         button {
-            font-family: $fontFamily4;
+            font-family: $ibmMedium;
             font-size: $size1;
             padding: 1.5rem 3.3rem;
         }
         button.btn {
-            border-radius: 2.4rem;
+            border-radius: 10rem;
         }
         button.btn-primary {
             background-color: $color3;
             border-color: $color3;
         }
+    } 
+}
+
+.section-3 {
+    .content {
+        padding-top: 9.6rem;
+        padding-bottom: 4.1rem;
+
+        .row {
+            background-color: $color3;
+
+            .content-left {
+                max-width: 46.5rem;
+                padding-left: 4.6rem;
+                padding-top: 7.2rem;
+                margin-left: 6.6rem;
+                margin-right: 6.4rem;
+                
+                .text {
+                    width: 45.6rem;
+                    height: 19.8rem;
+                    margin-bottom: 4.3rem;
+    
+                    h1 {
+                        color: $color1;
+                        font-family: $butler;
+                        font-size: 5.6rem;
+                        line-height: 5.6rem;
+                        letter-spacing: -0.82px;
+                    }
+                }
+                ul {
+                    margin-bottom: 8.3rem;
+                }
+                ul li {
+                    font-size: 1.8rem;
+                    font-family: $ibmMedium;
+                    color: $color4;
+                    cursor: pointer;
+                    letter-spacing: -0.26px;
+                    line-height: 4rem;
+                }
+                .btt-side {
+                    width: 38.4rem;
+                    padding: 1.5rem 2.6rem;
+                    background-color: $color1;
+                    margin-bottom: 15.6rem;
+    
+                    h4 {
+                        color: $color6;
+                        font-size: $size1;
+                        font-family: $ibmSemiBoldItalic;
+                        letter-spacing: 0.2rem;
+                        text-align: center;
+                    }
+                    h2 {
+                        color: $color5;
+                        font-family: $minionItalic;
+                        text-align: center;
+                    }
+                }
+            }
+            .content-right {
+                img {
+                    max-width: 100%;
+                }
+                h1 {
+                    font-family: $ibmMedium;
+                    margin-top: 8.7rem;
+                    line-height: 3rem;
+                }
+                .text {
+                    width: 63.5rem;
+                    font-family: $ibmLight;
+                    color: $color1;
+
+                    h4 {
+                        line-height: 3rem;
+                        font-size: $size1;
+                    }
+                    h4.second-text {
+                        margin-bottom: 8.4rem;
+                    }
+                } 
+            }
+        }
+    }
+}
+
+.section-4 {
+    padding: 8.4rem 11rem;
+    text-align: center;
+    
+    .title, .card-title, .card-text h3 {
+        color: $color4;
     }
 
-    
+    .title {
+        font-family: $butler;
+        font-size: 5.6rem;
+        text-align: left;
+        line-height: 5.6rem;
+        margin-bottom: 5rem;
+    }
+    .card-list-image {
+        .card {
+            width: 38.5rem;
+            margin-bottom: 9.3rem;
+            text-align: left;
+
+            .card-body {
+                h1 {
+                    font-size: 4.8rem;
+                    font-family: $butler;
+                    line-height: 4.5rem;
+                }
+                .card-text {
+                    h4 {
+                        color: $color6;
+                        line-height: 4.5rem;
+                        font-family: $ibmReguler;
+                    }
+                    h3 {
+                        font-size: 1.8rem;
+                        line-height: 2.3rem;
+                        font-family: $ibmReguler;
+                    }
+                }
+            }
+        }
+    }
+    button {
+        background-color: $color4;
+        border-color: $color4;
+        font-size: $size1;
+        padding: 1.5rem 6rem;
+        
+    }
+    button.btn {
+        border-radius: 10rem;
+    }
 }

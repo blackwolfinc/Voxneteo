@@ -1,21 +1,41 @@
 @font-face {
+  font-family: "IBMPlexSans";
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans.ttf");
+}
+
+@font-face {
   font-family: "IBMPlexSans-SemiBold";
-  src: url("../../assets/fonts/IBMPlexSans-SemiBold.ttf");
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBold.ttf");
 }
 
 @font-face {
   font-family: "IBMPlexSans-Light";
-  src: url("../../assets/fonts/IBMPlexSans-Light.ttf");
-}
-
-@font-face {
-  font-family: "Butler-Light";
-  src: url("../../assets/fonts/Butler-Light.ttf");
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Light.ttf");
 }
 
 @font-face {
   font-family: "IBMPlexSans-Medium";
-  src: url("../../assets/fonts/IBMPlexSans-Medium.ttf");
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: "IBMPlexSans-SemiBoldItalic";
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "Butler-Light";
+  src: url("../../assets/fonts/webfont-butler/Butler-Light.ttf");
+}
+
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/fonts/webfont-butler/Butler.ttf");
+}
+
+@font-face {
+  font-family: "Minion-DisplayItalic";
+  src: url("../../assets/fonts/webfont-minion/Minion-DisplayItalic.ttf");
 }
 
 * {
@@ -42,12 +62,6 @@ body {
 .section-1 .nav {
   background: transparent;
   overflow: hidden;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding-top: 6rem;
 }
 
@@ -65,20 +79,13 @@ body {
 .section-1 .nav .badge {
   border: 2px solid #E5E5E5;
   font-weight: bold;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   margin-left: 10.7rem;
   margin-right: 14.4rem;
 }
 
 .section-1 .nav .badge .nav-link {
   font-size: 1.6rem;
-  margin: 1.3rem 3rem 1.5rem 3.9rem;
+  margin-left: 3.9rem;
 }
 
 .section-1 .nav .badge .icon-dropdown {
@@ -93,6 +100,7 @@ body {
 .section-2 .content-left h1 {
   margin-bottom: 6rem;
   font-family: "IBMPlexSans-Medium";
+  color: #0A2939;
   letter-spacing: -0.35px;
   line-height: 4rem;
   width: 41.7rem;
@@ -108,6 +116,7 @@ body {
 .section-2 .content-left ul.dashed > li {
   text-indent: -20px;
   font-size: 4rem;
+  color: #0A2939;
   line-height: 4.8rem;
   margin-bottom: 2.4rem;
 }
@@ -151,11 +160,153 @@ body {
 }
 
 .section-2 .content-right button.btn {
-  border-radius: 2.4rem;
+  border-radius: 10rem;
 }
 
 .section-2 .content-right button.btn-primary {
   background-color: #F05E36;
   border-color: #F05E36;
+}
+
+.section-3 .content {
+  padding-top: 9.6rem;
+  padding-bottom: 4.1rem;
+}
+
+.section-3 .content .row {
+  background-color: #F05E36;
+}
+
+.section-3 .content .row .content-left {
+  max-width: 46.5rem;
+  padding-left: 4.6rem;
+  padding-top: 7.2rem;
+  margin-left: 6.6rem;
+  margin-right: 6.4rem;
+}
+
+.section-3 .content .row .content-left .text {
+  width: 45.6rem;
+  height: 19.8rem;
+  margin-bottom: 4.3rem;
+}
+
+.section-3 .content .row .content-left .text h1 {
+  color: #ffffff;
+  font-family: "Butler";
+  font-size: 5.6rem;
+  line-height: 5.6rem;
+  letter-spacing: -0.82px;
+}
+
+.section-3 .content .row .content-left ul {
+  margin-bottom: 8.3rem;
+}
+
+.section-3 .content .row .content-left ul li {
+  font-size: 1.8rem;
+  font-family: "IBMPlexSans-Medium";
+  color: #0A2939;
+  cursor: pointer;
+  letter-spacing: -0.26px;
+  line-height: 4rem;
+}
+
+.section-3 .content .row .content-left .btt-side {
+  width: 38.4rem;
+  padding: 1.5rem 2.6rem;
+  background-color: #ffffff;
+  margin-bottom: 15.6rem;
+}
+
+.section-3 .content .row .content-left .btt-side h4 {
+  color: #F66E49;
+  font-size: 1.6rem;
+  font-family: "IBMPlexSans-SemiBoldItalic";
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+
+.section-3 .content .row .content-left .btt-side h2 {
+  color: #002F39;
+  font-family: "Minion-DisplayItalic";
+  text-align: center;
+}
+
+.section-3 .content .row .content-right img {
+  max-width: 100%;
+}
+
+.section-3 .content .row .content-right h1 {
+  font-family: "IBMPlexSans-Medium";
+  margin-top: 8.7rem;
+  line-height: 3rem;
+}
+
+.section-3 .content .row .content-right .text {
+  width: 63.5rem;
+  font-family: "IBMPlexSans-Light";
+  color: #ffffff;
+}
+
+.section-3 .content .row .content-right .text h4 {
+  line-height: 3rem;
+  font-size: 1.6rem;
+}
+
+.section-3 .content .row .content-right .text h4.second-text {
+  margin-bottom: 8.4rem;
+}
+
+.section-4 {
+  padding: 8.4rem 11rem;
+  text-align: center;
+}
+
+.section-4 .title, .section-4 .card-title, .section-4 .card-text h3 {
+  color: #0A2939;
+}
+
+.section-4 .title {
+  font-family: "Butler";
+  font-size: 5.6rem;
+  text-align: left;
+  line-height: 5.6rem;
+  margin-bottom: 5rem;
+}
+
+.section-4 .card-list-image .card {
+  width: 38.5rem;
+  margin-bottom: 9.3rem;
+  text-align: left;
+}
+
+.section-4 .card-list-image .card .card-body h1 {
+  font-size: 4.8rem;
+  font-family: "Butler";
+  line-height: 4.5rem;
+}
+
+.section-4 .card-list-image .card .card-body .card-text h4 {
+  color: #F66E49;
+  line-height: 4.5rem;
+  font-family: "IBMPlexSans";
+}
+
+.section-4 .card-list-image .card .card-body .card-text h3 {
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  font-family: "IBMPlexSans";
+}
+
+.section-4 button {
+  background-color: #0A2939;
+  border-color: #0A2939;
+  font-size: 1.6rem;
+  padding: 1.5rem 6rem;
+}
+
+.section-4 button.btn {
+  border-radius: 10rem;
 }
 /*# sourceMappingURL=introduction.css.map */
