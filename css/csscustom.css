@@ -7,6 +7,10 @@
   		src: url('dist\Fonts\webfont-butler\Butler-Light.ttf');/*memanggil file font eksternalnya di folder nexa*/
   	}
 
+  	.color-orange {
+  		color: #F66E49;
+  	}
+
 	.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
 		color: white;
 	}
@@ -80,22 +84,22 @@
 		padding-right: 0;	
 	}
 
-	div.row > div.col.p-0 > div.row > div.col-12 {
+	div#satu.row > div.col.p-0 > div.row > div.col-12 {
 		position: relative;
 		z-index: 2;
 	}
 
-	div.row > div.col.p-0 > div.row {
+	div#satu.row > div.col.p-0 > div.row {
 		margin: 0;
 	}
 
-	div.row > div.col.p-0 > div.row > div#titleCol.col-12 {
+	div#satu.row > div.col.p-0 > div.row > div#titleCol.col-12 {
 		width: 989px;
 		display: inline-block;
 		padding: 0;
 	}
 
-	div.row > div.col.p-0 > div.row > div#titleCol.col-12 > h1 {
+	div#satu.row > div.col.p-0 > div.row > div#titleCol.col-12 > h1 {
 		color: #FFFFFF;
 	    font-family: Butler;
 	    font-size: 100px;
@@ -108,7 +112,7 @@
 	    width: 989px;
 	}
 
-	div.row > div.col.p-0 > div.row > div#logoCol.col-12 {
+	div#satu.row > div.col.p-0 > div.row > div#logoCol.col-12 {
 		width: 989px;
 		display: inline-block;
 		padding: 0;
@@ -126,14 +130,60 @@
 		margin-left: 24px;
 	}
 
-	div.container-fluid > div#dua.row > div#kolom2.col-6 > img {
+	div.container-fluid > div#dua.row > div#kolom2.col-6 > div.row > div#slice.col-12 > img {
 		height: 400px;
   		width: 807px;
+  		padding-top: 75px;
 	}
 
-	div.container-fluid > div#dua.row {
-		margin-top: 210px;
+	div.container-fluid > div#satu.row {
+		margin-bottom: 210px;
 	}
+
+	div.container-fluid > div#dua.row > div#kolom2.col-6 div.row > div#slice.col-12 {
+		margin-top: -70px;
+		position: relative;
+		z-index: 3;
+		padding-left: 0px;
+		background-color: #0A2939;
+	}
+
+	div#dua.row > div#kolom2.col-6 > div.row > div#title.col-12 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	div#dua.row > div#kolom2.col-6 > div.row > div#button.col-12 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	div#dua.row > div#kolom2.col-6 > div.row > div#button.col-12 > button.btn.btn-primary {
+		height: 48px;
+  		width: 289px;
+  		border-radius: 24px;
+  		background-color: #F05E36;
+  		border: none;
+	}
+
+	div.container-fluid > div#dua.row > div#kolom2.col-6 > div.row > div#title.col-12 {
+		margin-top: 82px;
+		margin-bottom: 37px;
+	}
+
+	div.container-fluid > div#dua.row > div#kolom2.col-6 > div.row > div#title.col-12 > h5 {
+		height: 168px;
+	    width: 593px;
+	    color: #0A2939;
+	    /*font-family: "IBM Plex Sans";*/
+	    font-size: 18px;
+	    font-weight: 300;
+	    letter-spacing: -0.1px;
+	    line-height: 30px;
+	    text-align: justify;
+	    margin-bottom: 0;
+	}
+
 
 	div.container-fluid > div#dua.row > div#kolom1.col-6 > h5 {
 		margin-top: 103px;
@@ -167,28 +217,272 @@
 		color: #F05E36;
 	}
 
-	div.container-fluid > div#dua.row > div#kolom2.col-6 > h5 {
-		height: 168px;
-	    width: 593px;
-	    color: #0A2939;
+	div.container-fluid > div#dua.row {
+		margin-bottom: 160px;
+	}
+
+	/* Baris Ketiga*/
+
+	div.container-fluid > div#baristiga.row {
+		background-color: #F05E36;
+	}
+
+	div#baristiga.row > div#kolomdua.col-6 > div#barissatu > div#kolomsatu.col-12 > img {
+		height: 400px;
+  		width: 808px;
+	}
+
+	div#baristiga.row > div#kolomdua.col-6 > div#barissatu > div#kolomsatu.col-12 {
+		margin-top: -75px;
+		padding-left: 0;
+		padding-right: 0;
+	}		
+
+	div#baristiga.row > div#kolomdua.col-6 > div#barissatu > div#kolomdua {
+		margin-top: 87px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	div#baristiga.row > div#kolomdua.col-6 > div#barissatu.row > div#kolomdua.col-12 > h5 {
+		color: #0A2939;
 	    /*font-family: "IBM Plex Sans";*/
-	    font-size: 18px;
+	    font-size: 24px;
+	    font-weight: 500;
+	    letter-spacing: -0.3px;
+	    line-height: 30px;
+	}
+
+	div#baristiga.row > div#kolomdua.col-6 > div#barissatu.row > div#kolomtiga.col-12 {
+		height: 390px;
+  		width: 635px;
+  		margin-top: 35px;
+  		padding-left: 0px;
+  		padding-right: 0px;
+	}
+
+	div#baristiga.row > div#kolomdua.col-6 > div#barissatu.row > div#kolomtiga.col-12 > h5 {
+		color: #FFFFFF;
+	    font-family: "IBM Plex Sans";
+	    font-size: 16px;
 	    font-weight: 300;
 	    letter-spacing: -0.1px;
 	    line-height: 30px;
-	    margin-top: 82px;
 	    text-align: justify;
-	    margin-bottom: 37px;
 	}
 
-	div#dua.row > div#kolom2.col-6 > button.btn.btn-primary {
-		height: 48px;
-  		width: 289px;
-  		border-radius: 24px;
-  		background-color: #F05E36;
+	div.container-fluid > div#baristiga.row > div#kolomsatu.col-6 > div#barissatu.row {
+		margin-top: 72px;
+		margin-left: 112px;
+	}
+
+	div.container-fluid > div#baristiga.row > div#kolomsatu.col-6 > div#barissatu.row > div#kolomsatu.col-12 {
+		height: 198px;
+  		width: 456px;
+	}
+
+	div.container-fluid > div#baristiga.row > div#kolomsatu.col-6 > div#barissatu.row > div#kolomsatu.col-12 > h5 {
+  		color: #FFFFFF;
+  		font-family: Butler;
+  		font-size: 56px;
+  		letter-spacing: -0.82px;
+  		line-height: 56px;
+	}
+
+	div.container-fluid > div#baristiga.row > div#kolomsatu.col-6 > div#barissatu.row > div#kolomdua.col-12 {
+		height: 240px;
+  		width: 451px;
+	}
+
+	div.container-fluid > div#baristiga.row > div#kolomsatu.col-6 > div#barissatu.row > div#kolomdua.col-12 > ul {
+		padding-left: 0;
+
+	}
+
+	div.container-fluid > div#baristiga.row > div#kolomsatu.col-6 > div#barissatu.row > div#kolomdua.col-12 > ul > li {
+		color: #0A2939;
+	    /*font-family: "IBM Plex Sans";*/
+	    font-size: 18px;
+	    font-weight: 500;
+	    letter-spacing: -0.26px;
+	    line-height: 40px;
+	    list-style: none;
+	}
+
+	div.container-fluid > div#baristiga.row > div#kolomsatu.col-6 > div#barissatu.row > div#kolomtiga.col-12 {
+		margin-top: 83px;
+	}
+
+	div.container-fluid > div#baristiga.row > div#kolomsatu.col-6 > div#barissatu.row > div#kolomtiga.col-12 > button.btn.btn-primary {
+		height: 89px;
+  		width: 384px;
+  		background-color: #FFFFFF;
   		border: none;
+  	}
+
+  	div.container-fluid > div#baristiga.row > div#kolomsatu.col-6 > div#barissatu.row > div#kolomtiga.col-12 > button.btn.btn-primary > div.row > div.col-12 {
+		
+  	}
+
+
+  	div.container-fluid > div#baristiga.row > div#kolomsatu.col-6 > div#barissatu.row > div#kolomtiga.col-12 > button.btn.btn-primary > h5 {
+  		height: 20px;
+  		color: #F66E49;
+		/*font-family: "IBM Plex Sans";*/
+		font-size: 16px;
+		font-weight: 500;
+		letter-spacing: 2px;
+		line-height: 50px;
+		text-align: center;
+		margin-bottom: 0;
+		text-transform: uppercase;
+		padding-bottom: 5px;
+		font-weight: bold;
+  	}
+
+
+  	div.container-fluid > div#baristiga.row > div#kolomsatu.col-6 > div#barissatu.row > div#kolomtiga.col-12 > button.btn.btn-primary > h6 {
+		  padding-top: 5px;
+		  color: #002F39;
+		  font-family: Minion;
+		  font-size: 20px;
+		  font-style: italic;
+		  letter-spacing: 0;
+		  line-height: 50px;
+		  text-align: center;
+  	}
+
+  	div.container-fluid > div#barisempat.row > div#kolomsatu.col-12 {
+  		margin-left: 110px;
+  		margin-top: 130px;
+  		margin-bottom: 60px;
+  	}
+
+  	div.container-fluid > div#barisempat.row > div#kolomsatu.col-12 {
+  		padding-left: 0;
+  	}
+
+  	div.container-fluid > div#barisempat.row > div#kolomsatu.col-12 > h1 {
+  		height: auto;
+		  width: 456px;
+		  color: #0A2939;
+		  font-family: Butler;
+		  font-size: 56px;
+		  letter-spacing: -0.82px;
+		  line-height: 56px;
+  	}
+
+  	div.container-fluid > div#barisempat.row > div#kolomdua.col-12 > div.row > div.col-4 {
+  		width: 385.6px;
+  		padding-right: 0px;
+  		padding-left: 0px;
+  		margin-right: 29.4px;
+  	}
+
+  	div.container-fluid > div#barisempat.row > div#kolomdua.col-12 > div.row > div.col-4 > img {
+  		height: 382px;
+  		width: 382px;
+  	}
+
+  	div.container-fluid > div#barisempat.row > div#kolomdua.col-12 > div.row > div.col-4 > h3 {
+  		margin-top: 31px;
+  		height: 45px;
+		width: 171.9px;
+		color: #0A2939;
+		font-family: Butler;
+		font-size: 48px;
+		letter-spacing: -0.71px;
+		line-height: 45px;
+  	}
+
+  	div.container-fluid > div#barisempat.row > div#kolomdua.col-12 > div.row > div.col-4 > h6 {
+  		height: 45px;
+		  width: 123.3px;
+		  color: #F66E49;
+		  font-family: "IBM Plex Sans";
+		  font-size: 14.4px;
+		  letter-spacing: 0;
+		  line-height: 45px;
+  	}
+
+  	div.container-fluid > div#barisempat.row > div#kolomdua.col-12 > div.row > div.col-4 > h5 {
+  		  height: 46px;
+		  width: 310px;
+		  color: #0A2939;
+		  /*font-family: "IBM Plex Sans";*/
+		  font-size: 18px;
+		  font-weight: 500;
+		  letter-spacing: -0.26px;
+		  line-height: 23px;
+		  font-weight: bold;
+  	}
+
+  	div.container-fluid > div#barisempat.row > div#kolomdua.col-12 {
+  		margin-left: 110px;
+  		margin-right: 110px;
+  	}
+
+  	div.container-fluid > div#barisempat.row > div#kolomtiga.col-12 > button.btn.btn-primary {
+  	  height: 48px;
+	  width: 320px;
+	  border-radius: 24px;
+	  background-color: #0A2939;
+	  margin-top: 30px;
+	  margin-bottom: 60px;
+	  border: none;
+  	}
+
+  	div.container-fluid > div#barislima.row {
+  		background-image: url("../dist/Images/visual-who-we-are.jpg");
+  		background-size: cover;
+  		height: auto;
+  		width: 100%;
+  	}
+
+
+	div.container-fluid > div#barislima.row > div.col-12 {
+	  margin-top: 106px;
+	  margin-left: 160px;
+	  display: flex;
+	  flex-direction: row;
 	}
 
+	div.container-fluid > div#barislima.row > div.col-12 > h4 {
+	  height: 50px;
+	  width: 244px;
+	  color: #FFFFFF;
+	  /*font-family: "IBM Plex Sans";*/
+	  font-size: 16px;
+	  font-weight: 500;
+	  letter-spacing: 6.67px;
+	  line-height: 50px;
+	  text-transform: uppercase;
+	}
+
+	div.container-fluid > div#barislima.row > div.col-12 > h5 {
+		height: 50px;
+		  width: 300px;
+		  color: #FFFFFF;
+		  font-family: Minion;
+		  font-size: 23px;
+		  font-style: italic;
+		  letter-spacing: 1.05px;
+		  line-height: 50px;
+	}
+
+
+	div.container-fluid > div#barislima.row > div.col-12 > div#carouselExampleControls.carousel-slide > div.carousel-inner > div.carousel-item.active > h1 {
+		height: 196px;
+	  width: 997px;
+	  color: #FFFFFF;
+	  font-family: Butler;
+	  font-size: 120px;
+	  font-weight: 300;
+	  letter-spacing: 0;
+	  line-height: 50px;
+	}
+
+	/* Responsiv*/
 
 	@media (max-width: 575.98px) {
 
@@ -211,7 +505,7 @@
 		margin-left: 24px;
 	}
 
-	div.row > div.col.p-0 > div.row > div#logoCol.col-12 > img.img-thumbnail {
+	div#satu.row > div.col.p-0 > div.row > div#logoCol.col-12 > img.img-thumbnail {
 		position: inherit;
 		z-index: 2;
 		text-align: center;
@@ -225,7 +519,7 @@
 		padding: 0px;
 	}
 
-	div.row > div.col.p-0 > div.row > div#titleCol.col-12 > h1 {
+	div#satu.row > div.col.p-0 > div.row > div#titleCol.col-12 > h1 {
 		position: inherit;
 		z-index: 2;
 		text-align: center;
@@ -240,7 +534,7 @@
 	    width: auto;
 	    display: block;
 	}
-		
+
 	}
 
 	// Small devices (landscape phones, 576px and up)
@@ -262,4 +556,5 @@
 	// Extra large devices (large desktops, 1200px and up)
 	@media (min-width: 1200px) {
 
+	}
 	}
