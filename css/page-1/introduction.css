@@ -44,14 +44,12 @@
   font-size: 62.5%;
 }
 
-body {
-  margin: 0;
+.container {
   max-width: 144rem;
 }
 
 .section-1 .content {
   position: relative;
-  max-width: 100%;
   height: 80.7rem;
   background-image: url("../../assets/images/header-homepage.jpg");
   background-position: center;
@@ -63,6 +61,8 @@ body {
   background: transparent;
   overflow: hidden;
   padding-top: 6rem;
+  width: 100%;
+  height: 12rem;
 }
 
 .section-1 .nav .nav-item {
@@ -81,6 +81,7 @@ body {
   font-weight: bold;
   margin-left: 10.7rem;
   margin-right: 14.4rem;
+  height: 5rem;
 }
 
 .section-1 .nav .badge .nav-link {
@@ -136,7 +137,17 @@ body {
   width: 80.7rem;
 }
 
-.section-2 .content-right img {
+.section-2 .content-right .overlay-img {
+  margin-top: -7rem;
+}
+
+.section-2 .content-right .overlay-img #overlay {
+  max-width: 100%;
+  height: 7rem;
+  background-color: #0A2939;
+}
+
+.section-2 .content-right .overlay-img img {
   max-width: 100%;
   height: auto;
   margin-bottom: 8.2rem;
@@ -164,6 +175,11 @@ body {
 }
 
 .section-2 .content-right button.btn-primary {
+  background-color: #F05E36;
+  border-color: #F05E36;
+}
+
+.section-2 .content-right button.btn-primary:hover {
   background-color: #F05E36;
   border-color: #F05E36;
 }
@@ -235,6 +251,7 @@ body {
 
 .section-3 .content .row .content-right img {
   max-width: 100%;
+  margin-top: -9.6rem;
 }
 
 .section-3 .content .row .content-right h1 {
@@ -260,14 +277,13 @@ body {
 
 .section-4 {
   padding: 8.4rem 11rem;
-  text-align: center;
 }
 
-.section-4 .title, .section-4 .card-title, .section-4 .card-text h3 {
+.section-4 .row .title, .section-4 .row .card-title, .section-4 .row .card-text h3 {
   color: #0A2939;
 }
 
-.section-4 .title {
+.section-4 .row .title {
   font-family: "Butler";
   font-size: 5.6rem;
   text-align: left;
@@ -275,38 +291,98 @@ body {
   margin-bottom: 5rem;
 }
 
-.section-4 .card-list-image .card {
+.section-4 .row .card-list-image .card {
   width: 38.5rem;
   margin-bottom: 9.3rem;
   text-align: left;
 }
 
-.section-4 .card-list-image .card .card-body h1 {
+.section-4 .row .card-list-image .card .card-body h1 {
   font-size: 4.8rem;
   font-family: "Butler";
   line-height: 4.5rem;
 }
 
-.section-4 .card-list-image .card .card-body .card-text h4 {
+.section-4 .row .card-list-image .card .card-body .card-text h4 {
   color: #F66E49;
   line-height: 4.5rem;
   font-family: "IBMPlexSans";
 }
 
-.section-4 .card-list-image .card .card-body .card-text h3 {
+.section-4 .row .card-list-image .card .card-body .card-text h3 {
   font-size: 1.8rem;
   line-height: 2.3rem;
   font-family: "IBMPlexSans";
 }
 
-.section-4 button {
-  background-color: #0A2939;
-  border-color: #0A2939;
+.section-4 .row button {
   font-size: 1.6rem;
   padding: 1.5rem 6rem;
 }
 
-.section-4 button.btn {
+.section-4 .row button.btn {
   border-radius: 10rem;
+}
+
+.section-4 .row button.btn-primary {
+  background-color: #0A2939;
+  border-color: #0A2939;
+}
+
+.section-4 .row button.btn-primary:hover {
+  background-color: #0A2939;
+  border-color: #0A2939;
+}
+
+.section-5 .row {
+  position: relative;
+  height: 90.3rem;
+  background-image: url("../../assets/images/visual-who-we-are.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-6 .row {
+  background-color: #021925;
+  color: #ffffff;
+  height: 63.3rem;
+}
+
+.section-6 .row .logo-center {
+  margin: 5.8rem 0;
+}
+
+.section-6 .row hr {
+  text-decoration: none;
+  border-bottom: 2px solid #113D53;
+  height: 1px;
+  width: 100rem;
+}
+
+.section-6 .row .content {
+  margin: 5rem 0;
+}
+
+.section-6 .row .content .text {
+  margin-right: 12.6rem;
+}
+
+.section-6 .row .content h5 {
+  margin-bottom: 3.2rem;
+  font-family: "IBMPlexSans-Medium";
+}
+
+.section-6 .row .content .right {
+  margin-left: 17.9rem;
+}
+
+.section-6 .row .content .right img {
+  width: 2.9rem;
+  height: 2.9rem;
+}
+
+.section-6 .row .content .right h4 {
+  font-family: "IBMPlexSans";
 }
 /*# sourceMappingURL=introduction.css.map */

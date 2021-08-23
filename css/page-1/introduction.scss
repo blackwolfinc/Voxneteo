@@ -4,6 +4,8 @@ $color3: #F05E36;
 $color4: #0A2939;
 $color5: #002F39;
 $color6: #F66E49;
+$color7: #021925;
+$colorLine: #113D53;
 $maxWidth: 144rem;
 $ibmReguler: 'IBMPlexSans';
 $ibmSemiBold: 'IBMPlexSans-SemiBold';
@@ -55,15 +57,15 @@ $size1: 1.6rem;
     font-size: 62.5%;
 }
 
-body {
-    margin: 0;
+.container {
     max-width: $maxWidth;
+    // padding-left: 0;
+    // padding-right: 0;
 }
 
 .section-1 {
     .content {
         position: relative;
-        max-width: 100%;
         height: 80.7rem;
         background-image: url('../../assets/images/header-homepage.jpg');
         background-position: center;
@@ -74,6 +76,8 @@ body {
         background: transparent;
         overflow: hidden;
         padding-top: 6rem;
+        width: 100%;
+        height: 12rem;
 
         .nav-item {
             margin-right: 4rem;
@@ -90,6 +94,7 @@ body {
             font-weight: bold;
             margin-left: 10.7rem;
             margin-right: 14.4rem;
+            height: 5rem;
 
             .nav-link {
                 font-size: $size1;
@@ -140,11 +145,20 @@ body {
     }
     .content-right {
         width: 80.7rem;
-
-        img {
-            max-width: 100%;
-            height: auto;
-            margin-bottom: 8.2rem;
+        
+        .overlay-img {
+            margin-top: -7rem;
+            
+            #overlay {
+                max-width: 100%;
+                height: 7rem;
+                background-color: $color4;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+                margin-bottom: 8.2rem;
+            }
         }
         h4 {
             font-family: $ibmLight;
@@ -165,6 +179,10 @@ body {
             border-radius: 10rem;
         }
         button.btn-primary {
+            background-color: $color3;
+            border-color: $color3;
+        }
+        button.btn-primary:hover {
             background-color: $color3;
             border-color: $color3;
         }
@@ -233,6 +251,7 @@ body {
             .content-right {
                 img {
                     max-width: 100%;
+                    margin-top: -9.6rem;
                 }
                 h1 {
                     font-family: $ibmMedium;
@@ -259,54 +278,113 @@ body {
 
 .section-4 {
     padding: 8.4rem 11rem;
-    text-align: center;
     
-    .title, .card-title, .card-text h3 {
-        color: $color4;
-    }
-
-    .title {
-        font-family: $butler;
-        font-size: 5.6rem;
-        text-align: left;
-        line-height: 5.6rem;
-        margin-bottom: 5rem;
-    }
-    .card-list-image {
-        .card {
-            width: 38.5rem;
-            margin-bottom: 9.3rem;
+    .row {
+        .title, .card-title, .card-text h3 {
+            color: $color4;
+        }
+    
+        .title {
+            font-family: $butler;
+            font-size: 5.6rem;
             text-align: left;
-
-            .card-body {
-                h1 {
-                    font-size: 4.8rem;
-                    font-family: $butler;
-                    line-height: 4.5rem;
-                }
-                .card-text {
-                    h4 {
-                        color: $color6;
+            line-height: 5.6rem;
+            margin-bottom: 5rem;
+        }
+        .card-list-image {
+            .card {
+                width: 38.5rem;
+                margin-bottom: 9.3rem;
+                text-align: left;
+    
+                .card-body {
+                    h1 {
+                        font-size: 4.8rem;
+                        font-family: $butler;
                         line-height: 4.5rem;
-                        font-family: $ibmReguler;
                     }
-                    h3 {
-                        font-size: 1.8rem;
-                        line-height: 2.3rem;
-                        font-family: $ibmReguler;
+                    .card-text {
+                        h4 {
+                            color: $color6;
+                            line-height: 4.5rem;
+                            font-family: $ibmReguler;
+                        }
+                        h3 {
+                            font-size: 1.8rem;
+                            line-height: 2.3rem;
+                            font-family: $ibmReguler;
+                        }
                     }
                 }
             }
         }
+        button {
+            font-size: $size1;
+            padding: 1.5rem 6rem;
+            
+        }
+        button.btn {
+            border-radius: 10rem;
+        }
+        button.btn-primary {
+            background-color: $color4;
+            border-color: $color4;
+        }
+        button.btn-primary:hover {
+            background-color: $color4;
+            border-color: $color4;
+        }
     }
-    button {
-        background-color: $color4;
-        border-color: $color4;
-        font-size: $size1;
-        padding: 1.5rem 6rem;
-        
+    
+}
+
+.section-5 {
+    .row {
+        position: relative;
+        height: 90.3rem;
+        background-image: url('../../assets/images/visual-who-we-are.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
-    button.btn {
-        border-radius: 10rem;
+}
+
+.section-6 {
+    .row {
+        background-color: $color7;
+        color: $color1;
+        height: 63.3rem;
+
+        .logo-center {
+            margin: 5.8rem 0;
+        }
+        hr {
+            text-decoration: none; 
+            border-bottom: 2px solid $colorLine;
+            height: 1px;
+            width: 100rem;
+        }
+        .content {
+            margin: 5rem 0;
+
+            .text {
+                margin-right: 12.6rem;
+            }
+            h5 {
+                margin-bottom: 3.2rem;
+                font-family: $ibmMedium;
+            }
+            .right {
+                margin-left: 17.9rem;
+
+                img {
+                    width: 2.9rem;
+                    height: 2.9rem;
+                }
+                h4 {
+                    font-family: $ibmReguler;
+                }
+            }
+        }
     }
 }
