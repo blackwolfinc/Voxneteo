@@ -84,7 +84,6 @@ $size1: 1.6rem;
                 .navbar-toggler {
                     color: #FFFFFF;
                     border: none;
-
                 }
 
             }
@@ -115,12 +114,9 @@ $size1: 1.6rem;
 
     .section-2 {
 
-        .content-left {
-            // max-width: 60.3rem;
-            // margin: 10.3rem 0 22.1rem 11.1rem;           
+        .content-left {          
     
             h1 {
-                // height: 7rem;
                 margin: 19rem 7rem;;
                 color: #0A2939;
                 font-family: $ibmMedium;
@@ -163,9 +159,6 @@ $size1: 1.6rem;
             }
         }
         .content-right {
-            // box-sizing: border-box;
-            // width: 80.7rem;
-            // padding-right: ;
             
             .overlay-img {
                 margin-top: 0;
@@ -182,8 +175,6 @@ $size1: 1.6rem;
                 }
             }
             .text {
-                // height: 13rem;
-                // width: 19rem;
                 
                 h4 {
                     color: #0A2939;
@@ -237,10 +228,6 @@ $size1: 1.6rem;
                     padding-left: 0;
                     
                     .text {
-                        // height: 12.375rem;
-                        // width: 28.5rem;
-                        // margin-top: 6.25rem;
-                        // margin-left: 5rem;
                         height: 7.125rem;
                         width: 19.0625rem;
                         padding-left: 1rem;                       
@@ -268,7 +255,6 @@ $size1: 1.6rem;
                         line-height: 2.125rem;
                     }
                     .btt-side {
-                        // width: 38.4rem;
                         padding: 1.5rem 2.6rem;
                         background-color: $color1;
                         margin-bottom: 2.3125rem;
@@ -280,10 +266,7 @@ $size1: 1.6rem;
         
                         h4 {
                             color: $color6;
-                            // font-size: .875rem;
                             font-family: $ibmSemiBold;
-                            // letter-spacing: 0.2rem;
-                            // text-align: center;
 
                             height: 3.5rem;
                             width: 14rem;
@@ -338,21 +321,32 @@ $size1: 1.6rem;
                 line-height: 2.375rem;
             }
             .card-list-image {
+                flex-direction: column;
                 .card {
-                    // height: 38rem;
-                    width: 33.075rem;
-                    margin-bottom: 3.375rem;  
-        
-                    .card-body {
+                    margin-top: 1.875rem;
+                    .card-body {                        
                         h1 {
-                            
+                            color: #0A2939;
+                            font-family: $butler;
+                            font-size: 2rem;
+                            letter-spacing: -0.029375rem;
+                            line-height: 2.8125rem;
                         }
                         .card-text {
                             h4 {
-                                
+                                color: #F66E49;
+                                font-family: $ibmLight;
+                                font-size: 1rem;
+                                letter-spacing: 0;
+                                line-height: 2.8125rem; 
                             }
                             h3 {
-                                
+                                color: #0A2939;
+                                font-family: $ibmReguler;
+                                font-size: 1.125rem;
+                                font-weight: 500;
+                                letter-spacing: -0.01625rem;
+                                line-height: 1.625rem;
                             }
                         }
                     }
@@ -403,7 +397,6 @@ $size1: 1.6rem;
                 margin-bottom: 1.9375rem;
             }
             .content {
-                // margin: 5rem 0;
                 width: 80%;
                 padding-left: 0;
                 padding-right: 0;
@@ -417,9 +410,7 @@ $size1: 1.6rem;
                 }
 
                 .left {
-                    // margin-left: 0;
-                    // margin-right: auto;
-                    // display: block; 
+ 
                 }
 
                 .center {
@@ -479,13 +470,13 @@ $size1: 1.6rem;
     @media (min-width: 576px) {
     .container {
         max-width: $maxWidth;
-        // padding-left: 0;
-        // padding-right: 0;
     }
     
     .section-1 {
         padding-bottom: 14rem;
         background-size: cover;
+        padding-left: 0;
+        padding-right: 0;
 
             .navbar-light {
 
@@ -509,6 +500,40 @@ $size1: 1.6rem;
 
             }
 
+            ul {
+                height: auto;
+                width: 100%;
+                margin-top: 3.75rem;
+                padding-left: 14.375rem;
+                padding-right: 6.25rem;
+
+                li {                    
+                    color: #FFFFFF;
+                    font-family: $ibmLight;
+                    font-size: 1.125rem;
+                    font-weight: 600;
+                    letter-spacing: -0.01625rem;
+                    line-height: 1.4375rem;
+                    margin-right: 1.875rem;                   
+                    
+                    a {
+                        height: 1.4375rem;
+                        width: 161.94px;
+                    }
+                }
+
+                li.dropdown {
+                    box-sizing: border-box;
+                    height: 3rem;
+                    width: 10.9375rem;
+                    border: .125rem solid #E5E5E5;
+                    border-radius: 1.5rem;
+                    margin-left: 6.25rem;
+                    margin-right: 0;
+                }
+
+            }
+
             .une-approche-globale {
                 margin-top: 1rem;
                 height: 12.5rem;
@@ -528,9 +553,6 @@ $size1: 1.6rem;
     .section-2 {
 
         .content-left {
-            // max-width: 60.3rem;
-            // margin: 10.3rem 0 22.1rem 11.1rem;
-            
     
             h1 {
                 margin-bottom: 3.125rem;
@@ -569,8 +591,6 @@ $size1: 1.6rem;
             }
         }
         .content-right {
-            // box-sizing: border-box;
-            // width: 80.7rem;
             padding-right: 0;
             
             .overlay-img {
@@ -601,9 +621,6 @@ $size1: 1.6rem;
             button {
                 font-family: $ibmMedium;
                 font-size: 1rem;
-                // padding: 1.5rem 3.3rem;
-                // height: 1.25rem;
-                // width: 13.9375rem;
                 height: 3rem;
                 width: 18.0625rem;
             }
@@ -613,7 +630,6 @@ $size1: 1.6rem;
             button.btn-primary {
                 background-color: $color3;
                 border-color: $color3;
-                // padding: .9375rem 2.0625rem;
             }
             button.btn-primary:hover {
                 background-color: $color3;
@@ -625,17 +641,11 @@ $size1: 1.6rem;
     .section-3 {
         .content {
             padding-top: 9.6rem;
-            // padding-bottom: 4.1rem;
     
             .row {
                 background-color: $color3;
     
                 .content-left {
-                    // // max-width: 46.5rem;
-                    // padding-left: 4.6rem;
-                    // padding-top: 6.25rem;
-                    // margin-left: 5rem;
-                    // margin-right: 6.4rem;
                     
                     .text {
                         height: 12.375rem;
@@ -667,7 +677,6 @@ $size1: 1.6rem;
                         line-height: 2.5rem;
                     }
                     .btt-side {
-                        // width: 38.4rem;
                         padding: 1.5rem 2.6rem;
                         background-color: $color1;
                         margin-bottom: 15.6rem;
@@ -748,7 +757,6 @@ $size1: 1.6rem;
             }
             .card-list-image {
                 .card {
-                    // width: 38.5rem;
                     height: 34.95625rem;
                     width: 24.1rem;
                     margin-bottom: 1.9375rem;
@@ -847,7 +855,6 @@ $size1: 1.6rem;
                 margin-bottom: 0;
             }
             .content {
-                // margin: 5rem 0;
                 width: 80%;
                 padding-left: 0;
                 flex-direction: row;
@@ -865,7 +872,6 @@ $size1: 1.6rem;
                 }
 
                 .center {
-                    // margin-right: 2.5rem;
                     margin-left: auto;
                     margin-right: auto;
                     display: block;
