@@ -38,351 +38,660 @@
   src: url("../../assets/fonts/webfont-minion/Minion-DisplayItalic.ttf");
 }
 
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-size: 62.5%;
-}
-
-.container {
-  max-width: 144rem;
-}
-
-.section-1 .content {
-  position: relative;
-  height: 80.7rem;
+.section-1 {
   background-image: url("../../assets/images/header-homepage.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
-.section-1 .nav {
-  background: transparent;
-  overflow: hidden;
-  padding-top: 6rem;
-  width: 100%;
-  height: 12rem;
+.navbar-light .navbar-nav .nav-link {
+  color: #FFFFFF;
 }
 
-.section-1 .nav .nav-item {
-  margin-right: 4rem;
-  font-family: "IBMPlexSans-SemiBold";
-  font-weight: 600;
+@media (max-width: 575.98px) {
+  .section-1 {
+    padding-bottom: 64px;
+  }
+  .section-1 .navbar-light .navbar-toggler {
+    color: #FFFFFF;
+    border: none;
+  }
+  .section-1 .logo-logo-v-1-copy-4 {
+    height: 64px;
+    width: 186px;
+  }
+  .section-1 .une-approche-globale {
+    margin-top: 16px;
+    height: 114px;
+    width: 304px;
+    color: #FFFFFF;
+    font-family: Butler;
+    font-size: 34px;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    line-height: 38px;
+    text-align: center;
+    display: inline-block;
+  }
+  .section-2 .content-left h1 {
+    margin: 19rem 7rem;
+    color: #0A2939;
+    font-family: "IBMPlexSans-Medium";
+    font-size: 1.125rem;
+    font-weight: 500;
+    letter-spacing: -0.01625rem;
+    line-height: 1.875rem;
+    margin: 1.25rem 2rem;
+    display: inline-block;
+  }
+  .section-2 .content-left ul.dashed {
+    list-style-type: none;
+    width: 19rem;
+    font-family: "Butler-Light";
+    margin-bottom: 2.25rem;
+    margin-top: 2rem;
+  }
+  .section-2 .content-left ul.dashed > li {
+    text-indent: -20px;
+    font-size: 2.5rem;
+    color: #0A2939;
+    margin-bottom: 1rem;
+    font-family: Butler;
+    font-size: 1.75rem;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 1rem;
+    margin-left: 1.5rem;
+    height: 1.75rem;
+    width: 19rem;
+  }
+  .section-2 .content-left ul.dashed > li:before {
+    content: "-";
+    text-indent: -1.25rem;
+    color: #F05E36;
+    margin-right: .8125rem;
+  }
+  .section-2 .content-left ul.dashed .li-first {
+    color: #F05E36;
+  }
+  .section-2 .content-right .overlay-img {
+    margin-top: 0;
+  }
+  .section-2 .content-right .overlay-img #overlay {
+    max-width: 100%;
+    background-color: #0A2939;
+  }
+  .section-2 .content-right .overlay-img img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  .section-2 .content-right .text h4 {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+    display: inline-block;
+  }
+  .section-2 .content-right button {
+    margin-top: 2rem;
+    font-family: "IBMPlexSans-Medium";
+    font-size: 1rem;
+    height: 3rem;
+    width: 19rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+  .section-2 .content-right button.btn {
+    border-radius: 1.5rem;
+  }
+  .section-2 .content-right button.btn-primary {
+    background-color: #F05E36;
+    border-color: #F05E36;
+  }
+  .section-2 .content-right button.btn-primary:hover {
+    background-color: #F05E36;
+    border-color: #F05E36;
+  }
+  .section-3 .content {
+    padding-top: 3rem;
+  }
+  .section-3 .content .row {
+    background-color: #F05E36;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .section-3 .content .row .content-left {
+    margin-left: .75rem;
+    padding-left: 0;
+  }
+  .section-3 .content .row .content-left .text {
+    height: 7.125rem;
+    width: 19.0625rem;
+    padding-left: 1rem;
+  }
+  .section-3 .content .row .content-left .text h1 {
+    color: #ffffff;
+    font-family: "Butler";
+    font-size: 2.125rem;
+    letter-spacing: -0.03125rem;
+    line-height: 2.375rem;
+  }
+  .section-3 .content .row .content-left ul {
+    margin-top: 1.0625rem;
+    padding-left: 2rem;
+    height: 12.75rem;
+    width: 19rem;
+  }
+  .section-3 .content .row .content-left ul li {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Medium";
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: -0.015rem;
+    line-height: 2.125rem;
+  }
+  .section-3 .content .row .content-left .btt-side {
+    padding: 1.5rem 2.6rem;
+    background-color: #ffffff;
+    margin-bottom: 2.3125rem;
+    height: 9rem;
+    width: 19rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section-3 .content .row .content-left .btt-side h4 {
+    color: #F66E49;
+    font-family: "IBMPlexSans-SemiBold";
+    height: 3.5rem;
+    width: 14rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: .15625rem;
+    line-height: 1.75rem;
+    text-align: center;
+  }
+  .section-3 .content .row .content-left .btt-side h2 {
+    color: #002F39;
+    font-family: "Minion-DisplayItalic";
+    text-align: center;
+    font-size: 1.25rem;
+  }
+  .section-3 .content .row .content-right {
+    padding: 1.5rem 1.9375rem;
+  }
+  .section-3 .content .row .content-right img {
+    max-width: 100%;
+  }
+  .section-3 .content .row .content-right h1 {
+    display: none;
+  }
+  .section-3 .content .row .content-right .text {
+    display: none;
+  }
+  .section-4 {
+    padding: 1.5rem 2rem;
+  }
+  .section-4 .row .title, .section-4 .row .card-title, .section-4 .row .card-text h3 {
+    color: #0A2939;
+  }
+  .section-4 .row .title {
+    height: 2.375rem;
+    width: 19.0625rem;
+    color: #0A2939;
+    font-family: "Butler";
+    font-size: 2.125rem;
+    letter-spacing: -0.03125rem;
+    line-height: 2.375rem;
+  }
+  .section-4 .row .card-list-image .card {
+    width: 33.075rem;
+    margin-bottom: 3.375rem;
+  }
+  .section-4 .row button {
+    height: 3rem;
+    width: 20rem;
+    border-radius: 1.5rem;
+    background-color: #0A2939;
+    font-size: 1rem;
+    padding: .8125rem 3.8125rem;
+  }
+  .section-4 .row button.btn {
+    border-radius: 1.5rem;
+  }
+  .section-4 .row button.btn-primary {
+    background-color: #0A2939;
+    border-color: #0A2939;
+  }
+  .section-4 .row button.btn-primary:hover {
+    background-color: #0A2939;
+    border-color: #0A2939;
+  }
+  .section-6 .row {
+    background-color: #021925;
+    color: #ffffff;
+    height: 39.5625rem;
+  }
+  .section-6 .row .logo-center {
+    margin: 5.8rem 0;
+  }
+  .section-6 .row .logo-center img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .section-6 .row hr {
+    text-decoration: none;
+    border-bottom: 2px solid #113D53;
+    height: 1px;
+    width: 80%;
+    margin-bottom: 1.9375rem;
+  }
+  .section-6 .row .content {
+    width: 80%;
+    padding-left: 0;
+    padding-right: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section-6 .row .content .text {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .section-6 .row .content hr {
+    width: 100%;
+  }
+  .section-6 .row .content h5 {
+    height: .9375rem;
+    width: 11.6875rem;
+    font-family: "IBMPlexSans-Medium";
+    color: #FFFFFF;
+    font-size: .75rem;
+    font-weight: 500;
+    letter-spacing: .03125rem;
+    line-height: .9375rem;
+    margin-bottom: 2rem;
+  }
+  .section-6 .row .content .right {
+    height: 1.8125rem;
+    width: 15.1875rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 1.5rem;
+  }
+  .section-6 .row .content .right img {
+    margin-right: .3125rem;
+  }
+  .section-6 .row .content .right h4 {
+    font-family: "IBMPlexSans";
+    font-size: .75rem;
+  }
+  .section-6 .row .end {
+    display: none;
+  }
 }
 
-.section-1 .nav .nav-item .nav-link {
-  color: #ffffff;
-  font-size: 1.8rem;
-}
-
-.section-1 .nav .badge {
-  border: 2px solid #E5E5E5;
-  font-weight: bold;
-  margin-left: 10.7rem;
-  margin-right: 14.4rem;
-  height: 5rem;
-}
-
-.section-1 .nav .badge .nav-link {
-  font-size: 1.6rem;
-  margin-left: 3.9rem;
-}
-
-.section-1 .nav .badge .icon-dropdown {
-  padding: 2rem 2.7rem 2rem 0;
-}
-
-.section-2 .content-left {
-  max-width: 60.3rem;
-  margin: 10.3rem 0 22.1rem 11.1rem;
-}
-
-.section-2 .content-left h1 {
-  margin-bottom: 6rem;
-  font-family: "IBMPlexSans-Medium";
-  color: #0A2939;
-  letter-spacing: -0.35px;
-  line-height: 4rem;
-  width: 41.7rem;
-  height: 18rem;
-}
-
-.section-2 .content-left ul.dashed {
-  list-style-type: none;
-  width: 66.2rem;
-  font-family: "Butler-Light";
-}
-
-.section-2 .content-left ul.dashed > li {
-  text-indent: -20px;
-  font-size: 4rem;
-  color: #0A2939;
-  line-height: 4.8rem;
-  margin-bottom: 2.4rem;
-}
-
-.section-2 .content-left ul.dashed > li:before {
-  content: "-";
-  text-indent: -20px;
-  color: #F05E36;
-  margin-right: 3.1rem;
-}
-
-.section-2 .content-left ul.dashed .li-first {
-  color: #F05E36;
-}
-
-.section-2 .content-right {
-  width: 80.7rem;
-}
-
-.section-2 .content-right .overlay-img {
-  margin-top: -7rem;
-}
-
-.section-2 .content-right .overlay-img #overlay {
-  max-width: 100%;
-  height: 7rem;
-  background-color: #0A2939;
-}
-
-.section-2 .content-right .overlay-img img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 8.2rem;
-}
-
-.section-2 .content-right h4 {
-  font-family: "IBMPlexSans-Light";
-  font-size: 1.6rem;
-  letter-spacing: -0.1px;
-  line-height: 3rem;
-  width: 59.3rem;
-  height: 16.8rem;
-  font-weight: 300;
-  margin-bottom: 3.7rem;
-}
-
-.section-2 .content-right button {
-  font-family: "IBMPlexSans-Medium";
-  font-size: 1.6rem;
-  padding: 1.5rem 3.3rem;
-}
-
-.section-2 .content-right button.btn {
-  border-radius: 10rem;
-}
-
-.section-2 .content-right button.btn-primary {
-  background-color: #F05E36;
-  border-color: #F05E36;
-}
-
-.section-2 .content-right button.btn-primary:hover {
-  background-color: #F05E36;
-  border-color: #F05E36;
-}
-
-.section-3 .content {
-  padding-top: 9.6rem;
-  padding-bottom: 4.1rem;
-}
-
-.section-3 .content .row {
-  background-color: #F05E36;
-}
-
-.section-3 .content .row .content-left {
-  max-width: 46.5rem;
-  padding-left: 4.6rem;
-  padding-top: 7.2rem;
-  margin-left: 6.6rem;
-  margin-right: 6.4rem;
-}
-
-.section-3 .content .row .content-left .text {
-  width: 45.6rem;
-  height: 19.8rem;
-  margin-bottom: 4.3rem;
-}
-
-.section-3 .content .row .content-left .text h1 {
-  color: #ffffff;
-  font-family: "Butler";
-  font-size: 5.6rem;
-  line-height: 5.6rem;
-  letter-spacing: -0.82px;
-}
-
-.section-3 .content .row .content-left ul {
-  margin-bottom: 8.3rem;
-}
-
-.section-3 .content .row .content-left ul li {
-  font-size: 1.8rem;
-  font-family: "IBMPlexSans-Medium";
-  color: #0A2939;
-  cursor: pointer;
-  letter-spacing: -0.26px;
-  line-height: 4rem;
-}
-
-.section-3 .content .row .content-left .btt-side {
-  width: 38.4rem;
-  padding: 1.5rem 2.6rem;
-  background-color: #ffffff;
-  margin-bottom: 15.6rem;
-}
-
-.section-3 .content .row .content-left .btt-side h4 {
-  color: #F66E49;
-  font-size: 1.6rem;
-  font-family: "IBMPlexSans-SemiBoldItalic";
-  letter-spacing: 0.2rem;
-  text-align: center;
-}
-
-.section-3 .content .row .content-left .btt-side h2 {
-  color: #002F39;
-  font-family: "Minion-DisplayItalic";
-  text-align: center;
-}
-
-.section-3 .content .row .content-right img {
-  max-width: 100%;
-  margin-top: -9.6rem;
-}
-
-.section-3 .content .row .content-right h1 {
-  font-family: "IBMPlexSans-Medium";
-  margin-top: 8.7rem;
-  line-height: 3rem;
-}
-
-.section-3 .content .row .content-right .text {
-  width: 63.5rem;
-  font-family: "IBMPlexSans-Light";
-  color: #ffffff;
-}
-
-.section-3 .content .row .content-right .text h4 {
-  line-height: 3rem;
-  font-size: 1.6rem;
-}
-
-.section-3 .content .row .content-right .text h4.second-text {
-  margin-bottom: 8.4rem;
-}
-
-.section-4 {
-  padding: 8.4rem 11rem;
-}
-
-.section-4 .row .title, .section-4 .row .card-title, .section-4 .row .card-text h3 {
-  color: #0A2939;
-}
-
-.section-4 .row .title {
-  font-family: "Butler";
-  font-size: 5.6rem;
-  text-align: left;
-  line-height: 5.6rem;
-  margin-bottom: 5rem;
-}
-
-.section-4 .row .card-list-image .card {
-  width: 38.5rem;
-  margin-bottom: 9.3rem;
-  text-align: left;
-}
-
-.section-4 .row .card-list-image .card .card-body h1 {
-  font-size: 4.8rem;
-  font-family: "Butler";
-  line-height: 4.5rem;
-}
-
-.section-4 .row .card-list-image .card .card-body .card-text h4 {
-  color: #F66E49;
-  line-height: 4.5rem;
-  font-family: "IBMPlexSans";
-}
-
-.section-4 .row .card-list-image .card .card-body .card-text h3 {
-  font-size: 1.8rem;
-  line-height: 2.3rem;
-  font-family: "IBMPlexSans";
-}
-
-.section-4 .row button {
-  font-size: 1.6rem;
-  padding: 1.5rem 6rem;
-}
-
-.section-4 .row button.btn {
-  border-radius: 10rem;
-}
-
-.section-4 .row button.btn-primary {
-  background-color: #0A2939;
-  border-color: #0A2939;
-}
-
-.section-4 .row button.btn-primary:hover {
-  background-color: #0A2939;
-  border-color: #0A2939;
-}
-
-.section-5 .row {
-  position: relative;
-  height: 90.3rem;
-  background-image: url("../../assets/images/visual-who-we-are.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.section-6 .row {
-  background-color: #021925;
-  color: #ffffff;
-  height: 63.3rem;
-}
-
-.section-6 .row .logo-center {
-  margin: 5.8rem 0;
-}
-
-.section-6 .row hr {
-  text-decoration: none;
-  border-bottom: 2px solid #113D53;
-  height: 1px;
-  width: 100rem;
-}
-
-.section-6 .row .content {
-  margin: 5rem 0;
-}
-
-.section-6 .row .content .text {
-  margin-right: 12.6rem;
-}
-
-.section-6 .row .content h5 {
-  margin-bottom: 3.2rem;
-  font-family: "IBMPlexSans-Medium";
-}
-
-.section-6 .row .content .right {
-  margin-left: 17.9rem;
-}
-
-.section-6 .row .content .right img {
-  width: 2.9rem;
-  height: 2.9rem;
-}
-
-.section-6 .row .content .right h4 {
-  font-family: "IBMPlexSans";
+@media (min-width: 576px) {
+  .container {
+    max-width: 144rem;
+  }
+  .section-1 {
+    padding-bottom: 14rem;
+    background-size: cover;
+  }
+  .section-1 .navbar-light .navbar-toggler {
+    color: #FFFFFF;
+    border: none;
+  }
+  .section-1 .logo-logo-v-1-copy-4 {
+    height: 9.5rem;
+    width: 29.125rem;
+    display: block;
+    padding-left: 5rem;
+    padding-top: 1rem;
+    padding-right: 6rem;
+    padding-bottom: 2rem;
+  }
+  .section-1 .une-approche-globale {
+    margin-top: 1rem;
+    height: 12.5rem;
+    width: 61.813rem;
+    color: #FFFFFF;
+    font-size: 4.375rem;
+    font-weight: 300;
+    letter-spacing: -1.47px;
+    line-height: 6.25rem;
+    text-align: left;
+    margin-left: 5rem;
+  }
+  .section-2 .content-left h1 {
+    margin-bottom: 3.125rem;
+    font-family: "IBMPlexSans-Medium";
+    color: #0A2939;
+    letter-spacing: -0.022rem;
+    line-height: 2.5rem;
+    width: 26.063rem;
+    height: 11.25rem;
+    margin-left: 6.938rem;
+    margin-top: 6.438rem;
+    font-size: 1.5rem;
+  }
+  .section-2 .content-left ul.dashed {
+    list-style-type: none;
+    width: 66.2rem;
+    font-family: "Butler-Light";
+    margin-left: 6.938rem;
+    padding-left: 0.75rem;
+  }
+  .section-2 .content-left ul.dashed > li {
+    text-indent: -20px;
+    font-size: 2.5rem;
+    color: #0A2939;
+    line-height: 3rem;
+    margin-bottom: 2.4rem;
+  }
+  .section-2 .content-left ul.dashed > li:before {
+    content: "-";
+    text-indent: -20px;
+    color: #F05E36;
+    margin-right: 3.1rem;
+  }
+  .section-2 .content-left ul.dashed .li-first {
+    color: #F05E36;
+  }
+  .section-2 .content-right {
+    padding-right: 0;
+  }
+  .section-2 .content-right .overlay-img {
+    margin-top: -7rem;
+  }
+  .section-2 .content-right .overlay-img #overlay {
+    max-width: 100%;
+    height: 7rem;
+    background-color: #0A2939;
+  }
+  .section-2 .content-right .overlay-img img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 5.125rem;
+  }
+  .section-2 .content-right .text {
+    width: 80%;
+  }
+  .section-2 .content-right .text h4 {
+    font-family: "IBMPlexSans-Light";
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 3.125rem;
+    letter-spacing: -0.00625rem;
+    line-height: 1.875rem;
+  }
+  .section-2 .content-right button {
+    font-family: "IBMPlexSans-Medium";
+    font-size: 1rem;
+    height: 3rem;
+    width: 18.0625rem;
+  }
+  .section-2 .content-right button.btn {
+    border-radius: 10rem;
+  }
+  .section-2 .content-right button.btn-primary {
+    background-color: #F05E36;
+    border-color: #F05E36;
+  }
+  .section-2 .content-right button.btn-primary:hover {
+    background-color: #F05E36;
+    border-color: #F05E36;
+  }
+  .section-3 .content {
+    padding-top: 9.6rem;
+  }
+  .section-3 .content .row {
+    background-color: #F05E36;
+  }
+  .section-3 .content .row .content-left .text {
+    height: 12.375rem;
+    width: 28.5rem;
+    margin-top: 6.25rem;
+    margin-left: 5rem;
+  }
+  .section-3 .content .row .content-left .text h1 {
+    color: #ffffff;
+    font-family: "Butler";
+    font-size: 3.5rem;
+    letter-spacing: -0.05125rem;
+    line-height: 3.5rem;
+  }
+  .section-3 .content .row .content-left ul {
+    margin-top: 2.5rem;
+    margin-left: 5rem;
+    margin-bottom: 5.1875rem;
+    height: 15rem;
+    width: 28.1875rem;
+  }
+  .section-3 .content .row .content-left ul li {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Medium";
+    font-size: 1.125rem;
+    font-weight: 500;
+    letter-spacing: -0.01625rem;
+    line-height: 2.5rem;
+  }
+  .section-3 .content .row .content-left .btt-side {
+    padding: 1.5rem 2.6rem;
+    background-color: #ffffff;
+    margin-bottom: 15.6rem;
+    margin-left: 5rem;
+    height: 5.5625rem;
+    width: 24rem;
+  }
+  .section-3 .content .row .content-left .btt-side h4 {
+    color: #F66E49;
+    font-size: .875rem;
+    font-family: "IBMPlexSans-SemiBold";
+    letter-spacing: 0.2rem;
+    text-align: center;
+  }
+  .section-3 .content .row .content-left .btt-side h2 {
+    color: #002F39;
+    font-family: "Minion-DisplayItalic";
+    text-align: center;
+    font-size: 1.25rem;
+  }
+  .section-3 .content .row .content-right {
+    padding-right: 0;
+  }
+  .section-3 .content .row .content-right img {
+    max-width: 100%;
+    margin-top: -9.6rem;
+  }
+  .section-3 .content .row .content-right h1 {
+    font-family: "IBMPlexSans-Medium";
+    margin-top: 5.4375rem;
+    height: 2.3125rem;
+    width: 39.6875rem;
+    color: #0A2939;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: -0.01875rem;
+    line-height: 1.875rem;
+  }
+  .section-3 .content .row .content-right .text {
+    padding-right: 2.1875rem;
+    font-family: "IBMPlexSans-Light";
+    color: #ffffff;
+    height: 24.375rem;
+    width: 39.6875rem;
+    font-weight: 300;
+    letter-spacing: -0.00625rem;
+  }
+  .section-3 .content .row .content-right .text h4 {
+    line-height: 1.875rem;
+    font-size: 1rem;
+  }
+  .section-3 .content .row .content-right .text h4.second-text {
+    margin-bottom: 8.4rem;
+  }
+  .section-4 {
+    padding: 6.875rem 6.25rem;
+  }
+  .section-4 .row .title, .section-4 .row .card-title, .section-4 .row .card-text h3 {
+    color: #0A2939;
+  }
+  .section-4 .row .title {
+    height: 9.375rem;
+    width: 31.25rem;
+    color: #0A2939;
+    font-family: "Butler";
+    font-size: 3.5rem;
+    letter-spacing: -0.05125rem;
+    line-height: 3.5rem;
+  }
+  .section-4 .row .card-list-image .card {
+    height: 34.95625rem;
+    width: 24.1rem;
+    margin-bottom: 1.9375rem;
+    text-align: left;
+    margin-right: 1.3125rem;
+  }
+  .section-4 .row .card-list-image .card .card-body h1 {
+    height: 2.8125rem;
+    width: 10.74375rem;
+    color: #0A2939;
+    font-family: "Butler";
+    font-size: 3rem;
+    letter-spacing: -0.044375rem;
+    line-height: 2.8125rem;
+  }
+  .section-4 .row .card-list-image .card .card-body .card-text h4 {
+    color: #F66E49;
+    font-family: "IBMPlexSans";
+    height: 2.8125rem;
+    width: 7.70625rem;
+    font-size: .9rem;
+    letter-spacing: 0;
+    line-height: 2.8125rem;
+  }
+  .section-4 .row .card-list-image .card .card-body .card-text h3 {
+    font-family: "IBMPlexSans";
+    height: 2.875rem;
+    width: 19.375rem;
+    color: #0A2939;
+    font-family: "IBM Plex Sans";
+    font-size: 1.125rem;
+    font-weight: 500;
+    letter-spacing: -0.01625rem;
+    line-height: 1.4375rem;
+  }
+  .section-4 .row button {
+    height: 3rem;
+    width: 20rem;
+    border-radius: 1.5rem;
+    background-color: #0A2939;
+    font-size: 1rem;
+    padding: .8125rem 3.8125rem;
+  }
+  .section-4 .row button.btn {
+    border-radius: 1.5rem;
+  }
+  .section-4 .row button.btn-primary {
+    background-color: #0A2939;
+    border-color: #0A2939;
+  }
+  .section-4 .row button.btn-primary:hover {
+    background-color: #0A2939;
+    border-color: #0A2939;
+  }
+  .section-5 .row {
+    position: relative;
+    height: 90.3rem;
+    background-image: url("../../assets/images/visual-who-we-are.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .section-6 .row {
+    background-color: #021925;
+    color: #ffffff;
+    height: 39.5625rem;
+  }
+  .section-6 .row .logo-center {
+    margin: 5.8rem 0;
+  }
+  .section-6 .row .logo-center img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .section-6 .row hr {
+    text-decoration: none;
+    border-bottom: 2px solid #113D53;
+    height: 1px;
+    width: 80%;
+    margin-bottom: 0;
+  }
+  .section-6 .row .content {
+    width: 80%;
+    padding-left: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .section-6 .row .content .text {
+    height: auto;
+    display: block;
+    margin-top: 2rem;
+  }
+  .section-6 .row .content .left {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .section-6 .row .content .center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .section-6 .row .content .mt-lg-0 {
+    display: none;
+  }
+  .section-6 .row .content h5 {
+    height: .9375rem;
+    width: 11.6875rem;
+    font-family: "IBMPlexSans-Medium";
+    color: #FFFFFF;
+    font-size: .75rem;
+    font-weight: 500;
+    letter-spacing: .03125rem;
+    line-height: .9375rem;
+    margin-bottom: 2rem;
+  }
+  .section-6 .row .content .right {
+    width: 15.1875rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .section-6 .row .content .right img {
+    margin-right: .3125rem;
+  }
+  .section-6 .row .content .right h4 {
+    font-family: "IBMPlexSans";
+    font-size: .75rem;
+  }
 }
 /*# sourceMappingURL=introduction.css.map */
