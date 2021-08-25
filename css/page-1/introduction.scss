@@ -358,7 +358,8 @@ $size1: 1.6rem;
                 border-radius: 1.5rem;
                 background-color: #0A2939;
                 font-size: 1rem;
-                padding: .8125rem 3.8125rem;                            
+                padding: .8125rem 3.8125rem;
+                margin-top: 3.375rem;                                           
             }
             button.btn {
                 border-radius: 1.5rem;
@@ -534,18 +535,43 @@ $size1: 1.6rem;
 
             }
 
+            .sett-line-section-1 {
+                width: 100%;
+                height: auto;
+                display: flex;
+                align-items: start;
+                padding-left: 15%;
+
+                .line-section-1 {
+                    border-right-width: .0625rem;
+                    border-right-style: solid;
+                    border-color: white;
+                    height: 3.8125rem;
+                    display: inline-block;
+                }
+
+            }
+
             .une-approche-globale {
                 margin-top: 1rem;
                 height: 12.5rem;
-                width: 61.813rem;
+                width: 61.8125rem;
                 color: #FFFFFF;
-                // font-family: Butler;
-                font-size: 4.375rem;
+                font-family: $butlerLight;
+                font-size: 6.25rem;
                 font-weight: 300;
-                letter-spacing: -1.47px;
+                letter-spacing: -0.091875rem;
                 line-height: 6.25rem;
                 text-align: left;
                 margin-left: 5rem;
+            }
+
+            
+            .arrow-down {
+                position: absolute;
+                left: 15%;
+                margin-bottom: -1.25rem;
+                top: 23%;
             }
 
     }
@@ -553,6 +579,7 @@ $size1: 1.6rem;
     .section-2 {
 
         .content-left {
+            // margin-bottom: 5rem;
     
             h1 {
                 margin-bottom: 3.125rem;
@@ -589,6 +616,21 @@ $size1: 1.6rem;
             ul.dashed .li-first {
                 color: $color3;
             }
+
+            .sett-line-section-2 {
+                width: 100%;
+                height: auto;
+                display: flex;
+                // justify-content: center;
+                padding-left: 30%;
+
+                span {
+                    display: inline-block;
+                    height: 61px;
+                    color: #F05E36;
+                    border-right: 1px solid #F05E36;
+                }
+            }
         }
         .content-right {
             padding-right: 0;
@@ -607,6 +649,7 @@ $size1: 1.6rem;
                     margin-bottom: 5.125rem;
                 }
             }
+
             .text {
                 width: 80%;
                 h4 {
@@ -640,12 +683,27 @@ $size1: 1.6rem;
     
     .section-3 {
         .content {
-            padding-top: 9.6rem;
+            // padding-top: 9.6rem;
     
             .row {
                 background-color: $color3;
     
                 .content-left {
+
+                    .sett-line-section-3 {
+                        width: 100%;
+                        height: auto;
+                        display: flex;
+                        // justify-content: center;
+                        padding-left: 30%;
+        
+                        span {
+                            display: inline-block;
+                            height: 61px;
+                            color: rgb(255, 255, 255);
+                            border-right: 1px solid rgb(255, 255, 255);
+                        }
+                    }
                     
                     .text {
                         height: 12.375rem;
@@ -703,7 +761,7 @@ $size1: 1.6rem;
                     padding-right: 0;
                     img {
                         max-width: 100%;
-                        margin-top: -9.6rem;
+                        margin-top: -5rem;
                     }
                     h1 {
                         font-family: $ibmMedium;
