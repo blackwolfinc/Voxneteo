@@ -570,6 +570,9 @@
     color: white;
     border-right: 1px solid white;
   }
+  .section-3 .content .row .content-left .sett-line-section-3 img {
+    margin-bottom: -3.8125rem;
+  }
   .section-3 .content .row .content-left .text {
     height: 12.375rem;
     width: 28.5rem;
@@ -601,7 +604,7 @@
   .section-3 .content .row .content-left .btt-side {
     padding: 1.5rem 2.6rem;
     background-color: #ffffff;
-    margin-bottom: 15.6rem;
+    margin-bottom: 5rem;
     margin-left: 5rem;
     height: 5.5625rem;
     width: 24rem;
