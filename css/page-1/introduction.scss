@@ -1424,12 +1424,12 @@ $size1: 1.6rem;
 
             .sett-line-section-1-top {
                 justify-content: end;
-                width: 20%;
+                width: 17%;
                 margin-bottom: -40px;
                 padding-bottom: 0;
 
                 .line-section-1-top {
-                    border-right-width: .0625rem;
+                    border-right-width: .125rem;
                     border-right-style: solid;
                     border-color: white;
                     height: 7.5rem;
@@ -1439,7 +1439,7 @@ $size1: 1.6rem;
 
             .sett_img {
                 display: flex !important;
-                width: 41%;
+                width: 35%;
                 justify-content: center;
 
             .logo-logo-v-1-copy-4 {
@@ -1491,16 +1491,11 @@ $size1: 1.6rem;
             }
 
             .sett-line-section-1 {
-                // width: 100%;
-                // height: auto;
-                // display: flex;
-                // align-items: start;
-                // padding-left: 15%;
                 justify-content: end;
-                width: 20%;
+                width: 17%;
 
                 .line-section-1 {
-                    border-right-width: .0625rem;
+                    border-right-width: .125rem;
                     border-right-style: solid;
                     border-color: white;
                     height: 3.8125rem;
@@ -1529,15 +1524,8 @@ $size1: 1.6rem;
 
             .sett_arrow_section-1 {  
                 justify-content: end;
-                width: 20%;
+                width: 17%;
                 margin-bottom: -3.75rem;
-
-                .arrow-down {
-                    // position: absolute;
-                    // left: 15%;
-                    // margin-bottom: -1.25rem;
-                    // top: 23%;
-                }
             }
 
     }
@@ -1588,7 +1576,8 @@ $size1: 1.6rem;
                 height: auto;
                 display: flex;
                 // justify-content: center;
-                padding-left: 30%;
+                padding-left: 35%;
+                padding-top: 8%;
 
                 span {
                     display: inline-block;
@@ -1660,7 +1649,7 @@ $size1: 1.6rem;
                         height: auto;
                         display: flex;
                         // justify-content: center;
-                        padding-left: 30%;
+                        padding-left: 35%;
         
                         span {
                             display: inline-block;
@@ -2128,7 +2117,8 @@ $size1: 1.6rem;
                 height: auto;
                 display: flex;
                 // justify-content: center;
-                padding-left: 30%;
+                padding-left: 35%;
+                padding-top: 8%;
 
                 span {
                     display: inline-block;
@@ -2200,7 +2190,7 @@ $size1: 1.6rem;
                         height: auto;
                         display: flex;
                         // justify-content: center;
-                        padding-left: 30%;
+                        padding-left: 35%;
         
                         span {
                             display: inline-block;
