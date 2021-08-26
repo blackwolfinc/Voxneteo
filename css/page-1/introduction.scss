@@ -57,6 +57,8 @@ $size1: 1.6rem;
 //     font-size: 62.5%;
 // }
 
+
+
 .section-1 {
     background-image: url("../../assets/images/header-homepage.jpg");
 }
@@ -1114,7 +1116,8 @@ li.drop {
             .sett_arrow_section-1 {  
                 justify-content: center;
                 width: 100%;
-                margin-bottom: -3.75rem;
+                margin-bottom: 0;
+                margin-top: -6.25rem;
 
                 .arrow-down {
                    display: none;
@@ -1510,8 +1513,8 @@ li.drop {
 
     }
     .navbar {
-        margin-top: 1rem !important;
-        margin-left: 0.75rem;
+        margin-top: 1.875rem;
+        // margin-left: 0.75rem;
     }
     .drop {
         .btn-group {
@@ -2051,8 +2054,8 @@ li.drop {
 
     }
     .navbar {
-        margin-top: 1rem !important;
-        margin-left: 0.75rem;
+        margin-top: 1.875rem;
+        // margin-left: 0.75rem;
     }
     .drop {
         .btn-group {
@@ -2070,7 +2073,8 @@ li.drop {
             .sett-line-section-1-top {
                 justify-content: end;
                 width: 20%;
-                margin-bottom: -40px;
+                margin-bottom: 0px;
+                margin-top: -6.25rem;
                 padding-bottom: 0;
 
                 .line-section-1-top {
@@ -2103,10 +2107,12 @@ li.drop {
 
             ul {
                 height: auto;
-                width: 100%;
-                margin-top: -1.875rem;
-                padding-left: 14.375rem;
-                padding-right: 6.25rem;
+                // width: 100%;
+                // margin-top: -1.875rem;
+                // padding-left: 14.375rem;
+                // padding-right: 6.25rem;
+                width: 80%;
+                justify-content: space-around;
 
                 li {                    
                     color: #FFFFFF;
@@ -2115,7 +2121,8 @@ li.drop {
                     font-weight: 600;
                     letter-spacing: -0.01625rem;
                     line-height: 1.4375rem;
-                    margin-right: 1.875rem;                   
+                    // margin-right: 1.875rem;
+                    margin-left: 0;                  
                     
                     a {
                         height: 1.4375rem;
