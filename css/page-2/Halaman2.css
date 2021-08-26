@@ -20,6 +20,17 @@
       align-self: center;
 }
 
+.navbar nav .navbar-toggler-icon {
+  width: 3rem;
+  height: 3rem;
+}
+
+.navbar nav.navbar {
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
 .navbar .nav-link {
   color: #0A2939;
   height: 23px;
