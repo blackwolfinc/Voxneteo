@@ -46,16 +46,66 @@
   color: #FFFFFF;
 }
 
+li.nav-item {
+  margin-left: 5rem;
+}
+
+li.nav-item .nav-link, li.nav-item button span, li.nav-item .dropdown-item {
+  font-family: "IBMPlexSans-SemiBold";
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+li.drop {
+  margin-right: 10.5rem;
+}
+
+li.drop .btn-group {
+  margin-top: -0.5rem;
+}
+
+li.drop button.btn {
+  border-radius: 2.4rem;
+  padding: 1rem 2.5rem;
+  background-color: transparent;
+}
+
+li.drop button.btn-danger {
+  border: 2px solid white;
+}
+
+li.drop button.dropdown-toggle {
+  color: #F05E36;
+}
+
+li.drop button span {
+  margin-right: 2rem;
+  color: white;
+}
+
+.show .btn-danger.dropdown-toggle {
+  background-color: transparent;
+  border: 2px solid white;
+}
+
 @media (max-width: 575.98px) {
-  .section-1 {
-    padding-bottom: 64px;
+  .navbar {
+    margin-top: 1rem !important;
+    margin-left: 0.75rem;
   }
-  .section-1 .navbar-light .navbar-toggler {
+  .drop .btn-group {
+    margin-top: 0;
+    margin-left: -2.5rem;
+  }
+  .navbar-light .navbar-toggler {
     color: #FFFFFF;
     border: none;
   }
-  .section-1 nav {
+  nav {
     margin-top: -1.875rem;
+  }
+  .section-1 {
+    padding-bottom: 64px;
   }
   .section-1 .sett-line-section-1-top {
     -webkit-box-pack: center;
@@ -427,18 +477,26 @@
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .navbar {
+    margin-top: 1rem !important;
+    margin-left: 0.75rem;
+  }
+  .drop .btn-group {
+    margin-top: 0;
+    margin-left: -2.5rem;
+  }
+  .navbar-light .navbar-toggler {
+    color: #FFFFFF;
+    border: none;
+  }
+  nav {
+    margin-top: -1.875rem;
+  }
   .container {
     max-width: 100%;
   }
   .container .section-1 {
     padding-bottom: 64px;
-  }
-  .container .section-1 .navbar-light .navbar-toggler {
-    color: #FFFFFF;
-    border: none;
-  }
-  .container .section-1 nav {
-    margin-top: -1.875rem;
   }
   .container .section-1 .sett-line-section-1-top {
     -webkit-box-pack: center;
@@ -810,18 +868,43 @@
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+  li.nav-item {
+    margin-left: 1rem;
+  }
+  li.nav-item .nav-link {
+    margin-top: 0.75rem;
+    font-size: 0.9rem;
+  }
+  li.nav-item .btn-group button span {
+    font-size: 0.9rem;
+  }
+  li.nav-item .btn-group .dropdown-menu .dropdown-item {
+    font-size: 0.9rem;
+  }
+  .navbar {
+    margin-top: 1rem !important;
+    margin-left: 0.75rem;
+    padding-right: 1.3rem;
+  }
+  li.drop {
+    margin-right: 1rem;
+  }
+  li.drop .btn-group {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .navbar-light .navbar-toggler {
+    color: #FFFFFF;
+    border: none;
+  }
+  nav {
+    margin-top: -1.875rem;
+  }
   .container {
     max-width: 100%;
   }
   .container .section-1 {
     padding-bottom: 64px;
-  }
-  .container .section-1 .navbar-light .navbar-toggler {
-    color: #FFFFFF;
-    border: none;
-  }
-  .container .section-1 nav {
-    margin-top: -1.875rem;
   }
   .container .section-1 .sett-line-section-1-top {
     -webkit-box-pack: center;
@@ -1196,14 +1279,22 @@
   .container {
     max-width: 144rem;
   }
+  .navbar-light .navbar-toggler {
+    color: #FFFFFF;
+    border: none;
+  }
+  .navbar {
+    margin-top: 1rem !important;
+    margin-left: 0.75rem;
+  }
+  .drop .btn-group {
+    margin-top: 0;
+    margin-left: -2.5rem;
+  }
   .section-1 {
     background-size: cover;
     padding-left: 0;
     padding-right: 0;
-  }
-  .section-1 .navbar-light .navbar-toggler {
-    color: #FFFFFF;
-    border: none;
   }
   .section-1 .sett-line-section-1-top {
     -webkit-box-pack: end;
@@ -1658,14 +1749,22 @@
   .container {
     max-width: 144rem;
   }
+  .navbar-light .navbar-toggler {
+    color: #FFFFFF;
+    border: none;
+  }
+  .navbar {
+    margin-top: 1rem !important;
+    margin-left: 0.75rem;
+  }
+  .drop .btn-group {
+    margin-top: 0;
+    margin-left: -2.5rem;
+  }
   .section-1 {
     background-size: cover;
     padding-left: 0;
     padding-right: 0;
-  }
-  .section-1 .navbar-light .navbar-toggler {
-    color: #FFFFFF;
-    border: none;
   }
   .section-1 .sett-line-section-1-top {
     -webkit-box-pack: end;
