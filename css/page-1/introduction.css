@@ -38,6 +38,11 @@
   src: url("../../assets/fonts/webfont-minion/Minion-DisplayItalic.ttf");
 }
 
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  border: none;
+}
+
 .section-1 {
   background-image: url("../../assets/images/header-homepage.jpg");
 }
@@ -90,12 +95,21 @@ li.drop button span {
 
 @media (max-width: 575.98px) {
   .navbar {
-    margin-top: 1rem !important;
-    margin-left: 0.75rem;
+    margin-top: 1.25rem;
+    margin-left: 0;
   }
   .drop .btn-group {
     margin-top: 0;
     margin-left: -2.5rem;
+  }
+  .navbar-collapse {
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #113D53;
+    height: 100%;
+    display: inline-block;
+    width: 70%;
   }
   .navbar-light .navbar-toggler {
     color: #FFFFFF;
@@ -112,8 +126,9 @@ li.drop button span {
         -ms-flex-pack: center;
             justify-content: center;
     width: 100%;
-    margin-bottom: -2.5rem;
     padding-bottom: 0;
+    margin-top: -5rem;
+    margin-bottom: 1.25rem;
   }
   .section-1 .sett-line-section-1-top .line-section-1-top {
     border-right-width: .0625rem;
@@ -153,7 +168,7 @@ li.drop button span {
         -ms-flex-pack: center;
             justify-content: center;
     width: 100%;
-    margin-bottom: -3.75rem;
+    margin-bottom: -4.0625rem;
   }
   .section-1 .sett_arrow_section-1 .arrow-down {
     display: none;
@@ -503,8 +518,9 @@ li.drop button span {
         -ms-flex-pack: center;
             justify-content: center;
     width: 100%;
-    margin-bottom: -2.5rem;
     padding-bottom: 0;
+    margin-top: -5rem;
+    margin-bottom: 1.25rem;
   }
   .container .section-1 .sett-line-section-1-top .line-section-1-top {
     border-right-width: .0625rem;
@@ -544,7 +560,7 @@ li.drop button span {
         -ms-flex-pack: center;
             justify-content: center;
     width: 100%;
-    margin-bottom: -3.75rem;
+    margin-bottom: -4.0625rem;
   }
   .container .section-1 .sett_arrow_section-1 .arrow-down {
     display: none;
@@ -911,8 +927,9 @@ li.drop button span {
         -ms-flex-pack: center;
             justify-content: center;
     width: 100%;
-    margin-bottom: -2.5rem;
     padding-bottom: 0;
+    margin-top: -5rem;
+    margin-bottom: 1.25rem;
   }
   .container .section-1 .sett-line-section-1-top .line-section-1-top {
     border-right-width: .0625rem;
@@ -952,7 +969,9 @@ li.drop button span {
         -ms-flex-pack: center;
             justify-content: center;
     width: 100%;
-    margin-bottom: -3.75rem;
+    margin-bottom: 0;
+    margin-top: 0px;
+    margin-bottom: -4.0625rem;
   }
   .container .section-1 .sett_arrow_section-1 .arrow-down {
     display: none;
@@ -1284,8 +1303,7 @@ li.drop button span {
     border: none;
   }
   .navbar {
-    margin-top: 1rem !important;
-    margin-left: 0.75rem;
+    margin-top: 1.875rem;
   }
   .drop .btn-group {
     margin-top: 0;
@@ -1301,8 +1319,9 @@ li.drop button span {
         -ms-flex-pack: end;
             justify-content: end;
     width: 17%;
-    margin-bottom: -40px;
     padding-bottom: 0;
+    margin-bottom: 0px;
+    margin-top: -5rem;
   }
   .section-1 .sett-line-section-1-top .line-section-1-top {
     border-right-width: .125rem;
@@ -1754,8 +1773,7 @@ li.drop button span {
     border: none;
   }
   .navbar {
-    margin-top: 1rem !important;
-    margin-left: 0.75rem;
+    margin-top: 1.875rem;
   }
   .drop .btn-group {
     margin-top: 0;
@@ -1771,7 +1789,8 @@ li.drop button span {
         -ms-flex-pack: end;
             justify-content: end;
     width: 20%;
-    margin-bottom: -40px;
+    margin-bottom: 0px;
+    margin-top: -6.25rem;
     padding-bottom: 0;
   }
   .section-1 .sett-line-section-1-top .line-section-1-top {
@@ -1802,10 +1821,9 @@ li.drop button span {
   }
   .section-1 ul {
     height: auto;
-    width: 100%;
-    margin-top: -1.875rem;
-    padding-left: 14.375rem;
-    padding-right: 6.25rem;
+    width: 80%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .section-1 ul li {
     color: #FFFFFF;
@@ -1814,7 +1832,7 @@ li.drop button span {
     font-weight: 600;
     letter-spacing: -0.01625rem;
     line-height: 1.4375rem;
-    margin-right: 1.875rem;
+    margin-left: 0;
   }
   .section-1 ul li a {
     height: 1.4375rem;
