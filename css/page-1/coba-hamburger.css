@@ -40,6 +40,28 @@
 
 .section-1 {
   background-image: url("../../assets/images/header-homepage.jpg");
+  max-height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+.section-1 .container {
+  position: absolute;
+  margin: 20px 0;
+  max-width: 144rem;
+  width: 100%;
+}
+
+.section-1 .container .navbar-light .navbar-nav .nav-item {
+  margin: 0 2rem;
+}
+
+.section-1 .container .navbar-light .navbar-nav .nav-link {
+  color: white;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -50,10 +72,13 @@ li.nav-item {
   margin-left: 5rem;
 }
 
-li.nav-item .nav-link, li.nav-item button span, li.nav-item .dropdown-item {
+li.nav-item .nav-link,
+li.nav-item button span,
+li.nav-item .dropdown-item {
   font-family: "IBMPlexSans-SemiBold";
   font-weight: 600;
   font-size: 1.05rem;
+  color: #ffffff;
 }
 
 li.drop {
@@ -89,23 +114,29 @@ li.drop button span {
 }
 
 @media (max-width: 575.98px) {
-  .navbar {
-    margin-top: 1rem !important;
-    margin-left: 0.75rem;
-  }
-  .drop .btn-group {
-    margin-top: 0;
-    margin-left: -2.5rem;
-  }
-  .navbar-light .navbar-toggler {
-    color: #FFFFFF;
-    border: none;
-  }
-  nav {
-    margin-top: -1.875rem;
-  }
   .section-1 {
     padding-bottom: 64px;
+  }
+  .section-1 .container .navbar-light .navbar-nav .nav-item {
+    margin: auto;
+  }
+  .section-1 .container .navbar-light .navbar-nav .nav-item .btn-group.show {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section-1 .container .navbar-light .navbar-nav .nav-item .show .btn-danger.dropdown-toggle {
+    color: #F05E36;
+  }
+  .section-1 .container .navbar-light .navbar-nav li.drop button.btn {
+    padding: 0.5rem 1.5rem;
+  }
+  .section-1 .container .navbar-light .navbar-nav li.drop .btn-group {
+    margin-top: 0.5rem;
   }
   .section-1 .sett-line-section-1-top {
     -webkit-box-pack: center;
@@ -342,7 +373,9 @@ li.drop button span {
   .section-4 {
     padding: 1.5rem 2rem;
   }
-  .section-4 .row .title, .section-4 .row .card-title, .section-4 .row .card-text h3 {
+  .section-4 .row .title,
+  .section-4 .row .card-title,
+  .section-4 .row .card-text h3 {
     color: #0A2939;
   }
   .section-4 .row .title {
@@ -477,26 +510,32 @@ li.drop button span {
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .navbar {
-    margin-top: 1rem !important;
-    margin-left: 0.75rem;
-  }
-  .drop .btn-group {
-    margin-top: 0;
-    margin-left: -2.5rem;
-  }
-  .navbar-light .navbar-toggler {
-    color: #FFFFFF;
-    border: none;
-  }
-  nav {
-    margin-top: -1.875rem;
-  }
   .container {
     max-width: 100%;
   }
   .container .section-1 {
     padding-bottom: 64px;
+  }
+  .container .section-1 .container .navbar-light .navbar-nav .nav-item {
+    margin: auto;
+  }
+  .container .section-1 .container .navbar-light .navbar-nav .nav-item .btn-group.show {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container .section-1 .container .navbar-light .navbar-nav .nav-item .show .btn-danger.dropdown-toggle {
+    color: #F05E36;
+  }
+  .container .section-1 .container .navbar-light .navbar-nav li.drop button.btn {
+    padding: 0.5rem 1.5rem;
+  }
+  .container .section-1 .container .navbar-light .navbar-nav li.drop .btn-group {
+    margin-top: 0.5rem;
   }
   .container .section-1 .sett-line-section-1-top {
     -webkit-box-pack: center;
@@ -733,7 +772,9 @@ li.drop button span {
   .container .section-4 {
     padding: 1.5rem 2rem;
   }
-  .container .section-4 .row .title, .container .section-4 .row .card-title, .container .section-4 .row .card-text h3 {
+  .container .section-4 .row .title,
+  .container .section-4 .row .card-title,
+  .container .section-4 .row .card-text h3 {
     color: #0A2939;
   }
   .container .section-4 .row .title {
@@ -867,39 +908,77 @@ li.drop button span {
   }
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) {
-  li.nav-item {
-    margin-left: 1rem;
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .section-1 .container .navbar {
+    margin-left: 3rem;
   }
-  li.nav-item .nav-link {
+  .section-1 .container .navbar-light .navbar-nav .nav-item .btn-group.show {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 10rem;
+  }
+  .section-1 .container .navbar-light .navbar-nav .nav-item .btn-group.show .dropdown-menu.show {
+    width: 13rem;
+    margin-top: 0.3rem;
+  }
+  .section-1 .container .navbar-light .navbar-nav .nav-item .show .btn-danger.dropdown-toggle {
+    color: #F05E36;
+  }
+  .section-1 .container .navbar-light .navbar-nav li.drop .btn-group {
+    margin-top: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .section-1 .container {
+    margin: 2rem -2rem;
+  }
+  .section-1 .container ul li {
+    margin-right: -0.5rem;
+  }
+  .section-1 .container .navbar-light .navbar-nav li.drop button.btn {
+    padding: 0.5rem 1.5rem;
+  }
+  .section-1 .container .navbar-light .navbar-nav li.drop .btn-group {
+    margin-top: 0.5rem;
+  }
+  .section-1 .container .navbar-light .navbar-nav .nav-item {
+    margin: 0;
+  }
+  .section-1 .container .navbar-light .navbar-nav .nav-item .nav-link {
     margin-top: 0.75rem;
+  }
+  .section-1 .container .navbar-light .navbar-nav .nav-item .btn-group button span {
     font-size: 0.9rem;
   }
-  li.nav-item .btn-group button span {
+  .section-1 .container .navbar-light .navbar-nav .nav-item .btn-group .dropdown-menu .dropdown-item {
     font-size: 0.9rem;
   }
-  li.nav-item .btn-group .dropdown-menu .dropdown-item {
-    font-size: 0.9rem;
+  .section-1 .container .navbar-light .navbar-nav .nav-item .btn-group.show {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 12rem;
   }
-  .navbar {
-    margin-top: 1rem !important;
-    margin-left: 0.75rem;
-    padding-right: 1.3rem;
+  .section-1 .container .navbar-light .navbar-nav .nav-item .btn-group.show .dropdown-menu.show {
+    width: 13rem;
+    margin-top: 0.3rem;
   }
-  li.drop {
-    margin-right: 1rem;
+  .section-1 .container .navbar-light .navbar-nav .nav-item .show .btn-danger.dropdown-toggle {
+    color: #F05E36;
   }
-  li.drop .btn-group {
-    margin-top: 0;
-    margin-left: 0;
-  }
-  .navbar-light .navbar-toggler {
-    color: #FFFFFF;
-    border: none;
-  }
-  nav {
-    margin-top: -1.875rem;
-  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
   .container {
     max-width: 100%;
   }
@@ -1141,7 +1220,9 @@ li.drop button span {
   .container .section-4 {
     padding: 1.5rem 2rem;
   }
-  .container .section-4 .row .title, .container .section-4 .row .card-title, .container .section-4 .row .card-text h3 {
+  .container .section-4 .row .title,
+  .container .section-4 .row .card-title,
+  .container .section-4 .row .card-text h3 {
     color: #0A2939;
   }
   .container .section-4 .row .title {
@@ -1596,7 +1677,9 @@ li.drop button span {
   .section-4 {
     padding: 6.875rem 6.25rem;
   }
-  .section-4 .row .title, .section-4 .row .card-title, .section-4 .row .card-text h3 {
+  .section-4 .row .title,
+  .section-4 .row .card-title,
+  .section-4 .row .card-text h3 {
     color: #0A2939;
   }
   .section-4 .row .title {
@@ -1749,9 +1832,17 @@ li.drop button span {
   .container {
     max-width: 144rem;
   }
+  .navbar-light .navbar-nav .nav-item .show .btn-danger.dropdown-toggle {
+    color: #F05E36;
+  }
   .navbar-light .navbar-toggler {
     color: #FFFFFF;
     border: none;
+  }
+  .dropdown-menu.show {
+    margin-top: 3.8rem;
+    width: 13rem;
+    height: 6.3rem;
   }
   .navbar {
     margin-top: 1rem !important;
@@ -1803,13 +1894,12 @@ li.drop button span {
   .section-1 ul {
     height: auto;
     width: 100%;
-    margin-top: -1.875rem;
-    padding-left: 14.375rem;
+    margin-top: 0;
+    padding-left: 17rem;
     padding-right: 6.25rem;
   }
   .section-1 ul li {
     color: #FFFFFF;
-    font-family: "IBMPlexSans-Light";
     font-size: 1.125rem;
     font-weight: 600;
     letter-spacing: -0.01625rem;
@@ -2066,7 +2156,9 @@ li.drop button span {
   .section-4 {
     padding: 6.875rem 6.25rem;
   }
-  .section-4 .row .title, .section-4 .row .card-title, .section-4 .row .card-text h3 {
+  .section-4 .row .title,
+  .section-4 .row .card-title,
+  .section-4 .row .card-text h3 {
     color: #0A2939;
   }
   .section-4 .row .title {
