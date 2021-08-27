@@ -38,6 +38,28 @@
   src: url("../../assets/fonts/webfont-minion/Minion-DisplayItalic.ttf");
 }
 
+hr {
+  border: 1.5px solid #113D53;
+}
+
+li.hidden ul {
+  list-style: square;
+  margin-left: 0;
+}
+
+li.hidden ul li {
+  color: white;
+  font-family: "IBMPlexSans-Light";
+  font-size: .875rem;
+  letter-spacing: -0.00625rem;
+  line-height: 1.125rem;
+  margin-bottom: 1.5rem;
+}
+
+li.hidden ul li.first {
+  color: #F05E36;
+}
+
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   border: none;
@@ -45,10 +67,12 @@
 
 .section-1 {
   background-image: url("../../assets/images/header-homepage.jpg");
-}
-
-.navbar-light .navbar-nav .nav-link {
-  color: #FFFFFF;
+  max-height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Needed to position the navbar */
 }
 
 li.nav-item {
@@ -98,6 +122,9 @@ li.drop button span {
     margin-top: 1.25rem;
     margin-left: 0;
   }
+  .navbar-light .navbar-nav .nav-link {
+    color: #FFFFFF;
+  }
   .drop .btn-group {
     margin-top: 0;
     margin-left: -2.5rem;
@@ -106,10 +133,10 @@ li.drop button span {
     top: 0;
     left: 0;
     position: fixed;
-    background-color: #113D53;
+    background-color: #021925;
     height: 100%;
     display: inline-block;
-    width: 70%;
+    width: 95%;
   }
   .navbar-light .navbar-toggler {
     color: #FFFFFF;
@@ -120,6 +147,31 @@ li.drop button span {
   }
   .section-1 {
     padding-bottom: 64px;
+  }
+  .section-1 ul {
+    margin: 1.5rem;
+  }
+  .section-1 ul hr {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 1px;
+    width: 287px;
+    border: 1.5px solid #113D53;
+  }
+  .section-1 ul li {
+    margin-left: 0;
+  }
+  .section-1 ul li .drop {
+    display: none;
+  }
+  .section-1 ul li a {
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 1.125rem;
+    font-weight: 600;
+    letter-spacing: -0.01625rem;
+    line-height: 1.4375rem;
+    padding-bottom: 1.5rem;
   }
   .section-1 .sett-line-section-1-top {
     -webkit-box-pack: center;
@@ -496,9 +548,30 @@ li.drop button span {
     margin-top: 1rem !important;
     margin-left: 0.75rem;
   }
+  li.nav-item {
+    margin-top: 24px;
+    margin-left: 1.5rem;
+  }
+  li.nav-item .nav-link, li.nav-item button span, li.nav-item .dropdown-item {
+    font-family: "IBMPlexSans-SemiBold";
+    font-weight: 600;
+    font-size: 1.05rem;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #FFFFFF;
+  }
   .drop .btn-group {
     margin-top: 0;
     margin-left: -2.5rem;
+  }
+  .navbar-nav {
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #021925;
+    height: 100%;
+    display: inline-block;
+    width: 95%;
   }
   .navbar-light .navbar-toggler {
     color: #FFFFFF;
@@ -885,7 +958,7 @@ li.drop button span {
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   li.nav-item {
-    margin-left: 1rem;
+    margin-left: 1.5rem;
   }
   li.nav-item .nav-link {
     margin-top: 0.75rem;
@@ -896,6 +969,9 @@ li.drop button span {
   }
   li.nav-item .btn-group .dropdown-menu .dropdown-item {
     font-size: 0.9rem;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #FFFFFF;
   }
   .navbar {
     margin-top: 1rem !important;
@@ -908,6 +984,15 @@ li.drop button span {
   li.drop .btn-group {
     margin-top: 0;
     margin-left: 0;
+  }
+  .navbar-collapse {
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #021925;
+    height: 100%;
+    display: inline-block;
+    width: 95%;
   }
   .navbar-light .navbar-toggler {
     color: #FFFFFF;
@@ -1298,6 +1383,9 @@ li.drop button span {
   .container {
     max-width: 144rem;
   }
+  .navbar-light .navbar-nav .nav-link {
+    color: #FFFFFF;
+  }
   .navbar-light .navbar-toggler {
     color: #FFFFFF;
     border: none;
@@ -1343,11 +1431,11 @@ li.drop button span {
     height: 9.5rem;
     width: 29.125rem;
     display: block;
-    padding-left: 5rem;
     padding-top: 1rem;
-    padding-right: 6rem;
-    padding-bottom: 2rem;
     margin-top: 1.25rem;
+    padding-bottom: 0px;
+    padding-right: 3rem;
+    padding-left: 3rem;
   }
   .section-1 ul {
     height: auto;
@@ -1396,17 +1484,16 @@ li.drop button span {
     margin-bottom: 3.125rem;
   }
   .section-1 .text-title .une-approche-globale {
-    margin-top: 1rem;
     height: 12.5rem;
-    width: 61.8125rem;
     color: #FFFFFF;
     font-family: "Butler-Light";
-    font-size: 6.25rem;
+    font-size: 5rem;
     font-weight: 300;
     letter-spacing: -0.091875rem;
     line-height: 6.25rem;
     text-align: left;
     margin-left: 5rem;
+    padding-right: 2rem;
   }
   .section-1 .sett_arrow_section-1 {
     -webkit-box-pack: end;
@@ -1421,22 +1508,34 @@ li.drop button span {
     color: #0A2939;
     letter-spacing: -0.022rem;
     line-height: 2.5rem;
-    width: 26.063rem;
+    width: auto;
     height: 11.25rem;
-    margin-left: 6.938rem;
     margin-top: 6.438rem;
     font-size: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    padding-bottom: 1.5rem;
+    padding-top: 5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
   .section-2 .content-left ul.dashed {
     list-style-type: none;
-    width: 66.2rem;
     font-family: "Butler-Light";
-    margin-left: 6.938rem;
     padding-left: 0.75rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 1.5rem;
+    padding-left: 2.25rem;
+    margin-bottom: auto;
+    margin-top: 1.875rem;
+    padding-top: 6.25rem;
   }
   .section-2 .content-left ul.dashed > li {
     text-indent: -20px;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #0A2939;
     line-height: 3rem;
     margin-bottom: 2.4rem;
@@ -1531,9 +1630,11 @@ li.drop button span {
   }
   .section-3 .content .row .content-left .text {
     height: 12.375rem;
-    width: 28.5rem;
-    margin-top: 6.25rem;
-    margin-left: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-top: 1.875rem;
   }
   .section-3 .content .row .content-left .text h1 {
     color: #ffffff;
@@ -1543,11 +1644,13 @@ li.drop button span {
     line-height: 3.5rem;
   }
   .section-3 .content .row .content-left ul {
-    margin-top: 2.5rem;
-    margin-left: 5rem;
-    margin-bottom: 5.1875rem;
     height: 15rem;
-    width: 28.1875rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3rem;
+    padding-right: 1.4375rem;
+    margin-top: 1.875rem;
+    margin-bottom: 0px;
   }
   .section-3 .content .row .content-left ul li {
     color: #0A2939;
@@ -1560,10 +1663,14 @@ li.drop button span {
   .section-3 .content .row .content-left .btt-side {
     padding: 1.5rem 2.6rem;
     background-color: #ffffff;
-    margin-bottom: 5rem;
-    margin-left: 5rem;
     height: 5.5625rem;
     width: 24rem;
+    margin-left: 1.5rem;
+    margin-top: 1.875rem;
+    margin-bottom: 0px;
+    padding-right: 2.6rem;
+    margin-left: auto;
+    margin-right: auto;
   }
   .section-3 .content .row .content-left .btt-side h4 {
     color: #F66E49;
@@ -1587,9 +1694,8 @@ li.drop button span {
   }
   .section-3 .content .row .content-right h1 {
     font-family: "IBMPlexSans-Medium";
-    margin-top: 5.4375rem;
+    margin-top: 2.5rem;
     height: 2.3125rem;
-    width: 39.6875rem;
     color: #0A2939;
     font-size: 1.5rem;
     font-weight: 500;
@@ -1597,13 +1703,17 @@ li.drop button span {
     line-height: 1.875rem;
   }
   .section-3 .content .row .content-right .text {
-    padding-right: 2.1875rem;
     font-family: "IBMPlexSans-Light";
     color: #ffffff;
     height: 24.375rem;
-    width: 39.6875rem;
     font-weight: 300;
     letter-spacing: -0.00625rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 2rem;
+    padding-left: 0px;
+    margin-bottom: 1.875rem;
+    padding-bottom: 0px;
   }
   .section-3 .content .row .content-right .text h4 {
     line-height: 1.875rem;
@@ -1655,7 +1765,6 @@ li.drop button span {
   .section-4 .row .card-list-image .card .card-body .card-text h3 {
     font-family: "IBMPlexSans";
     height: 2.875rem;
-    width: 19.375rem;
     color: #0A2939;
     font-family: "IBM Plex Sans";
     font-size: 1.125rem;
@@ -1767,6 +1876,9 @@ li.drop button span {
 @media (min-width: 1440px) {
   .container {
     max-width: 144rem;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #FFFFFF;
   }
   .navbar-light .navbar-toggler {
     color: #FFFFFF;

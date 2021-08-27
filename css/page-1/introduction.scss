@@ -57,6 +57,29 @@ $size1: 1.6rem;
 //     font-size: 62.5%;
 // }
 
+hr {
+  border: 1.5px solid #113D53;
+}
+
+li.hidden {
+    ul {
+        list-style: square;
+        margin-left: 0;
+        li {
+            color: white;
+            font-family: $ibmLight;
+            font-size: .875rem;
+            letter-spacing: -0.00625rem;
+            line-height: 1.125rem;
+            margin-bottom: 1.5rem;
+        }
+
+        li.first {
+            color: #F05E36;
+        }
+    }
+}
+
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     border: none;
@@ -64,14 +87,12 @@ $size1: 1.6rem;
 
 .section-1 {
     background-image: url("../../assets/images/header-homepage.jpg");
-}
-
-.navbar-light {
-    .navbar-nav {
-        .nav-link {
-            color: #FFFFFF;
-        }
-    }
+    max-height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Needed to position the navbar */
 }
 
 li.nav-item {
@@ -123,6 +144,16 @@ li.drop {
         margin-top: 1.25rem;
         margin-left: 0;
     }
+
+    
+    .navbar-light {
+        .navbar-nav {
+            .nav-link {
+                color: #FFFFFF;
+            }
+        }
+    }
+
     .drop {
         .btn-group {
             margin-top: 0;
@@ -134,10 +165,10 @@ li.drop {
         top: 0;
         left: 0;
         position: fixed;
-        background-color: #113D53;
+        background-color: #021925;
         height: 100%;
         display: inline-block;
-        width: 70%;
+        width: 95%;
     }
 
     .navbar-light {
@@ -155,7 +186,37 @@ li.drop {
     .section-1 {
         padding-bottom: 64px;
 
-            
+        
+        ul {
+            margin: 1.5rem;
+
+            hr {
+                box-sizing: border-box;
+                height: 1px;
+                width: 287px;
+                border: 1.5px solid #113D53;
+            }
+
+            li {
+                margin-left: 0;
+
+                .drop {
+                    display: none;
+                }
+
+                a {
+                    // height: 1.4375rem;
+                    // width: 7.33125rem;
+                    color: #FFFFFF;
+                    font-family: $ibmLight;
+                    font-size: 1.125rem;
+                    font-weight: 600;
+                    letter-spacing: -0.01625rem;
+                    line-height: 1.4375rem;
+                    padding-bottom: 1.5rem;
+                }
+            }
+        }
 
             .sett-line-section-1-top {
                 justify-content: center;
@@ -586,11 +647,41 @@ li.drop {
         margin-top: 1rem !important;
         margin-left: 0.75rem;
     }
+
+    li.nav-item {
+        margin-top: 24px;
+        margin-left: 1.5rem;
+    
+        .nav-link, button span, .dropdown-item {
+            font-family: $ibmSemiBold;
+            font-weight: 600;
+            font-size: 1.05rem;
+        }
+    }
+
+    
+    .navbar-light {
+        .navbar-nav {
+            .nav-link {
+                color: #FFFFFF;
+            }
+        }
+    }
     .drop {
         .btn-group {
             margin-top: 0;
             margin-left: -2.5rem;
         }
+    }
+
+    .navbar-nav {
+        top: 0;
+        left: 0;
+        position: fixed;
+        background-color: #021925;
+        height: 100%;
+        display: inline-block;
+        width: 95%;
     }
     .navbar-light {
 
@@ -1038,9 +1129,8 @@ li.drop {
 
 // // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
-    
     li.nav-item {
-        margin-left: 1rem;
+        margin-left: 1.5rem;
 
         .nav-link {
             margin-top: 0.75rem;
@@ -1059,6 +1149,16 @@ li.drop {
             }
         }
     }
+
+    
+    .navbar-light {
+        .navbar-nav {
+            .nav-link {
+                color: #FFFFFF;
+            }
+        }
+    }
+
     .navbar {
         margin-top: 1rem !important;
         margin-left: 0.75rem;
@@ -1070,6 +1170,16 @@ li.drop {
             margin-left: 0;
         }
         margin-right: 1rem;
+    }
+
+    .navbar-collapse {
+        top: 0;
+        left: 0;
+        position: fixed;
+        background-color: #021925;
+        height: 100%;
+        display: inline-block;
+        width: 95%;
     }
     
     .navbar-light {
@@ -1526,6 +1636,15 @@ li.drop {
         max-width: $maxWidth;
     }
 
+    
+    .navbar-light {
+        .navbar-nav {
+            .nav-link {
+                color: #FFFFFF;
+            }
+        }
+    }
+
     .navbar-light {
 
         .navbar-toggler {
@@ -1581,12 +1700,12 @@ li.drop {
                 height: 9.5rem;
                 width: 29.125rem;
                 display: block;
-                padding-left: 5rem;
                 padding-top: 1rem;
-                padding-right: 6rem;
-                padding-bottom: 2rem;
                 margin-top: 1.25rem;
 
+                padding-bottom: 0px;
+                padding-right: 3rem;
+                padding-left: 3rem;
             }
             }
 
@@ -1642,17 +1761,18 @@ li.drop {
                 margin-bottom: 3.125rem;
 
             .une-approche-globale {
-                margin-top: 1rem;
+                // margin-top: 1rem;
                 height: 12.5rem;
-                width: 61.8125rem;
+                // width: 61.8125rem;
                 color: #FFFFFF;
                 font-family: $butlerLight;
-                font-size: 6.25rem;
+                font-size: 5rem;
                 font-weight: 300;
                 letter-spacing: -0.091875rem;
                 line-height: 6.25rem;
                 text-align: left;
                 margin-left: 5rem;
+                padding-right: 2rem;
             }
             }
 
@@ -1675,22 +1795,35 @@ li.drop {
                 color: $color4;
                 letter-spacing: -0.022rem;
                 line-height: 2.5rem;
-                width: 26.063rem;
+                width: auto;
                 height: 11.25rem;
-                margin-left: 6.938rem;
                 margin-top: 6.438rem;
                 font-size: 1.5rem;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: auto;
+                margin-top: auto;
+                padding-bottom: 1.5rem;
+                padding-top: 5rem;
+                padding-left: 1.5rem;
+                padding-right: 1.5rem;
             }
             ul.dashed {
                 list-style-type: none;
-                width: 66.2rem;
                 font-family: $butlerLight;
-                margin-left: 6.938rem;
+                // margin-left: 6.938rem;
                 padding-left: 0.75rem;
+                margin-left: auto;
+                margin-right: auto;
+                padding-right: 1.5rem;
+                padding-left: 2.25rem;
+                margin-bottom: auto;
+                margin-top: 1.875rem;
+                padding-top: 6.25rem;
             }
             ul.dashed > li {
                 text-indent: -20px;
-                font-size: 2.5rem;
+                font-size: 2rem;
                 color: $color4;
                 line-height: 3rem;
                 margin-bottom: 2.4rem;
@@ -1799,9 +1932,11 @@ li.drop {
                     
                     .text {
                         height: 12.375rem;
-                        width: 28.5rem;
-                        margin-top: 6.25rem;
-                        margin-left: 5rem;
+                        margin-left: auto;
+                        margin-right: auto;
+                        padding-left: 1.5rem;
+                        padding-right: 1.5rem;
+                        margin-top: 1.875rem;
         
                         h1 {
                             color: $color1;
@@ -1812,11 +1947,13 @@ li.drop {
                         }
                     }
                     ul {
-                        margin-top: 2.5rem;
-                        margin-left: 5rem;
-                        margin-bottom: 5.1875rem;
                         height: 15rem;
-                        width: 28.1875rem;
+                        margin-left: auto;
+                        margin-right: auto;
+                        padding-left: 3rem;
+                        padding-right: 1.4375rem;
+                        margin-top: 1.875rem;
+                        margin-bottom: 0px;
                     }
                     ul li {
                         color: $color4;
@@ -1829,10 +1966,15 @@ li.drop {
                     .btt-side {
                         padding: 1.5rem 2.6rem;
                         background-color: $color1;
-                        margin-bottom: 5rem;
-                        margin-left: 5rem;
                         height: 5.5625rem;
                         width: 24rem;
+
+                        margin-left: 1.5rem;
+                        margin-top: 1.875rem;
+                        margin-bottom: 0px;
+                        padding-right: 2.6rem;
+                        margin-left: auto;
+                        margin-right: auto;
         
                         h4 {
                             color: $color6;
@@ -1857,23 +1999,27 @@ li.drop {
                     }
                     h1 {
                         font-family: $ibmMedium;
-                        margin-top: 5.4375rem;
+                        margin-top: 2.5rem;
                         height: 2.3125rem;
-                        width: 39.6875rem;
                         color: #0A2939;
                         font-size: 1.5rem;
                         font-weight: 500;
                         letter-spacing: -0.01875rem;
                         line-height: 1.875rem;
+                        
                     }
                     .text {
-                        padding-right: 2.1875rem;
                         font-family: $ibmLight;
                         color: $color1;
                         height: 24.375rem;
-                        width: 39.6875rem;
                         font-weight: 300;
-                        letter-spacing: -0.00625rem;                       
+                        letter-spacing: -0.00625rem; 
+                        margin-left: auto;
+                        margin-right: auto;
+                        padding-right: 2rem;
+                        padding-left: 0px;
+                        margin-bottom: 1.875rem;
+                        padding-bottom: 0px;
     
                         h4 {
                             line-height: 1.875rem;
@@ -1936,7 +2082,6 @@ li.drop {
                             h3 {
                                 font-family: $ibmReguler;
                                 height: 2.875rem;
-                                width: 19.375rem;
                                 color: #0A2939;
                                 font-family: "IBM Plex Sans";
                                 font-size: 1.125rem;
@@ -2067,6 +2212,15 @@ li.drop {
 @media (min-width: 1440px) {
     .container {
         max-width: $maxWidth;
+    }
+
+    
+    .navbar-light {
+        .navbar-nav {
+            .nav-link {
+                color: #FFFFFF;
+            }
+        }
     }
 
     .navbar-light {
