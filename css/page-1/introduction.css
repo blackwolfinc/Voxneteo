@@ -95,12 +95,21 @@ li.drop button span {
 
 @media (max-width: 575.98px) {
   .navbar {
-    margin-top: 1rem !important;
-    margin-left: 0.75rem;
+    margin-top: 1.25rem;
+    margin-left: 0;
   }
   .drop .btn-group {
     margin-top: 0;
     margin-left: -2.5rem;
+  }
+  .navbar-collapse {
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #113D53;
+    height: 100%;
+    display: inline-block;
+    width: 70%;
   }
   .navbar-light .navbar-toggler {
     color: #FFFFFF;
@@ -117,8 +126,9 @@ li.drop button span {
         -ms-flex-pack: center;
             justify-content: center;
     width: 100%;
-    margin-bottom: -2.5rem;
     padding-bottom: 0;
+    margin-top: -5rem;
+    margin-bottom: 1.25rem;
   }
   .section-1 .sett-line-section-1-top .line-section-1-top {
     border-right-width: .0625rem;
@@ -158,7 +168,7 @@ li.drop button span {
         -ms-flex-pack: center;
             justify-content: center;
     width: 100%;
-    margin-bottom: -3.75rem;
+    margin-bottom: -4.0625rem;
   }
   .section-1 .sett_arrow_section-1 .arrow-down {
     display: none;
@@ -508,8 +518,9 @@ li.drop button span {
         -ms-flex-pack: center;
             justify-content: center;
     width: 100%;
-    margin-bottom: -2.5rem;
     padding-bottom: 0;
+    margin-top: -5rem;
+    margin-bottom: 1.25rem;
   }
   .container .section-1 .sett-line-section-1-top .line-section-1-top {
     border-right-width: .0625rem;
@@ -549,7 +560,7 @@ li.drop button span {
         -ms-flex-pack: center;
             justify-content: center;
     width: 100%;
-    margin-bottom: -3.75rem;
+    margin-bottom: -4.0625rem;
   }
   .container .section-1 .sett_arrow_section-1 .arrow-down {
     display: none;
@@ -916,8 +927,9 @@ li.drop button span {
         -ms-flex-pack: center;
             justify-content: center;
     width: 100%;
-    margin-bottom: -2.5rem;
     padding-bottom: 0;
+    margin-top: -5rem;
+    margin-bottom: 1.25rem;
   }
   .container .section-1 .sett-line-section-1-top .line-section-1-top {
     border-right-width: .0625rem;
@@ -958,7 +970,8 @@ li.drop button span {
             justify-content: center;
     width: 100%;
     margin-bottom: 0;
-    margin-top: -6.25rem;
+    margin-top: 0px;
+    margin-bottom: -4.0625rem;
   }
   .container .section-1 .sett_arrow_section-1 .arrow-down {
     display: none;
@@ -1306,8 +1319,9 @@ li.drop button span {
         -ms-flex-pack: end;
             justify-content: end;
     width: 17%;
-    margin-bottom: -40px;
     padding-bottom: 0;
+    margin-bottom: 0px;
+    margin-top: -5rem;
   }
   .section-1 .sett-line-section-1-top .line-section-1-top {
     border-right-width: .125rem;

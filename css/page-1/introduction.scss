@@ -57,7 +57,10 @@ $size1: 1.6rem;
 //     font-size: 62.5%;
 // }
 
-
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    border: none;
+ }
 
 .section-1 {
     background-image: url("../../assets/images/header-homepage.jpg");
@@ -115,8 +118,10 @@ li.drop {
 
 @media (max-width: 575.98px) {
     .navbar {
-        margin-top: 1rem !important;
-        margin-left: 0.75rem;
+        // margin-top: 1rem;
+        // margin-left: 0.75rem;
+        margin-top: 1.25rem;
+        margin-left: 0;
     }
     .drop {
         .btn-group {
@@ -124,6 +129,17 @@ li.drop {
             margin-left: -2.5rem;
         }
     }
+
+    .navbar-collapse {
+        top: 0;
+        left: 0;
+        position: fixed;
+        background-color: #113D53;
+        height: 100%;
+        display: inline-block;
+        width: 70%;
+    }
+
     .navbar-light {
 
         .navbar-toggler {
@@ -144,8 +160,9 @@ li.drop {
             .sett-line-section-1-top {
                 justify-content: center;
                 width: 100%;
-                margin-bottom: -2.5rem;
                 padding-bottom: 0;
+                margin-top: -5rem;
+                margin-bottom: 1.25rem;
 
                 .line-section-1-top {
                     border-right-width: .0625rem;
@@ -184,7 +201,7 @@ li.drop {
             .sett_arrow_section-1 {  
                 justify-content: center;
                 width: 100%;
-                margin-bottom: -3.75rem;
+                margin-bottom: -4.0625rem;
 
                 .arrow-down {
                    display: none;
@@ -598,8 +615,10 @@ li.drop {
             .sett-line-section-1-top {
                 justify-content: center;
                 width: 100%;
-                margin-bottom: -2.5rem;
+                // margin-bottom: -2.5rem;
                 padding-bottom: 0;
+                margin-top: -5rem;
+                margin-bottom: 1.25rem;
 
                 .line-section-1-top {
                     border-right-width: .0625rem;
@@ -638,7 +657,7 @@ li.drop {
             .sett_arrow_section-1 {  
                 justify-content: center;
                 width: 100%;
-                margin-bottom: -3.75rem;
+                margin-bottom: -4.0625rem;
 
                 .arrow-down {
                    display: none;
@@ -1076,8 +1095,10 @@ li.drop {
             .sett-line-section-1-top {
                 justify-content: center;
                 width: 100%;
-                margin-bottom: -2.5rem;
+                // margin-bottom: -2.5rem;
                 padding-bottom: 0;
+                margin-top: -5rem;
+                margin-bottom: 1.25rem;
 
                 .line-section-1-top {
                     border-right-width: .0625rem;
@@ -1117,7 +1138,9 @@ li.drop {
                 justify-content: center;
                 width: 100%;
                 margin-bottom: 0;
-                margin-top: -6.25rem;
+                // margin-top: -6.25rem;
+                margin-top: 0px;
+                margin-bottom: -4.0625rem;
 
                 .arrow-down {
                    display: none;
@@ -1534,8 +1557,10 @@ li.drop {
             .sett-line-section-1-top {
                 justify-content: end;
                 width: 17%;
-                margin-bottom: -40px;
+                // margin-bottom: -40px;
                 padding-bottom: 0;
+                margin-bottom: 0px;
+                margin-top: -5rem;
 
                 .line-section-1-top {
                     border-right-width: .125rem;
