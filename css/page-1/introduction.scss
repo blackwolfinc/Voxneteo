@@ -1,55 +1,55 @@
 $color1: #ffffff;
-$color2: #E5E5E5;
-$color3: #F05E36;
-$color4: #0A2939;
-$color5: #002F39;
-$color6: #F66E49;
+$color2: #e5e5e5;
+$color3: #f05e36;
+$color4: #0a2939;
+$color5: #002f39;
+$color6: #f66e49;
 $color7: #021925;
-$colorLine: #113D53;
+$colorLine: #113d53;
 $maxWidth: 144rem;
-$ibmReguler: 'IBMPlexSans';
-$ibmSemiBold: 'IBMPlexSans-SemiBold';
-$ibmSemiBoldItalic: 'IBMPlexSans-SemiBoldItalic';
-$ibmLight: 'IBMPlexSans-Light';
-$ibmMedium: 'IBMPlexSans-Medium';
-$butlerLight: 'Butler-Light';
-$butler: 'Butler';
-$minionItalic: 'Minion-DisplayItalic';
+$ibmReguler: "IBMPlexSans";
+$ibmSemiBold: "IBMPlexSans-SemiBold";
+$ibmSemiBoldItalic: "IBMPlexSans-SemiBoldItalic";
+$ibmLight: "IBMPlexSans-Light";
+$ibmMedium: "IBMPlexSans-Medium";
+$butlerLight: "Butler-Light";
+$butler: "Butler";
+$minionItalic: "Minion-DisplayItalic";
 $size1: 1.6rem;
 
 @font-face {
-    font-family: $ibmReguler;
-    src: url('../../assets/fonts/webfont-ibm-plex/IBMPlexSans.ttf');
+  font-family: $ibmReguler;
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans.ttf");
 }
 @font-face {
-    font-family: $ibmSemiBold;
-    src: url('../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBold.ttf');
+  font-family: $ibmSemiBold;
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBold.ttf");
 }
 @font-face {
-    font-family: $ibmLight;
-    src: url('../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Light.ttf');
+  font-family: $ibmLight;
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Light.ttf");
 }
 @font-face {
-    font-family: $ibmMedium;
-    src: url('../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Medium.ttf');
+  font-family: $ibmMedium;
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Medium.ttf");
 }
 @font-face {
-    font-family: $ibmSemiBoldItalic;
-    src: url('../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBoldItalic.ttf');
-}
-
-@font-face {
-    font-family: $butlerLight;
-    src: url('../../assets/fonts/webfont-butler/Butler-Light.ttf');
-}
-@font-face {
-    font-family: $butler;
-    src: url('../../assets/fonts/webfont-butler/Butler.ttf');
+  font-family: $ibmSemiBoldItalic;
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBoldItalic.ttf");
 }
 
 @font-face {
-    font-family: $minionItalic;
-    src: url('../../assets/fonts/webfont-minion/Minion-DisplayItalic.ttf');
+  font-family: $butlerLight;
+  src: url("../../assets/fonts/webfont-butler/Butler-Light.ttf");
+}
+@font-face {
+  font-family: $butler;
+  src: url("../../assets/fonts/webfont-butler/Butler.ttf");
+}
+
+@font-face {
+  font-family: $minionItalic;
+  src: url("../../assets/fonts/webfont-minion/Minion-DisplayItalic.ttf");
 }
 
 // * {
@@ -58,2772 +58,2870 @@ $size1: 1.6rem;
 // }
 
 hr {
-  border: 1.5px solid #113D53;
+  border: 1.5px solid #113d53;
 }
 
 li.hidden {
-    ul {
-        list-style: square;
-        margin-left: 0;
-        li {
-            color: white;
-            font-family: $ibmLight;
-            font-size: .875rem;
-            letter-spacing: -0.00625rem;
-            line-height: 1.125rem;
-            margin-bottom: 1.5rem;
-        }
-
-        li.first {
-            color: #F05E36;
-        }
+  ul {
+    list-style: square;
+    margin-left: 0;
+    li {
+      color: white;
+      font-family: $ibmLight;
+      font-size: 0.875rem;
+      letter-spacing: -0.00625rem;
+      line-height: 1.125rem;
+      margin-bottom: 1.5rem;
     }
+
+    li.first {
+      color: #f05e36;
+    }
+  }
 }
 
 .custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-    border: none;
- }
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  border: none;
+}
 
 .section-1 {
-    background-image: url("../../assets/images/header-homepage.jpg");
-    max-height: 100%;
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* Needed to position the navbar */
+  background-image: url("../../assets/images/header-homepage.jpg");
+  max-height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Needed to position the navbar */
 
-    .navbar .container .navbar-toggler {
-        margin-left: -1rem;
-    }
-    ul li a {
-        width: auto;
-    }
+  .navbar .container .navbar-toggler {
+    margin-left: -1rem;
+  }
+  ul li a {
+    width: auto;
+  }
 }
 
 li.nav-item {
-    margin-left: 0;
+  margin-left: 0;
 
-    .nav-link, button span, .dropdown-item {
-        font-family: $ibmSemiBold;
-        font-weight: 600;
-        font-size: 18px;
-    }
+  .nav-link,
+  button span,
+  .dropdown-item {
+    font-family: $ibmSemiBold;
+    font-weight: 600;
+    font-size: 18px;
+  }
 }
 li.drop {
-    // margin-right: 10.5rem;
+  // margin-right: 10.5rem;
 
-    .btn-group {
-        margin-top: -0.5rem;
+  .btn-group {
+    margin-top: -0.5rem;
 
-        .dropdown-menu {
-            .dropdown-item {
-                font-size: 1rem;
-            }
-            .dropdown-item.first {
-                color: $color3;
-                margin-bottom: 0.5rem;
-            }
-        }
-    }
-    button.btn {
-        border-radius: 2.4rem;
-        padding: 1rem 2.5rem;
-        background-color: transparent;
-    }
-    button.btn-danger {
-        // border-color: white;
-        border: 2px solid white;
-    }
-    button.dropdown-toggle {
+    .dropdown-menu {
+      .dropdown-item {
+        font-size: 1rem;
+      }
+      .dropdown-item.first {
         color: $color3;
+        margin-bottom: 0.5rem;
+      }
     }
-    button {
-        span {
-            margin-right: 2rem;
-            color: white;
-        }
+  }
+  button.btn {
+    border-radius: 2.4rem;
+    padding: 1rem 2.5rem;
+    background-color: transparent;
+  }
+  button.btn-danger {
+    // border-color: white;
+    border: 2px solid white;
+  }
+  button.dropdown-toggle {
+    color: $color3;
+  }
+  button {
+    span {
+      margin-right: 2rem;
+      color: white;
     }
+  }
 }
 .show {
-    .btn-danger.dropdown-toggle {
-        background-color: transparent;
-        border: 2px solid white;
-        color: $color3;
-    }
+  .btn-danger.dropdown-toggle {
+    background-color: transparent;
+    border: 2px solid white;
+    color: $color3;
+  }
 }
 
 .navbar-expand-lg .navbar-nav .dropdown-menu {
-    position: absolute;
-    top: 3.9rem;
-    left: 1.25rem;
-    padding-bottom: 1rem;
-    padding-right: 1.5rem;
-    width: 13rem;
+  position: absolute;
+  top: 3.9rem;
+  left: 1.25rem;
+  padding-bottom: 1rem;
+  padding-right: 1.5rem;
+  width: 13rem;
 }
 
-.navbar-light .navbar-nav .nav-link:focus,  .navbar-light .navbar-nav .nav-link:hover{
-     color:$color1;
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: $color1;
 }
 
 li.hidden ul li {
-    font-family: $ibmSemiBold;
-    font-weight: 600;
-    font-size: 1rem;
+  font-family: $ibmSemiBold;
+  font-weight: 600;
+  font-size: 1rem;
 }
 
 .section-4 {
-    .row {
-        button {
-            margin-top: 5rem;
-        }
+  .row {
+    button {
+      margin-top: 5rem;
     }
+  }
 }
 
 @media (max-width: 575.98px) {
-    .navbar {
-        // margin-top: 1rem;
-        // margin-left: 0.75rem;
-        margin-top: 1.25rem;
+  .navbar {
+    // margin-top: 1rem;
+    // margin-left: 0.75rem;
+    margin-top: 1.25rem;
+    margin-left: 0;
+  }
+
+  .navbar-light {
+    .navbar-nav {
+      .nav-link {
+        color: #ffffff;
+      }
+    }
+  }
+
+  .drop {
+    .btn-group {
+      margin-top: 0;
+      margin-left: -2.5rem;
+    }
+  }
+
+  .navbar-collapse {
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #021925;
+    height: 100%;
+    display: inline-block;
+    width: 95%;
+  }
+
+  .navbar-light {
+    .navbar-toggler {
+      color: #ffffff;
+      border: none;
+    }
+  }
+
+  nav {
+    margin-top: -1.875rem;
+  }
+  .section-1 {
+    padding-bottom: 64px;
+
+    ul {
+      margin: 1.5rem;
+
+      hr {
+        box-sizing: border-box;
+        height: 1px;
+        width: 287px;
+        border: 1.5px solid #113d53;
+      }
+
+      li {
         margin-left: 0;
-    }
 
-    
-    .navbar-light {
-        .navbar-nav {
-            .nav-link {
-                color: #FFFFFF;
-            }
+        .drop {
+          display: none;
         }
-    }
 
-    .drop {
-        .btn-group {
-            margin-top: 0;
-            margin-left: -2.5rem;
+        a {
+          // height: 1.4375rem;
+          // width: 7.33125rem;
+          color: #ffffff;
+          font-family: $ibmLight;
+          font-size: 1.125rem;
+          font-weight: 600;
+          letter-spacing: -0.01625rem;
+          line-height: 1.4375rem;
+          padding-bottom: 1.5rem;
         }
+      }
     }
 
-    .navbar-collapse {
-        top: 0;
-        left: 0;
-        position: fixed;
-        background-color: #021925;
-        height: 100%;
+    .sett-line-section-1-top {
+      justify-content: center;
+      width: 100%;
+      padding-bottom: 0;
+      margin-top: -5rem;
+      margin-bottom: 1.25rem;
+
+      .line-section-1-top {
+        border-right-width: 0.0625rem;
+        border-right-style: solid;
+        border-color: white;
+        height: 2.5rem;
         display: inline-block;
-        width: 95%;
+      }
     }
 
-    .navbar-light {
+    .sett_img {
+      display: flex !important;
+      width: 100%;
+      justify-content: center;
 
-        .navbar-toggler {
-            color: #FFFFFF;
-            border: none;
+      .logo-logo-v-1-copy-4 {
+        height: 64px;
+        width: 186px;
+      }
+    }
+
+    .une-approche-globale {
+      margin-top: 16px;
+      height: 114px;
+      width: 304px;
+      color: #ffffff;
+      font-family: Butler;
+      font-size: 34px;
+      font-weight: 300;
+      letter-spacing: -0.5px;
+      line-height: 38px;
+      text-align: center;
+      display: inline-block;
+    }
+
+    .sett_arrow_section-1 {
+      justify-content: center;
+      width: 100%;
+      margin-bottom: -4.0625rem;
+
+      .arrow-down {
+        display: none;
+      }
+
+      .line-section-1 {
+        border-right-width: 0.0625rem;
+        border-right-style: solid;
+        border-color: white;
+        height: 2.5rem;
+        display: inline-block;
+      }
+    }
+  }
+
+  .section-2 {
+    .content-left {
+      h1 {
+        margin: 19rem 7rem;
+        color: #0a2939;
+        font-family: $ibmMedium;
+        font-size: 1.125rem;
+        font-weight: 500;
+        letter-spacing: -0.01625rem;
+        line-height: 1.875rem;
+        margin: 1.25rem 2rem;
+        display: inline-block;
+      }
+      ul.dashed {
+        list-style-type: none;
+        width: 19rem;
+        font-family: $butlerLight;
+        margin-bottom: 2.25rem;
+        margin-top: 2rem;
+      }
+      ul.dashed > li {
+        text-indent: -20px;
+        font-size: 2.5rem;
+        color: $color4;
+        margin-bottom: 1rem;
+        font-family: Butler;
+        font-size: 1.75rem;
+        font-weight: 300;
+        letter-spacing: 0;
+        line-height: 1rem;
+        margin-left: 1.5rem;
+        height: 1.75rem;
+        width: 19rem;
+      }
+      ul.dashed > li:before {
+        content: "-";
+        text-indent: -1.25rem;
+        color: $color3;
+        margin-right: 0.8125rem;
+      }
+      ul.dashed .li-first {
+        color: $color3;
+      }
+    }
+    .content-right {
+      .overlay-img {
+        margin-top: 0;
+
+        #overlay {
+          max-width: 100%;
+          background-color: $color4;
         }
-
-    }
-
-    nav {
-        margin-top: -1.875rem;
-    }
-    .section-1 {
-        padding-bottom: 64px;
-
-        
-        ul {
-            margin: 1.5rem;
-
-            hr {
-                box-sizing: border-box;
-                height: 1px;
-                width: 287px;
-                border: 1.5px solid #113D53;
-            }
-
-            li {
-                margin-left: 0;
-
-                .drop {
-                    display: none;
-                }
-
-                a {
-                    // height: 1.4375rem;
-                    // width: 7.33125rem;
-                    color: #FFFFFF;
-                    font-family: $ibmLight;
-                    font-size: 1.125rem;
-                    font-weight: 600;
-                    letter-spacing: -0.01625rem;
-                    line-height: 1.4375rem;
-                    padding-bottom: 1.5rem;
-                }
-            }
+        img {
+          max-width: 100%;
+          height: auto;
+          margin-bottom: 2rem;
         }
+      }
+      .text {
+        h4 {
+          color: #0a2939;
+          font-family: $ibmLight;
+          font-size: 0.875rem;
+          font-weight: 300;
+          letter-spacing: -0.005625rem;
+          line-height: 1.625rem;
+          display: inline-block;
+        }
+      }
 
-            .sett-line-section-1-top {
-                justify-content: center;
-                width: 100%;
-                padding-bottom: 0;
-                margin-top: -5rem;
-                margin-bottom: 1.25rem;
+      button {
+        margin-top: 2rem;
+        font-family: $ibmMedium;
+        font-size: 1rem;
+        height: 3rem;
+        width: 19rem;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+      }
 
-                .line-section-1-top {
-                    border-right-width: .0625rem;
-                    border-right-style: solid;
-                    border-color: white;
-                    height: 2.5rem;
-                    display: inline-block;
-                }
-            }
+      button.btn {
+        border-radius: 1.5rem;
+      }
 
-            .sett_img {
-                display: flex !important;
-                width: 100%;
-                justify-content: center;
+      button.btn-primary {
+        background-color: $color3;
+        border-color: $color3;
+      }
 
-            .logo-logo-v-1-copy-4 {
-                height: 64px;
-                width: 186px; 
-                }
-            }
-
-            .une-approche-globale {
-                margin-top: 16px;
-                height: 114px;
-                width: 304px;
-                color: #FFFFFF;
-                font-family: Butler;
-                font-size: 34px;
-                font-weight: 300;
-                letter-spacing: -0.5px;
-                line-height: 38px;
-                text-align: center;
-                display: inline-block;
-            }
-
-            .sett_arrow_section-1 {  
-                justify-content: center;
-                width: 100%;
-                margin-bottom: -4.0625rem;
-
-                .arrow-down {
-                   display: none;
-                }
-
-                .line-section-1 {
-                    border-right-width: .0625rem;
-                    border-right-style: solid;
-                    border-color: white;
-                    height: 2.5rem;
-                    display: inline-block;
-                }
-            }
+      button.btn-primary:hover {
+        background-color: $color3;
+        border-color: $color3;
+      }
     }
+  }
 
-    .section-2 {
+  .section-3 {
+    .content {
+      padding-top: 3rem;
 
-        .content-left {          
-    
+      .row {
+        background-color: $color3;
+        flex-direction: column-reverse;
+
+        .content-left {
+          margin-left: 0.35rem;
+          padding-left: 0;
+
+          .sett-line-section-3 {
+            display: none;
+
+            span {
+              display: inline-block;
+              height: 61px;
+              color: rgb(255, 255, 255);
+              border-right: 1px solid rgb(255, 255, 255);
+            }
+
+            img {
+              display: none;
+            }
+          }
+
+          .text {
+            height: 7.125rem;
+            width: 19.0625rem;
+            padding-left: 1rem;
+
             h1 {
-                margin: 19rem 7rem;;
-                color: #0A2939;
-                font-family: $ibmMedium;
+              color: $color1;
+              font-family: $butler;
+              font-size: 2.125rem;
+              letter-spacing: -0.03125rem;
+              line-height: 2.375rem;
+            }
+          }
+          ul {
+            margin-top: 1.0625rem;
+            padding-left: 2rem;
+            height: 12.75rem;
+            width: 19rem;
+          }
+          ul li {
+            color: $color4;
+            font-family: $ibmMedium;
+            font-size: 1rem;
+            font-weight: 500;
+            letter-spacing: -0.015rem;
+            line-height: 2.125rem;
+          }
+          .btt-side {
+            padding: 1.5rem 2.6rem;
+            background-color: $color1;
+            margin-bottom: 2.3125rem;
+            height: 9rem;
+            width: 19rem;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+
+            h4 {
+              color: $color6;
+              font-family: $ibmSemiBold;
+
+              height: 3.5rem;
+              width: 14rem;
+              font-size: 1.25rem;
+              font-weight: 500;
+              letter-spacing: 0.15625rem;
+              line-height: 1.75rem;
+              text-align: center;
+            }
+            h2 {
+              color: $color5;
+              font-family: $minionItalic;
+              text-align: center;
+              font-size: 1.25rem;
+            }
+          }
+        }
+        .content-right {
+          padding: 1.5rem 1.9375rem;
+
+          img {
+            max-width: 100%;
+          }
+          h1 {
+            display: none;
+          }
+          .text {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  .section-4 {
+    padding: 1.5rem 2rem;
+
+    .row {
+      .title,
+      .card-title,
+      .card-text h3 {
+        color: $color4;
+      }
+
+      .title {
+        height: 2.375rem;
+        width: 19.0625rem;
+        color: #0a2939;
+        font-family: $butler;
+        font-size: 2.125rem;
+        letter-spacing: -0.03125rem;
+        line-height: 2.375rem;
+      }
+      .card-list-image {
+        flex-direction: column;
+        .card {
+          margin-top: 1.875rem;
+          .card-body {
+            h1 {
+              color: #0a2939;
+              font-family: $butler;
+              font-size: 2rem;
+              letter-spacing: -0.029375rem;
+              line-height: 2.8125rem;
+            }
+            .card-text {
+              h4 {
+                color: #f66e49;
+                font-family: $ibmLight;
+                font-size: 1rem;
+                letter-spacing: 0;
+                line-height: 2.8125rem;
+              }
+              h3 {
+                color: #0a2939;
+                font-family: $ibmReguler;
                 font-size: 1.125rem;
                 font-weight: 500;
                 letter-spacing: -0.01625rem;
-                line-height: 1.875rem;
-                margin: 1.25rem 2rem;
-                display: inline-block;
+                line-height: 1.625rem;
+              }
             }
-            ul.dashed {
-                list-style-type: none;
-                width: 19rem;
-                font-family: $butlerLight;
-                margin-bottom: 2.25rem;
-                margin-top: 2rem;
-            }
-            ul.dashed > li {
-                text-indent: -20px;
-                font-size: 2.5rem;
-                color: $color4;
-                margin-bottom: 1rem;
-                font-family: Butler;
-                font-size: 1.75rem;
-                font-weight: 300;
-                letter-spacing: 0;
-                line-height: 1rem;
-                margin-left: 1.5rem;
-                height: 1.75rem;
-                width: 19rem;
-            }
-            ul.dashed > li:before {
-                content: "-";
-                text-indent: -1.25rem;
-                color: $color3;
-                margin-right: .8125rem;
-            }
-            ul.dashed .li-first {
-                color: $color3;
-            }
+          }
         }
-        .content-right {
-            
-            .overlay-img {
-                margin-top: 0;
-    
-                #overlay {
-                    max-width: 100%;
-                    background-color: $color4;
-                }
-                img {
-                    max-width: 100%;
-                    height: auto;
-                    margin-bottom: 2rem;
-
-                }
-            }
-            .text {
-                
-                h4 {
-                    color: #0A2939;
-                    font-family: $ibmLight;
-                    font-size: .875rem;
-                    font-weight: 300;
-                    letter-spacing: -0.005625rem;
-                    line-height: 1.625rem;
-                    display: inline-block;
-                }
-            }
-
-            button {
-                margin-top: 2rem;
-                font-family: $ibmMedium;
-                font-size: 1rem;
-                height: 3rem;
-                width: 19rem;
-                margin-right: auto;
-                margin-left: auto;
-                display: block;          
-            }
-
-            button.btn {
-                border-radius: 1.5rem
-            }
-
-            button.btn-primary {
-                background-color: $color3;
-                border-color: $color3;
-            }
-
-            button.btn-primary:hover {
-                background-color: $color3;
-                border-color: $color3;
-            }
-
-        } 
+      }
+      button {
+        height: 5rem;
+        width: 20rem;
+        border-radius: 1.5rem;
+        background-color: #0a2939;
+        font-size: 1rem;
+        padding: 0.8125rem 3.8125rem;
+        margin-top: 3.375rem;
+        margin-bottom: 1.5rem;
+      }
+      button.btn {
+        border-radius: 2.5rem;
+      }
+      button.btn-primary {
+        background-color: $color4;
+        border-color: $color4;
+      }
+      button.btn-primary:hover {
+        background-color: $color4;
+        border-color: $color4;
+      }
     }
+  }
+  .section-6 {
+    .row {
+      background-color: $color7;
+      color: $color1;
+      height: 39.5625rem;
 
-    .section-3 {
-        .content {
-            padding-top: 3rem;
-    
-            .row {
-                background-color: $color3;
-                flex-direction: column-reverse;
-    
-                .content-left {
-                    margin-left: 0.35rem;
-                    padding-left: 0;
+      .logo-center {
+        margin: 5.8rem 0;
 
-                    .sett-line-section-3 {
-                        display: none;
-        
-                        span {
-                            display: inline-block;
-                            height: 61px;
-                            color: rgb(255, 255, 255);
-                            border-right: 1px solid rgb(255, 255, 255);
-                        }
-
-                        img {
-                            display: none;
-                        }
-                    }
-                    
-                    .text {
-                        height: 7.125rem;
-                        width: 19.0625rem;
-                        padding-left: 1rem;                       
-        
-                        h1 {
-                            color: $color1;
-                            font-family: $butler;
-                            font-size: 2.125rem;
-                            letter-spacing: -0.03125rem;
-                            line-height: 2.375rem;
-                        }
-                    }
-                    ul {
-                        margin-top: 1.0625rem;
-                        padding-left: 2rem;
-                        height: 12.75rem;
-                        width: 19rem;                        
-                    }
-                    ul li {
-                        color: $color4;
-                        font-family: $ibmMedium;
-                        font-size: 1rem;
-                        font-weight: 500;
-                        letter-spacing: -0.015rem;
-                        line-height: 2.125rem;
-                    }
-                    .btt-side {
-                        padding: 1.5rem 2.6rem;
-                        background-color: $color1;
-                        margin-bottom: 2.3125rem;
-                        height: 9rem;
-                        width: 19rem;
-                        display: block;
-                        margin-left: auto;
-                        margin-right: auto;
-        
-                        h4 {
-                            color: $color6;
-                            font-family: $ibmSemiBold;
-
-                            height: 3.5rem;
-                            width: 14rem;
-                            font-size: 1.25rem;
-                            font-weight: 500;
-                            letter-spacing: .15625rem;
-                            line-height: 1.75rem;
-                            text-align: center;
-                        }
-                        h2 {
-                            color: $color5;
-                            font-family: $minionItalic;
-                            text-align: center;
-                            font-size: 1.25rem;
-                        }
-                    }
-                }
-                .content-right {
-                    padding: 1.5rem 1.9375rem;
-
-                    img {
-                        max-width: 100%;
-                        
-                    }
-                    h1 {
-                        display: none;                     
-                    }
-                    .text {
-                        display: none;                                            
-                    } 
-                }
-            }
+        img {
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
         }
-    }
+      }
+      hr {
+        text-decoration: none;
+        border-bottom: 2px solid $colorLine;
+        height: 1px;
+        width: 80%;
+        margin-bottom: 1.9375rem;
+      }
+      .content {
+        width: 80%;
+        padding-left: 0;
+        padding-right: 0;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
 
-    .section-4 {
-        padding: 1.5rem 2rem;
-
-        
-        .row {
-            .title, .card-title, .card-text h3 {
-                color: $color4;
-            }
-        
-            .title {
-                height: 2.375rem;
-                width: 19.0625rem;
-                color: #0A2939;
-                font-family: $butler;
-                font-size: 2.125rem;
-                letter-spacing: -0.03125rem;
-                line-height: 2.375rem;
-            }
-            .card-list-image {
-                flex-direction: column;
-                .card {
-                    margin-top: 1.875rem;
-                    .card-body {                        
-                        h1 {
-                            color: #0A2939;
-                            font-family: $butler;
-                            font-size: 2rem;
-                            letter-spacing: -0.029375rem;
-                            line-height: 2.8125rem;
-                        }
-                        .card-text {
-                            h4 {
-                                color: #F66E49;
-                                font-family: $ibmLight;
-                                font-size: 1rem;
-                                letter-spacing: 0;
-                                line-height: 2.8125rem; 
-                            }
-                            h3 {
-                                color: #0A2939;
-                                font-family: $ibmReguler;
-                                font-size: 1.125rem;
-                                font-weight: 500;
-                                letter-spacing: -0.01625rem;
-                                line-height: 1.625rem;
-                            }
-                        }
-                    }
-                }
-            }
-            button {                
-                height: 5rem;
-                width: 20rem;
-                border-radius: 1.5rem;
-                background-color: #0A2939;
-                font-size: 1rem;
-                padding: .8125rem 3.8125rem;
-                margin-top: 3.375rem;  
-                margin-bottom: 1.5rem;                                         
-            }
-            button.btn {
-                border-radius: 2.5rem;
-            }
-            button.btn-primary {
-                background-color: $color4;
-                border-color: $color4;
-            }
-            button.btn-primary:hover {
-                background-color: $color4;
-                border-color: $color4;
-            }
+        .text {
+          margin: 0 auto;
+          text-align: center;
         }
-        
-    }
-    .section-6 {
-        .row {
-            background-color: $color7;
-            color: $color1;
-            height: 39.5625rem;
-    
-            .logo-center {
-                margin: 5.8rem 0;
-                
-                img {
-                    margin-left: auto;
-                    margin-right: auto;
-                    display: block;
-                }
-            }
-            hr {
-                text-decoration: none; 
-                border-bottom: 2px solid $colorLine;
-                height: 1px;
-                width: 80%;
-                margin-bottom: 1.9375rem;
-            }
-            .content {
-                width: 80%;
-                padding-left: 0;
-                padding-right: 0;
-                flex-direction: column;
-                margin-left: auto;
-                margin-right: auto;                
-    
-                .text {                                      
-                    margin: 0 auto;
-                    text-align: center;
-                }
 
-                .left {
- 
-                }
-
-                .center {
-                    
-                }
-
-                hr {
-                    width: 100%;
-                }
-
-                h5 {
-                    height: .9375rem;
-                    width: 11.6875rem;
-                    font-family: $ibmMedium;
-                    color: #FFFFFF;
-                    font-size: .75rem;
-                    font-weight: 500;
-                    letter-spacing: .03125rem;
-                    line-height: .9375rem;
-                    margin-bottom: 2rem;
-                }
-                .right {
-                    height: 1.8125rem;
-                    width: 15.1875rem;
-                    margin-left: auto;
-                    margin-right: auto;
-                    display: block;
-                    margin-bottom: auto;
-                    padding-left: 1.5rem;
-
-                    img {
-                        margin-right: .3125rem;
-                    }
-                    h4 {
-                        font-family: $ibmReguler;
-                        font-size: .75rem;
-                    }
-                }
-            }
-            .end {
-                display: none;
-            }
+        .left {
         }
+
+        .center {
+        }
+
+        hr {
+          width: 100%;
+        }
+
+        h5 {
+          height: 0.9375rem;
+          width: 11.6875rem;
+          font-family: $ibmMedium;
+          color: #ffffff;
+          font-size: 0.75rem;
+          font-weight: 500;
+          letter-spacing: 0.03125rem;
+          line-height: 0.9375rem;
+          margin-bottom: 2rem;
+        }
+        .right {
+          height: 1.8125rem;
+          width: 15.1875rem;
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          margin-bottom: auto;
+          padding-left: 1.5rem;
+
+          img {
+            margin-right: 0.3125rem;
+          }
+          h4 {
+            font-family: $ibmReguler;
+            font-size: 0.75rem;
+          }
+        }
+      }
+      .end {
+        display: none;
+      }
     }
-    
+  }
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
-    .navbar {
-        margin-top: 1rem !important;
-        margin-left: 0.75rem;
-    }
+  .navbar {
+    margin-top: 1rem !important;
+    margin-left: 0.75rem;
+  }
 
-    li.nav-item {
-        margin-top: 24px;
-        margin-left: 1.5rem;
-    
-        .nav-link, button span, .dropdown-item {
-            font-family: $ibmSemiBold;
-            font-weight: 600;
-            font-size: 1.05rem;
-        }
-    }
+  li.nav-item {
+    margin-top: 24px;
+    margin-left: 1.5rem;
 
-    
-    .navbar-light {
-        .navbar-nav {
-            .nav-link {
-                color: #FFFFFF;
-            }
-        }
+    .nav-link,
+    button span,
+    .dropdown-item {
+      font-family: $ibmSemiBold;
+      font-weight: 600;
+      font-size: 1.05rem;
     }
-    .drop {
-        .btn-group {
-            margin-top: 0;
-            margin-left: -2.5rem;
-        }
-    }
+  }
 
+  .navbar-light {
     .navbar-nav {
-        top: 0;
-        left: 0;
-        position: fixed;
-        background-color: #021925;
-        height: 100%;
-        display: inline-block;
-        width: 95%;
+      .nav-link {
+        color: #ffffff;
+      }
     }
-    .navbar-light {
-
-        .navbar-toggler {
-            color: #FFFFFF;
-            border: none;
-        }
-
+  }
+  .drop {
+    .btn-group {
+      margin-top: 0;
+      margin-left: -2.5rem;
     }
+  }
 
-    nav {
-        margin-top: -1.875rem;
+  .navbar-nav {
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #021925;
+    height: 100%;
+    display: inline-block;
+    width: 95%;
+  }
+  .navbar-light {
+    .navbar-toggler {
+      color: #ffffff;
+      border: none;
     }
-    .container {
-        max-width: 100%;
+  }
+
+  nav {
+    margin-top: -1.875rem;
+  }
+  .container {
+    max-width: 100%;
 
     .section-1 {
-        padding-bottom: 64px;
+      padding-bottom: 64px;
 
-            
+      .sett-line-section-1-top {
+        justify-content: center;
+        width: 100%;
+        // margin-bottom: -2.5rem;
+        padding-bottom: 0;
+        margin-top: -5rem;
+        margin-bottom: 1.25rem;
 
-            .sett-line-section-1-top {
-                justify-content: center;
-                width: 100%;
-                // margin-bottom: -2.5rem;
-                padding-bottom: 0;
-                margin-top: -5rem;
-                margin-bottom: 1.25rem;
+        .line-section-1-top {
+          border-right-width: 0.0625rem;
+          border-right-style: solid;
+          border-color: white;
+          height: 2.5rem;
+          display: inline-block;
+        }
+      }
 
-                .line-section-1-top {
-                    border-right-width: .0625rem;
-                    border-right-style: solid;
-                    border-color: white;
-                    height: 2.5rem;
-                    display: inline-block;
-                }
-            }
+      .sett_img {
+        display: flex !important;
+        width: 100%;
+        justify-content: center;
 
-            .sett_img {
-                display: flex !important;
-                width: 100%;
-                justify-content: center;
+        .logo-logo-v-1-copy-4 {
+          height: 64px;
+          width: 186px;
+        }
+      }
 
-            .logo-logo-v-1-copy-4 {
-                height: 64px;
-                width: 186px; 
-                }
-            }
+      .une-approche-globale {
+        margin-top: 16px;
+        height: 114px;
+        width: 304px;
+        color: #ffffff;
+        font-family: Butler;
+        font-size: 34px;
+        font-weight: 300;
+        letter-spacing: -0.5px;
+        line-height: 38px;
+        text-align: center;
+        display: inline-block;
+      }
 
-            .une-approche-globale {
-                margin-top: 16px;
-                height: 114px;
-                width: 304px;
-                color: #FFFFFF;
-                font-family: Butler;
-                font-size: 34px;
-                font-weight: 300;
-                letter-spacing: -0.5px;
-                line-height: 38px;
-                text-align: center;
-                display: inline-block;
-            }
+      .sett_arrow_section-1 {
+        justify-content: center;
+        width: 100%;
+        margin-bottom: -4.0625rem;
 
-            .sett_arrow_section-1 {  
-                justify-content: center;
-                width: 100%;
-                margin-bottom: -4.0625rem;
+        .arrow-down {
+          display: none;
+        }
 
-                .arrow-down {
-                   display: none;
-                }
-
-                .line-section-1 {
-                    border-right-width: .0625rem;
-                    border-right-style: solid;
-                    border-color: white;
-                    height: 2.5rem;
-                    display: inline-block;
-                }
-            }
+        .line-section-1 {
+          border-right-width: 0.0625rem;
+          border-right-style: solid;
+          border-color: white;
+          height: 2.5rem;
+          display: inline-block;
+        }
+      }
     }
 
     .section-2 {
-
-        .content-left {          
-    
-            h1 {
-                margin: 19rem 7rem;;
-                color: #0A2939;
-                font-family: $ibmMedium;
-                font-size: 1.125rem;
-                font-weight: 500;
-                letter-spacing: -0.01625rem;
-                line-height: 1.875rem;
-                margin: 1.25rem 2rem;
-                display: inline-block;
-            }
-            ul.dashed {
-                list-style-type: none;
-                width: 19rem;
-                font-family: $butlerLight;
-                margin-bottom: 2.25rem;
-                margin-top: 2rem;
-            }
-            ul.dashed > li {
-                text-indent: -20px;
-                font-size: 2.5rem;
-                color: $color4;
-                margin-bottom: 1rem;
-                font-family: Butler;
-                font-size: 1.75rem;
-                font-weight: 300;
-                letter-spacing: 0;
-                line-height: 1rem;
-                margin-left: 1.5rem;
-                height: 1.75rem;
-                width: 19rem;
-            }
-            ul.dashed > li:before {
-                content: "-";
-                text-indent: -1.25rem;
-                color: $color3;
-                margin-right: .8125rem;
-            }
-            ul.dashed .li-first {
-                color: $color3;
-            }
+      .content-left {
+        h1 {
+          margin: 19rem 7rem;
+          color: #0a2939;
+          font-family: $ibmMedium;
+          font-size: 1.125rem;
+          font-weight: 500;
+          letter-spacing: -0.01625rem;
+          line-height: 1.875rem;
+          margin: 1.25rem 2rem;
+          display: inline-block;
         }
-        .content-right {
-            
-            .overlay-img {
-                margin-top: 0;
-    
-                #overlay {
-                    max-width: 100%;
-                    background-color: $color4;
-                }
-                img {
-                    max-width: 100%;
-                    height: auto;
-                    margin-bottom: 2rem;
+        ul.dashed {
+          list-style: none;
+          list-style-type: none;
+          width: 19rem;
+          font-family: $butlerLight;
+          margin-bottom: 2.25rem;
+          margin-top: 2rem;
+        }
+        ul.dashed > li {
+          list-style: none;
+          text-indent: -20px;
+          font-size: 2.5rem;
+          color: $color4;
+          margin-bottom: 1rem;
+          font-family: Butler;
+          font-size: 1.75rem;
+          font-weight: 300;
+          letter-spacing: 0;
+          line-height: 1rem;
+          margin-left: 1.5rem;
+          height: 1.75rem;
+          width: 19rem;
+        }
+        ul.dashed > li:before {
+          content: "-";
+          text-indent: -1.25rem;
+          color: $color3;
+          margin-right: 0.8125rem;
+        }
+        ul.dashed .li-first {
+          color: $color3;
+        }
+      }
+      .content-right {
+        .overlay-img {
+          margin-top: 0;
 
-                }
-            }
-            .text {
-                
-                h4 {
-                    color: #0A2939;
-                    font-family: $ibmLight;
-                    font-size: .875rem;
-                    font-weight: 300;
-                    letter-spacing: -0.005625rem;
-                    line-height: 1.625rem;
-                    display: inline-block;
-                }
-            }
+          #overlay {
+            max-width: 100%;
+            background-color: $color4;
+          }
+          img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 2rem;
+          }
+        }
+        .text {
+          h4 {
+            color: #0a2939;
+            font-family: $ibmLight;
+            font-size: 0.875rem;
+            font-weight: 300;
+            letter-spacing: -0.005625rem;
+            line-height: 1.625rem;
+            display: inline-block;
+          }
+        }
 
-            button {
-                margin-top: 2rem;
-                font-family: $ibmMedium;
-                font-size: 1rem;
-                height: 3rem;
-                width: 19rem;
-                margin-right: auto;
-                margin-left: auto;
-                display: block;          
-            }
+        button {
+          margin-top: 2rem;
+          font-family: $ibmMedium;
+          font-size: 1rem;
+          height: 3rem;
+          width: 19rem;
+          margin-right: auto;
+          margin-left: auto;
+          display: block;
+        }
 
-            button.btn {
-                border-radius: 1.5rem
-            }
+        button.btn {
+          border-radius: 1.5rem;
+        }
 
-            button.btn-primary {
-                background-color: $color3;
-                border-color: $color3;
-            }
+        button.btn-primary {
+          background-color: $color3;
+          border-color: $color3;
+        }
 
-            button.btn-primary:hover {
-                background-color: $color3;
-                border-color: $color3;
-            }
-
-        } 
+        button.btn-primary:hover {
+          background-color: $color3;
+          border-color: $color3;
+        }
+      }
     }
 
     .section-3 {
-        .content {
-            padding-top: 3rem;
-    
-            .row {
-                background-color: $color3;
-                flex-direction: column-reverse;
-    
-                .content-left {
-                    margin-left: 0.35rem;
-                    padding-left: 0;
+      .content {
+        padding-top: 3rem;
 
-                    .sett-line-section-3 {
-                        display: none;
-        
-                        span {
-                            display: inline-block;
-                            height: 61px;
-                            color: rgb(255, 255, 255);
-                            border-right: 1px solid rgb(255, 255, 255);
-                        }
-
-                        img {
-                            display: none;
-                        }
-                    }
-                    
-                    .text {
-                        height: 7.125rem;
-                        width: 19.0625rem;
-                        padding-left: 1rem;                       
-        
-                        h1 {
-                            color: $color1;
-                            font-family: $butler;
-                            font-size: 2.125rem;
-                            letter-spacing: -0.03125rem;
-                            line-height: 2.375rem;
-                        }
-                    }
-                    ul {
-                        margin-top: 1.0625rem;
-                        padding-left: 2rem;
-                        height: 12.75rem;
-                        width: 19rem;                        
-                    }
-                    ul li {
-                        color: $color4;
-                        font-family: $ibmMedium;
-                        font-size: 1rem;
-                        font-weight: 500;
-                        letter-spacing: -0.015rem;
-                        line-height: 2.125rem;
-                    }
-                    .btt-side {
-                        padding: 1.5rem 2.6rem;
-                        background-color: $color1;
-                        margin-bottom: 2.3125rem;
-                        height: 9rem;
-                        width: 19rem;
-                        display: block;
-                        margin-left: auto;
-                        margin-right: auto;
-        
-                        h4 {
-                            color: $color6;
-                            font-family: $ibmSemiBold;
-
-                            height: 3.5rem;
-                            width: 14rem;
-                            font-size: 1.25rem;
-                            font-weight: 500;
-                            letter-spacing: .15625rem;
-                            line-height: 1.75rem;
-                            text-align: center;
-                        }
-                        h2 {
-                            color: $color5;
-                            font-family: $minionItalic;
-                            text-align: center;
-                            font-size: 1.25rem;
-                        }
-                    }
-                }
-                .content-right {
-                    padding: 1.5rem 1.9375rem;
-
-                    img {
-                        max-width: 100%;
-                        
-                    }
-                    h1 {
-                        display: none;                     
-                    }
-                    .text {
-                        display: none;                                            
-                    } 
-                }
-            }
-        }
-    }
-
-    .section-4 {
-        padding: 1.5rem 2rem;
-
-        
         .row {
-            .title, .card-title, .card-text h3 {
-                color: $color4;
+          background-color: $color3;
+          flex-direction: column-reverse;
+
+          .content-left {
+            margin-left: 0.35rem;
+            padding-left: 0;
+
+            .sett-line-section-3 {
+              display: none;
+
+              span {
+                display: inline-block;
+                height: 61px;
+                color: rgb(255, 255, 255);
+                border-right: 1px solid rgb(255, 255, 255);
+              }
+
+              img {
+                display: none;
+              }
             }
-        
-            .title {
-                height: 2.375rem;
-                width: 19.0625rem;
-                color: #0A2939;
+
+            .text {
+              height: 7.125rem;
+              width: 19.0625rem;
+              padding-left: 1rem;
+
+              h1 {
+                color: $color1;
                 font-family: $butler;
                 font-size: 2.125rem;
                 letter-spacing: -0.03125rem;
                 line-height: 2.375rem;
+              }
             }
-            .card-list-image {
-                flex-direction: column;
-                .card {
-                    margin-top: 1.875rem;
-                    .card-body {                        
-                        h1 {
-                            color: #0A2939;
-                            font-family: $butler;
-                            font-size: 2rem;
-                            letter-spacing: -0.029375rem;
-                            line-height: 2.8125rem;
-                        }
-                        .card-text {
-                            h4 {
-                                color: #F66E49;
-                                font-family: $ibmLight;
-                                font-size: 1rem;
-                                letter-spacing: 0;
-                                line-height: 2.8125rem; 
-                            }
-                            h3 {
-                                color: #0A2939;
-                                font-family: $ibmReguler;
-                                font-size: 1.125rem;
-                                font-weight: 500;
-                                letter-spacing: -0.01625rem;
-                                line-height: 1.625rem;
-                            }
-                        }
-                    }
-                }
+            ul {
+              margin-top: 1.0625rem;
+              padding-left: 2rem;
+              height: 12.75rem;
+              width: 19rem;
             }
-            button {                
-                height: 5rem;
-                width: 20rem;
-                border-radius: 1.5rem;
-                background-color: #0A2939;
-                font-size: 1rem;
-                padding: .8125rem 3.8125rem;
-                margin-top: 3.375rem;  
-                margin-bottom: 1.5rem;                                         
+            ul li {
+              color: $color4;
+              font-family: $ibmMedium;
+              font-size: 1rem;
+              font-weight: 500;
+              letter-spacing: -0.015rem;
+              line-height: 2.125rem;
             }
-            button.btn {
-                border-radius: 2.5rem;
+            .btt-side {
+              padding: 1.5rem 2.6rem;
+              background-color: $color1;
+              margin-bottom: 2.3125rem;
+              height: 9rem;
+              width: 19rem;
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+
+              h4 {
+                color: $color6;
+                font-family: $ibmSemiBold;
+
+                height: 3.5rem;
+                width: 14rem;
+                font-size: 1.25rem;
+                font-weight: 500;
+                letter-spacing: 0.15625rem;
+                line-height: 1.75rem;
+                text-align: center;
+              }
+              h2 {
+                color: $color5;
+                font-family: $minionItalic;
+                text-align: center;
+                font-size: 1.25rem;
+              }
             }
-            button.btn-primary {
-                background-color: $color4;
-                border-color: $color4;
+          }
+          .content-right {
+            padding: 1.5rem 1.9375rem;
+
+            img {
+              max-width: 100%;
             }
-            button.btn-primary:hover {
-                background-color: $color4;
-                border-color: $color4;
+            h1 {
+              display: none;
             }
+            .text {
+              display: none;
+            }
+          }
         }
-        
+      }
+    }
+
+    .section-4 {
+      padding: 1.5rem 2rem;
+
+      .row {
+        .title,
+        .card-title,
+        .card-text h3 {
+          color: $color4;
+        }
+
+        .title {
+          height: 2.375rem;
+          width: 19.0625rem;
+          color: #0a2939;
+          font-family: $butler;
+          font-size: 2.125rem;
+          letter-spacing: -0.03125rem;
+          line-height: 2.375rem;
+        }
+        .card-list-image {
+          flex-direction: column;
+          .card {
+            margin-top: 1.875rem;
+            .card-body {
+              h1 {
+                color: #0a2939;
+                font-family: $butler;
+                font-size: 2rem;
+                letter-spacing: -0.029375rem;
+                line-height: 2.8125rem;
+              }
+              .card-text {
+                h4 {
+                  color: #f66e49;
+                  font-family: $ibmLight;
+                  font-size: 1rem;
+                  letter-spacing: 0;
+                  line-height: 2.8125rem;
+                }
+                h3 {
+                  color: #0a2939;
+                  font-family: $ibmReguler;
+                  font-size: 1.125rem;
+                  font-weight: 500;
+                  letter-spacing: -0.01625rem;
+                  line-height: 1.625rem;
+                }
+              }
+            }
+          }
+        }
+        button {
+          height: 5rem;
+          width: 20rem;
+          border-radius: 1.5rem;
+          background-color: #0a2939;
+          font-size: 1rem;
+          padding: 0.8125rem 3.8125rem;
+          margin-top: 3.375rem;
+          margin-bottom: 1.5rem;
+        }
+        button.btn {
+          border-radius: 2.5rem;
+        }
+        button.btn-primary {
+          background-color: $color4;
+          border-color: $color4;
+        }
+        button.btn-primary:hover {
+          background-color: $color4;
+          border-color: $color4;
+        }
+      }
     }
     .section-6 {
-        .row {
-            background-color: $color7;
-            color: $color1;
-            height: 39.5625rem;
-    
-            .logo-center {
-                margin: 5.8rem 0;
-                
-                img {
-                    margin-left: auto;
-                    margin-right: auto;
-                    display: block;
-                }
-            }
-            hr {
-                text-decoration: none; 
-                border-bottom: 2px solid $colorLine;
-                height: 1px;
-                width: 80%;
-                margin-bottom: 1.9375rem;
-            }
-            .content {
-                width: 80%;
-                padding-left: 0;
-                padding-right: 0;
-                flex-direction: column;
-                margin-left: auto;
-                margin-right: auto;                
-    
-                .text {                                      
-                    margin: 0 auto;
-                    text-align: center;
-                }
+      .row {
+        background-color: $color7;
+        color: $color1;
+        height: 39.5625rem;
 
-                .left {
- 
-                }
+        .logo-center {
+          margin: 5.8rem 0;
 
-                .center {
-                    
-                }
-
-                hr {
-                    width: 100%;
-                }
-
-                h5 {
-                    height: .9375rem;
-                    width: 11.6875rem;
-                    font-family: $ibmMedium;
-                    color: #FFFFFF;
-                    font-size: .75rem;
-                    font-weight: 500;
-                    letter-spacing: .03125rem;
-                    line-height: .9375rem;
-                    margin-bottom: 2rem;
-                }
-                .right {
-                    height: 1.8125rem;
-                    width: 15.1875rem;
-                    margin-left: auto;
-                    margin-right: auto;
-                    display: block;
-                    margin-top: auto;
-                    margin-bottom: auto;
-                    padding-left: 1.5rem;
-
-                    img {
-                        margin-right: .3125rem;
-                    }
-                    h4 {
-                        font-family: $ibmReguler;
-                        font-size: .75rem;
-                    }
-                }
-            }
-            .end {
-                display: none;
-            }
+          img {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+          }
         }
+        hr {
+          text-decoration: none;
+          border-bottom: 2px solid $colorLine;
+          height: 1px;
+          width: 80%;
+          margin-bottom: 1.9375rem;
+        }
+        .content {
+          width: 80%;
+          padding-left: 0;
+          padding-right: 0;
+          flex-direction: column;
+          margin-left: auto;
+          margin-right: auto;
+
+          .text {
+            margin: 0 auto;
+            text-align: center;
+          }
+
+          .left {
+          }
+
+          .center {
+          }
+
+          hr {
+            width: 100%;
+          }
+
+          h5 {
+            height: 0.9375rem;
+            width: 11.6875rem;
+            font-family: $ibmMedium;
+            color: #ffffff;
+            font-size: 0.75rem;
+            font-weight: 500;
+            letter-spacing: 0.03125rem;
+            line-height: 0.9375rem;
+            margin-bottom: 2rem;
+          }
+          .right {
+            height: 1.8125rem;
+            width: 15.1875rem;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            margin-top: auto;
+            margin-bottom: auto;
+            padding-left: 1.5rem;
+
+            img {
+              margin-right: 0.3125rem;
+            }
+            h4 {
+              font-family: $ibmReguler;
+              font-size: 0.75rem;
+            }
+          }
+        }
+        .end {
+          display: none;
+        }
+      }
     }
-    }
+  }
 }
 
 // // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
-    li.nav-item {
-        margin-left: 1.5rem;
+  li.nav-item {
+    margin-left: 1.5rem;
 
-        .nav-link {
-            margin-top: 0.75rem;
-            font-size: 0.9rem;
+    .nav-link {
+      margin-top: 0.75rem;
+      font-size: 0.9rem;
+    }
+    .btn-group {
+      button {
+        span {
+          font-size: 0.9rem;
         }
-        .btn-group {
-            button {
-                span {
-                    font-size: 0.9rem;
-                }
-            }
-            .dropdown-menu {
-                .dropdown-item {
-                    font-size: 0.9rem;
-                }
-            }
+      }
+      .dropdown-menu {
+        .dropdown-item {
+          font-size: 0.9rem;
         }
+      }
     }
+  }
 
-    
-    .navbar-light {
-        .navbar-nav {
-            .nav-link {
-                color: #FFFFFF;
-            }
-        }
+  .navbar-light {
+    .navbar-nav {
+      .nav-link {
+        color: #ffffff;
+      }
     }
+  }
 
-    .navbar {
-        margin-top: 1rem !important;
-        margin-left: 0.75rem;
-        padding-right: 1.3rem;
+  .navbar {
+    margin-top: 1rem !important;
+    margin-left: 0.75rem;
+    padding-right: 1.3rem;
+  }
+  li.drop {
+    .btn-group {
+      margin-top: 0;
+      margin-left: 0;
     }
-    li.drop {
-        .btn-group {
-            margin-top: 0;
-            margin-left: 0;
-        }
-        margin-right: 1rem;
-    }
+    margin-right: 1rem;
+  }
 
-    .navbar-collapse {
-        top: 0;
-        left: 0;
-        position: fixed;
-        background-color: #021925;
-        height: 100%;
-        display: inline-block;
-        width: 95%;
-    }
-    
-    .navbar-light {
+  .navbar-collapse {
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #021925;
+    height: 100%;
+    display: inline-block;
+    width: 95%;
+  }
 
-        .navbar-toggler {
-            color: #FFFFFF;
-            border: none;
-        }
-
+  .navbar-light {
+    .navbar-toggler {
+      color: #ffffff;
+      border: none;
     }
+  }
 
-    nav {
-        margin-top: -1.875rem;
-    }
-    .container {
-        max-width: 100%;
+  nav {
+    margin-top: -1.875rem;
+  }
+  .container {
+    max-width: 100%;
 
     .section-1 {
-        padding-bottom: 64px;
+      padding-bottom: 64px;
 
-            
+      .sett-line-section-1-top {
+        justify-content: center;
+        width: 100%;
+        // margin-bottom: -2.5rem;
+        padding-bottom: 0;
+        margin-top: -5rem;
+        margin-bottom: 1.25rem;
 
-            .sett-line-section-1-top {
-                justify-content: center;
-                width: 100%;
-                // margin-bottom: -2.5rem;
-                padding-bottom: 0;
-                margin-top: -5rem;
-                margin-bottom: 1.25rem;
+        .line-section-1-top {
+          border-right-width: 0.0625rem;
+          border-right-style: solid;
+          border-color: white;
+          height: 2.5rem;
+          display: inline-block;
+        }
+      }
 
-                .line-section-1-top {
-                    border-right-width: .0625rem;
-                    border-right-style: solid;
-                    border-color: white;
-                    height: 2.5rem;
-                    display: inline-block;
-                }
-            }
+      .sett_img {
+        display: flex !important;
+        width: 100%;
+        justify-content: center;
 
-            .sett_img {
-                display: flex !important;
-                width: 100%;
-                justify-content: center;
+        .logo-logo-v-1-copy-4 {
+          height: 64px;
+          width: 186px;
+        }
+      }
 
-            .logo-logo-v-1-copy-4 {
-                height: 64px;
-                width: 186px; 
-                }
-            }
+      .une-approche-globale {
+        margin-top: 16px;
+        height: 114px;
+        width: 304px;
+        color: #ffffff;
+        font-family: Butler;
+        font-size: 34px;
+        font-weight: 300;
+        letter-spacing: -0.5px;
+        line-height: 38px;
+        text-align: center;
+        display: inline-block;
+      }
 
-            .une-approche-globale {
-                margin-top: 16px;
-                height: 114px;
-                width: 304px;
-                color: #FFFFFF;
-                font-family: Butler;
-                font-size: 34px;
-                font-weight: 300;
-                letter-spacing: -0.5px;
-                line-height: 38px;
-                text-align: center;
-                display: inline-block;
-            }
+      .sett_arrow_section-1 {
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 0;
+        // margin-top: -6.25rem;
+        margin-top: 0px;
+        margin-bottom: -4.0625rem;
 
-            .sett_arrow_section-1 {  
-                justify-content: center;
-                width: 100%;
-                margin-bottom: 0;
-                // margin-top: -6.25rem;
-                margin-top: 0px;
-                margin-bottom: -4.0625rem;
+        .arrow-down {
+          display: none;
+        }
 
-                .arrow-down {
-                   display: none;
-                }
-
-                .line-section-1 {
-                    border-right-width: .0625rem;
-                    border-right-style: solid;
-                    border-color: white;
-                    height: 2.5rem;
-                    display: inline-block;
-                }
-            }
+        .line-section-1 {
+          border-right-width: 0.0625rem;
+          border-right-style: solid;
+          border-color: white;
+          height: 2.5rem;
+          display: inline-block;
+        }
+      }
     }
 
     .section-2 {
-
-        .content-left {          
-    
-            h1 {
-                margin: 19rem 7rem;;
-                color: #0A2939;
-                font-family: $ibmMedium;
-                font-size: 1.125rem;
-                font-weight: 500;
-                letter-spacing: -0.01625rem;
-                line-height: 1.875rem;
-                margin: 1.25rem 2rem;
-                display: inline-block;
-            }
-            ul.dashed {
-                list-style-type: none;
-                width: 19rem;
-                font-family: $butlerLight;
-                margin-bottom: 2.25rem;
-                margin-top: 2rem;
-            }
-            ul.dashed > li {
-                text-indent: -20px;
-                font-size: 2.5rem;
-                color: $color4;
-                margin-bottom: 1rem;
-                font-family: Butler;
-                font-size: 1.75rem;
-                font-weight: 300;
-                letter-spacing: 0;
-                line-height: 1rem;
-                margin-left: 1.5rem;
-                height: 1.75rem;
-                width: 19rem;
-            }
-            ul.dashed > li:before {
-                content: "-";
-                text-indent: -1.25rem;
-                color: $color3;
-                margin-right: .8125rem;
-            }
-            ul.dashed .li-first {
-                color: $color3;
-            }
+      .content-left {
+        h1 {
+          margin: 19rem 7rem;
+          color: #0a2939;
+          font-family: $ibmMedium;
+          font-size: 1.125rem;
+          font-weight: 500;
+          letter-spacing: -0.01625rem;
+          line-height: 1.875rem;
+          margin: 1.25rem 2rem;
+          display: inline-block;
         }
-        .content-right {
-            
-            .overlay-img {
-                margin-top: 0;
-    
-                #overlay {
-                    max-width: 100%;
-                    background-color: $color4;
-                }
-                img {
-                    max-width: 100%;
-                    height: auto;
-                    margin-bottom: 2rem;
+        ul.dashed {
+          list-style-type: none;
+          width: 19rem;
+          font-family: $butlerLight;
+          margin-bottom: 2.25rem;
+          margin-top: 2rem;
+        }
+        ul.dashed > li {
+          text-indent: -20px;
+          font-size: 2.5rem;
+          color: $color4;
+          margin-bottom: 1rem;
+          font-family: Butler;
+          font-size: 1.75rem;
+          font-weight: 300;
+          letter-spacing: 0;
+          line-height: 1rem;
+          margin-left: 1.5rem;
+          height: 1.75rem;
+          width: 19rem;
+        }
+        ul.dashed > li:before {
+          content: "-";
+          text-indent: -1.25rem;
+          color: $color3;
+          margin-right: 0.8125rem;
+        }
+        ul.dashed .li-first {
+          color: $color3;
+        }
+      }
+      .content-right {
+        .overlay-img {
+          margin-top: 0;
 
-                }
-            }
-            .text {
-                
-                h4 {
-                    color: #0A2939;
-                    font-family: $ibmLight;
-                    font-size: .875rem;
-                    font-weight: 300;
-                    letter-spacing: -0.005625rem;
-                    line-height: 1.625rem;
-                    display: inline-block;
-                }
-            }
+          #overlay {
+            max-width: 100%;
+            background-color: $color4;
+          }
+          img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 2rem;
+          }
+        }
+        .text {
+          h4 {
+            color: #0a2939;
+            font-family: $ibmLight;
+            font-size: 0.875rem;
+            font-weight: 300;
+            letter-spacing: -0.005625rem;
+            line-height: 1.625rem;
+            display: inline-block;
+          }
+        }
 
-            button {
-                margin-top: 2rem;
-                font-family: $ibmMedium;
-                font-size: 1rem;
-                height: 3rem;
-                width: 19rem;
-                margin-right: auto;
-                margin-left: auto;
-                display: block;          
-            }
+        button {
+          margin-top: 2rem;
+          font-family: $ibmMedium;
+          font-size: 1rem;
+          height: 3rem;
+          width: 19rem;
+          margin-right: auto;
+          margin-left: auto;
+          display: block;
+        }
 
-            button.btn {
-                border-radius: 1.5rem
-            }
+        button.btn {
+          border-radius: 1.5rem;
+        }
 
-            button.btn-primary {
-                background-color: $color3;
-                border-color: $color3;
-            }
+        button.btn-primary {
+          background-color: $color3;
+          border-color: $color3;
+        }
 
-            button.btn-primary:hover {
-                background-color: $color3;
-                border-color: $color3;
-            }
-
-        } 
+        button.btn-primary:hover {
+          background-color: $color3;
+          border-color: $color3;
+        }
+      }
     }
 
     .section-3 {
-        .content {
-            padding-top: 3rem;
-    
-            .row {
-                background-color: $color3;
-                flex-direction: column-reverse;
-    
-                .content-left {
-                    margin-left: 0.35rem;
-                    padding-left: 0;
+      .content {
+        padding-top: 3rem;
 
-                    .sett-line-section-3 {
-                        display: none;
-        
-                        span {
-                            display: inline-block;
-                            height: 61px;
-                            color: rgb(255, 255, 255);
-                            border-right: 1px solid rgb(255, 255, 255);
-                        }
-
-                        img {
-                            display: none;
-                        }
-                    }
-                    
-                    .text {
-                        height: 7.125rem;
-                        width: 19.0625rem;
-                        padding-left: 1rem;                       
-        
-                        h1 {
-                            color: $color1;
-                            font-family: $butler;
-                            font-size: 2.125rem;
-                            letter-spacing: -0.03125rem;
-                            line-height: 2.375rem;
-                        }
-                    }
-                    ul {
-                        margin-top: 1.0625rem;
-                        padding-left: 2rem;
-                        height: 12.75rem;
-                        width: 19rem;                        
-                    }
-                    ul li {
-                        color: $color4;
-                        font-family: $ibmMedium;
-                        font-size: 1rem;
-                        font-weight: 500;
-                        letter-spacing: -0.015rem;
-                        line-height: 2.125rem;
-                    }
-                    .btt-side {
-                        padding: 1.5rem 2.6rem;
-                        background-color: $color1;
-                        margin-bottom: 2.3125rem;
-                        height: 9rem;
-                        width: 19rem;
-                        display: block;
-                        margin-left: auto;
-                        margin-right: auto;
-        
-                        h4 {
-                            color: $color6;
-                            font-family: $ibmSemiBold;
-
-                            height: 3.5rem;
-                            width: 14rem;
-                            font-size: 1.25rem;
-                            font-weight: 500;
-                            letter-spacing: .15625rem;
-                            line-height: 1.75rem;
-                            text-align: center;
-                        }
-                        h2 {
-                            color: $color5;
-                            font-family: $minionItalic;
-                            text-align: center;
-                            font-size: 1.25rem;
-                        }
-                    }
-                }
-                .content-right {
-                    padding: 1.5rem 1.9375rem;
-
-                    img {
-                        max-width: 100%;
-                        
-                    }
-                    h1 {
-                        display: none;                     
-                    }
-                    .text {
-                        display: none;                                            
-                    } 
-                }
-            }
-        }
-    }
-
-    .section-4 {
-        padding: 1.5rem 2rem;
-
-        
         .row {
-            .title, .card-title, .card-text h3 {
-                color: $color4;
+          background-color: $color3;
+          flex-direction: column-reverse;
+
+          .content-left {
+            margin-left: 0.35rem;
+            padding-left: 0;
+
+            .sett-line-section-3 {
+              display: none;
+
+              span {
+                display: inline-block;
+                height: 61px;
+                color: rgb(255, 255, 255);
+                border-right: 1px solid rgb(255, 255, 255);
+              }
+
+              img {
+                display: none;
+              }
             }
-        
-            .title {
-                height: 2.375rem;
-                width: 19.0625rem;
-                color: #0A2939;
+
+            .text {
+              height: 7.125rem;
+              width: 19.0625rem;
+              padding-left: 1rem;
+
+              h1 {
+                color: $color1;
                 font-family: $butler;
                 font-size: 2.125rem;
                 letter-spacing: -0.03125rem;
                 line-height: 2.375rem;
+              }
             }
-            .card-list-image {
-                flex-direction: column;
-                .card {
-                    margin-top: 1.875rem;
-                    .card-body {                        
-                        h1 {
-                            color: #0A2939;
-                            font-family: $butler;
-                            font-size: 2rem;
-                            letter-spacing: -0.029375rem;
-                            line-height: 2.8125rem;
-                        }
-                        .card-text {
-                            h4 {
-                                color: #F66E49;
-                                font-family: $ibmLight;
-                                font-size: 1rem;
-                                letter-spacing: 0;
-                                line-height: 2.8125rem; 
-                            }
-                            h3 {
-                                color: #0A2939;
-                                font-family: $ibmReguler;
-                                font-size: 1.125rem;
-                                font-weight: 500;
-                                letter-spacing: -0.01625rem;
-                                line-height: 1.625rem;
-                            }
-                        }
-                    }
-                }
+            ul {
+              margin-top: 1.0625rem;
+              padding-left: 2rem;
+              height: 12.75rem;
+              width: 19rem;
             }
-            button {                
-                height: 3rem;
-                width: 20rem;
-                border-radius: 1.5rem;
-                background-color: #0A2939;
-                font-size: 1rem;
-                padding: .8125rem 3.8125rem;
-                margin-top: 3.375rem;    
-                margin-bottom: 1.5rem;                                       
+            ul li {
+              color: $color4;
+              font-family: $ibmMedium;
+              font-size: 1rem;
+              font-weight: 500;
+              letter-spacing: -0.015rem;
+              line-height: 2.125rem;
             }
-            button.btn {
-                border-radius: 1.5rem;
+            .btt-side {
+              padding: 1.5rem 2.6rem;
+              background-color: $color1;
+              margin-bottom: 2.3125rem;
+              height: 9rem;
+              width: 19rem;
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+
+              h4 {
+                color: $color6;
+                font-family: $ibmSemiBold;
+
+                height: 3.5rem;
+                width: 14rem;
+                font-size: 1.25rem;
+                font-weight: 500;
+                letter-spacing: 0.15625rem;
+                line-height: 1.75rem;
+                text-align: center;
+              }
+              h2 {
+                color: $color5;
+                font-family: $minionItalic;
+                text-align: center;
+                font-size: 1.25rem;
+              }
             }
-            button.btn-primary {
-                background-color: $color4;
-                border-color: $color4;
+          }
+          .content-right {
+            padding: 1.5rem 1.9375rem;
+
+            img {
+              max-width: 100%;
             }
-            button.btn-primary:hover {
-                background-color: $color4;
-                border-color: $color4;
+            h1 {
+              display: none;
             }
+            .text {
+              display: none;
+            }
+          }
         }
-        
+      }
+    }
+
+    .section-4 {
+      padding: 1.5rem 2rem;
+
+      .row {
+        .title,
+        .card-title,
+        .card-text h3 {
+          color: $color4;
+        }
+
+        .title {
+          height: 2.375rem;
+          width: 19.0625rem;
+          color: #0a2939;
+          font-family: $butler;
+          font-size: 2.125rem;
+          letter-spacing: -0.03125rem;
+          line-height: 2.375rem;
+        }
+        .card-list-image {
+          flex-direction: column;
+          .card {
+            margin-top: 1.875rem;
+            .card-body {
+              h1 {
+                color: #0a2939;
+                font-family: $butler;
+                font-size: 2rem;
+                letter-spacing: -0.029375rem;
+                line-height: 2.8125rem;
+              }
+              .card-text {
+                h4 {
+                  color: #f66e49;
+                  font-family: $ibmLight;
+                  font-size: 1rem;
+                  letter-spacing: 0;
+                  line-height: 2.8125rem;
+                }
+                h3 {
+                  color: #0a2939;
+                  font-family: $ibmReguler;
+                  font-size: 1.125rem;
+                  font-weight: 500;
+                  letter-spacing: -0.01625rem;
+                  line-height: 1.625rem;
+                }
+              }
+            }
+          }
+        }
+        button {
+          height: 3rem;
+          width: 20rem;
+          border-radius: 1.5rem;
+          background-color: #0a2939;
+          font-size: 1rem;
+          padding: 0.8125rem 3.8125rem;
+          margin-top: 3.375rem;
+          margin-bottom: 1.5rem;
+        }
+        button.btn {
+          border-radius: 1.5rem;
+        }
+        button.btn-primary {
+          background-color: $color4;
+          border-color: $color4;
+        }
+        button.btn-primary:hover {
+          background-color: $color4;
+          border-color: $color4;
+        }
+      }
     }
     .section-6 {
-        .row {
-            background-color: $color7;
-            color: $color1;
-            height: 39.5625rem;
-    
-            .logo-center {
-                margin: 5.8rem 0;
-                
-                img {
-                    margin-left: auto;
-                    margin-right: auto;
-                    display: block;
-                }
-            }
-            hr {
-                text-decoration: none; 
-                border-bottom: 2px solid $colorLine;
-                height: 1px;
-                width: 80%;
-                margin-bottom: 1.9375rem;
-            }
-            .content {
-                width: 80%;
-                padding-left: 0;
-                padding-right: 0;
-                flex-direction: column;
-                margin-left: auto;
-                margin-right: auto;                
-    
-                .text {                                      
-                    margin: 0 auto;
-                    text-align: center;
-                }
+      .row {
+        background-color: $color7;
+        color: $color1;
+        height: 39.5625rem;
 
-                .left {
- 
-                }
+        .logo-center {
+          margin: 5.8rem 0;
 
-                .center {
-                    
-                }
-
-                hr {
-                    width: 100%;
-                }
-
-                h5 {
-                    height: .9375rem;
-                    width: 11.6875rem;
-                    font-family: $ibmMedium;
-                    color: #FFFFFF;
-                    font-size: .75rem;
-                    font-weight: 500;
-                    letter-spacing: .03125rem;
-                    line-height: .9375rem;
-                    margin-bottom: 2rem;
-                }
-                .right {
-                    height: 1.8125rem;
-                    width: 15.1875rem;
-                    margin-left: auto;
-                    margin-right: auto;
-                    display: block;
-                    margin-top: auto;
-                    margin-bottom: auto;
-                    padding-left: 1.5rem;
-
-                    img {
-                        margin-right: .3125rem;
-                    }
-                    h4 {
-                        font-family: $ibmReguler;
-                        font-size: .75rem;
-                    }
-                }
-            }
-            .end {
-                display: none;
-            }
+          img {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+          }
         }
+        hr {
+          text-decoration: none;
+          border-bottom: 2px solid $colorLine;
+          height: 1px;
+          width: 80%;
+          margin-bottom: 1.9375rem;
+        }
+        .content {
+          width: 80%;
+          padding-left: 0;
+          padding-right: 0;
+          flex-direction: column;
+          margin-left: auto;
+          margin-right: auto;
+
+          .text {
+            margin: 0 auto;
+            text-align: center;
+          }
+
+          .left {
+          }
+
+          .center {
+          }
+
+          hr {
+            width: 100%;
+          }
+
+          h5 {
+            height: 0.9375rem;
+            width: 11.6875rem;
+            font-family: $ibmMedium;
+            color: #ffffff;
+            font-size: 0.75rem;
+            font-weight: 500;
+            letter-spacing: 0.03125rem;
+            line-height: 0.9375rem;
+            margin-bottom: 2rem;
+          }
+          .right {
+            height: 1.8125rem;
+            width: 15.1875rem;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            margin-top: auto;
+            margin-bottom: auto;
+            padding-left: 1.5rem;
+
+            img {
+              margin-right: 0.3125rem;
+            }
+            h4 {
+              font-family: $ibmReguler;
+              font-size: 0.75rem;
+            }
+          }
+        }
+        .end {
+          display: none;
+        }
+      }
     }
-    }
+  }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1439.98px) {
-    
-    .container {
-        max-width: $maxWidth;
+  .container {
+    max-width: $maxWidth;
+  }
+
+  .navbar-light {
+    .navbar-nav {
+      .nav-link {
+        color: #ffffff;
+      }
+    }
+  }
+
+  .navbar-light {
+    .navbar-toggler {
+      color: #ffffff;
+      border: none;
+    }
+  }
+  .navbar {
+    // margin-top: 1.875rem;
+    // margin-left: 0.75rem;
+    margin-top: 1.25rem;
+  }
+  .drop {
+    .btn-group {
+      margin-top: 0;
+      margin-left: 2rem;
+    }
+  }
+
+  .section-1 {
+    // padding-bottom: 14rem;
+    background-size: cover;
+    padding-left: 0;
+    padding-right: 0;
+
+    .sett-line-section-1-top {
+      justify-content: end;
+      width: 17%;
+      // margin-bottom: -40px;
+      padding-bottom: 0;
+      margin-bottom: 0px;
+      margin-top: -5rem;
+
+      .line-section-1-top {
+        border-right-width: 0.125rem;
+        border-right-style: solid;
+        border-color: white;
+        height: 7.5rem;
+        display: inline-block;
+      }
     }
 
-    
-    .navbar-light {
-        .navbar-nav {
-            .nav-link {
-                color: #FFFFFF;
-            }
-        }
-    }
+    .sett_img {
+      display: flex !important;
+      width: 35%;
+      justify-content: center;
 
-    .navbar-light {
-
-        .navbar-toggler {
-            color: #FFFFFF;
-            border: none;
-
-        }
-
-    }
-    .navbar {
-        // margin-top: 1.875rem;
-        // margin-left: 0.75rem;
+      .logo-logo-v-1-copy-4 {
+        height: 9.5rem;
+        width: 29.125rem;
+        display: block;
+        padding-top: 1rem;
         margin-top: 1.25rem;
+
+        padding-bottom: 0px;
+        padding-right: 3rem;
+        padding-left: 3rem;
+      }
     }
-    .drop {
-        .btn-group {
-            margin-top: 0;
-            margin-left: 2rem;
+
+    ul {
+      height: auto;
+      // width: 100%;
+      // // margin-top: -1.875rem;
+      // padding-left: 14.375rem;
+      // padding-right: 6.25rem;
+
+      li {
+        color: #ffffff;
+        font-family: $ibmLight;
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: -0.01625rem;
+        line-height: 1.4375rem;
+        // margin-right: 1.875rem;
+        margin-left: 0;
+
+        a {
+          height: 1.4375rem;
         }
+      }
+
+      li.dropdown {
+        box-sizing: border-box;
+        height: 3rem;
+        width: 10.9375rem;
+        border: 0.125rem solid #e5e5e5;
+        border-radius: 1.5rem;
+        margin-left: 6.25rem;
+        margin-right: 0;
+      }
+
+      li.nav-item {
+        margin-left: 1rem;
+
+        .nav-link,
+        button span,
+        .dropdown-item {
+          font-family: $ibmSemiBold;
+          font-weight: 600;
+          font-size: 1rem;
+        }
+      }
     }
-    
-    .section-1 {
-        // padding-bottom: 14rem;
-        background-size: cover;
-        padding-left: 0;
-        padding-right: 0;
 
-            
+    .sett-line-section-1 {
+      justify-content: end;
+      width: 17%;
 
-            .sett-line-section-1-top {
-                justify-content: end;
-                width: 17%;
-                // margin-bottom: -40px;
-                padding-bottom: 0;
-                margin-bottom: 0px;
-                margin-top: -5rem;
-
-                .line-section-1-top {
-                    border-right-width: .125rem;
-                    border-right-style: solid;
-                    border-color: white;
-                    height: 7.5rem;
-                    display: inline-block;
-                }
-            }
-
-            .sett_img {
-                display: flex !important;
-                width: 35%;
-                justify-content: center;
-
-            .logo-logo-v-1-copy-4 {
-
-                height: 9.5rem;
-                width: 29.125rem;
-                display: block;
-                padding-top: 1rem;
-                margin-top: 1.25rem;
-
-                padding-bottom: 0px;
-                padding-right: 3rem;
-                padding-left: 3rem;
-            }
-            }
-
-            ul {
-                height: auto;
-                // width: 100%;
-                // // margin-top: -1.875rem;
-                // padding-left: 14.375rem;
-                // padding-right: 6.25rem;
-
-                li {                    
-                    color: #FFFFFF;
-                    font-family: $ibmLight;
-                    font-size: 1rem;
-                    font-weight: 600;
-                    letter-spacing: -0.01625rem;
-                    line-height: 1.4375rem;
-                    // margin-right: 1.875rem;
-                    margin-left: 0;                  
-                    
-                    a {
-                        height: 1.4375rem;
-                    }
-                }
-
-                li.dropdown {
-                    box-sizing: border-box;
-                    height: 3rem;
-                    width: 10.9375rem;
-                    border: .125rem solid #E5E5E5;
-                    border-radius: 1.5rem;
-                    margin-left: 6.25rem;
-                    margin-right: 0;
-                }
-
-                li.nav-item {
-                    margin-left: 1rem;
-                
-                    .nav-link, button span, .dropdown-item {
-                        font-family: $ibmSemiBold;
-                        font-weight: 600;
-                        font-size: 1rem;
-                    }
-                }
-
-            }
-
-            .sett-line-section-1 {
-                justify-content: end;
-                width: 17%;
-
-                .line-section-1 {
-                    border-right-width: .125rem;
-                    border-right-style: solid;
-                    border-color: white;
-                    height: 3.8125rem;
-                    display: inline-block;
-                }
-
-            }
-
-            .text-title {
-                margin-bottom: 3.125rem;
-
-            .une-approche-globale {
-                // margin-top: 1rem;
-                height: 12.5rem;
-                // width: 61.8125rem;
-                color: #FFFFFF;
-                font-family: $butlerLight;
-                font-size: 5rem;
-                font-weight: 300;
-                letter-spacing: -0.091875rem;
-                line-height: 6.25rem;
-                text-align: left;
-                margin-left: 5rem;
-                padding-right: 2rem;
-            }
-            }
-
-            .sett_arrow_section-1 {  
-                justify-content: end;
-                width: 17%;
-                margin-bottom: -3.75rem;
-            }
-
+      .line-section-1 {
+        border-right-width: 0.125rem;
+        border-right-style: solid;
+        border-color: white;
+        height: 3.8125rem;
+        display: inline-block;
+      }
     }
-    
-    .section-2 {
+
+    .text-title {
+      margin-bottom: 3.125rem;
+
+      .une-approche-globale {
+        // margin-top: 1rem;
+        height: 12.5rem;
+        // width: 61.8125rem;
+        color: #ffffff;
+        font-family: $butlerLight;
+        font-size: 5rem;
+        font-weight: 300;
+        letter-spacing: -0.091875rem;
+        line-height: 6.25rem;
+        text-align: left;
+        margin-left: 5rem;
+        padding-right: 2rem;
+      }
+    }
+
+    .sett_arrow_section-1 {
+      justify-content: end;
+      width: 17%;
+      margin-bottom: -3.75rem;
+    }
+  }
+
+  .section-2 {
+    .content-left {
+      // margin-bottom: 5rem;
+
+      h1 {
+        margin-bottom: 3.125rem;
+        font-family: $ibmMedium;
+        color: $color4;
+        letter-spacing: -0.022rem;
+        line-height: 2.5rem;
+        width: auto;
+        height: 11.25rem;
+        margin-top: 6.438rem;
+        font-size: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-top: auto;
+        padding-bottom: 1.5rem;
+        padding-top: 5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+      }
+      ul.dashed {
+        list-style-type: none;
+        font-family: $butlerLight;
+        // margin-left: 6.938rem;
+        padding-left: 0.75rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 1.5rem;
+        padding-left: 2.25rem;
+        margin-bottom: auto;
+        margin-top: 1.875rem;
+        padding-top: 6.25rem;
+      }
+      ul.dashed > li {
+        text-indent: -20px;
+        font-size: 2rem;
+        color: $color4;
+        line-height: 3rem;
+        margin-bottom: 2.4rem;
+      }
+      ul.dashed > li:before {
+        content: "-";
+        text-indent: -20px;
+        color: $color3;
+        margin-right: 3.1rem;
+      }
+      ul.dashed .li-first {
+        color: $color3;
+      }
+
+      .sett-line-section-2 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        // justify-content: center;
+        padding-left: 35%;
+        padding-top: 8%;
+
+        span {
+          display: inline-block;
+          height: 61px;
+          color: #f05e36;
+          border-right: 1px solid #f05e36;
+        }
+      }
+    }
+    .content-right {
+      padding-right: 0;
+
+      .overlay-img {
+        margin-top: -7rem;
+
+        #overlay {
+          max-width: 100%;
+          height: 7rem;
+          background-color: $color4;
+        }
+        img {
+          max-width: 100%;
+          height: auto;
+          margin-bottom: 5.125rem;
+        }
+      }
+
+      .text {
+        width: 80%;
+        h4 {
+          font-family: $ibmLight;
+          font-size: 1rem;
+          font-weight: 300;
+          margin-bottom: 3.125rem;
+          letter-spacing: -0.00625rem;
+          line-height: 1.875rem;
+        }
+      }
+      button {
+        font-family: $ibmMedium;
+        font-size: 1rem;
+        height: 3rem;
+        width: 18.0625rem;
+      }
+      button.btn {
+        border-radius: 10rem;
+      }
+      button.btn-primary {
+        background-color: $color3;
+        border-color: $color3;
+      }
+      button.btn-primary:hover {
+        background-color: $color3;
+        border-color: $color3;
+      }
+    }
+  }
+
+  .section-3 {
+    .content {
+      .row {
+        background-color: $color3;
 
         .content-left {
-            // margin-bottom: 5rem;
-    
+          .sett-line-section-3 {
+            width: 100%;
+            height: auto;
+            display: flex;
+            // justify-content: center;
+            padding-left: 35%;
+
+            span {
+              display: inline-block;
+              height: 61px;
+              color: rgb(255, 255, 255);
+              border-right: 1px solid rgb(255, 255, 255);
+            }
+
+            img {
+              margin-bottom: -3.8125rem;
+            }
+          }
+
+          .text {
+            height: 12.375rem;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            margin-top: 1.875rem;
+
             h1 {
-                margin-bottom: 3.125rem;
-                font-family: $ibmMedium;
-                color: $color4;
-                letter-spacing: -0.022rem;
-                line-height: 2.5rem;
-                width: auto;
-                height: 11.25rem;
-                margin-top: 6.438rem;
-                font-size: 1.5rem;
-                margin-left: auto;
-                margin-right: auto;
-                margin-bottom: auto;
-                margin-top: auto;
-                padding-bottom: 1.5rem;
-                padding-top: 5rem;
-                padding-left: 1.5rem;
-                padding-right: 1.5rem;
+              color: $color1;
+              font-family: $butler;
+              font-size: 3.5rem;
+              letter-spacing: -0.05125rem;
+              line-height: 3.5rem;
             }
-            ul.dashed {
-                list-style-type: none;
-                font-family: $butlerLight;
-                // margin-left: 6.938rem;
-                padding-left: 0.75rem;
-                margin-left: auto;
-                margin-right: auto;
-                padding-right: 1.5rem;
-                padding-left: 2.25rem;
-                margin-bottom: auto;
-                margin-top: 1.875rem;
-                padding-top: 6.25rem;
-            }
-            ul.dashed > li {
-                text-indent: -20px;
-                font-size: 2rem;
-                color: $color4;
-                line-height: 3rem;
-                margin-bottom: 2.4rem;
-            }
-            ul.dashed > li:before {
-                content: "-";
-                text-indent: -20px;
-                color: $color3;
-                margin-right: 3.1rem;
-            }
-            ul.dashed .li-first {
-                color: $color3;
-            }
+          }
+          ul {
+            height: 15rem;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 3rem;
+            padding-right: 1.4375rem;
+            margin-top: 1.875rem;
+            margin-bottom: 0px;
+          }
+          ul li {
+            color: $color4;
+            font-family: $ibmMedium;
+            font-size: 1.125rem;
+            font-weight: 500;
+            letter-spacing: -0.01625rem;
+            line-height: 2.5rem;
+          }
+          .btt-side {
+            padding: 1.5rem 2.6rem;
+            background-color: $color1;
+            height: 5.5625rem;
+            width: 24rem;
 
-            .sett-line-section-2 {
-                width: 100%;
-                height: auto;
-                display: flex;
-                // justify-content: center;
-                padding-left: 35%;
-                padding-top: 8%;
+            margin-left: 1.5rem;
+            margin-top: 1.875rem;
+            margin-bottom: 0px;
+            padding-right: 2.6rem;
+            margin-left: auto;
+            margin-right: auto;
 
-                span {
-                    display: inline-block;
-                    height: 61px;
-                    color: #F05E36;
-                    border-right: 1px solid #F05E36;
-                }
+            h4 {
+              color: $color6;
+              font-size: 0.875rem;
+              font-family: $ibmSemiBold;
+              letter-spacing: 0.2rem;
+              text-align: center;
             }
+            h2 {
+              color: $color5;
+              font-family: $minionItalic;
+              text-align: center;
+              font-size: 1.25rem;
+            }
+          }
         }
         .content-right {
-            padding-right: 0;
-            
-            .overlay-img {
-                margin-top: -7rem;
-    
-                #overlay {
-                    max-width: 100%;
-                    height: 7rem;
-                    background-color: $color4;
-                }
-                img {
-                    max-width: 100%;
-                    height: auto;
-                    margin-bottom: 5.125rem;
-                }
-            }
-
-            .text {
-                width: 80%;
-                h4 {
-                    font-family: $ibmLight;
-                    font-size: 1rem;
-                    font-weight: 300;
-                    margin-bottom: 3.125rem;
-                    letter-spacing: -0.00625rem;
-                    line-height: 1.875rem;
-                }
-            }
-            button {
-                font-family: $ibmMedium;
-                font-size: 1rem;
-                height: 3rem;
-                width: 18.0625rem;
-            }
-            button.btn {
-                border-radius: 10rem;
-            }
-            button.btn-primary {
-                background-color: $color3;
-                border-color: $color3;
-            }
-            button.btn-primary:hover {
-                background-color: $color3;
-                border-color: $color3;
-            }
-        } 
-    }
-    
-    .section-3 {
-        .content {
-    
-            .row {
-                background-color: $color3;
-    
-                .content-left {
-
-                    .sett-line-section-3 {
-                        width: 100%;
-                        height: auto;
-                        display: flex;
-                        // justify-content: center;
-                        padding-left: 35%;
-        
-                        span {
-                            display: inline-block;
-                            height: 61px;
-                            color: rgb(255, 255, 255);
-                            border-right: 1px solid rgb(255, 255, 255);
-                        }
-
-                        img {
-                            margin-bottom: -3.8125rem;
-                        }
-                    }
-                    
-                    .text {
-                        height: 12.375rem;
-                        margin-left: auto;
-                        margin-right: auto;
-                        padding-left: 1.5rem;
-                        padding-right: 1.5rem;
-                        margin-top: 1.875rem;
-        
-                        h1 {
-                            color: $color1;
-                            font-family: $butler;
-                            font-size: 3.5rem;
-                            letter-spacing: -0.05125rem;
-                            line-height: 3.5rem;
-                        }
-                    }
-                    ul {
-                        height: 15rem;
-                        margin-left: auto;
-                        margin-right: auto;
-                        padding-left: 3rem;
-                        padding-right: 1.4375rem;
-                        margin-top: 1.875rem;
-                        margin-bottom: 0px;
-                    }
-                    ul li {
-                        color: $color4;
-                        font-family: $ibmMedium;
-                        font-size: 1.125rem;
-                        font-weight: 500;
-                        letter-spacing: -0.01625rem;
-                        line-height: 2.5rem;
-                    }
-                    .btt-side {
-                        padding: 1.5rem 2.6rem;
-                        background-color: $color1;
-                        height: 5.5625rem;
-                        width: 24rem;
-
-                        margin-left: 1.5rem;
-                        margin-top: 1.875rem;
-                        margin-bottom: 0px;
-                        padding-right: 2.6rem;
-                        margin-left: auto;
-                        margin-right: auto;
-        
-                        h4 {
-                            color: $color6;
-                            font-size: .875rem;
-                            font-family: $ibmSemiBold;
-                            letter-spacing: 0.2rem;
-                            text-align: center;
-                        }
-                        h2 {
-                            color: $color5;
-                            font-family: $minionItalic;
-                            text-align: center;
-                            font-size: 1.25rem;
-                        }
-                    }
-                }
-                .content-right {
-                    padding-right: 0;
-                    img {
-                        max-width: 100%;
-                        margin-top: -5rem;
-                    }
-                    h1 {
-                        font-family: $ibmMedium;
-                        margin-top: 2.5rem;
-                        height: 2.3125rem;
-                        color: #0A2939;
-                        font-size: 1.5rem;
-                        font-weight: 500;
-                        letter-spacing: -0.01875rem;
-                        line-height: 1.875rem;
-                        
-                    }
-                    .text {
-                        font-family: $ibmLight;
-                        color: $color1;
-                        height: 24.375rem;
-                        font-weight: 300;
-                        letter-spacing: -0.00625rem; 
-                        margin-left: auto;
-                        margin-right: auto;
-                        padding-right: 2rem;
-                        padding-left: 0px;
-                        margin-bottom: 1.875rem;
-                        padding-bottom: 0px;
-    
-                        h4 {
-                            line-height: 1.875rem;
-                            font-size: 1rem;
-                        }
-                        h4.second-text {
-                            margin-bottom: 8.4rem;
-                        }
-                    } 
-                }
-            }
-        }
-    }
-    
-    .section-4 {
-        padding: 6.875rem 6.25rem;
-        
-        .row {
-            .title, .card-title, .card-text h3 {
-                color: $color4;
-            }
-        
-            .title {
-                height: 9.375rem;
-                width: 31.25rem;
-                color: #0A2939;
-                font-family: $butler;
-                font-size: 3.5rem;
-                letter-spacing: -0.05125rem;
-                line-height: 3.5rem;
-            }
-            .card-list-image {
-                .card {
-                    height: 34.95625rem;
-                    width: 24.1rem;
-                    margin-bottom: 1.9375rem;
-                    text-align: left;
-                    margin-right: 1.3125rem;
-        
-                    .card-body {
-                        h1 {
-                            height: 2.8125rem;
-                            width: 10.74375rem;
-                            color: #0A2939;
-                            font-family: $butler;
-                            font-size: 3rem;
-                            letter-spacing: -0.044375rem;
-                            line-height: 2.8125rem;
-                        }
-                        .card-text {
-                            h4 {
-                                color: $color6;
-                                font-family: $ibmReguler;
-                                height: 2.8125rem;
-                                width: 7.70625rem;
-                                font-size: .9rem;
-                                letter-spacing: 0;
-                                line-height: 2.8125rem;
-                            }
-                            h3 {
-                                font-family: $ibmReguler;
-                                height: 2.875rem;
-                                color: #0A2939;
-                                font-family: "IBM Plex Sans";
-                                font-size: 1.125rem;
-                                font-weight: 500;
-                                letter-spacing: -0.01625rem;
-                                line-height: 1.4375rem;
-                            }
-                        }
-                    }
-                }
-            }
-            button {
-                height: 3rem;
-                width: 20rem;
-                border-radius: 1.5rem;
-                background-color: #0A2939;
-                font-size: 1rem;
-                padding: .8125rem 3.8125rem;
-            }
-            button.btn {
-                border-radius: 1.5rem;
-            }
-            button.btn-primary {
-                background-color: $color4;
-                border-color: $color4;
-            }
-            button.btn-primary:hover {
-                background-color: $color4;
-                border-color: $color4;
-            }
-        }
-        
-    }
-    
-    .section-5 {
-        .row {
-            position: relative;
-            height: 90.3rem;
-            background-image: url('../../assets/images/visual-who-we-are.jpg');
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-    }
-    
-    .section-6 {
-        .row {
-            background-color: $color7;
+          padding-right: 0;
+          img {
+            max-width: 100%;
+            margin-top: -5rem;
+          }
+          h1 {
+            font-family: $ibmMedium;
+            margin-top: 2.5rem;
+            height: 2.3125rem;
+            color: #0a2939;
+            font-size: 1.5rem;
+            font-weight: 500;
+            letter-spacing: -0.01875rem;
+            line-height: 1.875rem;
+          }
+          .text {
+            font-family: $ibmLight;
             color: $color1;
-            height: 39.5625rem;
-    
-            .logo-center {
-                margin: 5.8rem 0;
-                
-                img {
-                    margin-left: auto;
-                    margin-right: auto;
-                    display: block;
-                }
+            height: 24.375rem;
+            font-weight: 300;
+            letter-spacing: -0.00625rem;
+            margin-left: auto;
+            margin-right: auto;
+            padding-right: 2rem;
+            padding-left: 0px;
+            margin-bottom: 1.875rem;
+            padding-bottom: 0px;
+
+            h4 {
+              line-height: 1.875rem;
+              font-size: 1rem;
             }
-            hr {
-                text-decoration: none; 
-                border-bottom: 2px solid $colorLine;
-                height: 1px;
-                width: 80%;
-                margin-bottom: 0;
+            h4.second-text {
+              margin-bottom: 8.4rem;
             }
-            .content {
-                width: 80%;
-                padding-left: 0;
-                flex-direction: row;
-    
-                .text {                    
-                    height: auto;                 
-                    display: block;
-                    margin-top: 2rem;
-                }
-
-                .left {
-                    margin-left: auto;
-                    margin-right: auto;
-                    display: block; 
-                }
-
-                .center {
-                    margin-left: auto;
-                    margin-right: auto;
-                    display: block;
-                }
-
-                .mt-lg-0 {
-                    display: none;
-                }
-
-                h5 {
-                    height: .9375rem;
-                    width: 11.6875rem;
-                    font-family: $ibmMedium;
-                    color: #FFFFFF;
-                    font-size: .75rem;
-                    font-weight: 500;
-                    letter-spacing: .03125rem;
-                    line-height: .9375rem;
-                    margin-bottom: 2rem;
-                }
-                .right {
-                    width: 15.1875rem;
-                    margin-left: auto;
-                    margin-right: auto;
-                    display: block;
-                    margin-top: auto;
-                    margin-bottom: auto;
-
-                    img {
-                        margin-right: .3125rem;
-                    }
-                    h4 {
-                        font-family: $ibmReguler;
-                        font-size: .75rem;
-                    }
-                }
-            }
+          }
         }
+      }
     }
+  }
+
+  .section-4 {
+    padding: 6.875rem 6.25rem;
+
+    .row {
+      .title,
+      .card-title,
+      .card-text h3 {
+        color: $color4;
+      }
+
+      .title {
+        height: 9.375rem;
+        width: 31.25rem;
+        color: #0a2939;
+        font-family: $butler;
+        font-size: 3.5rem;
+        letter-spacing: -0.05125rem;
+        line-height: 3.5rem;
+      }
+      .card-list-image {
+        .card {
+          height: 34.95625rem;
+          width: 24.1rem;
+          margin-bottom: 1.9375rem;
+          text-align: left;
+          margin-right: 1.3125rem;
+
+          .card-body {
+            h1 {
+              height: 2.8125rem;
+              width: 10.74375rem;
+              color: #0a2939;
+              font-family: $butler;
+              font-size: 3rem;
+              letter-spacing: -0.044375rem;
+              line-height: 2.8125rem;
+            }
+            .card-text {
+              h4 {
+                color: $color6;
+                font-family: $ibmReguler;
+                height: 2.8125rem;
+                width: 7.70625rem;
+                font-size: 0.9rem;
+                letter-spacing: 0;
+                line-height: 2.8125rem;
+              }
+              h3 {
+                font-family: $ibmReguler;
+                height: 2.875rem;
+                color: #0a2939;
+                font-family: "IBM Plex Sans";
+                font-size: 1.125rem;
+                font-weight: 500;
+                letter-spacing: -0.01625rem;
+                line-height: 1.4375rem;
+              }
+            }
+          }
+        }
+      }
+      button {
+        height: 3rem;
+        width: 20rem;
+        border-radius: 1.5rem;
+        background-color: #0a2939;
+        font-size: 1rem;
+        padding: 0.8125rem 3.8125rem;
+      }
+      button.btn {
+        border-radius: 1.5rem;
+      }
+      button.btn-primary {
+        background-color: $color4;
+        border-color: $color4;
+      }
+      button.btn-primary:hover {
+        background-color: $color4;
+        border-color: $color4;
+      }
+    }
+  }
+
+  .section-5 {
+    // .row {
+    //     position: relative;
+    //     height: 90.3rem;
+    //     background-image: url('../../assets/images/visual-who-we-are.jpg');
+    //     background-position: center;
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    // }
+  }
+
+  .section-6 {
+    .row {
+      background-color: $color7;
+      color: $color1;
+      height: 39.5625rem;
+
+      .logo-center {
+        margin: 5.8rem 0;
+
+        img {
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+        }
+      }
+      hr {
+        text-decoration: none;
+        border-bottom: 2px solid $colorLine;
+        height: 1px;
+        width: 80%;
+        margin-bottom: 0;
+      }
+      .content {
+        width: 80%;
+        padding-left: 0;
+        flex-direction: row;
+
+        .text {
+          height: auto;
+          display: block;
+          margin-top: 2rem;
+        }
+
+        .left {
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+        }
+
+        .center {
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+        }
+
+        .mt-lg-0 {
+          display: none;
+        }
+
+        h5 {
+          height: 0.9375rem;
+          width: 11.6875rem;
+          font-family: $ibmMedium;
+          color: #ffffff;
+          font-size: 0.75rem;
+          font-weight: 500;
+          letter-spacing: 0.03125rem;
+          line-height: 0.9375rem;
+          margin-bottom: 2rem;
+        }
+        .right {
+          width: 15.1875rem;
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          margin-top: auto;
+          margin-bottom: auto;
+
+          img {
+            margin-right: 0.3125rem;
+          }
+          h4 {
+            font-family: $ibmReguler;
+            font-size: 0.75rem;
+          }
+        }
+      }
+    }
+  }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1440px) {
-    .container {
-        max-width: $maxWidth;
+  .container {
+    max-width: $maxWidth;
+  }
+
+  .navbar-light {
+    .navbar-nav {
+      .nav-link {
+        color: #ffffff;
+      }
+    }
+  }
+
+  .navbar-light {
+    .navbar-toggler {
+      color: #ffffff;
+      border: none;
+    }
+  }
+  .navbar {
+    margin-top: 1.875rem;
+    // margin-left: 0.75rem;
+  }
+  .drop {
+    .btn-group {
+      margin-top: 0;
+      margin-left: -2.5rem;
+    }
+  }
+
+  .section-1 {
+    // padding-bottom: 14rem;
+    background-size: cover;
+    padding-left: 0;
+    padding-right: 0;
+
+    .sett-line-section-1-top {
+      justify-content: end;
+      width: 20%;
+      margin-bottom: 0px;
+      margin-top: -6.25rem;
+      padding-bottom: 0;
+
+      .line-section-1-top {
+        border-right-width: 0.0625rem;
+        border-right-style: solid;
+        border-color: white;
+        height: 7.5rem;
+        display: inline-block;
+      }
     }
 
-    
-    .navbar-light {
-        .navbar-nav {
-            .nav-link {
-                color: #FFFFFF;
-            }
+    .sett_img {
+      display: flex !important;
+      width: 41%;
+      justify-content: center;
+
+      .logo-logo-v-1-copy-4 {
+        height: 9.5rem;
+        width: 29.125rem;
+        display: block;
+        padding-left: 5rem;
+        padding-top: 1rem;
+        padding-right: 6rem;
+        padding-bottom: 2rem;
+        margin-top: 1.25rem;
+      }
+    }
+
+    ul {
+      height: auto;
+      // width: 100%;
+      // margin-top: -1.875rem;
+      // padding-left: 14.375rem;
+      // padding-right: 6.25rem;
+      width: 80%;
+      justify-content: space-around;
+
+      li {
+        color: #ffffff;
+        // font-family: $ibmLight;
+        // font-size: 1.125rem;
+        font-weight: 600;
+        letter-spacing: -0.01625rem;
+        line-height: 1.4375rem;
+        // margin-right: 1.875rem;
+        margin-left: 0;
+
+        a {
+          height: 1.4375rem;
         }
+      }
+
+      li.dropdown {
+        box-sizing: border-box;
+        height: 3rem;
+        width: 10.9375rem;
+        border: 0.125rem solid #e5e5e5;
+        border-radius: 1.5rem;
+        margin-left: 6.25rem;
+        margin-right: 0;
+      }
     }
 
-    .navbar-light {
+    .sett-line-section-1 {
+      // width: 100%;
+      // height: auto;
+      // display: flex;
+      // align-items: start;
+      // padding-left: 15%;
+      justify-content: end;
+      width: 20%;
 
-        .navbar-toggler {
-            color: #FFFFFF;
-            border: none;
+      .line-section-1 {
+        border-right-width: 0.0625rem;
+        border-right-style: solid;
+        border-color: white;
+        height: 3.8125rem;
+        display: inline-block;
+      }
+    }
 
+    .text-title {
+      margin-bottom: 3.125rem;
+
+      .une-approche-globale {
+        margin-top: 1rem;
+        height: 12.5rem;
+        width: 61.8125rem;
+        color: #ffffff;
+        font-family: $butlerLight;
+        font-size: 6.25rem;
+        font-weight: 300;
+        letter-spacing: -0.091875rem;
+        line-height: 6.25rem;
+        text-align: left;
+        margin-left: 5rem;
+      }
+    }
+
+    .sett_arrow_section-1 {
+      justify-content: end;
+      width: 20%;
+      margin-bottom: -3.75rem;
+
+      .arrow-down {
+        // position: absolute;
+        // left: 15%;
+        // margin-bottom: -1.25rem;
+        // top: 23%;
+      }
+    }
+  }
+
+  .section-2 {
+    .content-left {
+      // margin-bottom: 5rem;
+
+      h1 {
+        margin-bottom: 3.125rem;
+        font-family: $ibmMedium;
+        color: $color4;
+        letter-spacing: -0.022rem;
+        line-height: 2.5rem;
+        width: 26.063rem;
+        height: 11.25rem;
+        margin-left: 6.938rem;
+        margin-top: 6.438rem;
+        font-size: 1.5rem;
+      }
+      ul.dashed {
+        list-style-type: none;
+        width: 66.2rem;
+        font-family: $butlerLight;
+        margin-left: 6.938rem;
+        padding-left: 0.75rem;
+      }
+      ul.dashed > li {
+        text-indent: -20px;
+        font-size: 2.5rem;
+        color: $color4;
+        line-height: 3rem;
+        margin-bottom: 2.4rem;
+      }
+      ul.dashed > li:before {
+        content: "-";
+        text-indent: -20px;
+        color: $color3;
+        margin-right: 3.1rem;
+      }
+      ul.dashed .li-first {
+        color: $color3;
+      }
+
+      .sett-line-section-2 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        // justify-content: center;
+        padding-left: 35%;
+        padding-top: 8%;
+
+        span {
+          display: inline-block;
+          height: 61px;
+          color: #f05e36;
+          border-right: 1px solid #f05e36;
         }
+      }
+    }
+    .content-right {
+      padding-right: 0;
 
-    }
-    .navbar {
-        margin-top: 1.875rem;
-        // margin-left: 0.75rem;
-    }
-    .drop {
-        .btn-group {
-            margin-top: 0;
-            margin-left: -2.5rem;
+      .overlay-img {
+        margin-top: -7rem;
+
+        #overlay {
+          max-width: 100%;
+          height: 7rem;
+          background-color: $color4;
         }
+        img {
+          max-width: 100%;
+          height: auto;
+          margin-bottom: 5.125rem;
+        }
+      }
+
+      .text {
+        width: 80%;
+        h4 {
+          font-family: $ibmLight;
+          font-size: 1rem;
+          font-weight: 300;
+          margin-bottom: 3.125rem;
+          letter-spacing: -0.00625rem;
+          line-height: 1.875rem;
+        }
+      }
+      button {
+        font-family: $ibmMedium;
+        font-size: 1rem;
+        height: 3rem;
+        width: 18.0625rem;
+      }
+      button.btn {
+        border-radius: 10rem;
+      }
+      button.btn-primary {
+        background-color: $color3;
+        border-color: $color3;
+      }
+      button.btn-primary:hover {
+        background-color: $color3;
+        border-color: $color3;
+      }
     }
-    
-    .section-1 {
-        // padding-bottom: 14rem;
-        background-size: cover;
-        padding-left: 0;
-        padding-right: 0;
+  }
 
-            .sett-line-section-1-top {
-                justify-content: end;
-                width: 20%;
-                margin-bottom: 0px;
-                margin-top: -6.25rem;
-                padding-bottom: 0;
-
-                .line-section-1-top {
-                    border-right-width: .0625rem;
-                    border-right-style: solid;
-                    border-color: white;
-                    height: 7.5rem;
-                    display: inline-block;
-                }
-            }
-
-            .sett_img {
-                display: flex !important;
-                width: 41%;
-                justify-content: center;
-
-            .logo-logo-v-1-copy-4 {
-
-                height: 9.5rem;
-                width: 29.125rem;
-                display: block;
-                padding-left: 5rem;
-                padding-top: 1rem;
-                padding-right: 6rem;
-                padding-bottom: 2rem;
-                margin-top: 1.25rem;
-
-            }
-            }
-
-            ul {
-                height: auto;
-                // width: 100%;
-                // margin-top: -1.875rem;
-                // padding-left: 14.375rem;
-                // padding-right: 6.25rem;
-                width: 80%;
-                justify-content: space-around;
-
-                li {                    
-                    color: #FFFFFF;
-                    // font-family: $ibmLight;
-                    // font-size: 1.125rem;
-                    font-weight: 600;
-                    letter-spacing: -0.01625rem;
-                    line-height: 1.4375rem;
-                    // margin-right: 1.875rem;
-                    margin-left: 0;                  
-                    
-                    a {
-                        height: 1.4375rem;
-                    }
-                }
-
-                li.dropdown {
-                    box-sizing: border-box;
-                    height: 3rem;
-                    width: 10.9375rem;
-                    border: .125rem solid #E5E5E5;
-                    border-radius: 1.5rem;
-                    margin-left: 6.25rem;
-                    margin-right: 0;
-                }
-
-            }
-
-            .sett-line-section-1 {
-                // width: 100%;
-                // height: auto;
-                // display: flex;
-                // align-items: start;
-                // padding-left: 15%;
-                justify-content: end;
-                width: 20%;
-
-                .line-section-1 {
-                    border-right-width: .0625rem;
-                    border-right-style: solid;
-                    border-color: white;
-                    height: 3.8125rem;
-                    display: inline-block;
-                }
-
-            }
-
-            .text-title {
-                margin-bottom: 3.125rem;
-
-            .une-approche-globale {
-                margin-top: 1rem;
-                height: 12.5rem;
-                width: 61.8125rem;
-                color: #FFFFFF;
-                font-family: $butlerLight;
-                font-size: 6.25rem;
-                font-weight: 300;
-                letter-spacing: -0.091875rem;
-                line-height: 6.25rem;
-                text-align: left;
-                margin-left: 5rem;
-            }
-            }
-
-            .sett_arrow_section-1 {  
-                justify-content: end;
-                width: 20%;
-                margin-bottom: -3.75rem;
-
-                .arrow-down {
-                    // position: absolute;
-                    // left: 15%;
-                    // margin-bottom: -1.25rem;
-                    // top: 23%;
-                }
-            }
-
-    }
-    
-    .section-2 {
+  .section-3 {
+    .content {
+      .row {
+        background-color: $color3;
 
         .content-left {
-            // margin-bottom: 5rem;
-    
+          .sett-line-section-3 {
+            width: 100%;
+            height: auto;
+            display: flex;
+            // justify-content: center;
+            padding-left: 35%;
+
+            span {
+              display: inline-block;
+              height: 61px;
+              color: rgb(255, 255, 255);
+              border-right: 1px solid rgb(255, 255, 255);
+            }
+
+            img {
+              margin-bottom: -3.8125rem;
+            }
+          }
+
+          .text {
+            height: 12.375rem;
+            width: 28.5rem;
+            margin-top: 6.25rem;
+            margin-left: 5rem;
+
             h1 {
-                margin-bottom: 3.125rem;
-                font-family: $ibmMedium;
-                color: $color4;
-                letter-spacing: -0.022rem;
-                line-height: 2.5rem;
-                width: 26.063rem;
-                height: 11.25rem;
-                margin-left: 6.938rem;
-                margin-top: 6.438rem;
-                font-size: 1.5rem;
+              color: $color1;
+              font-family: $butler;
+              font-size: 3.5rem;
+              letter-spacing: -0.05125rem;
+              line-height: 3.5rem;
             }
-            ul.dashed {
-                list-style-type: none;
-                width: 66.2rem;
-                font-family: $butlerLight;
-                margin-left: 6.938rem;
-                padding-left: 0.75rem;
-            }
-            ul.dashed > li {
-                text-indent: -20px;
-                font-size: 2.5rem;
-                color: $color4;
-                line-height: 3rem;
-                margin-bottom: 2.4rem;
-            }
-            ul.dashed > li:before {
-                content: "-";
-                text-indent: -20px;
-                color: $color3;
-                margin-right: 3.1rem;
-            }
-            ul.dashed .li-first {
-                color: $color3;
-            }
+          }
+          ul {
+            margin-top: 2.5rem;
+            margin-left: 5rem;
+            margin-bottom: 5.1875rem;
+            height: 15rem;
+            width: 28.1875rem;
+          }
+          ul li {
+            color: $color4;
+            font-family: $ibmMedium;
+            font-size: 1.125rem;
+            font-weight: 500;
+            letter-spacing: -0.01625rem;
+            line-height: 2.5rem;
+          }
+          .btt-side {
+            padding: 1.5rem 2.6rem;
+            background-color: $color1;
+            margin-bottom: 5rem;
+            margin-left: 5rem;
+            height: 5.5625rem;
+            width: 24rem;
 
-            .sett-line-section-2 {
-                width: 100%;
-                height: auto;
-                display: flex;
-                // justify-content: center;
-                padding-left: 35%;
-                padding-top: 8%;
-
-                span {
-                    display: inline-block;
-                    height: 61px;
-                    color: #F05E36;
-                    border-right: 1px solid #F05E36;
-                }
+            h4 {
+              color: $color6;
+              font-size: 0.875rem;
+              font-family: $ibmSemiBold;
+              letter-spacing: 0.2rem;
+              text-align: center;
             }
+            h2 {
+              color: $color5;
+              font-family: $minionItalic;
+              text-align: center;
+              font-size: 1.25rem;
+            }
+          }
         }
         .content-right {
-            padding-right: 0;
-            
-            .overlay-img {
-                margin-top: -7rem;
-    
-                #overlay {
-                    max-width: 100%;
-                    height: 7rem;
-                    background-color: $color4;
-                }
-                img {
-                    max-width: 100%;
-                    height: auto;
-                    margin-bottom: 5.125rem;
-                }
-            }
-
-            .text {
-                width: 80%;
-                h4 {
-                    font-family: $ibmLight;
-                    font-size: 1rem;
-                    font-weight: 300;
-                    margin-bottom: 3.125rem;
-                    letter-spacing: -0.00625rem;
-                    line-height: 1.875rem;
-                }
-            }
-            button {
-                font-family: $ibmMedium;
-                font-size: 1rem;
-                height: 3rem;
-                width: 18.0625rem;
-            }
-            button.btn {
-                border-radius: 10rem;
-            }
-            button.btn-primary {
-                background-color: $color3;
-                border-color: $color3;
-            }
-            button.btn-primary:hover {
-                background-color: $color3;
-                border-color: $color3;
-            }
-        } 
-    }
-    
-    .section-3 {
-        .content {
-    
-            .row {
-                background-color: $color3;
-    
-                .content-left {
-
-                    .sett-line-section-3 {
-                        width: 100%;
-                        height: auto;
-                        display: flex;
-                        // justify-content: center;
-                        padding-left: 35%;
-        
-                        span {
-                            display: inline-block;
-                            height: 61px;
-                            color: rgb(255, 255, 255);
-                            border-right: 1px solid rgb(255, 255, 255);
-                        }
-
-                        img {
-                            margin-bottom: -3.8125rem;
-                        }
-                    }
-                    
-                    .text {
-                        height: 12.375rem;
-                        width: 28.5rem;
-                        margin-top: 6.25rem;
-                        margin-left: 5rem;
-        
-                        h1 {
-                            color: $color1;
-                            font-family: $butler;
-                            font-size: 3.5rem;
-                            letter-spacing: -0.05125rem;
-                            line-height: 3.5rem;
-                        }
-                    }
-                    ul {
-                        margin-top: 2.5rem;
-                        margin-left: 5rem;
-                        margin-bottom: 5.1875rem;
-                        height: 15rem;
-                        width: 28.1875rem;
-                    }
-                    ul li {
-                        color: $color4;
-                        font-family: $ibmMedium;
-                        font-size: 1.125rem;
-                        font-weight: 500;
-                        letter-spacing: -0.01625rem;
-                        line-height: 2.5rem;
-                    }
-                    .btt-side {
-                        padding: 1.5rem 2.6rem;
-                        background-color: $color1;
-                        margin-bottom: 5rem;
-                        margin-left: 5rem;
-                        height: 5.5625rem;
-                        width: 24rem;
-        
-                        h4 {
-                            color: $color6;
-                            font-size: .875rem;
-                            font-family: $ibmSemiBold;
-                            letter-spacing: 0.2rem;
-                            text-align: center;
-                        }
-                        h2 {
-                            color: $color5;
-                            font-family: $minionItalic;
-                            text-align: center;
-                            font-size: 1.25rem;
-                        }
-                    }
-                }
-                .content-right {
-                    padding-right: 0;
-                    img {
-                        max-width: 100%;
-                        margin-top: -5rem;
-                    }
-                    h1 {
-                        font-family: $ibmMedium;
-                        margin-top: 5.4375rem;
-                        height: 2.3125rem;
-                        width: 39.6875rem;
-                        color: #0A2939;
-                        font-size: 1.5rem;
-                        font-weight: 500;
-                        letter-spacing: -0.01875rem;
-                        line-height: 1.875rem;
-                    }
-                    .text {
-                        padding-right: 2.1875rem;
-                        font-family: $ibmLight;
-                        color: $color1;
-                        height: 24.375rem;
-                        width: 39.6875rem;
-                        font-weight: 300;
-                        letter-spacing: -0.00625rem;                       
-    
-                        h4 {
-                            line-height: 1.875rem;
-                            font-size: 1rem;
-                        }
-                        h4.second-text {
-                            margin-bottom: 8.4rem;
-                        }
-                    } 
-                }
-            }
-        }
-    }
-    
-    .section-4 {
-        padding: 6.875rem 6.25rem;
-        
-        .row {
-            .title, .card-title, .card-text h3 {
-                color: $color4;
-            }
-        
-            .title {
-                height: 9.375rem;
-                width: 31.25rem;
-                color: #0A2939;
-                font-family: $butler;
-                font-size: 3.5rem;
-                letter-spacing: -0.05125rem;
-                line-height: 3.5rem;
-            }
-            .card-list-image {
-                .card {
-                    height: 34.95625rem;
-                    width: 24.1rem;
-                    margin-bottom: 1.9375rem;
-                    text-align: left;
-                    margin-right: 1.3125rem;
-        
-                    .card-body {
-                        h1 {
-                            height: 2.8125rem;
-                            width: 10.74375rem;
-                            color: #0A2939;
-                            font-family: $butler;
-                            font-size: 3rem;
-                            letter-spacing: -0.044375rem;
-                            line-height: 2.8125rem;
-                        }
-                        .card-text {
-                            h4 {
-                                color: $color6;
-                                font-family: $ibmReguler;
-                                height: 2.8125rem;
-                                width: 7.70625rem;
-                                font-size: .9rem;
-                                letter-spacing: 0;
-                                line-height: 2.8125rem;
-                            }
-                            h3 {
-                                font-family: $ibmReguler;
-                                height: 2.875rem;
-                                width: 19.375rem;
-                                color: #0A2939;
-                                font-family: "IBM Plex Sans";
-                                font-size: 1.125rem;
-                                font-weight: 500;
-                                letter-spacing: -0.01625rem;
-                                line-height: 1.4375rem;
-                            }
-                        }
-                    }
-                }
-            }
-            button {
-                height: 3rem;
-                width: 20rem;
-                border-radius: 1.5rem;
-                background-color: #0A2939;
-                font-size: 1rem;
-                padding: .8125rem 3.8125rem;
-            }
-            button.btn {
-                border-radius: 1.5rem;
-            }
-            button.btn-primary {
-                background-color: $color4;
-                border-color: $color4;
-            }
-            button.btn-primary:hover {
-                background-color: $color4;
-                border-color: $color4;
-            }
-        }
-        
-    }
-    
-    .section-5 {
-        .row {
-            position: relative;
-            height: 90.3rem;
-            background-image: url('../../assets/images/visual-who-we-are.jpg');
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-    }
-    
-    .section-6 {
-        .row {
-            background-color: $color7;
+          padding-right: 0;
+          img {
+            max-width: 100%;
+            margin-top: -5rem;
+          }
+          h1 {
+            font-family: $ibmMedium;
+            margin-top: 5.4375rem;
+            height: 2.3125rem;
+            width: 39.6875rem;
+            color: #0a2939;
+            font-size: 1.5rem;
+            font-weight: 500;
+            letter-spacing: -0.01875rem;
+            line-height: 1.875rem;
+          }
+          .text {
+            padding-right: 2.1875rem;
+            font-family: $ibmLight;
             color: $color1;
-            height: 39.5625rem;
-    
-            .logo-center {
-                margin: 5.8rem 0;
-                
-                img {
-                    margin-left: auto;
-                    margin-right: auto;
-                    display: block;
-                }
+            height: 24.375rem;
+            width: 39.6875rem;
+            font-weight: 300;
+            letter-spacing: -0.00625rem;
+
+            h4 {
+              line-height: 1.875rem;
+              font-size: 1rem;
             }
-            hr {
-                text-decoration: none; 
-                border-bottom: 2px solid $colorLine;
-                height: 1px;
-                width: 80%;
-                margin-bottom: 0;
+            h4.second-text {
+              margin-bottom: 8.4rem;
             }
-            .content {
-                width: 80%;
-                padding-left: 0;
-                flex-direction: row;
-    
-                .text {                    
-                    height: auto;                 
-                    display: block;
-                    margin-top: 2rem;
-                }
-
-                .left {
-                    margin-left: auto;
-                    margin-right: auto;
-                    display: block; 
-                }
-
-                .center {
-                    margin-left: auto;
-                    margin-right: auto;
-                    display: block;
-                }
-
-                .mt-lg-0 {
-                    display: none;
-                }
-
-                h5 {
-                    height: .9375rem;
-                    width: 11.6875rem;
-                    font-family: $ibmMedium;
-                    color: #FFFFFF;
-                    font-size: .75rem;
-                    font-weight: 500;
-                    letter-spacing: .03125rem;
-                    line-height: .9375rem;
-                    margin-bottom: 2rem;
-                }
-                .right {
-                    width: 15.1875rem;
-                    margin-left: auto;
-                    margin-right: auto;
-                    display: block;
-                    margin-top: auto;
-                    margin-bottom: auto;
-
-                    img {
-                        margin-right: .3125rem;
-                    }
-                    h4 {
-                        font-family: $ibmReguler;
-                        font-size: .75rem;
-                    }
-                }
-            }
+          }
         }
+      }
     }
+  }
+
+  .section-4 {
+    padding: 6.875rem 6.25rem;
+
+    .row {
+      .title,
+      .card-title,
+      .card-text h3 {
+        color: $color4;
+      }
+
+      .title {
+        height: 9.375rem;
+        width: 31.25rem;
+        color: #0a2939;
+        font-family: $butler;
+        font-size: 3.5rem;
+        letter-spacing: -0.05125rem;
+        line-height: 3.5rem;
+      }
+      .card-list-image {
+        .card {
+          height: 34.95625rem;
+          width: 24.1rem;
+          margin-bottom: 1.9375rem;
+          text-align: left;
+          margin-right: 1.3125rem;
+
+          .card-body {
+            h1 {
+              height: 2.8125rem;
+              width: 10.74375rem;
+              color: #0a2939;
+              font-family: $butler;
+              font-size: 3rem;
+              letter-spacing: -0.044375rem;
+              line-height: 2.8125rem;
+            }
+            .card-text {
+              h4 {
+                color: $color6;
+                font-family: $ibmReguler;
+                height: 2.8125rem;
+                width: 7.70625rem;
+                font-size: 0.9rem;
+                letter-spacing: 0;
+                line-height: 2.8125rem;
+              }
+              h3 {
+                font-family: $ibmReguler;
+                height: 2.875rem;
+                width: 19.375rem;
+                color: #0a2939;
+                font-family: "IBM Plex Sans";
+                font-size: 1.125rem;
+                font-weight: 500;
+                letter-spacing: -0.01625rem;
+                line-height: 1.4375rem;
+              }
+            }
+          }
+        }
+      }
+      button {
+        height: 3rem;
+        width: 20rem;
+        border-radius: 1.5rem;
+        background-color: #0a2939;
+        font-size: 1rem;
+        padding: 0.8125rem 3.8125rem;
+      }
+      button.btn {
+        border-radius: 1.5rem;
+      }
+      button.btn-primary {
+        background-color: $color4;
+        border-color: $color4;
+      }
+      button.btn-primary:hover {
+        background-color: $color4;
+        border-color: $color4;
+      }
+    }
+  }
+
+  .section-5 {
+    width: 100%;
+    padding: 0px !important;
+    background-image: url(../../assets/images/visual-who-we-are.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    height: 60rem;
+
+    .sectionArrow {
+      width: 80%;
+      position: relative;
+      //   background: red;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .atas {
+        border-right: 1px solid #fff;
+        height: 10%;
+        margin-bottom: 4rem;
+      }
+      .text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: absolute;
+        top: 20%;
+        font-size: 20px;
+        margin-left: 10rem;
+        transform: scale(1);
+        :nth-child(1) {
+          margin-right: 1rem;
+        }
+        :nth-child(2) {
+          color: #ffffff;
+          font-family: Minion;
+          font-size: 23px;
+          font-style: italic;
+          letter-spacing: 1.05px;
+          line-height: 50px;
+        }
+        span {
+          color: $color6;
+          font-family: "IBM Plex Sans";
+        }
+        p {
+          height: 50px;
+          color: #ffffff;
+          font-family: "IBM Plex Sans";
+
+          font-weight: 500;
+          letter-spacing: 6.67px;
+          line-height: 50px;
+        }
+      }
+      .tengah {
+        border-right: 1px solid #fff;
+        height: 45%;
+      }
+      .arrow {
+        margin-top: 6rem;
+        height: 10%;
+        img {
+          height: 6rem;
+          transform: scale(2);
+        }
+      }
+    }
+
+    .carousel {
+      margin-top: 15rem;
+      margin-left: -20rem;
+      width: 60%;
+      position: relative;
+      //   background-color: rebeccapurple;
+      display: block;
+      color: #ffffff !important;
+      justify-content: center;
+      position: relative;
+
+      .carousel-control-next-icon {
+        background-color: #f66e49 !important;
+        opacity: 0.95;
+        height: 10rem;
+        width: 10rem;
+        background-size: 51px;
+        margin-left: -9rem;
+        border-radius: 50%;
+      }
+      .carousel-control-prev-icon {
+        display: none;
+      }
+      .carousel-inner {
+        .carousel-item {
+          display: block;
+          opacity: 0.2;
+          margin-left: 40rem;
+        }
+        :nth-child(2).active {
+          margin-left: -40rem !important;
+        }
+        .active {
+          opacity: 1 !important;
+          margin-left: 0rem !important;
+        }
+        .crop-Container {
+          margin-top: 3rem;
+
+          height: 50px;
+          overflow: hidden;
+        }
+
+        .DetailText {
+          margin-left: 15rem;
+          margin-top: -2rem;
+          width: 50%;
+        }
+        p {
+          font-size: 16px;
+        }
+        h1 {
+          margin-top: 4rem;
+          height: 196px;
+          width: 997px;
+          color: #ffffff;
+          font-family: Butler;
+          font-size: 150px;
+
+          font-weight: 300;
+          letter-spacing: 0;
+          line-height: 50px;
+        }
+        h2 {
+          margin-bottom: 14rem;
+          height: 33px;
+          width: 668px;
+          color: #f66e49;
+          font-family: "IBM Plex Sans";
+          font-size: 20px;
+          font-weight: 500;
+          letter-spacing: 25px;
+        }
+        .crauselCustomComponents {
+          img {
+            margin-top: 3rem;
+          }
+          h2 {
+            font-size: 60px !important;
+            height: 100px;
+          }
+        }
+      }
+    }
+
+    // .row {
+    //   position: relative;
+    //   height: 90.3rem;
+    //   background-image: url("../../assets/images/visual-who-we-are.jpg");
+    //   background-position: center;
+    //   background-repeat: no-repeat;
+    //   background-size: cover;
+    // }
+  }
+
+  .section-6 {
+    .row {
+      background-color: $color7;
+      color: $color1;
+      height: 39.5625rem;
+
+      .logo-center {
+        margin: 5.8rem 0;
+
+        img {
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+        }
+      }
+      hr {
+        text-decoration: none;
+        border-bottom: 2px solid $colorLine;
+        height: 1px;
+        width: 80%;
+        margin-bottom: 0;
+      }
+      .content {
+        width: 80%;
+        padding-left: 0;
+        flex-direction: row;
+
+        .text {
+          height: auto;
+          display: block;
+          margin-top: 2rem;
+        }
+
+        .left {
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+        }
+
+        .center {
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+        }
+
+        .mt-lg-0 {
+          display: none;
+        }
+
+        h5 {
+          height: 0.9375rem;
+          width: 11.6875rem;
+          font-family: $ibmMedium;
+          color: #ffffff;
+          font-size: 0.75rem;
+          font-weight: 500;
+          letter-spacing: 0.03125rem;
+          line-height: 0.9375rem;
+          margin-bottom: 2rem;
+        }
+        .right {
+          width: 15.1875rem;
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          margin-top: auto;
+          margin-bottom: auto;
+
+          img {
+            margin-right: 0.3125rem;
+          }
+          h4 {
+            font-family: $ibmReguler;
+            font-size: 0.75rem;
+          }
+        }
+      }
+    }
+  }
 }
