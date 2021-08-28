@@ -76,17 +76,13 @@ li.hidden ul li.first {
 }
 
 li.nav-item {
-  margin-left: 5rem;
+  margin-left: 0;
 }
 
 li.nav-item .nav-link, li.nav-item button span, li.nav-item .dropdown-item {
   font-family: "IBMPlexSans-SemiBold";
   font-weight: 600;
-  font-size: 1.05rem;
-}
-
-li.drop {
-  margin-right: 10.5rem;
+  font-size: 1rem;
 }
 
 li.drop .btn-group {
@@ -115,6 +111,14 @@ li.drop button span {
 .show .btn-danger.dropdown-toggle {
   background-color: transparent;
   border: 2px solid white;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  position: absolute;
+  top: 3.75rem;
+  left: 1.25rem;
+  padding-bottom: 1rem;
+  padding-right: 1.5rem;
 }
 
 @media (max-width: 575.98px) {
@@ -1391,7 +1395,7 @@ li.drop button span {
     border: none;
   }
   .navbar {
-    margin-top: 1.875rem;
+    margin-top: 1.25rem;
   }
   .drop .btn-group {
     margin-top: 0;
@@ -1439,19 +1443,15 @@ li.drop button span {
   }
   .section-1 ul {
     height: auto;
-    width: 100%;
-    margin-top: -1.875rem;
-    padding-left: 14.375rem;
-    padding-right: 6.25rem;
   }
   .section-1 ul li {
     color: #FFFFFF;
     font-family: "IBMPlexSans-Light";
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 600;
     letter-spacing: -0.01625rem;
     line-height: 1.4375rem;
-    margin-right: 1.875rem;
+    margin-left: 0;
   }
   .section-1 ul li a {
     height: 1.4375rem;

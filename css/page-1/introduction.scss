@@ -96,16 +96,16 @@ li.hidden {
 }
 
 li.nav-item {
-    margin-left: 5rem;
+    margin-left: 0;
 
     .nav-link, button span, .dropdown-item {
         font-family: $ibmSemiBold;
         font-weight: 600;
-        font-size: 1.05rem;
+        font-size: 1rem;
     }
 }
 li.drop {
-    margin-right: 10.5rem;
+    // margin-right: 10.5rem;
 
     .btn-group {
         margin-top: -0.5rem;
@@ -134,6 +134,14 @@ li.drop {
         background-color: transparent;
         border: 2px solid white;
     }
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    top: 3.75rem;
+    left: 1.25rem;
+    padding-bottom: 1rem;
+    padding-right: 1.5rem;
 }
 
 
@@ -1655,8 +1663,9 @@ li.drop {
 
     }
     .navbar {
-        margin-top: 1.875rem;
+        // margin-top: 1.875rem;
         // margin-left: 0.75rem;
+        margin-top: 1.25rem;
     }
     .drop {
         .btn-group {
@@ -1711,19 +1720,20 @@ li.drop {
 
             ul {
                 height: auto;
-                width: 100%;
-                margin-top: -1.875rem;
-                padding-left: 14.375rem;
-                padding-right: 6.25rem;
+                // width: 100%;
+                // // margin-top: -1.875rem;
+                // padding-left: 14.375rem;
+                // padding-right: 6.25rem;
 
                 li {                    
                     color: #FFFFFF;
                     font-family: $ibmLight;
-                    font-size: 1.125rem;
+                    font-size: 1rem;
                     font-weight: 600;
                     letter-spacing: -0.01625rem;
                     line-height: 1.4375rem;
-                    margin-right: 1.875rem;                   
+                    // margin-right: 1.875rem;
+                    margin-left: 0;                  
                     
                     a {
                         height: 1.4375rem;
