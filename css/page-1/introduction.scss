@@ -93,6 +93,13 @@ li.hidden {
     background-repeat: no-repeat;
     background-size: cover;
     /* Needed to position the navbar */
+
+    .navbar .container .navbar-toggler {
+        margin-left: -1rem;
+    }
+    ul li a {
+        width: auto;
+    }
 }
 
 li.nav-item {
@@ -101,7 +108,7 @@ li.nav-item {
     .nav-link, button span, .dropdown-item {
         font-family: $ibmSemiBold;
         font-weight: 600;
-        font-size: 1rem;
+        font-size: 18px;
     }
 }
 li.drop {
@@ -109,6 +116,16 @@ li.drop {
 
     .btn-group {
         margin-top: -0.5rem;
+
+        .dropdown-menu {
+            .dropdown-item {
+                font-size: 1rem;
+            }
+            .dropdown-item.first {
+                color: $color3;
+                margin-bottom: 0.5rem;
+            }
+        }
     }
     button.btn {
         border-radius: 2.4rem;
@@ -133,17 +150,36 @@ li.drop {
     .btn-danger.dropdown-toggle {
         background-color: transparent;
         border: 2px solid white;
+        color: $color3;
     }
 }
 
 .navbar-expand-lg .navbar-nav .dropdown-menu {
     position: absolute;
-    top: 3.75rem;
+    top: 3.9rem;
     left: 1.25rem;
     padding-bottom: 1rem;
     padding-right: 1.5rem;
+    width: 13rem;
 }
 
+.navbar-light .navbar-nav .nav-link:focus,  .navbar-light .navbar-nav .nav-link:hover{
+     color:$color1;
+}
+
+li.hidden ul li {
+    font-family: $ibmSemiBold;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.section-4 {
+    .row {
+        button {
+            margin-top: 5rem;
+        }
+    }
+}
 
 @media (max-width: 575.98px) {
     .navbar {
@@ -398,7 +434,7 @@ li.drop {
                 flex-direction: column-reverse;
     
                 .content-left {
-                    margin-left: .75rem;
+                    margin-left: 0.35rem;
                     padding-left: 0;
 
                     .sett-line-section-3 {
@@ -542,16 +578,17 @@ li.drop {
                 }
             }
             button {                
-                height: 3rem;
+                height: 5rem;
                 width: 20rem;
                 border-radius: 1.5rem;
                 background-color: #0A2939;
                 font-size: 1rem;
                 padding: .8125rem 3.8125rem;
-                margin-top: 3.375rem;                                           
+                margin-top: 3.375rem;  
+                margin-bottom: 1.5rem;                                         
             }
             button.btn {
-                border-radius: 1.5rem;
+                border-radius: 2.5rem;
             }
             button.btn-primary {
                 background-color: $color4;
@@ -628,7 +665,6 @@ li.drop {
                     margin-left: auto;
                     margin-right: auto;
                     display: block;
-                    margin-top: auto;
                     margin-bottom: auto;
                     padding-left: 1.5rem;
 
@@ -884,7 +920,7 @@ li.drop {
                 flex-direction: column-reverse;
     
                 .content-left {
-                    margin-left: .75rem;
+                    margin-left: 0.35rem;
                     padding-left: 0;
 
                     .sett-line-section-3 {
@@ -1028,16 +1064,17 @@ li.drop {
                 }
             }
             button {                
-                height: 3rem;
+                height: 5rem;
                 width: 20rem;
                 border-radius: 1.5rem;
                 background-color: #0A2939;
                 font-size: 1rem;
                 padding: .8125rem 3.8125rem;
-                margin-top: 3.375rem;                                           
+                margin-top: 3.375rem;  
+                margin-bottom: 1.5rem;                                         
             }
             button.btn {
-                border-radius: 1.5rem;
+                border-radius: 2.5rem;
             }
             button.btn-primary {
                 background-color: $color4;
@@ -1386,7 +1423,7 @@ li.drop {
                 flex-direction: column-reverse;
     
                 .content-left {
-                    margin-left: .75rem;
+                    margin-left: 0.35rem;
                     padding-left: 0;
 
                     .sett-line-section-3 {
@@ -1536,7 +1573,8 @@ li.drop {
                 background-color: #0A2939;
                 font-size: 1rem;
                 padding: .8125rem 3.8125rem;
-                margin-top: 3.375rem;                                           
+                margin-top: 3.375rem;    
+                margin-bottom: 1.5rem;                                       
             }
             button.btn {
                 border-radius: 1.5rem;
@@ -1670,7 +1708,7 @@ li.drop {
     .drop {
         .btn-group {
             margin-top: 0;
-            margin-left: -2.5rem;
+            margin-left: 2rem;
         }
     }
     
@@ -1737,7 +1775,6 @@ li.drop {
                     
                     a {
                         height: 1.4375rem;
-                        width: 161.94px;
                     }
                 }
 
@@ -1749,6 +1786,16 @@ li.drop {
                     border-radius: 1.5rem;
                     margin-left: 6.25rem;
                     margin-right: 0;
+                }
+
+                li.nav-item {
+                    margin-left: 1rem;
+                
+                    .nav-link, button span, .dropdown-item {
+                        font-family: $ibmSemiBold;
+                        font-weight: 600;
+                        font-size: 1rem;
+                    }
                 }
 
             }
@@ -2305,8 +2352,8 @@ li.drop {
 
                 li {                    
                     color: #FFFFFF;
-                    font-family: $ibmLight;
-                    font-size: 1.125rem;
+                    // font-family: $ibmLight;
+                    // font-size: 1.125rem;
                     font-weight: 600;
                     letter-spacing: -0.01625rem;
                     line-height: 1.4375rem;
@@ -2315,7 +2362,6 @@ li.drop {
                     
                     a {
                         height: 1.4375rem;
-                        width: 161.94px;
                     }
                 }
 
