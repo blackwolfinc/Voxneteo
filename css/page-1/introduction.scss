@@ -114,7 +114,6 @@ li.nav-item {
   }
 }
 li.drop {
-  // margin-right: 10.5rem;
 
   .btn-group {
     margin-top: -0.5rem;
@@ -628,12 +627,6 @@ li.hidden ul li {
           text-align: center;
         }
 
-        .left {
-        }
-
-        .center {
-        }
-
         hr {
           width: 100%;
         }
@@ -1103,12 +1096,6 @@ li.hidden ul li {
             text-align: center;
           }
 
-          .left {
-          }
-
-          .center {
-          }
-
           hr {
             width: 100%;
           }
@@ -1224,7 +1211,6 @@ li.hidden ul li {
       .sett-line-section-1-top {
         justify-content: center;
         width: 100%;
-        // margin-bottom: -2.5rem;
         padding-bottom: 0;
         margin-top: -5rem;
         margin-bottom: 1.25rem;
@@ -1592,12 +1578,6 @@ li.hidden ul li {
             text-align: center;
           }
 
-          .left {
-          }
-
-          .center {
-          }
-
           hr {
             width: 100%;
           }
@@ -1661,8 +1641,6 @@ li.hidden ul li {
     }
   }
   .navbar {
-    // margin-top: 1.875rem;
-    // margin-left: 0.75rem;
     margin-top: 1.25rem;
   }
   .drop {
@@ -1673,15 +1651,14 @@ li.hidden ul li {
   }
 
   .section-1 {
-    // padding-bottom: 14rem;
     background-size: cover;
     padding-left: 0;
     padding-right: 0;
 
     .sett-line-section-1-top {
-      justify-content: end;
-      width: 17%;
-      // margin-bottom: -40px;
+      justify-content: flex-start;
+      width: 100%;
+      padding-left: 17%;
       padding-bottom: 0;
       margin-bottom: 0px;
       margin-top: -5rem;
@@ -1715,11 +1692,6 @@ li.hidden ul li {
 
     ul {
       height: auto;
-      // width: 100%;
-      // // margin-top: -1.875rem;
-      // padding-left: 14.375rem;
-      // padding-right: 6.25rem;
-
       li {
         color: #ffffff;
         font-family: $ibmLight;
@@ -1759,8 +1731,9 @@ li.hidden ul li {
     }
 
     .sett-line-section-1 {
-      justify-content: end;
-      width: 17%;
+      justify-content: flex-start;
+      padding-left: 17%;
+      width: 100%;
 
       .line-section-1 {
         border-right-width: 0.125rem;
@@ -1775,9 +1748,7 @@ li.hidden ul li {
       margin-bottom: 3.125rem;
 
       .une-approche-globale {
-        // margin-top: 1rem;
         height: 12.5rem;
-        // width: 61.8125rem;
         color: #ffffff;
         font-family: $butlerLight;
         font-size: 5rem;
@@ -1791,15 +1762,15 @@ li.hidden ul li {
     }
 
     .sett_arrow_section-1 {
-      justify-content: end;
-      width: 17%;
+      justify-content: flex-start;
+      padding-left: 17%;
+      width: 100%;
       margin-bottom: -3.75rem;
     }
   }
 
   .section-2 {
     .content-left {
-      // margin-bottom: 5rem;
 
       h1 {
         margin-bottom: 3.125rem;
@@ -1823,7 +1794,6 @@ li.hidden ul li {
       ul.dashed {
         list-style-type: none;
         font-family: $butlerLight;
-        // margin-left: 6.938rem;
         padding-left: 0.75rem;
         margin-left: auto;
         margin-right: auto;
@@ -2127,14 +2097,7 @@ li.hidden ul li {
   }
 
   .section-5 {
-    // .row {
-    //     position: relative;
-    //     height: 90.3rem;
-    //     background-image: url('../../assets/images/visual-who-we-are.jpg');
-    //     background-position: center;
-    //     background-repeat: no-repeat;
-    //     background-size: cover;
-    // }
+    display: none;
   }
 
   .section-6 {
@@ -2240,7 +2203,6 @@ li.hidden ul li {
   }
   .navbar {
     margin-top: 1.875rem;
-    // margin-left: 0.75rem;
   }
   .drop {
     .btn-group {
@@ -2250,14 +2212,14 @@ li.hidden ul li {
   }
 
   .section-1 {
-    // padding-bottom: 14rem;
     background-size: cover;
     padding-left: 0;
     padding-right: 0;
 
     .sett-line-section-1-top {
-      justify-content: end;
-      width: 20%;
+      justify-content: flex-start;
+      width: 100%;
+      padding-left: 20%;
       margin-bottom: 0px;
       margin-top: -6.25rem;
       padding-bottom: 0;
@@ -2290,21 +2252,14 @@ li.hidden ul li {
 
     ul {
       height: auto;
-      // width: 100%;
-      // margin-top: -1.875rem;
-      // padding-left: 14.375rem;
-      // padding-right: 6.25rem;
       width: 80%;
       justify-content: space-around;
 
       li {
         color: #ffffff;
-        // font-family: $ibmLight;
-        // font-size: 1.125rem;
         font-weight: 600;
         letter-spacing: -0.01625rem;
         line-height: 1.4375rem;
-        // margin-right: 1.875rem;
         margin-left: 0;
 
         a {
@@ -2324,13 +2279,9 @@ li.hidden ul li {
     }
 
     .sett-line-section-1 {
-      // width: 100%;
-      // height: auto;
-      // display: flex;
-      // align-items: start;
-      // padding-left: 15%;
-      justify-content: end;
-      width: 20%;
+      justify-content: flex-start;
+      width: 100%;
+      padding-left: 20%;
 
       .line-section-1 {
         border-right-width: 0.0625rem;
@@ -2360,23 +2311,15 @@ li.hidden ul li {
     }
 
     .sett_arrow_section-1 {
-      justify-content: end;
-      width: 20%;
+      justify-content: flex-start;
+      width: 100%;
       margin-bottom: -3.75rem;
-
-      .arrow-down {
-        // position: absolute;
-        // left: 15%;
-        // margin-bottom: -1.25rem;
-        // top: 23%;
-      }
+      padding-left: 20%;
     }
   }
 
   .section-2 {
     .content-left {
-      // margin-bottom: 5rem;
-
       h1 {
         margin-bottom: 3.125rem;
         font-family: $ibmMedium;
@@ -2834,15 +2777,6 @@ li.hidden ul li {
         }
       }
     }
-
-    // .row {
-    //   position: relative;
-    //   height: 90.3rem;
-    //   background-image: url("../../assets/images/visual-who-we-are.jpg");
-    //   background-position: center;
-    //   background-repeat: no-repeat;
-    //   background-size: cover;
-    // }
   }
 
   .section-6 {

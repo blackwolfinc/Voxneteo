@@ -1455,10 +1455,11 @@ li.hidden ul li {
     padding-right: 0;
   }
   .section-1 .sett-line-section-1-top {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
-    width: 17%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 100%;
+    padding-left: 17%;
     padding-bottom: 0;
     margin-bottom: 0px;
     margin-top: -5rem;
@@ -1525,10 +1526,11 @@ li.hidden ul li {
     font-size: 1rem;
   }
   .section-1 .sett-line-section-1 {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
-    width: 17%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding-left: 17%;
+    width: 100%;
   }
   .section-1 .sett-line-section-1 .line-section-1 {
     border-right-width: 0.125rem;
@@ -1553,10 +1555,11 @@ li.hidden ul li {
     padding-right: 2rem;
   }
   .section-1 .sett_arrow_section-1 {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
-    width: 17%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding-left: 17%;
+    width: 100%;
     margin-bottom: -3.75rem;
   }
   .section-2 .content-left h1 {
@@ -1850,6 +1853,9 @@ li.hidden ul li {
     background-color: #0a2939;
     border-color: #0a2939;
   }
+  .section-5 {
+    display: none;
+  }
   .section-6 .row {
     background-color: #021925;
     color: #ffffff;
@@ -1948,10 +1954,11 @@ li.hidden ul li {
     padding-right: 0;
   }
   .section-1 .sett-line-section-1-top {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
-    width: 20%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 100%;
+    padding-left: 20%;
     margin-bottom: 0px;
     margin-top: -6.25rem;
     padding-bottom: 0;
@@ -2009,10 +2016,11 @@ li.hidden ul li {
     margin-right: 0;
   }
   .section-1 .sett-line-section-1 {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
-    width: 20%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 100%;
+    padding-left: 20%;
   }
   .section-1 .sett-line-section-1 .line-section-1 {
     border-right-width: 0.0625rem;
@@ -2038,11 +2046,12 @@ li.hidden ul li {
     margin-left: 5rem;
   }
   .section-1 .sett_arrow_section-1 {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
-    width: 20%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 100%;
     margin-bottom: -3.75rem;
+    padding-left: 20%;
   }
   .section-2 .content-left h1 {
     margin-bottom: 3.125rem;
