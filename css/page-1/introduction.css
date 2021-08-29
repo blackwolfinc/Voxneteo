@@ -438,6 +438,7 @@ li.hidden ul li {
   }
   .section-3 .content .row .content-right {
     padding: 1.5rem 1.9375rem;
+    margin-left: -0.5rem;
   }
   .section-3 .content .row .content-right img {
     max-width: 100%;
@@ -851,6 +852,7 @@ li.hidden ul li {
   }
   .container .section-3 .content .row .content-right {
     padding: 1.5rem 1.9375rem;
+    margin-left: -0.5rem;
   }
   .container .section-3 .content .row .content-right img {
     max-width: 100%;
