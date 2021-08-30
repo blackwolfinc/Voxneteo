@@ -321,6 +321,9 @@ li.hidden ul li {
   }
 
   .section-2 {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+
     .content-left {
       h1 {
         margin: 19rem 7rem;
@@ -592,6 +595,11 @@ li.hidden ul li {
       }
     }
   }
+
+  .section-5 {
+    display: none;
+  }
+
   .section-6 {
     .row {
       background-color: $color7;
@@ -793,6 +801,8 @@ li.hidden ul li {
     }
 
     .section-2 {
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
       .content-left {
         h1 {
           margin: 19rem 7rem;
@@ -1066,6 +1076,9 @@ li.hidden ul li {
         }
       }
     }
+    .section-5 {
+      display: none;
+    }
     .section-6 {
       .row {
         background-color: $color7;
@@ -1282,6 +1295,8 @@ li.hidden ul li {
     }
 
     .section-2 {
+      margin-right: 1.5rem;
+      margin-left: 1.5rem;
       .content-left {
         h1 {
           margin: 19rem 7rem;
@@ -1552,6 +1567,9 @@ li.hidden ul li {
           border-color: $color4;
         }
       }
+    }
+    .section-5 {
+      display: none;
     }
     .section-6 {
       .row {
@@ -1862,15 +1880,14 @@ li.hidden ul li {
         width: 100%;
         height: auto;
         display: flex;
-        // justify-content: center;
-        padding-left: 35%;
+        padding-left: 50%;
         padding-top: 8%;
 
         span {
           display: inline-block;
           height: 61px;
           color: #f05e36;
-          border-right: 1px solid #f05e36;
+          border-right: 2px solid #f05e36;
         }
       }
     }
@@ -1933,7 +1950,7 @@ li.hidden ul li {
             width: 100%;
             height: auto;
             display: flex;
-            padding-left: 35%;
+            padding-left: 50%;
 
             span {
               display: inline-block;
@@ -2249,7 +2266,7 @@ li.hidden ul li {
   .drop {
     .btn-group {
       margin-top: 0;
-      margin-left: -2.5rem;
+      margin-left: 20%;
     }
   }
 
@@ -2402,15 +2419,14 @@ li.hidden ul li {
         width: 100%;
         height: auto;
         display: flex;
-        // justify-content: center;
-        padding-left: 35%;
-        padding-top: 8%;
+        padding-left: 50%;
+        padding-top: 20%;
 
         span {
           display: inline-block;
           height: 61px;
           color: #f05e36;
-          border-right: 1px solid #f05e36;
+          border-right: 2px solid #f05e36;
         }
       }
     }
@@ -2473,14 +2489,13 @@ li.hidden ul li {
             width: 100%;
             height: auto;
             display: flex;
-            // justify-content: center;
-            padding-left: 35%;
+            padding-left: 50%;
 
             span {
               display: inline-block;
               height: 61px;
               color: rgb(255, 255, 255);
-              border-right: 1px solid rgb(255, 255, 255);
+              border-right: 2px solid rgb(255, 255, 255);
             }
 
             img {
