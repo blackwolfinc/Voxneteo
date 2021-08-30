@@ -127,7 +127,8 @@ li.drop button span {
   color: white;
 }
 
-.show .btn-danger.dropdown-toggle {
+.sh
+ow .btn-danger.dropdown-toggle {
   background-color: transparent;
   border: 2px solid white;
   color: #f05e36;
@@ -158,6 +159,10 @@ li.hidden ul li {
 }
 
 @media (max-width: 575.98px) {
+  .section-1 {
+    padding-left: 36px;
+    padding-right: 36px;
+  }
   .navbar {
     margin-top: 1.25rem;
     margin-left: 0;
@@ -586,12 +591,16 @@ li.hidden ul li {
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .section-1 {
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+  }
   .navbar {
     margin-top: 1rem !important;
     margin-left: 0.75rem;
   }
   li.nav-item {
-    margin-top: 24px;
+    margin-top: 1.5rem;
     margin-left: 1.5rem;
   }
   li.nav-item .nav-link,
@@ -1006,6 +1015,10 @@ li.hidden ul li {
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .section-1 {
+    padding-left: 36px;
+    padding-right: 36px;
+  }
   li.nav-item {
     margin-left: 1.5rem;
   }
@@ -1445,9 +1458,15 @@ li.hidden ul li {
   .navbar {
     margin-top: 1.25rem;
   }
+  .navbar-collapse {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding-left: 20%;
+  }
   .drop .btn-group {
     margin-top: 0;
-    margin-left: 2rem;
+    margin-left: 40%;
   }
   .section-1 {
     background-size: cover;
@@ -1462,7 +1481,7 @@ li.hidden ul li {
     padding-left: 17%;
     padding-bottom: 0;
     margin-bottom: 0px;
-    margin-top: -5rem;
+    margin-top: -5.625rem;
   }
   .section-1 .sett-line-section-1-top .line-section-1-top {
     border-right-width: 0.125rem;
@@ -1470,6 +1489,20 @@ li.hidden ul li {
     border-color: white;
     height: 7.5rem;
     display: inline-block;
+  }
+  .section-1 .sett-line-section-1-top .une-approche-globale {
+    margin-top: 1rem;
+    height: 12.5rem;
+    width: 61.8125rem;
+    color: #ffffff;
+    font-family: "Butler-Light";
+    font-size: 6.25rem;
+    font-weight: 300;
+    letter-spacing: -0.091875rem;
+    line-height: 6.25rem;
+    text-align: left;
+    margin-left: 5rem;
+    padding-right: 20%;
   }
   .section-1 .sett_img {
     display: -webkit-box !important;
@@ -1479,19 +1512,21 @@ li.hidden ul li {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-bottom: 0;
   }
   .section-1 .sett_img .logo-logo-v-1-copy-4 {
     height: 9.5rem;
     width: 29.125rem;
     display: block;
-    padding-top: 1rem;
-    margin-top: 1.25rem;
+    padding-top: 0;
+    margin-top: 0;
     padding-bottom: 0px;
-    padding-right: 3rem;
-    padding-left: 3rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
   }
   .section-1 ul {
     height: auto;
+    width: 100%;
   }
   .section-1 ul li {
     color: #ffffff;
@@ -1501,6 +1536,9 @@ li.hidden ul li {
     letter-spacing: -0.01625rem;
     line-height: 1.4375rem;
     margin-left: 0;
+  }
+  .section-1 ul li .ml-auto {
+    float: right;
   }
   .section-1 ul li a {
     height: 1.4375rem;
@@ -1937,6 +1975,12 @@ li.hidden ul li {
   .navbar-light .navbar-nav .nav-link {
     color: #ffffff;
   }
+  .navbar-collapse {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding-left: 25%;
+  }
   .navbar-light .navbar-toggler {
     color: #ffffff;
     border: none;
@@ -2043,7 +2087,7 @@ li.hidden ul li {
     letter-spacing: -0.091875rem;
     line-height: 6.25rem;
     text-align: left;
-    margin-left: 5rem;
+    margin-left: 10%;
   }
   .section-1 .sett_arrow_section-1 {
     -webkit-box-pack: start;

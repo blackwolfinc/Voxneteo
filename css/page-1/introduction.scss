@@ -52,11 +52,6 @@ $size1: 1.6rem;
   src: url("../../assets/fonts/webfont-minion/Minion-DisplayItalic.ttf");
 }
 
-// * {
-//     box-sizing: border-box;
-//     font-size: 62.5%;
-// }
-
 hr {
   border: 1.5px solid #113d53;
 }
@@ -128,18 +123,21 @@ li.drop {
       }
     }
   }
+
   button.btn {
     border-radius: 2.4rem;
     padding: 1rem 2.5rem;
     background-color: transparent;
   }
+
   button.btn-danger {
-    // border-color: white;
     border: 2px solid white;
   }
+
   button.dropdown-toggle {
     color: $color3;
   }
+
   button {
     span {
       margin-right: 2rem;
@@ -147,7 +145,8 @@ li.drop {
     }
   }
 }
-.show {
+.sh
+ow {
   .btn-danger.dropdown-toggle {
     background-color: transparent;
     border: 2px solid white;
@@ -184,9 +183,12 @@ li.hidden ul li {
 }
 
 @media (max-width: 575.98px) {
+  .section-1 {
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+
   .navbar {
-    // margin-top: 1rem;
-    // margin-left: 0.75rem;
     margin-top: 1.25rem;
     margin-left: 0;
   }
@@ -247,8 +249,6 @@ li.hidden ul li {
         }
 
         a {
-          // height: 1.4375rem;
-          // width: 7.33125rem;
           color: #ffffff;
           font-family: $ibmLight;
           font-size: 1.125rem;
@@ -669,13 +669,18 @@ li.hidden ul li {
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .section-1 {
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+  }
+
   .navbar {
     margin-top: 1rem !important;
     margin-left: 0.75rem;
   }
 
   li.nav-item {
-    margin-top: 24px;
+    margin-top: 1.5rem;
     margin-left: 1.5rem;
 
     .nav-link,
@@ -1140,6 +1145,11 @@ li.hidden ul li {
 
 // // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .section-1 {
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+
   li.nav-item {
     margin-left: 1.5rem;
 
@@ -1640,13 +1650,20 @@ li.hidden ul li {
       border: none;
     }
   }
+
   .navbar {
     margin-top: 1.25rem;
   }
+
+  .navbar-collapse {
+    justify-content: flex-start;
+    padding-left: 20%;
+  }
+
   .drop {
     .btn-group {
       margin-top: 0;
-      margin-left: 2rem;
+      margin-left: 40%
     }
   }
 
@@ -1661,7 +1678,7 @@ li.hidden ul li {
       padding-left: 17%;
       padding-bottom: 0;
       margin-bottom: 0px;
-      margin-top: -5rem;
+      margin-top: -5.625rem;
 
       .line-section-1-top {
         border-right-width: 0.125rem;
@@ -1670,28 +1687,46 @@ li.hidden ul li {
         height: 7.5rem;
         display: inline-block;
       }
+
+      .une-approche-globale {
+        margin-top: 1rem;
+        height: 12.5rem;
+        width: 61.8125rem;
+        color: #ffffff;
+        font-family: $butlerLight;
+        font-size: 6.25rem;
+        font-weight: 300;
+        letter-spacing: -0.091875rem;
+        line-height: 6.25rem;
+        text-align: left;
+        margin-left: 5rem;
+        padding-right: 20%;
+      }
+  
     }
 
     .sett_img {
       display: flex !important;
       width: 35%;
       justify-content: center;
+      margin-bottom: 0;
 
       .logo-logo-v-1-copy-4 {
         height: 9.5rem;
         width: 29.125rem;
         display: block;
-        padding-top: 1rem;
-        margin-top: 1.25rem;
+        padding-top: 0;
+        margin-top: 0;
 
         padding-bottom: 0px;
-        padding-right: 3rem;
-        padding-left: 3rem;
+        padding-right: 4rem;
+        padding-left: 4rem;
       }
     }
 
     ul {
       height: auto;
+      width: 100%;
       li {
         color: #ffffff;
         font-family: $ibmLight;
@@ -1699,8 +1734,11 @@ li.hidden ul li {
         font-weight: 600;
         letter-spacing: -0.01625rem;
         line-height: 1.4375rem;
-        // margin-right: 1.875rem;
         margin-left: 0;
+
+        .ml-auto {
+          float: right;
+        }
 
         a {
           height: 1.4375rem;
@@ -1895,7 +1933,6 @@ li.hidden ul li {
             width: 100%;
             height: auto;
             display: flex;
-            // justify-content: center;
             padding-left: 35%;
 
             span {
@@ -2195,6 +2232,11 @@ li.hidden ul li {
     }
   }
 
+  .navbar-collapse {
+    justify-content: flex-start;
+    padding-left: 25%;
+  }
+
   .navbar-light {
     .navbar-toggler {
       color: #ffffff;
@@ -2306,7 +2348,7 @@ li.hidden ul li {
         letter-spacing: -0.091875rem;
         line-height: 6.25rem;
         text-align: left;
-        margin-left: 5rem;
+        margin-left: 10%;
       }
     }
 
