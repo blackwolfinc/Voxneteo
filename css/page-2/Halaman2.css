@@ -47,6 +47,14 @@
     margin-right: 0;
     max-width: 100%;
   }
+  .container .navbar {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
   .container .sectionSatu {
     margin-top: 0;
     -webkit-box-orient: vertical;
@@ -304,7 +312,6 @@
   .container .sectionLima .SectionLimaTengah .mc_fieldset input {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    height: 7.61px;
     width: 10.85px;
     border: 2px solid #FFFFFF;
     margin-right: .5rem;
@@ -328,6 +335,75 @@
   }
   .container .sectionLima .SectionLimaBawahDua {
     display: none;
+  }
+  .Footer {
+    margin-top: 1.875rem;
+    background-color: #021925;
+  }
+  .Footer .container .footerHeader img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 2.9375rem;
+    width: 11.625rem;
+    padding-bottom: 3rem;
+  }
+  .Footer .container .foooterBody {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Footer .container .foooterBody .footerBodyKiri {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-top: 1.5px solid #113D53;
+    padding-top: 1.9375rem;
+    border-bottom: 1.5px solid #113D53;
+  }
+  .Footer .container .foooterBody .footerBodyKiri li {
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+    list-style: none;
+  }
+  .Footer .container .foooterBody .footerBodyKanan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 3.6875rem;
+    margin-top: 1.9375rem;
+  }
+  .Footer .container .foooterBody .footerBodyKanan img {
+    padding-right: 1rem;
+  }
+  .Footer .container .foooterBody .footerBodyKanan h5 {
+    display: inline-block;
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 15px;
+    letter-spacing: -0.22px;
+    line-height: 19.5px;
   }
 }
 
