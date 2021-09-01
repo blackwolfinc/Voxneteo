@@ -541,8 +541,10 @@ li.hidden ul li {
       }
       .card-list-image {
         flex-direction: column;
+
         .card {
           margin-top: 1.875rem;
+          border: none;
           .card-body {
             h1 {
               color: #0a2939;
@@ -2516,12 +2518,28 @@ li.hidden ul li {
             }
           }
           ul {
+            position: relative;
             margin-top: 2.5rem;
             margin-left: 3.1rem;
             margin-bottom: 5.1875rem;
             height: 15rem;
             width: 28.1875rem;
             list-style: none;
+            :hover {
+              span {
+                opacity: 1 !important;
+              }
+            }
+          }
+          span {
+            position: absolute;
+            left: 10px;
+            margin-top: -1rem;
+            opacity: 0;
+
+            :hover {
+              opacity: 1;
+            }
           }
           ul li {
             color: $color4;
@@ -2617,6 +2635,7 @@ li.hidden ul li {
           height: 34.95625rem;
           width: 24.1rem;
           margin-bottom: 1.9375rem;
+          border: none;
           text-align: left;
           margin-right: 1.3125rem;
 
@@ -2933,14 +2952,14 @@ li.hidden ul li {
 }
 .Footer {
   background-color: #021925;
-  height: 30rem;
+  height: 40rem;
   .container {
     .footerHeader {
       img {
         margin-left: auto;
         margin-right: auto;
         display: block;
-        padding-top: 2.9375rem;
+        padding-top: 3.9375rem;
         padding-bottom: 3rem;
       }
     }
