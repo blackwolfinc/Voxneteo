@@ -58,6 +58,34 @@
     display: -ms-flexbox;
     display: flex;
   }
+  .container .drop .btn-group {
+    margin-top: 0;
+    margin-left: -2.5rem;
+  }
+  .container .navbar-nav {
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #021925;
+    height: 100%;
+    display: inline-block;
+    width: 95%;
+    padding: 1.5rem;
+    color: white;
+  }
+  .container .navbar-nav li .nav-link {
+    color: white;
+  }
+  .container .navbar-nav li .nav-link:hover {
+    color: yellow;
+  }
+  .container .navbar-nav #listhide {
+    margin-left: -16px;
+    padding-top: 20px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    margin-top: 20px;
+  }
   .container .sectionSatu {
     margin-top: 0;
     -webkit-box-orient: vertical;
@@ -255,7 +283,7 @@
     padding: 0;
   }
   .container .sectionTiga .sectionTigaBawah .cardSlider p {
-    color: #white;
+    color: white;
     font-family: "Butler-Light";
     font-size: .875rem;
     letter-spacing: 0;
@@ -417,9 +445,14 @@
     margin-right: 0;
     max-width: 100%;
   }
-  .container .navbar-collapse {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+  .container .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
     margin-left: -1.5rem;
     margin-right: -1.5rem;
   }
@@ -784,7 +817,7 @@
   }
 }
 
-@media (min-width: 575px) and (max-width: 574.98px) {
+@media (min-width: 375px) and (max-width: 574.98px) {
   .birukanan {
     display: none;
   }
@@ -794,6 +827,9 @@
     max-width: 100%;
   }
   .container .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;

@@ -69,7 +69,40 @@ $size1: 1.6rem;
             display: flex;
         }
 
+        .drop {
+            .btn-group {
+              margin-top: 0;
+              margin-left: -2.5rem;
+            }
+        }
 
+        .navbar-nav {
+            top: 0;
+            left: 0;
+            position: fixed;
+            background-color: #021925;
+            height: 100%;
+            display: inline-block;
+            width: 95%;
+            padding: 1.5rem;
+            color: white;
+                li {
+                    .nav-link {
+                             color: white;
+                             &:hover {
+                                color:yellow;
+                            }
+                    }
+                }
+
+                #listhide {
+                    margin-left: -16px;
+                    padding-top: 20px;
+                    border-top-width: 1px;
+                    border-top-style: solid;
+                    margin-top: 20px;
+                }
+        }
 
         .sectionSatu {
             margin-top: 0;
@@ -301,7 +334,7 @@ $size1: 1.6rem;
                     }
 
                     p {
-                        color: #white;
+                        color: white;
                         font-family: $butlerLight;
                         font-size: .875rem;
                         letter-spacing: 0;
@@ -491,8 +524,9 @@ $size1: 1.6rem;
         margin-right: 0;
         max-width: 100%;
        
-        .navbar-collapse {
-            justify-content: space-around;
+        .navbar {
+            display: flex;
+            flex-direction: row-reverse;
             margin-left: -1.5rem;
             margin-right: -1.5rem;
         }
@@ -923,7 +957,7 @@ $size1: 1.6rem;
 
 
 
-@media (min-width: 575px) and (max-width: 574.98px) {
+@media (min-width: 375px) and (max-width: 574.98px) {
     .birukanan {
         display: none;
     }
@@ -934,6 +968,7 @@ $size1: 1.6rem;
         max-width: 100%;
        
         .navbar {
+            display: flex;
             flex-direction: row-reverse;
             margin-left: -1.5rem;
             margin-right: -1.5rem;
