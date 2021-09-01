@@ -38,7 +38,753 @@
   src: url("../../assets/fonts/webfont-minion/Minion-DisplayItalic.ttf");
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 319.98px) {
+  .birukanan {
+    display: none;
+  }
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+  }
+  .container .navbar {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionSatu {
+    margin-top: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionSatu .sectionSatuKiri {
+    background-color: transparent;
+  }
+  .container .sectionSatu .sectionSatuKiri .text {
+    margin-left: 0;
+    position: block;
+  }
+  .container .sectionSatu .sectionSatuKiri .text h1 {
+    height: auto;
+    color: #F05E36;
+    font-family: "Butler";
+    font-size: 2.625rem;
+    letter-spacing: -0.03875rem;
+    line-height: 2.375rem;
+  }
+  .container .sectionSatu .sectionSatuKiri .text h5 {
+    margin-top: .75rem;
+    color: #021925;
+    font-family: "Minion-DisplayItalic";
+    font-size: 1.125rem;
+    font-style: italic;
+    letter-spacing: .00625rem;
+    line-height: 1.125rem;
+  }
+  .container .sectionSatu .sectionSatuKanan {
+    position: block;
+    margin-left: 0;
+    margin-top: 1.625rem;
+  }
+  .container .sectionSatu .sectionSatuKanan img {
+    height: 12rem;
+  }
+  .container .sectionDua {
+    margin-top: 2.0625rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-One {
+    color: #0A2939;
+    font-family: "IBMPlexSans";
+    font-size: 1.125rem;
+    font-weight: 300;
+    letter-spacing: -0.01625rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Two p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four {
+    margin-top: 1.4375rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four h3 {
+    color: #F05E36;
+    font-family: "IBMPlexSans";
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: -0.018125rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan {
+    margin-top: 1.4375rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One {
+    background-color: #F05E36;
+    padding: .75rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One ul {
+    list-style: square;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One ul li {
+    color: #FFFFFF;
+    font-family: "Butler";
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: -0.036875rem;
+    line-height: 3.125rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Two {
+    margin-top: 1.25rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Two p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Three h3 {
+    color: #0A2939;
+    font-family: "IBMPlexSans";
+    font-size: 1.125rem;
+    font-weight: 300;
+    letter-spacing: -0.01625rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Three p {
+    margin-top: 1.25rem;
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four h1 {
+    color: #F05E36;
+    font-family: "IBMPlexSans";
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: -0.018125rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four li {
+    margin-left: .75rem;
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .75rem;
+    font-weight: 300;
+    letter-spacing: -0.00625rem;
+    line-height: 1.875rem;
+  }
+  .container .sectionTiga {
+    margin-top: 1.875rem;
+  }
+  .container .sectionTiga .sectionTigaAtas h1 {
+    margin: 1.5rem;
+    margin-left: 0;
+  }
+  .container .sectionTiga .sectionTigaBawah img {
+    height: 50%;
+    width: 100%;
+  }
+  .container .sectionTiga .sectionTigaBawah .imgHide {
+    display: none;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider {
+    opacity: 0.9;
+    background-color: #F05E36;
+    padding: 1.5rem;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider h2 {
+    color: #0A2939;
+    font-family: "Butler";
+    font-size: 1.2rem;
+    letter-spacing: 0;
+    line-height: 2.125rem;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider a {
+    color: white;
+    font-family: "Butler-Light";
+    font-size: .875rem;
+    letter-spacing: 0;
+    line-height: 2.125rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider p a {
+    padding: 0;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider p {
+    color: #white;
+    font-family: "Butler-Light";
+    font-size: .875rem;
+    letter-spacing: 0;
+    line-height: 2.125rem;
+  }
+  .container .sectionEmpat .sectionEmpatAtas {
+    display: none;
+  }
+  .container .sectionEmpat .sectionEmpatBawah {
+    display: none;
+  }
+  .container .sectionLima {
+    margin-top: 1.875rem;
+  }
+  .container .sectionLima .sectionLimaBody {
+    border: 5px solid #F66E49;
+    opacity: 0.7;
+  }
+  .container .sectionLima .sectionLimaBody h2 {
+    color: #002F39;
+    font-family: "Minion-DisplayItalic";
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: .65rem;
+    line-height: 5rem;
+    text-align: center;
+  }
+  .container .sectionLima .sectionLimaBody p {
+    color: #F66E49;
+    font-family: "IBM Plex Sans";
+    font-size: 1.125rem;
+    letter-spacing: -0.01625rem;
+    line-height: 1.125rem;
+    text-align: center;
+  }
+  .container .sectionLima .SectionLimaTengah .mc-field-group input {
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    border: none;
+    border-bottom: 2px solid #363636;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 1.3125rem;
+    margin-bottom: 1.875rem;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset input {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 10.85px;
+    border: 2px solid #FFFFFF;
+    margin-right: .5rem;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset .text {
+    color: #002F39;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    letter-spacing: -0.21px;
+    line-height: 18px;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset a {
+    color: #002F39;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    letter-spacing: -0.21px;
+    line-height: 18px;
+  }
+  .container .sectionLima .SectionLimaBawah {
+    display: none;
+  }
+  .container .sectionLima .SectionLimaBawahDua {
+    display: none;
+  }
+  .Footer {
+    margin-top: 1.875rem;
+    background-color: #021925;
+  }
+  .Footer .container .footerHeader img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 2.9375rem;
+    width: 11.625rem;
+    padding-bottom: 3rem;
+  }
+  .Footer .container .foooterBody {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Footer .container .foooterBody .footerBodyKiri {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-top: 1.5px solid #113D53;
+    padding-top: 1.9375rem;
+    border-bottom: 1.5px solid #113D53;
+  }
+  .Footer .container .foooterBody .footerBodyKiri li {
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+    list-style: none;
+  }
+  .Footer .container .foooterBody .footerBodyKanan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 3.6875rem;
+    margin-top: 1.9375rem;
+  }
+  .Footer .container .foooterBody .footerBodyKanan img {
+    padding-right: 1rem;
+  }
+  .Footer .container .foooterBody .footerBodyKanan h5 {
+    display: inline-block;
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 15px;
+    letter-spacing: -0.22px;
+    line-height: 19.5px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374.98px) {
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+  }
+  .container .navbar-collapse {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
+  .container .sectionSatu {
+    margin-top: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionSatu .sectionSatuKiri {
+    background-color: transparent;
+  }
+  .container .sectionSatu .sectionSatuKiri .text {
+    margin-left: 0;
+    position: block;
+  }
+  .container .sectionSatu .sectionSatuKiri .text h1 {
+    height: auto;
+    color: #F05E36;
+    font-family: "Butler";
+    font-size: 2.625rem;
+    letter-spacing: -0.03875rem;
+    line-height: 2.375rem;
+  }
+  .container .sectionSatu .sectionSatuKiri .text h5 {
+    margin-top: .75rem;
+    color: #021925;
+    font-family: "Minion-DisplayItalic";
+    font-size: 1.125rem;
+    font-style: italic;
+    letter-spacing: .00625rem;
+    line-height: 1.125rem;
+  }
+  .container .sectionSatu .sectionSatuKanan {
+    position: block;
+    margin-left: 0;
+    margin-top: 1.625rem;
+  }
+  .container .sectionSatu .sectionSatuKanan img {
+    height: 12rem;
+    width: 100%;
+  }
+  .container .sectionDua {
+    margin-top: 2.0625rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-One {
+    color: #0A2939;
+    font-family: "IBMPlexSans";
+    font-size: 1.125rem;
+    font-weight: 300;
+    letter-spacing: -0.01625rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Two p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Three img {
+    width: 100%;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four {
+    margin-top: 1.4375rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four h3 {
+    color: #F05E36;
+    font-family: "IBMPlexSans";
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: -0.018125rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan {
+    margin-top: 1.4375rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One {
+    background-color: #F05E36;
+    padding: .75rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One ul {
+    list-style: square;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One ul li {
+    color: #FFFFFF;
+    font-family: "Butler";
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: -0.036875rem;
+    line-height: 3.125rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Two {
+    margin-top: 1.25rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Two p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Three h3 {
+    color: #0A2939;
+    font-family: "IBMPlexSans";
+    font-size: 1.125rem;
+    font-weight: 300;
+    letter-spacing: -0.01625rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Three p {
+    margin-top: 1.25rem;
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four {
+    background-color: #021925;
+    padding: 1.5rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four h1 {
+    color: #F05E36;
+    font-family: "IBMPlexSans";
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: -0.018125rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four li {
+    margin-left: 2rem;
+    color: white;
+    font-family: "IBMPlexSans-Light";
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: -0.00625rem;
+    line-height: 1.875rem;
+  }
+  .container .sectionTiga {
+    margin-top: 1.875rem;
+  }
+  .container .sectionTiga .sectionTigaAtas h1 {
+    margin: 1.5rem;
+    margin-left: 0;
+  }
+  .container .sectionTiga .sectionTigaBawah img {
+    height: 50%;
+    width: 100%;
+  }
+  .container .sectionTiga .sectionTigaBawah .imgHide {
+    display: none;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider {
+    opacity: 0.9;
+    background-color: #F05E36;
+    padding: 1.5rem;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider h2 {
+    color: #0A2939;
+    font-family: "Butler";
+    font-size: 1.2rem;
+    letter-spacing: 0;
+    line-height: 2.125rem;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider a {
+    color: white;
+    font-family: "Butler-Light";
+    font-size: .875rem;
+    letter-spacing: 0;
+    line-height: 2.125rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider p a {
+    padding: 0;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider p {
+    color: white;
+    font-family: "Butler-Light";
+    font-size: .875rem;
+    letter-spacing: 0;
+    line-height: 2.125rem;
+  }
+  .container .sectionEmpat .sectionEmpatAtas {
+    display: none;
+  }
+  .container .sectionEmpat .sectionEmpatBawah {
+    display: none;
+  }
+  .container .sectionLima {
+    margin-top: 1.875rem;
+  }
+  .container .sectionLima .sectionLimaBody {
+    border: 5px solid #F66E49;
+    opacity: 0.7;
+  }
+  .container .sectionLima .sectionLimaBody h2 {
+    color: #002F39;
+    font-family: "Minion-DisplayItalic";
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: .65rem;
+    line-height: 5rem;
+    text-align: center;
+  }
+  .container .sectionLima .sectionLimaBody p {
+    color: #F66E49;
+    font-family: "IBM Plex Sans";
+    font-size: 1.125rem;
+    letter-spacing: -0.01625rem;
+    line-height: 1.125rem;
+    text-align: center;
+  }
+  .container .sectionLima .SectionLimaTengah .mc-field-group input {
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    border: none;
+    border-bottom: 2px solid #363636;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 1.3125rem;
+    margin-bottom: 1.875rem;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset input {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 10.85px;
+    border: 2px solid #FFFFFF;
+    margin-right: .5rem;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset .text {
+    color: #002F39;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    letter-spacing: -0.21px;
+    line-height: 18px;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset a {
+    color: #002F39;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    letter-spacing: -0.21px;
+    line-height: 18px;
+  }
+  .container .sectionLima .SectionLimaBawah {
+    display: none;
+  }
+  .container .sectionLima .SectionLimaBawahDua {
+    display: none;
+  }
+  .Footer {
+    margin-top: 1.875rem;
+    background-color: #021925;
+  }
+  .Footer .container .footerHeader img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 2.9375rem;
+    width: 11.625rem;
+    padding-bottom: 3rem;
+  }
+  .Footer .container .foooterBody {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Footer .container .foooterBody .footerBodyKiri {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-top: 1.5px solid #113D53;
+    padding-top: 1.9375rem;
+    border-bottom: 1.5px solid #113D53;
+  }
+  .Footer .container .foooterBody .footerBodyKiri li {
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+    list-style: none;
+  }
+  .Footer .container .foooterBody .footerBodyKanan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 3.6875rem;
+    margin-top: 1.9375rem;
+  }
+  .Footer .container .foooterBody .footerBodyKanan img {
+    padding-right: 1rem;
+  }
+  .Footer .container .foooterBody .footerBodyKanan h5 {
+    display: inline-block;
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 15px;
+    letter-spacing: -0.22px;
+    line-height: 19.5px;
+  }
+}
+
+@media (min-width: 575px) and (max-width: 574.98px) {
   .birukanan {
     display: none;
   }
@@ -222,6 +968,749 @@
   }
   .container .sectionTiga .sectionTigaBawah img {
     height: 50%;
+    width: 100%;
+  }
+  .container .sectionTiga .sectionTigaBawah .imgHide {
+    display: none;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider {
+    opacity: 0.9;
+    background-color: #F05E36;
+    padding: 1.5rem;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider h2 {
+    color: #0A2939;
+    font-family: "Butler";
+    font-size: 1.2rem;
+    letter-spacing: 0;
+    line-height: 2.125rem;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider a {
+    color: white;
+    font-family: "Butler-Light";
+    font-size: .875rem;
+    letter-spacing: 0;
+    line-height: 2.125rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider p a {
+    padding: 0;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider p {
+    color: white;
+    font-family: "Butler-Light";
+    font-size: .875rem;
+    letter-spacing: 0;
+    line-height: 2.125rem;
+  }
+  .container .sectionEmpat .sectionEmpatAtas {
+    display: none;
+  }
+  .container .sectionEmpat .sectionEmpatBawah {
+    display: none;
+  }
+  .container .sectionLima {
+    margin-top: 1.875rem;
+  }
+  .container .sectionLima .sectionLimaBody {
+    border: 5px solid #F66E49;
+    opacity: 0.7;
+  }
+  .container .sectionLima .sectionLimaBody h2 {
+    color: #002F39;
+    font-family: "Minion-DisplayItalic";
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: .65rem;
+    line-height: 5rem;
+    text-align: center;
+  }
+  .container .sectionLima .sectionLimaBody p {
+    color: #F66E49;
+    font-family: "IBM Plex Sans";
+    font-size: 1.125rem;
+    letter-spacing: -0.01625rem;
+    line-height: 1.125rem;
+    text-align: center;
+  }
+  .container .sectionLima .SectionLimaTengah .mc-field-group input {
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    border: none;
+    border-bottom: 2px solid #363636;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 1.3125rem;
+    margin-bottom: 1.875rem;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset input {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 10.85px;
+    border: 2px solid #FFFFFF;
+    margin-right: .5rem;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset .text {
+    color: #002F39;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    letter-spacing: -0.21px;
+    line-height: 18px;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset a {
+    color: #002F39;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    letter-spacing: -0.21px;
+    line-height: 18px;
+  }
+  .container .sectionLima .SectionLimaBawah {
+    display: none;
+  }
+  .container .sectionLima .SectionLimaBawahDua {
+    display: none;
+  }
+  .Footer {
+    margin-top: 1.875rem;
+    background-color: #021925;
+  }
+  .Footer .container .footerHeader img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 2.9375rem;
+    width: 11.625rem;
+    padding-bottom: 3rem;
+  }
+  .Footer .container .foooterBody {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Footer .container .foooterBody .footerBodyKiri {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-top: 1.5px solid #113D53;
+    padding-top: 1.9375rem;
+    border-bottom: 1.5px solid #113D53;
+  }
+  .Footer .container .foooterBody .footerBodyKiri li {
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+    list-style: none;
+  }
+  .Footer .container .foooterBody .footerBodyKanan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 3.6875rem;
+    margin-top: 1.9375rem;
+  }
+  .Footer .container .foooterBody .footerBodyKanan img {
+    padding-right: 1rem;
+  }
+  .Footer .container .foooterBody .footerBodyKanan h5 {
+    display: inline-block;
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 15px;
+    letter-spacing: -0.22px;
+    line-height: 19.5px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 574.98px) {
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+  }
+  .container .navbar-collapse {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
+  .container .sectionSatu {
+    margin-top: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionSatu .sectionSatuKiri {
+    background-color: transparent;
+  }
+  .container .sectionSatu .sectionSatuKiri .text {
+    margin-left: 0;
+    position: block;
+  }
+  .container .sectionSatu .sectionSatuKiri .text h1 {
+    height: auto;
+    color: #F05E36;
+    font-family: "Butler";
+    font-size: 2.625rem;
+    letter-spacing: -0.03875rem;
+    line-height: 2.375rem;
+  }
+  .container .sectionSatu .sectionSatuKiri .text h5 {
+    margin-top: .75rem;
+    color: #021925;
+    font-family: "Minion-DisplayItalic";
+    font-size: 1.125rem;
+    font-style: italic;
+    letter-spacing: .00625rem;
+    line-height: 1.125rem;
+  }
+  .container .sectionSatu .sectionSatuKanan {
+    position: block;
+    margin-left: 0;
+    margin-top: 1.625rem;
+  }
+  .container .sectionSatu .sectionSatuKanan img {
+    height: 12rem;
+    width: 100%;
+  }
+  .container .sectionDua {
+    margin-top: 2.0625rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-One {
+    color: #0A2939;
+    font-family: "IBMPlexSans";
+    font-size: 1.125rem;
+    font-weight: 300;
+    letter-spacing: -0.01625rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Two p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Three img {
+    width: 100%;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four {
+    margin-top: 1.4375rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four h3 {
+    color: #F05E36;
+    font-family: "IBMPlexSans";
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: -0.018125rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan {
+    margin-top: 1.4375rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One {
+    background-color: #F05E36;
+    padding: .75rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One ul {
+    list-style: square;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One ul li {
+    color: #FFFFFF;
+    font-family: "Butler";
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: -0.036875rem;
+    line-height: 3.125rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Two {
+    margin-top: 1.25rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Two p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Three h3 {
+    color: #0A2939;
+    font-family: "IBMPlexSans";
+    font-size: 1.125rem;
+    font-weight: 300;
+    letter-spacing: -0.01625rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Three p {
+    margin-top: 1.25rem;
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four {
+    background-color: #021925;
+    padding: 1.5rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four h1 {
+    color: #F05E36;
+    font-family: "IBMPlexSans";
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: -0.018125rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four li {
+    margin-left: 2rem;
+    color: white;
+    font-family: "IBMPlexSans-Light";
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: -0.00625rem;
+    line-height: 1.875rem;
+  }
+  .container .sectionTiga {
+    margin-top: 1.875rem;
+  }
+  .container .sectionTiga .sectionTigaAtas h1 {
+    margin: 1.5rem;
+    margin-left: 0;
+  }
+  .container .sectionTiga .sectionTigaBawah img {
+    height: 50%;
+    width: 100%;
+  }
+  .container .sectionTiga .sectionTigaBawah .imgHide {
+    display: none;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider {
+    opacity: 0.9;
+    background-color: #F05E36;
+    padding: 1.5rem;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider h2 {
+    color: #0A2939;
+    font-family: "Butler";
+    font-size: 1.2rem;
+    letter-spacing: 0;
+    line-height: 2.125rem;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider a {
+    color: white;
+    font-family: "Butler-Light";
+    font-size: .875rem;
+    letter-spacing: 0;
+    line-height: 2.125rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider p a {
+    padding: 0;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider p {
+    color: white;
+    font-family: "Butler-Light";
+    font-size: .875rem;
+    letter-spacing: 0;
+    line-height: 2.125rem;
+  }
+  .container .sectionEmpat .sectionEmpatAtas {
+    display: none;
+  }
+  .container .sectionEmpat .sectionEmpatBawah {
+    display: none;
+  }
+  .container .sectionLima {
+    margin-top: 1.875rem;
+  }
+  .container .sectionLima .sectionLimaBody {
+    border: 5px solid #F66E49;
+    opacity: 0.7;
+  }
+  .container .sectionLima .sectionLimaBody h2 {
+    color: #002F39;
+    font-family: "Minion-DisplayItalic";
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: .65rem;
+    line-height: 5rem;
+    text-align: center;
+  }
+  .container .sectionLima .sectionLimaBody p {
+    color: #F66E49;
+    font-family: "IBM Plex Sans";
+    font-size: 1.125rem;
+    letter-spacing: -0.01625rem;
+    line-height: 1.125rem;
+    text-align: center;
+  }
+  .container .sectionLima .SectionLimaTengah .mc-field-group input {
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    border: none;
+    border-bottom: 2px solid #363636;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 1.3125rem;
+    margin-bottom: 1.875rem;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset input {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 10.85px;
+    border: 2px solid #FFFFFF;
+    margin-right: .5rem;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset .text {
+    color: #002F39;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    letter-spacing: -0.21px;
+    line-height: 18px;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset a {
+    color: #002F39;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    letter-spacing: -0.21px;
+    line-height: 18px;
+  }
+  .container .sectionLima .SectionLimaBawah {
+    display: none;
+  }
+  .container .sectionLima .SectionLimaBawahDua {
+    display: none;
+  }
+  .Footer {
+    margin-top: 1.875rem;
+    background-color: #021925;
+  }
+  .Footer .container .footerHeader img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 2.9375rem;
+    width: 11.625rem;
+    padding-bottom: 3rem;
+  }
+  .Footer .container .foooterBody {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Footer .container .foooterBody .footerBodyKiri {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-top: 1.5px solid #113D53;
+    padding-top: 1.9375rem;
+    border-bottom: 1.5px solid #113D53;
+  }
+  .Footer .container .foooterBody .footerBodyKiri li {
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+    list-style: none;
+  }
+  .Footer .container .foooterBody .footerBodyKanan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 3.6875rem;
+    margin-top: 1.9375rem;
+  }
+  .Footer .container .foooterBody .footerBodyKanan img {
+    padding-right: 1rem;
+  }
+  .Footer .container .foooterBody .footerBodyKanan h5 {
+    display: inline-block;
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 15px;
+    letter-spacing: -0.22px;
+    line-height: 19.5px;
+  }
+}
+
+@media (min-width: 575px) and (max-width: 881.98px) {
+  .birukanan {
+    display: none;
+  }
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+  }
+  .container .navbar {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
+  .container .sectionSatu {
+    margin-top: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionSatu .sectionSatuKiri {
+    background-color: transparent;
+  }
+  .container .sectionSatu .sectionSatuKiri .text {
+    margin-left: 0;
+    position: block;
+  }
+  .container .sectionSatu .sectionSatuKiri .text h1 {
+    height: auto;
+    color: #F05E36;
+    font-family: "Butler";
+    font-size: 2.625rem;
+    letter-spacing: -0.03875rem;
+    line-height: 2.375rem;
+  }
+  .container .sectionSatu .sectionSatuKiri .text h5 {
+    margin-top: .75rem;
+    color: #021925;
+    font-family: "Minion-DisplayItalic";
+    font-size: 1.125rem;
+    font-style: italic;
+    letter-spacing: .00625rem;
+    line-height: 1.125rem;
+  }
+  .container .sectionSatu .sectionSatuKanan {
+    position: block;
+    margin-left: 0;
+    margin-top: 1.625rem;
+  }
+  .container .sectionSatu .sectionSatuKanan img {
+    height: 12rem;
+  }
+  .container .sectionDua {
+    margin-top: 2.0625rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-One {
+    color: #0A2939;
+    font-family: "IBMPlexSans";
+    font-size: 1.125rem;
+    font-weight: 300;
+    letter-spacing: -0.01625rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Two p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four {
+    margin-top: 1.4375rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four h3 {
+    color: #F05E36;
+    font-family: "IBMPlexSans";
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: -0.018125rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan {
+    margin-top: 1.4375rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One {
+    background-color: #F05E36;
+    padding: .75rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One ul {
+    list-style: square;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One ul li {
+    color: #FFFFFF;
+    font-family: "Butler";
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: -0.036875rem;
+    line-height: 3.125rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Two {
+    margin-top: 1.25rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Two p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Three h3 {
+    color: #0A2939;
+    font-family: "IBMPlexSans";
+    font-size: 1.125rem;
+    font-weight: 300;
+    letter-spacing: -0.01625rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Three p {
+    margin-top: 1.25rem;
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four h1 {
+    color: #F05E36;
+    font-family: "IBMPlexSans";
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: -0.018125rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four li {
+    margin-left: .75rem;
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .75rem;
+    font-weight: 300;
+    letter-spacing: -0.00625rem;
+    line-height: 1.875rem;
+  }
+  .container .sectionTiga {
+    margin-top: 1.875rem;
+  }
+  .container .sectionTiga .sectionTigaAtas h1 {
+    margin: 1.5rem;
+    margin-left: 0;
+  }
+  .container .sectionTiga .sectionTigaBawah img {
+    max-width: none;
   }
   .container .sectionTiga .sectionTigaBawah .imgHide {
     display: none;
@@ -335,6 +1824,807 @@
   }
   .container .sectionLima .SectionLimaBawahDua {
     display: none;
+  }
+  .Footer {
+    margin-top: 1.875rem;
+    background-color: #021925;
+  }
+  .Footer .container .footerHeader img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 2.9375rem;
+    width: 11.625rem;
+    padding-bottom: 3rem;
+  }
+  .Footer .container .foooterBody {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Footer .container .foooterBody .footerBodyKiri {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-top: 1.5px solid #113D53;
+    padding-top: 1.9375rem;
+    border-bottom: 1.5px solid #113D53;
+  }
+  .Footer .container .foooterBody .footerBodyKiri li {
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+    list-style: none;
+  }
+  .Footer .container .foooterBody .footerBodyKanan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 3.6875rem;
+    margin-top: 1.9375rem;
+  }
+  .Footer .container .foooterBody .footerBodyKanan img {
+    padding-right: 1rem;
+  }
+  .Footer .container .foooterBody .footerBodyKanan h5 {
+    display: inline-block;
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 15px;
+    letter-spacing: -0.22px;
+    line-height: 19.5px;
+  }
+}
+
+@media (min-width: 575px) and (max-width: 767.98px) {
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+  }
+  .container .navbar-collapse {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
+  .container .sectionSatu {
+    margin-top: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionSatu .sectionSatuKiri {
+    background-color: transparent;
+  }
+  .container .sectionSatu .sectionSatuKiri .text {
+    margin-left: 0;
+    position: block;
+  }
+  .container .sectionSatu .sectionSatuKiri .text h1 {
+    height: auto;
+    color: #F05E36;
+    font-family: "Butler";
+    font-size: 2.625rem;
+    letter-spacing: -0.03875rem;
+    line-height: 2.375rem;
+  }
+  .container .sectionSatu .sectionSatuKiri .text h5 {
+    margin-top: .75rem;
+    color: #021925;
+    font-family: "Minion-DisplayItalic";
+    font-size: 1.125rem;
+    font-style: italic;
+    letter-spacing: .00625rem;
+    line-height: 1.125rem;
+  }
+  .container .sectionSatu .sectionSatuKanan {
+    position: block;
+    margin-left: 0;
+    margin-top: 1.625rem;
+  }
+  .container .sectionSatu .sectionSatuKanan img {
+    height: 12rem;
+    width: 100%;
+  }
+  .container .sectionDua {
+    margin-top: 2.0625rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-One {
+    color: #0A2939;
+    font-family: "IBMPlexSans";
+    font-size: 1.125rem;
+    font-weight: 300;
+    letter-spacing: -0.01625rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Two p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Three img {
+    width: 100%;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four {
+    margin-top: 1.4375rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four h3 {
+    color: #F05E36;
+    font-family: "IBMPlexSans";
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: -0.018125rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan {
+    margin-top: 1.4375rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One {
+    background-color: #F05E36;
+    padding: .75rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One ul {
+    list-style: square;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One ul li {
+    color: #FFFFFF;
+    font-family: "Butler";
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: -0.036875rem;
+    line-height: 3.125rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Two {
+    margin-top: 1.25rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Two p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Three h3 {
+    color: #0A2939;
+    font-family: "IBMPlexSans";
+    font-size: 1.125rem;
+    font-weight: 300;
+    letter-spacing: -0.01625rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Three p {
+    margin-top: 1.25rem;
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four {
+    background-color: #021925;
+    padding: 1.5rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four h1 {
+    color: #F05E36;
+    font-family: "IBMPlexSans";
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: -0.018125rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four li {
+    margin-left: 2rem;
+    color: white;
+    font-family: "IBMPlexSans-Light";
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: -0.00625rem;
+    line-height: 1.875rem;
+  }
+  .container .sectionTiga {
+    margin-top: 1.875rem;
+  }
+  .container .sectionTiga .sectionTigaAtas h1 {
+    margin: 1.5rem;
+    margin-left: 0;
+  }
+  .container .sectionTiga .sectionTigaBawah img {
+    height: 50%;
+    width: 100%;
+  }
+  .container .sectionTiga .sectionTigaBawah .imgHide {
+    display: none;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider {
+    opacity: 0.9;
+    background-color: #F05E36;
+    padding: 1.5rem;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider h2 {
+    color: #0A2939;
+    font-family: "Butler";
+    font-size: 1.2rem;
+    letter-spacing: 0;
+    line-height: 2.125rem;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider a {
+    color: #0A2939;
+    font-family: "Butler-Light";
+    font-size: .875rem;
+    letter-spacing: 0;
+    line-height: 2.125rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider p a {
+    padding: 0;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider p {
+    color: #0A2939;
+    font-family: "Butler-Light";
+    font-size: .875rem;
+    letter-spacing: 0;
+    line-height: 2.125rem;
+  }
+  .container .sectionEmpat .sectionEmpatAtas {
+    display: none;
+  }
+  .container .sectionEmpat .sectionEmpatBawah {
+    display: none;
+  }
+  .container .sectionLima {
+    margin-top: 1.875rem;
+  }
+  .container .sectionLima .sectionLimaBody {
+    border: 5px solid #F66E49;
+    opacity: 0.7;
+  }
+  .container .sectionLima .sectionLimaBody h2 {
+    color: #002F39;
+    font-family: "Minion-DisplayItalic";
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: .65rem;
+    line-height: 5rem;
+    text-align: center;
+  }
+  .container .sectionLima .sectionLimaBody p {
+    color: #F66E49;
+    font-family: "IBM Plex Sans";
+    font-size: 1.125rem;
+    letter-spacing: -0.01625rem;
+    line-height: 1.125rem;
+    text-align: center;
+  }
+  .container .sectionLima .SectionLimaTengah .mc-field-group input {
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    border: none;
+    border-bottom: 2px solid #363636;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 1.3125rem;
+    margin-bottom: 1.875rem;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset input {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 10.85px;
+    border: 2px solid #FFFFFF;
+    margin-right: .5rem;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset .text {
+    color: #002F39;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    letter-spacing: -0.21px;
+    line-height: 18px;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset a {
+    color: #002F39;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    letter-spacing: -0.21px;
+    line-height: 18px;
+  }
+  .container .sectionLima .SectionLimaBawah {
+    display: none;
+  }
+  .container .sectionLima .SectionLimaBawahDua {
+    display: none;
+  }
+  .Footer {
+    margin-top: 1.875rem;
+    background-color: #021925;
+  }
+  .Footer .container .footerHeader img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 2.9375rem;
+    width: 11.625rem;
+    padding-bottom: 3rem;
+  }
+  .Footer .container .foooterBody {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Footer .container .foooterBody .footerBodyKiri {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-top: 1.5px solid #113D53;
+    padding-top: 1.9375rem;
+    border-bottom: 1.5px solid #113D53;
+  }
+  .Footer .container .foooterBody .footerBodyKiri li {
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+    list-style: none;
+  }
+  .Footer .container .foooterBody .footerBodyKanan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 3.6875rem;
+    margin-top: 1.9375rem;
+  }
+  .Footer .container .foooterBody .footerBodyKanan img {
+    padding-right: 1rem;
+  }
+  .Footer .container .foooterBody .footerBodyKanan h5 {
+    display: inline-block;
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 15px;
+    letter-spacing: -0.22px;
+    line-height: 19.5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+  }
+  .container .navbar {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .sectionSatu {
+    margin-top: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionSatu .sectionSatuKiri {
+    background-color: transparent;
+  }
+  .container .sectionSatu .sectionSatuKiri .text {
+    margin-left: 0;
+    position: block;
+  }
+  .container .sectionSatu .sectionSatuKiri .text h1 {
+    height: auto;
+    color: #F05E36;
+    font-family: "Butler";
+    font-size: 2.625rem;
+    letter-spacing: -0.03875rem;
+    line-height: 2.375rem;
+  }
+  .container .sectionSatu .sectionSatuKiri .text h5 {
+    margin-top: .75rem;
+    color: #021925;
+    font-family: "Minion-DisplayItalic";
+    font-size: 1.125rem;
+    font-style: italic;
+    letter-spacing: .00625rem;
+    line-height: 1.125rem;
+  }
+  .container .sectionSatu .sectionSatuKanan {
+    position: block;
+    margin-left: 0;
+    margin-top: 1.625rem;
+  }
+  .container .sectionSatu .sectionSatuKanan img {
+    width: 100%;
+  }
+  .container .sectionDua {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .container .sectionDua .sectionDuaKiri {
+    padding: 1.5rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-One {
+    margin-top: .625rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Two {
+    margin-top: .625rem;
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: -0.1px;
+    line-height: 30px;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Three {
+    margin-top: .625rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four {
+    margin-top: .625rem;
+    background-color: #0A2939;
+    padding: 2.625rem 3.5625rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four h3 {
+    color: #F05E36;
+    font-family: "Butler";
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: -0.59px;
+    line-height: 50px;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four p {
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: -0.14px;
+    line-height: 34px;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four {
+    margin-top: 9.375rem;
+  }
+  .container .sectionDua .sectionDuaKanan {
+    padding: 1.5rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One {
+    background-color: #F05E36;
+    padding: 2.6875rem 3.75rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.24px;
+    line-height: 20px;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One li {
+    color: #FFFFFF;
+    font-family: "Butler";
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: -0.59px;
+    line-height: 50px;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Two p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: -0.1px;
+    line-height: 30px;
+    margin-top: .625rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Three h3 {
+    color: #F05E36;
+    font-family: "IBMPlexSans-Light";
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: -0.41px;
+    line-height: 36px;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Three p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: -0.1px;
+    line-height: 30px;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four h1 {
+    color: #F05E36;
+    font-family: "IBMPlexSans-Light";
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: -0.41px;
+    line-height: 36px;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four li {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: -0.1px;
+    line-height: 30px;
+  }
+  .container .sectionTiga {
+    margin-top: .625rem;
+  }
+  .container .sectionTiga .sectionTigaAtas h1 {
+    color: #0A2939;
+    font-family: "Butler";
+    font-size: 56px;
+    letter-spacing: -0.82px;
+    line-height: 56px;
+  }
+  .container .sectionTiga .sectionTigaBawah {
+    margin-top: .625rem;
+  }
+  .container .sectionTiga .sectionTigaBawah .containerSlide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .container .sectionTiga .sectionTigaBawah .containerSlide .img-fluid {
+    max-width: none;
+  }
+  .container .sectionTiga .sectionTigaBawah .containerSlide .cardSlider {
+    padding: 12px;
+    opacity: 0.9;
+    background-color: #F05E36;
+  }
+  .container .sectionTiga .sectionTigaBawah .containerSlide .cardSlider h2 {
+    color: #0A2939;
+    font-family: Butler;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 34px;
+  }
+  .container .sectionTiga .sectionTigaBawah .containerSlide .cardSlider p {
+    color: #FFFFFF;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    letter-spacing: -0.09px;
+    line-height: 24px;
+  }
+  .container .sectionTiga .sectionTigaBawah .containerSlide .cardSlider p a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    letter-spacing: -0.09px;
+    line-height: 24px;
+  }
+  .container .sectionTiga .sectionTigaBawah .containerSlide img.imgHide {
+    display: none;
+  }
+  .container .sectionEmpat {
+    margin-top: .625rem;
+  }
+  .container .sectionEmpat .sectionEmpatAtas {
+    margin-top: 7.0625rem;
+  }
+  .container .sectionEmpat .sectionEmpatAtas h5 {
+    margin-top: 1.0625rem;
+    color: #F05E36;
+    font-family: "IBMPlexSans-Light";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
+  }
+  .container .sectionEmpat .sectionEmpatBawah {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: .625rem;
+    color: #0A2939;
+    font-family: "Butler";
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 48px;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .container .sectionLima {
+    border: 10px solid #f66f4933;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    padding-top: 3rem;
+    margin-top: 3.75rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.875rem;
+  }
+  .container .sectionLima form {
+    width: 75%;
+  }
+  .container .sectionLima .sectionLimaBody h2 {
+    height: 81px;
+    color: #002F39;
+    font-family: Minion;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 10.4px;
+    line-height: 80px;
+    text-align: center;
+  }
+  .container .sectionLima .sectionLimaBody p {
+    color: #F66E49;
+    font-family: "IBM Plex Sans";
+    font-size: 22px;
+    letter-spacing: -0.32px;
+    line-height: 30px;
+  }
+  .container .sectionLima .sectionLimaBody .SectionLimaTengah {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #E8D4CF;
+  }
+  .container .sectionLima .sectionLimaBody .SectionLimaTengah .email {
+    padding: 0.5rem;
+    border: none;
+    margin-right: 9rem;
+  }
+  .container .sectionLima .sectionLimaBody .SectionLimaTengah .av-checkbox a {
+    padding-left: 2rem;
+  }
+  .container .sectionLima .sectionLimaBody .SectionLimaBawah input {
+    margin: 2rem 0rem;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 1.6rem;
+    border-bottom: 1px solid #E8D4CF;
+    outline: none;
+  }
+  .container .sectionLima .SectionLimaBawahDua {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 8rem;
+  }
+  .container .sectionLima .SectionLimaBawahDua .button {
+    border: 1px solid #fff;
+    padding: 1rem 4rem;
+    border-radius: 24px;
+    color: #FFFFFF;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
+    background-color: #F05E36;
   }
   .Footer {
     margin-top: 1.875rem;
