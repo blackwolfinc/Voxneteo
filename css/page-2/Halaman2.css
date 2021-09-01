@@ -2043,6 +2043,10 @@
     -ms-flex-item-align: center;
         align-self: center;
   }
+  .navbar .navbar-collapse {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
   .navbar nav .navbar-toggler-icon {
     width: 3rem;
     height: 3rem;

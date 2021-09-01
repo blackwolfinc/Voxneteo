@@ -2318,6 +2318,10 @@ $size1: 1.6rem;
     align-items: center;
     align-self: center ;
 
+    .navbar-collapse {
+        justify-content: space-around;
+    }
+
     nav {
         .navbar-toggler-icon {
             width: 3rem;
