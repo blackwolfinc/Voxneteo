@@ -1585,6 +1585,8 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .container .navbar-collapse .navbar-nav {
     display: -webkit-box;
@@ -1592,6 +1594,14 @@
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+  }
+  .container .navbar-collapse .nav-link {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.26px;
+    line-height: 23px;
   }
   .container .sectionSatu {
     margin-top: 0;
@@ -1688,6 +1698,7 @@
   }
   .container .sectionDua .sectionDuaKanan {
     padding: 1.5rem;
+    padding-right: 0;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-One {
     background-color: #F05E36;

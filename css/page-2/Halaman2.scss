@@ -1824,11 +1824,21 @@ $size1: 1.6rem;
         }
             .navbar-collapse {
                 display: flex;
+                justify-content: space-around;
 
                 .navbar-nav {
                     display: flex;
                     justify-content: space-around;
-                }
+                    }
+
+                    .nav-link {
+                        color: #0A2939;
+                        font-family: $ibmLight;
+                        font-size: 18px;
+                        font-weight: 600;
+                        letter-spacing: -0.26px;
+                        line-height: 23px;
+                    }
             }
 
         .sectionSatu {
@@ -1931,6 +1941,7 @@ $size1: 1.6rem;
 
             .sectionDuaKanan {
                 padding: 1.5rem;
+                padding-right: 0;
 
                 .wraperKanan-One {
                     background-color: #F05E36;
@@ -2374,9 +2385,7 @@ $size1: 1.6rem;
     .navbar-nav{
         
     }
-    // ul{
-    //     margin-left: -1rem;
-    // }
+
 }
 
 .sectionSatu {
@@ -2386,7 +2395,6 @@ $size1: 1.6rem;
     width: 100%;
     height: 30rem;
 
-    // background-color: red;
     .sectionSatuKiri {
         background-color: blue;
         display: flex;
@@ -2627,18 +2635,15 @@ $size1: 1.6rem;
 .sectionTiga {
     margin-top: -10rem;
     margin-bottom: 30rem;
-    // background-color: red;
     width: 100%;
     height: 30rem;
 
     .sectionTigaAtas {
         display: flex;
-        //  background-color: #0A2939;
         color: #fff;
         height: 10rem;
         align-items: center;
 
-        //  justify-content: center;
         h1 {
             height: 196px;
             width: 916px;
@@ -2653,7 +2658,6 @@ $size1: 1.6rem;
 
 
     .sectionTigaBawah {
-        // background-color: #0A2939;
         height: 30rem;
         margin-bottom: 10rem;
 
@@ -2720,7 +2724,6 @@ $size1: 1.6rem;
 }
 
 .sectionEmpat {
-    //  background-color: #F05E36;
     display: flex;
     flex-direction: column;
     padding: 2rem;
