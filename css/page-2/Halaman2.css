@@ -2111,11 +2111,16 @@
             align-items: center;
     -ms-flex-item-align: center;
         align-self: center;
+    background-color: transparent;
   }
   .navbar .navbar-collapse {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
+  }
+  .navbar .dropdown-menu {
+    top: 45px;
+    left: 20px;
   }
   .navbar nav .navbar-toggler-icon {
     width: 3rem;
@@ -2133,7 +2138,7 @@
     font-weight: 600;
     letter-spacing: -0.26px;
     line-height: 23px;
-    margin-right: 2rem;
+    margin-right: 4rem;
     margin-left: .75rem;
     margin-bottom: -10rem;
   }
@@ -2146,6 +2151,9 @@
     padding-left: 2.4375rem;
     padding-right: 2.4375rem;
     border-radius: 1.25rem;
+  }
+  .navbar .nav-item.dropdown .nav-link::after {
+    color: #F05E36;
   }
   .navbar img {
     position: absolute;
