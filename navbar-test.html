@@ -18,40 +18,67 @@
   <div class="container">
     <div class="row section-1">
       <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light">
-            <button class="navbar-toggler p-0" type="button" data-toggle="collapse" data-target="#main-navigation">
-                <span class="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <button
+              class="navbar-toggler custom-toggler p-0"
+              type="button"
+              data-toggle="collapse"
+              data-target="#main-navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="main-navigation">
-                <ul class="navbar-nav mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Nos services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">A propos de FMG</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Actualité fiscale</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                    <li class="nav-item drop">
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-danger dropdown-toggle" id="dropdownMenuButton"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span>Français</span>
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+            <div class="collapse navbar-collapse" id="main-navigation">
+              <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item d-none" id="hidebtn">
+                  <a class="nav-link"><i class="fa fa-close fa-2x"></i></a>
+                </li>
+                <li class="nav-item one">
+                  <a class="nav-link" aria-current="page" href="#"
+                    >Nos services</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">A propos de FMG</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Actualité fiscale</a>
+                </li>
+                <li class="nav-item end">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <hr />
+                <li class="nav-item hidden d-none" id="listhide">
+                  <ul>
+                    <li class="first">Français</li>
+                    <li>English</li>
+                  </ul>
+                </li>
+                <li class="nav-item ml-auto drop">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn btn-danger dropdown-toggle"
+                      id="dropdownMenuButton"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <span>Français</span>
+                    </button>
+                    <div
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuLink"
+                    >
+                      <a class="dropdown-item first" href="#">Français</a>
+                      <a class="dropdown-item" href="#">English</a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
             </div>
-    </nav>
+          </div>
+        </nav>
   </div>
         <div class="col-sm-12 col-md-12 col-lg-12 text-center">
             <div class="col d-flex sett-line-section-1-top">
