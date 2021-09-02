@@ -2874,28 +2874,18 @@ $size1: 1.6rem;
     width: 90%;
     display: flex;
     justify-content: center;
-    text-align: center;
     padding-top: 3rem;
     margin: 0rem auto 10rem auto;
     form {
-        width: 75%;
+        width: 90%;
     }
 
     .sectionLimaBody {
-        h2 {
-            height: 81px;
-
-            color: #002F39;
-            font-family: Minion;
-            font-size: 26px;
-            font-weight: bold;
-            letter-spacing: 10.4px;
-            line-height: 80px;
-            text-align: center;
-        }
+        margin: 0 5rem;
+        text-align: center;
 
         p {
-
+        
             color: #F66E49;
             font-family: "IBM Plex Sans";
             font-size: 22px;
@@ -2903,6 +2893,31 @@ $size1: 1.6rem;
             line-height: 30px;
         }
 
+        .title {
+            .title-1 {
+                width: 48rem;
+                text-align: center;
+                padding-left: 7.5rem;
+                h2 {
+                    height: 81px;
+        
+                    color: #002F39;
+                    font-family: Minion;
+                    font-size: 26px;
+                    font-weight: bold;
+                    letter-spacing: 10.4px;
+                    line-height: 80px;
+                    text-align: center;
+                    
+                }
+            }
+
+            img {
+                margin-top: -8rem;
+                margin-right: -8rem;
+            }
+        }
+        
         .SectionLimaTengah {
             width: 100%;
             display: flex;
@@ -2913,13 +2928,36 @@ $size1: 1.6rem;
             .email {
                 padding: 0.5rem;
                 border: none;
-                margin-right: 9rem;
+                width: 12.8rem;
+            }
+
+            ::placeholder {
+                border-left: 2px solid $color5;
+                margin-left: 1rem;
+                 width: 13rem;
+            }
+
+            .mc-field-group::after {
+                content:" *";
+                color: red;
+                display: inline;
             }
 
             .av-checkbox {
                 a {
                     padding-left: 2rem;
                 }
+            }
+
+            .text {
+                margin-right: 0.3rem;
+                margin-left: 0.5rem;
+            }
+
+            .text, .terms, h6 {
+                color: $color5;
+                font-family: "IBM Plex Sans";
+                font-size: 16px;;
             }
 
             border-bottom: 1px solid #E8D4CF;
@@ -2948,13 +2986,14 @@ $size1: 1.6rem;
         flex-direction: row-reverse;
         justify-content: space-between;
         align-items: center;
+        margin: 0 5rem;
         //     background-color: rgb(11, 2, 20);
 
 
         .button {
             border: 1px solid #fff;
             padding: 1rem 4rem;
-            border-radius: 24px;
+            border-radius: 2.4rem;
             color: #FFFFFF;
             font-family: "IBM Plex Sans";
             font-size: 16px;
@@ -3027,6 +3066,7 @@ $size1: 1.6rem;
                     flex-direction: column;
                     display: flex;
                     padding-right: 8rem;
+                    margin-right: 6rem;
 
                 }
 
@@ -3039,7 +3079,7 @@ $size1: 1.6rem;
 
             .footerBodyKanan {
                 // background-color: #E8D4CF;
-                padding: 3rem 2rem;
+                padding: 2rem 2rem;
                 width:35%;
                 border-left: 2px #113D53 solid;
             .linkedIn{
@@ -3048,7 +3088,7 @@ $size1: 1.6rem;
                 align-items: center ;
                 h5{
                     margin-top: 0.5rem;
-                    margin-left: 2rem;
+                    margin-left: 1rem;
                     color: #FFFFFF;
                     font-family: "IBM Plex Sans";
                     font-size: 15px;

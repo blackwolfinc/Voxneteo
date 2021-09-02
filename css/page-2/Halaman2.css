@@ -2541,14 +2541,29 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    text-align: center;
     padding-top: 3rem;
     margin: 0rem auto 10rem auto;
   }
   .sectionLima form {
-    width: 75%;
+    width: 90%;
   }
-  .sectionLima .sectionLimaBody h2 {
+  .sectionLima .sectionLimaBody {
+    margin: 0 5rem;
+    text-align: center;
+  }
+  .sectionLima .sectionLimaBody p {
+    color: #F66E49;
+    font-family: "IBM Plex Sans";
+    font-size: 22px;
+    letter-spacing: -0.32px;
+    line-height: 30px;
+  }
+  .sectionLima .sectionLimaBody .title .title-1 {
+    width: 48rem;
+    text-align: center;
+    padding-left: 7.5rem;
+  }
+  .sectionLima .sectionLimaBody .title .title-1 h2 {
     height: 81px;
     color: #002F39;
     font-family: Minion;
@@ -2558,12 +2573,9 @@
     line-height: 80px;
     text-align: center;
   }
-  .sectionLima .sectionLimaBody p {
-    color: #F66E49;
-    font-family: "IBM Plex Sans";
-    font-size: 22px;
-    letter-spacing: -0.32px;
-    line-height: 30px;
+  .sectionLima .sectionLimaBody .title img {
+    margin-top: -8rem;
+    margin-right: -8rem;
   }
   .sectionLima .sectionLimaBody .SectionLimaTengah {
     width: 100%;
@@ -2582,10 +2594,44 @@
   .sectionLima .sectionLimaBody .SectionLimaTengah .email {
     padding: 0.5rem;
     border: none;
-    margin-right: 9rem;
+    width: 12.8rem;
+  }
+  .sectionLima .sectionLimaBody .SectionLimaTengah ::-webkit-input-placeholder {
+    border-left: 2px solid #002f39;
+    margin-left: 1rem;
+    width: 13rem;
+  }
+  .sectionLima .sectionLimaBody .SectionLimaTengah :-ms-input-placeholder {
+    border-left: 2px solid #002f39;
+    margin-left: 1rem;
+    width: 13rem;
+  }
+  .sectionLima .sectionLimaBody .SectionLimaTengah ::-ms-input-placeholder {
+    border-left: 2px solid #002f39;
+    margin-left: 1rem;
+    width: 13rem;
+  }
+  .sectionLima .sectionLimaBody .SectionLimaTengah ::placeholder {
+    border-left: 2px solid #002f39;
+    margin-left: 1rem;
+    width: 13rem;
+  }
+  .sectionLima .sectionLimaBody .SectionLimaTengah .mc-field-group::after {
+    content: " *";
+    color: red;
+    display: inline;
   }
   .sectionLima .sectionLimaBody .SectionLimaTengah .av-checkbox a {
     padding-left: 2rem;
+  }
+  .sectionLima .sectionLimaBody .SectionLimaTengah .text {
+    margin-right: 0.3rem;
+    margin-left: 0.5rem;
+  }
+  .sectionLima .sectionLimaBody .SectionLimaTengah .text, .sectionLima .sectionLimaBody .SectionLimaTengah .terms, .sectionLima .sectionLimaBody .SectionLimaTengah h6 {
+    color: #002f39;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
   }
   .sectionLima .sectionLimaBody .SectionLimaBawah input {
     margin: 2rem 0rem;
@@ -2611,12 +2657,13 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin: 0 5rem;
     margin-bottom: 8rem;
   }
   .sectionLima .SectionLimaBawahDua .button {
     border: 1px solid #fff;
     padding: 1rem 4rem;
-    border-radius: 24px;
+    border-radius: 2.4rem;
     color: #FFFFFF;
     font-family: "IBM Plex Sans";
     font-size: 16px;
@@ -2698,6 +2745,7 @@
     display: -ms-flexbox;
     display: flex;
     padding-right: 8rem;
+    margin-right: 6rem;
   }
   .Footer .container .foooterBody .footerBodyKiri .footerBodyKiriTwo {
     display: -webkit-box;
@@ -2709,7 +2757,7 @@
             flex-direction: column;
   }
   .Footer .container .foooterBody .footerBodyKanan {
-    padding: 3rem 2rem;
+    padding: 2rem 2rem;
     width: 35%;
     border-left: 2px #113D53 solid;
   }
@@ -2727,7 +2775,7 @@
   }
   .Footer .container .foooterBody .footerBodyKanan .linkedIn h5 {
     margin-top: 0.5rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
     color: #FFFFFF;
     font-family: "IBM Plex Sans";
     font-size: 15px;
