@@ -1927,6 +1927,11 @@ $size1: 1.6rem;
                         letter-spacing: -0.26px;
                         line-height: 23px;
                     }
+
+                    .nav-link:hover {
+                        color: green;
+                    }
+
                     }
         }
         
@@ -2445,6 +2450,10 @@ $size1: 1.6rem;
             margin-right: 4rem;
             margin-left: .75rem;
             margin-bottom: -10rem;
+
+            &:hover {
+                border-bottom: #F05E36 solid 2px;
+            }
         }
 
         img {

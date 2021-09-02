@@ -1683,6 +1683,9 @@
     letter-spacing: -0.26px;
     line-height: 23px;
   }
+  .container .navbar-collapse .nav-item .nav-link:hover {
+    color: green;
+  }
   .container .sectionSatu {
     margin-top: 0;
     -webkit-box-orient: vertical;
@@ -2156,6 +2159,9 @@
     margin-right: 4rem;
     margin-left: .75rem;
     margin-bottom: -10rem;
+  }
+  .navbar .nav-item .nav-link:hover {
+    border-bottom: #F05E36 solid 2px;
   }
   .navbar .nav-item img {
     background-color: rebeccapurple;
