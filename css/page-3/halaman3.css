@@ -2106,6 +2106,9 @@
 }
 
 @media (min-width: 1400px) {
+  .container {
+    max-width: 100%;
+  }
   .birukanan {
     background-color: #0A2939;
     position: fixed;
@@ -2233,12 +2236,14 @@
   }
   .sectionSatu .sectionSatuKanan {
     position: absolute;
-    margin-left: 14.5rem;
+    right: 0;
     z-index: -1;
+    background-color: #F05E36;
   }
   .sectionSatu .sectionSatuKanan img {
     width: 100%;
     height: 405px;
+    margin-left: -100px;
   }
   .sectionDua {
     width: 100%;
@@ -2252,7 +2257,6 @@
   }
   .sectionDua .sectionDuaKiri {
     width: 50%;
-    padding: 2rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2262,73 +2266,134 @@
             flex-direction: column;
   }
   .sectionDua .sectionDuaKiri .wraperKiri-One {
-    margin-left: 2rem;
+    margin-left: 7.5rem;
+    margin-right: 5rem;
   }
-  .sectionDua .sectionDuaKiri .wraperKiri-One h1 {
-    height: 184px;
-    width: 507px;
+  .sectionDua .sectionDuaKiri .wraperKiri-One h3 {
     color: #0A2939;
-    font-family: "IBM Plex Sans";
+    font-family: "IBMPlexSans-Medium";
     font-size: 28.6px;
     font-weight: 300;
     letter-spacing: -0.42px;
     line-height: 41.8px;
   }
   .sectionDua .sectionDuaKiri .wraperKiri-Two {
-    margin-left: 2rem;
+    margin-left: 7.5rem;
+    margin-right: 5rem;
+  }
+  .sectionDua .sectionDuaKiri .wraperKiri-Two h3 {
+    margin-top: 1.9375rem;
+    color: #F05E36;
+    font-family: "IBMPlexSans-Medium";
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: -0.41px;
+    line-height: 36px;
   }
   .sectionDua .sectionDuaKiri .wraperKiri-Two p {
-    height: 405px;
-    width: 498px;
+    margin-top: 2.625rem;
     color: #0A2939;
-    font-family: "IBM Plex Sans";
+    font-family: "IBMPlexSans-Light";
     font-size: 16px;
     font-weight: 300;
     letter-spacing: -0.1px;
     line-height: 30px;
   }
   .sectionDua .sectionDuaKiri .wraperKiri-Three {
-    position: absolute;
-    margin-left: -12rem;
-    margin-top: 38rem;
+    position: block;
+    padding-top: 7.0625rem;
+    margin-left: -1.5rem;
   }
   .sectionDua .sectionDuaKiri .wraperKiri-Four {
-    margin-top: 38rem;
-    height: 15rem;
-    width: 27.5rem;
     color: #fff;
     padding: 3rem;
-    background-color: #0A2939;
+    background-color: #F05E36;
+    margin-left: -1.5rem;
+    width: 675px;
   }
   .sectionDua .sectionDuaKiri .wraperKiri-Four h3 {
-    margin-bottom: 2rem;
+    color: #021925;
+    font-family: "IBMPlexSans-Medium";
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.26px;
+    line-height: 36px;
+  }
+  .sectionDua .sectionDuaKiri .wraperKiri-Four p {
+    width: 442px;
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 14px;
+    letter-spacing: -0.21px;
+    line-height: 24px;
+  }
+  .sectionDua .sectionDuaKiri .wraperKiri-five {
+    margin-right: 5rem;
+    margin-left: 7.5rem;
+    margin-top: 4.1875rem;
+  }
+  .sectionDua .sectionDuaKiri .wraperKiri-five h3 {
     color: #F05E36;
-    font-family: Butler;
-    font-size: 40px;
-    font-weight: 300;
-    letter-spacing: -0.59px;
-    line-height: 50px;
+    font-family: "IBMPlexSans-Medium";
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: -0.41px;
+    line-height: 36px;
+  }
+  .sectionDua .sectionDuaKiri .wraperKiri-five p {
+    margin-top: 2.1875rem;
+  }
+  .sectionDua .sectionDuaKiri .wraperKiri-six {
+    margin-right: 5rem;
+    margin-left: 7.5rem;
+    margin-top: 4.1875rem;
+  }
+  .sectionDua .sectionDuaKiri .wraperKiri-six h3 {
+    color: #F05E36;
+    font-family: "IBMPlexSans-Medium";
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: -0.41px;
+    line-height: 36px;
+  }
+  .sectionDua .sectionDuaKiri .wraperKiri-six p {
+    margin-top: 2.1875rem;
+  }
+  .sectionDua .sectionDuaKiri .wraperKiri-seven {
+    margin-right: 5rem;
+    margin-left: 7.5rem;
+    margin-top: 4.1875rem;
+  }
+  .sectionDua .sectionDuaKiri .wraperKiri-seven h3 {
+    color: #F05E36;
+    font-family: "IBMPlexSans-Medium";
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: -0.41px;
+    line-height: 36px;
+  }
+  .sectionDua .sectionDuaKiri .wraperKiri-seven p {
+    margin-top: 2.1875rem;
   }
   .sectionDua .sectionDuaKanan {
     width: 50%;
     padding: 2rem;
   }
   .sectionDua .sectionDuaKanan .wraperKanan-One {
-    height: 20rem;
-    width: 30.8rem;
-    background-color: #F05E36;
+    background-color: #0A2939;
     margin-bottom: 3rem;
-    padding: 2rem 4rem;
+    padding-top: 3.5625rem;
+    padding-left: 2.0625rem;
+    padding-right: 3.5625rem;
+    padding-bottom: 2.0625rem;
   }
   .sectionDua .sectionDuaKanan .wraperKanan-One p {
-    height: 20px;
-    width: 138px;
-    color: #0A2939;
-    font-family: "IBM Plex Sans";
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: -0.24px;
-    line-height: 20px;
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -0.29px;
+    line-height: 36px;
   }
   .sectionDua .sectionDuaKanan .wraperKanan-One li {
     list-style: none;
@@ -2345,10 +2410,10 @@
     margin-bottom: 5rem;
   }
   .sectionDua .sectionDuaKanan .wraperKanan-Two p {
-    height: 241px;
+    height: 449px;
     width: 486px;
     color: #0A2939;
-    font-family: "IBM Plex Sans";
+    font-family: "IBMPlexSans-Light";
     font-size: 16px;
     font-weight: 300;
     letter-spacing: -0.1px;
@@ -2364,19 +2429,15 @@
             flex-direction: column;
   }
   .sectionDua .sectionDuaKanan .wraperKanan-Three h3 {
-    height: 72px;
-    width: 497px;
+    margin-top: 3.4375rem;
     color: #F05E36;
-    font-family: "IBM Plex Sans";
+    font-family: "IBMPlexSans-Medium";
     font-size: 28px;
     font-weight: 500;
     letter-spacing: -0.41px;
     line-height: 36px;
-    margin-bottom: 3rem;
   }
   .sectionDua .sectionDuaKanan .wraperKanan-Three p {
-    height: 150px;
-    width: 486px;
     color: #0A2939;
     font-family: "IBM Plex Sans";
     font-size: 16px;
@@ -2384,25 +2445,8 @@
     letter-spacing: -0.1px;
     line-height: 30px;
   }
-  .sectionDua .wraperKanan-Four h1 {
-    height: 36px;
-    width: 497px;
-    color: #F05E36;
-    font-family: "IBM Plex Sans";
-    font-size: 28px;
-    font-weight: 500;
-    letter-spacing: -0.41px;
-    line-height: 36px;
-  }
-  .sectionDua .wraperKanan-Four li {
-    height: 41px;
-    width: 486px;
-    color: #0A2939;
-    font-family: "IBM Plex Sans";
-    font-size: 16px;
-    font-weight: 300;
-    letter-spacing: -0.1px;
-    line-height: 30px;
+  .sectionDua .wraperKanan-Four {
+    margin-top: 10.75rem;
   }
   .sectionTiga {
     margin-top: -10rem;
@@ -2735,4 +2779,4 @@
     line-height: 19.5px;
   }
 }
-/*# sourceMappingURL=Halaman2.css.map */
+/*# sourceMappingURL=halaman3.css.map */
