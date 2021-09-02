@@ -2227,7 +2227,7 @@ $size1: 1.6rem;
         display: flex;
         justify-content: center;
         text-align: center;
-        padding-top: 3rem;
+        padding-top: 1.25rem;
         
         margin-top: 3.75rem;
         margin-left: auto;
@@ -2235,10 +2235,22 @@ $size1: 1.6rem;
         margin-bottom: 1.875rem;
 
         form {
-            width: 75%;
+            width: 100%;
+            margin-right: 32px;
+            margin-left: 32px;
         }
     
         .sectionLimaBody {
+
+            .logo {
+                display: flex;
+                justify-content: flex-end;
+            }
+
+            .title {
+                justify-content: center;
+            }
+
             h2 {
                 height: 81px;
     
@@ -2529,7 +2541,6 @@ $size1: 1.6rem;
     }
 
     .sectionSatuKanan {
-        // background-color: green;
         position: absolute;
         img{
             width: 100%;
