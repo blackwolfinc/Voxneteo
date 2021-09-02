@@ -90,7 +90,7 @@ $size1: 1.6rem;
                     .nav-link {
                              color: white;
                              &:hover {
-                                color:yellow;
+                                color:orange;
                             }
                     }
                 }
@@ -515,8 +515,32 @@ $size1: 1.6rem;
 
 @media (min-width: 320px) and (max-width: 374.98px) {
 
-    .navbar {
-        // justify-content: center;
+    .navbar-nav {
+        top: 0;
+        left: 0;
+        position: fixed;
+        background-color: #021925;
+        height: 100%;
+        display: inline-block;
+        width: 95%;
+        padding: 1.5rem;
+        color: white;
+            li {
+                .nav-link {
+                         color: white;
+                         &:hover {
+                            color:orange;
+                        }
+                }
+            }
+
+            #listhide {
+                margin-left: -16px;
+                padding-top: 20px;
+                border-top-width: 1px;
+                border-top-style: solid;
+                margin-top: 20px;
+            }
     }
 
     .container {
@@ -969,6 +993,34 @@ $size1: 1.6rem;
             margin-right: -1.5rem;
         }
 
+        .navbar-nav {
+            top: 0;
+            left: 0;
+            position: fixed;
+            background-color: #021925;
+            height: 100%;
+            display: inline-block;
+            width: 95%;
+            padding: 1.5rem;
+            color: white;
+                li {
+                    .nav-link {
+                             color: white;
+                             &:hover {
+                                color:orange;
+                            }
+                    }
+                }
+
+                #listhide {
+                    margin-left: -16px;
+                    padding-top: 20px;
+                    border-top-width: 1px;
+                    border-top-style: solid;
+                    margin-top: 20px;
+                }
+        }
+
         .sectionSatu {
             margin-top: 0;
             flex-direction: column;
@@ -1378,7 +1430,7 @@ $size1: 1.6rem;
     }
 }
 
-@media (min-width: 575px) and (max-width: 767.98px) {
+@media (min-width: 575px) and (max-width: 991.98px) {
 
     .container {
         margin-left: 0;
@@ -1390,6 +1442,34 @@ $size1: 1.6rem;
             flex-direction: row-reverse;
             margin-left: -1.5rem;
             margin-right: -1.5rem;
+        }
+
+        .navbar-nav {
+            top: 0;
+            left: 0;
+            position: fixed;
+            background-color: #021925;
+            height: 100%;
+            display: inline-block;
+            width: 95%;
+            padding: 1.5rem;
+            color: white;
+                li {
+                    .nav-link {
+                             color: white;
+                             &:hover {
+                                color:orange;
+                            }
+                    }
+                }
+
+                #listhide {
+                    margin-left: -16px;
+                    padding-top: 20px;
+                    border-top-width: 1px;
+                    border-top-style: solid;
+                    margin-top: 20px;
+                }
         }
 
         .sectionSatu {
@@ -1813,7 +1893,7 @@ $size1: 1.6rem;
    
 }
 
-@media (min-width: 768px) and (max-width: 1199.98px) {
+@media (min-width: 992px) and (max-width: 1199.98px) {
     .container {
         width: 100%;
         max-width: 100%;
@@ -1821,9 +1901,11 @@ $size1: 1.6rem;
         .navbar {
             display: flex;
         }
-            .navbar-collapse {
-                display: flex;
-                justify-content: space-around;
+
+
+        .navbar-collapse {
+            display: flex;
+            justify-content: space-around;
 
                 .navbar-nav {
                     display: flex;
@@ -1837,8 +1919,9 @@ $size1: 1.6rem;
                         font-weight: 600;
                         letter-spacing: -0.26px;
                         line-height: 23px;
-                    }
-            }
+                }
+        }
+        
 
         .sectionSatu {
             margin-top: 0;
@@ -2127,7 +2210,7 @@ $size1: 1.6rem;
 
     .sectionLima {
         border: 10px solid #f66f4933;
-        width: 90%;
+        width: 100%;
         display: flex;
         justify-content: center;
         text-align: center;
@@ -2327,28 +2410,38 @@ $size1: 1.6rem;
             height: 3rem;
         }
     }
+
     nav.navbar {
         justify-content: left;
     }
-    
-    .nav-link {
-        height: 23px; 
-        color: #0A2939;
-        font-family: $ibmLight;
-        font-size: 18px;
-        font-weight: 600;
-        letter-spacing: -0.26px;
-        line-height: 23px;
-        margin-right: .75rem;
-        margin-left: .75rem;
-        margin-bottom: -10rem;
 
-                .nav-item {
-                    img {
-                        background-color: rebeccapurple;
-                        color: #0A2939;
-                    }
-                }
+    .nav-item {    
+        .nav-link {
+            color: #0A2939;
+            font-family: $ibmLight;
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: -0.26px;
+            line-height: 23px;
+            margin-right: .75rem;
+            margin-left: .75rem;
+            margin-bottom: -10rem;
+        }
+
+        img {
+            background-color: rebeccapurple;
+            color: #0A2939;
+        }
+
+            
+        &.dropdown {
+            .nav-link {
+                border: #002F39 2px solid;
+                padding-left: 2.4375rem;
+                padding-right: 2.4375rem;
+                border-radius: 1.25rem;
+            }
+        }
     }
 
     img {
@@ -2356,31 +2449,8 @@ $size1: 1.6rem;
         margin-top: 2.5rem;
     }
 
-
-    .dropdownButton{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 1.5rem 0rem;
-        border: 2px solid #E5E5E5;
-        border-radius: 24px;
-        padding: 13px 39px;
-    } 
-
-    .dropdown-toggle::after {
-		color: #F05E36;
-	}
 }
-.navbar-collapse{
-    img {
-       
-        
-    }
-    .navbar-nav{
-        
-    }
 
-}
 
 .sectionSatu {
     margin-top: 6.25rem;
@@ -2721,6 +2791,7 @@ $size1: 1.6rem;
     display: flex;
     flex-direction: column;
     padding: 2rem;
+    padding-left: 6.25rem;
 
     li {
         height: 78.47px;
