@@ -2899,10 +2899,13 @@ $size1: 1.6rem;
         }
 
         .title {
+            justify-content: center;
+
             .title-1 {
                 width: 48rem;
                 text-align: center;
-                padding-left: 7.5rem;
+                // padding-left: 7.5rem;
+                
                 h2 {
                     height: 81px;
         
@@ -2915,11 +2918,6 @@ $size1: 1.6rem;
                     text-align: center;
                     
                 }
-            }
-
-            img {
-                margin-top: -8rem;
-                margin-right: -8rem;
             }
         }
         
