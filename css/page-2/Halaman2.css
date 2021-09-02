@@ -77,7 +77,7 @@
     color: white;
   }
   .container .navbar-nav li .nav-link:hover {
-    color: yellow;
+    color: orange;
   }
   .container .navbar-nav #listhide {
     margin-left: -16px;
@@ -440,6 +440,30 @@
 }
 
 @media (min-width: 320px) and (max-width: 374.98px) {
+  .navbar-nav {
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #021925;
+    height: 100%;
+    display: inline-block;
+    width: 95%;
+    padding: 1.5rem;
+    color: white;
+  }
+  .navbar-nav li .nav-link {
+    color: white;
+  }
+  .navbar-nav li .nav-link:hover {
+    color: orange;
+  }
+  .navbar-nav #listhide {
+    margin-left: -16px;
+    padding-top: 20px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    margin-top: 20px;
+  }
   .container {
     margin-left: 0;
     margin-right: 0;
@@ -837,6 +861,30 @@
     margin-left: -1.5rem;
     margin-right: -1.5rem;
   }
+  .container .navbar-nav {
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #021925;
+    height: 100%;
+    display: inline-block;
+    width: 95%;
+    padding: 1.5rem;
+    color: white;
+  }
+  .container .navbar-nav li .nav-link {
+    color: white;
+  }
+  .container .navbar-nav li .nav-link:hover {
+    color: orange;
+  }
+  .container .navbar-nav #listhide {
+    margin-left: -16px;
+    padding-top: 20px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    margin-top: 20px;
+  }
   .container .sectionSatu {
     margin-top: 0;
     -webkit-box-orient: vertical;
@@ -1190,7 +1238,7 @@
   }
 }
 
-@media (min-width: 575px) and (max-width: 767.98px) {
+@media (min-width: 575px) and (max-width: 991.98px) {
   .container {
     margin-left: 0;
     margin-right: 0;
@@ -1206,6 +1254,30 @@
             flex-direction: row-reverse;
     margin-left: -1.5rem;
     margin-right: -1.5rem;
+  }
+  .container .navbar-nav {
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #021925;
+    height: 100%;
+    display: inline-block;
+    width: 95%;
+    padding: 1.5rem;
+    color: white;
+  }
+  .container .navbar-nav li .nav-link {
+    color: white;
+  }
+  .container .navbar-nav li .nav-link:hover {
+    color: orange;
+  }
+  .container .navbar-nav #listhide {
+    margin-left: -16px;
+    padding-top: 20px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    margin-top: 20px;
   }
   .container .sectionSatu {
     margin-top: 0;
@@ -1568,7 +1640,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 992px) and (max-width: 1399.98px) {
   .container {
     width: 100%;
     max-width: 100%;
@@ -1580,6 +1652,10 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .container .navbar img {
+    width: 70px;
+    height: 70px;
   }
   .container .navbar-collapse {
     display: -webkit-box;
@@ -1595,13 +1671,20 @@
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-  .container .navbar-collapse .nav-link {
+  .container .navbar-collapse .nav-item {
+    margin-right: 3.75rem;
+    margin-top: .625rem;
+  }
+  .container .navbar-collapse .nav-item .nav-link {
     color: #0A2939;
     font-family: "IBMPlexSans-Light";
     font-size: 18px;
     font-weight: 600;
     letter-spacing: -0.26px;
     line-height: 23px;
+  }
+  .container .navbar-collapse .nav-item .nav-link:hover {
+    color: green;
   }
   .container .sectionSatu {
     margin-top: 0;
@@ -1857,7 +1940,7 @@
   }
   .container .sectionLima {
     border: 10px solid #f66f4933;
-    width: 90%;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2022,7 +2105,7 @@
   }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1400px) {
   .birukanan {
     background-color: #0A2939;
     position: fixed;
@@ -2042,10 +2125,19 @@
             align-items: center;
     -ms-flex-item-align: center;
         align-self: center;
+    background-color: transparent;
   }
   .navbar .navbar-collapse {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .navbar .bg-white {
+    background-color: transparent !important;
+  }
+  .navbar .dropdown-menu {
+    top: 45px;
+    left: 20px;
   }
   .navbar nav .navbar-toggler-icon {
     width: 3rem;
@@ -2055,48 +2147,43 @@
     -webkit-box-pack: left;
         -ms-flex-pack: left;
             justify-content: left;
+    background-color: transparent;
   }
-  .navbar .nav-link {
+  .navbar .nav-item .nav-link {
     color: #0A2939;
-    height: 23px;
-    color: #0A2939;
-    font-family: "IBM Plex Sans";
+    font-family: "IBMPlexSans-Light";
     font-size: 18px;
     font-weight: 600;
     letter-spacing: -0.26px;
     line-height: 23px;
-    margin-top: 5rem;
+    margin-right: 4rem;
+    margin-left: .75rem;
     margin-bottom: -10rem;
   }
-  .navbar .nav-link .nav-item img {
+  .navbar .nav-item .nav-link:hover {
+    border-bottom: #F05E36 solid 2px;
+  }
+  .navbar .nav-item img {
     background-color: rebeccapurple;
     color: #0A2939;
   }
-  .navbar img {
-    position: absolute;
-    margin-top: 8rem;
+  .navbar .nav-item.dropdown .nav-link {
+    border: #002F39 2px solid;
+    padding-left: 2.4375rem;
+    padding-right: 2.4375rem;
+    border-radius: 1.25rem;
   }
-  .navbar .dropdownButton {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding: 1.5rem 0rem;
-    margin-left: -2rem;
-    margin-right: 2rem;
-    border: 2px solid #E5E5E5;
-    border-radius: 24px;
-  }
-  .navbar .dropdown-toggle::after {
+  .navbar .nav-item.dropdown .nav-link::after {
     color: #F05E36;
   }
+  .navbar img {
+    position: absolute;
+    margin-top: 2.5rem;
+    width: 5.625rem;
+    height: 5.625rem;
+  }
   .sectionSatu {
-    margin-top: 12rem;
+    margin-top: 6.25rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2409,6 +2496,7 @@
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 2rem;
+    padding-left: 6.25rem;
   }
   .sectionEmpat li {
     height: 78.47px;

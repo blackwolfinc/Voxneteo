@@ -90,7 +90,7 @@ $size1: 1.6rem;
                     .nav-link {
                              color: white;
                              &:hover {
-                                color:yellow;
+                                color:orange;
                             }
                     }
                 }
@@ -515,8 +515,32 @@ $size1: 1.6rem;
 
 @media (min-width: 320px) and (max-width: 374.98px) {
 
-    .navbar {
-        // justify-content: center;
+    .navbar-nav {
+        top: 0;
+        left: 0;
+        position: fixed;
+        background-color: #021925;
+        height: 100%;
+        display: inline-block;
+        width: 95%;
+        padding: 1.5rem;
+        color: white;
+            li {
+                .nav-link {
+                         color: white;
+                         &:hover {
+                            color:orange;
+                        }
+                }
+            }
+
+            #listhide {
+                margin-left: -16px;
+                padding-top: 20px;
+                border-top-width: 1px;
+                border-top-style: solid;
+                margin-top: 20px;
+            }
     }
 
     .container {
@@ -969,6 +993,34 @@ $size1: 1.6rem;
             margin-right: -1.5rem;
         }
 
+        .navbar-nav {
+            top: 0;
+            left: 0;
+            position: fixed;
+            background-color: #021925;
+            height: 100%;
+            display: inline-block;
+            width: 95%;
+            padding: 1.5rem;
+            color: white;
+                li {
+                    .nav-link {
+                             color: white;
+                             &:hover {
+                                color:orange;
+                            }
+                    }
+                }
+
+                #listhide {
+                    margin-left: -16px;
+                    padding-top: 20px;
+                    border-top-width: 1px;
+                    border-top-style: solid;
+                    margin-top: 20px;
+                }
+        }
+
         .sectionSatu {
             margin-top: 0;
             flex-direction: column;
@@ -1378,7 +1430,7 @@ $size1: 1.6rem;
     }
 }
 
-@media (min-width: 575px) and (max-width: 767.98px) {
+@media (min-width: 575px) and (max-width: 991.98px) {
 
     .container {
         margin-left: 0;
@@ -1390,6 +1442,34 @@ $size1: 1.6rem;
             flex-direction: row-reverse;
             margin-left: -1.5rem;
             margin-right: -1.5rem;
+        }
+
+        .navbar-nav {
+            top: 0;
+            left: 0;
+            position: fixed;
+            background-color: #021925;
+            height: 100%;
+            display: inline-block;
+            width: 95%;
+            padding: 1.5rem;
+            color: white;
+                li {
+                    .nav-link {
+                             color: white;
+                             &:hover {
+                                color:orange;
+                            }
+                    }
+                }
+
+                #listhide {
+                    margin-left: -16px;
+                    padding-top: 20px;
+                    border-top-width: 1px;
+                    border-top-style: solid;
+                    margin-top: 20px;
+                }
         }
 
         .sectionSatu {
@@ -1813,7 +1893,7 @@ $size1: 1.6rem;
    
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 992px) and (max-width: 1399.98px) {
     .container {
         width: 100%;
         max-width: 100%;
@@ -1821,16 +1901,24 @@ $size1: 1.6rem;
         .navbar {
             display: flex;
             justify-content: center;
-        }
-            .navbar-collapse {
-                display: flex;
-                justify-content: space-around;
 
+            img {
+                width: 70px;
+                height: 70px;
+            }
+        }
+
+        .navbar-collapse {
+            display: flex;
+            justify-content: space-around;
                 .navbar-nav {
                     display: flex;
                     justify-content: space-around;
                     }
 
+                    .nav-item {
+                        margin-right: 3.75rem;
+                        margin-top: .625rem;
                     .nav-link {
                         color: #0A2939;
                         font-family: $ibmLight;
@@ -1839,7 +1927,14 @@ $size1: 1.6rem;
                         letter-spacing: -0.26px;
                         line-height: 23px;
                     }
-            }
+
+                    .nav-link:hover {
+                        color: green;
+                    }
+
+                    }
+        }
+        
 
         .sectionSatu {
             margin-top: 0;
@@ -2128,7 +2223,7 @@ $size1: 1.6rem;
 
     .sectionLima {
         border: 10px solid #f66f4933;
-        width: 90%;
+        width: 100%;
         display: flex;
         justify-content: center;
         text-align: center;
@@ -2304,7 +2399,7 @@ $size1: 1.6rem;
 
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1400px) {
 .birukanan{
     background-color: #0A2939;
     position: fixed;
@@ -2312,14 +2407,24 @@ $size1: 1.6rem;
     right:  0px;
     width: 7.2rem
 }
-.navbar{
+.navbar {
     display: flex;
     justify-content: center;
     align-items: center;
     align-self: center ;
+    background-color: transparent;
 
     .navbar-collapse {
-        justify-content: space-around;
+        justify-content: flex-end;
+    }
+
+    .bg-white {
+        background-color: transparent !important;
+    }
+
+    .dropdown-menu {
+        top: 45px;
+        left: 20px;
     }
 
     nav {
@@ -2328,72 +2433,61 @@ $size1: 1.6rem;
             height: 3rem;
         }
     }
+
     nav.navbar {
         justify-content: left;
-    }
-    
-    .nav-link{
-        color: #0A2939;
-        height: 23px;
-      
-        color: #0A2939;
-        font-family: "IBM Plex Sans";
-        font-size: 18px;
-        font-weight: 600;
-        letter-spacing: -0.26px;
-        line-height: 23px;
-                
-                margin-top:5rem;
-                margin-bottom: -10rem;
-
-
-                .nav-item{
-                    img{
-                        background-color: rebeccapurple;
-                        color: #0A2939;
-                    }
-                }
+        background-color: transparent;
     }
 
-    img{
+    .nav-item {    
+        .nav-link {
+            color: #0A2939;
+            font-family: $ibmLight;
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: -0.26px;
+            line-height: 23px;
+            margin-right: 4rem;
+            margin-left: .75rem;
+            margin-bottom: -10rem;
+
+            &:hover {
+                border-bottom: #F05E36 solid 2px;
+            }
+        }
+
+        img {
+            background-color: rebeccapurple;
+            color: #0A2939;
+        }
+
+            
+        &.dropdown {
+            .nav-link {
+                border: #002F39 2px solid;
+                padding-left: 2.4375rem;
+                padding-right: 2.4375rem;
+                border-radius: 1.25rem;
+            }
+
+            .nav-link::after {
+                color: #F05E36;
+            }
+        }
+    }
+
+    img {
         position: absolute;
-        margin-top: 8rem;
-        
-
-    }
-
-    .dropdownButton{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 1.5rem 0rem;
-       
-        margin-left:-2rem;
-        margin-right:2rem;
-        // background-color: rebeccapurple;
-        border: 2px solid #E5E5E5;
-        border-radius: 24px;
-    } 
-
-    .dropdown-toggle::after {
-	
-		
-		color: #F05E36;
-	}
-}
-.navbar-collapse{
-    img{
-       
-        
-    }
-    .navbar-nav{
-        
+        margin-top: 2.5rem;
+        width: 5.625rem;
+        height: 5.625rem;
     }
 
 }
+
 
 .sectionSatu {
-    margin-top: 12rem;
+    margin-top: 6.25rem;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -2731,6 +2825,7 @@ $size1: 1.6rem;
     display: flex;
     flex-direction: column;
     padding: 2rem;
+    padding-left: 6.25rem;
 
     li {
         height: 78.47px;
