@@ -1640,7 +1640,7 @@
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 992px) and (max-width: 1399.98px) {
   .container {
     width: 100%;
     max-width: 100%;
@@ -1649,6 +1649,13 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .navbar img {
+    width: 70px;
+    height: 70px;
   }
   .container .navbar-collapse {
     display: -webkit-box;
@@ -1664,7 +1671,11 @@
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-  .container .navbar-collapse .nav-link {
+  .container .navbar-collapse .nav-item {
+    margin-right: 3.75rem;
+    margin-top: .625rem;
+  }
+  .container .navbar-collapse .nav-item .nav-link {
     color: #0A2939;
     font-family: "IBMPlexSans-Light";
     font-size: 18px;
@@ -2091,7 +2102,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .birukanan {
     background-color: #0A2939;
     position: fixed;
@@ -2118,6 +2129,9 @@
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
+  .navbar .bg-white {
+    background-color: transparent !important;
+  }
   .navbar .dropdown-menu {
     top: 45px;
     left: 20px;
@@ -2130,6 +2144,7 @@
     -webkit-box-pack: left;
         -ms-flex-pack: left;
             justify-content: left;
+    background-color: transparent;
   }
   .navbar .nav-item .nav-link {
     color: #0A2939;
@@ -2158,6 +2173,8 @@
   .navbar img {
     position: absolute;
     margin-top: 2.5rem;
+    width: 5.625rem;
+    height: 5.625rem;
   }
   .sectionSatu {
     margin-top: 6.25rem;
