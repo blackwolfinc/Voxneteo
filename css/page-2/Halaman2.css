@@ -2113,8 +2113,9 @@
         align-self: center;
   }
   .navbar .navbar-collapse {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
   }
   .navbar nav .navbar-toggler-icon {
     width: 3rem;
@@ -2132,7 +2133,7 @@
     font-weight: 600;
     letter-spacing: -0.26px;
     line-height: 23px;
-    margin-right: .75rem;
+    margin-right: 2rem;
     margin-left: .75rem;
     margin-bottom: -10rem;
   }

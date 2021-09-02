@@ -2401,7 +2401,7 @@ $size1: 1.6rem;
     align-self: center ;
 
     .navbar-collapse {
-        justify-content: space-around;
+        justify-content: flex-end;
     }
 
     nav {
@@ -2423,7 +2423,7 @@ $size1: 1.6rem;
             font-weight: 600;
             letter-spacing: -0.26px;
             line-height: 23px;
-            margin-right: .75rem;
+            margin-right: 2rem;
             margin-left: .75rem;
             margin-bottom: -10rem;
         }
