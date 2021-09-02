@@ -1568,7 +1568,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1199.98px) {
   .container {
     width: 100%;
     max-width: 100%;
@@ -1577,9 +1577,6 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
   .container .navbar-collapse {
     display: -webkit-box;
@@ -2022,7 +2019,7 @@
   }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1200px) {
   .birukanan {
     background-color: #0A2939;
     position: fixed;
@@ -2057,15 +2054,15 @@
             justify-content: left;
   }
   .navbar .nav-link {
-    color: #0A2939;
     height: 23px;
     color: #0A2939;
-    font-family: "IBM Plex Sans";
+    font-family: "IBMPlexSans-Light";
     font-size: 18px;
     font-weight: 600;
     letter-spacing: -0.26px;
     line-height: 23px;
-    margin-top: 5rem;
+    margin-right: .75rem;
+    margin-left: .75rem;
     margin-bottom: -10rem;
   }
   .navbar .nav-link .nav-item img {
@@ -2074,7 +2071,7 @@
   }
   .navbar img {
     position: absolute;
-    margin-top: 8rem;
+    margin-top: 2.5rem;
   }
   .navbar .dropdownButton {
     display: -webkit-box;
@@ -2087,16 +2084,15 @@
         -ms-flex-align: center;
             align-items: center;
     padding: 1.5rem 0rem;
-    margin-left: -2rem;
-    margin-right: 2rem;
     border: 2px solid #E5E5E5;
     border-radius: 24px;
+    padding: 13px 39px;
   }
   .navbar .dropdown-toggle::after {
     color: #F05E36;
   }
   .sectionSatu {
-    margin-top: 12rem;
+    margin-top: 6.25rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
