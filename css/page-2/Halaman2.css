@@ -2548,7 +2548,6 @@
     width: 90%;
   }
   .sectionLima .sectionLimaBody {
-    margin: 0 5rem;
     text-align: center;
   }
   .sectionLima .sectionLimaBody p {
@@ -2557,6 +2556,14 @@
     font-size: 22px;
     letter-spacing: -0.32px;
     line-height: 30px;
+  }
+  .sectionLima .sectionLimaBody .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
   }
   .sectionLima .sectionLimaBody .title .title-1 {
     width: 48rem;
