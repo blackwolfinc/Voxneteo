@@ -2893,6 +2893,11 @@ $size1: 1.6rem;
             line-height: 30px;
         }
 
+        .logo {
+            display: flex;
+            justify-content: flex-end;
+        }
+
         .title {
             .title-1 {
                 width: 48rem;
@@ -2910,11 +2915,6 @@ $size1: 1.6rem;
                     text-align: center;
                     
                 }
-            }
-
-            img {
-                margin-top: -8rem;
-                margin-right: -8rem;
             }
         }
         

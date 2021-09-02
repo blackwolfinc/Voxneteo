@@ -2558,6 +2558,14 @@
     letter-spacing: -0.32px;
     line-height: 30px;
   }
+  .sectionLima .sectionLimaBody .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
   .sectionLima .sectionLimaBody .title .title-1 {
     width: 48rem;
     text-align: center;
@@ -2572,10 +2580,6 @@
     letter-spacing: 10.4px;
     line-height: 80px;
     text-align: center;
-  }
-  .sectionLima .sectionLimaBody .title img {
-    margin-top: -8rem;
-    margin-right: -8rem;
   }
   .sectionLima .sectionLimaBody .SectionLimaTengah {
     width: 100%;
