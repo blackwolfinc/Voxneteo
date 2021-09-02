@@ -2400,6 +2400,11 @@ $size1: 1.6rem;
 }
 
 @media (min-width: 1400px) {
+
+.container {
+    max-width: 100%;
+}
+
 .birukanan{
     background-color: #0A2939;
     position: fixed;
@@ -2529,20 +2534,21 @@ $size1: 1.6rem;
     }
 
     .sectionSatuKanan {
-        // background-color: green;
+
         position: absolute;
         img{
             width: 100%;
             height: 405px;
+            margin-left: -100px;
         }   
-        margin-left:14.5rem;
+        right: 0;
         z-index: -1;
-      
+        background-color: #F05E36;
     }
 }
 
 .sectionDua {
-    //  background-color: gold;
+
     width: 100%;
     height: 115rem;
     display: flex;
@@ -2550,19 +2556,17 @@ $size1: 1.6rem;
    
     .sectionDuaKiri {
 
-        //  background: greenyellow;
         width: 50%;
-        padding: 2rem;
         display: flex;
         flex-direction: column;
 
         .wraperKiri-One {
-            margin-left: 2rem;
-            h1 {
-                height: 184px;
-                width: 507px;
+            margin-left: 7.5rem;
+            margin-right: 5rem;
+
+            h3 {
                 color: #0A2939;
-                font-family: "IBM Plex Sans";
+                font-family: $ibmMedium;
                 font-size: 28.6px;
                 font-weight: 300;
                 letter-spacing: -0.42px;
@@ -2571,72 +2575,144 @@ $size1: 1.6rem;
         }
 
         .wraperKiri-Two {
-            margin-left: 2rem;
+            margin-left: 7.5rem;
+            margin-right: 5rem;
+
+            h3 {
+                margin-top: 1.9375rem;
+                color: #F05E36;
+                font-family: $ibmMedium;
+                font-size: 28px;
+                font-weight: 500;
+                letter-spacing: -0.41px;
+                line-height: 36px;
+            }
            
             p {
-                height: 405px;
-                width: 498px;
+                margin-top: 2.625rem;
                 color: #0A2939;
-                font-family: "IBM Plex Sans";
+                font-family: $ibmLight;
                 font-size: 16px;
                 font-weight: 300;
                 letter-spacing: -0.1px;
-                line-height: 30px;
-               
-            }
-           
+                line-height: 30px;          
+            }       
         }
 
-
         .wraperKiri-Three {
-            position: absolute;
-            margin-left: -12rem;
-            margin-top: 38rem;
+            position: block;
+            padding-top: 7.0625rem;
+            margin-left: -1.5rem;
         }
 
         
         .wraperKiri-Four {
-            margin-top: 38rem;
-            height: 15rem;
-            width: 27.5rem;
             color: #fff;
             padding: 3rem;
-            background-color: #0A2939;
+            background-color: #F05E36;
+            margin-left: -1.5rem;
+            width: 675px;
 
             h3 {
-                margin-bottom: 2rem;
-                color: #F05E36;
-                font-family: Butler;
-                font-size: 40px;
-                font-weight: 300;
-                letter-spacing: -0.59px;
-                line-height: 50px;
+                color: #021925;
+                font-family: $ibmMedium;
+                font-size: 18px;
+                font-weight: 600;
+                letter-spacing: -0.26px;
+                line-height: 36px;
+            }
+
+            p {
+                width: 442px;
+                color: #FFFFFF;
+                font-family: $ibmLight;
+                font-size: 14px;
+                letter-spacing: -0.21px;
+                line-height: 24px;
             }
          
         }
+
+        .wraperKiri-five {
+            margin-right: 5rem;
+            margin-left: 7.5rem;
+            margin-top: 4.1875rem;
+
+            h3 {
+                color: #F05E36;
+                font-family: $ibmMedium;
+                font-size: 28px;
+                font-weight: 500;
+                letter-spacing: -0.41px;
+                line-height: 36px;
+            }
+
+            p {
+                margin-top: 2.1875rem;
+            }
+        }
+
+        .wraperKiri-six {
+            margin-right: 5rem;
+            margin-left: 7.5rem;
+            margin-top: 4.1875rem;
+
+            h3 {
+                color: #F05E36;
+                font-family: $ibmMedium;
+                font-size: 28px;
+                font-weight: 500;
+                letter-spacing: -0.41px;
+                line-height: 36px;
+            }
+
+            p {
+                margin-top: 2.1875rem;
+            }
+        }
+
+        .wraperKiri-seven {
+            margin-right: 5rem;
+            margin-left: 7.5rem;
+            margin-top: 4.1875rem;
+
+            h3 {
+                color: #F05E36;
+                font-family: $ibmMedium;
+                font-size: 28px;
+                font-weight: 500;
+                letter-spacing: -0.41px;
+                line-height: 36px;
+            }
+
+            p {
+                margin-top: 2.1875rem;
+            }
+        }
+
+
+
     }
 
     .sectionDuaKanan {
-        //  background-color: red;
         width: 50%;
         padding: 2rem;
 
         .wraperKanan-One {
-            height: 20rem;
-            width: 30.8rem;
-            background-color: #F05E36;
+            background-color: #0A2939;
             margin-bottom: 3rem;
-            padding:  2rem 4rem;
+            padding-top: 3.5625rem;
+            padding-left: 2.0625rem;
+            padding-right: 3.5625rem;
+            padding-bottom: 2.0625rem;
 
             p {
-                height: 20px;
-                width: 138px;
-                color: #0A2939;
-                font-family: "IBM Plex Sans";
-                font-size: 16px;
-                font-weight: 500;
-                letter-spacing: -0.24px;
-                line-height: 20px;
+                color: #FFFFFF;
+                font-family: $ibmLight;
+                font-size: 20px;
+                font-weight: 300;
+                letter-spacing: -0.29px;
+                line-height: 36px;
             }
 
             li {
@@ -2655,10 +2731,10 @@ $size1: 1.6rem;
 
         .wraperKanan-Two {
             p {
-                height: 241px;
+                height: 449px;
                 width: 486px;
                 color: #0A2939;
-                font-family: "IBM Plex Sans";
+                font-family: $ibmLight;
                 font-size: 16px;
                 font-weight: 300;
                 letter-spacing: -0.1px;
@@ -2672,20 +2748,16 @@ $size1: 1.6rem;
             flex-direction: column;
 
             h3 {
-                height: 72px;
-                width: 497px;
+                margin-top: 3.4375rem;
                 color: #F05E36;
-                font-family: "IBM Plex Sans";
+                font-family: $ibmMedium;
                 font-size: 28px;
                 font-weight: 500;
                 letter-spacing: -0.41px;
                 line-height: 36px;
-                margin-bottom: 3rem;
             }
 
             p {
-                height: 150px;
-                width: 486px;
                 color: #0A2939;
                 font-family: "IBM Plex Sans";
                 font-size: 16px;
@@ -2697,36 +2769,7 @@ $size1: 1.6rem;
     }
 
     .wraperKanan-Four {
-        h1 {
-            height: 36px;
-            width: 497px;
-            color: #F05E36;
-            font-family: "IBM Plex Sans";
-            font-size: 28px;
-            font-weight: 500;
-            letter-spacing: -0.41px;
-            line-height: 36px;
-        }
-
-        li {
-            height: 41px;
-            width: 486px;
-            color: #0A2939;
-            font-family: "IBM Plex Sans";
-            font-size: 16px;
-            font-weight: 300;
-            letter-spacing: -0.1px;
-            line-height: 30px;
-        }
-
-        li:before {
-            // font-family: FontAwesome;
-            // content: "\f138";
-            // position: absolute;
-            // left: 1em;
-            // color: skyblue;
-        }
-
+        margin-top: 10.75rem;
     }
 }
 
@@ -3062,4 +3105,3 @@ $size1: 1.6rem;
     }
 }
 }
-
