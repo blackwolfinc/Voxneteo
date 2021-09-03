@@ -2591,16 +2591,17 @@ $size1: 1.6rem;
 
     img {
         position: absolute;
-        margin-top: 2.5rem;
+        margin-top: 0;
         width: 4.6875rem;
         height: 5.625rem;
+        top: 2.0625rem;
     }
 
 }
 
 
 .sectionSatu {
-    margin-top: 6.25rem;
+    margin-top: 4.375rem;
     display: flex;
     justify-content: space-between;
     width: 100%;
