@@ -2724,7 +2724,7 @@ $size1: 1.6rem;
 
         .text {
             position: absolute;
-            top: 27rem;
+            top: 21.875rem;
             margin-left: 1rem;
 
             h1 {
@@ -3323,11 +3323,11 @@ $size1: 1.6rem;
             justify-content: space-evenly;
 
             .footerBodyKiri {
-                // background-color: #E8D4CF;
                 display: flex;
                 flex-direction: row;
                 width: 65%;
                 padding: 3rem 2rem;
+                
                 li {
                     list-style: none;
                     margin-bottom: 2rem;
