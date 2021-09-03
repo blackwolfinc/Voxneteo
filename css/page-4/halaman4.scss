@@ -1,0 +1,2742 @@
+$color1: #ffffff;
+$color2: #e5e5e5;
+$color3: #f05e36;
+$color4: #0a2939;
+$color5: #002f39;
+$color6: #f66e49;
+$color7: #021925;
+$colorLine: #113d53;
+$maxWidth: 144rem;
+$ibmReguler: "IBMPlexSans";
+$ibmSemiBold: "IBMPlexSans-SemiBold";
+$ibmSemiBoldItalic: "IBMPlexSans-SemiBoldItalic";
+$ibmLight: "IBMPlexSans-Light";
+$ibmMedium: "IBMPlexSans-Medium";
+$butlerLight: "Butler-Light";
+$butler: "Butler";
+$minionItalic: "Minion-DisplayItalic";
+$size1: 1.6rem;
+
+@font-face {
+  font-family: $ibmReguler;
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans.ttf");
+}
+@font-face {
+  font-family: $ibmSemiBold;
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBold.ttf");
+}
+@font-face {
+  font-family: $ibmLight;
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Light.ttf");
+}
+@font-face {
+  font-family: $ibmMedium;
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Medium.ttf");
+}
+@font-face {
+  font-family: $ibmSemiBoldItalic;
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBoldItalic.ttf");
+}
+
+@font-face {
+  font-family: $butlerLight;
+  src: url("../../assets/fonts/webfont-butler/Butler-Light.ttf");
+}
+@font-face {
+  font-family: $butler;
+  src: url("../../assets/fonts/webfont-butler/Butler.ttf");
+}
+
+@font-face {
+  font-family: $minionItalic;
+  src: url("../../assets/fonts/webfont-minion/Minion-DisplayItalic.ttf");
+}
+
+@media (max-width: 319.98px) {
+    .birukanan {
+        display: none;
+    }
+    
+    .container {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100%;
+       
+        .navbar {
+            flex-direction: row-reverse;
+            margin-left: -1.5rem;
+            margin-right: -1.5rem;
+            display: flex;
+
+            .line {
+                display: none;
+            }
+        }
+
+        .drop {
+            .btn-group {
+              margin-top: 0;
+              margin-left: -2.5rem;
+            }
+        }
+
+        .navbar-nav {
+            top: 0;
+            left: 0;
+            position: fixed;
+            background-color: #021925;
+            height: 100%;
+            display: inline-block;
+            width: 95%;
+            padding: 1.5rem;
+            color: white;
+                li {
+                    .nav-link {
+                             color: white;
+                             &:hover {
+                                color:orange;
+                            }
+                    }
+                }
+
+                #listhide {
+                    margin-left: -16px;
+                    padding-top: 20px;
+                    border-top-width: 1px;
+                    border-top-style: solid;
+                    margin-top: 20px;
+                }
+        }
+
+        .sectionSatu {
+            margin-top: 0;
+            flex-direction: column;
+            display: flex;
+
+            .sectionSatuKiri {
+                background-color: transparent;
+
+                .text {
+                    margin-left: 0;
+                    position: block;
+                    
+                    h1 {
+                       height: auto;
+                       color: #F05E36;
+                       font-family: $butler;
+                       font-size: 2.625rem;
+                       letter-spacing: -0.03875rem;
+                       line-height: 2.375rem;
+                    }
+
+                    h5 {
+                        margin-top: .75rem;
+                        color: #021925;
+                        font-family: $minionItalic;
+                        font-size: 1.125rem;
+                        font-style: italic;
+                        letter-spacing: .00625rem;
+                        line-height: 1.125rem;
+                    }
+                }
+            }
+
+            .sectionSatuKanan {
+                position: block;
+                margin-left: 0;
+                margin-top: 1.625rem;
+
+                img {
+                    height: 12rem;
+                }
+            }
+        }
+
+        .sectionLima {
+            margin-top: 1.875rem;
+
+            .sectionLimaBody {
+                border: 5px solid #F66E49;
+                opacity: 0.7;
+                padding: 1.5rem;
+
+                .logo {
+                    display: flex;
+                    justify-content: center;
+                }
+
+                .title {
+                    display: flex;
+                    justify-content: center;
+                }
+
+                h2 {
+                    color: #002F39;
+                    font-family: $minionItalic;
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                    letter-spacing: .65rem;
+                    line-height: 5rem;
+                    text-align: center;
+                }
+
+                p {
+                    color: #F66E49;
+                    font-family: "IBM Plex Sans";
+                    font-size: 1.125rem;
+                    letter-spacing: -0.01625rem;
+                    line-height: 1.125rem;
+                    text-align: center;
+                }
+            }
+
+            .SectionLimaTengah {
+
+                .mc-field-group {
+                    
+                    input {
+                        color: #363636;
+                        font-family: "IBM Plex Sans";
+                        font-size: 16px;
+                        letter-spacing: -0.24px;
+                        line-height: 30px;
+                        text-align: center;
+
+                        margin: auto;
+                        display: block;
+                        border: none;
+                        border-bottom: 2px solid #363636;
+                    }
+
+                }
+
+                h6 {
+                    text-align: center;
+                }
+
+                .mc_fieldset {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 1.3125rem;
+                    margin-bottom: 1.875rem;
+
+                    input {
+                        box-sizing: border-box;
+                        width: 10.85px;
+                        border: 2px solid #FFFFFF;
+                        margin-right: .5rem;
+                    }
+
+                    .text {
+                        color: #002F39;
+                        font-family: "IBM Plex Sans";
+                        font-size: 14px;
+                        letter-spacing: -0.21px;
+                        line-height: 18px;
+                    }
+
+                    a {
+                        color: #002F39;
+                        font-family: "IBM Plex Sans";
+                        font-size: 14px;
+                        letter-spacing: -0.21px;
+                        line-height: 18px;
+                    }
+                }
+            }
+
+            .SectionLimaBawah {
+                display: none;
+            }
+
+            .SectionLimaBawahDua {
+                display: none;
+            }
+        }
+    }
+
+    .Footer {
+        margin-top: 1.875rem;
+        background-color: #021925;
+
+        .container {
+            .footerHeader {
+               
+                img {
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: block;
+                    padding-top: 2.9375rem;
+                    width: 11.625rem;
+                    padding-bottom: 3rem;
+                }
+            }
+
+            .foooterBody {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .footerBodyKiri {
+                    width: 100%;
+                    box-sizing: border-box;
+                    border-top : 1.5px solid #113D53;
+                    padding-top: 1.9375rem;
+                    border-bottom: 1.5px solid #113D53;
+
+                        li { 
+                            color: #FFFFFF;
+                            font-family: $ibmLight;
+                            font-size: 12px;
+                            font-weight: 500;
+                            letter-spacing: 0.5px;
+                            line-height: 15px;
+                            text-align: center;
+                            text-transform: uppercase;
+                            padding-bottom: 1.5rem;
+                            list-style: none;
+                        }
+                }
+
+                .footerBodyKanan {
+                    display: flex;
+                    flex-direction: row;
+                    margin-bottom: 3.6875rem;
+                    margin-top: 1.9375rem;
+
+                    img {
+                        padding-right: 1rem;
+                    }
+
+                    h5 {
+                        display: inline-block;
+                        color: #FFFFFF;
+                        font-family: $ibmLight;
+                        font-size: 15px;
+                        letter-spacing: -0.22px;
+                        line-height: 19.5px;
+                    }
+
+                }
+
+            }
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374.98px) {
+
+    .navbar-nav {
+        top: 0;
+        left: 0;
+        position: fixed;
+        background-color: #021925;
+        height: 100%;
+        display: inline-block;
+        width: 95%;
+        padding: 1.5rem;
+        color: white;
+            li {
+                .nav-link {
+                         color: white;
+                         &:hover {
+                            color:orange;
+                        }
+                }
+            }
+
+            #listhide {
+                margin-left: -16px;
+                padding-top: 20px;
+                border-top-width: 1px;
+                border-top-style: solid;
+                margin-top: 20px;
+            }
+    }
+
+    .container {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100%;
+       
+        .navbar {
+            display: flex;
+            flex-direction: row-reverse;
+            margin-left: -1.5rem;
+            margin-right: -1.5rem;
+
+            .line {
+                display: none;
+            }
+        }
+
+        .sectionSatu {
+            margin-top: 0;
+            flex-direction: column;
+            display: flex;
+
+            .sectionSatuKiri {
+                background-color: transparent;
+
+                .text {
+                    margin-left: 0;
+                    position: block;
+                    
+                    h1 {
+                       height: auto;
+                       color: #F05E36;
+                       font-family: $butler;
+                       font-size: 2.625rem;
+                       letter-spacing: -0.03875rem;
+                       line-height: 2.375rem;
+                    }
+
+                    h5 {
+                        margin-top: .75rem;
+                        color: #021925;
+                        font-family: $minionItalic;
+                        font-size: 1.125rem;
+                        font-style: italic;
+                        letter-spacing: .00625rem;
+                        line-height: 1.125rem;
+                    }
+                }
+            }
+
+            .sectionSatuKanan {
+                position: block;
+                margin-left: 0;
+                margin-top: 1.625rem;
+
+                img {
+                    height: 12rem;
+                    width: 100%;
+                }
+            }
+        }
+
+        .sectionDua {
+            margin-top: 2.0625rem;
+            flex-direction: column;
+            display: flex;
+
+            .sectionDuaKiri {
+
+                .wraperKiri-One {
+                    color: #0A2939;
+                    font-family: $ibmReguler;
+                    font-size: 1.125rem;
+                    font-weight: 300;
+                    letter-spacing: -0.01625rem;
+                    line-height: 1.75rem;
+                }
+
+
+                .wraperKiri-Two {
+                    p {
+                        color: #0A2939;
+                        font-family: $ibmLight;
+                        font-size: .875rem;
+                        font-weight: 300;
+                        letter-spacing: -0.005625rem;
+                        line-height: 1.625rem;
+                    }
+                }
+
+                .wraperKiri-Three {
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .wraperKiri-Four {
+                    margin-top: 1.4375rem;
+
+                    h3 {
+                        color: #F05E36;
+                        font-family: $ibmReguler;
+                        font-size: 1.25rem;
+                        font-weight: 500;
+                        letter-spacing: -0.018125rem;
+                        line-height: 1.75rem;
+                    }
+
+                    p {
+                        color: #0A2939;
+                        font-family: $ibmLight;
+                        font-size: .875rem;
+                        font-weight: 300;
+                        letter-spacing: -0.005625rem;
+                        line-height: 1.625rem;
+                    }
+                }
+
+            }
+
+            .sectionDuaKanan {
+                margin-top: 1.4375rem;
+
+                .wraperKanan-One {
+                    background-color: #F05E36;
+                    padding: .75rem;
+
+                    p {
+                        color: #0A2939;
+                        font-family: $ibmLight;
+                        font-size: .875rem;
+                        font-weight: 300;
+                        letter-spacing: -0.005625rem;
+                        line-height: 1.625rem;
+                    }
+
+                    ul {
+                        list-style: square;
+                        li {
+                            color: #FFFFFF;
+                            font-family: $butler;
+                            font-size: 1.25rem;
+                            font-weight: 300;
+                            letter-spacing: -0.036875rem;
+                            line-height: 3.125rem;
+                        }
+                    }
+                }
+
+                .wraperKanan-Two {
+                    margin-top: 1.25rem;
+
+                    p {
+                        color: #0A2939;
+                        font-family: $ibmLight;
+                        font-size: .875rem;
+                        font-weight: 300;
+                        letter-spacing: -0.005625rem;
+                        line-height: 1.625rem;
+                    }
+                }
+
+                .wraperKanan-Three {
+                    h3 {
+                        color: #0A2939;
+                        font-family: $ibmReguler;
+                        font-size: 1.125rem;
+                        font-weight: 300;
+                        letter-spacing: -0.01625rem;
+                        line-height: 1.75rem;
+                    }
+
+                    p {
+                        margin-top: 1.25rem;
+                        color: #0A2939;
+                        font-family: $ibmLight;
+                        font-size: .875rem;
+                        font-weight: 300;
+                        letter-spacing: -0.005625rem;
+                        line-height: 1.625rem;
+                    }
+                }
+
+                .wraperKanan-Four {
+                    background-color: #021925;
+                    padding: 1.5rem;
+
+                    h1 {
+                        color: #F05E36;
+                        font-family: $ibmReguler;
+                        font-size: 1.5rem;
+                        font-weight: 500;
+                        letter-spacing: -0.018125rem;
+                        line-height: 1.75rem;
+                    }
+
+                    li {
+                        margin-left: 2rem;
+                        color: white;
+                        font-family: $ibmLight;
+                        font-size: 1.25rem;
+                        font-weight: 300;
+                        letter-spacing: -0.00625rem;
+                        line-height: 1.875rem;
+                    }
+                }
+            }
+        }
+
+        .sectionTiga {
+            margin-top: 1.875rem;
+
+            .sectionTigaAtas {
+                h1 {
+                    margin: 1.5rem;
+                    margin-left: 0;
+                }
+            }
+
+            .sectionTigaBawah {
+                img {
+                    height: 50%;
+                    width: 100%;
+                }
+
+                .imgHide {
+                    display: none;
+                }
+
+                .cardSlider {
+                    opacity: 0.9;
+                    background-color: #F05E36;
+                    padding: 1.5rem;
+
+                    h2 {
+                        color: #0A2939;
+                        font-family: $butler;
+                        font-size: 1.2rem;
+                        letter-spacing: 0;
+                        line-height: 2.125rem;
+                    }
+
+                    a {
+                        color: white;
+                        font-family: $butlerLight;
+                        font-size: .875rem;
+                        letter-spacing: 0;
+                        line-height: 2.125rem;
+                        text-decoration: none;  
+                        font-weight: bold;                      
+                    }
+
+                    p a {
+                        padding: 0;
+                    }
+
+                    p {
+                        color: white;
+                        font-family: $butlerLight;
+                        font-size: .875rem;
+                        letter-spacing: 0;
+                        line-height: 2.125rem;
+                    }
+                }
+            }
+        }
+
+        .sectionEmpat {
+
+            .sectionEmpatAtas {
+                display: none;
+            }
+
+            .sectionEmpatBawah {
+                display: none;
+            }
+        }
+
+        .sectionLima {
+            margin-top: 1.875rem;
+
+            .sectionLimaBody {
+                border: 5px solid #F66E49;
+                opacity: 0.7;
+                padding: 1.5rem;
+
+                .logo {
+                    display: flex;
+                    justify-content: center;
+                }
+
+                .title {
+                    display: flex;
+                    justify-content: center;
+                }
+
+                h2 {
+                    color: #002F39;
+                    font-family: $minionItalic;
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                    letter-spacing: .65rem;
+                    line-height: 5rem;
+                    text-align: center;
+                }
+
+                p {
+                    color: #F66E49;
+                    font-family: "IBM Plex Sans";
+                    font-size: 1.125rem;
+                    letter-spacing: -0.01625rem;
+                    line-height: 1.125rem;
+                    text-align: center;
+                }
+            }
+
+            .SectionLimaTengah {
+
+                .mc-field-group {
+                    
+                    input {
+                        color: #363636;
+                        font-family: "IBM Plex Sans";
+                        font-size: 16px;
+                        letter-spacing: -0.24px;
+                        line-height: 30px;
+                        text-align: center;
+
+                        margin: auto;
+                        display: block;
+                        border: none;
+                        border-bottom: 2px solid #363636;
+                    }
+
+                }
+
+                h6 {
+                    text-align: center;
+                }
+
+                .mc_fieldset {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 1.3125rem;
+                    margin-bottom: 1.875rem;
+
+                    input {
+                        box-sizing: border-box;
+                        width: 10.85px;
+                        border: 2px solid #FFFFFF;
+                        margin-right: .5rem;
+                    }
+
+                    .text {
+                        color: #002F39;
+                        font-family: "IBM Plex Sans";
+                        font-size: 14px;
+                        letter-spacing: -0.21px;
+                        line-height: 18px;
+                    }
+
+                    a {
+                        color: #002F39;
+                        font-family: "IBM Plex Sans";
+                        font-size: 14px;
+                        letter-spacing: -0.21px;
+                        line-height: 18px;
+                    }
+                }
+            }
+
+            .SectionLimaBawah {
+                display: none;
+            }
+
+            .SectionLimaBawahDua {
+                display: none;
+            }
+        }
+    }
+
+    .Footer {
+        margin-top: 1.875rem;
+        background-color: #021925;
+
+        .container {
+            .footerHeader {
+               
+                img {
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: block;
+                    padding-top: 2.9375rem;
+                    width: 11.625rem;
+                    padding-bottom: 3rem;
+                }
+            }
+
+            .foooterBody {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .footerBodyKiri {
+                    width: 100%;
+                    box-sizing: border-box;
+                    border-top : 1.5px solid #113D53;
+                    padding-top: 1.9375rem;
+                    border-bottom: 1.5px solid #113D53;
+
+                        li { 
+                            color: #FFFFFF;
+                            font-family: $ibmLight;
+                            font-size: 12px;
+                            font-weight: 500;
+                            letter-spacing: 0.5px;
+                            line-height: 15px;
+                            text-align: center;
+                            text-transform: uppercase;
+                            padding-bottom: 1.5rem;
+                            list-style: none;
+                        }
+                }
+
+                .footerBodyKanan {
+                    display: flex;
+                    flex-direction: row;
+                    margin-bottom: 3.6875rem;
+                    margin-top: 1.9375rem;
+
+                    img {
+                        padding-right: 1rem;
+                    }
+
+                    h5 {
+                        display: inline-block;
+                        color: #FFFFFF;
+                        font-family: $ibmLight;
+                        font-size: 15px;
+                        letter-spacing: -0.22px;
+                        line-height: 19.5px;
+                    }
+
+                }
+
+            }
+        }
+    }
+   
+}
+
+@media (min-width: 375px) and (max-width: 574.98px) {
+    .birukanan {
+        display: none;
+    }
+    
+    .container {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100%;
+       
+        .navbar {
+            display: flex;
+            flex-direction: row-reverse;
+            margin-left: -1.5rem;
+            margin-right: -1.5rem;
+
+            .line {
+                display: none;
+            }
+        }
+
+        .navbar-nav {
+            top: 0;
+            left: 0;
+            position: fixed;
+            background-color: #021925;
+            height: 100%;
+            display: inline-block;
+            width: 95%;
+            padding: 1.5rem;
+            color: white;
+                li {
+                    .nav-link {
+                             color: white;
+                             &:hover {
+                                color:orange;
+                            }
+                    }
+                }
+
+                #listhide {
+                    margin-left: -16px;
+                    padding-top: 20px;
+                    border-top-width: 1px;
+                    border-top-style: solid;
+                    margin-top: 20px;
+                }
+        }
+
+        .sectionSatu {
+            margin-top: 0;
+            flex-direction: column;
+            display: flex;
+
+            .sectionSatuKiri {
+                background-color: transparent;
+
+                .text {
+                    margin-left: 0;
+                    position: block;
+                    
+                    h1 {
+                       height: auto;
+                       color: #F05E36;
+                       font-family: $butler;
+                       font-size: 2.625rem;
+                       letter-spacing: -0.03875rem;
+                       line-height: 2.375rem;
+                    }
+
+                    h5 {
+                        margin-top: .75rem;
+                        color: #021925;
+                        font-family: $minionItalic;
+                        font-size: 1.125rem;
+                        font-style: italic;
+                        letter-spacing: .00625rem;
+                        line-height: 1.125rem;
+                    }
+                }
+            }
+
+            .sectionSatuKanan {
+                position: block;
+                margin-left: 0;
+                margin-top: 1.625rem;
+
+                img {
+                    height: 12rem;
+                }
+            }
+        }
+
+        .sectionDua {
+            margin-top: 2.0625rem;
+            flex-direction: column;
+            display: flex;
+
+            .sectionDuaKiri {
+
+                .wraperKiri-One {
+                    color: #0A2939;
+                    font-family: $ibmReguler;
+                    font-size: 1.125rem;
+                    font-weight: 300;
+                    letter-spacing: -0.01625rem;
+                    line-height: 1.75rem;
+                }
+
+
+                .wraperKiri-Two {
+                    p {
+                        color: #0A2939;
+                        font-family: $ibmLight;
+                        font-size: .875rem;
+                        font-weight: 300;
+                        letter-spacing: -0.005625rem;
+                        line-height: 1.625rem;
+                    }
+                }
+
+                .wraperKiri-Four {
+                    margin-top: 1.4375rem;
+
+                    h3 {
+                        color: #F05E36;
+                        font-family: $ibmReguler;
+                        font-size: 1.25rem;
+                        font-weight: 500;
+                        letter-spacing: -0.018125rem;
+                        line-height: 1.75rem;
+                    }
+
+                    p {
+                        color: #0A2939;
+                        font-family: $ibmLight;
+                        font-size: .875rem;
+                        font-weight: 300;
+                        letter-spacing: -0.005625rem;
+                        line-height: 1.625rem;
+                    }
+                }
+
+            }
+
+            .sectionDuaKanan {
+                margin-top: 1.4375rem;
+
+                .wraperKanan-One {
+                    background-color: #F05E36;
+                    padding: .75rem;
+
+                    p {
+                        color: #0A2939;
+                        font-family: $ibmLight;
+                        font-size: .875rem;
+                        font-weight: 300;
+                        letter-spacing: -0.005625rem;
+                        line-height: 1.625rem;
+                    }
+
+                    ul {
+                        list-style: square;
+                        li {
+                            color: #FFFFFF;
+                            font-family: $butler;
+                            font-size: 1.25rem;
+                            font-weight: 300;
+                            letter-spacing: -0.036875rem;
+                            line-height: 3.125rem;
+                        }
+                    }
+                }
+
+                .wraperKanan-Two {
+                    margin-top: 1.25rem;
+
+                    p {
+                        color: #0A2939;
+                        font-family: $ibmLight;
+                        font-size: .875rem;
+                        font-weight: 300;
+                        letter-spacing: -0.005625rem;
+                        line-height: 1.625rem;
+                    }
+                }
+
+                .wraperKanan-Three {
+                    h3 {
+                        color: #0A2939;
+                        font-family: $ibmReguler;
+                        font-size: 1.125rem;
+                        font-weight: 300;
+                        letter-spacing: -0.01625rem;
+                        line-height: 1.75rem;
+                    }
+
+                    p {
+                        margin-top: 1.25rem;
+                        color: #0A2939;
+                        font-family: $ibmLight;
+                        font-size: .875rem;
+                        font-weight: 300;
+                        letter-spacing: -0.005625rem;
+                        line-height: 1.625rem;
+                    }
+                }
+
+                .wraperKanan-Four {
+                    h1 {
+                        color: #F05E36;
+                        font-family: $ibmReguler;
+                        font-size: 1.25rem;
+                        font-weight: 500;
+                        letter-spacing: -0.018125rem;
+                        line-height: 1.75rem;
+                    }
+
+                    li {
+                        margin-left: .75rem;
+                        color: #0A2939;
+                        font-family: $ibmLight;
+                        font-size: .75rem;
+                        font-weight: 300;
+                        letter-spacing: -0.00625rem;
+                        line-height: 1.875rem;
+                    }
+                }
+            }
+        }
+
+        .sectionTiga {
+            margin-top: 1.875rem;
+
+            .sectionTigaAtas {
+                h1 {
+                    margin: 1.5rem;
+                    margin-left: 0;
+                }
+            }
+
+            .sectionTigaBawah {
+                img {
+                    height: 50%;
+                    width: 100%;
+                }
+
+                .imgHide {
+                    display: none;
+                }
+
+                .cardSlider {
+                    opacity: 0.9;
+                    background-color: #F05E36;
+                    padding: 1.5rem;
+
+                    h2 {
+                        color: #0A2939;
+                        font-family: $butler;
+                        font-size: 1.2rem;
+                        letter-spacing: 0;
+                        line-height: 2.125rem;
+                    }
+
+                    a {
+                        color: white;
+                        font-family: $butlerLight;
+                        font-size: .875rem;
+                        letter-spacing: 0;
+                        line-height: 2.125rem;
+                        text-decoration: none;  
+                        font-weight: bold;                      
+                    }
+
+                    p a {
+                        padding: 0;
+                    }
+
+                    p {
+                        color: white;
+                        font-family: $butlerLight;
+                        font-size: .875rem;
+                        letter-spacing: 0;
+                        line-height: 2.125rem;
+                    }
+                }
+            }
+        }
+
+        .sectionEmpat {
+
+            .sectionEmpatAtas {
+                display: none;
+            }
+
+            .sectionEmpatBawah {
+                display: none;
+            }
+        }
+
+        .sectionLima {
+            margin-top: 1.875rem;
+
+            .sectionLimaBody {
+                border: 5px solid #F66E49;
+                opacity: 0.7;
+                padding: 1.5rem;
+
+                .logo {
+                    display: flex;
+                    justify-content: center;
+                }
+
+                .title {
+                    display: flex;
+                    justify-content: center;
+                }
+
+                h2 {
+                    color: #002F39;
+                    font-family: $minionItalic;
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                    letter-spacing: .65rem;
+                    line-height: 5rem;
+                    text-align: center;
+                }
+
+                p {
+                    color: #F66E49;
+                    font-family: "IBM Plex Sans";
+                    font-size: 1.125rem;
+                    letter-spacing: -0.01625rem;
+                    line-height: 1.125rem;
+                    text-align: center;
+                }
+            }
+
+            .SectionLimaTengah {
+
+                .mc-field-group {
+                    
+                    input {
+                        color: #363636;
+                        font-family: "IBM Plex Sans";
+                        font-size: 16px;
+                        letter-spacing: -0.24px;
+                        line-height: 30px;
+                        text-align: center;
+
+                        margin: auto;
+                        display: block;
+                        border: none;
+                        border-bottom: 2px solid #363636;
+                    }
+
+                }
+
+                h6 {
+                    text-align: center;
+                }
+
+                .mc_fieldset {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 1.3125rem;
+                    margin-bottom: 1.875rem;
+
+                    input {
+                        box-sizing: border-box;
+                        width: 10.85px;
+                        border: 2px solid #FFFFFF;
+                        margin-right: .5rem;
+                    }
+
+                    .text {
+                        color: #002F39;
+                        font-family: "IBM Plex Sans";
+                        font-size: 14px;
+                        letter-spacing: -0.21px;
+                        line-height: 18px;
+                    }
+
+                    a {
+                        color: #002F39;
+                        font-family: "IBM Plex Sans";
+                        font-size: 14px;
+                        letter-spacing: -0.21px;
+                        line-height: 18px;
+                    }
+                }
+            }
+
+            .SectionLimaBawah {
+                display: none;
+            }
+
+            .SectionLimaBawahDua {
+                display: none;
+            }
+        }
+    }
+
+    .Footer {
+        margin-top: 1.875rem;
+        background-color: #021925;
+
+        .container {
+            .footerHeader {
+               
+                img {
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: block;
+                    padding-top: 2.9375rem;
+                    width: 11.625rem;
+                    padding-bottom: 3rem;
+                }
+            }
+
+            .foooterBody {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .footerBodyKiri {
+                    width: 100%;
+                    box-sizing: border-box;
+                    border-top : 1.5px solid #113D53;
+                    padding-top: 1.9375rem;
+                    border-bottom: 1.5px solid #113D53;
+
+                        li { 
+                            color: #FFFFFF;
+                            font-family: $ibmLight;
+                            font-size: 12px;
+                            font-weight: 500;
+                            letter-spacing: 0.5px;
+                            line-height: 15px;
+                            text-align: center;
+                            text-transform: uppercase;
+                            padding-bottom: 1.5rem;
+                            list-style: none;
+                        }
+                }
+
+                .footerBodyKanan {
+                    display: flex;
+                    flex-direction: row;
+                    margin-bottom: 3.6875rem;
+                    margin-top: 1.9375rem;
+
+                    img {
+                        padding-right: 1rem;
+                    }
+
+                    h5 {
+                        display: inline-block;
+                        color: #FFFFFF;
+                        font-family: $ibmLight;
+                        font-size: 15px;
+                        letter-spacing: -0.22px;
+                        line-height: 19.5px;
+                    }
+
+                }
+
+            }
+        }
+    }
+}
+
+@media (min-width: 575px) and (max-width: 991.98px) {
+
+    .container {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100%;
+       
+        .navbar {
+            display: flex;
+            flex-direction: row-reverse;
+            margin-left: -1.5rem;
+            margin-right: -1.5rem;
+
+            .line {
+                display: none;
+            }
+    
+        }
+
+        .navbar-nav {
+            top: 0;
+            left: 0;
+            position: fixed;
+            background-color: #021925;
+            height: 100%;
+            display: inline-block;
+            width: 95%;
+            padding: 1.5rem;
+            color: white;
+                li {
+                    .nav-link {
+                             color: white;
+                             &:hover {
+                                color:orange;
+                            }
+                    }
+                }
+
+                #listhide {
+                    margin-left: -16px;
+                    padding-top: 20px;
+                    border-top-width: 1px;
+                    border-top-style: solid;
+                    margin-top: 20px;
+                }
+        }
+
+        .sectionSatu {
+            margin-top: 0;
+            flex-direction: column;
+            display: flex;
+
+            .sectionSatuKiri {
+                background-color: transparent;
+
+                .text {
+                    margin-left: 0;
+                    position: block;
+                    
+                    h1 {
+                       height: auto;
+                       color: #F05E36;
+                       font-family: $butler;
+                       font-size: 2.625rem;
+                       letter-spacing: -0.03875rem;
+                       line-height: 2.375rem;
+                    }
+
+                    h5 {
+                        margin-top: .75rem;
+                        color: #021925;
+                        font-family: $minionItalic;
+                        font-size: 1.125rem;
+                        font-style: italic;
+                        letter-spacing: .00625rem;
+                        line-height: 1.125rem;
+                    }
+                }
+            }
+
+            .sectionSatuKanan {
+                position: block;
+                margin-left: 0;
+                margin-top: 1.625rem;
+
+                img {
+                    height: 12rem;
+                    width: 100%;
+                }
+            }
+        }
+
+        .sectionDua {
+            margin-top: 2.0625rem;
+            flex-direction: column;
+            display: flex;
+
+            .sectionDuaKiri {
+
+                .wraperKiri-One {
+                    color: #0A2939;
+                    font-family: $ibmReguler;
+                    font-size: 1.125rem;
+                    font-weight: 300;
+                    letter-spacing: -0.01625rem;
+                    line-height: 1.75rem;
+                }
+
+
+                .wraperKiri-Two {
+                    p {
+                        color: #0A2939;
+                        font-family: $ibmLight;
+                        font-size: .875rem;
+                        font-weight: 300;
+                        letter-spacing: -0.005625rem;
+                        line-height: 1.625rem;
+                    }
+                }
+
+                .wraperKiri-Three {
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .wraperKiri-Four {
+                    margin-top: 1.4375rem;
+
+                    h3 {
+                        color: #F05E36;
+                        font-family: $ibmReguler;
+                        font-size: 1.25rem;
+                        font-weight: 500;
+                        letter-spacing: -0.018125rem;
+                        line-height: 1.75rem;
+                    }
+
+                    p {
+                        color: #0A2939;
+                        font-family: $ibmLight;
+                        font-size: .875rem;
+                        font-weight: 300;
+                        letter-spacing: -0.005625rem;
+                        line-height: 1.625rem;
+                    }
+                }
+
+            }
+
+            .sectionDuaKanan {
+                margin-top: 1.4375rem;
+
+                .wraperKanan-One {
+                    background-color: #F05E36;
+                    padding: .75rem;
+
+                    p {
+                        color: #0A2939;
+                        font-family: $ibmLight;
+                        font-size: .875rem;
+                        font-weight: 300;
+                        letter-spacing: -0.005625rem;
+                        line-height: 1.625rem;
+                    }
+
+                    ul {
+                        list-style: square;
+                        li {
+                            color: #FFFFFF;
+                            font-family: $butler;
+                            font-size: 1.25rem;
+                            font-weight: 300;
+                            letter-spacing: -0.036875rem;
+                            line-height: 3.125rem;
+                        }
+                    }
+                }
+
+                .wraperKanan-Two {
+                    margin-top: 1.25rem;
+
+                    p {
+                        color: #0A2939;
+                        font-family: $ibmLight;
+                        font-size: .875rem;
+                        font-weight: 300;
+                        letter-spacing: -0.005625rem;
+                        line-height: 1.625rem;
+                    }
+                }
+
+                .wraperKanan-Three {
+                    h3 {
+                        color: #0A2939;
+                        font-family: $ibmReguler;
+                        font-size: 1.125rem;
+                        font-weight: 300;
+                        letter-spacing: -0.01625rem;
+                        line-height: 1.75rem;
+                    }
+
+                    p {
+                        margin-top: 1.25rem;
+                        color: #0A2939;
+                        font-family: $ibmLight;
+                        font-size: .875rem;
+                        font-weight: 300;
+                        letter-spacing: -0.005625rem;
+                        line-height: 1.625rem;
+                    }
+                }
+
+                .wraperKanan-Four {
+                    background-color: #021925;
+                    padding: 1.5rem;
+
+                    h1 {
+                        color: #F05E36;
+                        font-family: $ibmReguler;
+                        font-size: 1.5rem;
+                        font-weight: 500;
+                        letter-spacing: -0.018125rem;
+                        line-height: 1.75rem;
+                    }
+
+                    li {
+                        margin-left: 2rem;
+                        color: white;
+                        font-family: $ibmLight;
+                        font-size: 1.25rem;
+                        font-weight: 300;
+                        letter-spacing: -0.00625rem;
+                        line-height: 1.875rem;
+                    }
+                }
+            }
+        }
+
+        .sectionTiga {
+            margin-top: 1.875rem;
+
+            .sectionTigaAtas {
+                h1 {
+                    margin: 1.5rem;
+                    margin-left: 0;
+                }
+            }
+
+            .sectionTigaBawah {
+                img {
+                    height: 50%;
+                    width: 100%;
+                }
+
+                .imgHide {
+                    display: none;
+                }
+
+                .cardSlider {
+                    opacity: 0.9;
+                    background-color: #F05E36;
+                    padding: 1.5rem;
+
+                    h2 {
+                        color: #0A2939;
+                        font-family: $butler;
+                        font-size: 1.2rem;
+                        letter-spacing: 0;
+                        line-height: 2.125rem;
+                    }
+
+                    a {
+                        color: white;
+                        font-family: $butlerLight;
+                        font-size: .875rem;
+                        letter-spacing: 0;
+                        line-height: 2.125rem;
+                        text-decoration: none;  
+                        font-weight: bold;                      
+                    }
+
+                    p a {
+                        padding: 0;
+                    }
+
+                    p {
+                        color: white;
+                        font-family: $butlerLight;
+                        font-size: .875rem;
+                        letter-spacing: 0;
+                        line-height: 2.125rem;
+                    }
+                }
+            }
+        }
+
+        .sectionEmpat {
+
+            .sectionEmpatAtas {
+                display: none;
+            }
+
+            .sectionEmpatBawah {
+                display: none;
+            }
+        }
+
+        .sectionLima {
+            margin-top: 1.875rem;
+
+            .sectionLimaBody {
+                border: 5px solid #F66E49;
+                opacity: 0.7;
+                padding: 1.5rem;
+
+                .logo {
+                    display: flex;
+                    justify-content: flex-end;
+                }
+    
+                .title {
+                    justify-content: center;
+                }
+
+                h2 {
+                    color: #002F39;
+                    font-family: $minionItalic;
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                    letter-spacing: .65rem;
+                    line-height: 5rem;
+                    text-align: center;
+                }
+
+                p {
+                    color: #F66E49;
+                    font-family: "IBM Plex Sans";
+                    font-size: 1.125rem;
+                    letter-spacing: -0.01625rem;
+                    line-height: 1.125rem;
+                    text-align: center;
+                }
+            }
+
+            .SectionLimaTengah {
+
+                .mc-field-group {
+                    
+                    input {
+                        color: #363636;
+                        font-family: "IBM Plex Sans";
+                        font-size: 16px;
+                        letter-spacing: -0.24px;
+                        line-height: 30px;
+                        text-align: center;
+
+                        margin: auto;
+                        display: block;
+                        border: none;
+                        border-bottom: 2px solid #363636;
+                    }
+
+                }
+
+                h6 {
+                    text-align: center;
+                }
+
+                .mc_fieldset {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 1.3125rem;
+                    margin-bottom: 1.875rem;
+
+                    input {
+                        box-sizing: border-box;
+                        width: 10.85px;
+                        border: 2px solid #FFFFFF;
+                        margin-right: .5rem;
+                    }
+
+                    .text {
+                        color: #002F39;
+                        font-family: "IBM Plex Sans";
+                        font-size: 14px;
+                        letter-spacing: -0.21px;
+                        line-height: 18px;
+                    }
+
+                    a {
+                        color: #002F39;
+                        font-family: "IBM Plex Sans";
+                        font-size: 14px;
+                        letter-spacing: -0.21px;
+                        line-height: 18px;
+                    }
+                }
+            }
+
+            .SectionLimaBawah {
+                display: none;
+            }
+
+            .SectionLimaBawahDua {
+                display: none;
+            }
+        }
+    }
+
+    .Footer {
+        margin-top: 1.875rem;
+        background-color: #021925;
+
+        .container {
+            .footerHeader {
+               
+                img {
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: block;
+                    padding-top: 2.9375rem;
+                    width: 11.625rem;
+                    padding-bottom: 3rem;
+                }
+            }
+
+            .foooterBody {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .footerBodyKiri {
+                    width: 100%;
+                    box-sizing: border-box;
+                    border-top : 1.5px solid #113D53;
+                    padding-top: 1.9375rem;
+                    border-bottom: 1.5px solid #113D53;
+
+                        li { 
+                            color: #FFFFFF;
+                            font-family: $ibmLight;
+                            font-size: 12px;
+                            font-weight: 500;
+                            letter-spacing: 0.5px;
+                            line-height: 15px;
+                            text-align: center;
+                            text-transform: uppercase;
+                            padding-bottom: 1.5rem;
+                            list-style: none;
+                        }
+                }
+
+                .footerBodyKanan {
+                    display: flex;
+                    flex-direction: row;
+                    margin-bottom: 3.6875rem;
+                    margin-top: 1.9375rem;
+
+                    img {
+                        padding-right: 1rem;
+                    }
+
+                    h5 {
+                        display: inline-block;
+                        color: #FFFFFF;
+                        font-family: $ibmLight;
+                        font-size: 15px;
+                        letter-spacing: -0.22px;
+                        line-height: 19.5px;
+                    }
+
+                }
+
+            }
+        }
+    }
+   
+}
+
+@media (min-width: 992px) and (max-width: 1399.98px) {
+    .container {
+        width: 100%;
+        max-width: 100%;
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+
+            img {
+                width: 70px;
+                height: 70px;
+            }
+        }
+
+        .navbar-collapse {
+            display: flex;
+            justify-content: space-around;
+                .navbar-nav {
+                    display: flex;
+                    justify-content: space-around;
+                    }
+
+                    .nav-item {
+                        margin-right: 1.875rem;
+                        margin-top: .625rem;
+
+                        .nav-link {
+                            color: #0A2939;
+                            font-family: $ibmMedium;
+                            font-size: 18px;
+                            font-weight: 600;
+                            letter-spacing: -0.26px;
+                            line-height: 23px;
+
+                            &:hover {
+                                border-bottom: #F05E36 solid 2px;
+                            }
+
+                        }
+
+
+                        &.dropdown {
+                            .nav-link {
+                                font-family: $ibmReguler;
+                            }
+                
+                            .nav-link::after {
+                                color: #F05E36;
+                            }
+                        }
+
+                    }
+        }
+        
+
+        .sectionSatu {
+            margin-top: 0;
+            flex-direction: column;
+            display: flex;
+
+            .sectionSatuKiri {
+                background-color: transparent;
+
+                .text {
+                    margin-left: 0;
+                    position: block;
+                    
+                    h1 {
+                       height: auto;
+                       color: #F05E36;
+                       font-family: $butler;
+                       font-size: 2.625rem;
+                       letter-spacing: -0.03875rem;
+                       line-height: 2.375rem;
+                    }
+
+                    h5 {
+                        margin-top: .75rem;
+                        color: #021925;
+                        font-family: $minionItalic;
+                        font-size: 1.125rem;
+                        font-style: italic;
+                        letter-spacing: .00625rem;
+                        line-height: 1.125rem;
+                    }
+                }
+            }
+
+            .sectionSatuKanan {
+                position: block;
+                margin-left: 0;
+                margin-top: 1.625rem;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .sectionDua {
+            display: flex;
+            flex-direction: row;
+
+            .sectionDuaKiri {
+                padding: 1.5rem;
+
+                .wraperKiri-One {
+                    margin-top: .625rem;
+                }
+
+                .wraperKiri-Two {
+                    margin-top: .625rem;
+                    color: #0A2939;
+                    font-family: $ibmLight;
+                    font-size: 16px;
+                    font-weight: 300;
+                    letter-spacing: -0.1px;
+                    line-height: 30px;
+                }
+
+                .wraperKiri-Three {
+                    margin-top: .625rem;
+                }
+
+                .wraperKiri-Four {
+                    margin-top: .625rem;
+                    background-color: #0A2939;
+                    padding: 2.625rem 3.5625rem;
+
+                    h3 {
+                        color: #F05E36;
+                        font-family: $butler;
+                        font-size: 40px;
+                        font-weight: 300;
+                        letter-spacing: -0.59px;
+                        line-height: 50px;
+                    }
+
+                    p {
+                        color: #FFFFFF;
+                        font-family: $ibmLight;
+                        font-size: 22px;
+                        font-weight: 300;
+                        letter-spacing: -0.14px;
+                        line-height: 34px;
+                    }
+                }
+
+                .wraperKiri-Four {
+                    margin-top: 9.375rem;
+                }
+            }
+
+            .sectionDuaKanan {
+                padding: 1.5rem;
+                padding-right: 0;
+
+                .wraperKanan-One {
+                    background-color: #F05E36;
+                    padding: 2.6875rem 3.75rem;
+
+                    p {
+                        color: #0A2939;
+                        font-family: $ibmLight;
+                        font-size: 16px;
+                        font-weight: 500;
+                        letter-spacing: -0.24px;
+                        line-height: 20px;
+                    }
+
+                    li {
+                        color: #FFFFFF;
+                        font-family: $butler;
+                        font-size: 25px;
+                        font-weight: 300;
+                        letter-spacing: -0.59px;
+                        line-height: 50px;
+                    }
+                }
+
+                .wraperKanan-Two {
+                    p {
+                        color: #0A2939;
+                        font-family: $ibmLight;
+                        font-size: 16px;
+                        font-weight: 300;
+                        letter-spacing: -0.1px;
+                        line-height: 30px;
+                        margin-top: .625rem;
+                    }
+                }
+
+                .wraperKanan-Three {
+                    h3 {
+                        color: #F05E36;
+                        font-family: $ibmLight;
+                        font-size: 28px;
+                        font-weight: 500;
+                        letter-spacing: -0.41px;
+                        line-height: 36px;
+                    }
+
+                    p {
+                        color: #0A2939;
+                        font-family: $ibmLight;
+                        font-size: 16px;
+                        font-weight: 300;
+                        letter-spacing: -0.1px;
+                        line-height: 30px;
+                    }
+                }
+
+                .wraperKanan-Four {
+                    h1 {
+                        color: #F05E36;
+                        font-family: $ibmLight;
+                        font-size: 28px;
+                        font-weight: 500;
+                        letter-spacing: -0.41px;
+                        line-height: 36px;
+                    }
+
+                    li {
+                        color: #0A2939;
+                        font-family: $ibmLight;
+                        font-size: 16px;
+                        font-weight: 300;
+                        letter-spacing: -0.1px;
+                        line-height: 30px;
+                    }
+
+                }
+
+            }
+        }
+
+        .sectionTiga {
+            margin-top: .625rem;
+        
+            .sectionTigaAtas {
+                h1 {
+                    color: #0A2939;
+                    font-family: $butler;
+                    font-size: 56px;
+                    letter-spacing: -0.82px;
+                    line-height: 56px;
+                }
+            }
+
+            .sectionTigaBawah {
+                margin-top: .625rem;
+
+                .containerSlide {
+                    display: flex;
+                    flex-direction: row;
+
+                    .img-fluid {
+                        max-width: none;
+                    }
+
+                    .cardSlider {
+                        padding: 12px;
+                        opacity: 0.9;
+                        background-color: #F05E36;
+    
+                        h2 {
+                            color: #0A2939;
+                            font-family: Butler;
+                            font-size: 28px;
+                            letter-spacing: 0;
+                            line-height: 34px;
+                        }
+
+                        p {
+                            color: #FFFFFF;
+                            font-family: "IBM Plex Sans";
+                            font-size: 14px;
+                            letter-spacing: -0.09px;
+                            line-height: 24px;
+
+                            a {
+                                text-decoration: none;
+                                color: #FFFFFF;
+                                font-family: "IBM Plex Sans";
+                                font-size: 14px;
+                                letter-spacing: -0.09px;
+                                line-height: 24px;
+                            }
+                        }
+
+                    }
+                    
+                    img.imgHide {
+                        display: none;
+                    }
+                }
+            }
+
+        }
+
+        .sectionEmpat {
+            margin-top: .625rem;
+
+            .sectionEmpatAtas {
+                margin-top: 7.0625rem;
+
+                h5  {
+                    margin-top: 1.0625rem;
+                    color: #F05E36;
+                    font-family: $ibmLight;
+                    font-size: 16px;
+                    font-weight: 500;
+                    letter-spacing: 0;
+                    line-height: 20px;
+                }                    
+            }
+
+            .sectionEmpatBawah {
+                display: flex;
+                flex-direction: row;
+                margin-top: .625rem;
+                color: #0A2939;
+                font-family: $butler;
+                font-size: 40px;
+                font-weight: 300;
+                letter-spacing: 0;
+                line-height: 48px;
+
+                .sectionEmpatBawahKiri {
+                    margin-left: 2rem;
+                    margin-right: 2rem;
+                }
+
+                .sectionEmpatBawahKanan {
+                    margin-left: 2rem;
+                    margin-right: 2rem;
+                }
+            }
+    }
+
+    .sectionLima {
+        border: 10px solid #f66f4933;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 1.25rem;
+        
+        margin-top: 3.75rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1.875rem;
+
+        form {
+            width: 100%;
+            margin-right: 32px;
+            margin-left: 32px;
+        }
+    
+        .sectionLimaBody {
+
+            .logo {
+                display: flex;
+                justify-content: flex-end;
+            }
+
+            .title {
+                justify-content: center;
+            }
+
+            h2 {
+                height: 81px;
+    
+                color: #002F39;
+                font-family: Minion;
+                font-size: 26px;
+                font-weight: bold;
+                letter-spacing: 10.4px;
+                line-height: 80px;
+                text-align: center;
+            }
+    
+            p {
+    
+                color: #F66E49;
+                font-family: "IBM Plex Sans";
+                font-size: 22px;
+                letter-spacing: -0.32px;
+                line-height: 30px;
+            }
+    
+            .SectionLimaTengah {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 2rem;
+    
+                .email {
+                    padding: 0.5rem;
+                    border: none;
+                    margin-right: 9rem;
+                }
+    
+                .av-checkbox {
+                    a {
+                        padding-left: 2rem;
+                    }
+                }
+    
+                border-bottom: 1px solid #E8D4CF;
+    
+            }
+    
+            .SectionLimaBawah {
+                input {
+                    margin: 2rem 0rem;
+                    width: 100%;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    padding-bottom: 1.6rem;
+                    border-bottom: 1px solid #E8D4CF;
+                    ;
+                    outline: none;
+                }
+            }
+    
+    
+        }
+    
+        .SectionLimaBawahDua {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: center;
+            //     background-color: rgb(11, 2, 20);
+    
+    
+            .button {
+                border: 1px solid #fff;
+                padding: 1rem 4rem;
+                border-radius: 24px;
+                color: #FFFFFF;
+                font-family: "IBM Plex Sans";
+                font-size: 16px;
+                font-weight: 500;
+                letter-spacing: 0;
+                line-height: 20px;
+                background-color: #F05E36;
+            }
+    
+            margin-bottom: 8rem;
+    
+    
+        }
+    }
+}
+
+.Footer {
+    margin-top: 1.875rem;
+    background-color: #021925;
+
+    .container {
+        .footerHeader {
+           
+            img {
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                padding-top: 2.9375rem;
+                width: 11.625rem;
+                padding-bottom: 3rem;
+            }
+        }
+
+        .foooterBody {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .footerBodyKiri {
+                width: 100%;
+                box-sizing: border-box;
+                border-top : 1.5px solid #113D53;
+                padding-top: 1.9375rem;
+                border-bottom: 1.5px solid #113D53;
+
+                    li { 
+                        color: #FFFFFF;
+                        font-family: $ibmLight;
+                        font-size: 12px;
+                        font-weight: 500;
+                        letter-spacing: 0.5px;
+                        line-height: 15px;
+                        text-align: center;
+                        text-transform: uppercase;
+                        padding-bottom: 1.5rem;
+                        list-style: none;
+                    }
+            }
+
+            .footerBodyKanan {
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 3.6875rem;
+                margin-top: 1.9375rem;
+
+                img {
+                    padding-right: 1rem;
+                }
+
+                h5 {
+                    display: inline-block;
+                    color: #FFFFFF;
+                    font-family: $ibmLight;
+                    font-size: 15px;
+                    letter-spacing: -0.22px;
+                    line-height: 19.5px;
+                }
+
+            }
+
+        }
+    }
+}
+
+}
+
+@media (min-width: 1400px) {
+
+.container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.birukanan{
+    background-color: #0A2939;
+    position: fixed;
+    height: 100%;
+    right:  0px;
+    width: 7.2rem
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center ;
+    background-color: transparent;
+
+    
+    span {
+        height: 600px;
+        position: absolute;
+        border-right: 2px solid rgb(235, 235, 235);
+        left: 10%;
+    }
+
+    .navbar-collapse {
+        justify-content: space-around;
+        padding-left: 10%;
+    }
+
+    .bg-white {
+        background-color: transparent !important;
+    }
+
+    .dropdown-menu {
+        top: 45px;
+        left: 20px;
+    }
+
+    nav {
+        .navbar-toggler-icon {
+            width: 3rem;
+            height: 3rem;
+        }
+    }
+
+    nav.navbar {
+        justify-content: left;
+        background-color: transparent;
+    }
+
+    .nav-item {   
+        
+        &.start {
+            margin-left: 4.1875rem;
+        } 
+
+        &.end {
+            margin-left: 4.375rem;
+        } 
+
+        .nav-link {
+            color: #0A2939;
+            font-family: $ibmMedium;
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: -0.26px;
+            line-height: 23px;
+            margin-right: 4rem;
+            margin-left: .75rem;
+            margin-bottom: -10rem;
+
+            &:hover {
+                border-bottom: #F05E36 solid 2px;
+            }
+
+            &.active {
+                border-bottom: #F05E36 solid 2px;
+            }
+        }
+
+        img {
+            background-color: rebeccapurple;
+            color: #0A2939;
+        }
+
+            
+        &.dropdown {
+            .nav-link {
+                border: 2px solid #E5E5E5;
+                padding-left: 2.4375rem;
+                padding-right: 2.4375rem;
+                border-radius: 1.5rem;
+                font-family: $ibmReguler;
+            }
+
+            .nav-link::after {
+                color: #F05E36;
+            }
+        }
+    }
+
+
+    img {
+        position: absolute;
+        margin-top: 0;
+        width: 4.6875rem;
+        height: 5.625rem;
+        top: 2.0625rem;
+    }
+
+}
+
+
+.sectionSatu {
+    margin-top: 4.375rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30rem;
+
+    .sectionSatuKiri {
+        background-color: blue;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+
+        .text {
+            position: absolute;
+            top: 23rem;
+            margin-left: 1rem;
+
+            h1 {
+                height: 196px;
+                width: 792px;
+                color: #F05E36;
+                font-family: Butler;
+                font-size: 100px;
+                letter-spacing: -1.47px;
+                line-height: 50px;
+            }
+
+            h5 {
+                height: 27px;
+                width: 464px;
+                color: #021925;
+                font-family: Minion;
+                font-size: 28px;
+                font-style: italic;
+                letter-spacing: 1.27px;
+                line-height: 29px;
+                margin-top: -6rem;
+            }
+        }
+    }
+
+    .sectionSatuKanan {
+        position: absolute;
+        img{
+            width: 100%;
+            height: 405px;
+        }   
+        margin-left:14.5rem;
+        z-index: -1;
+      
+    }
+}
+
+.sectionTwo {
+  .dateContainer {
+    margin-bottom: 4rem;
+    h1 {
+      margin-top: 2rem;
+      color: #0A2939;
+      font-family: $butler;
+      font-size: 3rem;
+      letter-spacing: 0;
+      line-height: 2.125rem;
+    }
+    p {
+      font-size: .85rem;
+      color: #F56E4A;
+    }
+    h6 {
+      color: #0A2939;
+    }
+  }
+
+  .explanationBox{
+    padding-top: .5rem;
+    p {
+      font-size: .85rem;
+      color: #F56E4A;
+    }
+    h1 {
+      margin-top: 2rem;
+      color: #FFFFFF;
+      font-family: $butler;
+      font-size: 2rem;
+      letter-spacing: 0;
+      line-height: 2.125rem;
+    }
+  }
+
+}
+
+.sectionLima {
+    border: 10px solid #f66f4933;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    margin: 0rem auto 10rem auto;
+    form {
+        width: 90%;
+    }
+
+    .sectionLimaBody {
+        // margin: 0 5rem;
+        text-align: center;
+
+        p {
+        
+            color: #F66E49;
+            font-family: "IBM Plex Sans";
+            font-size: 22px;
+            letter-spacing: -0.32px;
+            line-height: 30px;
+        }
+
+        .logo {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .title {
+            justify-content: center;
+
+            .title-1 {
+                width: 48rem;
+                text-align: center;
+                // padding-left: 7.5rem;
+                
+                h2 {
+                    height: 81px;
+        
+                    color: #002F39;
+                    font-family: Minion;
+                    font-size: 26px;
+                    font-weight: bold;
+                    letter-spacing: 10.4px;
+                    line-height: 80px;
+                    text-align: center;
+                    
+                }
+            }
+        }
+        
+        .SectionLimaTengah {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 2rem;
+
+            .email {
+                padding: 0.5rem;
+                border: none;
+                width: 12.8rem;
+            }
+
+            ::placeholder {
+                border-left: 2px solid $color5;
+                margin-left: 1rem;
+                 width: 13rem;
+            }
+
+            .mc-field-group::after {
+                content:" *";
+                color: red;
+                display: inline;
+            }
+
+            .av-checkbox {
+                a {
+                    padding-left: 2rem;
+                }
+            }
+
+            .text {
+                margin-right: 0.3rem;
+                margin-left: 0.5rem;
+            }
+
+            .text, .terms, h6 {
+                color: $color5;
+                font-family: "IBM Plex Sans";
+                font-size: 16px;;
+            }
+
+            border-bottom: 1px solid #E8D4CF;
+
+        }
+
+        .SectionLimaBawah {
+            input {
+                margin: 2rem 0rem;
+                width: 100%;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                padding-bottom: 1.6rem;
+                border-bottom: 1px solid #E8D4CF;
+                ;
+                outline: none;
+            }
+        }
+
+
+    }
+
+    .SectionLimaBawahDua {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 5rem;
+        //     background-color: rgb(11, 2, 20);
+
+
+        .button {
+            border: 1px solid #fff;
+            padding: 1rem 4rem;
+            border-radius: 2.4rem;
+            color: #FFFFFF;
+            font-family: "IBM Plex Sans";
+            font-size: 16px;
+            font-weight: 500;
+            letter-spacing: 0;
+            line-height: 20px;
+            background-color: #F05E36;
+        }
+
+        margin-bottom: 8rem;
+
+
+    }
+}
+
+
+.Footer {
+    width: 100%;
+    background-color: #021925;
+    height: 40rem;
+
+    .container {
+        background-color: #021925;
+
+        height: 100%;
+        color: #E8D4CF;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+
+        // justify-content: center;
+        .footerHeader {
+            margin-top: 8rem;
+            margin-bottom: 6rem;
+            img{
+                transform: scale(1.1);
+                opacity: 0.8;
+            }
+        }
+
+        .foooterBody {
+            display: flex;
+            border-top: 1.5px solid #113D53;
+            border-bottom: 1.5px solid #113D53;
+         
+            width: 90%;
+            height: 10rem;
+            justify-content: space-evenly;
+
+            .footerBodyKiri {
+                // background-color: #E8D4CF;
+                display: flex;
+                flex-direction: row;
+                width: 65%;
+                padding: 3rem 2rem;
+                li {
+                    list-style: none;
+                    margin-bottom: 2rem;
+                    height: 15px;
+                    color: #FFFFFF;
+                    font-family: "IBM Plex Sans";
+                    font-size: 12px;
+                    font-weight: 500;
+                    letter-spacing: 0.5px;
+                    line-height: 15px;
+                }
+
+                .footerBodyKiriOne {
+                    flex-direction: column;
+                    display: flex;
+                    padding-right: 8rem;
+                    margin-right: 6rem;
+
+                }
+
+                .footerBodyKiriTwo {
+                    display: flex;
+                    flex-direction: column;
+
+                }
+            }
+
+            .footerBodyKanan {
+                // background-color: #E8D4CF;
+                padding: 2rem 2rem;
+                width:35%;
+                border-left: 2px #113D53 solid;
+            .linkedIn{
+                display: flex;
+                justify-content: center;
+                align-items: center ;
+                h5{
+                    margin-top: 0.5rem;
+                    margin-left: 1rem;
+                    color: #FFFFFF;
+                    font-family: "IBM Plex Sans";
+                    font-size: 15px;
+                    letter-spacing: -0.22px;
+                    line-height: 19.5px;
+                }
+                text-decoration: none;
+            }
+            }
+        }
+    }
+}
+}
+

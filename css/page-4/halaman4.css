@@ -1,0 +1,2498 @@
+@font-face {
+  font-family: "IBMPlexSans";
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans.ttf");
+}
+
+@font-face {
+  font-family: "IBMPlexSans-SemiBold";
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "IBMPlexSans-Light";
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Light.ttf");
+}
+
+@font-face {
+  font-family: "IBMPlexSans-Medium";
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: "IBMPlexSans-SemiBoldItalic";
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "Butler-Light";
+  src: url("../../assets/fonts/webfont-butler/Butler-Light.ttf");
+}
+
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/fonts/webfont-butler/Butler.ttf");
+}
+
+@font-face {
+  font-family: "Minion-DisplayItalic";
+  src: url("../../assets/fonts/webfont-minion/Minion-DisplayItalic.ttf");
+}
+
+@media (max-width: 319.98px) {
+  .birukanan {
+    display: none;
+  }
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+  }
+  .container .navbar {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .navbar .line {
+    display: none;
+  }
+  .container .drop .btn-group {
+    margin-top: 0;
+    margin-left: -2.5rem;
+  }
+  .container .navbar-nav {
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #021925;
+    height: 100%;
+    display: inline-block;
+    width: 95%;
+    padding: 1.5rem;
+    color: white;
+  }
+  .container .navbar-nav li .nav-link {
+    color: white;
+  }
+  .container .navbar-nav li .nav-link:hover {
+    color: orange;
+  }
+  .container .navbar-nav #listhide {
+    margin-left: -16px;
+    padding-top: 20px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    margin-top: 20px;
+  }
+  .container .sectionSatu {
+    margin-top: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionSatu .sectionSatuKiri {
+    background-color: transparent;
+  }
+  .container .sectionSatu .sectionSatuKiri .text {
+    margin-left: 0;
+    position: block;
+  }
+  .container .sectionSatu .sectionSatuKiri .text h1 {
+    height: auto;
+    color: #F05E36;
+    font-family: "Butler";
+    font-size: 2.625rem;
+    letter-spacing: -0.03875rem;
+    line-height: 2.375rem;
+  }
+  .container .sectionSatu .sectionSatuKiri .text h5 {
+    margin-top: .75rem;
+    color: #021925;
+    font-family: "Minion-DisplayItalic";
+    font-size: 1.125rem;
+    font-style: italic;
+    letter-spacing: .00625rem;
+    line-height: 1.125rem;
+  }
+  .container .sectionSatu .sectionSatuKanan {
+    position: block;
+    margin-left: 0;
+    margin-top: 1.625rem;
+  }
+  .container .sectionSatu .sectionSatuKanan img {
+    height: 12rem;
+  }
+  .container .sectionLima {
+    margin-top: 1.875rem;
+  }
+  .container .sectionLima .sectionLimaBody {
+    border: 5px solid #F66E49;
+    opacity: 0.7;
+    padding: 1.5rem;
+  }
+  .container .sectionLima .sectionLimaBody .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .sectionLima .sectionLimaBody .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .sectionLima .sectionLimaBody h2 {
+    color: #002F39;
+    font-family: "Minion-DisplayItalic";
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: .65rem;
+    line-height: 5rem;
+    text-align: center;
+  }
+  .container .sectionLima .sectionLimaBody p {
+    color: #F66E49;
+    font-family: "IBM Plex Sans";
+    font-size: 1.125rem;
+    letter-spacing: -0.01625rem;
+    line-height: 1.125rem;
+    text-align: center;
+  }
+  .container .sectionLima .SectionLimaTengah .mc-field-group input {
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    border: none;
+    border-bottom: 2px solid #363636;
+  }
+  .container .sectionLima .SectionLimaTengah h6 {
+    text-align: center;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 1.3125rem;
+    margin-bottom: 1.875rem;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset input {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 10.85px;
+    border: 2px solid #FFFFFF;
+    margin-right: .5rem;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset .text {
+    color: #002F39;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    letter-spacing: -0.21px;
+    line-height: 18px;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset a {
+    color: #002F39;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    letter-spacing: -0.21px;
+    line-height: 18px;
+  }
+  .container .sectionLima .SectionLimaBawah {
+    display: none;
+  }
+  .container .sectionLima .SectionLimaBawahDua {
+    display: none;
+  }
+  .Footer {
+    margin-top: 1.875rem;
+    background-color: #021925;
+  }
+  .Footer .container .footerHeader img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 2.9375rem;
+    width: 11.625rem;
+    padding-bottom: 3rem;
+  }
+  .Footer .container .foooterBody {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Footer .container .foooterBody .footerBodyKiri {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-top: 1.5px solid #113D53;
+    padding-top: 1.9375rem;
+    border-bottom: 1.5px solid #113D53;
+  }
+  .Footer .container .foooterBody .footerBodyKiri li {
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+    list-style: none;
+  }
+  .Footer .container .foooterBody .footerBodyKanan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 3.6875rem;
+    margin-top: 1.9375rem;
+  }
+  .Footer .container .foooterBody .footerBodyKanan img {
+    padding-right: 1rem;
+  }
+  .Footer .container .foooterBody .footerBodyKanan h5 {
+    display: inline-block;
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 15px;
+    letter-spacing: -0.22px;
+    line-height: 19.5px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374.98px) {
+  .navbar-nav {
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #021925;
+    height: 100%;
+    display: inline-block;
+    width: 95%;
+    padding: 1.5rem;
+    color: white;
+  }
+  .navbar-nav li .nav-link {
+    color: white;
+  }
+  .navbar-nav li .nav-link:hover {
+    color: orange;
+  }
+  .navbar-nav #listhide {
+    margin-left: -16px;
+    padding-top: 20px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    margin-top: 20px;
+  }
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+  }
+  .container .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
+  .container .navbar .line {
+    display: none;
+  }
+  .container .sectionSatu {
+    margin-top: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionSatu .sectionSatuKiri {
+    background-color: transparent;
+  }
+  .container .sectionSatu .sectionSatuKiri .text {
+    margin-left: 0;
+    position: block;
+  }
+  .container .sectionSatu .sectionSatuKiri .text h1 {
+    height: auto;
+    color: #F05E36;
+    font-family: "Butler";
+    font-size: 2.625rem;
+    letter-spacing: -0.03875rem;
+    line-height: 2.375rem;
+  }
+  .container .sectionSatu .sectionSatuKiri .text h5 {
+    margin-top: .75rem;
+    color: #021925;
+    font-family: "Minion-DisplayItalic";
+    font-size: 1.125rem;
+    font-style: italic;
+    letter-spacing: .00625rem;
+    line-height: 1.125rem;
+  }
+  .container .sectionSatu .sectionSatuKanan {
+    position: block;
+    margin-left: 0;
+    margin-top: 1.625rem;
+  }
+  .container .sectionSatu .sectionSatuKanan img {
+    height: 12rem;
+    width: 100%;
+  }
+  .container .sectionDua {
+    margin-top: 2.0625rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-One {
+    color: #0A2939;
+    font-family: "IBMPlexSans";
+    font-size: 1.125rem;
+    font-weight: 300;
+    letter-spacing: -0.01625rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Two p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Three img {
+    width: 100%;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four {
+    margin-top: 1.4375rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four h3 {
+    color: #F05E36;
+    font-family: "IBMPlexSans";
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: -0.018125rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan {
+    margin-top: 1.4375rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One {
+    background-color: #F05E36;
+    padding: .75rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One ul {
+    list-style: square;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One ul li {
+    color: #FFFFFF;
+    font-family: "Butler";
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: -0.036875rem;
+    line-height: 3.125rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Two {
+    margin-top: 1.25rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Two p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Three h3 {
+    color: #0A2939;
+    font-family: "IBMPlexSans";
+    font-size: 1.125rem;
+    font-weight: 300;
+    letter-spacing: -0.01625rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Three p {
+    margin-top: 1.25rem;
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four {
+    background-color: #021925;
+    padding: 1.5rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four h1 {
+    color: #F05E36;
+    font-family: "IBMPlexSans";
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: -0.018125rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four li {
+    margin-left: 2rem;
+    color: white;
+    font-family: "IBMPlexSans-Light";
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: -0.00625rem;
+    line-height: 1.875rem;
+  }
+  .container .sectionTiga {
+    margin-top: 1.875rem;
+  }
+  .container .sectionTiga .sectionTigaAtas h1 {
+    margin: 1.5rem;
+    margin-left: 0;
+  }
+  .container .sectionTiga .sectionTigaBawah img {
+    height: 50%;
+    width: 100%;
+  }
+  .container .sectionTiga .sectionTigaBawah .imgHide {
+    display: none;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider {
+    opacity: 0.9;
+    background-color: #F05E36;
+    padding: 1.5rem;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider h2 {
+    color: #0A2939;
+    font-family: "Butler";
+    font-size: 1.2rem;
+    letter-spacing: 0;
+    line-height: 2.125rem;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider a {
+    color: white;
+    font-family: "Butler-Light";
+    font-size: .875rem;
+    letter-spacing: 0;
+    line-height: 2.125rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider p a {
+    padding: 0;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider p {
+    color: white;
+    font-family: "Butler-Light";
+    font-size: .875rem;
+    letter-spacing: 0;
+    line-height: 2.125rem;
+  }
+  .container .sectionEmpat .sectionEmpatAtas {
+    display: none;
+  }
+  .container .sectionEmpat .sectionEmpatBawah {
+    display: none;
+  }
+  .container .sectionLima {
+    margin-top: 1.875rem;
+  }
+  .container .sectionLima .sectionLimaBody {
+    border: 5px solid #F66E49;
+    opacity: 0.7;
+    padding: 1.5rem;
+  }
+  .container .sectionLima .sectionLimaBody .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .sectionLima .sectionLimaBody .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .sectionLima .sectionLimaBody h2 {
+    color: #002F39;
+    font-family: "Minion-DisplayItalic";
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: .65rem;
+    line-height: 5rem;
+    text-align: center;
+  }
+  .container .sectionLima .sectionLimaBody p {
+    color: #F66E49;
+    font-family: "IBM Plex Sans";
+    font-size: 1.125rem;
+    letter-spacing: -0.01625rem;
+    line-height: 1.125rem;
+    text-align: center;
+  }
+  .container .sectionLima .SectionLimaTengah .mc-field-group input {
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    border: none;
+    border-bottom: 2px solid #363636;
+  }
+  .container .sectionLima .SectionLimaTengah h6 {
+    text-align: center;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 1.3125rem;
+    margin-bottom: 1.875rem;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset input {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 10.85px;
+    border: 2px solid #FFFFFF;
+    margin-right: .5rem;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset .text {
+    color: #002F39;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    letter-spacing: -0.21px;
+    line-height: 18px;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset a {
+    color: #002F39;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    letter-spacing: -0.21px;
+    line-height: 18px;
+  }
+  .container .sectionLima .SectionLimaBawah {
+    display: none;
+  }
+  .container .sectionLima .SectionLimaBawahDua {
+    display: none;
+  }
+  .Footer {
+    margin-top: 1.875rem;
+    background-color: #021925;
+  }
+  .Footer .container .footerHeader img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 2.9375rem;
+    width: 11.625rem;
+    padding-bottom: 3rem;
+  }
+  .Footer .container .foooterBody {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Footer .container .foooterBody .footerBodyKiri {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-top: 1.5px solid #113D53;
+    padding-top: 1.9375rem;
+    border-bottom: 1.5px solid #113D53;
+  }
+  .Footer .container .foooterBody .footerBodyKiri li {
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+    list-style: none;
+  }
+  .Footer .container .foooterBody .footerBodyKanan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 3.6875rem;
+    margin-top: 1.9375rem;
+  }
+  .Footer .container .foooterBody .footerBodyKanan img {
+    padding-right: 1rem;
+  }
+  .Footer .container .foooterBody .footerBodyKanan h5 {
+    display: inline-block;
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 15px;
+    letter-spacing: -0.22px;
+    line-height: 19.5px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 574.98px) {
+  .birukanan {
+    display: none;
+  }
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+  }
+  .container .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
+  .container .navbar .line {
+    display: none;
+  }
+  .container .navbar-nav {
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #021925;
+    height: 100%;
+    display: inline-block;
+    width: 95%;
+    padding: 1.5rem;
+    color: white;
+  }
+  .container .navbar-nav li .nav-link {
+    color: white;
+  }
+  .container .navbar-nav li .nav-link:hover {
+    color: orange;
+  }
+  .container .navbar-nav #listhide {
+    margin-left: -16px;
+    padding-top: 20px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    margin-top: 20px;
+  }
+  .container .sectionSatu {
+    margin-top: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionSatu .sectionSatuKiri {
+    background-color: transparent;
+  }
+  .container .sectionSatu .sectionSatuKiri .text {
+    margin-left: 0;
+    position: block;
+  }
+  .container .sectionSatu .sectionSatuKiri .text h1 {
+    height: auto;
+    color: #F05E36;
+    font-family: "Butler";
+    font-size: 2.625rem;
+    letter-spacing: -0.03875rem;
+    line-height: 2.375rem;
+  }
+  .container .sectionSatu .sectionSatuKiri .text h5 {
+    margin-top: .75rem;
+    color: #021925;
+    font-family: "Minion-DisplayItalic";
+    font-size: 1.125rem;
+    font-style: italic;
+    letter-spacing: .00625rem;
+    line-height: 1.125rem;
+  }
+  .container .sectionSatu .sectionSatuKanan {
+    position: block;
+    margin-left: 0;
+    margin-top: 1.625rem;
+  }
+  .container .sectionSatu .sectionSatuKanan img {
+    height: 12rem;
+  }
+  .container .sectionDua {
+    margin-top: 2.0625rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-One {
+    color: #0A2939;
+    font-family: "IBMPlexSans";
+    font-size: 1.125rem;
+    font-weight: 300;
+    letter-spacing: -0.01625rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Two p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four {
+    margin-top: 1.4375rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four h3 {
+    color: #F05E36;
+    font-family: "IBMPlexSans";
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: -0.018125rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan {
+    margin-top: 1.4375rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One {
+    background-color: #F05E36;
+    padding: .75rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One ul {
+    list-style: square;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One ul li {
+    color: #FFFFFF;
+    font-family: "Butler";
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: -0.036875rem;
+    line-height: 3.125rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Two {
+    margin-top: 1.25rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Two p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Three h3 {
+    color: #0A2939;
+    font-family: "IBMPlexSans";
+    font-size: 1.125rem;
+    font-weight: 300;
+    letter-spacing: -0.01625rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Three p {
+    margin-top: 1.25rem;
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four h1 {
+    color: #F05E36;
+    font-family: "IBMPlexSans";
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: -0.018125rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four li {
+    margin-left: .75rem;
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .75rem;
+    font-weight: 300;
+    letter-spacing: -0.00625rem;
+    line-height: 1.875rem;
+  }
+  .container .sectionTiga {
+    margin-top: 1.875rem;
+  }
+  .container .sectionTiga .sectionTigaAtas h1 {
+    margin: 1.5rem;
+    margin-left: 0;
+  }
+  .container .sectionTiga .sectionTigaBawah img {
+    height: 50%;
+    width: 100%;
+  }
+  .container .sectionTiga .sectionTigaBawah .imgHide {
+    display: none;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider {
+    opacity: 0.9;
+    background-color: #F05E36;
+    padding: 1.5rem;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider h2 {
+    color: #0A2939;
+    font-family: "Butler";
+    font-size: 1.2rem;
+    letter-spacing: 0;
+    line-height: 2.125rem;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider a {
+    color: white;
+    font-family: "Butler-Light";
+    font-size: .875rem;
+    letter-spacing: 0;
+    line-height: 2.125rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider p a {
+    padding: 0;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider p {
+    color: white;
+    font-family: "Butler-Light";
+    font-size: .875rem;
+    letter-spacing: 0;
+    line-height: 2.125rem;
+  }
+  .container .sectionEmpat .sectionEmpatAtas {
+    display: none;
+  }
+  .container .sectionEmpat .sectionEmpatBawah {
+    display: none;
+  }
+  .container .sectionLima {
+    margin-top: 1.875rem;
+  }
+  .container .sectionLima .sectionLimaBody {
+    border: 5px solid #F66E49;
+    opacity: 0.7;
+    padding: 1.5rem;
+  }
+  .container .sectionLima .sectionLimaBody .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .sectionLima .sectionLimaBody .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .sectionLima .sectionLimaBody h2 {
+    color: #002F39;
+    font-family: "Minion-DisplayItalic";
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: .65rem;
+    line-height: 5rem;
+    text-align: center;
+  }
+  .container .sectionLima .sectionLimaBody p {
+    color: #F66E49;
+    font-family: "IBM Plex Sans";
+    font-size: 1.125rem;
+    letter-spacing: -0.01625rem;
+    line-height: 1.125rem;
+    text-align: center;
+  }
+  .container .sectionLima .SectionLimaTengah .mc-field-group input {
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    border: none;
+    border-bottom: 2px solid #363636;
+  }
+  .container .sectionLima .SectionLimaTengah h6 {
+    text-align: center;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 1.3125rem;
+    margin-bottom: 1.875rem;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset input {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 10.85px;
+    border: 2px solid #FFFFFF;
+    margin-right: .5rem;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset .text {
+    color: #002F39;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    letter-spacing: -0.21px;
+    line-height: 18px;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset a {
+    color: #002F39;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    letter-spacing: -0.21px;
+    line-height: 18px;
+  }
+  .container .sectionLima .SectionLimaBawah {
+    display: none;
+  }
+  .container .sectionLima .SectionLimaBawahDua {
+    display: none;
+  }
+  .Footer {
+    margin-top: 1.875rem;
+    background-color: #021925;
+  }
+  .Footer .container .footerHeader img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 2.9375rem;
+    width: 11.625rem;
+    padding-bottom: 3rem;
+  }
+  .Footer .container .foooterBody {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Footer .container .foooterBody .footerBodyKiri {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-top: 1.5px solid #113D53;
+    padding-top: 1.9375rem;
+    border-bottom: 1.5px solid #113D53;
+  }
+  .Footer .container .foooterBody .footerBodyKiri li {
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+    list-style: none;
+  }
+  .Footer .container .foooterBody .footerBodyKanan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 3.6875rem;
+    margin-top: 1.9375rem;
+  }
+  .Footer .container .foooterBody .footerBodyKanan img {
+    padding-right: 1rem;
+  }
+  .Footer .container .foooterBody .footerBodyKanan h5 {
+    display: inline-block;
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 15px;
+    letter-spacing: -0.22px;
+    line-height: 19.5px;
+  }
+}
+
+@media (min-width: 575px) and (max-width: 991.98px) {
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+  }
+  .container .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
+  .container .navbar .line {
+    display: none;
+  }
+  .container .navbar-nav {
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #021925;
+    height: 100%;
+    display: inline-block;
+    width: 95%;
+    padding: 1.5rem;
+    color: white;
+  }
+  .container .navbar-nav li .nav-link {
+    color: white;
+  }
+  .container .navbar-nav li .nav-link:hover {
+    color: orange;
+  }
+  .container .navbar-nav #listhide {
+    margin-left: -16px;
+    padding-top: 20px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    margin-top: 20px;
+  }
+  .container .sectionSatu {
+    margin-top: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionSatu .sectionSatuKiri {
+    background-color: transparent;
+  }
+  .container .sectionSatu .sectionSatuKiri .text {
+    margin-left: 0;
+    position: block;
+  }
+  .container .sectionSatu .sectionSatuKiri .text h1 {
+    height: auto;
+    color: #F05E36;
+    font-family: "Butler";
+    font-size: 2.625rem;
+    letter-spacing: -0.03875rem;
+    line-height: 2.375rem;
+  }
+  .container .sectionSatu .sectionSatuKiri .text h5 {
+    margin-top: .75rem;
+    color: #021925;
+    font-family: "Minion-DisplayItalic";
+    font-size: 1.125rem;
+    font-style: italic;
+    letter-spacing: .00625rem;
+    line-height: 1.125rem;
+  }
+  .container .sectionSatu .sectionSatuKanan {
+    position: block;
+    margin-left: 0;
+    margin-top: 1.625rem;
+  }
+  .container .sectionSatu .sectionSatuKanan img {
+    height: 12rem;
+    width: 100%;
+  }
+  .container .sectionDua {
+    margin-top: 2.0625rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-One {
+    color: #0A2939;
+    font-family: "IBMPlexSans";
+    font-size: 1.125rem;
+    font-weight: 300;
+    letter-spacing: -0.01625rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Two p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Three img {
+    width: 100%;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four {
+    margin-top: 1.4375rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four h3 {
+    color: #F05E36;
+    font-family: "IBMPlexSans";
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: -0.018125rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan {
+    margin-top: 1.4375rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One {
+    background-color: #F05E36;
+    padding: .75rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One ul {
+    list-style: square;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One ul li {
+    color: #FFFFFF;
+    font-family: "Butler";
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: -0.036875rem;
+    line-height: 3.125rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Two {
+    margin-top: 1.25rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Two p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Three h3 {
+    color: #0A2939;
+    font-family: "IBMPlexSans";
+    font-size: 1.125rem;
+    font-weight: 300;
+    letter-spacing: -0.01625rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Three p {
+    margin-top: 1.25rem;
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four {
+    background-color: #021925;
+    padding: 1.5rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four h1 {
+    color: #F05E36;
+    font-family: "IBMPlexSans";
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: -0.018125rem;
+    line-height: 1.75rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four li {
+    margin-left: 2rem;
+    color: white;
+    font-family: "IBMPlexSans-Light";
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: -0.00625rem;
+    line-height: 1.875rem;
+  }
+  .container .sectionTiga {
+    margin-top: 1.875rem;
+  }
+  .container .sectionTiga .sectionTigaAtas h1 {
+    margin: 1.5rem;
+    margin-left: 0;
+  }
+  .container .sectionTiga .sectionTigaBawah img {
+    height: 50%;
+    width: 100%;
+  }
+  .container .sectionTiga .sectionTigaBawah .imgHide {
+    display: none;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider {
+    opacity: 0.9;
+    background-color: #F05E36;
+    padding: 1.5rem;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider h2 {
+    color: #0A2939;
+    font-family: "Butler";
+    font-size: 1.2rem;
+    letter-spacing: 0;
+    line-height: 2.125rem;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider a {
+    color: white;
+    font-family: "Butler-Light";
+    font-size: .875rem;
+    letter-spacing: 0;
+    line-height: 2.125rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider p a {
+    padding: 0;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider p {
+    color: white;
+    font-family: "Butler-Light";
+    font-size: .875rem;
+    letter-spacing: 0;
+    line-height: 2.125rem;
+  }
+  .container .sectionEmpat .sectionEmpatAtas {
+    display: none;
+  }
+  .container .sectionEmpat .sectionEmpatBawah {
+    display: none;
+  }
+  .container .sectionLima {
+    margin-top: 1.875rem;
+  }
+  .container .sectionLima .sectionLimaBody {
+    border: 5px solid #F66E49;
+    opacity: 0.7;
+    padding: 1.5rem;
+  }
+  .container .sectionLima .sectionLimaBody .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .container .sectionLima .sectionLimaBody .title {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .sectionLima .sectionLimaBody h2 {
+    color: #002F39;
+    font-family: "Minion-DisplayItalic";
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: .65rem;
+    line-height: 5rem;
+    text-align: center;
+  }
+  .container .sectionLima .sectionLimaBody p {
+    color: #F66E49;
+    font-family: "IBM Plex Sans";
+    font-size: 1.125rem;
+    letter-spacing: -0.01625rem;
+    line-height: 1.125rem;
+    text-align: center;
+  }
+  .container .sectionLima .SectionLimaTengah .mc-field-group input {
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    border: none;
+    border-bottom: 2px solid #363636;
+  }
+  .container .sectionLima .SectionLimaTengah h6 {
+    text-align: center;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 1.3125rem;
+    margin-bottom: 1.875rem;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset input {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 10.85px;
+    border: 2px solid #FFFFFF;
+    margin-right: .5rem;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset .text {
+    color: #002F39;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    letter-spacing: -0.21px;
+    line-height: 18px;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset a {
+    color: #002F39;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    letter-spacing: -0.21px;
+    line-height: 18px;
+  }
+  .container .sectionLima .SectionLimaBawah {
+    display: none;
+  }
+  .container .sectionLima .SectionLimaBawahDua {
+    display: none;
+  }
+  .Footer {
+    margin-top: 1.875rem;
+    background-color: #021925;
+  }
+  .Footer .container .footerHeader img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 2.9375rem;
+    width: 11.625rem;
+    padding-bottom: 3rem;
+  }
+  .Footer .container .foooterBody {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Footer .container .foooterBody .footerBodyKiri {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-top: 1.5px solid #113D53;
+    padding-top: 1.9375rem;
+    border-bottom: 1.5px solid #113D53;
+  }
+  .Footer .container .foooterBody .footerBodyKiri li {
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+    list-style: none;
+  }
+  .Footer .container .foooterBody .footerBodyKanan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 3.6875rem;
+    margin-top: 1.9375rem;
+  }
+  .Footer .container .foooterBody .footerBodyKanan img {
+    padding-right: 1rem;
+  }
+  .Footer .container .foooterBody .footerBodyKanan h5 {
+    display: inline-block;
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 15px;
+    letter-spacing: -0.22px;
+    line-height: 19.5px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1399.98px) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+  }
+  .container .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .navbar img {
+    width: 70px;
+    height: 70px;
+  }
+  .container .navbar-collapse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .container .navbar-collapse .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .container .navbar-collapse .nav-item {
+    margin-right: 1.875rem;
+    margin-top: .625rem;
+  }
+  .container .navbar-collapse .nav-item .nav-link {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Medium";
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.26px;
+    line-height: 23px;
+  }
+  .container .navbar-collapse .nav-item .nav-link:hover {
+    border-bottom: #F05E36 solid 2px;
+  }
+  .container .navbar-collapse .nav-item.dropdown .nav-link {
+    font-family: "IBMPlexSans";
+  }
+  .container .navbar-collapse .nav-item.dropdown .nav-link::after {
+    color: #F05E36;
+  }
+  .container .sectionSatu {
+    margin-top: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionSatu .sectionSatuKiri {
+    background-color: transparent;
+  }
+  .container .sectionSatu .sectionSatuKiri .text {
+    margin-left: 0;
+    position: block;
+  }
+  .container .sectionSatu .sectionSatuKiri .text h1 {
+    height: auto;
+    color: #F05E36;
+    font-family: "Butler";
+    font-size: 2.625rem;
+    letter-spacing: -0.03875rem;
+    line-height: 2.375rem;
+  }
+  .container .sectionSatu .sectionSatuKiri .text h5 {
+    margin-top: .75rem;
+    color: #021925;
+    font-family: "Minion-DisplayItalic";
+    font-size: 1.125rem;
+    font-style: italic;
+    letter-spacing: .00625rem;
+    line-height: 1.125rem;
+  }
+  .container .sectionSatu .sectionSatuKanan {
+    position: block;
+    margin-left: 0;
+    margin-top: 1.625rem;
+  }
+  .container .sectionSatu .sectionSatuKanan img {
+    width: 100%;
+  }
+  .container .sectionDua {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .container .sectionDua .sectionDuaKiri {
+    padding: 1.5rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-One {
+    margin-top: .625rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Two {
+    margin-top: .625rem;
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: -0.1px;
+    line-height: 30px;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Three {
+    margin-top: .625rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four {
+    margin-top: .625rem;
+    background-color: #0A2939;
+    padding: 2.625rem 3.5625rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four h3 {
+    color: #F05E36;
+    font-family: "Butler";
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: -0.59px;
+    line-height: 50px;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four p {
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: -0.14px;
+    line-height: 34px;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four {
+    margin-top: 9.375rem;
+  }
+  .container .sectionDua .sectionDuaKanan {
+    padding: 1.5rem;
+    padding-right: 0;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One {
+    background-color: #F05E36;
+    padding: 2.6875rem 3.75rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.24px;
+    line-height: 20px;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One li {
+    color: #FFFFFF;
+    font-family: "Butler";
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: -0.59px;
+    line-height: 50px;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Two p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: -0.1px;
+    line-height: 30px;
+    margin-top: .625rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Three h3 {
+    color: #F05E36;
+    font-family: "IBMPlexSans-Light";
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: -0.41px;
+    line-height: 36px;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Three p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: -0.1px;
+    line-height: 30px;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four h1 {
+    color: #F05E36;
+    font-family: "IBMPlexSans-Light";
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: -0.41px;
+    line-height: 36px;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four li {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: -0.1px;
+    line-height: 30px;
+  }
+  .container .sectionTiga {
+    margin-top: .625rem;
+  }
+  .container .sectionTiga .sectionTigaAtas h1 {
+    color: #0A2939;
+    font-family: "Butler";
+    font-size: 56px;
+    letter-spacing: -0.82px;
+    line-height: 56px;
+  }
+  .container .sectionTiga .sectionTigaBawah {
+    margin-top: .625rem;
+  }
+  .container .sectionTiga .sectionTigaBawah .containerSlide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .container .sectionTiga .sectionTigaBawah .containerSlide .img-fluid {
+    max-width: none;
+  }
+  .container .sectionTiga .sectionTigaBawah .containerSlide .cardSlider {
+    padding: 12px;
+    opacity: 0.9;
+    background-color: #F05E36;
+  }
+  .container .sectionTiga .sectionTigaBawah .containerSlide .cardSlider h2 {
+    color: #0A2939;
+    font-family: Butler;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 34px;
+  }
+  .container .sectionTiga .sectionTigaBawah .containerSlide .cardSlider p {
+    color: #FFFFFF;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    letter-spacing: -0.09px;
+    line-height: 24px;
+  }
+  .container .sectionTiga .sectionTigaBawah .containerSlide .cardSlider p a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    letter-spacing: -0.09px;
+    line-height: 24px;
+  }
+  .container .sectionTiga .sectionTigaBawah .containerSlide img.imgHide {
+    display: none;
+  }
+  .container .sectionEmpat {
+    margin-top: .625rem;
+  }
+  .container .sectionEmpat .sectionEmpatAtas {
+    margin-top: 7.0625rem;
+  }
+  .container .sectionEmpat .sectionEmpatAtas h5 {
+    margin-top: 1.0625rem;
+    color: #F05E36;
+    font-family: "IBMPlexSans-Light";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
+  }
+  .container .sectionEmpat .sectionEmpatBawah {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: .625rem;
+    color: #0A2939;
+    font-family: "Butler";
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 48px;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .container .sectionLima {
+    border: 10px solid #f66f4933;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    padding-top: 1.25rem;
+    margin-top: 3.75rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.875rem;
+  }
+  .container .sectionLima form {
+    width: 100%;
+    margin-right: 32px;
+    margin-left: 32px;
+  }
+  .container .sectionLima .sectionLimaBody .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .container .sectionLima .sectionLimaBody .title {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .sectionLima .sectionLimaBody h2 {
+    height: 81px;
+    color: #002F39;
+    font-family: Minion;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 10.4px;
+    line-height: 80px;
+    text-align: center;
+  }
+  .container .sectionLima .sectionLimaBody p {
+    color: #F66E49;
+    font-family: "IBM Plex Sans";
+    font-size: 22px;
+    letter-spacing: -0.32px;
+    line-height: 30px;
+  }
+  .container .sectionLima .sectionLimaBody .SectionLimaTengah {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #E8D4CF;
+  }
+  .container .sectionLima .sectionLimaBody .SectionLimaTengah .email {
+    padding: 0.5rem;
+    border: none;
+    margin-right: 9rem;
+  }
+  .container .sectionLima .sectionLimaBody .SectionLimaTengah .av-checkbox a {
+    padding-left: 2rem;
+  }
+  .container .sectionLima .sectionLimaBody .SectionLimaBawah input {
+    margin: 2rem 0rem;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 1.6rem;
+    border-bottom: 1px solid #E8D4CF;
+    outline: none;
+  }
+  .container .sectionLima .SectionLimaBawahDua {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 8rem;
+  }
+  .container .sectionLima .SectionLimaBawahDua .button {
+    border: 1px solid #fff;
+    padding: 1rem 4rem;
+    border-radius: 24px;
+    color: #FFFFFF;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
+    background-color: #F05E36;
+  }
+  .Footer {
+    margin-top: 1.875rem;
+    background-color: #021925;
+  }
+  .Footer .container .footerHeader img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 2.9375rem;
+    width: 11.625rem;
+    padding-bottom: 3rem;
+  }
+  .Footer .container .foooterBody {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Footer .container .foooterBody .footerBodyKiri {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-top: 1.5px solid #113D53;
+    padding-top: 1.9375rem;
+    border-bottom: 1.5px solid #113D53;
+  }
+  .Footer .container .foooterBody .footerBodyKiri li {
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+    list-style: none;
+  }
+  .Footer .container .foooterBody .footerBodyKanan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 3.6875rem;
+    margin-top: 1.9375rem;
+  }
+  .Footer .container .foooterBody .footerBodyKanan img {
+    padding-right: 1rem;
+  }
+  .Footer .container .foooterBody .footerBodyKanan h5 {
+    display: inline-block;
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 15px;
+    letter-spacing: -0.22px;
+    line-height: 19.5px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .birukanan {
+    background-color: #0A2939;
+    position: fixed;
+    height: 100%;
+    right: 0px;
+    width: 7.2rem;
+  }
+  .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-item-align: center;
+        align-self: center;
+    background-color: transparent;
+  }
+  .navbar span {
+    height: 600px;
+    position: absolute;
+    border-right: 2px solid #ebebeb;
+    left: 10%;
+  }
+  .navbar .navbar-collapse {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding-left: 10%;
+  }
+  .navbar .bg-white {
+    background-color: transparent !important;
+  }
+  .navbar .dropdown-menu {
+    top: 45px;
+    left: 20px;
+  }
+  .navbar nav .navbar-toggler-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+  .navbar nav.navbar {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    background-color: transparent;
+  }
+  .navbar .nav-item.start {
+    margin-left: 4.1875rem;
+  }
+  .navbar .nav-item.end {
+    margin-left: 4.375rem;
+  }
+  .navbar .nav-item .nav-link {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Medium";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.26px;
+    line-height: 23px;
+    margin-right: 4rem;
+    margin-left: .75rem;
+    margin-bottom: -10rem;
+  }
+  .navbar .nav-item .nav-link:hover {
+    border-bottom: #F05E36 solid 2px;
+  }
+  .navbar .nav-item .nav-link.active {
+    border-bottom: #F05E36 solid 2px;
+  }
+  .navbar .nav-item img {
+    background-color: rebeccapurple;
+    color: #0A2939;
+  }
+  .navbar .nav-item.dropdown .nav-link {
+    border: 2px solid #E5E5E5;
+    padding-left: 2.4375rem;
+    padding-right: 2.4375rem;
+    border-radius: 1.5rem;
+    font-family: "IBMPlexSans";
+  }
+  .navbar .nav-item.dropdown .nav-link::after {
+    color: #F05E36;
+  }
+  .navbar img {
+    position: absolute;
+    margin-top: 0;
+    width: 4.6875rem;
+    height: 5.625rem;
+    top: 2.0625rem;
+  }
+  .sectionSatu {
+    margin-top: 4.375rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    height: 30rem;
+  }
+  .sectionSatu .sectionSatuKiri {
+    background-color: blue;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .sectionSatu .sectionSatuKiri .text {
+    position: absolute;
+    top: 23rem;
+    margin-left: 1rem;
+  }
+  .sectionSatu .sectionSatuKiri .text h1 {
+    height: 196px;
+    width: 792px;
+    color: #F05E36;
+    font-family: Butler;
+    font-size: 100px;
+    letter-spacing: -1.47px;
+    line-height: 50px;
+  }
+  .sectionSatu .sectionSatuKiri .text h5 {
+    height: 27px;
+    width: 464px;
+    color: #021925;
+    font-family: Minion;
+    font-size: 28px;
+    font-style: italic;
+    letter-spacing: 1.27px;
+    line-height: 29px;
+    margin-top: -6rem;
+  }
+  .sectionSatu .sectionSatuKanan {
+    position: absolute;
+    margin-left: 14.5rem;
+    z-index: -1;
+  }
+  .sectionSatu .sectionSatuKanan img {
+    width: 100%;
+    height: 405px;
+  }
+  .sectionTwo .dateContainer {
+    margin-bottom: 4rem;
+  }
+  .sectionTwo .dateContainer h1 {
+    margin-top: 2rem;
+    color: #0A2939;
+    font-family: "Butler";
+    font-size: 3rem;
+    letter-spacing: 0;
+    line-height: 2.125rem;
+  }
+  .sectionTwo .dateContainer p {
+    font-size: .85rem;
+    color: #F56E4A;
+  }
+  .sectionTwo .dateContainer h6 {
+    color: #0A2939;
+  }
+  .sectionTwo .explanationBox {
+    padding-top: .5rem;
+  }
+  .sectionTwo .explanationBox p {
+    font-size: .85rem;
+    color: #F56E4A;
+  }
+  .sectionTwo .explanationBox h1 {
+    margin-top: 2rem;
+    color: #FFFFFF;
+    font-family: "Butler";
+    font-size: 2rem;
+    letter-spacing: 0;
+    line-height: 2.125rem;
+  }
+  .sectionLima {
+    border: 10px solid #f66f4933;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 3rem;
+    margin: 0rem auto 10rem auto;
+  }
+  .sectionLima form {
+    width: 90%;
+  }
+  .sectionLima .sectionLimaBody {
+    text-align: center;
+  }
+  .sectionLima .sectionLimaBody p {
+    color: #F66E49;
+    font-family: "IBM Plex Sans";
+    font-size: 22px;
+    letter-spacing: -0.32px;
+    line-height: 30px;
+  }
+  .sectionLima .sectionLimaBody .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .sectionLima .sectionLimaBody .title {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .sectionLima .sectionLimaBody .title .title-1 {
+    width: 48rem;
+    text-align: center;
+  }
+  .sectionLima .sectionLimaBody .title .title-1 h2 {
+    height: 81px;
+    color: #002F39;
+    font-family: Minion;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 10.4px;
+    line-height: 80px;
+    text-align: center;
+  }
+  .sectionLima .sectionLimaBody .SectionLimaTengah {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #E8D4CF;
+  }
+  .sectionLima .sectionLimaBody .SectionLimaTengah .email {
+    padding: 0.5rem;
+    border: none;
+    width: 12.8rem;
+  }
+  .sectionLima .sectionLimaBody .SectionLimaTengah ::-webkit-input-placeholder {
+    border-left: 2px solid #002f39;
+    margin-left: 1rem;
+    width: 13rem;
+  }
+  .sectionLima .sectionLimaBody .SectionLimaTengah :-ms-input-placeholder {
+    border-left: 2px solid #002f39;
+    margin-left: 1rem;
+    width: 13rem;
+  }
+  .sectionLima .sectionLimaBody .SectionLimaTengah ::-ms-input-placeholder {
+    border-left: 2px solid #002f39;
+    margin-left: 1rem;
+    width: 13rem;
+  }
+  .sectionLima .sectionLimaBody .SectionLimaTengah ::placeholder {
+    border-left: 2px solid #002f39;
+    margin-left: 1rem;
+    width: 13rem;
+  }
+  .sectionLima .sectionLimaBody .SectionLimaTengah .mc-field-group::after {
+    content: " *";
+    color: red;
+    display: inline;
+  }
+  .sectionLima .sectionLimaBody .SectionLimaTengah .av-checkbox a {
+    padding-left: 2rem;
+  }
+  .sectionLima .sectionLimaBody .SectionLimaTengah .text {
+    margin-right: 0.3rem;
+    margin-left: 0.5rem;
+  }
+  .sectionLima .sectionLimaBody .SectionLimaTengah .text, .sectionLima .sectionLimaBody .SectionLimaTengah .terms, .sectionLima .sectionLimaBody .SectionLimaTengah h6 {
+    color: #002f39;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+  }
+  .sectionLima .sectionLimaBody .SectionLimaBawah input {
+    margin: 2rem 0rem;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 1.6rem;
+    border-bottom: 1px solid #E8D4CF;
+    outline: none;
+  }
+  .sectionLima .SectionLimaBawahDua {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 5rem;
+    margin-bottom: 8rem;
+  }
+  .sectionLima .SectionLimaBawahDua .button {
+    border: 1px solid #fff;
+    padding: 1rem 4rem;
+    border-radius: 2.4rem;
+    color: #FFFFFF;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
+    background-color: #F05E36;
+  }
+  .Footer {
+    width: 100%;
+    background-color: #021925;
+    height: 40rem;
+  }
+  .Footer .container {
+    background-color: #021925;
+    height: 100%;
+    color: #E8D4CF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Footer .container .footerHeader {
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+  }
+  .Footer .container .footerHeader img {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    opacity: 0.8;
+  }
+  .Footer .container .foooterBody {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-top: 1.5px solid #113D53;
+    border-bottom: 1.5px solid #113D53;
+    width: 90%;
+    height: 10rem;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .Footer .container .foooterBody .footerBodyKiri {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 65%;
+    padding: 3rem 2rem;
+  }
+  .Footer .container .foooterBody .footerBodyKiri li {
+    list-style: none;
+    margin-bottom: 2rem;
+    height: 15px;
+    color: #FFFFFF;
+    font-family: "IBM Plex Sans";
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 15px;
+  }
+  .Footer .container .foooterBody .footerBodyKiri .footerBodyKiriOne {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-right: 8rem;
+    margin-right: 6rem;
+  }
+  .Footer .container .foooterBody .footerBodyKiri .footerBodyKiriTwo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Footer .container .foooterBody .footerBodyKanan {
+    padding: 2rem 2rem;
+    width: 35%;
+    border-left: 2px #113D53 solid;
+  }
+  .Footer .container .foooterBody .footerBodyKanan .linkedIn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-decoration: none;
+  }
+  .Footer .container .foooterBody .footerBodyKanan .linkedIn h5 {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    color: #FFFFFF;
+    font-family: "IBM Plex Sans";
+    font-size: 15px;
+    letter-spacing: -0.22px;
+    line-height: 19.5px;
+  }
+}
+/*# sourceMappingURL=halaman4.css.map */
