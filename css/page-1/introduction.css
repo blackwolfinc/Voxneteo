@@ -3700,6 +3700,9 @@ li.hidden ul li {
   .container {
     max-width: 144rem;
   }
+  hr {
+    display: none;
+  }
   .navbar-light .navbar-nav .nav-link {
     color: #ffffff;
   }
@@ -4439,6 +4442,7 @@ li.hidden ul li {
     padding-right: 10rem;
   }
   .Footer .container .foooterBody .footerBodyKanan {
+    padding-bottom: 30px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;

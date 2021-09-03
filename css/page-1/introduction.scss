@@ -4326,6 +4326,10 @@ li.hidden ul li {
     max-width: $maxWidth;
   }
 
+  hr {
+    display: none;
+  }
+
   .navbar-light {
     .navbar-nav {
       .nav-link {
@@ -5153,6 +5157,7 @@ li.hidden ul li {
         }
 
         .footerBodyKanan {
+          padding-bottom: 30px;
           flex-direction: row;
 
           a {
