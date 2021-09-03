@@ -95,6 +95,26 @@ li.nav-item {
   margin-left: 0;
 }
 
+li.nav-item button img {
+  width: auto;
+  height: auto;
+  background-color: transparent;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+li.nav-item .dropdown-toggle::after {
+  display: none;
+  background-color: transparent;
+}
+
+li.nav-item #dropdownMenuButton.nav-link {
+  border: 2px solid #e5e5e5;
+  padding-left: 2.4375rem;
+  padding-right: 3.4375rem;
+  border-radius: 1.25rem;
+}
+
 li.nav-item .nav-link,
 li.nav-item button span,
 li.nav-item .dropdown-item {
@@ -131,7 +151,6 @@ li.drop button.dropdown-toggle {
 }
 
 li.drop button span {
-  margin-right: 2rem;
   color: white;
 }
 

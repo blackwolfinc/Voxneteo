@@ -108,6 +108,27 @@ li.hidden {
 li.nav-item {
   margin-left: 0;
 
+  button {
+    img {
+        width: auto;
+        height: auto;
+        background-color: transparent;
+        margin-left: 1rem;
+        margin-bottom: 0.5rem;
+    }
+}
+.dropdown-toggle::after {
+    display: none;
+    background-color: transparent;
+}
+
+#dropdownMenuButton.nav-link {
+    border: 2px solid #e5e5e5;
+    padding-left: 2.4375rem;
+    padding-right: 3.4375rem;
+    border-radius: 1.25rem;
+}  
+
   .nav-link,
   button span,
   .dropdown-item {
@@ -147,7 +168,6 @@ li.drop {
 
   button {
     span {
-      margin-right: 2rem;
       color: white;
     }
   }

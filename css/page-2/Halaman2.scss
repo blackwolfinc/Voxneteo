@@ -2007,6 +2007,26 @@ $size1: 1.6rem;
                         margin-right: 1.875rem;
                         margin-top: .625rem;
 
+                        a {
+                            img {
+                                width: auto;
+                                height: auto;
+                                background-color: transparent;
+                                margin-left: 1rem;
+                            }
+                        }
+                        .dropdown-toggle::after {
+                            display: none;
+                            background-color: transparent;
+                        }
+                
+                        .dropdownButton.nav-link {
+                            border: 2px solid #e5e5e5;
+                            padding-left: 2.4375rem;
+                            padding-right: 3.4375rem;
+                            border-radius: 1.25rem;
+                        }
+
                         .nav-link {
                             color: #0A2939;
                             font-family: $ibmMedium;
@@ -2636,13 +2656,6 @@ $size1: 1.6rem;
             background-color: transparent;
         }
 
-        .dropdownButton.nav-link {
-            border: 2px solid #e5e5e5;
-            padding-left: 2.4375rem;
-            padding-right: 3.4375rem;
-            border-radius: 1.25rem;
-        }
-
         .nav-link {
             color: #0A2939;
             font-family: $ibmMedium;
@@ -2673,7 +2686,7 @@ $size1: 1.6rem;
             .nav-link {
                 border: 2px solid #E5E5E5;
                 padding-left: 2.4375rem;
-                padding-right: 3.4375rem;
+                padding-right: 4.4375rem;
                 border-radius: 1.5rem;
                 font-family: $ibmReguler;
             }
