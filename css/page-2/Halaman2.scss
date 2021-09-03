@@ -2607,7 +2607,7 @@ $size1: 1.6rem;
     }
 
     .navbar-collapse {
-        justify-content: space-around;
+        justify-content: flex-end;
         padding-left: 10%;
     }
 
@@ -2635,11 +2635,11 @@ $size1: 1.6rem;
     .nav-item {   
         
         &.start {
-            margin-left: 4.1875rem;
+            margin-right: 5rem;
         } 
 
         &.end {
-            margin-left: 4.375rem;
+            margin-right: -5rem;
         } 
 
         a {

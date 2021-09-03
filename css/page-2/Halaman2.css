@@ -2323,8 +2323,9 @@
     left: 10%;
   }
   .navbar .navbar-collapse {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
     padding-left: 10%;
   }
   .navbar .bg-white {
@@ -2345,10 +2346,10 @@
     background-color: transparent;
   }
   .navbar .nav-item.start {
-    margin-left: 4.1875rem;
+    margin-right: 5rem;
   }
   .navbar .nav-item.end {
-    margin-left: 4.375rem;
+    margin-right: -5rem;
   }
   .navbar .nav-item a img {
     width: auto;
