@@ -21,18 +21,22 @@ $size1: 1.6rem;
   font-family: $ibmReguler;
   src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans.ttf");
 }
+
 @font-face {
   font-family: $ibmSemiBold;
   src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBold.ttf");
 }
+
 @font-face {
   font-family: $ibmLight;
   src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Light.ttf");
 }
+
 @font-face {
   font-family: $ibmMedium;
   src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Medium.ttf");
 }
+
 @font-face {
   font-family: $ibmSemiBoldItalic;
   src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBoldItalic.ttf");
@@ -42,6 +46,7 @@ $size1: 1.6rem;
   font-family: $butlerLight;
   src: url("../../assets/fonts/webfont-butler/Butler-Light.ttf");
 }
+
 @font-face {
   font-family: $butler;
   src: url("../../assets/fonts/webfont-butler/Butler.ttf");
@@ -62,23 +67,38 @@ $size1: 1.6rem;
 
 hr {
   border: 1.5px solid #113d53;
+  padding: 0 10px;
 }
 
 li.hidden {
-  ul {
-    list-style: square;
-    margin-left: 0;
+  ul.dash {
+    list-style-type: none;
+    margin-top: 30px;
+    padding-left: 10px;
+
     li {
-      color: white;
-      font-family: $ibmLight;
-      font-size: 0.875rem;
-      letter-spacing: -0.00625rem;
-      line-height: 1.125rem;
-      margin-bottom: 1.5rem;
+      font-family: $ibmReguler;
+      font-size: 14px;
+      color: $color1;
+      line-height: 18px;
+      margin-bottom: 24px;
+      text-indent: -5px;
+      font-weight: 400;
     }
 
     li.first {
-      color: #f05e36;
+      color: $color3;
+    }
+
+    li.last {
+      margin-bottom: 48px;
+    }
+
+    li:before {
+      content: "-";
+      text-indent: -5px;
+      margin-right: 13px;
+      color: $color3;
     }
   }
 }
@@ -100,6 +120,7 @@ li.hidden {
   .navbar .container .navbar-toggler {
     margin-left: -1rem;
   }
+
   ul li a {
     width: auto;
   }
@@ -110,24 +131,25 @@ li.nav-item {
 
   button {
     img {
-        width: auto;
-        height: auto;
-        background-color: transparent;
-        margin-left: 1rem;
-        margin-bottom: 0.5rem;
+      width: auto;
+      height: auto;
+      background-color: transparent;
+      margin-left: 1rem;
+      margin-bottom: 0.5rem;
     }
-}
-.dropdown-toggle::after {
+  }
+
+  .dropdown-toggle::after {
     display: none;
     background-color: transparent;
-}
+  }
 
-#dropdownMenuButton.nav-link {
+  #dropdownMenuButton.nav-link {
     border: 2px solid #e5e5e5;
     padding-left: 2.4375rem;
     padding-right: 3.4375rem;
     border-radius: 1.25rem;
-}  
+  }
 
   .nav-link,
   button span,
@@ -137,6 +159,7 @@ li.nav-item {
     font-size: 18px;
   }
 }
+
 li.drop {
   .btn-group {
     margin-top: -0.5rem;
@@ -145,6 +168,7 @@ li.drop {
       .dropdown-item {
         font-size: 1rem;
       }
+
       .dropdown-item.first {
         color: $color3;
         margin-bottom: 0.5rem;
@@ -172,7 +196,8 @@ li.drop {
     }
   }
 }
-.sh ow {
+
+.show {
   .btn-danger.dropdown-toggle {
     background-color: transparent;
     border: 2px solid white;
@@ -207,18 +232,22 @@ li.hidden ul li {
     }
   }
 }
+
 @media (min-width: 0px) and (max-width: 376.98px) {
   .row {
     --bs-gutter-x: 0rem !important;
   }
+
   .hide425 {
     display: none !important;
   }
+
   .show425 {
     display: flex !important;
     width: 90%;
     margin: 2rem auto;
   }
+
   .section-1 {
     padding-left: 2.25rem;
     padding-right: 2.25rem;
@@ -233,6 +262,22 @@ li.hidden ul li {
     margin-top: 1.5rem;
     margin-left: 1.5rem;
 
+    .nav-link {
+      font-family: $ibmSemiBold;
+      font-size: 18px;
+      color: $color1;
+      line-height: 23px;
+      padding-bottom: 0;
+
+      &:hover {
+        color: orange;
+      }
+    }
+
+    .nav-link.contact {
+      margin-bottom: 50px;
+    }
+
     .nav-link,
     button span,
     .dropdown-item {
@@ -242,6 +287,16 @@ li.hidden ul li {
     }
   }
 
+
+    .nav-link,
+    button span,
+    .dropdown-item {
+      font-family: $ibmSemiBold;
+      font-weight: 600;
+      font-size: 1.05rem;
+    }
+  
+
   .navbar-light {
     .navbar-nav {
       .nav-link {
@@ -249,6 +304,7 @@ li.hidden ul li {
       }
     }
   }
+
   .drop {
     .btn-group {
       margin-top: 0;
@@ -261,12 +317,13 @@ li.hidden ul li {
     left: 0;
     position: fixed;
     background-color: #021925;
-    height: 100%;
+    height: auto;
     display: inline-block;
-    width: 100%;
+    width: 75%;
     margin-top: -1rem !important;
     z-index: 100;
   }
+
   .navbar-light {
     .navbar-toggler {
       color: #ffffff;
@@ -277,6 +334,7 @@ li.hidden ul li {
   nav {
     margin-top: -1.875rem;
   }
+
   .container {
     max-width: 100%;
 
@@ -347,6 +405,7 @@ li.hidden ul li {
     .section-2 {
       margin-left: 1.5rem;
       margin-right: 1.5rem;
+
       .content-left {
         h1 {
           height: 120px;
@@ -361,6 +420,7 @@ li.hidden ul li {
           margin: 1.25rem 0rem;
           display: inline-block;
         }
+
         ul.dashed {
           margin-left: -2rem;
           list-style: none;
@@ -370,7 +430,8 @@ li.hidden ul li {
           margin-bottom: 2.25rem;
           margin-top: 1rem;
         }
-        ul.dashed > li {
+
+        ul.dashed>li {
           list-style: none;
           text-indent: -20px;
           font-size: 2.5rem;
@@ -384,16 +445,19 @@ li.hidden ul li {
           margin-left: 1.5rem;
           height: 1.75rem;
         }
-        ul.dashed > li:before {
+
+        ul.dashed>li:before {
           content: "-";
           text-indent: -1.25rem;
           color: $color3;
           margin-right: 0.8125rem;
         }
+
         ul.dashed .li-first {
           color: $color3;
         }
       }
+
       .content-right {
         .overlay-img {
           margin-top: 0;
@@ -402,12 +466,14 @@ li.hidden ul li {
             max-width: 100%;
             background-color: $color4;
           }
+
           img {
             max-width: 100%;
             height: auto;
             margin-bottom: 2rem;
           }
         }
+
         .text {
           h4 {
             color: #0a2939;
@@ -449,6 +515,7 @@ li.hidden ul li {
 
     .section-3 {
       margin-top: 3rem;
+
       .content {
         .row {
           background-color: $color3;
@@ -489,6 +556,7 @@ li.hidden ul li {
                 font-size: 34px;
               }
             }
+
             ul {
               position: relative;
               margin-top: 0.5rem;
@@ -497,12 +565,14 @@ li.hidden ul li {
               height: 15rem;
 
               list-style: none;
+
               :hover {
                 span {
                   opacity: 1 !important;
                 }
               }
             }
+
             span {
               position: absolute;
               left: 10px;
@@ -513,6 +583,7 @@ li.hidden ul li {
                 opacity: 1;
               }
             }
+
             ul li {
               color: $color4;
               font-family: $ibmMedium;
@@ -521,6 +592,7 @@ li.hidden ul li {
               letter-spacing: -0.01625rem;
               line-height: 2.5rem;
             }
+
             .btt-side {
               display: flex;
               flex-direction: column;
@@ -542,6 +614,7 @@ li.hidden ul li {
 
                 width: auto;
               }
+
               h2 {
                 margin-top: 0.5rem;
                 color: #002f39;
@@ -554,12 +627,15 @@ li.hidden ul li {
               }
             }
           }
+
           .content-right {
             padding-right: 0;
+
             img {
               max-width: 100%;
               margin-top: -5rem;
             }
+
             h1 {
               font-family: $ibmMedium;
               margin-top: 5.4375rem;
@@ -571,6 +647,7 @@ li.hidden ul li {
               letter-spacing: -0.01875rem;
               line-height: 1.875rem;
             }
+
             .text {
               padding-right: 2.1875rem;
               font-family: $ibmLight;
@@ -584,6 +661,7 @@ li.hidden ul li {
                 line-height: 1.875rem;
                 font-size: 1rem;
               }
+
               h4.second-text {
                 margin-bottom: 8.4rem;
               }
@@ -597,6 +675,7 @@ li.hidden ul li {
       padding: 1.5rem 2rem;
 
       .row {
+
         .title,
         .card-title,
         .card-text h3 {
@@ -612,11 +691,14 @@ li.hidden ul li {
           letter-spacing: -0.03125rem;
           line-height: 2.375rem;
         }
+
         .card-list-image {
           flex-direction: column;
+
           .card {
             margin-top: 1.875rem;
             border: none;
+
             .card-body {
               h1 {
                 color: #0a2939;
@@ -625,6 +707,7 @@ li.hidden ul li {
                 letter-spacing: -0.029375rem;
                 line-height: 2.8125rem;
               }
+
               .card-text {
                 h4 {
                   color: #f66e49;
@@ -633,6 +716,7 @@ li.hidden ul li {
                   letter-spacing: 0;
                   line-height: 2.8125rem;
                 }
+
                 h3 {
                   color: #0a2939;
                   font-family: $ibmReguler;
@@ -645,6 +729,7 @@ li.hidden ul li {
             }
           }
         }
+
         button {
           height: 3.5srem;
 
@@ -655,22 +740,27 @@ li.hidden ul li {
           margin-top: 3.375rem;
           margin-bottom: 1.5rem;
         }
+
         button.btn {
           border-radius: 2.5rem;
         }
+
         button.btn-primary {
           background-color: $color4;
           border-color: $color4;
         }
+
         button.btn-primary:hover {
           background-color: $color4;
           border-color: $color4;
         }
       }
     }
+
     .section-5 {
       display: none;
     }
+
     .section-6 {
       .row {
         background-color: $color7;
@@ -686,6 +776,7 @@ li.hidden ul li {
             display: block;
           }
         }
+
         hr {
           text-decoration: none;
           border-bottom: 2px solid $colorLine;
@@ -693,6 +784,7 @@ li.hidden ul li {
           width: 80%;
           margin-bottom: 1.9375rem;
         }
+
         .content {
           width: 80%;
           padding-left: 0;
@@ -721,6 +813,7 @@ li.hidden ul li {
             line-height: 0.9375rem;
             margin-bottom: 2rem;
           }
+
           .right {
             height: 1.8125rem;
 
@@ -734,21 +827,25 @@ li.hidden ul li {
             img {
               margin-right: 0.3125rem;
             }
+
             h4 {
               font-family: $ibmReguler;
               font-size: 0.75rem;
             }
           }
         }
+
         .end {
           display: none;
         }
       }
     }
   }
+
   .Footer {
     background-color: #021925;
     height: 40rem;
+
     .container {
       .footerHeader {
         img {
@@ -770,6 +867,7 @@ li.hidden ul li {
         // border-bottom: 1.5px solid #113d53;
         border-top: 1.5px solid #113d53;
         flex-direction: column;
+
         .footerBodyKiri {
           display: flex;
 
@@ -796,17 +894,18 @@ li.hidden ul li {
             list-style: none;
           }
 
-          .footerBodyKiriOne {
-          }
+          .footerBodyKiriOne {}
         }
 
         .footerBodyKanan {
           flex-direction: column;
           margin-top: 2rem;
+
           a {
             color: #113d53 !important;
             text-decoration: none;
           }
+
           img {
             padding-right: 1rem;
           }
@@ -824,18 +923,22 @@ li.hidden ul li {
     }
   }
 }
+
 @media (min-width: 376px) and (max-width: 625.98px) {
   .row {
     --bs-gutter-x: 0rem !important;
   }
+
   .hide425 {
     display: none !important;
   }
+
   .show425 {
     display: flex !important;
     width: 90%;
     margin: 2rem auto;
   }
+
   .section-1 {
     padding-left: 2.25rem;
     padding-right: 2.25rem;
@@ -845,10 +948,26 @@ li.hidden ul li {
     margin-top: 1rem !important;
     margin-left: 0.75rem;
   }
-
+  
   li.nav-item {
-    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     margin-left: 1.5rem;
+
+    .nav-link {
+      font-family: $ibmSemiBold;
+      font-size: 18px;
+      color: $color1;
+      line-height: 23px;
+      padding-bottom: 0;
+
+      &:hover {
+        color: orange;
+      }
+    }
+
+    .nav-link.contact {
+      margin-bottom: 50px;
+    }
 
     .nav-link,
     button span,
@@ -866,6 +985,7 @@ li.hidden ul li {
       }
     }
   }
+
   .drop {
     .btn-group {
       margin-top: 0;
@@ -878,12 +998,13 @@ li.hidden ul li {
     left: 0;
     position: fixed;
     background-color: #021925;
-    height: 100%;
+    height: auto;
     display: inline-block;
-    width: 100%;
+    width: 75%;
     margin-top: -1rem !important;
     z-index: 100;
   }
+
   .navbar-light {
     .navbar-toggler {
       color: #ffffff;
@@ -894,6 +1015,7 @@ li.hidden ul li {
   nav {
     margin-top: -1.875rem;
   }
+
   .container {
     max-width: 100%;
 
@@ -964,6 +1086,7 @@ li.hidden ul li {
     .section-2 {
       margin-left: 1.5rem;
       margin-right: 1.5rem;
+
       .content-left {
         h1 {
           height: 120px;
@@ -978,6 +1101,7 @@ li.hidden ul li {
           margin: 1.25rem 0rem;
           display: inline-block;
         }
+
         ul.dashed {
           margin-left: -2rem;
           list-style: none;
@@ -987,7 +1111,8 @@ li.hidden ul li {
           margin-bottom: 2.25rem;
           margin-top: 1rem;
         }
-        ul.dashed > li {
+
+        ul.dashed>li {
           list-style: none;
           text-indent: -20px;
           font-size: 2.5rem;
@@ -1001,16 +1126,19 @@ li.hidden ul li {
           margin-left: 1.5rem;
           height: 1.75rem;
         }
-        ul.dashed > li:before {
+
+        ul.dashed>li:before {
           content: "-";
           text-indent: -1.25rem;
           color: $color3;
           margin-right: 0.8125rem;
         }
+
         ul.dashed .li-first {
           color: $color3;
         }
       }
+
       .content-right {
         .overlay-img {
           margin-top: 0;
@@ -1019,12 +1147,14 @@ li.hidden ul li {
             max-width: 100%;
             background-color: $color4;
           }
+
           img {
             max-width: 100%;
             height: auto;
             margin-bottom: 2rem;
           }
         }
+
         .text {
           h4 {
             color: #0a2939;
@@ -1066,6 +1196,7 @@ li.hidden ul li {
 
     .section-3 {
       margin-top: 3rem;
+
       .content {
         .row {
           background-color: $color3;
@@ -1105,6 +1236,7 @@ li.hidden ul li {
                 line-height: 3.5rem;
               }
             }
+
             ul {
               position: relative;
               margin-top: 2.5rem;
@@ -1113,12 +1245,14 @@ li.hidden ul li {
               height: 15rem;
 
               list-style: none;
+
               :hover {
                 span {
                   opacity: 1 !important;
                 }
               }
             }
+
             span {
               position: absolute;
               left: 10px;
@@ -1129,6 +1263,7 @@ li.hidden ul li {
                 opacity: 1;
               }
             }
+
             ul li {
               color: $color4;
               font-family: $ibmMedium;
@@ -1137,6 +1272,7 @@ li.hidden ul li {
               letter-spacing: -0.01625rem;
               line-height: 2.5rem;
             }
+
             .btt-side {
               display: flex;
               flex-direction: column;
@@ -1158,6 +1294,7 @@ li.hidden ul li {
 
                 width: auto;
               }
+
               h2 {
                 margin-top: 0.5rem;
                 color: #002f39;
@@ -1170,12 +1307,15 @@ li.hidden ul li {
               }
             }
           }
+
           .content-right {
             padding-right: 0;
+
             img {
               max-width: 100%;
               margin-top: -5rem;
             }
+
             h1 {
               font-family: $ibmMedium;
               margin-top: 5.4375rem;
@@ -1187,6 +1327,7 @@ li.hidden ul li {
               letter-spacing: -0.01875rem;
               line-height: 1.875rem;
             }
+
             .text {
               padding-right: 2.1875rem;
               font-family: $ibmLight;
@@ -1200,6 +1341,7 @@ li.hidden ul li {
                 line-height: 1.875rem;
                 font-size: 1rem;
               }
+
               h4.second-text {
                 margin-bottom: 8.4rem;
               }
@@ -1213,6 +1355,7 @@ li.hidden ul li {
       padding: 1.5rem 2rem;
 
       .row {
+
         .title,
         .card-title,
         .card-text h3 {
@@ -1228,11 +1371,14 @@ li.hidden ul li {
           letter-spacing: -0.03125rem;
           line-height: 2.375rem;
         }
+
         .card-list-image {
           flex-direction: column;
+
           .card {
             margin-top: 1.875rem;
             border: none;
+
             .card-body {
               h1 {
                 color: #0a2939;
@@ -1241,6 +1387,7 @@ li.hidden ul li {
                 letter-spacing: -0.029375rem;
                 line-height: 2.8125rem;
               }
+
               .card-text {
                 h4 {
                   color: #f66e49;
@@ -1249,6 +1396,7 @@ li.hidden ul li {
                   letter-spacing: 0;
                   line-height: 2.8125rem;
                 }
+
                 h3 {
                   color: #0a2939;
                   font-family: $ibmReguler;
@@ -1261,6 +1409,7 @@ li.hidden ul li {
             }
           }
         }
+
         button {
           height: 3.5srem;
 
@@ -1271,22 +1420,27 @@ li.hidden ul li {
           margin-top: 3.375rem;
           margin-bottom: 1.5rem;
         }
+
         button.btn {
           border-radius: 2.5rem;
         }
+
         button.btn-primary {
           background-color: $color4;
           border-color: $color4;
         }
+
         button.btn-primary:hover {
           background-color: $color4;
           border-color: $color4;
         }
       }
     }
+
     .section-5 {
       display: none;
     }
+
     .section-6 {
       .row {
         background-color: $color7;
@@ -1302,6 +1456,7 @@ li.hidden ul li {
             display: block;
           }
         }
+
         hr {
           text-decoration: none;
           border-bottom: 2px solid $colorLine;
@@ -1309,6 +1464,7 @@ li.hidden ul li {
           width: 80%;
           margin-bottom: 1.9375rem;
         }
+
         .content {
           width: 80%;
           padding-left: 0;
@@ -1337,6 +1493,7 @@ li.hidden ul li {
             line-height: 0.9375rem;
             margin-bottom: 2rem;
           }
+
           .right {
             height: 1.8125rem;
 
@@ -1350,21 +1507,25 @@ li.hidden ul li {
             img {
               margin-right: 0.3125rem;
             }
+
             h4 {
               font-family: $ibmReguler;
               font-size: 0.75rem;
             }
           }
         }
+
         .end {
           display: none;
         }
       }
     }
   }
+
   .Footer {
     background-color: #021925;
     height: 40rem;
+
     .container {
       .footerHeader {
         img {
@@ -1386,6 +1547,7 @@ li.hidden ul li {
         // border-bottom: 1.5px solid #113d53;
         border-top: 1.5px solid #113d53;
         flex-direction: column;
+
         .footerBodyKiri {
           display: flex;
 
@@ -1412,17 +1574,18 @@ li.hidden ul li {
             list-style: none;
           }
 
-          .footerBodyKiriOne {
-          }
+          .footerBodyKiriOne {}
         }
 
         .footerBodyKanan {
           flex-direction: column;
           margin-top: 2rem;
+
           a {
             color: #113d53 !important;
             text-decoration: none;
           }
+
           img {
             padding-right: 1rem;
           }
@@ -1440,11 +1603,13 @@ li.hidden ul li {
     }
   }
 }
+
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 626px) and (max-width: 767.98px) {
   .Footer {
     background-color: #021925;
     height: 40rem;
+
     .container {
       .footerHeader {
         img {
@@ -1465,6 +1630,7 @@ li.hidden ul li {
         margin: 0 auto;
         border-bottom: 1.5px solid #113d53;
         border-top: 1.5px solid #113d53;
+
         .footerBodyKiri {
           display: flex;
           width: 60%;
@@ -1505,6 +1671,7 @@ li.hidden ul li {
             color: #113d53 !important;
             text-decoration: none;
           }
+
           img {
             padding-right: 1rem;
           }
@@ -1521,6 +1688,7 @@ li.hidden ul li {
       }
     }
   }
+
   .section-1 {
     padding-left: 2.25rem;
     padding-right: 2.25rem;
@@ -1551,6 +1719,7 @@ li.hidden ul li {
       }
     }
   }
+
   .drop {
     .btn-group {
       margin-top: 0;
@@ -1569,6 +1738,7 @@ li.hidden ul li {
     margin-top: -1rem !important;
     z-index: 100;
   }
+
   .navbar-light {
     .navbar-toggler {
       color: #ffffff;
@@ -1579,6 +1749,7 @@ li.hidden ul li {
   nav {
     margin-top: -1.875rem;
   }
+
   .container {
     max-width: 100%;
 
@@ -1650,6 +1821,7 @@ li.hidden ul li {
       margin-left: 1.5rem;
       margin-right: 1.5rem;
       margin-bottom: 2rem;
+
       .content-left {
         h1 {
           margin: 19rem 7rem;
@@ -1662,6 +1834,7 @@ li.hidden ul li {
           margin: 1.25rem 2rem;
           display: inline-block;
         }
+
         ul.dashed {
           list-style: none;
           list-style-type: none;
@@ -1670,7 +1843,8 @@ li.hidden ul li {
           margin-bottom: 2.25rem;
           margin-top: 2rem;
         }
-        ul.dashed > li {
+
+        ul.dashed>li {
           list-style: none;
           text-indent: -20px;
           font-size: 2.5rem;
@@ -1685,16 +1859,19 @@ li.hidden ul li {
           height: 1.75rem;
           width: 19rem;
         }
-        ul.dashed > li:before {
+
+        ul.dashed>li:before {
           content: "-";
           text-indent: -1.25rem;
           color: $color3;
           margin-right: 0.8125rem;
         }
+
         ul.dashed .li-first {
           color: $color3;
         }
       }
+
       .content-right {
         .overlay-img {
           margin-top: 0;
@@ -1703,14 +1880,17 @@ li.hidden ul li {
             max-width: 100%;
             background-color: $color4;
           }
+
           img {
             max-width: 100%;
             height: auto;
             margin-bottom: 2rem;
           }
         }
+
         .text {
           margin-left: 3rem;
+
           h4 {
             color: #0a2939;
             font-family: $ibmLight;
@@ -1788,6 +1968,7 @@ li.hidden ul li {
                 line-height: 3.5rem;
               }
             }
+
             ul {
               position: relative;
               margin-top: 2.5rem;
@@ -1796,12 +1977,14 @@ li.hidden ul li {
               height: 15rem;
               width: 28.1875rem;
               list-style: none;
+
               :hover {
                 span {
                   opacity: 1 !important;
                 }
               }
             }
+
             span {
               position: absolute;
               left: 10px;
@@ -1812,6 +1995,7 @@ li.hidden ul li {
                 opacity: 1;
               }
             }
+
             ul li {
               color: $color4;
               font-family: $ibmMedium;
@@ -1820,6 +2004,7 @@ li.hidden ul li {
               letter-spacing: -0.01625rem;
               line-height: 2.5rem;
             }
+
             .btt-side {
               padding: 1.5rem 2.6rem;
               background-color: $color1;
@@ -1835,6 +2020,7 @@ li.hidden ul li {
                 letter-spacing: 0.2rem;
                 text-align: center;
               }
+
               h2 {
                 color: $color5;
                 font-family: $minionItalic;
@@ -1843,13 +2029,16 @@ li.hidden ul li {
               }
             }
           }
+
           .content-right {
             padding-right: 0;
             padding: 5rem;
+
             img {
               max-width: 100%;
               margin-top: -5rem;
             }
+
             h1 {
               font-family: $ibmMedium;
               margin-top: 5.4375rem;
@@ -1861,6 +2050,7 @@ li.hidden ul li {
               letter-spacing: -0.01875rem;
               line-height: 1.875rem;
             }
+
             .text {
               padding-right: 2.1875rem;
               font-family: $ibmLight;
@@ -1874,6 +2064,7 @@ li.hidden ul li {
                 line-height: 1.875rem;
                 font-size: 1rem;
               }
+
               h4.second-text {
                 margin-bottom: 8.4rem;
               }
@@ -1887,6 +2078,7 @@ li.hidden ul li {
       padding: 1.5rem 2rem;
 
       .row {
+
         .title,
         .card-title,
         .card-text h3 {
@@ -1902,11 +2094,14 @@ li.hidden ul li {
           letter-spacing: -0.03125rem;
           line-height: 2.375rem;
         }
+
         .card-list-image {
           flex-direction: column;
+
           .card {
             margin-top: 1.875rem;
             border: none;
+
             .card-body {
               h1 {
                 color: #0a2939;
@@ -1915,6 +2110,7 @@ li.hidden ul li {
                 letter-spacing: -0.029375rem;
                 line-height: 2.8125rem;
               }
+
               .card-text {
                 h4 {
                   color: #f66e49;
@@ -1923,6 +2119,7 @@ li.hidden ul li {
                   letter-spacing: 0;
                   line-height: 2.8125rem;
                 }
+
                 h3 {
                   color: #0a2939;
                   font-family: $ibmReguler;
@@ -1935,6 +2132,7 @@ li.hidden ul li {
             }
           }
         }
+
         button {
           height: 5rem;
           width: 20rem;
@@ -1945,22 +2143,27 @@ li.hidden ul li {
           margin-top: 3.375rem;
           margin-bottom: 1.5rem;
         }
+
         button.btn {
           border-radius: 2.5rem;
         }
+
         button.btn-primary {
           background-color: $color4;
           border-color: $color4;
         }
+
         button.btn-primary:hover {
           background-color: $color4;
           border-color: $color4;
         }
       }
     }
+
     .section-5 {
       display: none;
     }
+
     .section-6 {
       .row {
         background-color: $color7;
@@ -1976,6 +2179,7 @@ li.hidden ul li {
             display: block;
           }
         }
+
         hr {
           text-decoration: none;
           border-bottom: 2px solid $colorLine;
@@ -1983,6 +2187,7 @@ li.hidden ul li {
           width: 80%;
           margin-bottom: 1.9375rem;
         }
+
         .content {
           width: 80%;
           padding-left: 0;
@@ -2011,6 +2216,7 @@ li.hidden ul li {
             line-height: 0.9375rem;
             margin-bottom: 2rem;
           }
+
           .right {
             height: 1.8125rem;
             width: 15.1875rem;
@@ -2024,12 +2230,14 @@ li.hidden ul li {
             img {
               margin-right: 0.3125rem;
             }
+
             h4 {
               font-family: $ibmReguler;
               font-size: 0.75rem;
             }
           }
         }
+
         .end {
           display: none;
         }
@@ -2043,6 +2251,7 @@ li.hidden ul li {
   .Footer {
     background-color: #021925;
     height: 40rem;
+
     .container {
       .footerHeader {
         img {
@@ -2063,6 +2272,7 @@ li.hidden ul li {
         margin: 0 auto;
         border-bottom: 1.5px solid #113d53;
         border-top: 1.5px solid #113d53;
+
         .footerBodyKiri {
           display: flex;
           width: 60%;
@@ -2103,6 +2313,7 @@ li.hidden ul li {
             color: #113d53 !important;
             text-decoration: none;
           }
+
           img {
             padding-right: 1rem;
           }
@@ -2119,6 +2330,7 @@ li.hidden ul li {
       }
     }
   }
+
   .section-1 {
     padding-left: 36px;
     padding-right: 36px;
@@ -2131,12 +2343,14 @@ li.hidden ul li {
       margin-top: 0.75rem;
       font-size: 0.9rem;
     }
+
     .btn-group {
       button {
         span {
           font-size: 0.9rem;
         }
       }
+
       .dropdown-menu {
         .dropdown-item {
           font-size: 0.9rem;
@@ -2158,11 +2372,13 @@ li.hidden ul li {
     margin-left: 0.75rem;
     padding-right: 1.3rem;
   }
+
   li.drop {
     .btn-group {
       margin-top: 0;
       margin-left: 0;
     }
+
     margin-right: 1rem;
   }
 
@@ -2188,6 +2404,7 @@ li.hidden ul li {
   nav {
     margin-top: -1.875rem;
   }
+
   .container {
     max-width: 100%;
 
@@ -2261,6 +2478,7 @@ li.hidden ul li {
       margin-right: 1.5rem;
       margin-left: 1.5rem;
       margin-bottom: 2rem;
+
       .content-left {
         h1 {
           margin: 19rem 7rem;
@@ -2273,6 +2491,7 @@ li.hidden ul li {
           margin: 1.25rem 2rem;
           display: inline-block;
         }
+
         ul.dashed {
           list-style-type: none;
           width: 19rem;
@@ -2280,7 +2499,8 @@ li.hidden ul li {
           margin-bottom: 2.25rem;
           margin-top: 2rem;
         }
-        ul.dashed > li {
+
+        ul.dashed>li {
           text-indent: -20px;
           font-size: 2.5rem;
           color: $color4;
@@ -2294,16 +2514,19 @@ li.hidden ul li {
           height: 1.75rem;
           width: 19rem;
         }
-        ul.dashed > li:before {
+
+        ul.dashed>li:before {
           content: "-";
           text-indent: -1.25rem;
           color: $color3;
           margin-right: 0.8125rem;
         }
+
         ul.dashed .li-first {
           color: $color3;
         }
       }
+
       .content-right {
         .overlay-img {
           margin-top: 0;
@@ -2312,12 +2535,14 @@ li.hidden ul li {
             max-width: 100%;
             background-color: $color4;
           }
+
           img {
             max-width: 100%;
             height: auto;
             margin-bottom: 2rem;
           }
         }
+
         .text {
           h4 {
             color: #0a2939;
@@ -2359,6 +2584,7 @@ li.hidden ul li {
 
     .section-3 {
       padding: 3rem;
+
       .content {
         .row {
           background-color: $color3;
@@ -2397,6 +2623,7 @@ li.hidden ul li {
                 line-height: 3.5rem;
               }
             }
+
             ul {
               position: relative;
               margin-top: 2.5rem;
@@ -2405,12 +2632,14 @@ li.hidden ul li {
               height: 15rem;
               width: 28.1875rem;
               list-style: none;
+
               :hover {
                 span {
                   opacity: 1 !important;
                 }
               }
             }
+
             span {
               position: absolute;
               left: 10px;
@@ -2421,6 +2650,7 @@ li.hidden ul li {
                 opacity: 1;
               }
             }
+
             ul li {
               color: $color4;
               font-family: $ibmMedium;
@@ -2429,6 +2659,7 @@ li.hidden ul li {
               letter-spacing: -0.01625rem;
               line-height: 2.5rem;
             }
+
             .btt-side {
               padding: 1.5rem 2.6rem;
               background-color: $color1;
@@ -2442,6 +2673,7 @@ li.hidden ul li {
                 letter-spacing: 0.2rem;
                 text-align: center;
               }
+
               h2 {
                 color: $color5;
                 font-family: $minionItalic;
@@ -2450,13 +2682,16 @@ li.hidden ul li {
               }
             }
           }
+
           .content-right {
             padding-right: 0;
+
             img {
               max-width: 101.8%;
               margin-top: -5rem;
               margin-left: -0.74rem;
             }
+
             h1 {
               font-family: $ibmMedium;
               margin-top: 5.4375rem;
@@ -2468,6 +2703,7 @@ li.hidden ul li {
               letter-spacing: -0.01875rem;
               line-height: 1.875rem;
             }
+
             .text {
               padding-right: 2.1875rem;
               font-family: $ibmLight;
@@ -2481,6 +2717,7 @@ li.hidden ul li {
                 line-height: 1.875rem;
                 font-size: 1rem;
               }
+
               h4.second-text {
                 margin-bottom: 8.4rem;
               }
@@ -2494,6 +2731,7 @@ li.hidden ul li {
       padding: 1.5rem 2rem;
 
       .row {
+
         .title,
         .card-title,
         .card-text h3 {
@@ -2509,12 +2747,15 @@ li.hidden ul li {
           letter-spacing: -0.03125rem;
           line-height: 2.375rem;
         }
+
         .card-list-image {
           flex-direction: column;
           border: none;
+
           .card {
             margin-top: 1.875rem;
             border: none;
+
             .card-body {
               h1 {
                 color: #0a2939;
@@ -2523,6 +2764,7 @@ li.hidden ul li {
                 letter-spacing: -0.029375rem;
                 line-height: 2.8125rem;
               }
+
               .card-text {
                 h4 {
                   color: #f66e49;
@@ -2531,6 +2773,7 @@ li.hidden ul li {
                   letter-spacing: 0;
                   line-height: 2.8125rem;
                 }
+
                 h3 {
                   color: #0a2939;
                   font-family: $ibmReguler;
@@ -2543,6 +2786,7 @@ li.hidden ul li {
             }
           }
         }
+
         button {
           height: 3rem;
           width: 20rem;
@@ -2553,22 +2797,27 @@ li.hidden ul li {
           margin-top: 3.375rem;
           margin-bottom: 1.5rem;
         }
+
         button.btn {
           border-radius: 1.5rem;
         }
+
         button.btn-primary {
           background-color: $color4;
           border-color: $color4;
         }
+
         button.btn-primary:hover {
           background-color: $color4;
           border-color: $color4;
         }
       }
     }
+
     .section-5 {
       display: none;
     }
+
     .section-6 {
       .row {
         background-color: $color7;
@@ -2584,6 +2833,7 @@ li.hidden ul li {
             display: block;
           }
         }
+
         hr {
           text-decoration: none;
           border-bottom: 2px solid $colorLine;
@@ -2591,6 +2841,7 @@ li.hidden ul li {
           width: 80%;
           margin-bottom: 1.9375rem;
         }
+
         .content {
           width: 80%;
           padding-left: 0;
@@ -2619,6 +2870,7 @@ li.hidden ul li {
             line-height: 0.9375rem;
             margin-bottom: 2rem;
           }
+
           .right {
             height: 1.8125rem;
             width: 15.1875rem;
@@ -2632,12 +2884,14 @@ li.hidden ul li {
             img {
               margin-right: 0.3125rem;
             }
+
             h4 {
               font-family: $ibmReguler;
               font-size: 0.75rem;
             }
           }
         }
+
         .end {
           display: none;
         }
@@ -2651,6 +2905,7 @@ li.hidden ul li {
   .Footer {
     background-color: #021925;
     height: 40rem;
+
     .container {
       .footerHeader {
         img {
@@ -2671,6 +2926,7 @@ li.hidden ul li {
         margin: 0 auto;
         border-bottom: 1.5px solid #113d53;
         border-top: 1.5px solid #113d53;
+
         .footerBodyKiri {
           display: flex;
           width: 60%;
@@ -2711,6 +2967,7 @@ li.hidden ul li {
             color: #113d53 !important;
             text-decoration: none;
           }
+
           img {
             padding-right: 1rem;
           }
@@ -2727,6 +2984,7 @@ li.hidden ul li {
       }
     }
   }
+
   .container {
     max-width: $maxWidth;
   }
@@ -2821,6 +3079,7 @@ li.hidden ul li {
     ul {
       height: auto;
       width: 100%;
+
       li {
         color: #ffffff;
         font-family: $ibmLight;
@@ -2922,6 +3181,7 @@ li.hidden ul li {
         padding-left: 1.5rem;
         padding-right: 1.5rem;
       }
+
       ul.dashed {
         list-style-type: none;
         font-family: $butlerLight;
@@ -2934,19 +3194,22 @@ li.hidden ul li {
         margin-top: 1.875rem;
         padding-top: 6.25rem;
       }
-      ul.dashed > li {
+
+      ul.dashed>li {
         text-indent: -20px;
         font-size: 2rem;
         color: $color4;
         line-height: 3rem;
         margin-bottom: 2.4rem;
       }
-      ul.dashed > li:before {
+
+      ul.dashed>li:before {
         content: "-";
         text-indent: -20px;
         color: $color3;
         margin-right: 3.1rem;
       }
+
       ul.dashed .li-first {
         color: $color3;
       }
@@ -2966,6 +3229,7 @@ li.hidden ul li {
         }
       }
     }
+
     .content-right {
       padding-right: 0;
 
@@ -2977,6 +3241,7 @@ li.hidden ul li {
           height: 7rem;
           background-color: $color4;
         }
+
         img {
           max-width: 100%;
           height: auto;
@@ -2986,6 +3251,7 @@ li.hidden ul li {
 
       .text {
         width: 80%;
+
         h4 {
           font-family: $ibmLight;
           font-size: 1rem;
@@ -2995,19 +3261,23 @@ li.hidden ul li {
           line-height: 1.875rem;
         }
       }
+
       button {
         font-family: $ibmMedium;
         font-size: 1rem;
         height: 3rem;
         width: 18.0625rem;
       }
+
       button.btn {
         border-radius: 10rem;
       }
+
       button.btn-primary {
         background-color: $color3;
         border-color: $color3;
       }
+
       button.btn-primary:hover {
         background-color: $color3;
         border-color: $color3;
@@ -3055,6 +3325,7 @@ li.hidden ul li {
               line-height: 3.5rem;
             }
           }
+
           ul {
             position: relative;
             margin-top: 7.5rem;
@@ -3063,12 +3334,14 @@ li.hidden ul li {
             height: 15rem;
             width: 28.1875rem;
             list-style: none;
+
             :hover {
               span {
                 opacity: 1 !important;
               }
             }
           }
+
           span {
             position: absolute;
             left: 10px;
@@ -3079,6 +3352,7 @@ li.hidden ul li {
               opacity: 1;
             }
           }
+
           ul li {
             color: $color4;
             font-family: $ibmMedium;
@@ -3087,6 +3361,7 @@ li.hidden ul li {
             letter-spacing: -0.01625rem;
             line-height: 2.5rem;
           }
+
           .btt-side {
             padding: 1.5rem 2.6rem;
             background-color: $color1;
@@ -3102,6 +3377,7 @@ li.hidden ul li {
               letter-spacing: 0.2rem;
               text-align: center;
             }
+
             h2 {
               color: $color5;
               font-family: $minionItalic;
@@ -3110,12 +3386,15 @@ li.hidden ul li {
             }
           }
         }
+
         .content-right {
           padding-right: 0;
+
           img {
             max-width: 100%;
             margin-top: -5rem;
           }
+
           h1 {
             font-family: $ibmMedium;
             margin-top: 5.4375rem;
@@ -3127,6 +3406,7 @@ li.hidden ul li {
             letter-spacing: -0.01875rem;
             line-height: 1.875rem;
           }
+
           .text {
             padding-right: 2.1875rem;
             font-family: $ibmLight;
@@ -3140,6 +3420,7 @@ li.hidden ul li {
               line-height: 1.875rem;
               font-size: 1rem;
             }
+
             h4.second-text {
               margin-bottom: 8.4rem;
             }
@@ -3153,6 +3434,7 @@ li.hidden ul li {
     padding: 6.875rem 6.25rem;
 
     .row {
+
       .title,
       .card-title,
       .card-text h3 {
@@ -3168,6 +3450,7 @@ li.hidden ul li {
         letter-spacing: -0.05125rem;
         line-height: 3.5rem;
       }
+
       .card-list-image {
         .card {
           height: 34.95625rem;
@@ -3176,6 +3459,7 @@ li.hidden ul li {
           text-align: left;
           margin-right: 1.3125rem;
           border: none;
+
           .card-body {
             h1 {
               height: 2.8125rem;
@@ -3186,6 +3470,7 @@ li.hidden ul li {
               letter-spacing: -0.044375rem;
               line-height: 2.8125rem;
             }
+
             .card-text {
               h4 {
                 color: $color6;
@@ -3196,6 +3481,7 @@ li.hidden ul li {
                 letter-spacing: 0;
                 line-height: 2.8125rem;
               }
+
               h3 {
                 font-family: $ibmReguler;
                 height: 2.875rem;
@@ -3210,6 +3496,7 @@ li.hidden ul li {
           }
         }
       }
+
       button {
         height: 3rem;
         width: 20rem;
@@ -3218,13 +3505,16 @@ li.hidden ul li {
         font-size: 1rem;
         padding: 0.8125rem 3.8125rem;
       }
+
       button.btn {
         border-radius: 1.5rem;
       }
+
       button.btn-primary {
         background-color: $color4;
         border-color: $color4;
       }
+
       button.btn-primary:hover {
         background-color: $color4;
         border-color: $color4;
@@ -3251,6 +3541,7 @@ li.hidden ul li {
           display: block;
         }
       }
+
       hr {
         text-decoration: none;
         border-bottom: 2px solid $colorLine;
@@ -3258,6 +3549,7 @@ li.hidden ul li {
         width: 80%;
         margin-bottom: 0;
       }
+
       .content {
         width: 80%;
         padding-left: 0;
@@ -3296,6 +3588,7 @@ li.hidden ul li {
           line-height: 0.9375rem;
           margin-bottom: 2rem;
         }
+
         .right {
           width: 15.1875rem;
           margin-left: auto;
@@ -3307,6 +3600,7 @@ li.hidden ul li {
           img {
             margin-right: 0.3125rem;
           }
+
           h4 {
             font-family: $ibmReguler;
             font-size: 0.75rem;
@@ -3321,6 +3615,7 @@ li.hidden ul li {
   .Footer {
     background-color: #021925;
     height: 40rem;
+
     .container {
       .footerHeader {
         img {
@@ -3341,6 +3636,7 @@ li.hidden ul li {
         margin: 0 auto;
         border-bottom: 1.5px solid #113d53;
         border-top: 1.5px solid #113d53;
+
         .footerBodyKiri {
           display: flex;
           width: 60%;
@@ -3381,6 +3677,7 @@ li.hidden ul li {
             color: #113d53 !important;
             text-decoration: none;
           }
+
           img {
             padding-right: 1rem;
           }
@@ -3397,6 +3694,7 @@ li.hidden ul li {
       }
     }
   }
+
   .container {
     max-width: $maxWidth;
   }
@@ -3491,6 +3789,7 @@ li.hidden ul li {
     ul {
       height: auto;
       width: 100%;
+
       li {
         color: #ffffff;
         font-family: $ibmLight;
@@ -3592,6 +3891,7 @@ li.hidden ul li {
         padding-left: 1.5rem;
         padding-right: 1.5rem;
       }
+
       ul.dashed {
         list-style-type: none;
         font-family: $butlerLight;
@@ -3604,19 +3904,22 @@ li.hidden ul li {
         margin-top: 1.875rem;
         padding-top: 6.25rem;
       }
-      ul.dashed > li {
+
+      ul.dashed>li {
         text-indent: -20px;
         font-size: 2rem;
         color: $color4;
         line-height: 3rem;
         margin-bottom: 2.4rem;
       }
-      ul.dashed > li:before {
+
+      ul.dashed>li:before {
         content: "-";
         text-indent: -20px;
         color: $color3;
         margin-right: 3.1rem;
       }
+
       ul.dashed .li-first {
         color: $color3;
       }
@@ -3636,6 +3939,7 @@ li.hidden ul li {
         }
       }
     }
+
     .content-right {
       padding-right: 0;
 
@@ -3647,6 +3951,7 @@ li.hidden ul li {
           height: 7rem;
           background-color: $color4;
         }
+
         img {
           max-width: 100%;
           height: auto;
@@ -3656,6 +3961,7 @@ li.hidden ul li {
 
       .text {
         width: 80%;
+
         h4 {
           font-family: $ibmLight;
           font-size: 1rem;
@@ -3665,19 +3971,23 @@ li.hidden ul li {
           line-height: 1.875rem;
         }
       }
+
       button {
         font-family: $ibmMedium;
         font-size: 1rem;
         height: 3rem;
         width: 18.0625rem;
       }
+
       button.btn {
         border-radius: 10rem;
       }
+
       button.btn-primary {
         background-color: $color3;
         border-color: $color3;
       }
+
       button.btn-primary:hover {
         background-color: $color3;
         border-color: $color3;
@@ -3724,6 +4034,7 @@ li.hidden ul li {
               line-height: 3.5rem;
             }
           }
+
           ul {
             position: relative;
             margin-top: 2.5rem;
@@ -3732,12 +4043,14 @@ li.hidden ul li {
             height: 15rem;
             width: 28.1875rem;
             list-style: none;
+
             :hover {
               span {
                 opacity: 1 !important;
               }
             }
           }
+
           span {
             position: absolute;
             left: 10px;
@@ -3748,6 +4061,7 @@ li.hidden ul li {
               opacity: 1;
             }
           }
+
           ul li {
             color: $color4;
             font-family: $ibmMedium;
@@ -3756,6 +4070,7 @@ li.hidden ul li {
             letter-spacing: -0.01625rem;
             line-height: 2.5rem;
           }
+
           .btt-side {
             padding: 1.5rem 2.6rem;
             background-color: $color1;
@@ -3771,6 +4086,7 @@ li.hidden ul li {
               letter-spacing: 0.2rem;
               text-align: center;
             }
+
             h2 {
               color: $color5;
               font-family: $minionItalic;
@@ -3779,12 +4095,15 @@ li.hidden ul li {
             }
           }
         }
+
         .content-right {
           padding-right: 0;
+
           img {
             max-width: 100%;
             margin-top: -5rem;
           }
+
           h1 {
             font-family: $ibmMedium;
             margin-top: 5.4375rem;
@@ -3796,6 +4115,7 @@ li.hidden ul li {
             letter-spacing: -0.01875rem;
             line-height: 1.875rem;
           }
+
           .text {
             padding-right: 2.1875rem;
             font-family: $ibmLight;
@@ -3809,6 +4129,7 @@ li.hidden ul li {
               line-height: 1.875rem;
               font-size: 1rem;
             }
+
             h4.second-text {
               margin-bottom: 8.4rem;
             }
@@ -3822,6 +4143,7 @@ li.hidden ul li {
     padding: 6.875rem 6.25rem;
 
     .row {
+
       .title,
       .card-title,
       .card-text h3 {
@@ -3837,6 +4159,7 @@ li.hidden ul li {
         letter-spacing: -0.05125rem;
         line-height: 3.5rem;
       }
+
       .card-list-image {
         .card {
           height: 34.95625rem;
@@ -3845,6 +4168,7 @@ li.hidden ul li {
           text-align: left;
           margin-right: 1.3125rem;
           border: none;
+
           .card-body {
             h1 {
               height: 2.8125rem;
@@ -3855,6 +4179,7 @@ li.hidden ul li {
               letter-spacing: -0.044375rem;
               line-height: 2.8125rem;
             }
+
             .card-text {
               h4 {
                 color: $color6;
@@ -3865,6 +4190,7 @@ li.hidden ul li {
                 letter-spacing: 0;
                 line-height: 2.8125rem;
               }
+
               h3 {
                 font-family: $ibmReguler;
                 height: 2.875rem;
@@ -3879,6 +4205,7 @@ li.hidden ul li {
           }
         }
       }
+
       button {
         height: 3rem;
         width: 20rem;
@@ -3887,13 +4214,16 @@ li.hidden ul li {
         font-size: 1rem;
         padding: 0.8125rem 3.8125rem;
       }
+
       button.btn {
         border-radius: 1.5rem;
       }
+
       button.btn-primary {
         background-color: $color4;
         border-color: $color4;
       }
+
       button.btn-primary:hover {
         background-color: $color4;
         border-color: $color4;
@@ -3920,6 +4250,7 @@ li.hidden ul li {
           display: block;
         }
       }
+
       hr {
         text-decoration: none;
         border-bottom: 2px solid $colorLine;
@@ -3927,6 +4258,7 @@ li.hidden ul li {
         width: 80%;
         margin-bottom: 0;
       }
+
       .content {
         width: 80%;
         padding-left: 0;
@@ -3965,6 +4297,7 @@ li.hidden ul li {
           line-height: 0.9375rem;
           margin-bottom: 2rem;
         }
+
         .right {
           width: 15.1875rem;
           margin-left: auto;
@@ -3976,6 +4309,7 @@ li.hidden ul li {
           img {
             margin-right: 0.3125rem;
           }
+
           h4 {
             font-family: $ibmReguler;
             font-size: 0.75rem;
@@ -4011,9 +4345,11 @@ li.hidden ul li {
       border: none;
     }
   }
+
   .navbar {
     margin-top: 1.875rem;
   }
+
   .drop {
     .btn-group {
       margin-top: 0;
@@ -4142,6 +4478,7 @@ li.hidden ul li {
         margin-top: 6.438rem;
         font-size: 1.5rem;
       }
+
       ul.dashed {
         list-style-type: none;
         width: 66.2rem;
@@ -4149,19 +4486,22 @@ li.hidden ul li {
         margin-left: 6.938rem;
         padding-left: 0.75rem;
       }
-      ul.dashed > li {
+
+      ul.dashed>li {
         text-indent: -20px;
         font-size: 2.5rem;
         color: $color4;
         line-height: 3rem;
         margin-bottom: 2.4rem;
       }
-      ul.dashed > li:before {
+
+      ul.dashed>li:before {
         content: "-";
         text-indent: -20px;
         color: $color3;
         margin-right: 3.1rem;
       }
+
       ul.dashed .li-first {
         color: $color3;
       }
@@ -4181,9 +4521,11 @@ li.hidden ul li {
         }
       }
     }
+
     .content-right {
       padding-right: 0;
       margin-bottom: 10rem;
+
       .overlay-img {
         margin-top: -7rem;
 
@@ -4192,6 +4534,7 @@ li.hidden ul li {
           height: 7rem;
           background-color: $color4;
         }
+
         img {
           max-width: 100%;
           height: auto;
@@ -4201,6 +4544,7 @@ li.hidden ul li {
 
       .text {
         width: 80%;
+
         h4 {
           font-family: $ibmLight;
           font-size: 1rem;
@@ -4210,19 +4554,23 @@ li.hidden ul li {
           line-height: 1.875rem;
         }
       }
+
       button {
         font-family: $ibmMedium;
         font-size: 1rem;
         height: 3rem;
         width: 18.0625rem;
       }
+
       button.btn {
         border-radius: 10rem;
       }
+
       button.btn-primary {
         background-color: $color3;
         border-color: $color3;
       }
+
       button.btn-primary:hover {
         background-color: $color3;
         border-color: $color3;
@@ -4269,6 +4617,7 @@ li.hidden ul li {
               line-height: 3.5rem;
             }
           }
+
           ul {
             position: relative;
             margin-top: 2.5rem;
@@ -4277,12 +4626,14 @@ li.hidden ul li {
             height: 15rem;
             width: 28.1875rem;
             list-style: none;
+
             :hover {
               span {
                 opacity: 1 !important;
               }
             }
           }
+
           span {
             position: absolute;
             left: 10px;
@@ -4293,6 +4644,7 @@ li.hidden ul li {
               opacity: 1;
             }
           }
+
           ul li {
             color: $color4;
             font-family: $ibmMedium;
@@ -4301,6 +4653,7 @@ li.hidden ul li {
             letter-spacing: -0.01625rem;
             line-height: 2.5rem;
           }
+
           .btt-side {
             padding: 1.5rem 2.6rem;
             background-color: $color1;
@@ -4316,6 +4669,7 @@ li.hidden ul li {
               letter-spacing: 0.2rem;
               text-align: center;
             }
+
             h2 {
               color: $color5;
               font-family: $minionItalic;
@@ -4324,12 +4678,15 @@ li.hidden ul li {
             }
           }
         }
+
         .content-right {
           padding-right: 0;
+
           img {
             max-width: 100%;
             margin-top: -5rem;
           }
+
           h1 {
             font-family: $ibmMedium;
             margin-top: 5.4375rem;
@@ -4341,6 +4698,7 @@ li.hidden ul li {
             letter-spacing: -0.01875rem;
             line-height: 1.875rem;
           }
+
           .text {
             padding-right: 2.1875rem;
             font-family: $ibmLight;
@@ -4354,6 +4712,7 @@ li.hidden ul li {
               line-height: 1.875rem;
               font-size: 1rem;
             }
+
             h4.second-text {
               margin-bottom: 8.4rem;
             }
@@ -4367,6 +4726,7 @@ li.hidden ul li {
     padding: 6.875rem 6.25rem;
 
     .row {
+
       .title,
       .card-title,
       .card-text h3 {
@@ -4382,6 +4742,7 @@ li.hidden ul li {
         letter-spacing: -0.05125rem;
         line-height: 3.5rem;
       }
+
       .card-list-image {
         .card {
           height: 34.95625rem;
@@ -4391,6 +4752,7 @@ li.hidden ul li {
           text-align: left;
           margin-right: 1.3125rem;
           border: none;
+
           .card-body {
             h1 {
               height: 2.8125rem;
@@ -4401,6 +4763,7 @@ li.hidden ul li {
               letter-spacing: -0.044375rem;
               line-height: 2.8125rem;
             }
+
             .card-text {
               h4 {
                 color: $color6;
@@ -4411,6 +4774,7 @@ li.hidden ul li {
                 letter-spacing: 0;
                 line-height: 2.8125rem;
               }
+
               h3 {
                 font-family: $ibmReguler;
                 height: 2.875rem;
@@ -4426,6 +4790,7 @@ li.hidden ul li {
           }
         }
       }
+
       button {
         height: 3rem;
         width: 20rem;
@@ -4434,13 +4799,16 @@ li.hidden ul li {
         font-size: 1rem;
         padding: 0.8125rem 3.8125rem;
       }
+
       button.btn {
         border-radius: 1.5rem;
       }
+
       button.btn-primary {
         background-color: $color4;
         border-color: $color4;
       }
+
       button.btn-primary:hover {
         background-color: $color4;
         border-color: $color4;
@@ -4467,11 +4835,13 @@ li.hidden ul li {
       align-items: center;
       flex-direction: column;
       margin-left: -5rem;
+
       .atas {
         border-right: 1px solid #fff;
         height: 19%;
         margin-bottom: 4rem;
       }
+
       .text {
         display: flex;
         justify-content: center;
@@ -4483,9 +4853,11 @@ li.hidden ul li {
         font-size: 20px;
         margin-left: 10rem;
         transform: scale(1);
+
         :nth-child(1) {
           margin-right: 1rem;
         }
+
         :nth-child(2) {
           color: #ffffff;
           font-family: Minion;
@@ -4494,10 +4866,12 @@ li.hidden ul li {
           letter-spacing: 1.05px;
           line-height: 50px;
         }
+
         span {
           color: $color6;
           font-family: "IBM Plex Sans";
         }
+
         p {
           height: 50px;
           color: #ffffff;
@@ -4508,13 +4882,16 @@ li.hidden ul li {
           line-height: 50px;
         }
       }
+
       .tengah {
         border-right: 1px solid #fff;
         height: 65%;
       }
+
       .arrow {
         margin-top: 6rem;
         height: 10%;
+
         img {
           height: 6rem;
           transform: scale(2);
@@ -4532,9 +4909,11 @@ li.hidden ul li {
       color: #ffffff !important;
       justify-content: center;
       position: relative;
+
       .carousel-control-next {
         right: -10rem !important;
       }
+
       .carousel-control-next-icon {
         background-color: #f66e49 !important;
         opacity: 0.95;
@@ -4544,23 +4923,29 @@ li.hidden ul li {
         margin-left: -9rem;
         border-radius: 50%;
       }
+
       .carousel-control-prev-icon {
         display: none;
       }
+
       .carousel-inner {
         width: 120%;
+
         .carousel-item {
           display: block;
           opacity: 0.2;
           margin-left: 40rem;
         }
+
         :nth-child(2).active {
           margin-left: -40rem !important;
         }
+
         .active {
           opacity: 1 !important;
           margin-left: 0rem !important;
         }
+
         .crop-Container {
           margin-top: 3rem;
 
@@ -4573,9 +4958,11 @@ li.hidden ul li {
           margin-top: -2rem;
           width: 50%;
         }
+
         p {
           font-size: 16px;
         }
+
         h1 {
           margin-top: 4rem;
           height: 196px;
@@ -4588,6 +4975,7 @@ li.hidden ul li {
           letter-spacing: 0;
           line-height: 50px;
         }
+
         h2 {
           margin-bottom: 14rem;
           height: 33px;
@@ -4598,10 +4986,12 @@ li.hidden ul li {
           font-weight: 500;
           letter-spacing: 25px;
         }
+
         .crauselCustomComponents {
           img {
             margin-top: 3rem;
           }
+
           h2 {
             font-size: 60px !important;
             height: 100px;
@@ -4626,6 +5016,7 @@ li.hidden ul li {
           display: block;
         }
       }
+
       hr {
         text-decoration: none;
         border-bottom: 2px solid $colorLine;
@@ -4633,6 +5024,7 @@ li.hidden ul li {
         width: 80%;
         margin-bottom: 0;
       }
+
       .content {
         width: 80%;
         padding-left: 0;
@@ -4680,6 +5072,7 @@ li.hidden ul li {
           line-height: 0.9375rem;
           margin-bottom: 2rem;
         }
+
         .right {
           width: 15.1875rem;
           margin-left: auto;
@@ -4691,6 +5084,7 @@ li.hidden ul li {
           img {
             margin-right: 0.3125rem;
           }
+
           h4 {
             font-family: $ibmReguler;
             font-size: 0.75rem;
@@ -4699,9 +5093,11 @@ li.hidden ul li {
       }
     }
   }
+
   .Footer {
     background-color: #021925;
     height: 40rem;
+
     .container {
       .footerHeader {
         img {
@@ -4722,6 +5118,7 @@ li.hidden ul li {
         margin: 0 auto;
         border-bottom: 1.5px solid #113d53;
         border-top: 1.5px solid #113d53;
+
         .footerBodyKiri {
           display: flex;
           width: 60%;
@@ -4762,6 +5159,7 @@ li.hidden ul li {
             color: #113d53 !important;
             text-decoration: none;
           }
+
           img {
             padding-right: 1rem;
           }

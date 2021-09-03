@@ -48,23 +48,37 @@
 
 hr {
   border: 1.5px solid #113d53;
+  padding: 0 10px;
 }
 
-li.hidden ul {
-  list-style: square;
-  margin-left: 0;
+li.hidden ul.dash {
+  list-style-type: none;
+  margin-top: 30px;
+  padding-left: 10px;
 }
 
-li.hidden ul li {
-  color: white;
-  font-family: "IBMPlexSans-Light";
-  font-size: 0.875rem;
-  letter-spacing: -0.00625rem;
-  line-height: 1.125rem;
-  margin-bottom: 1.5rem;
+li.hidden ul.dash li {
+  font-family: "IBMPlexSans";
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 18px;
+  margin-bottom: 24px;
+  text-indent: -5px;
+  font-weight: 400;
 }
 
-li.hidden ul li.first {
+li.hidden ul.dash li.first {
+  color: #f05e36;
+}
+
+li.hidden ul.dash li.last {
+  margin-bottom: 48px;
+}
+
+li.hidden ul.dash li:before {
+  content: "-";
+  text-indent: -5px;
+  margin-right: 13px;
   color: #f05e36;
 }
 
@@ -154,7 +168,7 @@ li.drop button span {
   color: white;
 }
 
-.sh ow .btn-danger.dropdown-toggle {
+.show .btn-danger.dropdown-toggle {
   background-color: transparent;
   border: 2px solid white;
   color: #f05e36;
@@ -210,9 +224,29 @@ li.hidden ul li {
     margin-top: 1.5rem;
     margin-left: 1.5rem;
   }
+  li.nav-item .nav-link {
+    font-family: "IBMPlexSans-SemiBold";
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 23px;
+    padding-bottom: 0;
+  }
+  li.nav-item .nav-link:hover {
+    color: orange;
+  }
+  li.nav-item .nav-link.contact {
+    margin-bottom: 50px;
+  }
   li.nav-item .nav-link,
   li.nav-item button span,
   li.nav-item .dropdown-item {
+    font-family: "IBMPlexSans-SemiBold";
+    font-weight: 600;
+    font-size: 1.05rem;
+  }
+  .nav-link,
+  button span,
+  .dropdown-item {
     font-family: "IBMPlexSans-SemiBold";
     font-weight: 600;
     font-size: 1.05rem;
@@ -229,9 +263,9 @@ li.hidden ul li {
     left: 0;
     position: fixed;
     background-color: #021925;
-    height: 100%;
+    height: auto;
     display: inline-block;
-    width: 100%;
+    width: 75%;
     margin-top: -1rem !important;
     z-index: 100;
   }
@@ -777,8 +811,21 @@ li.hidden ul li {
     margin-left: 0.75rem;
   }
   li.nav-item {
-    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     margin-left: 1.5rem;
+  }
+  li.nav-item .nav-link {
+    font-family: "IBMPlexSans-SemiBold";
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 23px;
+    padding-bottom: 0;
+  }
+  li.nav-item .nav-link:hover {
+    color: orange;
+  }
+  li.nav-item .nav-link.contact {
+    margin-bottom: 50px;
   }
   li.nav-item .nav-link,
   li.nav-item button span,
@@ -799,9 +846,9 @@ li.hidden ul li {
     left: 0;
     position: fixed;
     background-color: #021925;
-    height: 100%;
+    height: auto;
     display: inline-block;
-    width: 100%;
+    width: 75%;
     margin-top: -1rem !important;
     z-index: 100;
   }
