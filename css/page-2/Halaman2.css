@@ -2198,6 +2198,10 @@
 }
 
 @media (min-width: 1400px) {
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
   .birukanan {
     background-color: #0A2939;
     position: fixed;
@@ -2219,10 +2223,16 @@
         align-self: center;
     background-color: transparent;
   }
+  .navbar span {
+    height: 300px;
+    position: absolute;
+    border-right: 2px solid #ebebeb;
+    left: 10%;
+  }
   .navbar .navbar-collapse {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding-left: 10%;
   }
   .navbar .bg-white {
     background-color: transparent !important;
