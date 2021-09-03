@@ -3055,6 +3055,9 @@
     padding: 2rem 2rem;
     width: 35%;
     border-left: 2px #113D53 solid;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .Footer .container .foooterBody .footerBodyKanan .linkedIn {
     display: -webkit-box;
