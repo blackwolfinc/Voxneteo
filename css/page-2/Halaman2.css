@@ -1761,12 +1761,12 @@
         justify-content: space-around;
   }
   .container .navbar-collapse .nav-item {
-    margin-right: 3.75rem;
+    margin-right: 1.875rem;
     margin-top: .625rem;
   }
   .container .navbar-collapse .nav-item .nav-link {
     color: #0A2939;
-    font-family: "IBMPlexSans-Light";
+    font-family: "IBMPlexSans-Medium";
     font-size: 18px;
     font-weight: 600;
     letter-spacing: -0.26px;
@@ -1774,6 +1774,12 @@
   }
   .container .navbar-collapse .nav-item .nav-link:hover {
     border-bottom: #F05E36 solid 2px;
+  }
+  .container .navbar-collapse .nav-item.dropdown .nav-link {
+    font-family: "IBMPlexSans";
+  }
+  .container .navbar-collapse .nav-item.dropdown .nav-link::after {
+    color: #F05E36;
   }
   .container .sectionSatu {
     margin-top: 0;
@@ -2271,8 +2277,8 @@
   }
   .navbar .nav-item .nav-link {
     color: #0A2939;
-    font-family: "IBMPlexSans-Light";
-    font-size: 18px;
+    font-family: "IBMPlexSans-Medium";
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: -0.26px;
     line-height: 23px;
@@ -2288,10 +2294,11 @@
     color: #0A2939;
   }
   .navbar .nav-item.dropdown .nav-link {
-    border: #002F39 2px solid;
+    border: 2px solid #E5E5E5;
     padding-left: 2.4375rem;
     padding-right: 2.4375rem;
-    border-radius: 1.25rem;
+    border-radius: 1.5rem;
+    font-family: "IBMPlexSans";
   }
   .navbar .nav-item.dropdown .nav-link::after {
     color: #F05E36;

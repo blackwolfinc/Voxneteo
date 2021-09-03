@@ -1993,20 +1993,31 @@ $size1: 1.6rem;
                     }
 
                     .nav-item {
-                        margin-right: 3.75rem;
+                        margin-right: 1.875rem;
                         margin-top: .625rem;
-                    .nav-link {
-                        color: #0A2939;
-                        font-family: $ibmLight;
-                        font-size: 18px;
-                        font-weight: 600;
-                        letter-spacing: -0.26px;
-                        line-height: 23px;
 
-                        &:hover {
-                            border-bottom: #F05E36 solid 2px;
+                        .nav-link {
+                            color: #0A2939;
+                            font-family: $ibmMedium;
+                            font-size: 18px;
+                            font-weight: 600;
+                            letter-spacing: -0.26px;
+                            line-height: 23px;
+
+                            &:hover {
+                                border-bottom: #F05E36 solid 2px;
+                            }
                         }
-                    }
+
+                        &.dropdown {
+                            .nav-link {
+                                font-family: $ibmReguler;
+                            }
+                
+                            .nav-link::after {
+                                color: #F05E36;
+                            }
+                        }
 
                     }
         }
@@ -2554,8 +2565,8 @@ $size1: 1.6rem;
 
         .nav-link {
             color: #0A2939;
-            font-family: $ibmLight;
-            font-size: 18px;
+            font-family: $ibmMedium;
+            font-size: 16px;
             font-weight: 600;
             letter-spacing: -0.26px;
             line-height: 23px;
@@ -2576,10 +2587,11 @@ $size1: 1.6rem;
             
         &.dropdown {
             .nav-link {
-                border: #002F39 2px solid;
+                border: 2px solid #E5E5E5;
                 padding-left: 2.4375rem;
                 padding-right: 2.4375rem;
-                border-radius: 1.25rem;
+                border-radius: 1.5rem;
+                font-family: $ibmReguler;
             }
 
             .nav-link::after {
