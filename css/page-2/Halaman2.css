@@ -2289,6 +2289,9 @@
   .navbar .nav-item .nav-link:hover {
     border-bottom: #F05E36 solid 2px;
   }
+  .navbar .nav-item .nav-link.active {
+    border-bottom: #F05E36 solid 2px;
+  }
   .navbar .nav-item img {
     background-color: rebeccapurple;
     color: #0A2939;

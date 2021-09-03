@@ -2007,7 +2007,9 @@ $size1: 1.6rem;
                             &:hover {
                                 border-bottom: #F05E36 solid 2px;
                             }
+
                         }
+
 
                         &.dropdown {
                             .nav-link {
@@ -2575,6 +2577,10 @@ $size1: 1.6rem;
             margin-bottom: -10rem;
 
             &:hover {
+                border-bottom: #F05E36 solid 2px;
+            }
+
+            &.active {
                 border-bottom: #F05E36 solid 2px;
             }
         }
