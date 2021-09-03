@@ -24,15 +24,13 @@
     margin-top: 5rem;
     margin-bottom: -10rem;
 
-    // &.active {
-    //   &::after {
-    //     content: "";
-    //     width: 103px;
-    //     height: 4px;
-    //     background-color: #f05e36;
-    //     display: inline-block;
-    //   }
-    // }
+    &.active {
+      span {
+        border-bottom: 4px solid #f05e36;
+        display: inline-block;
+        padding-bottom: 12px;
+      }
+    }
 
     .nav-item {
       img {
@@ -90,7 +88,7 @@
 
     .text {
       position: absolute;
-      top: 27rem;
+      top: 28.5rem;
       margin-left: 1rem;
 
       h1 {
@@ -120,12 +118,134 @@
   .sectionSatuKanan {
     // background-color: green;
     position: absolute;
+    z-index: -1;
+    right: 70px;
     img {
-      width: 100%;
+      width: 106%;
       height: 405px;
     }
-    margin-left: 19.5rem;
-    z-index: -1;
+  }
+}
+
+.sectionBody {
+  display: flex;
+  .containerCategories {
+    list-style: none;
+    text-align: right;
+    padding: 0;
+    li {
+      color: #0a2939;
+      padding-bottom: 2rem;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      letter-spacing: 1.5px;
+      font-weight: bold;
+      &.active {
+        color: #f05e36;
+      }
+    }
+  }
+  .containerCards {
+    .item {
+      width: 350px;
+      &.center {
+        .containerImage {
+          &::after {
+            bottom: 7rem;
+          }
+        }
+      }
+      .containerImage {
+        position: relative;
+        display: block;
+        img {
+          height: 350px;
+          width: 350px;
+        }
+        &::after {
+          content: "";
+          width: 2px;
+          background-color: #f05e36;
+          height: 4.8rem;
+          position: absolute;
+          bottom: -1.98rem;
+          right: 2rem;
+        }
+      }
+      .date {
+        color: #0a2939;
+        font-family: Minion;
+        font-size: 3rem;
+        line-height: 29px;
+        margin-top: 2rem;
+        margin-bottom: 1.8rem;
+      }
+      .subTitle {
+        font-size: 0.9rem;
+        color: #f05e36;
+      }
+      .title {
+        font-size: 1.18rem;
+        color: #0a2939;
+      }
+      &.quotes {
+        padding: 2.5rem;
+        .quotes {
+          font-family: Minion;
+          color: #0a2939;
+          font-size: 2.5rem;
+          line-height: 2.4rem;
+        }
+        .subQuotes {
+          margin-bottom: 0.5rem;
+          text-transform: uppercase;
+          font-size: 0.8rem;
+          letter-spacing: 1.5px;
+          color: #f05e36;
+          font-weight: bold;
+        }
+        &.pink {
+          background-color: #f66f4933;
+          color: #0a2939;
+        }
+        &.orange {
+          background-color: #f05e36;
+          color: white;
+          .subQuotes {
+            color: #0a2939;
+          }
+          .quotes {
+            color: white;
+          }
+        }
+        &.darkBlue {
+          background-color: #0a2939;
+          .subQuotes {
+            color: #f05e36;
+          }
+          .quotes {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+
+.sectionAddActuals {
+  color: #f05e36;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  .icon-plus {
+    filter: invert(56%) sepia(34%) saturate(6580%) hue-rotate(339deg)
+      brightness(96%) contrast(96%);
+    width: 24px;
+    height: 24px;
+    margin-bottom: 1.3rem;
+  }
+  p {
+    text-transform: uppercase;
   }
 }
 
@@ -453,13 +573,19 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  padding-top: 3rem;
+  padding-top: 4rem;
   margin: 0rem auto 10rem auto;
+  position: relative;
   form {
     width: 75%;
   }
 
   .sectionLimaBody {
+    .icon-stamp {
+      position: absolute;
+      right: 25px;
+      top: 15px;
+    }
     h2 {
       height: 81px;
 
@@ -470,12 +596,13 @@
       letter-spacing: 10.4px;
       line-height: 80px;
       text-align: center;
+      text-transform: uppercase;
     }
 
     p {
       color: #f66e49;
       font-family: "IBM Plex Sans";
-      font-size: 22px;
+      font-size: 23px;
       letter-spacing: -0.32px;
       line-height: 30px;
     }
@@ -485,8 +612,12 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-bottom: 2rem;
-
+      margin-bottom: 4rem;
+      margin-top: 3rem;
+      padding-bottom: 1rem;
+      .containerInput {
+        width: 315px;
+      }
       .email {
         padding: 0.5rem;
         border: none;
@@ -500,6 +631,82 @@
       }
 
       border-bottom: 1px solid #e8d4cf;
+      .button-submit {
+        background-color: white;
+        border: none;
+        color: #0a2939;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+      }
+
+      .customCheckbox {
+        .link {
+          color: #0a2939;
+        }
+        .styled-checkbox {
+          position: absolute; // take it out of document flow
+          opacity: 0; // hide it
+
+          & + label {
+            position: relative;
+            cursor: pointer;
+            padding: 0;
+            color: #0a2939;
+          }
+
+          // Box.
+          & + label:before {
+            content: "";
+            margin-right: 10px;
+            display: inline-block;
+            vertical-align: text-top;
+            width: 20px;
+            height: 20px;
+            background: #0a2939;
+          }
+
+          // Box hover
+          &:hover + label:before {
+            background: #0a2939;
+          }
+
+          // Box focus
+          &:focus + label:before {
+            box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+          }
+
+          // Box checked
+          &:checked + label:before {
+            background: #0a2939;
+          }
+
+          // Disabled state label.
+          &:disabled + label {
+            color: #b8b8b8;
+            cursor: auto;
+          }
+
+          // Disabled box.
+          &:disabled + label:before {
+            box-shadow: none;
+            background: #ddd;
+          }
+
+          // Checkmark. Could be replaced with an image
+          &:checked + label:after {
+            content: "";
+            position: absolute;
+            left: 5px;
+            top: 9px;
+            background: white;
+            width: 2px;
+            height: 2px;
+            box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white,
+              4px -4px 0 white, 4px -6px 0 white, 4px -8px 0 white;
+            transform: rotate(45deg);
+          }
+        }
+      }
     }
 
     .SectionLimaBawah {
@@ -580,6 +787,7 @@
         flex-direction: row;
         width: 65%;
         padding: 3rem 2rem;
+        text-transform: uppercase;
         li {
           list-style: none;
           margin-bottom: 2rem;
