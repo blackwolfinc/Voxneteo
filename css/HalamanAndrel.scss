@@ -129,6 +129,7 @@
 
 .sectionBody {
   display: flex;
+  margin-top: 4.6rem;
   .containerCategories {
     list-style: none;
     text-align: right;
@@ -140,14 +141,21 @@
       font-size: 0.8rem;
       letter-spacing: 1.5px;
       font-weight: bold;
+      cursor: pointer;
       &.active {
         color: #f05e36;
       }
     }
   }
   .containerCards {
+    display: flex;
+    flex-flow: column;
+    width: 1100px;
+    flex-wrap: wrap;
+    height: 1573px;
     .item {
-      width: 350px;
+      width: 320px;
+      margin-bottom: 4rem;
       &.center {
         .containerImage {
           &::after {
@@ -155,12 +163,18 @@
           }
         }
       }
+      &.fourth {
+        margin-top: 6.5rem;
+      }
+      &.six {
+        margin-top: 3.5rem;
+      }
       .containerImage {
         position: relative;
         display: block;
         img {
-          height: 350px;
-          width: 350px;
+          height: 320px;
+          width: 320px;
         }
         &::after {
           content: "";
@@ -235,7 +249,6 @@
 .sectionAddActuals {
   color: #f05e36;
   text-align: center;
-  margin-top: 3rem;
   margin-bottom: 4rem;
   .icon-plus {
     filter: invert(56%) sepia(34%) saturate(6580%) hue-rotate(339deg)
