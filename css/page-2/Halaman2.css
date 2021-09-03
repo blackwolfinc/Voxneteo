@@ -2449,17 +2449,21 @@
     margin-top: -6rem;
   }
   .sectionSatu .sectionSatuKanan {
-    position: absolute;
-    margin-left: 14.5rem;
     z-index: -1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-right: -3.75rem;
+    height: 405px;
   }
   .sectionSatu .sectionSatuKanan img {
     width: 100%;
-    height: 405px;
   }
   .sectionDua {
     width: 100%;
-    height: 115rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2470,6 +2474,7 @@
   .sectionDua .sectionDuaKiri {
     width: 50%;
     padding: 2rem;
+    padding-top: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2477,9 +2482,10 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding-left: 0;
   }
   .sectionDua .sectionDuaKiri .wraperKiri-One {
-    margin-left: 2rem;
+    margin-left: 7.75rem;
   }
   .sectionDua .sectionDuaKiri .wraperKiri-One h1 {
     height: 184px;
@@ -2492,7 +2498,8 @@
     line-height: 41.8px;
   }
   .sectionDua .sectionDuaKiri .wraperKiri-Two {
-    margin-left: 2rem;
+    margin-left: 7.75rem;
+    margin-top: 1.875rem;
   }
   .sectionDua .sectionDuaKiri .wraperKiri-Two p {
     height: 405px;
@@ -2503,14 +2510,26 @@
     font-weight: 300;
     letter-spacing: -0.1px;
     line-height: 30px;
+    margin-bottom: 0;
   }
   .sectionDua .sectionDuaKiri .wraperKiri-Three {
-    position: absolute;
-    margin-left: -12rem;
-    margin-top: 38rem;
+    margin-left: -3.75rem;
+    margin-top: 2.5rem;
+  }
+  .sectionDua .sectionDuaKiri .wraperKiri-Three span {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 105px;
+    width: 2px;
+    border: 2px solid #F66E49;
+    display: block;
+    position: relative;
+    left: 34%;
+    top: 10%;
   }
   .sectionDua .sectionDuaKiri .wraperKiri-Four {
-    margin-top: 38rem;
+    margin-top: 7.625rem;
+    margin-left: 7.75rem;
     height: 15rem;
     width: 27.5rem;
     color: #fff;
@@ -2527,8 +2546,10 @@
     line-height: 50px;
   }
   .sectionDua .sectionDuaKanan {
-    width: 50%;
     padding: 2rem;
+    margin-right: 7.75rem;
+    padding-top: 0;
+    padding-bottom: 0;
   }
   .sectionDua .sectionDuaKanan .wraperKanan-One {
     height: 20rem;
@@ -2611,7 +2632,11 @@
     letter-spacing: -0.41px;
     line-height: 36px;
   }
-  .sectionDua .wraperKanan-Four li {
+  .sectionDua .wraperKanan-Four ul {
+    margin-top: 1.875rem;
+    padding-left: 0;
+  }
+  .sectionDua .wraperKanan-Four ul li {
     height: 41px;
     width: 486px;
     color: #0A2939;
@@ -2633,34 +2658,31 @@
     width: 24px;
   }
   .sectionTiga {
-    margin-top: -10rem;
-    margin-bottom: 30rem;
+    margin-top: 1.25rem;
+    margin-bottom: 0;
     width: 100%;
-    height: 30rem;
+    margin-left: 7.75rem;
   }
   .sectionTiga .sectionTigaAtas {
+    margin-left: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     color: #fff;
-    height: 10rem;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
   .sectionTiga .sectionTigaAtas h1 {
-    height: 196px;
     width: 916px;
     color: #0A2939;
     font-family: Butler;
     font-size: 56px;
     letter-spacing: -0.82px;
     line-height: 56px;
-    margin-left: 2rem;
   }
   .sectionTiga .sectionTigaBawah {
-    height: 30rem;
-    margin-bottom: 10rem;
+    margin-top: 5rem;
   }
   .sectionTiga .sectionTigaBawah .containerSlide {
     display: -webkit-box;
@@ -2670,6 +2692,9 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+  }
+  .sectionTiga .sectionTigaBawah .containerSlide .logo {
+    padding-left: 0;
   }
   .sectionTiga .sectionTigaBawah .containerSlide div {
     margin-right: 1rem;
@@ -2724,10 +2749,13 @@
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 2rem;
-    padding-left: 6.25rem;
+    margin-left: 7.75rem;
+    padding-left: 0;
+    padding-top: 0;
+    margin-top: 7.0625rem;
+    padding-bottom: 0;
   }
   .sectionEmpat li {
-    height: 78.47px;
     color: #0A2939;
     font-family: Butler;
     font-size: 40px;
@@ -2756,13 +2784,38 @@
   .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri :nth-child(2) {
     color: #F05E36;
   }
+  .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri li {
+    list-style: none;
+  }
+  .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri li::before {
+    content: "-";
+    text-indent: -20px;
+    color: #f05e36;
+    font-size: 40px;
+    letter-spacing: -0.1px;
+    line-height: 30px;
+    margin-right: .625rem;
+    width: 19px;
+  }
   .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan {
     width: 50%;
     margin-right: 20rem;
   }
+  .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan li {
+    list-style: none;
+  }
+  .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan li::before {
+    content: "-";
+    text-indent: -20px;
+    color: #f05e36;
+    font-size: 40px;
+    letter-spacing: -0.1px;
+    line-height: 30px;
+    margin-right: .625rem;
+    width: 19px;
+  }
   .sectionLima {
     border: 10px solid #f66f4933;
-    width: 90%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2770,7 +2823,9 @@
         -ms-flex-pack: center;
             justify-content: center;
     padding-top: 3rem;
-    margin: 0rem auto 10rem auto;
+    margin-top: 7rem;
+    margin-left: 7.75rem;
+    margin-right: 7.75rem;
   }
   .sectionLima form {
     width: 90%;
@@ -2914,6 +2969,7 @@
     width: 100%;
     background-color: #021925;
     height: 40rem;
+    margin-top: 9.4375rem;
   }
   .Footer .container {
     background-color: #021925;
