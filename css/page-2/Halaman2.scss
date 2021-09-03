@@ -1966,7 +1966,7 @@ $size1: 1.6rem;
                 height: 70px;
             }
         }
-
+        
         .navbar-collapse {
             display: flex;
             justify-content: space-around;
@@ -1978,6 +1978,28 @@ $size1: 1.6rem;
                     .nav-item {
                         margin-right: 3.75rem;
                         margin-top: .625rem;
+
+                        a {
+                            img {
+                                width: auto;
+                                height: auto;
+                                background-color: transparent;
+                                margin-left: 1rem;
+                                margin-bottom: 0.5rem;
+                            }
+                        }
+                        .dropdown-toggle::after {
+                            display: none;
+                            background-color: transparent;
+                        }
+
+                        .dropdownButton.nav-link {
+                            border: 2px solid #e5e5e5;
+                            padding-left: 2.4375rem;
+                            padding-right: 3.4375rem;
+                            border-radius: 1.25rem;
+                        }
+
                     .nav-link {
                         color: #0A2939;
                         font-family: $ibmLight;
@@ -2525,7 +2547,19 @@ $size1: 1.6rem;
         background-color: transparent;
     }
 
-    .nav-item {    
+    .nav-item {
+        a {
+            img {
+                width: auto;
+                height: auto;
+                background-color: transparent;
+                margin-left: 1rem;
+            }
+        }
+        .dropdown-toggle::after {
+            display: none;
+            background-color: transparent;
+        }    
         .nav-link {
             color: #0A2939;
             font-family: $ibmLight;
@@ -2550,9 +2584,9 @@ $size1: 1.6rem;
             
         &.dropdown {
             .nav-link {
-                border: #002F39 2px solid;
+                border: 2px solid #e5e5e5;
                 padding-left: 2.4375rem;
-                padding-right: 2.4375rem;
+                padding-right: 3.4375rem;
                 border-radius: 1.25rem;
             }
 
