@@ -67,6 +67,10 @@ $size1: 1.6rem;
             margin-left: -1.5rem;
             margin-right: -1.5rem;
             display: flex;
+
+            .line {
+                display: none;
+            }
         }
 
         .drop {
@@ -568,6 +572,10 @@ $size1: 1.6rem;
             flex-direction: row-reverse;
             margin-left: -1.5rem;
             margin-right: -1.5rem;
+
+            .line {
+                display: none;
+            }
         }
 
         .sectionSatu {
@@ -1021,6 +1029,10 @@ $size1: 1.6rem;
             flex-direction: row-reverse;
             margin-left: -1.5rem;
             margin-right: -1.5rem;
+
+            .line {
+                display: none;
+            }
         }
 
         .navbar-nav {
@@ -1487,6 +1499,11 @@ $size1: 1.6rem;
             flex-direction: row-reverse;
             margin-left: -1.5rem;
             margin-right: -1.5rem;
+
+            .line {
+                display: none;
+            }
+    
         }
 
         .navbar-nav {
@@ -2493,7 +2510,7 @@ $size1: 1.6rem;
 
     
     span {
-        height: 300px;
+        height: 600px;
         position: absolute;
         border-right: 2px solid rgb(235, 235, 235);
         left: 10%;
@@ -2525,7 +2542,16 @@ $size1: 1.6rem;
         background-color: transparent;
     }
 
-    .nav-item {    
+    .nav-item {   
+        
+        &.start {
+            margin-left: 4.1875rem;
+        } 
+
+        &.end {
+            margin-left: 4.375rem;
+        } 
+
         .nav-link {
             color: #0A2939;
             font-family: $ibmLight;
@@ -2562,10 +2588,11 @@ $size1: 1.6rem;
         }
     }
 
+
     img {
         position: absolute;
         margin-top: 2.5rem;
-        width: 5.625rem;
+        width: 4.6875rem;
         height: 5.625rem;
     }
 
