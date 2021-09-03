@@ -38,6 +38,11 @@
   src: url("../../assets/fonts/webfont-minion/Minion-DisplayItalic.ttf");
 }
 
+@font-face {
+  font-family: "Minion-Bold";
+  src: url("../../assets/fonts/webfont-minion/Minion-Bold.ttf");
+}
+
 @media (max-width: 319.98px) {
   .birukanan {
     display: none;
@@ -2896,12 +2901,13 @@
   .sectionLima .sectionLimaBody .title .title-1 h2 {
     height: 81px;
     color: #002F39;
-    font-family: "Minion-DisplayItalic";
+    font-family: "Minion-Bold";
     font-size: 26px;
     font-weight: bold;
     letter-spacing: 10.4px;
     line-height: 80px;
     text-align: center;
+    text-transform: uppercase;
   }
   .sectionLima .sectionLimaBody .SectionLimaTengah {
     display: -webkit-box;
@@ -2953,10 +2959,14 @@
     margin-right: 0.3rem;
     margin-left: 0.5rem;
   }
-  .sectionLima .sectionLimaBody .SectionLimaTengah .text, .sectionLima .sectionLimaBody .SectionLimaTengah .terms, .sectionLima .sectionLimaBody .SectionLimaTengah h6 {
+  .sectionLima .sectionLimaBody .SectionLimaTengah .text, .sectionLima .sectionLimaBody .SectionLimaTengah .terms {
     color: #002f39;
-    font-family: "IBM Plex Sans";
+    font-family: "IBMPlexSans";
     font-size: 16px;
+  }
+  .sectionLima .sectionLimaBody .SectionLimaTengah h6 {
+    font-family: "IBMPlexSans-Medium";
+    color: #002f39;
   }
   .sectionLima .sectionLimaBody .SectionLimaBawah input {
     margin: 2rem 0rem;
