@@ -140,7 +140,7 @@
       text-transform: uppercase;
       font-size: 0.8rem;
       letter-spacing: 1.5px;
-      font-weight: bold;
+      font-weight: 500;
       cursor: pointer;
       &.active {
         color: #f05e36;
@@ -211,7 +211,7 @@
           line-height: 2.4rem;
         }
         .subQuotes {
-          margin-bottom: 0.5rem;
+          margin-bottom: 0.7rem;
           text-transform: uppercase;
           font-size: 0.8rem;
           letter-spacing: 1.5px;
@@ -635,6 +635,19 @@
         padding: 0.5rem;
         border: none;
         margin-right: 9rem;
+        &::-webkit-input-placeholder {
+          /* Edge */
+          color: #0a2939;
+        }
+
+        &:-ms-input-placeholder {
+          /* Internet Explorer 10-11 */
+          color: #0a2939;
+        }
+
+        &::placeholder {
+          color: #0a2939;
+        }
       }
 
       .av-checkbox {
@@ -650,6 +663,7 @@
         color: #0a2939;
         text-transform: uppercase;
         letter-spacing: 1.5px;
+        font-weight: 500;
       }
 
       .customCheckbox {
@@ -710,7 +724,7 @@
             content: "";
             position: absolute;
             left: 5px;
-            top: 9px;
+            top: 11px;
             background: white;
             width: 2px;
             height: 2px;

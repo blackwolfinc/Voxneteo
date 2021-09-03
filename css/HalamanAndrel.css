@@ -154,7 +154,7 @@
   text-transform: uppercase;
   font-size: 0.8rem;
   letter-spacing: 1.5px;
-  font-weight: bold;
+  font-weight: 500;
   cursor: pointer;
 }
 
@@ -244,7 +244,7 @@
 }
 
 .sectionBody .containerCards .item.quotes .subQuotes {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.7rem;
   text-transform: uppercase;
   font-size: 0.8rem;
   letter-spacing: 1.5px;
@@ -701,6 +701,24 @@
   margin-right: 9rem;
 }
 
+.sectionLima .sectionLimaBody .SectionLimaTengah .email::-webkit-input-placeholder {
+  /* Edge */
+  color: #0a2939;
+}
+
+.sectionLima .sectionLimaBody .SectionLimaTengah .email:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #0a2939;
+}
+
+.sectionLima .sectionLimaBody .SectionLimaTengah .email::-ms-input-placeholder {
+  color: #0a2939;
+}
+
+.sectionLima .sectionLimaBody .SectionLimaTengah .email::placeholder {
+  color: #0a2939;
+}
+
 .sectionLima .sectionLimaBody .SectionLimaTengah .av-checkbox a {
   padding-left: 2rem;
 }
@@ -711,6 +729,7 @@
   color: #0a2939;
   text-transform: uppercase;
   letter-spacing: 1.5px;
+  font-weight: 500;
 }
 
 .sectionLima .sectionLimaBody .SectionLimaTengah .customCheckbox .link {
@@ -767,7 +786,7 @@
   content: "";
   position: absolute;
   left: 5px;
-  top: 9px;
+  top: 11px;
   background: white;
   width: 2px;
   height: 2px;
