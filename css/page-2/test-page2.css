@@ -2102,7 +2102,6 @@
     border-radius: 24px;
   }
   .navbar .dropdown-toggle::after {
-    display: none;
     color: #F05E36;
   }
   .navbar-collapse .navbar-nav {

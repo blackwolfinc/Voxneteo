@@ -58,6 +58,9 @@
     display: -ms-flexbox;
     display: flex;
   }
+  .container .navbar .line {
+    display: none;
+  }
   .container .drop .btn-group {
     margin-top: 0;
     margin-left: -2.5rem;
@@ -500,6 +503,9 @@
     margin-left: -1.5rem;
     margin-right: -1.5rem;
   }
+  .container .navbar .line {
+    display: none;
+  }
   .container .sectionSatu {
     margin-top: 0;
     -webkit-box-orient: vertical;
@@ -900,6 +906,9 @@
             flex-direction: row-reverse;
     margin-left: -1.5rem;
     margin-right: -1.5rem;
+  }
+  .container .navbar .line {
+    display: none;
   }
   .container .navbar-nav {
     top: 0;
@@ -1315,6 +1324,9 @@
     margin-left: -1.5rem;
     margin-right: -1.5rem;
   }
+  .container .navbar .line {
+    display: none;
+  }
   .container .navbar-nav {
     top: 0;
     left: 0;
@@ -1497,13 +1509,23 @@
     line-height: 1.75rem;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Four li {
-    margin-left: 2rem;
     color: white;
     font-family: "IBMPlexSans-Light";
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 300;
     letter-spacing: -0.00625rem;
     line-height: 1.875rem;
+    list-style: none;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four li:before {
+    content: "-";
+    text-indent: -20px;
+    color: #f05e36;
+    font-size: 20px;
+    letter-spacing: -0.1px;
+    line-height: 30px;
+    margin-right: .625rem;
+    width: 24px;
   }
   .container .sectionTiga {
     margin-top: 1.875rem;
@@ -1749,29 +1771,12 @@
         justify-content: space-around;
   }
   .container .navbar-collapse .nav-item {
-    margin-right: 3.75rem;
+    margin-right: 1.875rem;
     margin-top: .625rem;
-  }
-  .container .navbar-collapse .nav-item a img {
-    width: auto;
-    height: auto;
-    background-color: transparent;
-    margin-left: 1rem;
-    margin-bottom: 0.5rem;
-  }
-  .container .navbar-collapse .nav-item .dropdown-toggle::after {
-    display: none;
-    background-color: transparent;
-  }
-  .container .navbar-collapse .nav-item .dropdownButton.nav-link {
-    border: 2px solid #e5e5e5;
-    padding-left: 2.4375rem;
-    padding-right: 3.4375rem;
-    border-radius: 1.25rem;
   }
   .container .navbar-collapse .nav-item .nav-link {
     color: #0A2939;
-    font-family: "IBMPlexSans-Light";
+    font-family: "IBMPlexSans-Medium";
     font-size: 18px;
     font-weight: 600;
     letter-spacing: -0.26px;
@@ -1779,6 +1784,12 @@
   }
   .container .navbar-collapse .nav-item .nav-link:hover {
     border-bottom: #F05E36 solid 2px;
+  }
+  .container .navbar-collapse .nav-item.dropdown .nav-link {
+    font-family: "IBMPlexSans";
+  }
+  .container .navbar-collapse .nav-item.dropdown .nav-link::after {
+    color: #F05E36;
   }
   .container .sectionSatu {
     margin-top: 0;
@@ -1937,6 +1948,17 @@
     font-weight: 300;
     letter-spacing: -0.1px;
     line-height: 30px;
+    list-style: none;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four li:before {
+    content: "-";
+    text-indent: -20px;
+    color: #f05e36;
+    font-size: 20px;
+    letter-spacing: -0.1px;
+    line-height: 30px;
+    margin-right: .625rem;
+    width: 24px;
   }
   .container .sectionTiga {
     margin-top: .625rem;
@@ -2095,15 +2117,53 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
     margin-bottom: 2rem;
+    color: #002f39;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
     border-bottom: 1px solid #E8D4CF;
   }
   .container .sectionLima .sectionLimaBody .SectionLimaTengah .email {
     padding: 0.5rem;
     border: none;
-    margin-right: 9rem;
+  }
+  .container .sectionLima .sectionLimaBody .SectionLimaTengah ::-webkit-input-placeholder {
+    border-left: 2px solid #002f39;
+    margin-left: 1rem;
+    width: 13rem;
+  }
+  .container .sectionLima .sectionLimaBody .SectionLimaTengah :-ms-input-placeholder {
+    border-left: 2px solid #002f39;
+    margin-left: 1rem;
+    width: 13rem;
+  }
+  .container .sectionLima .sectionLimaBody .SectionLimaTengah ::-ms-input-placeholder {
+    border-left: 2px solid #002f39;
+    margin-left: 1rem;
+    width: 13rem;
+  }
+  .container .sectionLima .sectionLimaBody .SectionLimaTengah ::placeholder {
+    border-left: 2px solid #002f39;
+    margin-left: 1rem;
+    width: 13rem;
+  }
+  .container .sectionLima .sectionLimaBody .SectionLimaTengah .mc-field-group input {
+    margin-right: 0;
+    padding-right: 0;
+  }
+  .container .sectionLima .sectionLimaBody .SectionLimaTengah .mc-field-group::after {
+    content: " *";
+    color: red;
+    display: inline;
   }
   .container .sectionLima .sectionLimaBody .SectionLimaTengah .av-checkbox a {
     padding-left: 2rem;
+  }
+  .container .sectionLima .sectionLimaBody .SectionLimaTengah a {
+    color: #002f39;
+    padding-left: .3125rem;
+  }
+  .container .sectionLima .sectionLimaBody .SectionLimaTengah input {
+    margin-right: .625rem;
   }
   .container .sectionLima .sectionLimaBody .SectionLimaBawah input {
     margin: 2rem 0rem;
@@ -2241,7 +2301,7 @@
     background-color: transparent;
   }
   .navbar span {
-    height: 300px;
+    height: 600px;
     position: absolute;
     border-right: 2px solid #ebebeb;
     left: 10%;
@@ -2268,20 +2328,16 @@
             justify-content: left;
     background-color: transparent;
   }
-  .navbar .nav-item a img {
-    width: auto;
-    height: auto;
-    background-color: transparent;
-    margin-left: 1rem;
+  .navbar .nav-item.start {
+    margin-left: 4.1875rem;
   }
-  .navbar .nav-item .dropdown-toggle::after {
-    display: none;
-    background-color: transparent;
+  .navbar .nav-item.end {
+    margin-left: 4.375rem;
   }
   .navbar .nav-item .nav-link {
     color: #0A2939;
-    font-family: "IBMPlexSans-Light";
-    font-size: 18px;
+    font-family: "IBMPlexSans-Medium";
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: -0.26px;
     line-height: 23px;
@@ -2292,27 +2348,32 @@
   .navbar .nav-item .nav-link:hover {
     border-bottom: #F05E36 solid 2px;
   }
+  .navbar .nav-item .nav-link.active {
+    border-bottom: #F05E36 solid 2px;
+  }
   .navbar .nav-item img {
     background-color: rebeccapurple;
     color: #0A2939;
   }
   .navbar .nav-item.dropdown .nav-link {
-    border: 2px solid #e5e5e5;
+    border: 2px solid #E5E5E5;
     padding-left: 2.4375rem;
-    padding-right: 3.4375rem;
-    border-radius: 1.25rem;
+    padding-right: 2.4375rem;
+    border-radius: 1.5rem;
+    font-family: "IBMPlexSans";
   }
   .navbar .nav-item.dropdown .nav-link::after {
     color: #F05E36;
   }
   .navbar img {
     position: absolute;
-    margin-top: 2.5rem;
-    width: 5.625rem;
+    margin-top: 0;
+    width: 4.6875rem;
     height: 5.625rem;
+    top: 2.0625rem;
   }
   .sectionSatu {
-    margin-top: 6.25rem;
+    margin-top: 4.375rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2527,11 +2588,22 @@
     height: 41px;
     width: 486px;
     color: #0A2939;
-    font-family: "IBM Plex Sans";
+    font-family: "IBMPlexSans-Light";
     font-size: 16px;
     font-weight: 300;
     letter-spacing: -0.1px;
     line-height: 30px;
+    list-style: none;
+  }
+  .sectionDua .wraperKanan-Four li:before {
+    content: "-";
+    text-indent: -20px;
+    color: #f05e36;
+    font-size: 20px;
+    letter-spacing: -0.1px;
+    line-height: 30px;
+    margin-right: .625rem;
+    width: 24px;
   }
   .sectionTiga {
     margin-top: -10rem;
@@ -2706,7 +2778,7 @@
   .sectionLima .sectionLimaBody .title .title-1 h2 {
     height: 81px;
     color: #002F39;
-    font-family: Minion;
+    font-family: "Minion-DisplayItalic";
     font-size: 26px;
     font-weight: bold;
     letter-spacing: 10.4px;

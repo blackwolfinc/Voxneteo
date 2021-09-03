@@ -67,6 +67,10 @@ $size1: 1.6rem;
             margin-left: -1.5rem;
             margin-right: -1.5rem;
             display: flex;
+
+            .line {
+                display: none;
+            }
         }
 
         .drop {
@@ -568,6 +572,10 @@ $size1: 1.6rem;
             flex-direction: row-reverse;
             margin-left: -1.5rem;
             margin-right: -1.5rem;
+
+            .line {
+                display: none;
+            }
         }
 
         .sectionSatu {
@@ -1021,6 +1029,10 @@ $size1: 1.6rem;
             flex-direction: row-reverse;
             margin-left: -1.5rem;
             margin-right: -1.5rem;
+
+            .line {
+                display: none;
+            }
         }
 
         .navbar-nav {
@@ -1487,6 +1499,11 @@ $size1: 1.6rem;
             flex-direction: row-reverse;
             margin-left: -1.5rem;
             margin-right: -1.5rem;
+
+            .line {
+                display: none;
+            }
+    
         }
 
         .navbar-nav {
@@ -1698,13 +1715,24 @@ $size1: 1.6rem;
                     }
 
                     li {
-                        margin-left: 2rem;
                         color: white;
                         font-family: $ibmLight;
-                        font-size: 1.25rem;
+                        font-size: 1rem;
                         font-weight: 300;
                         letter-spacing: -0.00625rem;
                         line-height: 1.875rem;
+                        list-style: none;
+                    }
+
+                    li:before {
+                        content: "-";
+                        text-indent: -20px;
+                        color: $color3;
+                        font-size: 20px;
+                        letter-spacing: -0.1px;
+                        line-height: 30px;
+                        margin-right: .625rem;
+                        width: 24px;
                     }
                 }
             }
@@ -1966,7 +1994,7 @@ $size1: 1.6rem;
                 height: 70px;
             }
         }
-        
+
         .navbar-collapse {
             display: flex;
             justify-content: space-around;
@@ -1976,42 +2004,33 @@ $size1: 1.6rem;
                     }
 
                     .nav-item {
-                        margin-right: 3.75rem;
+                        margin-right: 1.875rem;
                         margin-top: .625rem;
 
-                        a {
-                            img {
-                                width: auto;
-                                height: auto;
-                                background-color: transparent;
-                                margin-left: 1rem;
-                                margin-bottom: 0.5rem;
+                        .nav-link {
+                            color: #0A2939;
+                            font-family: $ibmMedium;
+                            font-size: 18px;
+                            font-weight: 600;
+                            letter-spacing: -0.26px;
+                            line-height: 23px;
+
+                            &:hover {
+                                border-bottom: #F05E36 solid 2px;
+                            }
+
+                        }
+
+
+                        &.dropdown {
+                            .nav-link {
+                                font-family: $ibmReguler;
+                            }
+                
+                            .nav-link::after {
+                                color: #F05E36;
                             }
                         }
-                        .dropdown-toggle::after {
-                            display: none;
-                            background-color: transparent;
-                        }
-
-                        .dropdownButton.nav-link {
-                            border: 2px solid #e5e5e5;
-                            padding-left: 2.4375rem;
-                            padding-right: 3.4375rem;
-                            border-radius: 1.25rem;
-                        }
-
-                    .nav-link {
-                        color: #0A2939;
-                        font-family: $ibmLight;
-                        font-size: 18px;
-                        font-weight: 600;
-                        letter-spacing: -0.26px;
-                        line-height: 23px;
-
-                        &:hover {
-                            border-bottom: #F05E36 solid 2px;
-                        }
-                    }
 
                     }
         }
@@ -2140,6 +2159,8 @@ $size1: 1.6rem;
                         letter-spacing: -0.59px;
                         line-height: 50px;
                     }
+
+                    
                 }
 
                 .wraperKanan-Two {
@@ -2191,6 +2212,18 @@ $size1: 1.6rem;
                         font-weight: 300;
                         letter-spacing: -0.1px;
                         line-height: 30px;
+                        list-style: none;
+                    }
+
+                    li:before {
+                        content: "-";
+                        text-indent: -20px;
+                        color: $color3;
+                        font-size: 20px;
+                        letter-spacing: -0.1px;
+                        line-height: 30px;
+                        margin-right: .625rem;
+                        width: 24px;
                     }
 
                 }
@@ -2363,7 +2396,27 @@ $size1: 1.6rem;
                 .email {
                     padding: 0.5rem;
                     border: none;
-                    margin-right: 9rem;
+                    // margin-right: 9rem;
+                }
+
+                ::placeholder {
+                    border-left: 2px solid $color5;
+                    margin-left: 1rem;
+                     width: 13rem;
+                }
+
+                .mc-field-group {
+                    
+                    input {
+                        margin-right: 0;
+                        padding-right: 0;
+                    }
+                }
+    
+                .mc-field-group::after {
+                    content:" *";
+                    color: red;
+                    display: inline;
                 }
     
                 .av-checkbox {
@@ -2371,7 +2424,20 @@ $size1: 1.6rem;
                         padding-left: 2rem;
                     }
                 }
+
+                a {
+                    color: #002f39;
+                    padding-left: .3125rem;
+                }
+
+                input {
+                    margin-right: .625rem;
+                }
     
+
+                color: #002f39;
+                font-family: "IBM Plex Sans";
+                font-size: 16px;        
                 border-bottom: 1px solid #E8D4CF;
     
             }
@@ -2385,7 +2451,6 @@ $size1: 1.6rem;
                     border-right: none;
                     padding-bottom: 1.6rem;
                     border-bottom: 1px solid #E8D4CF;
-                    ;
                     outline: none;
                 }
             }
@@ -2515,7 +2580,7 @@ $size1: 1.6rem;
 
     
     span {
-        height: 300px;
+        height: 600px;
         position: absolute;
         border-right: 2px solid rgb(235, 235, 235);
         left: 10%;
@@ -2547,23 +2612,20 @@ $size1: 1.6rem;
         background-color: transparent;
     }
 
-    .nav-item {
-        a {
-            img {
-                width: auto;
-                height: auto;
-                background-color: transparent;
-                margin-left: 1rem;
-            }
-        }
-        .dropdown-toggle::after {
-            display: none;
-            background-color: transparent;
-        }    
+    .nav-item {   
+        
+        &.start {
+            margin-left: 4.1875rem;
+        } 
+
+        &.end {
+            margin-left: 4.375rem;
+        } 
+
         .nav-link {
             color: #0A2939;
-            font-family: $ibmLight;
-            font-size: 18px;
+            font-family: $ibmMedium;
+            font-size: 16px;
             font-weight: 600;
             letter-spacing: -0.26px;
             line-height: 23px;
@@ -2572,6 +2634,10 @@ $size1: 1.6rem;
             margin-bottom: -10rem;
 
             &:hover {
+                border-bottom: #F05E36 solid 2px;
+            }
+
+            &.active {
                 border-bottom: #F05E36 solid 2px;
             }
         }
@@ -2584,10 +2650,11 @@ $size1: 1.6rem;
             
         &.dropdown {
             .nav-link {
-                border: 2px solid #e5e5e5;
+                border: 2px solid #E5E5E5;
                 padding-left: 2.4375rem;
-                padding-right: 3.4375rem;
-                border-radius: 1.25rem;
+                padding-right: 2.4375rem;
+                border-radius: 1.5rem;
+                font-family: $ibmReguler;
             }
 
             .nav-link::after {
@@ -2596,18 +2663,20 @@ $size1: 1.6rem;
         }
     }
 
+
     img {
         position: absolute;
-        margin-top: 2.5rem;
-        width: 5.625rem;
+        margin-top: 0;
+        width: 4.6875rem;
         height: 5.625rem;
+        top: 2.0625rem;
     }
 
 }
 
 
 .sectionSatu {
-    margin-top: 6.25rem;
+    margin-top: 4.375rem;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -2831,19 +2900,23 @@ $size1: 1.6rem;
             height: 41px;
             width: 486px;
             color: #0A2939;
-            font-family: "IBM Plex Sans";
+            font-family: $ibmLight;
             font-size: 16px;
             font-weight: 300;
             letter-spacing: -0.1px;
             line-height: 30px;
+            list-style: none;
         }
 
         li:before {
-            // font-family: FontAwesome;
-            // content: "\f138";
-            // position: absolute;
-            // left: 1em;
-            // color: skyblue;
+            content: "-";
+            text-indent: -20px;
+            color: $color3;
+            font-size: 20px;
+            letter-spacing: -0.1px;
+            line-height: 30px;
+            margin-right: .625rem;
+            width: 24px;
         }
 
     }
@@ -3000,7 +3073,6 @@ $size1: 1.6rem;
     }
 
     .sectionLimaBody {
-        // margin: 0 5rem;
         text-align: center;
 
         p {
@@ -3023,13 +3095,11 @@ $size1: 1.6rem;
             .title-1 {
                 width: 48rem;
                 text-align: center;
-                // padding-left: 7.5rem;
                 
                 h2 {
-                    height: 81px;
-        
+                    height: 81px;        
                     color: #002F39;
-                    font-family: Minion;
+                    font-family: $minionItalic;
                     font-size: 26px;
                     font-weight: bold;
                     letter-spacing: 10.4px;
@@ -3095,7 +3165,6 @@ $size1: 1.6rem;
                 border-right: none;
                 padding-bottom: 1.6rem;
                 border-bottom: 1px solid #E8D4CF;
-                ;
                 outline: none;
             }
         }
