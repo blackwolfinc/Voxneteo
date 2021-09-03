@@ -2334,6 +2334,23 @@
   .navbar .nav-item.end {
     margin-left: 4.375rem;
   }
+  .navbar .nav-item a img {
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    margin-left: 1rem;
+    margin-top: -1rem;
+  }
+  .navbar .nav-item .dropdown-toggle::after {
+    display: none;
+    background-color: transparent;
+  }
+  .navbar .nav-item .dropdownButton.nav-link {
+    border: 2px solid #e5e5e5;
+    padding-left: 2.4375rem;
+    padding-right: 3.4375rem;
+    border-radius: 1.25rem;
+  }
   .navbar .nav-item .nav-link {
     color: #0A2939;
     font-family: "IBMPlexSans-Medium";
@@ -2358,7 +2375,7 @@
   .navbar .nav-item.dropdown .nav-link {
     border: 2px solid #E5E5E5;
     padding-left: 2.4375rem;
-    padding-right: 2.4375rem;
+    padding-right: 3.4375rem;
     border-radius: 1.5rem;
     font-family: "IBMPlexSans";
   }
@@ -2751,6 +2768,9 @@
   .sectionLima .sectionLimaBody {
     text-align: center;
   }
+  .sectionLima .sectionLimaBody .title, .sectionLima .sectionLimaBody .SectionLimaTengah, .sectionLima .sectionLimaBody .SectionLimaBawah {
+    margin: 0 5rem;
+  }
   .sectionLima .sectionLimaBody p {
     color: #F66E49;
     font-family: "IBM Plex Sans";
@@ -2770,6 +2790,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-bottom: 2.5rem;
   }
   .sectionLima .sectionLimaBody .title .title-1 {
     width: 48rem;
@@ -2786,7 +2807,6 @@
     text-align: center;
   }
   .sectionLima .sectionLimaBody .SectionLimaTengah {
-    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2796,7 +2816,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     border-bottom: 1px solid #E8D4CF;
   }
   .sectionLima .sectionLimaBody .SectionLimaTengah .email {
@@ -2865,8 +2885,8 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 0 5rem;
-    margin-bottom: 8rem;
+    margin: 4rem 5rem;
+    margin-bottom: 4rem;
   }
   .sectionLima .SectionLimaBawahDua .button {
     border: 1px solid #fff;
