@@ -2848,14 +2848,13 @@ $size1: 1.6rem;
             font-weight: 300;
             letter-spacing: -0.1px;
             line-height: 30px;
+            list-style: none;
         }
 
         li:before {
-            // font-family: FontAwesome;
-            // content: "\f138";
-            // position: absolute;
-            // left: 1em;
-            // color: skyblue;
+            content: "-";
+            text-indent: -20px;
+            color: $color3;
         }
 
     }
