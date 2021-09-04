@@ -1,0 +1,524 @@
+body {
+  font-family: "IBM Plex Sans";
+  font-size: 14px;
+  color: #0a2939;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+section {
+  margin: 50px 0;
+}
+
+@media (min-width: 1080px) {
+  section {
+    margin: 75px 0;
+  }
+}
+
+h1 {
+  font-size: 3rem !important;
+  color: #f05e36;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 6.25rem !important;
+  }
+}
+
+h5 {
+  font-size: 1.125rem !important;
+}
+
+@media (min-width: 768px) {
+  h5 {
+    font-size: 1.75rem !important;
+  }
+}
+
+a {
+  color: #0a2939 !important;
+}
+
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    -ms-grid-columns: 1fr auto;
+        grid-template-columns: 1fr auto;
+  }
+}
+
+.birukanan {
+  display: none;
+  background-color: #0a2939;
+  height: 100%;
+  width: 7.2rem;
+}
+
+@media (min-width: 768px) {
+  .birukanan {
+    display: block;
+  }
+}
+
+.navbar {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    border-bottom: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar .navbar-brand {
+    margin-top: 3.125rem;
+  }
+}
+
+@media (min-width: 1080px) {
+  .navbar .navbar-brand {
+    position: absolute;
+    top: 0;
+    border-right: 1px solid #e5e5e5;
+    height: 20rem;
+    margin-top: 0;
+  }
+  .navbar .navbar-brand img {
+    margin: 6.25rem 2rem 0 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar .navbar-nav {
+    width: 100%;
+    margin-top: 3.125rem;
+  }
+}
+
+.navbar .nav-link {
+  color: #0a2939;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+@media (min-width: 992px) {
+  .navbar .nav-link {
+    position: relative;
+  }
+  .navbar .nav-link:hover {
+    opacity: 1;
+  }
+  .navbar .nav-link::before {
+    -webkit-transition: 300ms;
+    transition: 300ms;
+    height: 3px;
+    content: "";
+    position: absolute;
+    background-color: #f05e36;
+  }
+  .navbar .nav-link.nav-link-ltr:hover::before, .navbar .nav-link.nav-link-ltr.active::before {
+    width: 90%;
+  }
+  .navbar .nav-link.nav-link-ltr::before {
+    width: 0%;
+    bottom: -5px;
+  }
+}
+
+.navbar .dropdownButton {
+  text-align: center;
+  border: 2px solid #e5e5e5;
+  border-radius: 24px;
+  width: 10rem;
+}
+
+.navbar .dropdown-toggle::after {
+  color: #f05e36;
+}
+
+#hero .hero-wrapper {
+  display: -ms-grid;
+  display: grid;
+}
+
+#hero .hero-wrapper .hero-text {
+  margin-bottom: 25px;
+}
+
+#hero .hero-wrapper .hero-banner img {
+  width: 100%;
+  height: 100%;
+}
+
+#hero .hero-wrapper .hero-banner .orange {
+  background-color: #f05e36;
+  width: 100%;
+  height: 20px;
+  z-index: 20;
+}
+
+@media (min-width: 1080px) {
+  #hero .hero-wrapper {
+    -ms-grid-columns: auto 1fr;
+        grid-template-columns: auto 1fr;
+    position: relative;
+  }
+  #hero .hero-wrapper.container {
+    max-width: 100% !important;
+    padding: 0;
+  }
+  #hero .hero-wrapper .hero-text {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+  }
+  #hero .hero-wrapper .hero-banner {
+    text-align: right;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #hero .hero-wrapper .hero-banner img {
+    width: clamp(580px, 100%, 900px);
+  }
+  #hero .hero-wrapper .hero-banner .orange {
+    width: 6.25rem;
+    height: 100%;
+  }
+}
+
+#news-card .category {
+  position: relative;
+  width: 100%;
+}
+
+#news-card .category ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+#news-card .category ul::-webkit-scrollbar {
+  display: none;
+}
+
+#news-card .category ul li {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  margin-right: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#news-card .category ul li.active {
+  color: #f05e36;
+}
+
+#news-card .category ul li:hover {
+  color: #f05e36;
+}
+
+@media (min-width: 768px) {
+  #news-card .category ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: right;
+  }
+  #news-card .category ul li {
+    margin-bottom: 35px;
+  }
+}
+
+#news-card .card-wrapper {
+  display: -ms-grid;
+  display: grid;
+  gap: 35px;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+}
+
+@media (min-width: 768px) {
+  #news-card .card-wrapper {
+    -ms-grid-columns: auto (1fr)[3];
+        grid-template-columns: auto repeat(3, 1fr);
+  }
+  #news-card .card-wrapper div:nth-of-type(3) {
+    margin-top: 50px;
+  }
+  #news-card .card-wrapper div:last-child {
+    margin-top: 25px;
+  }
+}
+
+#news-card .card-wrapper .card {
+  border: none !important;
+  padding-bottom: 35px;
+  margin-bottom: 35px !important;
+  color: #0a2939;
+}
+
+#news-card .card-wrapper .card.no-image {
+  color: white;
+}
+
+#news-card .card-wrapper .card.no-image:first-child {
+  background-color: #FDE5DE;
+  color: #0a2939;
+}
+
+#news-card .card-wrapper .card.no-image:nth-child(2) {
+  background-color: #1E5875;
+}
+
+#news-card .card-wrapper .card.no-image:last-child {
+  background-color: #f05e36;
+}
+
+.sectionLima {
+  border: 10px solid #f66f4933;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding-top: 3rem;
+  margin: 0rem auto 10rem auto;
+}
+
+.sectionLima form {
+  width: 75%;
+}
+
+.sectionLima .sectionLimaBody h2 {
+  height: 81px;
+  color: #002f39;
+  font-family: Minion;
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 10.4px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.sectionLima .sectionLimaBody p {
+  color: #f66e49;
+  font-family: "IBM Plex Sans";
+  font-size: 22px;
+  letter-spacing: -0.32px;
+  line-height: 30px;
+}
+
+.sectionLima .sectionLimaBody .SectionLimaTengah {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #e8d4cf;
+}
+
+.sectionLima .sectionLimaBody .SectionLimaTengah .email {
+  padding: 0.5rem;
+  border: none;
+  margin-right: 9rem;
+}
+
+.sectionLima .sectionLimaBody .SectionLimaTengah .av-checkbox a {
+  padding-left: 2rem;
+}
+
+.sectionLima .sectionLimaBody .SectionLimaBawah input {
+  margin: 2rem 0rem;
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-bottom: 1.6rem;
+  border-bottom: 1px solid #e8d4cf;
+  outline: none;
+}
+
+.sectionLima .SectionLimaBawahDua {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 8rem;
+}
+
+.sectionLima .SectionLimaBawahDua .button {
+  border: 1px solid #fff;
+  padding: 1rem 4rem;
+  border-radius: 24px;
+  color: #ffffff;
+  font-family: "IBM Plex Sans";
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 20px;
+  background-color: #f05e36;
+}
+
+.Footer {
+  width: 100%;
+  background-color: #021925;
+  height: 40rem;
+}
+
+.Footer .container {
+  background-color: #021925;
+  height: 100%;
+  color: #e8d4cf;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Footer .container .footerHeader {
+  margin-top: 8rem;
+  margin-bottom: 6rem;
+}
+
+.Footer .container .footerHeader img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.Footer .container .foooterBody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1.5px solid #113d53;
+  border-bottom: 1.5px solid #113d53;
+  width: 90%;
+  height: 10rem;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.Footer .container .foooterBody .footerBodyKiri {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 65%;
+  padding: 3rem 2rem;
+}
+
+.Footer .container .foooterBody .footerBodyKiri li {
+  list-style: none;
+  margin-bottom: 2rem;
+  height: 15px;
+  color: #ffffff;
+  font-family: "IBM Plex Sans";
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  line-height: 15px;
+}
+
+.Footer .container .foooterBody .footerBodyKiri .footerBodyKiriOne {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 8rem;
+}
+
+.Footer .container .foooterBody .footerBodyKiri .footerBodyKiriTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Footer .container .foooterBody .footerBodyKanan {
+  padding: 3rem 2rem;
+  width: 35%;
+  border-left: 2px #113d53 solid;
+}
+
+.Footer .container .foooterBody .footerBodyKanan .linkedIn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+.Footer .container .foooterBody .footerBodyKanan .linkedIn h5 {
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+  color: #ffffff;
+  font-family: "IBM Plex Sans";
+  font-size: 15px;
+  letter-spacing: -0.22px;
+  line-height: 19.5px;
+}
+/*# sourceMappingURL=news.css.map */

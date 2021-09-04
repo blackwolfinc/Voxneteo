@@ -1,0 +1,459 @@
+@import "mixins";
+@import "variables";
+
+body {
+    font-family: $primaryFont;
+    font-size: 14px;
+    color: $fontPrimaryColor;
+
+    @include breakpoint(md) {
+        font-size: 16px;
+    }
+}
+
+section {
+    margin: 50px 0;
+
+    @include breakpoint(lg) {
+        margin: 75px 0;
+    }
+}
+
+h1 {
+    font-size: 3rem !important;
+    color: $red;
+
+    @include breakpoint(md) {
+        font-size: 6.25rem !important;
+    }
+}
+
+h5 {
+    font-size: 1.125rem !important;
+
+    @include breakpoint(md) {
+        font-size: 1.75rem !important;
+    }
+}
+
+a {
+    color: $fontPrimaryColor !important;
+}
+
+.wrapper {
+    display: grid;
+    @include breakpoint(md) {
+        grid-template-columns: 1fr auto;
+    }
+}
+
+.birukanan {
+    display: none;
+    background-color: $fontPrimaryColor;
+    height: 100%;
+    width: 7.2rem;
+
+    @include breakpoint(md) {
+        display: block;
+    }
+}
+
+.navbar {
+    border-bottom: 1px solid $muted;
+
+    @include breakpoint(mlg) {
+        border-bottom: none;
+    }
+    .navbar-brand {
+        @include breakpoint(mlg) {
+            margin-top: 3.125rem;
+        }
+
+        @include breakpoint(lg) {
+            position: absolute;
+            top: 0;
+            border-right: 1px solid $muted;
+            height: 20rem;
+            margin-top: 0;
+
+            img {
+                margin: 6.25rem 2rem 0 0;
+            }
+        }
+    }
+
+    .navbar-nav {
+        @include breakpoint(md) {
+            width: 100%;
+            margin-top: 3.125rem;
+        }
+    }
+
+    .nav-link {
+        color: $fontPrimaryColor;
+        font-size: 1.125rem;
+        font-weight: 600;
+
+        @include breakpoint(mlg) {
+            position: relative;
+
+            &:hover {
+                opacity: 1;
+            }
+
+            &::before {
+                transition: 300ms;
+                height: 3px;
+                content: "";
+                position: absolute;
+                background-color: $red;
+            }
+
+            &.nav-link-ltr {
+                &:hover,
+                &.active {
+                    &::before {
+                        width: 90%;
+                    }
+                }
+                &::before {
+                    width: 0%;
+                    bottom: -5px;
+                }
+            }
+        }
+    }
+
+    .dropdownButton {
+        text-align: center;
+        border: 2px solid $muted;
+        border-radius: 24px;
+        width: 10rem;
+    }
+
+    .dropdown-toggle::after {
+        color: $red;
+    }
+}
+
+#hero {
+    .hero-wrapper {
+        display: grid;
+
+        .hero-text {
+            margin-bottom: 25px;
+        }
+
+        .hero-banner {
+            img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .orange {
+                background-color: $red;
+                width: 100%;
+                height: 20px;
+                z-index: 20;
+            }
+        }
+
+        @include breakpoint(lg) {
+            grid-template-columns: auto 1fr;
+            position: relative;
+            &.container {
+                max-width: 100% !important;
+                padding: 0;
+            }
+            .hero-text {
+                position: absolute;
+                bottom: 0;
+                left: 10%;
+            }
+
+            .hero-banner {
+                text-align: right;
+                justify-content: flex-end;
+                display: flex;
+
+                img {
+                    width: clamp(580px, 100%, 900px);
+                }
+
+                .orange {
+                    width: 6.25rem;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+
+#news-card {
+    .category {
+        position: relative;
+        width: 100%;
+        ul {
+            display: flex;
+            list-style-type: none;
+            padding-left: 0;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
+
+            li {
+                flex: 0 0 auto;
+                margin-right: 15px;
+                text-transform: uppercase;
+                cursor: pointer;
+                font-weight: 600;
+
+                &.active {
+                    color: $red;
+                }
+
+                &:hover {
+                    color: $red;
+                }
+            }
+
+            @include breakpoint(md) {
+                flex-direction: column;
+                text-align: right;
+
+                li {
+                    margin-bottom: 35px;
+                }
+            }
+        }
+    }
+    .card-wrapper {
+        display: grid;
+        gap: 35px;
+        grid-template-rows: auto;
+
+        @include breakpoint(md) {
+            grid-template-columns: auto repeat(3, 1fr);
+
+            div {
+                &:nth-of-type(3) {
+                    margin-top: 50px;
+                }
+
+                &:last-child {
+                    margin-top: 25px;
+                }
+            }
+        }
+
+        .card {
+            border: none !important;
+            padding-bottom: 35px;
+            margin-bottom: 35px !important;
+            color: $fontPrimaryColor;
+
+            &.no-image {
+                color: white;
+
+                &:first-child {
+                    background-color: $lightRed;
+                    color: $fontPrimaryColor;
+                }
+
+                &:nth-child(2) {
+                    background-color: $navyBlue;
+                }
+
+                &:last-child {
+                    background-color: $red;
+                }
+            }
+        }
+    }
+}
+
+.sectionLima {
+    border: 10px solid #f66f4933;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 3rem;
+    margin: 0rem auto 10rem auto;
+    form {
+        width: 75%;
+    }
+
+    .sectionLimaBody {
+        h2 {
+            height: 81px;
+
+            color: #002f39;
+            font-family: Minion;
+            font-size: 26px;
+            font-weight: bold;
+            letter-spacing: 10.4px;
+            line-height: 80px;
+            text-align: center;
+        }
+
+        p {
+            color: #f66e49;
+            font-family: "IBM Plex Sans";
+            font-size: 22px;
+            letter-spacing: -0.32px;
+            line-height: 30px;
+        }
+
+        .SectionLimaTengah {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 2rem;
+
+            .email {
+                padding: 0.5rem;
+                border: none;
+                margin-right: 9rem;
+            }
+
+            .av-checkbox {
+                a {
+                    padding-left: 2rem;
+                }
+            }
+
+            border-bottom: 1px solid #e8d4cf;
+        }
+
+        .SectionLimaBawah {
+            input {
+                margin: 2rem 0rem;
+                width: 100%;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                padding-bottom: 1.6rem;
+                border-bottom: 1px solid #e8d4cf;
+                outline: none;
+            }
+        }
+    }
+
+    .SectionLimaBawahDua {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        //     background-color: rgb(11, 2, 20);
+
+        .button {
+            border: 1px solid #fff;
+            padding: 1rem 4rem;
+            border-radius: 24px;
+            color: #ffffff;
+            font-family: "IBM Plex Sans";
+            font-size: 16px;
+            font-weight: 500;
+            letter-spacing: 0;
+            line-height: 20px;
+            background-color: #f05e36;
+        }
+
+        margin-bottom: 8rem;
+    }
+}
+
+.Footer {
+    width: 100%;
+    background-color: #021925;
+    height: 40rem;
+
+    .container {
+        background-color: #021925;
+
+        height: 100%;
+        color: #e8d4cf;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+
+        // justify-content: center;
+        .footerHeader {
+            margin-top: 8rem;
+            margin-bottom: 6rem;
+            img {
+                transform: scale(1.1);
+                opacity: 0.8;
+            }
+        }
+
+        .foooterBody {
+            display: flex;
+            border-top: 1.5px solid #113d53;
+            border-bottom: 1.5px solid #113d53;
+
+            width: 90%;
+            height: 10rem;
+            justify-content: space-evenly;
+
+            .footerBodyKiri {
+                // background-color: #E8D4CF;
+                display: flex;
+                flex-direction: row;
+                width: 65%;
+                padding: 3rem 2rem;
+                li {
+                    list-style: none;
+                    margin-bottom: 2rem;
+                    height: 15px;
+                    color: #ffffff;
+                    font-family: "IBM Plex Sans";
+                    font-size: 12px;
+                    font-weight: 500;
+                    letter-spacing: 0.5px;
+                    line-height: 15px;
+                }
+
+                .footerBodyKiriOne {
+                    flex-direction: column;
+                    display: flex;
+                    padding-right: 8rem;
+                }
+
+                .footerBodyKiriTwo {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+
+            .footerBodyKanan {
+                // background-color: #E8D4CF;
+                padding: 3rem 2rem;
+                width: 35%;
+                border-left: 2px #113d53 solid;
+                .linkedIn {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    h5 {
+                        margin-top: 0.5rem;
+                        margin-left: 2rem;
+                        color: #ffffff;
+                        font-family: "IBM Plex Sans";
+                        font-size: 15px;
+                        letter-spacing: -0.22px;
+                        line-height: 19.5px;
+                    }
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
