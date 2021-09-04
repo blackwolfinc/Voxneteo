@@ -78,11 +78,22 @@ a {
 
 .navbar {
   border-bottom: 1px solid #e5e5e5;
+  z-index: 100;
 }
 
 @media (min-width: 992px) {
   .navbar {
     border-bottom: none;
+  }
+}
+
+.navbar .ms-auto {
+  margin-left: 1rem !important;
+}
+
+@media (min-width: 992px) {
+  .navbar .ms-auto {
+    margin-left: auto !important;
   }
 }
 
