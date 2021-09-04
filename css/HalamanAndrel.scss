@@ -863,3 +863,25 @@
     }
   }
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 400px) {
+  .birukanan,
+  nav,
+  .sectionSatu {
+    display: none;
+  }
+  .sectionBody {
+    display: block;
+    .containerCategories {
+      display: flex;
+      li {
+        margin-right: 1rem;
+      }
+    }
+    .containerCards {
+      height: auto;
+      width: auto;
+      align-items: center;
+    }
+  }
+}
