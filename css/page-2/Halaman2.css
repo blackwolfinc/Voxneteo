@@ -344,24 +344,40 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-top: 1.5625rem;
+    margin-bottom: 1.5625rem;
   }
   .container .sectionLima .sectionLimaBody h2 {
     color: #002F39;
     font-family: "Minion-Bold";
-    font-size: 1.5rem;
+    font-size: 1.1875rem;
     font-weight: bold;
     letter-spacing: .65rem;
-    line-height: 5rem;
+    line-height: 2rem;
     text-align: center;
     text-transform: uppercase;
+    height: auto;
   }
   .container .sectionLima .sectionLimaBody p {
+    margin-top: 0;
+    margin-bottom: 0;
     color: #F66E49;
     font-family: "IBM Plex Sans";
-    font-size: 1.125rem;
+    font-size: .9375rem;
     letter-spacing: -0.01625rem;
     line-height: 1.125rem;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  .container .sectionLima .SectionLimaTengah .mc-field-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .container .sectionLima .SectionLimaTengah .mc-field-group input {
     color: #363636;
@@ -371,14 +387,15 @@
     line-height: 30px;
     text-align: center;
     margin: auto;
-    margin-top: auto;
     display: block;
     border: none;
     border-top: none;
     border-left: none;
     border-right: none;
     border-bottom: 1px solid #E8D4CF;
-    margin-top: 35px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
     padding-bottom: 1rem;
   }
   .container .sectionLima .SectionLimaTengah .mc-field-group ::-webkit-input-placeholder {
@@ -421,6 +438,10 @@
     line-height: 30px;
     text-align: center;
   }
+  .container .sectionLima .SectionLimaTengah .mc-field-group [placeholder] + span::after {
+    content: "*";
+    color: red;
+  }
   .container .sectionLima .SectionLimaTengah h6 {
     text-align: center;
     font-family: "IBMPlexSans-Medium";
@@ -453,6 +474,7 @@
     line-height: 18px;
   }
   .container .sectionLima .SectionLimaTengah .mc_fieldset a {
+    margin-left: .3125rem;
     color: #002F39;
     font-family: "IBM Plex Sans";
     font-size: 14px;
@@ -826,7 +848,6 @@
   }
   .container .sectionLima .sectionLimaBody {
     height: 485px;
-    width: 305px;
     border: 4px solid rgba(246, 110, 73, 0.15);
   }
   .container .sectionLima .sectionLimaBody .logo {
@@ -851,11 +872,12 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-bottom: 1.5625rem;
   }
   .container .sectionLima .sectionLimaBody h2 {
     color: #002F39;
     font-family: "Minion-Bold";
-    font-size: 22px;
+    font-size: 1.1875rem;
     font-weight: bold;
     letter-spacing: 8px;
     line-height: 24px;
@@ -868,7 +890,7 @@
     width: 256px;
     color: #F66E49;
     font-family: "IBMPlexSans-Light";
-    font-size: 18px;
+    font-size: 1.0625rem;
     letter-spacing: -0.26px;
     line-height: 24px;
     text-align: center;
@@ -879,6 +901,9 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .container .sectionLima .SectionLimaTengah .mc-field-group input {
     color: #363636;
@@ -894,7 +919,9 @@
     border-left: none;
     border-right: none;
     border-bottom: 1px solid #E8D4CF;
-    margin-top: 35px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
     padding-bottom: 1rem;
   }
   .container .sectionLima .SectionLimaTengah .mc-field-group ::-webkit-input-placeholder {
@@ -937,11 +964,9 @@
     line-height: 30px;
     text-align: center;
   }
-  .container .sectionLima .SectionLimaTengah .mc-field-group input[type=email] + span::before {
-    content: " *";
+  .container .sectionLima .SectionLimaTengah .mc-field-group [placeholder] + span::after {
+    content: "*";
     color: red;
-    display: inline;
-    margin-left: -20px;
   }
   .container .sectionLima .SectionLimaTengah h6 {
     text-align: center;
@@ -1389,6 +1414,17 @@
     margin-bottom: 0;
     margin-top: 0;
   }
+  .container .sectionLima .SectionLimaTengah .mc-field-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .container .sectionLima .SectionLimaTengah .mc-field-group input {
     color: #363636;
     font-family: "IBM Plex Sans";
@@ -1398,6 +1434,7 @@
     text-align: center;
     margin: auto;
     margin-top: auto;
+    margin-top: auto;
     display: block;
     border: none;
     border-top: none;
@@ -1406,47 +1443,16 @@
     border-bottom: 1px solid #E8D4CF;
     margin-top: 35px;
     padding-bottom: 1rem;
+  }
+  .container .sectionLima .SectionLimaTengah .mc-field-group .email {
+    padding: 0.5rem;
     width: 80%;
+    margin-left: 0;
+    margin-right: 0;
   }
-  .container .sectionLima .SectionLimaTengah .mc-field-group ::-webkit-input-placeholder {
-    height: 30px;
-    width: 256px;
-    color: #F05E36;
-    font-family: "IBM Plex Sans";
-    font-size: 16px;
-    letter-spacing: -0.24px;
-    line-height: 30px;
-    text-align: center;
-  }
-  .container .sectionLima .SectionLimaTengah .mc-field-group :-ms-input-placeholder {
-    height: 30px;
-    width: 256px;
-    color: #F05E36;
-    font-family: "IBM Plex Sans";
-    font-size: 16px;
-    letter-spacing: -0.24px;
-    line-height: 30px;
-    text-align: center;
-  }
-  .container .sectionLima .SectionLimaTengah .mc-field-group ::-ms-input-placeholder {
-    height: 30px;
-    width: 256px;
-    color: #F05E36;
-    font-family: "IBM Plex Sans";
-    font-size: 16px;
-    letter-spacing: -0.24px;
-    line-height: 30px;
-    text-align: center;
-  }
-  .container .sectionLima .SectionLimaTengah .mc-field-group ::placeholder {
-    height: 30px;
-    width: 256px;
-    color: #F05E36;
-    font-family: "IBM Plex Sans";
-    font-size: 16px;
-    letter-spacing: -0.24px;
-    line-height: 30px;
-    text-align: center;
+  .container .sectionLima .SectionLimaTengah .mc-field-group [placeholder] + span::after {
+    content: "*";
+    color: red;
   }
   .container .sectionLima .SectionLimaTengah h6 {
     text-align: center;
@@ -1948,12 +1954,12 @@
   .container .sectionLima .SectionLimaTengah .mc-field-group .email {
     padding: 0.5rem;
     width: 80%;
+    margin-left: 0;
+    margin-right: 0;
   }
-  .container .sectionLima .SectionLimaTengah .mc-field-group::after {
-    content: " *";
+  .container .sectionLima .SectionLimaTengah [placeholder] + span::after {
+    content: "*";
     color: red;
-    display: inline;
-    margin-left: -20px;
   }
   .container .sectionLima .SectionLimaTengah h6 {
     text-align: center;
@@ -3265,10 +3271,9 @@
     margin-left: 1rem;
     width: 13rem;
   }
-  .sectionLima .sectionLimaBody .SectionLimaTengah .mc-field-group::after {
-    content: " *";
+  .sectionLima .sectionLimaBody .SectionLimaTengah [placeholder] + span::after {
+    content: "*";
     color: red;
-    display: inline;
   }
   .sectionLima .sectionLimaBody .SectionLimaTengah .av-checkbox a {
     padding-left: 2rem;
@@ -3443,16 +3448,7 @@
     line-height: 19.5px;
   }
 }
-/*# sourceMappingURL=Halaman2.css.map */  padding-right: 8rem;
-    margin-right: 6rem;
-  }
-  .Footer .container .foooterBody .footerBodyKiri .footerBodyKiriTwo {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
+/*# sourceMappingURL=Halaman2.css.map */ms-flex-direction: column;
             flex-direction: column;
   }
   .Footer .container .foooterBody .footerBodyKanan {

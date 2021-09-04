@@ -403,33 +403,43 @@ $size1: 1.6rem;
                 .title {
                     display: flex;
                     justify-content: center;
+                    margin-top: 1.5625rem;
+                    margin-bottom: 1.5625rem;
                 }
 
                 h2 {
                     color: #002F39;
                     font-family: $minionBold;
-                    font-size: 1.5rem;
+                    font-size: 1.1875rem;
                     font-weight: bold;
                     letter-spacing: .65rem;
-                    line-height: 5rem;
+                    line-height: 2rem;
                     text-align: center;
                     text-transform: uppercase;
+                    height: auto;
                 }
 
                 p {
+                    margin-top: 0;
+                    margin-bottom: 0;
                     color: #F66E49;
                     font-family: "IBM Plex Sans";
-                    font-size: 1.125rem;
+                    font-size: .9375rem;
                     letter-spacing: -0.01625rem;
                     line-height: 1.125rem;
                     text-align: center;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 80%;
                 }
             }
 
             .SectionLimaTengah {
 
                 .mc-field-group {
-                    
+                    display: flex;
+                    justify-content: center;
+
                     input {
                         color: #363636;
                         font-family: "IBM Plex Sans";
@@ -437,16 +447,18 @@ $size1: 1.6rem;
                         letter-spacing: -0.24px;
                         line-height: 30px;
                         text-align: center;
+
                         margin: auto;
-                            margin-top: auto;
                         display: block;
                         border: none;
                         border-top: none;
                         border-left: none;
                         border-right: none;
                         border-bottom: 1px solid #E8D4CF;
-                        margin-top: 35px;
-                        padding-bottom: 1rem;
+                        margin-left: 0;
+                        margin-right: 0;
+                        margin-top: 0;
+                        padding-bottom: 1rem;            
                     }
 
                     ::placeholder {
@@ -458,6 +470,11 @@ $size1: 1.6rem;
                         letter-spacing: -0.24px;
                         line-height: 30px;
                         text-align: center;
+                    }
+
+                    [placeholder] + span::after{
+                        content:"*";
+                        color: red;
                     }
 
                 }
@@ -492,6 +509,7 @@ $size1: 1.6rem;
                     }
 
                     a {
+                        margin-left: .3125rem;
                         color: #002F39;
                         font-family: "IBM Plex Sans";
                         font-size: 14px;
@@ -919,7 +937,6 @@ $size1: 1.6rem;
 
             .sectionLimaBody {
                 height: 485px;
-                width: 305px;
                 border: 4px solid rgba(246, 110, 73, 0.15);
                 
 
@@ -939,12 +956,13 @@ $size1: 1.6rem;
                 .title {
                     display: flex;
                     justify-content: center;
+                    margin-bottom: 1.5625rem;
                 }
 
                 h2 {
                     color: #002F39;
                     font-family: $minionBold;
-                    font-size: 22px;
+                    font-size: 1.1875rem;
                     font-weight: bold;
                     letter-spacing: 8px;
                     line-height: 24px;
@@ -958,7 +976,7 @@ $size1: 1.6rem;
                     width: 256px;
                     color: #F66E49;
                     font-family: $ibmLight;
-                    font-size: 18px;
+                    font-size: 1.0625rem;
                     letter-spacing: -0.26px;
                     line-height: 24px;
                     text-align: center;
@@ -971,6 +989,7 @@ $size1: 1.6rem;
 
                 .mc-field-group {
                     display: flex;
+                    justify-content: center;
 
                     input {
                         color: #363636;
@@ -987,7 +1006,9 @@ $size1: 1.6rem;
                         border-left: none;
                         border-right: none;
                         border-bottom: 1px solid #E8D4CF;
-                        margin-top: 35px;
+                        margin-left: 0;
+                        margin-right: 0;
+                        margin-top: 0;
                         padding-bottom: 1rem;            
                     }
 
@@ -1002,12 +1023,17 @@ $size1: 1.6rem;
                         text-align: center;
                     }
 
-                    input[type=email]+span::before{
-                        content:" *";
+                    [placeholder] + span::after{
+                        content:"*";
                         color: red;
-                        display: inline;
-                        margin-left: -20px;
-                     }
+                    }
+
+                    // input[type=email]+span::before{
+                    //     content:" *";
+                    //     color: red;
+                    //     display: inline;
+                    //     margin-left: -20px;
+                    //  }
                 }
 
                 h6 {
@@ -1507,37 +1533,42 @@ $size1: 1.6rem;
             .SectionLimaTengah {
 
                 .mc-field-group {
-                    
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
                     input {
-                        color: #363636;
-                        font-family: "IBM Plex Sans";
-                        font-size: 16px;
-                        letter-spacing: -0.24px;
-                        line-height: 30px;
-                        text-align: center;
-                        margin: auto;
-                        margin-top: auto;
-                        display: block;
-                        border: none;
-                        border-top: none;
-                        border-left: none;
-                        border-right: none;
-                        border-bottom: 1px solid #E8D4CF;
-                        margin-top: 35px;
-                        padding-bottom: 1rem;
-                        width: 80%;
+                    color: #363636;
+                    font-family: "IBM Plex Sans";
+                    font-size: 16px;
+                    letter-spacing: -0.24px;
+                    line-height: 30px;
+                    text-align: center;
+                    margin: auto;
+                     margin-top: auto;
+                    margin-top: auto;
+                    display: block;
+                    border: none;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px solid #E8D4CF;
+                    margin-top: 35px;
+                    padding-bottom: 1rem;
+
+                    
                     }
 
+                    .email {
+                        padding: 0.5rem;
+                        width: 80%;
+                        margin-left: 0;
+                        margin-right: 0;
+                    }
 
-                    ::placeholder {
-                        height: 30px;
-                        width: 256px;
-                        color: #F05E36;
-                        font-family: "IBM Plex Sans";
-                        font-size: 16px;
-                        letter-spacing: -0.24px;
-                        line-height: 30px;
-                        text-align: center;
+                    [placeholder] + span::after{
+                        content:"*";
+                        color: red;
                     }
 
                 }
@@ -2100,17 +2131,22 @@ $size1: 1.6rem;
                     .email {
                         padding: 0.5rem;
                         width: 80%;
+                        margin-left: 0;
+                        margin-right: 0;
                     }
                 }
 
-                
-    
-                .mc-field-group::after {
-                    content:" *";
+                [placeholder] + span::after{
+                    content:"*";
                     color: red;
-                    display: inline;
-                    margin-left: -20px;
                 }
+    
+                // .mc-field-group::after {
+                //     content:" *";
+                //     color: red;
+                //     display: inline;
+                //     margin-left: -20px;
+                // }
 
 
                 h6 {
@@ -3498,11 +3534,16 @@ $size1: 1.6rem;
                 width: 13rem;
             }
 
-            .mc-field-group::after {
-                content:" *";
+            [placeholder] + span::after{
+                content:"*";
                 color: red;
-                display: inline;
             }
+
+            // .mc-field-group::after {
+            //     content:" *";
+            //     color: red;
+            //     display: inline;
+            // }
 
             .av-checkbox {
                 a {
