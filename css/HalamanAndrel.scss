@@ -39,6 +39,9 @@
       }
     }
   }
+  .logo-mobile {
+    display: none;
+  }
 
   img {
     position: absolute;
@@ -70,6 +73,11 @@
   // ul{
   //     margin-left: -1rem;
   // }
+}
+
+.sectionSatuMobile {
+  display: none;
+  visibility: hidden;
 }
 
 .sectionSatu {
@@ -872,7 +880,33 @@
   .sectionSatu {
     display: none;
   }
+
+  .sectionSatuMobile {
+    display: block;
+    visibility: visible;
+    img {
+      width: 100%;
+    }
+    h1 {
+      color: #f05e36;
+      font-family: Butler;
+      font-size: 3rem;
+      letter-spacing: -1.47px;
+      line-height: 3rem;
+      margin-top: 2rem;
+    }
+    h5 {
+      color: #021925;
+      font-family: Minion;
+      font-size: 1rem;
+      font-style: italic;
+      letter-spacing: 1.27px;
+      line-height: 1rem;
+      margin-bottom: 2rem;
+    }
+  }
   .sectionBody {
+    margin-top: 2rem;
     display: block;
     .containerCategories {
       display: flex;
@@ -887,6 +921,36 @@
       align-items: center;
       padding: 0;
     }
+    .containerCards {
+      .item {
+        &.top-center {
+          margin-top: 0;
+        }
+        &.top-right {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+
+  .navbar {
+    .container {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #dedede;
+      padding-bottom: 2rem;
+      .containerMenu {
+        flex-grow: 1;
+      }
+      .logo-mobile {
+        display: block;
+        margin-top: 0;
+        position: relative;
+      }
+      .logo-desktop {
+        display: none;
+      }
+    }
   }
   .navbar-toggler-icon {
     img {
@@ -897,17 +961,34 @@
     flex-flow: column;
   }
   .sectionLima {
+    border: 5px solid #f66f4933;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    margin-bottom: 4rem;
+    padding-top: 1rem;
+    form {
+      width: 90%;
+    }
     .sectionLimaBody {
       .icon-stamp {
         position: relative;
-        width: 100%;
+        display: block;
+        width: 80%;
+        margin: 0 auto;
       }
       h2 {
         letter-spacing: 3.4px;
       }
       .SectionLimaTengah {
+        border: none;
+        margin-bottom: 1rem;
         .email {
-          margin: 0;
+          margin: 0 0 2rem 0rem;
+          border-bottom: 1px solid #e8d4cf;
+        }
+        .button-submit {
+          margin-top: 1rem;
         }
       }
     }

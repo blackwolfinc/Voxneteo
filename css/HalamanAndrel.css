@@ -44,6 +44,10 @@
   color: #0a2939;
 }
 
+.navbar .logo-mobile {
+  display: none;
+}
+
 .navbar img {
   position: absolute;
   margin-top: 8rem;
@@ -68,6 +72,11 @@
 
 .navbar .dropdown-toggle::after {
   color: #f05e36;
+}
+
+.sectionSatuMobile {
+  display: none;
+  visibility: hidden;
 }
 
 .sectionSatu {
@@ -966,7 +975,32 @@
   .sectionSatu {
     display: none;
   }
+  .sectionSatuMobile {
+    display: block;
+    visibility: visible;
+  }
+  .sectionSatuMobile img {
+    width: 100%;
+  }
+  .sectionSatuMobile h1 {
+    color: #f05e36;
+    font-family: Butler;
+    font-size: 3rem;
+    letter-spacing: -1.47px;
+    line-height: 3rem;
+    margin-top: 2rem;
+  }
+  .sectionSatuMobile h5 {
+    color: #021925;
+    font-family: Minion;
+    font-size: 1rem;
+    font-style: italic;
+    letter-spacing: 1.27px;
+    line-height: 1rem;
+    margin-bottom: 2rem;
+  }
   .sectionBody {
+    margin-top: 2rem;
     display: block;
   }
   .sectionBody .containerCategories {
@@ -986,6 +1020,35 @@
             align-items: center;
     padding: 0;
   }
+  .sectionBody .containerCards .item.top-center {
+    margin-top: 0;
+  }
+  .sectionBody .containerCards .item.top-right {
+    margin-top: 0;
+  }
+  .navbar .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 2rem;
+  }
+  .navbar .container .containerMenu {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
+  .navbar .container .logo-mobile {
+    display: block;
+    margin-top: 0;
+    position: relative;
+  }
+  .navbar .container .logo-desktop {
+    display: none;
+  }
   .navbar-toggler-icon img {
     margin-top: 0;
   }
@@ -995,15 +1058,36 @@
         -ms-flex-flow: column;
             flex-flow: column;
   }
+  .sectionLima {
+    border: 5px solid #f66f4933;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    margin-bottom: 4rem;
+    padding-top: 1rem;
+  }
+  .sectionLima form {
+    width: 90%;
+  }
   .sectionLima .sectionLimaBody .icon-stamp {
     position: relative;
-    width: 100%;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
   }
   .sectionLima .sectionLimaBody h2 {
     letter-spacing: 3.4px;
   }
+  .sectionLima .sectionLimaBody .SectionLimaTengah {
+    border: none;
+    margin-bottom: 1rem;
+  }
   .sectionLima .sectionLimaBody .SectionLimaTengah .email {
-    margin: 0;
+    margin: 0 0 2rem 0rem;
+    border-bottom: 1px solid #e8d4cf;
+  }
+  .sectionLima .sectionLimaBody .SectionLimaTengah .button-submit {
+    margin-top: 1rem;
   }
   .Footer {
     height: auto;
