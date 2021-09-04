@@ -59,6 +59,8 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 20px;
   }
   .container .navbar .line {
     display: none;
@@ -603,6 +605,8 @@
             flex-direction: row-reverse;
     margin-left: -1.5rem;
     margin-right: -1.5rem;
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 20px;
   }
   .container .navbar .line {
     display: none;
@@ -1106,6 +1110,8 @@
             flex-direction: row-reverse;
     margin-left: -1.5rem;
     margin-right: -1.5rem;
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 20px;
   }
   .container .navbar .line {
     display: none;
