@@ -264,6 +264,7 @@
   .container .sectionTiga .sectionTigaAtas h1 {
     margin: 1.5rem;
     margin-left: 0;
+    font-family: "Butler";
   }
   .container .sectionTiga .sectionTigaBawah img {
     height: 50%;
@@ -286,7 +287,7 @@
   }
   .container .sectionTiga .sectionTigaBawah .cardSlider a {
     color: white;
-    font-family: "Butler-Light";
+    font-family: "IBM Plex Sans";
     font-size: 0.875rem;
     letter-spacing: 0;
     line-height: 2.125rem;
@@ -301,7 +302,7 @@
   }
   .container .sectionTiga .sectionTigaBawah .cardSlider p {
     color: white;
-    font-family: "Butler-Light";
+    font-family: "IBM Plex Sans";
     font-size: 0.875rem;
     letter-spacing: 0;
     line-height: 2.125rem;
@@ -316,8 +317,8 @@
     margin-top: 1.875rem;
   }
   .container .sectionLima .sectionLimaBody {
-    border: 5px solid #f66f4933;
-    opacity: 0.7;
+    height: 485px;
+    border: 4px solid rgba(246, 110, 73, 0.15);
     padding: 1.5rem;
   }
   .container .sectionLima .sectionLimaBody .logo {
@@ -772,6 +773,7 @@
   .container .sectionTiga .sectionTigaAtas h1 {
     margin: 1.5rem;
     margin-left: 0;
+    font-family: "Butler";
   }
   .container .sectionTiga .sectionTigaBawah img {
     height: 50%;
@@ -794,7 +796,7 @@
   }
   .container .sectionTiga .sectionTigaBawah .cardSlider a {
     color: white;
-    font-family: "Butler-Light";
+    font-family: "IBM Plex Sans";
     font-size: 0.875rem;
     letter-spacing: 0;
     line-height: 2.125rem;
@@ -804,9 +806,12 @@
   .container .sectionTiga .sectionTigaBawah .cardSlider p a {
     padding: 0;
   }
+  .container .sectionTiga .sectionTigaBawah .cardSlider .link {
+    margin-bottom: -1rem;
+  }
   .container .sectionTiga .sectionTigaBawah .cardSlider p {
     color: white;
-    font-family: "Butler-Light";
+    font-family: "IBM Plex Sans";
     font-size: 0.875rem;
     letter-spacing: 0;
     line-height: 2.125rem;
@@ -1260,14 +1265,28 @@
     letter-spacing: -0.018125rem;
     line-height: 1.75rem;
   }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-Four li {
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul {
+    padding-left: 0px;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul li {
     margin-left: 0.75rem;
     color: #0A2939;
     font-family: "IBMPlexSans-Light";
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     font-weight: 300;
     letter-spacing: -0.00625rem;
     line-height: 1.875rem;
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul li::before {
+    content: "-";
+    text-indent: -20px;
+    color: #f05e36;
+    letter-spacing: -0.1px;
+    line-height: 30px;
+    margin-right: 0.625rem;
   }
   .container .sectionTiga {
     margin-top: 1.875rem;
@@ -1275,6 +1294,7 @@
   .container .sectionTiga .sectionTigaAtas h1 {
     margin: 1.5rem;
     margin-left: 0;
+    font-family: "Butler";
   }
   .container .sectionTiga .sectionTigaBawah img {
     height: 50%;
@@ -1297,7 +1317,7 @@
   }
   .container .sectionTiga .sectionTigaBawah .cardSlider a {
     color: white;
-    font-family: "Butler-Light";
+    font-family: "IBM Plex Sans";
     font-size: 0.875rem;
     letter-spacing: 0;
     line-height: 2.125rem;
@@ -1307,9 +1327,12 @@
   .container .sectionTiga .sectionTigaBawah .cardSlider p a {
     padding: 0;
   }
+  .container .sectionTiga .sectionTigaBawah .cardSlider .link {
+    margin-bottom: -1rem;
+  }
   .container .sectionTiga .sectionTigaBawah .cardSlider p {
     color: white;
-    font-family: "Butler-Light";
+    font-family: "IBM Plex Sans";
     font-size: 0.875rem;
     letter-spacing: 0;
     line-height: 2.125rem;
@@ -1776,8 +1799,7 @@
     line-height: 1.625rem;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Four {
-    background-color: #021925;
-    padding: 1.5rem;
+    margin-top: 1.25rem;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Four h1 {
     color: #F05E36;
@@ -1787,8 +1809,12 @@
     letter-spacing: -0.018125rem;
     line-height: 1.75rem;
   }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-Four li {
-    color: white;
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul li {
+    color: #021925;
     font-family: "IBMPlexSans-Light";
     font-size: 1rem;
     font-weight: 300;
@@ -1812,6 +1838,7 @@
   .container .sectionTiga .sectionTigaAtas h1 {
     margin: 1.5rem;
     margin-left: 0;
+    font-family: "Butler";
   }
   .container .sectionTiga .sectionTigaBawah img {
     height: 50%;
@@ -1834,7 +1861,7 @@
   }
   .container .sectionTiga .sectionTigaBawah .cardSlider a {
     color: white;
-    font-family: "Butler-Light";
+    font-family: "IBM Plex Sans";
     font-size: 0.875rem;
     letter-spacing: 0;
     line-height: 2.125rem;
@@ -1844,9 +1871,12 @@
   .container .sectionTiga .sectionTigaBawah .cardSlider p a {
     padding: 0;
   }
+  .container .sectionTiga .sectionTigaBawah .cardSlider .link {
+    margin-bottom: -1rem;
+  }
   .container .sectionTiga .sectionTigaBawah .cardSlider p {
     color: white;
-    font-family: "Butler-Light";
+    font-family: "IBM Plex Sans";
     font-size: 0.875rem;
     letter-spacing: 0;
     line-height: 2.125rem;
@@ -2260,6 +2290,10 @@
     letter-spacing: -0.1px;
     line-height: 30px;
   }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four {
+    margin-left: 0;
+    padding-left: 0;
+  }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Four h1 {
     color: #F05E36;
     font-family: "IBMPlexSans-Light";
@@ -2267,6 +2301,10 @@
     font-weight: 500;
     letter-spacing: -0.41px;
     line-height: 36px;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul {
+    margin-left: 0;
+    padding-left: 0;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Four li {
     color: #0A2939;
@@ -2298,7 +2336,7 @@
     line-height: 56px;
   }
   .container .sectionTiga .sectionTigaBawah {
-    margin-top: 0.625rem;
+    margin-top: 5rem;
   }
   .container .sectionTiga .sectionTigaBawah .containerSlide {
     display: -webkit-box;
@@ -2339,6 +2377,9 @@
     letter-spacing: -0.09px;
     line-height: 24px;
   }
+  .container .sectionTiga .sectionTigaBawah .containerSlide .cardSlider .link {
+    margin-bottom: -0.4375rem;
+  }
   .container .sectionTiga .sectionTigaBawah .containerSlide img.imgHide {
     display: none;
   }
@@ -2373,8 +2414,20 @@
     letter-spacing: 0;
     line-height: 48px;
   }
+  .container .sectionEmpat .sectionEmpatBawah li {
+    list-style: none;
+  }
+  .container .sectionEmpat .sectionEmpatBawah li::before {
+    content: "-";
+    text-indent: -20px;
+    color: #f05e36;
+    font-size: 40px;
+    letter-spacing: -0.1px;
+    line-height: 30px;
+    margin-right: 0.625rem;
+    width: 19px;
+  }
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri {
-    margin-left: 2rem;
     margin-right: 2rem;
   }
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan {
@@ -2399,8 +2452,8 @@
   }
   .container .sectionLima form {
     width: 100%;
-    margin-right: 32px;
-    margin-left: 32px;
+    margin-right: 8rem;
+    margin-left: 8rem;
   }
   .container .sectionLima .sectionLimaBody .logo {
     display: -webkit-box;
@@ -2424,6 +2477,7 @@
     letter-spacing: 10.4px;
     line-height: 80px;
     text-align: center;
+    text-transform: uppercase;
   }
   .container .sectionLima .sectionLimaBody p {
     color: #F66E49;
@@ -2431,6 +2485,7 @@
     font-size: 22px;
     letter-spacing: -0.32px;
     line-height: 30px;
+    margin-bottom: 0;
   }
   .container .sectionLima .sectionLimaBody .SectionLimaTengah {
     width: 100%;
@@ -2444,6 +2499,7 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
     margin-bottom: 2rem;
+    margin-top: 2.5rem;
     color: #002f39;
     font-family: "IBM Plex Sans";
     font-size: 16px;
@@ -2481,6 +2537,7 @@
   .container .sectionLima .sectionLimaBody .SectionLimaTengah .mc-field-group input {
     margin-right: 0;
     padding-right: 0;
+    padding-bottom: 1.25rem;
   }
   .container .sectionLima .sectionLimaBody .SectionLimaTengah .mc-field-group::after {
     content: " *";
@@ -3213,6 +3270,7 @@
     padding: 0.5rem;
     border: none;
     width: 12.8rem;
+    padding-bottom: 1.25rem;
   }
   .sectionLima .sectionLimaBody .SectionLimaTengah ::-webkit-input-placeholder {
     border-left: 2px solid #002f39;
@@ -3259,6 +3317,7 @@
   .sectionLima .sectionLimaBody .SectionLimaTengah h6 {
     font-family: "IBMPlexSans-Medium";
     color: #002f39;
+    margin-bottom: 0;
   }
   .sectionLima .sectionLimaBody .SectionLimaBawah input {
     margin: 2rem 0rem;

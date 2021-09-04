@@ -319,6 +319,7 @@ $size1: 1.6rem;
                 h1 {
                     margin: 1.5rem;
                     margin-left: 0;
+                    font-family: $butler;
                 }
             }
 
@@ -347,7 +348,7 @@ $size1: 1.6rem;
 
                     a {
                         color: white;
-                        font-family: $butlerLight;
+                        font-family: "IBM Plex Sans";
                         font-size: .875rem;
                         letter-spacing: 0;
                         line-height: 2.125rem;
@@ -365,7 +366,7 @@ $size1: 1.6rem;
 
                     p {
                         color: white;
-                        font-family: $butlerLight;
+                        font-family: "IBM Plex Sans";
                         font-size: .875rem;
                         letter-spacing: 0;
                         line-height: 2.125rem;
@@ -389,8 +390,8 @@ $size1: 1.6rem;
             margin-top: 1.875rem;
 
             .sectionLimaBody {
-                border: 5px solid #f66f4933;
-                opacity: 0.7;
+                height: 485px;
+                border: 4px solid rgba(246, 110, 73, 0.15);
                 padding: 1.5rem;
 
                 .logo {
@@ -846,6 +847,7 @@ $size1: 1.6rem;
                 h1 {
                     margin: 1.5rem;
                     margin-left: 0;
+                    font-family: $butler;
                 }
             }
 
@@ -874,7 +876,7 @@ $size1: 1.6rem;
 
                     a {
                         color: white;
-                        font-family: $butlerLight;
+                        font-family: "IBM Plex Sans";
                         font-size: .875rem;
                         letter-spacing: 0;
                         line-height: 2.125rem;
@@ -886,9 +888,13 @@ $size1: 1.6rem;
                         padding: 0;
                     }
 
+                    .link {
+                        margin-bottom: -1rem;
+                    }
+
                     p {
                         color: white;
-                        font-family: $butlerLight;
+                        font-family: "IBM Plex Sans";
                         font-size: .875rem;
                         letter-spacing: 0;
                         line-height: 2.125rem;
@@ -1332,6 +1338,7 @@ $size1: 1.6rem;
                 }
 
                 .wraperKanan-Four {
+
                     h1 {
                         color: #F05E36;
                         font-family: $ibmReguler;
@@ -1341,14 +1348,29 @@ $size1: 1.6rem;
                         line-height: 1.75rem;
                     }
 
-                    li {
-                        margin-left: .75rem;
-                        color: #0A2939;
-                        font-family: $ibmLight;
-                        font-size: .75rem;
-                        font-weight: 300;
-                        letter-spacing: -0.00625rem;
-                        line-height: 1.875rem;
+                    ul {
+                        padding-left: 0px;
+                        li {
+                            margin-left: .75rem;
+                            color: #0A2939;
+                            font-family: $ibmLight;
+                            font-size: 0.875rem;
+                            font-weight: 300;
+                            letter-spacing: -0.00625rem;
+                            line-height: 1.875rem;
+                            list-style: none;
+                            padding-left: 0;
+                            margin-left: 0;
+                        }
+
+                        li::before {
+                            content: "-";
+                            text-indent: -20px;
+                            color: #f05e36;
+                            letter-spacing: -0.1px;
+                            line-height: 30px;
+                            margin-right: 0.625rem;
+                        }
                     }
                 }
             }
@@ -1361,6 +1383,7 @@ $size1: 1.6rem;
                 h1 {
                     margin: 1.5rem;
                     margin-left: 0;
+                    font-family: $butler;
                 }
             }
 
@@ -1389,7 +1412,7 @@ $size1: 1.6rem;
 
                     a {
                         color: white;
-                        font-family: $butlerLight;
+                        font-family: "IBM Plex Sans";
                         font-size: .875rem;
                         letter-spacing: 0;
                         line-height: 2.125rem;
@@ -1401,9 +1424,13 @@ $size1: 1.6rem;
                         padding: 0;
                     }
 
+                    .link {
+                        margin-bottom: -1rem;
+                    }
+
                     p {
                         color: white;
-                        font-family: $butlerLight;
+                        font-family: "IBM Plex Sans";
                         font-size: .875rem;
                         letter-spacing: 0;
                         line-height: 2.125rem;
@@ -1883,8 +1910,7 @@ $size1: 1.6rem;
                 }
 
                 .wraperKanan-Four {
-                    background-color: #021925;
-                    padding: 1.5rem;
+                    margin-top: 1.25rem;
 
                     h1 {
                         color: #F05E36;
@@ -1895,14 +1921,19 @@ $size1: 1.6rem;
                         line-height: 1.75rem;
                     }
 
-                    li {
-                        color: white;
-                        font-family: $ibmLight;
-                        font-size: 1rem;
-                        font-weight: 300;
-                        letter-spacing: -0.00625rem;
-                        line-height: 1.875rem;
-                        list-style: none;
+                    ul {
+                    margin-left: 0;
+                    padding-left: 0;
+
+                        li {
+                            color: #021925;
+                            font-family: $ibmLight;
+                            font-size: 1rem;
+                            font-weight: 300;
+                            letter-spacing: -0.00625rem;
+                            line-height: 1.875rem;
+                            list-style: none;
+                        }
                     }
 
                     li:before {
@@ -1926,6 +1957,7 @@ $size1: 1.6rem;
                 h1 {
                     margin: 1.5rem;
                     margin-left: 0;
+                    font-family: $butler;
                 }
             }
 
@@ -1954,7 +1986,7 @@ $size1: 1.6rem;
 
                     a {
                         color: white;
-                        font-family: $butlerLight;
+                        font-family: "IBM Plex Sans";
                         font-size: .875rem;
                         letter-spacing: 0;
                         line-height: 2.125rem;
@@ -1966,9 +1998,13 @@ $size1: 1.6rem;
                         padding: 0;
                     }
 
+                    .link {
+                        margin-bottom: -1rem;
+                    }
+
                     p {
                         color: white;
-                        font-family: $butlerLight;
+                        font-family: "IBM Plex Sans";
                         font-size: .875rem;
                         letter-spacing: 0;
                         line-height: 2.125rem;
@@ -2424,6 +2460,9 @@ $size1: 1.6rem;
                 }
 
                 .wraperKanan-Four {
+                    margin-left: 0;
+                    padding-left: 0;
+
                     h1 {
                         color: #F05E36;
                         font-family: $ibmLight;
@@ -2431,6 +2470,11 @@ $size1: 1.6rem;
                         font-weight: 500;
                         letter-spacing: -0.41px;
                         line-height: 36px;
+                    }
+
+                    ul {
+                        margin-left: 0;
+                        padding-left: 0;
                     }
 
                     li {
@@ -2473,7 +2517,7 @@ $size1: 1.6rem;
             }
 
             .sectionTigaBawah {
-                margin-top: .625rem;
+                margin-top: 5rem;
 
                 .containerSlide {
                     display: flex;
@@ -2511,6 +2555,10 @@ $size1: 1.6rem;
                                 letter-spacing: -0.09px;
                                 line-height: 24px;
                             }
+                        }
+
+                        .link {
+                            margin-bottom: -0.4375rem;
                         }
 
                     }
@@ -2551,8 +2599,22 @@ $size1: 1.6rem;
                 letter-spacing: 0;
                 line-height: 48px;
 
+                li {
+                    list-style: none;
+                }
+
+                li::before {
+                    content: "-";
+                    text-indent: -20px;
+                    color: #f05e36;
+                    font-size: 40px;
+                    letter-spacing: -0.1px;
+                    line-height: 30px;
+                    margin-right: 0.625rem;
+                    width: 19px;
+                }
+
                 .sectionEmpatBawahKiri {
-                    margin-left: 2rem;
                     margin-right: 2rem;
                 }
 
@@ -2578,8 +2640,8 @@ $size1: 1.6rem;
 
         form {
             width: 100%;
-            margin-right: 32px;
-            margin-left: 32px;
+            margin-right: 8rem;
+            margin-left: 8rem;
         }
     
         .sectionLimaBody {
@@ -2603,6 +2665,7 @@ $size1: 1.6rem;
                 letter-spacing: 10.4px;
                 line-height: 80px;
                 text-align: center;
+                text-transform: uppercase;
             }
     
             p {
@@ -2612,6 +2675,7 @@ $size1: 1.6rem;
                 font-size: 22px;
                 letter-spacing: -0.32px;
                 line-height: 30px;
+                margin-bottom: 0;
             }
     
             .SectionLimaTengah {
@@ -2620,6 +2684,7 @@ $size1: 1.6rem;
                 align-items: center;
                 justify-content: space-between;
                 margin-bottom: 2rem;
+                margin-top: 2.5rem;
     
                 .email {
                     padding: 0.5rem;
@@ -2638,6 +2703,7 @@ $size1: 1.6rem;
                     input {
                         margin-right: 0;
                         padding-right: 0;
+                        padding-bottom: 1.25rem;
                     }
                 }
     
@@ -3402,8 +3468,7 @@ $size1: 1.6rem;
                     letter-spacing: 10.4px;
                     line-height: 80px;
                     text-align: center;
-                    text-transform: uppercase;
-                    
+                    text-transform: uppercase;          
                 }
             }
         }
@@ -3418,6 +3483,7 @@ $size1: 1.6rem;
                 padding: 0.5rem;
                 border: none;
                 width: 12.8rem;
+                padding-bottom: 1.25rem;
             }
 
             ::placeholder {
@@ -3452,6 +3518,7 @@ $size1: 1.6rem;
             h6 {
                 font-family: $ibmMedium;
                 color: $color5;
+                margin-bottom: 0;
             }
 
             border-bottom: 1px solid #E8D4CF;
