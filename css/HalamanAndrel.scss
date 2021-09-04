@@ -153,6 +153,7 @@
     width: 1100px;
     flex-wrap: wrap;
     height: 1573px;
+    list-style: none;
     .item {
       width: 320px;
       margin-bottom: 4rem;
@@ -864,7 +865,8 @@
   }
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 400px) {
+// @media only screen and (min-device-width: 320px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
   .birukanan,
   nav,
   .sectionSatu {
@@ -874,6 +876,7 @@
     display: block;
     .containerCategories {
       display: flex;
+      overflow-x: auto;
       li {
         margin-right: 1rem;
       }
@@ -882,6 +885,64 @@
       height: auto;
       width: auto;
       align-items: center;
+      padding: 0;
+    }
+  }
+  .navbar-toggler-icon {
+    img {
+      margin-top: 0;
+    }
+  }
+  .SectionLimaTengah {
+    flex-flow: column;
+  }
+  .sectionLima {
+    .sectionLimaBody {
+      .icon-stamp {
+        position: relative;
+        width: 100%;
+      }
+      h2 {
+        letter-spacing: 3.4px;
+      }
+      .SectionLimaTengah {
+        .email {
+          margin: 0;
+        }
+      }
+    }
+  }
+  .Footer {
+    height: auto;
+    .container {
+      .foooterBody {
+        flex-flow: column;
+        height: auto;
+        align-items: center;
+        border: none;
+        .footerBodyKanan {
+          border-left: none;
+          width: 100%;
+          text-align: center;
+        }
+        .footerBodyKiri {
+          flex-flow: column;
+          border-top: 2px #113d53 solid;
+          border-bottom: 2px #113d53 solid;
+          width: 100%;
+          align-items: center;
+          .footerBodyKiriOne,
+          .footerBodyKiriTwo {
+            padding: 0;
+            text-align: center;
+          }
+          .footerBodyKiriTwo {
+            li:last-child {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
     }
   }
 }
