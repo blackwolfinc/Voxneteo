@@ -73,7 +73,7 @@
 }
 
 .sectionSatu {
-  margin-top: 12rem;
+  margin-top: 10rem;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -88,7 +88,7 @@
 
     .text {
       position: absolute;
-      top: 28.5rem;
+      top: 26.5rem;
       margin-left: 1rem;
 
       h1 {
@@ -163,10 +163,10 @@
           }
         }
       }
-      &.fourth {
+      &.top-center {
         margin-top: 6.5rem;
       }
-      &.six {
+      &.top-right {
         margin-top: 3.5rem;
       }
       .containerImage {

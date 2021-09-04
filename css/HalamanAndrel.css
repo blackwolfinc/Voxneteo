@@ -71,7 +71,7 @@
 }
 
 .sectionSatu {
-  margin-top: 12rem;
+  margin-top: 10rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -98,7 +98,7 @@
 
 .sectionSatu .sectionSatuKiri .text {
   position: absolute;
-  top: 28.5rem;
+  top: 26.5rem;
   margin-left: 1rem;
 }
 
@@ -185,11 +185,11 @@
   bottom: 7rem;
 }
 
-.sectionBody .containerCards .item.fourth {
+.sectionBody .containerCards .item.top-center {
   margin-top: 6.5rem;
 }
 
-.sectionBody .containerCards .item.six {
+.sectionBody .containerCards .item.top-right {
   margin-top: 3.5rem;
 }
 
