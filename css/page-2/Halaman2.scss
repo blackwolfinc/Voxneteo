@@ -78,6 +78,12 @@ $size1: 1.6rem;
             }
         }
 
+        .navbar-light {
+            .navbar-toggler {
+                border: none;
+            }
+        }
+
         .drop {
             .btn-group {
               margin-top: 0;
@@ -90,26 +96,56 @@ $size1: 1.6rem;
             left: 0;
             position: fixed;
             background-color: #021925;
-            height: 100%;
+            height: auto;
             display: inline-block;
-            width: 95%;
+            width: 90%;
             padding: 1.5rem;
             color: white;
                 li {
                     .nav-link {
-                             color: white;
-                             &:hover {
-                                color:orange;
-                            }
+                        font-family: $ibmSemiBold;
+                        font-size: 18px;
+                        color: $color1;
+                        line-height: 23px;
+                        margin-bottom: 24px;
+
+                        &:hover {
+                            color:orange;
+                        }
+                    }
+
+                    .nav-link.contact {
+                        margin-bottom: 50px;
+                    }
+
+                    ul.dash {
+                        list-style-type: none;
+                        margin-top: 30px;
+                        padding-left: 10px;
+
+                        li {
+                            font-family: $ibmReguler;
+                            font-size: 14px;
+                            color: $color1;
+                            line-height: 18px;
+                            margin-bottom: 24px;
+                            text-indent: -5px;
+                            
+                        }
+                        li.first {
+                            color: $color3;
+                        }
+                        li:before {
+                            content: "-";
+                            text-indent: -5px;
+                            margin-right: 13px;
+                            color: $color3;
+                        }
                     }
                 }
 
                 #listhide {
-                    margin-left: -16px;
-                    padding-top: 20px;
-                    border-top-width: 1px;
-                    border-top-style: solid;
-                    margin-top: 20px;
+                    border-top: 1.5px solid #113d53;
                 }
         }
 
@@ -611,27 +647,63 @@ $size1: 1.6rem;
         left: 0;
         position: fixed;
         background-color: #021925;
-        height: 100%;
+        height: auto;
         display: inline-block;
-        width: 95%;
+        width: 90%;
         padding: 1.5rem;
         color: white;
             li {
                 .nav-link {
-                         color: white;
-                         &:hover {
-                            color:orange;
-                        }
+                    font-family: $ibmSemiBold;
+                    font-size: 18px;
+                    color: $color1;
+                    line-height: 23px;
+                    margin-bottom: 24px;
+
+                    &:hover {
+                        color:orange;
+                    }
+                }
+
+                .nav-link.contact {
+                    margin-bottom: 50px;
+                }
+
+                ul.dash {
+                    list-style-type: none;
+                    margin-top: 30px;
+                    padding-left: 10px;
+
+                    li {
+                        font-family: $ibmReguler;
+                        font-size: 14px;
+                        color: $color1;
+                        line-height: 18px;
+                        margin-bottom: 24px;
+                        text-indent: -5px;
+                        
+                    }
+                    li.first {
+                        color: $color3;
+                    }
+                    li:before {
+                        content: "-";
+                        text-indent: -5px;
+                        margin-right: 13px;
+                        color: $color3;
+                    }
                 }
             }
 
             #listhide {
-                margin-left: -16px;
-                padding-top: 20px;
-                border-top-width: 1px;
-                border-top-style: solid;
-                margin-top: 20px;
+                border-top: 1.5px solid #113d53;
             }
+    }
+
+    .navbar-light {
+        .navbar-toggler {
+            border: none;
+        }
     }
 
     .container {
@@ -1183,6 +1255,13 @@ $size1: 1.6rem;
             .line {
                 display: none;
             }
+
+        }
+
+        .navbar-light {
+            .navbar-toggler {
+                border: none;
+            }
         }
 
         .navbar-nav {
@@ -1190,26 +1269,56 @@ $size1: 1.6rem;
             left: 0;
             position: fixed;
             background-color: #021925;
-            height: 100%;
+            height: auto;
             display: inline-block;
-            width: 95%;
+            width: 90%;
             padding: 1.5rem;
             color: white;
                 li {
                     .nav-link {
-                             color: white;
-                             &:hover {
-                                color:orange;
-                            }
+                        font-family: $ibmSemiBold;
+                        font-size: 18px;
+                        color: $color1;
+                        line-height: 23px;
+                        margin-bottom: 24px;
+
+                        &:hover {
+                            color:orange;
+                        }
+                    }
+
+                    .nav-link.contact {
+                        margin-bottom: 50px;
+                    }
+
+                    ul.dash {
+                        list-style-type: none;
+                        margin-top: 30px;
+                        padding-left: 10px;
+
+                        li {
+                            font-family: $ibmReguler;
+                            font-size: 14px;
+                            color: $color1;
+                            line-height: 18px;
+                            margin-bottom: 24px;
+                            text-indent: -5px;
+                            
+                        }
+                        li.first {
+                            color: $color3;
+                        }
+                        li:before {
+                            content: "-";
+                            text-indent: -5px;
+                            margin-right: 13px;
+                            color: $color3;
+                        }
                     }
                 }
 
                 #listhide {
-                    margin-left: -16px;
-                    padding-top: 20px;
-                    border-top-width: 1px;
-                    border-top-style: solid;
-                    margin-top: 20px;
+                    border-top: 1.5px solid #113d53;
                 }
         }
 
@@ -2583,7 +2692,7 @@ $size1: 1.6rem;
                     }
 
                     .cardSlider {
-                        padding: 12px;
+                        padding: 1.5rem;
                         opacity: 0.9;
                         background-color: #F05E36;
     
@@ -2598,7 +2707,7 @@ $size1: 1.6rem;
                         p {
                             color: #FFFFFF;
                             font-family: "IBM Plex Sans";
-                            font-size: 14px;
+                            font-size: 1rem;
                             letter-spacing: -0.09px;
                             line-height: 24px;
 
@@ -2606,7 +2715,7 @@ $size1: 1.6rem;
                                 text-decoration: none;
                                 color: #FFFFFF;
                                 font-family: "IBM Plex Sans";
-                                font-size: 14px;
+                                font-size: 1rem;
                                 letter-spacing: -0.09px;
                                 line-height: 24px;
                             }

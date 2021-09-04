@@ -65,6 +65,9 @@
   .container .navbar .line {
     display: none;
   }
+  .container .navbar-light .navbar-toggler {
+    border: none;
+  }
   .container .drop .btn-group {
     margin-top: 0;
     margin-left: -2.5rem;
@@ -74,24 +77,49 @@
     left: 0;
     position: fixed;
     background-color: #021925;
-    height: 100%;
+    height: auto;
     display: inline-block;
-    width: 95%;
+    width: 90%;
     padding: 1.5rem;
     color: white;
   }
   .container .navbar-nav li .nav-link {
-    color: white;
+    font-family: "IBMPlexSans-SemiBold";
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 23px;
+    margin-bottom: 24px;
   }
   .container .navbar-nav li .nav-link:hover {
     color: orange;
   }
+  .container .navbar-nav li .nav-link.contact {
+    margin-bottom: 50px;
+  }
+  .container .navbar-nav li ul.dash {
+    list-style-type: none;
+    margin-top: 30px;
+    padding-left: 10px;
+  }
+  .container .navbar-nav li ul.dash li {
+    font-family: "IBMPlexSans";
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 18px;
+    margin-bottom: 24px;
+    text-indent: -5px;
+  }
+  .container .navbar-nav li ul.dash li.first {
+    color: #f05e36;
+  }
+  .container .navbar-nav li ul.dash li:before {
+    content: "-";
+    text-indent: -5px;
+    margin-right: 13px;
+    color: #f05e36;
+  }
   .container .navbar-nav #listhide {
-    margin-left: -16px;
-    padding-top: 20px;
-    border-top-width: 1px;
-    border-top-style: solid;
-    margin-top: 20px;
+    border-top: 1.5px solid #113d53;
   }
   .container .sectionSatu {
     margin-top: 0;
@@ -571,24 +599,52 @@
     left: 0;
     position: fixed;
     background-color: #021925;
-    height: 100%;
+    height: auto;
     display: inline-block;
-    width: 95%;
+    width: 90%;
     padding: 1.5rem;
     color: white;
   }
   .navbar-nav li .nav-link {
-    color: white;
+    font-family: "IBMPlexSans-SemiBold";
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 23px;
+    margin-bottom: 24px;
   }
   .navbar-nav li .nav-link:hover {
     color: orange;
   }
+  .navbar-nav li .nav-link.contact {
+    margin-bottom: 50px;
+  }
+  .navbar-nav li ul.dash {
+    list-style-type: none;
+    margin-top: 30px;
+    padding-left: 10px;
+  }
+  .navbar-nav li ul.dash li {
+    font-family: "IBMPlexSans";
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 18px;
+    margin-bottom: 24px;
+    text-indent: -5px;
+  }
+  .navbar-nav li ul.dash li.first {
+    color: #f05e36;
+  }
+  .navbar-nav li ul.dash li:before {
+    content: "-";
+    text-indent: -5px;
+    margin-right: 13px;
+    color: #f05e36;
+  }
   .navbar-nav #listhide {
-    margin-left: -16px;
-    padding-top: 20px;
-    border-top-width: 1px;
-    border-top-style: solid;
-    margin-top: 20px;
+    border-top: 1.5px solid #113d53;
+  }
+  .navbar-light .navbar-toggler {
+    border: none;
   }
   .container {
     margin-left: 0;
@@ -1116,29 +1172,57 @@
   .container .navbar .line {
     display: none;
   }
+  .container .navbar-light .navbar-toggler {
+    border: none;
+  }
   .container .navbar-nav {
     top: 0;
     left: 0;
     position: fixed;
     background-color: #021925;
-    height: 100%;
+    height: auto;
     display: inline-block;
-    width: 95%;
+    width: 90%;
     padding: 1.5rem;
     color: white;
   }
   .container .navbar-nav li .nav-link {
-    color: white;
+    font-family: "IBMPlexSans-SemiBold";
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 23px;
+    margin-bottom: 24px;
   }
   .container .navbar-nav li .nav-link:hover {
     color: orange;
   }
+  .container .navbar-nav li .nav-link.contact {
+    margin-bottom: 50px;
+  }
+  .container .navbar-nav li ul.dash {
+    list-style-type: none;
+    margin-top: 30px;
+    padding-left: 10px;
+  }
+  .container .navbar-nav li ul.dash li {
+    font-family: "IBMPlexSans";
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 18px;
+    margin-bottom: 24px;
+    text-indent: -5px;
+  }
+  .container .navbar-nav li ul.dash li.first {
+    color: #f05e36;
+  }
+  .container .navbar-nav li ul.dash li:before {
+    content: "-";
+    text-indent: -5px;
+    margin-right: 13px;
+    color: #f05e36;
+  }
   .container .navbar-nav #listhide {
-    margin-left: -16px;
-    padding-top: 20px;
-    border-top-width: 1px;
-    border-top-style: solid;
-    margin-top: 20px;
+    border-top: 1.5px solid #113d53;
   }
   .container .sectionSatu {
     margin-top: 0;
@@ -2355,7 +2439,7 @@
     max-width: none;
   }
   .container .sectionTiga .sectionTigaBawah .containerSlide .cardSlider {
-    padding: 12px;
+    padding: 1.5rem;
     opacity: 0.9;
     background-color: #F05E36;
   }
@@ -2369,7 +2453,7 @@
   .container .sectionTiga .sectionTigaBawah .containerSlide .cardSlider p {
     color: #FFFFFF;
     font-family: "IBM Plex Sans";
-    font-size: 14px;
+    font-size: 1rem;
     letter-spacing: -0.09px;
     line-height: 24px;
   }
@@ -2377,7 +2461,7 @@
     text-decoration: none;
     color: #FFFFFF;
     font-family: "IBM Plex Sans";
-    font-size: 14px;
+    font-size: 1rem;
     letter-spacing: -0.09px;
     line-height: 24px;
   }
@@ -3454,7 +3538,7 @@
     line-height: 19.5px;
   }
 }
-/*# sourceMappingURL=Halaman2.css.map */ms-flex-direction: column;
+/*# sourceMappingURL=Halaman2.css.map */-ms-flex-direction: column;
             flex-direction: column;
   }
   .Footer .container .foooterBody .footerBodyKanan {
