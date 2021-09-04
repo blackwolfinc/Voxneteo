@@ -249,7 +249,10 @@
 }
 
 .sectionLima .stamp img {
-  display: none;
+  position: absolute;
+  right: 0;
+  -webkit-transform: translate(-1rem, -25px);
+          transform: translate(-1rem, -25px);
 }
 
 .sectionLima form {
@@ -258,21 +261,23 @@
 
 .sectionLima .sectionLimaBody h2 {
   height: 81px;
+  text-transform: uppercase;
   color: #002f39;
   font-family: Minion;
   font-size: 26px;
+  padding: 15px;
+  margin-bottom: 35px;
   font-weight: bold;
   letter-spacing: 10.4px;
   line-height: 80px;
   text-align: center;
 }
 
-.sectionLima .sectionLimaBody p {
+.sectionLima .sectionLimaBody p.body-text {
   color: #f66e49;
   font-family: "IBM Plex Sans";
-  font-size: 22px;
-  letter-spacing: -0.32px;
-  line-height: 30px;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
 }
 
 .sectionLima .sectionLimaBody .SectionLimaTengah {
@@ -286,59 +291,49 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 2rem;
+  padding: 4rem 0 2rem 0;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #e5e5e5;
   border-bottom: 1px solid #e8d4cf;
+}
+
+.sectionLima .sectionLimaBody .SectionLimaTengah input,
+.sectionLima .sectionLimaBody .SectionLimaTengah input:hover,
+.sectionLima .sectionLimaBody .SectionLimaTengah input:active,
+.sectionLima .sectionLimaBody .SectionLimaTengah input:focus {
+  border: none;
+  outline: none;
 }
 
 .sectionLima .sectionLimaBody .SectionLimaTengah .email {
   padding: 0.5rem;
   border: none;
-  margin-right: 9rem;
 }
 
-.sectionLima .sectionLimaBody .SectionLimaTengah .av-checkbox a {
-  padding-left: 2rem;
+.sectionLima .sectionLimaBody .SectionLimaTengah .gdpr-link {
+  color: #113d53;
 }
 
-.sectionLima .sectionLimaBody .SectionLimaBawah input {
-  margin: 2rem 0rem;
-  width: 100%;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  padding-bottom: 1.6rem;
-  border-bottom: 1px solid #e8d4cf;
-  outline: none;
-}
-
-.sectionLima .SectionLimaBawahDua {
+.sectionLima .sectionLimaBody .SectionLimaTengah .envoyer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 8rem;
 }
 
-.sectionLima .SectionLimaBawahDua .button {
-  border: 1px solid #fff;
-  padding: 1rem 4rem;
-  border-radius: 24px;
-  color: #ffffff;
-  font-family: "IBM Plex Sans";
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 20px;
-  background-color: #f05e36;
+.sectionLima .sectionLimaBody .SectionLimaTengah .envoyer p.envoyer-text {
+  color: #002f39;
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  -webkit-transform: translateY(30%);
+          transform: translateY(30%);
 }
 
 .Footer {
@@ -398,6 +393,10 @@
           flex-direction: row;
   width: 65%;
   padding: 3rem 2rem;
+}
+
+.Footer .container .foooterBody .footerBodyKiri * {
+  text-transform: uppercase;
 }
 
 .Footer .container .foooterBody .footerBodyKiri li {
@@ -696,7 +695,9 @@
     padding: 25px 25px 0 25px;
   }
   .sectionLima .stamp img {
-    display: block;
+    position: static;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
     width: 10rem;
     float: right;
   }
@@ -714,7 +715,7 @@
     line-height: 0;
     letter-spacing: 0.3rem;
   }
-  .sectionLima .sectionLimaBody p {
+  .sectionLima .sectionLimaBody p.body-text {
     font-size: 1.1rem;
   }
   .sectionLima .SectionLimaTengah {
@@ -729,7 +730,7 @@
   .sectionLima .SectionLimaTengah input.email {
     width: 100%;
     text-align: center;
-    margin: 25px 0;
+    margin-bottom: 1.5rem;
   }
   .sectionLima .SectionLimaTengah input.email:hover,
   .sectionLima .SectionLimaTengah input.email:focus,
@@ -740,9 +741,8 @@
     border-top: 1px solid #e5e5e5;
     color: #113d53;
   }
-  .sectionLima .SectionLimaBawah,
-  .sectionLima .SectionLimaBawahDua {
-    display: none;
+  .sectionLima .SectionLimaTengah .envoyer {
+    margin-top: 25px;
   }
   .Footer .container .footerHeader {
     display: -webkit-box;
@@ -1050,7 +1050,9 @@
     padding: 25px 25px 0 25px;
   }
   .sectionLima .stamp img {
-    display: block;
+    position: static;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
     width: 10rem;
     float: right;
   }
@@ -1405,7 +1407,9 @@
     padding: 25px 25px 0 25px;
   }
   .sectionLima .stamp img {
-    display: block;
+    position: static;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
     width: 10rem;
     float: right;
   }
@@ -1758,7 +1762,141 @@
     padding: 25px 25px 0 25px;
   }
   .sectionLima .stamp img {
-    display: block;
+    position: static;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    width: 10rem;
+    float: right;
+  }
+  .sectionLima form {
+    width: 100%;
+  }
+  .sectionLima .sectionLimaBody {
+    padding: 25px;
+  }
+  .sectionLima .sectionLimaBody h2 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    height: auto;
+    margin: 15px 0 25px 0;
+    line-height: 0;
+    letter-spacing: 0.3rem;
+  }
+  .sectionLima .sectionLimaBody p {
+    font-size: 1.1rem;
+  }
+  .sectionLima .SectionLimaTengah {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .sectionLima .SectionLimaTengah input.email {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+  }
+  .sectionLima .SectionLimaTengah input.email:hover,
+  .sectionLima .SectionLimaTengah input.email:focus,
+  .sectionLima .SectionLimaTengah input.email:active {
+    outline: 2px solid #113d53;
+  }
+  .sectionLima .SectionLimaTengah .av-checkbox {
+    border-top: 1px solid #e5e5e5;
+    color: #113d53;
+  }
+  .sectionLima .SectionLimaBawah,
+  .sectionLima .SectionLimaBawahDua {
+    display: none;
+  }
+  .Footer {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1250px) {
+  .container-fluid {
+    padding: 0;
+  }
+  .nav-mobile,
+  .menu-mobile {
+    display: none;
+  }
+  .nav-logo {
+    display: none;
+  }
+  .sectionDua {
+    padding: 0;
+    margin-top: 50px;
+    padding: 25px 0;
+    border-top: 1px solid #e5e5e5;
+  }
+  .sectionDua .sectionDuaKiri {
+    width: 100%;
+  }
+  .sectionDua .sectionDuaKiri .detailContact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .sectionDua .sectionDuaKiri .detailContact .kiri {
+    width: 100%;
+  }
+  .sectionDua .sectionDuaKiri .detailContact .kiri h6 {
+    margin-bottom: 25px;
+  }
+  .sectionDua .sectionDuaKiri .detailContact .kanan {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .sectionDua .sectionDuaKiri .detailContact .kanan p {
+    font-size: 0.8rem;
+  }
+  .sectionDua .sectionDuaKanan {
+    width: 100%;
+    border-top: 1px solid #e5e5e5;
+    padding: 2rem 0;
+  }
+  .sectionDua .sectionDuaKanan .linkMenujuLinkedln {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .sectionDua .sectionDuaKanan .linkMenujuLinkedln a,
+  .sectionDua .sectionDuaKanan .linkMenujuLinkedln img {
+    margin: 0 25px;
+  }
+  .sectionDua .sectionDuaKanan .linkMenujuLinkedln a {
+    font-size: 0.9rem;
+    margin-right: 0;
+  }
+  .sectionTiga {
+    display: none;
+  }
+  .sectionLima {
+    width: 90%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 0 50px 0;
+    padding: 0;
+    border: 5px solid #f66f4933;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  .sectionLima .stamp {
+    padding: 25px 25px 0 25px;
+  }
+  .sectionLima .stamp img {
+    position: static;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
     width: 10rem;
     float: right;
   }

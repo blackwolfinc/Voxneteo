@@ -204,7 +204,9 @@
 
   .stamp {
     img {
-      display: none;
+      position: absolute;
+      right: 0;
+      transform: translate(-1rem, -25px);
     }
   }
 
@@ -215,22 +217,24 @@
   .sectionLimaBody {
     h2 {
       height: 81px;
-
+      text-transform: uppercase;
       color: #002f39;
       font-family: Minion;
       font-size: 26px;
+      padding: 15px;
+      margin-bottom: 35px;
       font-weight: bold;
       letter-spacing: 10.4px;
       line-height: 80px;
       text-align: center;
     }
 
-    p {
+    p.body-text {
       color: #f66e49;
       font-family: "IBM Plex Sans";
-      font-size: 22px;
-      letter-spacing: -0.32px;
-      line-height: 30px;
+      font-size: 1.3rem;
+      // letter-spacing: -0.32px;
+      line-height: 1.5rem;
     }
 
     .SectionLimaTengah {
@@ -238,57 +242,44 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-bottom: 2rem;
+      padding: 4rem 0 2rem 0;
+      margin-bottom: 50px;
+      border-bottom: 1px solid #e5e5e5;
+
+      input,
+      input:hover,
+      input:active,
+      input:focus {
+        border: none;
+        outline: none;
+      }
 
       .email {
         padding: 0.5rem;
         border: none;
-        margin-right: 9rem;
       }
 
-      .av-checkbox {
-        a {
-          padding-left: 2rem;
+      .gdpr-link {
+        color: #113d53;
+      }
+
+      .envoyer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p.envoyer-text {
+          color: #002f39;
+          font-weight: bold;
+          font-size: 1rem;
+          text-transform: uppercase;
+          letter-spacing: 0.1rem;
+          transform: translateY(30%);
         }
       }
 
       border-bottom: 1px solid #e8d4cf;
     }
-
-    .SectionLimaBawah {
-      input {
-        margin: 2rem 0rem;
-        width: 100%;
-        border-top: none;
-        border-left: none;
-        border-right: none;
-        padding-bottom: 1.6rem;
-        border-bottom: 1px solid #e8d4cf;
-        outline: none;
-      }
-    }
-  }
-
-  .SectionLimaBawahDua {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-
-    .button {
-      border: 1px solid #fff;
-      padding: 1rem 4rem;
-      border-radius: 24px;
-      color: #ffffff;
-      font-family: "IBM Plex Sans";
-      font-size: 16px;
-      font-weight: 500;
-      letter-spacing: 0;
-      line-height: 20px;
-      background-color: #f05e36;
-    }
-
-    margin-bottom: 8rem;
   }
 }
 
@@ -332,6 +323,11 @@
         flex-direction: row;
         width: 65%;
         padding: 3rem 2rem;
+
+        * {
+          text-transform: uppercase;
+        }
+
         li {
           list-style: none;
           margin-bottom: 2rem;
@@ -604,7 +600,8 @@
       padding: 25px 25px 0 25px;
 
       img {
-        display: block;
+        position: static;
+        transform: translate(0, 0);
         width: 10rem;
         float: right;
       }
@@ -626,7 +623,7 @@
         letter-spacing: 0.3rem;
       }
 
-      p {
+      p.body-text {
         font-size: 1.1rem;
       }
     }
@@ -638,7 +635,7 @@
       input.email {
         width: 100%;
         text-align: center;
-        margin: 25px 0;
+        margin-bottom: 1.5rem;
       }
 
       input.email:hover,
@@ -651,11 +648,10 @@
         border-top: 1px solid #e5e5e5;
         color: #113d53;
       }
-    }
 
-    .SectionLimaBawah,
-    .SectionLimaBawahDua {
-      display: none;
+      .envoyer {
+        margin-top: 25px;
+      }
     }
   }
 
@@ -948,7 +944,8 @@
       padding: 25px 25px 0 25px;
 
       img {
-        display: block;
+        position: static;
+        transform: translate(0, 0);
         width: 10rem;
         float: right;
       }
@@ -1293,7 +1290,8 @@
       padding: 25px 25px 0 25px;
 
       img {
-        display: block;
+        position: static;
+        transform: translate(0, 0);
         width: 10rem;
         float: right;
       }
@@ -1642,7 +1640,152 @@
       padding: 25px 25px 0 25px;
 
       img {
-        display: block;
+        position: static;
+        transform: translate(0, 0);
+        width: 10rem;
+        float: right;
+      }
+    }
+
+    form {
+      width: 100%;
+    }
+
+    .sectionLimaBody {
+      padding: 25px;
+
+      h2 {
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        height: auto;
+        margin: 15px 0 25px 0;
+        line-height: 0;
+        letter-spacing: 0.3rem;
+      }
+
+      p {
+        font-size: 1.1rem;
+      }
+    }
+
+    .SectionLimaTengah {
+      flex-direction: column;
+      justify-content: center;
+
+      input.email {
+        width: 100%;
+        text-align: center;
+        margin: 25px 0;
+      }
+
+      input.email:hover,
+      input.email:focus,
+      input.email:active {
+        outline: 2px solid #113d53;
+      }
+
+      .av-checkbox {
+        border-top: 1px solid #e5e5e5;
+        color: #113d53;
+      }
+    }
+
+    .SectionLimaBawah,
+    .SectionLimaBawahDua {
+      display: none;
+    }
+  }
+
+  .Footer {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1250px) {
+  .container-fluid {
+    padding: 0;
+  }
+
+  .nav-mobile,
+  .menu-mobile {
+    display: none;
+  }
+
+  .nav-logo {
+    display: none;
+  }
+
+  .sectionDua {
+    padding: 0;
+    margin-top: 50px;
+    padding: 25px 0;
+    border-top: 1px solid #e5e5e5;
+
+    .sectionDuaKiri {
+      width: 100%;
+
+      .detailContact {
+        flex-direction: column;
+
+        .kiri {
+          width: 100%;
+
+          h6 {
+            margin-bottom: 25px;
+          }
+        }
+
+        .kanan {
+          width: 100%;
+          margin-bottom: 25px;
+
+          p {
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+
+    .sectionDuaKanan {
+      width: 100%;
+      border-top: 1px solid #e5e5e5;
+      padding: 2rem 0;
+
+      .linkMenujuLinkedln {
+        width: 100%;
+        justify-content: center;
+
+        a,
+        img {
+          margin: 0 25px;
+        }
+
+        a {
+          font-size: 0.9rem;
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  .sectionTiga {
+    display: none;
+  }
+
+  .sectionLima {
+    width: 90%;
+    flex-direction: column;
+    margin: 0 0 50px 0;
+    padding: 0;
+    border: 5px solid #f66f4933;
+    transform: translateX(0px);
+
+    .stamp {
+      padding: 25px 25px 0 25px;
+
+      img {
+        position: static;
+        transform: translate(0, 0);
         width: 10rem;
         float: right;
       }
