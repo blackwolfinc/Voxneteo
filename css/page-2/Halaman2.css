@@ -1637,32 +1637,56 @@
   }
   .container .sectionLima .sectionLimaBody h2 {
     color: #002F39;
-    font-family: "Minion-DisplayItalic";
+    font-family: "Minion-Bold";
     font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: .65rem;
     line-height: 5rem;
     text-align: center;
+    text-transform: uppercase;
   }
   .container .sectionLima .sectionLimaBody p {
     color: #F66E49;
-    font-family: "IBM Plex Sans";
+    font-family: "IBMPlexSans";
     font-size: 1.125rem;
     letter-spacing: -0.01625rem;
     line-height: 1.125rem;
     text-align: center;
   }
+  .container .sectionLima .SectionLimaTengah .mc-field-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .container .sectionLima .SectionLimaTengah .mc-field-group input {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     color: #363636;
-    font-family: "IBM Plex Sans";
+    font-family: "IBMPlexSans";
     font-size: 16px;
     letter-spacing: -0.24px;
     line-height: 30px;
     text-align: center;
-    margin: auto;
     display: block;
     border: none;
     border-bottom: 2px solid #363636;
+  }
+  .container .sectionLima .SectionLimaTengah .mc-field-group .email {
+    padding: 0.5rem;
+    width: 15rem;
+  }
+  .container .sectionLima .SectionLimaTengah .mc-field-group::after {
+    content: " *";
+    color: red;
+    display: inline;
+    margin-left: -20px;
   }
   .container .sectionLima .SectionLimaTengah h6 {
     text-align: center;
@@ -1686,17 +1710,21 @@
   }
   .container .sectionLima .SectionLimaTengah .mc_fieldset .text {
     color: #002F39;
-    font-family: "IBM Plex Sans";
+    font-family: "IBMPlexSans";
     font-size: 14px;
     letter-spacing: -0.21px;
     line-height: 18px;
   }
   .container .sectionLima .SectionLimaTengah .mc_fieldset a {
-    color: #002F39;
-    font-family: "IBM Plex Sans";
+    color: #002f39;
+    font-family: "IBMPlexSans";
     font-size: 14px;
     letter-spacing: -0.21px;
     line-height: 18px;
+  }
+  .container .sectionLima h6 {
+    font-family: "IBMPlexSans-Medium";
+    color: #002f39;
   }
   .container .sectionLima .SectionLimaBawah {
     display: none;
@@ -2875,7 +2903,7 @@
   }
   .sectionLima .sectionLimaBody p {
     color: #F66E49;
-    font-family: "IBM Plex Sans";
+    font-family: "IBMPlexSans";
     font-size: 22px;
     letter-spacing: -0.32px;
     line-height: 30px;
