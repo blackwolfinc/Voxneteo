@@ -10,6 +10,7 @@
   height: 100%;
   right: 0px;
   width: 7.2rem;
+  z-index: 800;
 }
 
 .nav-mobile,
@@ -306,7 +307,6 @@
     align-items: center;
     flex-direction: column;
 
-    // justify-content: center;
     .footerHeader {
       margin-top: 8rem;
       margin-bottom: 6rem;
@@ -381,7 +381,7 @@
   }
 }
 
-@media (min-width: 300px) and (max-width: 500px) {
+@media (min-width: 0px) and (max-width: 348px) {
   body {
     width: 100%;
     max-width: 500px;
@@ -402,7 +402,7 @@
 
   .nav-mobile {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #ffffff;
     border-bottom: 1px solid #e5e5e5;
@@ -412,25 +412,32 @@
     padding: 5px 8px;
     z-index: 200;
 
-    .menu-icon-mobile,
-    .logo-mobile {
+    .container-nav-mobile {
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
-      width: 20%;
-      cursor: pointer;
-    }
+      width: 95%;
 
-    .menu-icon-mobile {
-      svg {
-        width: 2rem;
+      .menu-icon-mobile,
+      .logo-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        cursor: pointer;
       }
-    }
 
-    .logo-mobile {
-      img {
-        width: 10rem;
-        transform: translateY(10px);
+      .menu-icon-mobile {
+        svg {
+          width: 2rem;
+        }
+      }
+
+      .logo-mobile {
+        img {
+          width: 10rem;
+          transform: translateY(10px);
+        }
       }
     }
   }
@@ -715,5 +722,982 @@
         }
       }
     }
+  }
+}
+
+@media (min-width: 348px) and (max-width: 500px) {
+  body {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .birukanan {
+    display: none;
+  }
+
+  .row {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e5e5;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 5px 8px;
+    z-index: 200;
+
+    .container-nav-mobile {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+
+      .menu-icon-mobile,
+      .logo-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        cursor: pointer;
+      }
+
+      .menu-icon-mobile {
+        svg {
+          width: 2rem;
+        }
+      }
+
+      .logo-mobile {
+        img {
+          width: 10rem;
+          transform: translateY(10px);
+        }
+      }
+    }
+  }
+
+  .menu-mobile {
+    display: flex;
+    flex-direction: column;
+    background-color: #021925;
+    width: 95%;
+    height: 100vh;
+    padding: 15px 25px;
+    transform: translateX(-100vw);
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.2s;
+    z-index: 400; // lebih tinggi daripada navbar
+
+    .x-icon-mobile {
+      svg {
+        width: 2rem;
+        cursor: pointer;
+      }
+    }
+
+    .menu-mobile-list {
+      display: flex;
+      flex-direction: column;
+      margin: 25px 0;
+
+      a {
+        color: #ffffff;
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+        font-weight: bold;
+        text-decoration: none;
+      }
+    }
+
+    .mobile-language {
+      padding: 25px 0;
+      border-top: 1px solid #113d53;
+
+      p {
+        color: #ffffff;
+      }
+
+      p::before {
+        content: "";
+        width: 2px;
+        height: 25px;
+        background-color: #f05e36;
+        transform: translateX(-25px);
+      }
+
+      p.current-language {
+        color: #f05e36;
+      }
+    }
+  }
+
+  .sectionSatu {
+    margin-top: 0;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+    margin-top: 120px;
+
+    .sectionSatuKiri {
+      background-color: transparent;
+
+      .text {
+        position: static;
+        margin-left: 0;
+
+        h1 {
+          width: auto;
+          height: auto;
+          font-size: 3rem;
+        }
+      }
+    }
+
+    .sectionSatuKanan {
+      position: static;
+      margin-left: 0;
+      z-index: 0;
+
+      img {
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .sectionDua {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin-top: 50px;
+    padding: 25px 0;
+    border-top: 1px solid #e5e5e5;
+
+    .sectionDuaKiri {
+      width: 100%;
+
+      .detailContact {
+        flex-direction: column;
+
+        .kiri {
+          width: 100%;
+
+          h6 {
+            margin-bottom: 25px;
+          }
+        }
+
+        .kanan {
+          width: 100%;
+          margin-bottom: 25px;
+
+          p {
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+
+    .sectionDuaKanan {
+      width: 100%;
+      border-top: 1px solid #e5e5e5;
+      padding: 2rem 0;
+
+      .linkMenujuLinkedln {
+        width: 100%;
+        justify-content: center;
+
+        a,
+        img {
+          margin: 0 25px;
+        }
+
+        a {
+          font-size: 0.9rem;
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  .sectionTiga {
+    display: none;
+  }
+
+  .sectionLima {
+    width: 100%;
+    flex-direction: column;
+    margin: 0 0 50px 0;
+    padding: 0;
+    border: 5px solid #f66f4933;
+    transform: translateX(0px);
+
+    .stamp {
+      padding: 25px 25px 0 25px;
+
+      img {
+        display: block;
+        width: 10rem;
+        float: right;
+      }
+    }
+
+    form {
+      width: 100%;
+    }
+
+    .sectionLimaBody {
+      padding: 25px;
+
+      h2 {
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        height: auto;
+        margin: 15px 0 25px 0;
+        line-height: 0;
+        letter-spacing: 0.3rem;
+      }
+
+      p {
+        font-size: 1.1rem;
+      }
+    }
+
+    .SectionLimaTengah {
+      flex-direction: column;
+      justify-content: center;
+
+      input.email {
+        width: 100%;
+        text-align: center;
+        margin: 25px 0;
+      }
+
+      input.email:hover,
+      input.email:focus,
+      input.email:active {
+        outline: 2px solid #113d53;
+      }
+
+      .av-checkbox {
+        border-top: 1px solid #e5e5e5;
+        color: #113d53;
+      }
+    }
+
+    .SectionLimaBawah,
+    .SectionLimaBawahDua {
+      display: none;
+    }
+  }
+
+  .Footer {
+    .container {
+      .footerHeader {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+        width: 100%;
+        margin-bottom: 0;
+        padding: 50px 0;
+        border-bottom: 1px solid #113d53;
+
+        img {
+          width: 12rem;
+        }
+      }
+
+      .foooterBody {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        border-top: 1.5px solid transparent;
+        border-bottom: 1.5px solid transparent;
+        height: auto;
+        padding: 3rem 0;
+
+        .footerBodyKiri,
+        .footerBodyKanan {
+          width: 100%;
+        }
+
+        .footerBodyKiri {
+          width: 100%;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-transform: uppercase;
+          padding: 0;
+
+          .footerBodyKiriOne,
+          .footerBodyKiriTwo {
+            text-align: center;
+          }
+
+          .footerBodyKiriOne {
+            padding-right: 0;
+          }
+        }
+
+        .footerBodyKanan {
+          border-top: 1px solid #113d53;
+          border-left: 0;
+          width: 100%;
+          padding: 25px 0;
+
+          h5 {
+            margin-left: 0;
+            letter-spacing: 0;
+            line-height: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 500px) and (max-width: 700px) {
+  body {
+    width: 100%;
+    max-width: 700px;
+  }
+
+  .birukanan {
+    display: none;
+  }
+
+  .row {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e5e5;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 5px 8px;
+    z-index: 200;
+
+    .container-nav-mobile {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      max-width: 550px;
+
+      .menu-icon-mobile,
+      .logo-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        cursor: pointer;
+      }
+
+      .menu-icon-mobile {
+        svg {
+          width: 2rem;
+        }
+      }
+
+      .logo-mobile {
+        img {
+          width: 10rem;
+          transform: translateY(10px);
+        }
+      }
+    }
+  }
+
+  .menu-mobile {
+    display: flex;
+    flex-direction: column;
+    background-color: #021925;
+    width: 95%;
+    height: 100vh;
+    padding: 15px 25px;
+    transform: translateX(-100vw);
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.2s;
+    z-index: 400; // lebih tinggi daripada navbar
+
+    .x-icon-mobile {
+      svg {
+        width: 2rem;
+        cursor: pointer;
+      }
+    }
+
+    .menu-mobile-list {
+      display: flex;
+      flex-direction: column;
+      margin: 25px 0;
+
+      a {
+        color: #ffffff;
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+        font-weight: bold;
+        text-decoration: none;
+      }
+    }
+
+    .mobile-language {
+      padding: 25px 0;
+      border-top: 1px solid #113d53;
+
+      p {
+        color: #ffffff;
+      }
+
+      p::before {
+        content: "";
+        width: 2px;
+        height: 25px;
+        background-color: #f05e36;
+        transform: translateX(-25px);
+      }
+
+      p.current-language {
+        color: #f05e36;
+      }
+    }
+  }
+
+  .sectionSatu {
+    margin-top: 0;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+    margin-top: 120px;
+
+    .sectionSatuKiri {
+      background-color: transparent;
+
+      .text {
+        position: static;
+        margin-left: 0;
+
+        h1 {
+          width: auto;
+          height: auto;
+          font-size: 3rem;
+        }
+      }
+    }
+
+    .sectionSatuKanan {
+      position: static;
+      margin-left: 0;
+      z-index: 0;
+
+      img {
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .sectionDua {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin-top: 50px;
+    padding: 25px 0;
+    border-top: 1px solid #e5e5e5;
+
+    .sectionDuaKiri {
+      width: 100%;
+
+      .detailContact {
+        flex-direction: column;
+
+        .kiri {
+          width: 100%;
+
+          h6 {
+            margin-bottom: 25px;
+          }
+        }
+
+        .kanan {
+          width: 100%;
+          margin-bottom: 25px;
+
+          p {
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+
+    .sectionDuaKanan {
+      width: 100%;
+      border-top: 1px solid #e5e5e5;
+      padding: 2rem 0;
+
+      .linkMenujuLinkedln {
+        width: 100%;
+        justify-content: center;
+
+        a,
+        img {
+          margin: 0 25px;
+        }
+
+        a {
+          font-size: 0.9rem;
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  .sectionTiga {
+    display: none;
+  }
+
+  .sectionLima {
+    width: 100%;
+    flex-direction: column;
+    margin: 0 0 50px 0;
+    padding: 0;
+    border: 5px solid #f66f4933;
+    transform: translateX(0px);
+
+    .stamp {
+      padding: 25px 25px 0 25px;
+
+      img {
+        display: block;
+        width: 10rem;
+        float: right;
+      }
+    }
+
+    form {
+      width: 100%;
+    }
+
+    .sectionLimaBody {
+      padding: 25px;
+
+      h2 {
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        height: auto;
+        margin: 15px 0 25px 0;
+        line-height: 0;
+        letter-spacing: 0.3rem;
+      }
+
+      p {
+        font-size: 1.1rem;
+      }
+    }
+
+    .SectionLimaTengah {
+      flex-direction: column;
+      justify-content: center;
+
+      input.email {
+        width: 100%;
+        text-align: center;
+        margin: 25px 0;
+      }
+
+      input.email:hover,
+      input.email:focus,
+      input.email:active {
+        outline: 2px solid #113d53;
+      }
+
+      .av-checkbox {
+        border-top: 1px solid #e5e5e5;
+        color: #113d53;
+      }
+    }
+
+    .SectionLimaBawah,
+    .SectionLimaBawahDua {
+      display: none;
+    }
+  }
+
+  .Footer {
+    .container {
+      .footerHeader {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+        width: 100%;
+        margin-bottom: 0;
+        padding: 50px 0;
+        border-bottom: 1px solid #113d53;
+
+        img {
+          width: 12rem;
+        }
+      }
+
+      .foooterBody {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        border-top: 1.5px solid transparent;
+        border-bottom: 1.5px solid transparent;
+        height: auto;
+        padding: 3rem 0;
+
+        .footerBodyKiri,
+        .footerBodyKanan {
+          width: 100%;
+        }
+
+        .footerBodyKiri {
+          width: 100%;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-transform: uppercase;
+          padding: 0;
+
+          .footerBodyKiriOne,
+          .footerBodyKiriTwo {
+            text-align: center;
+          }
+
+          .footerBodyKiriOne {
+            padding-right: 0;
+          }
+        }
+
+        .footerBodyKanan {
+          border-top: 1px solid #113d53;
+          border-left: 0;
+          width: 100%;
+          padding: 25px 0;
+
+          h5 {
+            margin-left: 0;
+            letter-spacing: 0;
+            line-height: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+  body {
+    width: 100%;
+    max-width: 800px;
+  }
+
+  .birukanan {
+    display: none;
+  }
+
+  .container-fluid {
+    padding: 0;
+  }
+
+  .row {
+    width: 100vw;
+    max-width: 800px;
+    overflow-x: hidden;
+    margin: 0 auto;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e5e5;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 5px 8px;
+    z-index: 200;
+
+    .container-nav-mobile {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      max-width: 775px;
+
+      .menu-icon-mobile,
+      .logo-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        cursor: pointer;
+      }
+
+      .menu-icon-mobile {
+        svg {
+          width: 2rem;
+        }
+      }
+
+      .logo-mobile {
+        img {
+          width: 10rem;
+          transform: translateY(10px);
+        }
+      }
+    }
+  }
+
+  .menu-mobile {
+    display: flex;
+    flex-direction: column;
+    background-color: #021925;
+    width: 95%;
+    height: 100vh;
+    padding: 20px 60px;
+    transform: translateX(-100vw);
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.2s;
+    z-index: 400; // lebih tinggi daripada navbar
+
+    .x-icon-mobile {
+      svg {
+        width: 2rem;
+        cursor: pointer;
+      }
+    }
+
+    .menu-mobile-list {
+      display: flex;
+      flex-direction: column;
+      margin: 25px 0;
+
+      a {
+        color: #ffffff;
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+        font-weight: bold;
+        text-decoration: none;
+      }
+    }
+
+    .mobile-language {
+      padding: 25px 0;
+      border-top: 1px solid #113d53;
+
+      p {
+        color: #ffffff;
+      }
+
+      p::before {
+        content: "";
+        width: 2px;
+        height: 25px;
+        background-color: #f05e36;
+        transform: translateX(-25px);
+      }
+
+      p.current-language {
+        color: #f05e36;
+      }
+    }
+  }
+
+  .sectionSatu {
+    margin-top: 0;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+    margin-top: 120px;
+
+    .sectionSatuKiri {
+      background-color: transparent;
+
+      .text {
+        position: static;
+        margin-left: 0;
+
+        h1 {
+          width: auto;
+          height: auto;
+          font-size: 3rem;
+        }
+      }
+    }
+
+    .sectionSatuKanan {
+      position: static;
+      margin-left: 0;
+      z-index: 0;
+
+      img {
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .sectionDua {
+    padding: 0;
+    margin-top: 50px;
+    padding: 25px 0;
+    border-top: 1px solid #e5e5e5;
+
+    .sectionDuaKiri {
+      width: 100%;
+
+      .detailContact {
+        flex-direction: column;
+
+        .kiri {
+          width: 100%;
+
+          h6 {
+            margin-bottom: 25px;
+          }
+        }
+
+        .kanan {
+          width: 100%;
+          margin-bottom: 25px;
+
+          p {
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+
+    .sectionDuaKanan {
+      width: 100%;
+      border-top: 1px solid #e5e5e5;
+      padding: 2rem 0;
+
+      .linkMenujuLinkedln {
+        width: 100%;
+        justify-content: center;
+
+        a,
+        img {
+          margin: 0 25px;
+        }
+
+        a {
+          font-size: 0.9rem;
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  .sectionTiga {
+    display: none;
+  }
+
+  .sectionLima {
+    width: 100%;
+    flex-direction: column;
+    margin: 0 0 50px 0;
+    padding: 0;
+    border: 5px solid #f66f4933;
+    transform: translateX(0px);
+
+    .stamp {
+      padding: 25px 25px 0 25px;
+
+      img {
+        display: block;
+        width: 10rem;
+        float: right;
+      }
+    }
+
+    form {
+      width: 100%;
+    }
+
+    .sectionLimaBody {
+      padding: 25px;
+
+      h2 {
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        height: auto;
+        margin: 15px 0 25px 0;
+        line-height: 0;
+        letter-spacing: 0.3rem;
+      }
+
+      p {
+        font-size: 1.1rem;
+      }
+    }
+
+    .SectionLimaTengah {
+      flex-direction: column;
+      justify-content: center;
+
+      input.email {
+        width: 100%;
+        text-align: center;
+        margin: 25px 0;
+      }
+
+      input.email:hover,
+      input.email:focus,
+      input.email:active {
+        outline: 2px solid #113d53;
+      }
+
+      .av-checkbox {
+        border-top: 1px solid #e5e5e5;
+        color: #113d53;
+      }
+    }
+
+    .SectionLimaBawah,
+    .SectionLimaBawahDua {
+      display: none;
+    }
+  }
+
+  .Footer {
+    width: 100%;
   }
 }

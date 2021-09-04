@@ -8,7 +8,7 @@ const switchMenu = () => {
   });
 
   xIcon.addEventListener("click", () => {
-    menuMobile.style.transform = "translateX(-100vh)";
+    menuMobile.style.transform = "translateX(-100vw)";
   });
 };
 
