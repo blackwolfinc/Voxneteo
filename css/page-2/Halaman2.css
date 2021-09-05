@@ -3923,4 +3923,69 @@
     line-height: 19.5px;
   }
 }
+/*# sourceMappingURL=Halaman2.css.map */dding: 3rem 2rem;
+    border-right: 2px #113D53 solid;
+  }
+  .Footer .container .foooterBody .footerBodyKiri li {
+    list-style: none;
+    margin-bottom: 2rem;
+    height: 15px;
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 15px;
+    text-transform: uppercase;
+  }
+  .Footer .container .foooterBody .footerBodyKiri .footerBodyKiriOne {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-right: 8rem;
+    margin-right: 6rem;
+  }
+  .Footer .container .foooterBody .footerBodyKiri .footerBodyKiriTwo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Footer .container .foooterBody .footerBodyKanan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .Footer .container .foooterBody .footerBodyKanan .linkedIn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-decoration: none;
+  }
+  .Footer .container .foooterBody .footerBodyKanan .linkedIn h5 {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    color: #FFFFFF;
+    font-family: "IBMPlexSans";
+    font-size: 15px;
+    letter-spacing: -0.22px;
+    line-height: 19.5px;
+  }
+}
 /*# sourceMappingURL=Halaman2.css.map */
