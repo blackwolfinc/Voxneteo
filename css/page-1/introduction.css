@@ -194,6 +194,16 @@ li.hidden ul li {
   font-size: 1rem;
 }
 
+.section-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .section-4 .row button {
   margin-top: 5rem;
 }
@@ -565,12 +575,28 @@ li.hidden ul li {
   .container .section-4 {
     padding: 1.5rem 2rem;
   }
-  .container .section-4 .row .title,
-  .container .section-4 .row .card-title,
-  .container .section-4 .row .card-text h3 {
+  .container .section-4 .SliderOnMobile {
+    overflow: overlay;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    width: 70rem;
+  }
+  .container .section-4 .SliderOnMobile .card-img-top {
+    width: 15rem;
+  }
+  .container .section-4 .SliderOnMobile .card {
+    width: 400rem;
+    display: -ms-grid;
+    display: grid;
+  }
+  .container .section-4 .title,
+  .container .section-4 .card-title,
+  .container .section-4 .card-text h3 {
     color: #0a2939;
   }
-  .container .section-4 .row .title {
+  .container .section-4 .title {
     height: 2.375rem;
     color: #0a2939;
     font-family: "Butler";
@@ -578,15 +604,20 @@ li.hidden ul li {
     letter-spacing: -0.03125rem;
     line-height: 2.375rem;
   }
+  .container .section-4 .row {
+    overflow: overlay;
+  }
   .container .section-4 .row .card-list-image {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    min-width: 53rem;
   }
   .container .section-4 .row .card-list-image .card {
     margin-top: 1.875rem;
     border: none;
+    margin-right: 3rem;
   }
   .container .section-4 .row .card-list-image .card .card-body h1 {
     color: #0a2939;
@@ -610,8 +641,9 @@ li.hidden ul li {
     letter-spacing: -0.01625rem;
     line-height: 1.625rem;
   }
-  .container .section-4 .row button {
+  .container .section-4 button {
     height: 3.5srem;
+    width: 100%;
     border-radius: 1.5rem;
     background-color: #0a2939;
     font-size: 1rem;
@@ -619,16 +651,86 @@ li.hidden ul li {
     margin-top: 3.375rem;
     margin-bottom: 1.5rem;
   }
-  .container .section-4 .row button.btn {
+  .container .section-4 button.btn {
     border-radius: 2.5rem;
   }
-  .container .section-4 .row button.btn-primary {
+  .container .section-4 button.btn-primary {
     background-color: #0a2939;
     border-color: #0a2939;
   }
-  .container .section-4 .row button.btn-primary:hover {
+  .container .section-4 button.btn-primary:hover {
     background-color: #0a2939;
     border-color: #0a2939;
+  }
+  .container .section-5 {
+    display: none;
+  }
+  .container .section-6 .row {
+    background-color: #021925;
+    color: #ffffff;
+    height: 39.5625rem;
+  }
+  .container .section-6 .row .logo-center {
+    margin: 5.8rem 0;
+  }
+  .container .section-6 .row .logo-center img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .container .section-6 .row hr {
+    text-decoration: none;
+    border-bottom: 2px solid #113d53;
+    height: 1px;
+    width: 80%;
+    margin-bottom: 1.9375rem;
+  }
+  .container .section-6 .row .content {
+    width: 80%;
+    padding-left: 0;
+    padding-right: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container .section-6 .row .content .text {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .container .section-6 .row .content hr {
+    width: 100%;
+  }
+  .container .section-6 .row .content h5 {
+    height: 0.9375rem;
+    font-family: "IBMPlexSans-Medium";
+    color: #ffffff;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.03125rem;
+    line-height: 0.9375rem;
+    margin-bottom: 2rem;
+  }
+  .container .section-6 .row .content .right {
+    height: 1.8125rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 1.5rem;
+  }
+  .container .section-6 .row .content .right img {
+    margin-right: 0.3125rem;
+  }
+  .container .section-6 .row .content .right h4 {
+    font-family: "IBMPlexSans";
+    font-size: 0.75rem;
+  }
+  .container .section-6 .row .end {
+    display: none;
   }
   .container .section-5 {
     display: none;
@@ -1147,6 +1249,51 @@ li.hidden ul li {
   .container .section-4 {
     padding: 1.5rem 2rem;
   }
+  .container .section-4 .SliderOnMobile {
+    overflow: overlay;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    width: 70rem;
+  }
+  .container .section-4 .SliderOnMobile .card-img-top {
+    width: 15rem;
+  }
+  .container .section-4 .SliderOnMobile .card {
+    width: 400rem;
+    display: -ms-grid;
+    display: grid;
+  }
+  .container .section-4 .title,
+  .container .section-4 .card-title,
+  .container .section-4 .card-text h3 {
+    color: #0a2939;
+  }
+  .container .section-4 .title {
+    height: 2.375rem;
+    color: #0a2939;
+    font-family: "Butler";
+    font-size: 2.125rem;
+    letter-spacing: -0.03125rem;
+    line-height: 2.375rem;
+  }
+  .container .section-4 .title,
+  .container .section-4 .card-title,
+  .container .section-4 .card-text h3 {
+    color: #0a2939;
+  }
+  .container .section-4 .title {
+    height: 2.375rem;
+    color: #0a2939;
+    font-family: "Butler";
+    font-size: 2.125rem;
+    letter-spacing: -0.03125rem;
+    line-height: 2.375rem;
+  }
+  .container .section-4 .row {
+    overflow: overlay;
+  }
   .container .section-4 .row .title,
   .container .section-4 .row .card-title,
   .container .section-4 .row .card-text h3 {
@@ -1165,10 +1312,12 @@ li.hidden ul li {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    min-width: 53rem;
   }
   .container .section-4 .row .card-list-image .card {
     margin-top: 1.875rem;
     border: none;
+    margin-right: 3rem;
   }
   .container .section-4 .row .card-list-image .card .card-body h1 {
     color: #0a2939;
@@ -1192,8 +1341,9 @@ li.hidden ul li {
     letter-spacing: -0.01625rem;
     line-height: 1.625rem;
   }
-  .container .section-4 .row button {
+  .container .section-4 button {
     height: 3.5srem;
+    width: 100%;
     border-radius: 1.5rem;
     background-color: #0a2939;
     font-size: 1rem;
@@ -1201,14 +1351,14 @@ li.hidden ul li {
     margin-top: 3.375rem;
     margin-bottom: 1.5rem;
   }
-  .container .section-4 .row button.btn {
+  .container .section-4 button.btn {
     border-radius: 2.5rem;
   }
-  .container .section-4 .row button.btn-primary {
+  .container .section-4 button.btn-primary {
     background-color: #0a2939;
     border-color: #0a2939;
   }
-  .container .section-4 .row button.btn-primary:hover {
+  .container .section-4 button.btn-primary:hover {
     background-color: #0a2939;
     border-color: #0a2939;
   }
@@ -1778,6 +1928,32 @@ li.hidden ul li {
   .container .section-4 {
     padding: 1.5rem 2rem;
   }
+  .container .section-4 .title,
+  .container .section-4 .card-title,
+  .container .section-4 .card-text h3 {
+    color: #0a2939;
+  }
+  .container .section-4 .title {
+    height: 2.375rem;
+    color: #0a2939;
+    font-family: "Butler";
+    font-size: 2.125rem;
+    letter-spacing: -0.03125rem;
+    line-height: 2.375rem;
+  }
+  .container .section-4 .title,
+  .container .section-4 .card-title,
+  .container .section-4 .card-text h3 {
+    color: #0a2939;
+  }
+  .container .section-4 .title {
+    height: 2.375rem;
+    color: #0a2939;
+    font-family: "Butler";
+    font-size: 2.125rem;
+    letter-spacing: -0.03125rem;
+    line-height: 2.375rem;
+  }
   .container .section-4 .row .title,
   .container .section-4 .row .card-title,
   .container .section-4 .row .card-text h3 {
@@ -1842,6 +2018,26 @@ li.hidden ul li {
     border-color: #0a2939;
   }
   .container .section-4 .row button.btn-primary:hover {
+    background-color: #0a2939;
+    border-color: #0a2939;
+  }
+  .container .section-4 button {
+    height: 3.5srem;
+    border-radius: 1.5rem;
+    background-color: #0a2939;
+    font-size: 1rem;
+    padding: 0.8125rem 3.8125rem;
+    margin-top: 3.375rem;
+    margin-bottom: 1.5rem;
+  }
+  .container .section-4 button.btn {
+    border-radius: 2.5rem;
+  }
+  .container .section-4 button.btn-primary {
+    background-color: #0a2939;
+    border-color: #0a2939;
+  }
+  .container .section-4 button.btn-primary:hover {
     background-color: #0a2939;
     border-color: #0a2939;
   }
@@ -2331,6 +2527,19 @@ li.hidden ul li {
   .container .section-4 {
     padding: 1.5rem 2rem;
   }
+  .container .section-4 .title,
+  .container .section-4 .card-title,
+  .container .section-4 .card-text h3 {
+    color: #0a2939;
+  }
+  .container .section-4 .title {
+    height: 2.375rem;
+    color: #0a2939;
+    font-family: "Butler";
+    font-size: 2.125rem;
+    letter-spacing: -0.03125rem;
+    line-height: 2.375rem;
+  }
   .container .section-4 .row .title,
   .container .section-4 .row .card-title,
   .container .section-4 .row .card-text h3 {
@@ -2396,6 +2605,27 @@ li.hidden ul li {
     border-color: #0a2939;
   }
   .container .section-4 .row button.btn-primary:hover {
+    background-color: #0a2939;
+    border-color: #0a2939;
+  }
+  .container .section-4 button {
+    height: 3rem;
+    width: 20rem;
+    border-radius: 1.5rem;
+    background-color: #0a2939;
+    font-size: 1rem;
+    padding: 0.8125rem 3.8125rem;
+    margin-top: 3.375rem;
+    margin-bottom: 1.5rem;
+  }
+  .container .section-4 button.btn {
+    border-radius: 1.5rem;
+  }
+  .container .section-4 button.btn-primary {
+    background-color: #0a2939;
+    border-color: #0a2939;
+  }
+  .container .section-4 button.btn-primary:hover {
     background-color: #0a2939;
     border-color: #0a2939;
   }
@@ -2938,6 +3168,19 @@ li.hidden ul li {
   .section-4 {
     padding: 6.875rem 6.25rem;
   }
+  .section-4 .title,
+  .section-4 .card-title,
+  .section-4 .card-text h3 {
+    color: #0a2939;
+  }
+  .section-4 .title {
+    height: 2.375rem;
+    color: #0a2939;
+    font-family: "Butler";
+    font-size: 2.125rem;
+    letter-spacing: -0.03125rem;
+    line-height: 2.375rem;
+  }
   .section-4 .row .title,
   .section-4 .row .card-title,
   .section-4 .row .card-text h3 {
@@ -3004,6 +3247,26 @@ li.hidden ul li {
     border-color: #0a2939;
   }
   .section-4 .row button.btn-primary:hover {
+    background-color: #0a2939;
+    border-color: #0a2939;
+  }
+  .section-4 button {
+    height: 3.5srem;
+    border-radius: 1.5rem;
+    background-color: #0a2939;
+    font-size: 1rem;
+    padding: 0.8125rem 3.8125rem;
+    margin-top: 3.375rem;
+    margin-bottom: 1.5rem;
+  }
+  .section-4 button.btn {
+    border-radius: 2.5rem;
+  }
+  .section-4 button.btn-primary {
+    background-color: #0a2939;
+    border-color: #0a2939;
+  }
+  .section-4 button.btn-primary:hover {
     background-color: #0a2939;
     border-color: #0a2939;
   }
@@ -3550,6 +3813,19 @@ li.hidden ul li {
   .section-4 {
     padding: 6.875rem 6.25rem;
   }
+  .section-4 .title,
+  .section-4 .card-title,
+  .section-4 .card-text h3 {
+    color: #0a2939;
+  }
+  .section-4 .title {
+    height: 2.375rem;
+    color: #0a2939;
+    font-family: "Butler";
+    font-size: 2.125rem;
+    letter-spacing: -0.03125rem;
+    line-height: 2.375rem;
+  }
   .section-4 .row .title,
   .section-4 .row .card-title,
   .section-4 .row .card-text h3 {
@@ -3616,6 +3892,26 @@ li.hidden ul li {
     border-color: #0a2939;
   }
   .section-4 .row button.btn-primary:hover {
+    background-color: #0a2939;
+    border-color: #0a2939;
+  }
+  .section-4 button {
+    height: 3.5srem;
+    border-radius: 1.5rem;
+    background-color: #0a2939;
+    font-size: 1rem;
+    padding: 0.8125rem 3.8125rem;
+    margin-top: 3.375rem;
+    margin-bottom: 1.5rem;
+  }
+  .section-4 button.btn {
+    border-radius: 2.5rem;
+  }
+  .section-4 button.btn-primary {
+    background-color: #0a2939;
+    border-color: #0a2939;
+  }
+  .section-4 button.btn-primary:hover {
     background-color: #0a2939;
     border-color: #0a2939;
   }
@@ -4042,6 +4338,19 @@ li.hidden ul li {
   .section-4 {
     padding: 6.875rem 6.25rem;
   }
+  .section-4 .title,
+  .section-4 .card-title,
+  .section-4 .card-text h3 {
+    color: #0a2939;
+  }
+  .section-4 .title {
+    height: 2.375rem;
+    color: #0a2939;
+    font-family: "Butler";
+    font-size: 2.125rem;
+    letter-spacing: -0.03125rem;
+    line-height: 2.375rem;
+  }
   .section-4 .row .title,
   .section-4 .row .card-title,
   .section-4 .row .card-text h3 {
@@ -4110,6 +4419,26 @@ li.hidden ul li {
     border-color: #0a2939;
   }
   .section-4 .row button.btn-primary:hover {
+    background-color: #0a2939;
+    border-color: #0a2939;
+  }
+  .section-4 button {
+    height: 3.5srem;
+    border-radius: 1.5rem;
+    background-color: #0a2939;
+    font-size: 1rem;
+    padding: 0.8125rem 3.8125rem;
+    margin-top: 3.375rem;
+    margin-bottom: 1.5rem;
+  }
+  .section-4 button.btn {
+    border-radius: 2.5rem;
+  }
+  .section-4 button.btn-primary {
+    background-color: #0a2939;
+    border-color: #0a2939;
+  }
+  .section-4 button.btn-primary:hover {
     background-color: #0a2939;
     border-color: #0a2939;
   }
@@ -4235,18 +4564,6 @@ li.hidden ul li {
   }
   .section-5 .carousel .carousel-inner {
     width: 120%;
-  }
-  .section-5 .carousel .carousel-inner .carousel-item {
-    display: block;
-    opacity: 0.2;
-    margin-left: 40rem;
-  }
-  .section-5 .carousel .carousel-inner :nth-child(2).active {
-    margin-left: -40rem !important;
-  }
-  .section-5 .carousel .carousel-inner .active {
-    opacity: 1 !important;
-    margin-left: 0rem !important;
   }
   .section-5 .carousel .carousel-inner .crop-Container {
     margin-top: 3rem;
