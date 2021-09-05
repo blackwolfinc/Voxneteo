@@ -7,11 +7,9 @@
     <title>Contact</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/csscustom.css">
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/page-6/contact.css">
     <link rel="stylesheet" href="Fonts/fontSetup/stylesheet.css">
 </head>
-<div class="birukanan">tt</div>
-
 <body>
     <!-- Carousel Col -->
 
@@ -58,42 +56,52 @@
                 <nav class="navbar navbar-expand-lg navbar-black">
                     <div class="container-fluid">
                         <div class="container">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        <nav class="navbar navbar-light bg-white">
+                            <span class="line"></span>
+                            <a class="navbar-brand" href="#">
+                                <img src="assets/logos/logo-fmg-color-tiny.svg" width="50" height="50" alt="" class="img-fluid">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#main-navigation" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon">    <img src = "Source/logo.svg" alt="My Happy SVG"/></span>
-                        </button>
-                        <div class="col-md-12 collapse navbar-collapse" id="navbarSupportedContent">
-                           
-                          
-                            <ul class="navbar-nav col-md-12">
-                                <li class="nav-item col-md-2 nav-logo">
-                                    <img class="nav-item" src = "Source/logo-fmg-contact-page.svg" alt="Logo"/>
+                                <span class="navbar-toggler-icon">  
+                                </span>
+                            </button>
+                        </nav>
+                        <div class="collapse navbar-collapse" id="main-navigation">
+                            <ul class="navbar-nav">
+                                <!-- hide icon -->
+                                <li class="nav-item d-none" id="hidebtn">
+                                    <a class="nav-link"><i class="fa fa-close fa-2x"></i></a>
                                 </li>
-                                <li class="nav-item col-md-2 border-logo">
-                                    <a class="nav-link active" aria-current="page" href="#">Nos services</a>
+                                <!-- end -->
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">Nos services</a>
                                 </li>
-                                <li class="nav-item col-md-2">
-                                    <a class="nav-link" href="#">A propos de FMG</a>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="#">A propos de FMG</a>
                                 </li>
-                        <li class="nav-item col-md-2">
+                                <li class="nav-item">
                                     <a class="nav-link" href="#">Actualité fiscale</a>
                                 </li>
-                                <li class="nav-item col-md-2">
-                                    <a class="nav-link" href="#">Contact</a>
+                                <li class="nav-item  start">
+                                    <a class="nav-link contact active" href="#">Contact</a>
                                 </li>
-                                <li class=" nav-item dropdown col-md-2">
+                                <li class="nav-item hidden d-none" id="listhide">
+                                        <ul class="dash">
+                                          <li class="first">Français</li>
+                                          <li>English</li>
+                                        </ul>
+                                </li>
+                                <li class="nav-item end dropdown drop">
                                     <a class="dropdownButton  nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Français
+                                        <img src="assets/Icons/arrow-dropdown.svg" alt="">
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <li><a class="dropdown-item" href="#">Francais</a></li>
+                                        <li><a class="dropdown-item" href="#">English</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -106,11 +114,16 @@
                     <div class="sectionSatu">
                         <div class="sectionSatuKiri">
                             <div class="text">
-                                <h1>Contact</h1>
+                                <h1>Contact
+                                </h1>
+                                <h5>de la fiduciaire
+    
+                                </h5>
+    
                             </div>
                         </div>
                         <div class="sectionSatuKanan">
-                            <img src="./Source/apropos.png" alt="">
+                            <img src="./assets/images/apropos.png" alt="" class="img-fluid">
                         </div>
                     </div>
 
@@ -164,7 +177,7 @@
                     <!-- READ THIS  -->
                     <!-- Section 4 tidak ada, karena terlanjur mengikuti penulisan sebelumnya maka langsung dilanjut ke Section 5 -->
 
-                    <div id="mc_embed_signup" class="sectionLima">
+                    <div id="mc_embed_signup" class="sectionEmpat">
                         <div class="stamp">
                             <img src="Source/icon-stamp.svg" alt="Stamp">
                         </div>
@@ -172,12 +185,12 @@
                             action="https://voxteneo.us5.list-manage.com/subscribe/post?u=8997332610305bf8025effc3a&amp;id=d7573cb811"
                             method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
                             class="validate" target="_blank" novalidate="novalidate">
-                            <div class="sectionLimaBody" id="mc_embed_signup_scroll">
+                            <div class="sectionEmpatBody" id="mc_embed_signup_scroll">
                                 <h2>Newsletter</h2>
                                 <p class="body-text">Moures non tempor quam, et lacinia sapien mauris</p>
                                 <p class="body-text">Accumsan erros eget libero posur vulputat</p>
 
-                                <div class="SectionLimaTengah">
+                                <div class="sectionEmpatTengah">
                                     <div class="mc-field-group">
                                         <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"
                                             placeholder="Enter votre addrese email" aria-required="true">
@@ -214,40 +227,30 @@
             </div>
             <div class="Footer">
                 <div class="container">
-                    <div class="footerHeader">
-                        <img src="Source/logo-fmg-colors (1).svg" alt="My Happy SVG" />
+                <div class="footerHeader">
+                    <img src = "assets/logos/logo-fmg-colors.svg" alt="My Happy SVG" class="img-fluid">
+                </div>
+                <div class="foooterBody">
+                    <div class="footerBodyKiri">
+                        <div class="footerBodyKiriOne">
+                            <li>qui sommes-nous</li>
+                            <li>nos services</li>
+                        </div>
+                        <div class="footerBodyKiriTwo">
+                            <li>actualité</li>
+                            <li>contact</li>
+                        </div>
                     </div>
-                    <div class="foooterBody">
-                        <div class="footerBodyKiri">
-                            <div class="footerBodyKiriOne">
-                                <li>qui sommes-nous
+                    <div class="footerBodyKanan">
 
-                                </li>
-                                <li>nos services
-
-
-
-                                </li>
-                            </div>
-                            <div class="footerBodyKiriTwo">
-                                <li>actualité
-
-                                </li>
-                                <li>contact
-
-                                </li>
-                            </div>
-                        </div>
-                        <div class="footerBodyKanan">
-
-                            <a class="linkedIn">
-                                <img src="Source/icon-linkedin.svg" alt="">
-                                <h5>Let’s stay in touch on LinkedIn
-                                </h5>
-                            </a>
-                        </div>
+                        <a class="linkedIn">
+                            <img src="assets/Icons/icon-linkedin.svg" alt="">
+                            <h5>Let’s stay in touch on LinkedIn
+                            </h5>
+                        </a>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
 
