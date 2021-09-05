@@ -96,7 +96,7 @@ $size1: 1.6rem;
             left: 0;
             position: fixed;
             background-color: #021925;
-            height: auto;
+            height: 100%;
             display: inline-block;
             width: 90%;
             padding: 1.5rem;
@@ -221,25 +221,33 @@ $size1: 1.6rem;
                     }
                 }
 
+                .wraperKiri-Three {
+                    img {
+                        margin-left: -1.5rem;
+                    }
+                }
+
                 .wraperKiri-Four {
-                    margin-top: 1.4375rem;
+                    margin-top: 2rem;
+                    background-color: #0A2939;
+                    padding: 2rem;
 
                     h3 {
                         color: #F05E36;
-                        font-family: $ibmReguler;
-                        font-size: 1.25rem;
-                        font-weight: 500;
-                        letter-spacing: -0.018125rem;
-                        line-height: 1.75rem;
+                        font-family: Butler;
+                        font-size: 32px;
+                        font-weight: 300;
+                        letter-spacing: -0.47px;
+                        line-height: 36px;
                     }
 
                     p {
-                        color: #0A2939;
-                        font-family: $ibmLight;
-                        font-size: .875rem;
+                        color: #FFFFFF;
+                        font-family: "IBM Plex Sans";
+                        font-size: 18px;
                         font-weight: 300;
-                        letter-spacing: -0.005625rem;
-                        line-height: 1.625rem;
+                        letter-spacing: -0.11px;
+                        line-height: 28px;
                     }
                 }
 
@@ -251,6 +259,7 @@ $size1: 1.6rem;
                 .wraperKanan-One {
                     background-color: #F05E36;
                     padding: .75rem;
+                    display: none;
 
                     p {
                         color: #0A2939;
@@ -289,12 +298,13 @@ $size1: 1.6rem;
 
                 .wraperKanan-Three {
                     h3 {
-                        color: #0A2939;
-                        font-family: $ibmReguler;
-                        font-size: 1.125rem;
-                        font-weight: 300;
-                        letter-spacing: -0.01625rem;
-                        line-height: 1.75rem;
+                        color: #F05E36;
+                        font-family: "IBM Plex Sans";
+                        font-size: 20px;
+                        font-weight: 500;
+                        letter-spacing: -0.29px;
+                        line-height: 28px;
+                        margin-top: 2.125rem;
                     }
 
                     p {
@@ -309,13 +319,14 @@ $size1: 1.6rem;
                 }
 
                 .wraperKanan-Four {
+                    margin-top: 2.4375rem;
                     h1 {
                         color: #F05E36;
-                        font-family: $ibmReguler;
-                        font-size: 1.25rem;
+                        font-family: "IBM Plex Sans";
+                        font-size: 20px;
                         font-weight: 500;
-                        letter-spacing: -0.018125rem;
-                        line-height: 1.75rem;
+                        letter-spacing: -0.29px;
+                        line-height: 28px;
                     }
 
                     ul {
@@ -354,41 +365,42 @@ $size1: 1.6rem;
                 h1 {
                     margin: 1.5rem;
                     margin-left: 0;
-                    font-family: $butler;
+                    color: #021925;
+                    font-family: Butler;
+                    font-size: 34px;
+                    letter-spacing: -0.5px;
+                    line-height: 38px;
                 }
             }
 
             .sectionTigaBawah {
                 img {
+                    margin-top: 1rem;
                     height: 50%;
                     width: 100%;
-                }
-
-                .imgHide {
-                    display: none;
                 }
 
                 .cardSlider {
                     opacity: 0.9;
                     background-color: #F05E36;
                     padding: 1.5rem;
+                    margin-top: 1rem;
 
                     h2 {
                         color: #0A2939;
-                        font-family: $butler;
-                        font-size: 1.2rem;
+                        font-family: Butler;
+                        font-size: 28px;
                         letter-spacing: 0;
-                        line-height: 2.125rem;
+                        line-height: 34px;
                     }
 
                     a {
-                        color: white;
+                        color: #FFFFFF;
                         font-family: "IBM Plex Sans";
-                        font-size: .875rem;
-                        letter-spacing: 0;
-                        line-height: 2.125rem;
-                        text-decoration: none;  
-                        font-weight: bold;                      
+                        font-size: 14px;
+                        letter-spacing: -0.09px;
+                        line-height: 24px;  
+                        text-decoration: none;                    
                     }
 
                     p a {
@@ -396,7 +408,7 @@ $size1: 1.6rem;
                     }
                     
                     .link {
-                        margin-bottom: -1rem;
+                        margin-bottom: -0.625rem;
                     }
 
                     p {
@@ -423,10 +435,9 @@ $size1: 1.6rem;
 
         .sectionLima {
             margin-top: 1.875rem;
-
+            border: 4px solid rgba(246, 110, 73, 0.15);
             .sectionLimaBody {
-                height: 485px;
-                border: 4px solid rgba(246, 110, 73, 0.15);
+                
                 padding: 1.5rem;
 
                 .logo {
@@ -558,11 +569,70 @@ $size1: 1.6rem;
             }
 
             .SectionLimaBawah {
-                display: none;
+                margin-top: 1.875rem;
+
+                p {
+                    color: #F66E49;
+                    font-family: "IBM Plex Sans";
+                    font-size: 18px;
+                    letter-spacing: -0.26px;
+                    line-height: 24px;
+                    text-align: center;
+                }
+
+                .mc-field-group {
+                    margin-top: 2rem;
+                }
+
+                input {
+                    color: #363636;
+                    font-family: "IBM Plex Sans";
+                    font-size: 16px;
+                    letter-spacing: -0.24px;
+                    line-height: 30px;
+                    text-align: left;
+
+                    margin: auto;
+                    display: block;
+                    border: none;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px solid #E8D4CF;
+                    margin-left: 0;
+                    margin-right: 0;
+                    margin-top: 0;
+                    padding-bottom: 1rem;            
+                }
+
+                ::placeholder {
+                    color: #363636;
+                    font-family: "IBM Plex Sans";
+                    font-size: 16px;
+                    letter-spacing: -0.24px;
+                    line-height: 30px;
+                    text-align: left;
+                }
             }
 
             .SectionLimaBawahDua {
-                display: none;
+                padding: 1.5625rem;
+
+                button {
+                    margin-top: 1.5625rem;
+                    border: 1px solid #fff;
+                    border-radius: 24px;
+                    padding-top: .9375rem;
+                    padding-bottom: .9375rem;
+                    color: #FFFFFF;
+                    font-family: "IBM Plex Sans";
+                    font-size: 16px;
+                    font-weight: 500;
+                    letter-spacing: 0;
+                    line-height: 20px;
+                    background-color: #F05E36;
+                    width: 100%;
+                }
             }
         }
     }
@@ -647,7 +717,7 @@ $size1: 1.6rem;
         left: 0;
         position: fixed;
         background-color: #021925;
-        height: auto;
+        height: 100%;
         display: inline-block;
         width: 90%;
         padding: 1.5rem;
@@ -801,28 +871,31 @@ $size1: 1.6rem;
 
                     img {
                         width: 100%;
+                        margin-left: -1.5rem;
                     }
                 }
 
                 .wraperKiri-Four {
-                    margin-top: 1.4375rem;
+                    margin-top: 2rem;
+                    background-color: #0A2939;
+                    padding: 2rem;
 
                     h3 {
                         color: #F05E36;
-                        font-family: $ibmReguler;
-                        font-size: 1.25rem;
-                        font-weight: 500;
-                        letter-spacing: -0.018125rem;
-                        line-height: 1.75rem;
+                        font-family: Butler;
+                        font-size: 32px;
+                        font-weight: 300;
+                        letter-spacing: -0.47px;
+                        line-height: 36px;
                     }
 
                     p {
-                        color: #0A2939;
-                        font-family: $ibmLight;
-                        font-size: .875rem;
+                        color: #FFFFFF;
+                        font-family: "IBM Plex Sans";
+                        font-size: 18px;
                         font-weight: 300;
-                        letter-spacing: -0.005625rem;
-                        line-height: 1.625rem;
+                        letter-spacing: -0.11px;
+                        line-height: 28px;
                     }
                 }
 
@@ -832,8 +905,7 @@ $size1: 1.6rem;
                 margin-top: 1.4375rem;
 
                 .wraperKanan-One {
-                    background-color: #F05E36;
-                    padding: .75rem;
+                    display: none;
 
                     p {
                         color: #0A2939;
@@ -872,12 +944,13 @@ $size1: 1.6rem;
 
                 .wraperKanan-Three {
                     h3 {
-                        color: #0A2939;
-                        font-family: $ibmReguler;
-                        font-size: 1.125rem;
-                        font-weight: 300;
-                        letter-spacing: -0.01625rem;
-                        line-height: 1.75rem;
+                        color: #F05E36;
+                        font-family: "IBM Plex Sans";
+                        font-size: 20px;
+                        font-weight: 500;
+                        letter-spacing: -0.29px;
+                        line-height: 28px;
+                        margin-top: 2.125rem;
                     }
 
                     p {
@@ -895,14 +968,15 @@ $size1: 1.6rem;
                     padding: 1.5rem;
                     padding-left: 0;
                     padding-right: 0;
+                    margin-top: 2.4375rem;
 
                     h1 {
                         color: #F05E36;
-                        font-family: $ibmReguler;
-                        font-size: 1.5rem;
+                        font-family: "IBM Plex Sans";
+                        font-size: 20px;
                         font-weight: 500;
-                        letter-spacing: -0.018125rem;
-                        line-height: 1.75rem;
+                        letter-spacing: -0.29px;
+                        line-height: 28px;
                     }
 
                     ul {
@@ -941,7 +1015,12 @@ $size1: 1.6rem;
                 h1 {
                     margin: 1.5rem;
                     margin-left: 0;
-                    font-family: $butler;
+                    margin-left: 0;
+                    color: #021925;
+                    font-family: Butler;
+                    font-size: 34px;
+                    letter-spacing: -0.5px;
+                    line-height: 38px;
                 }
             }
 
@@ -949,33 +1028,34 @@ $size1: 1.6rem;
                 img {
                     height: 50%;
                     width: 100%;
+                    margin-top: 1rem;
                 }
 
                 .imgHide {
-                    display: none;
+                    
                 }
 
                 .cardSlider {
                     opacity: 0.9;
                     background-color: #F05E36;
                     padding: 1.5rem;
+                    margin-top: 1rem;
 
                     h2 {
                         color: #0A2939;
-                        font-family: $butler;
-                        font-size: 1.2rem;
+                        font-family: Butler;
+                        font-size: 28px;
                         letter-spacing: 0;
-                        line-height: 2.125rem;
+                        line-height: 34px;
                     }
 
                     a {
-                        color: white;
+                        color: #FFFFFF;
                         font-family: "IBM Plex Sans";
-                        font-size: .875rem;
-                        letter-spacing: 0;
-                        line-height: 2.125rem;
-                        text-decoration: none;  
-                        font-weight: bold;                      
+                        font-size: 14px;
+                        letter-spacing: -0.09px;
+                        line-height: 24px;  
+                        text-decoration: none;               
                     }
 
                     p a {
@@ -983,7 +1063,7 @@ $size1: 1.6rem;
                     }
 
                     .link {
-                        margin-bottom: -1rem;
+                        margin-bottom: -0.625rem;
                     }
 
                     p {
@@ -1010,12 +1090,10 @@ $size1: 1.6rem;
 
         .sectionLima {
             margin-top: 1.875rem;
+            border: 4px solid rgba(246, 110, 73, 0.15);
 
             .sectionLimaBody {
-                height: 485px;
-                border: 4px solid rgba(246, 110, 73, 0.15);
                 
-
                 .logo {
                     display: flex;
                     justify-content: center;
@@ -1151,11 +1229,80 @@ $size1: 1.6rem;
             }
 
             .SectionLimaBawah {
-                display: none;
+                margin-top: 1.875rem;
+
+                p {
+                    height: 48px;
+                    width: 256px;
+                    color: #F66E49;
+                    font-family: "IBM Plex Sans";
+                    font-size: 18px;
+                    letter-spacing: -0.26px;
+                    line-height: 24px;
+                    text-align: center;
+                }
+
+                .mc-field-group {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 2rem;
+                }
+
+                input {
+                    color: #363636;
+                    font-family: "IBM Plex Sans";
+                    font-size: 16px;
+                    letter-spacing: -0.24px;
+                    line-height: 30px;
+                    text-align: left;
+                    margin: auto;
+                        margin-top: auto;
+                        margin-right: auto;
+                        margin-left: auto;
+                    display: block;
+                    border: none;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px solid #E8D4CF;
+                    margin-left: 0;
+                    margin-right: 0;
+                    margin-top: 0;
+                    padding-bottom: 1rem;
+                    width: 90%;
+                }
+
+                ::placeholder {
+                    color: #363636;
+                    font-family: "IBM Plex Sans";
+                    font-size: 16px;
+                    letter-spacing: -0.24px;
+                    line-height: 30px;
+                    text-align: left;
+                    width: 100%;
+                }
+
+
             }
 
             .SectionLimaBawahDua {
-                display: none;
+                padding: 1.5625rem;
+
+                button {
+                    margin-top: 2rem;
+                    border: 1px solid #fff;
+                    border-radius: 24px;
+                    padding-top: .9375rem;
+                    padding-bottom: .9375rem;
+                    color: #FFFFFF;
+                    font-family: "IBM Plex Sans";
+                    font-size: 16px;
+                    font-weight: 500;
+                    letter-spacing: 0;
+                    line-height: 20px;
+                    background-color: #F05E36;
+                    width: 100%;
+                }
             }
         }
     }
@@ -1235,9 +1382,6 @@ $size1: 1.6rem;
 }
 
 @media (min-width: 375px) and (max-width: 574.98px) {
-    .birukanan {
-        display: none;
-    }
     
     .container {
         margin-left: 0;
@@ -1269,7 +1413,7 @@ $size1: 1.6rem;
             left: 0;
             position: fixed;
             background-color: #021925;
-            height: auto;
+            height: 100%;
             display: inline-block;
             width: 90%;
             padding: 1.5rem;
@@ -1394,25 +1538,33 @@ $size1: 1.6rem;
                     }
                 }
 
+                .wraperKiri-Three {
+                    img {
+                        margin-left: -1.5rem;
+                    }
+                }
+
                 .wraperKiri-Four {
-                    margin-top: 1.4375rem;
+                    margin-top: 2rem;
+                    background-color: #0A2939;
+                    padding: 2rem;
 
                     h3 {
                         color: #F05E36;
-                        font-family: $ibmReguler;
-                        font-size: 1.25rem;
-                        font-weight: 500;
-                        letter-spacing: -0.018125rem;
-                        line-height: 1.75rem;
+                        font-family: Butler;
+                        font-size: 32px;
+                        font-weight: 300;
+                        letter-spacing: -0.47px;
+                        line-height: 36px;
                     }
 
                     p {
-                        color: #0A2939;
-                        font-family: $ibmLight;
-                        font-size: .875rem;
+                        color: #FFFFFF;
+                        font-family: "IBM Plex Sans";
+                        font-size: 18px;
                         font-weight: 300;
-                        letter-spacing: -0.005625rem;
-                        line-height: 1.625rem;
+                        letter-spacing: -0.11px;
+                        line-height: 28px;
                     }
                 }
 
@@ -1422,8 +1574,7 @@ $size1: 1.6rem;
                 margin-top: 1.4375rem;
 
                 .wraperKanan-One {
-                    background-color: #F05E36;
-                    padding: .75rem;
+                   display: none;
 
                     p {
                         color: #0A2939;
@@ -1462,12 +1613,13 @@ $size1: 1.6rem;
 
                 .wraperKanan-Three {
                     h3 {
-                        color: #0A2939;
-                        font-family: $ibmReguler;
-                        font-size: 1.125rem;
-                        font-weight: 300;
-                        letter-spacing: -0.01625rem;
-                        line-height: 1.75rem;
+                        color: #F05E36;
+                        font-family: "IBM Plex Sans";
+                        font-size: 20px;
+                        font-weight: 500;
+                        letter-spacing: -0.29px;
+                        line-height: 28px;
+                        margin-top: 2.125rem;
                     }
 
                     p {
@@ -1482,14 +1634,15 @@ $size1: 1.6rem;
                 }
 
                 .wraperKanan-Four {
+                    margin-top: 1.875rem;
 
                     h1 {
                         color: #F05E36;
-                        font-family: $ibmReguler;
-                        font-size: 1.25rem;
+                        font-family: "IBM Plex Sans";
+                        font-size: 20px;
                         font-weight: 500;
-                        letter-spacing: -0.018125rem;
-                        line-height: 1.75rem;
+                        letter-spacing: -0.29px;
+                        line-height: 28px;
                     }
 
                     ul {
@@ -1527,7 +1680,11 @@ $size1: 1.6rem;
                 h1 {
                     margin: 1.5rem;
                     margin-left: 0;
-                    font-family: $butler;
+                    color: #021925;
+                    font-family: Butler;
+                    font-size: 34px;
+                    letter-spacing: -0.5px;
+                    line-height: 38px;
                 }
             }
 
@@ -1538,30 +1695,30 @@ $size1: 1.6rem;
                 }
 
                 .imgHide {
-                    display: none;
+                   margin-top: 1rem;
                 }
 
                 .cardSlider {
+                    margin-top: 1rem;
                     opacity: 0.9;
                     background-color: #F05E36;
                     padding: 1.5rem;
 
                     h2 {
                         color: #0A2939;
-                        font-family: $butler;
-                        font-size: 1.2rem;
+                        font-family: Butler;
+                        font-size: 28px;
                         letter-spacing: 0;
-                        line-height: 2.125rem;
+                        line-height: 34px;
                     }
 
                     a {
-                        color: white;
+                        color: #FFFFFF;
                         font-family: "IBM Plex Sans";
-                        font-size: .875rem;
-                        letter-spacing: 0;
-                        line-height: 2.125rem;
-                        text-decoration: none;  
-                        font-weight: bold;                      
+                        font-size: 14px;
+                        letter-spacing: -0.09px;
+                        line-height: 24px;
+                        text-decoration: none;                    
                     }
 
                     p a {
@@ -1569,7 +1726,7 @@ $size1: 1.6rem;
                     }
 
                     .link {
-                        margin-bottom: -1rem;
+                        margin-bottom: -0.625rem;
                     }
 
                     p {
@@ -1596,10 +1753,10 @@ $size1: 1.6rem;
 
         .sectionLima {
             margin-top: 1.875rem;
+            border: 4px solid rgba(246, 110, 73, 0.15);
 
             .sectionLimaBody {
-                height: 485px;
-                border: 4px solid rgba(246, 110, 73, 0.15);
+                
 
                 .logo {
                     display: flex;
@@ -1728,11 +1885,78 @@ $size1: 1.6rem;
             }
 
             .SectionLimaBawah {
-                display: none;
+                margin-top: 1.875rem;
+
+                p {
+                    width: 100%;
+                    font-family: "IBM Plex Sans";
+                    font-size: 18px;
+                    letter-spacing: -0.26px;
+                    line-height: 24px;
+                    text-align: center;
+                }
+
+                .mc-field-group {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 2rem;
+                }
+
+                input {
+                    color: #363636;
+                    font-family: "IBM Plex Sans";
+                    font-size: 16px;
+                    letter-spacing: -0.24px;
+                    line-height: 30px;
+                    text-align: left;
+                    margin: auto;
+                        margin-top: auto;
+                        margin-right: auto;
+                        margin-left: auto;
+                    display: block;
+                    border: none;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px solid #E8D4CF;
+                    margin-left: 0;
+                    margin-right: 0;
+                    margin-top: 0;
+                    padding-bottom: 1rem;
+                    width: 90%;
+                }
+
+                ::placeholder {
+                    color: #363636;
+                    font-family: "IBM Plex Sans";
+                    font-size: 16px;
+                    letter-spacing: -0.24px;
+                    line-height: 30px;
+                    text-align: left;
+                    width: 100%;
+                }
+
+
             }
 
             .SectionLimaBawahDua {
-                display: none;
+                padding: 1.5625rem;
+
+                button {
+                    margin-top: 2rem;
+                    border: 1px solid #fff;
+                    border-radius: 24px;
+                    padding-top: .9375rem;
+                    padding-bottom: .9375rem;
+                    color: #FFFFFF;
+                    font-family: "IBM Plex Sans";
+                    font-size: 16px;
+                    font-weight: 500;
+                    letter-spacing: 0;
+                    line-height: 20px;
+                    background-color: #F05E36;
+                    width: 100%;
+                }
             }
         }
     }
@@ -1843,9 +2067,9 @@ $size1: 1.6rem;
             left: 0;
             position: fixed;
             background-color: #021925;
-            height: auto;
+            height: 100%;
             display: inline-block;
-            width: 35%;
+            width: 90%;
             padding: 1.5rem;
             color: white;
                 li {
@@ -1978,23 +2202,25 @@ $size1: 1.6rem;
 
                 .wraperKiri-Four {
                     margin-top: 1.4375rem;
+                    background-color: #0A2939;
+                    padding: 2rem;
 
                     h3 {
                         color: #F05E36;
-                        font-family: $ibmReguler;
-                        font-size: 1.25rem;
-                        font-weight: 500;
-                        letter-spacing: -0.018125rem;
-                        line-height: 1.75rem;
+                        font-family: Butler;
+                        font-size: 32px;
+                        font-weight: 300;
+                        letter-spacing: -0.47px;
+                        line-height: 36px;
                     }
 
                     p {
-                        color: #0A2939;
-                        font-family: $ibmLight;
-                        font-size: .875rem;
+                        color: #FFFFFF;
+                        font-family: "IBM Plex Sans";
+                        font-size: 18px;
                         font-weight: 300;
-                        letter-spacing: -0.005625rem;
-                        line-height: 1.625rem;
+                        letter-spacing: -0.11px;
+                        line-height: 28px;
                     }
                 }
 
@@ -2017,7 +2243,9 @@ $size1: 1.6rem;
                     }
 
                     ul {
-                        list-style: square;
+                        list-style: none;
+                        padding-left: 0;
+
                         li {
                             color: #FFFFFF;
                             font-family: $butler;
@@ -2044,12 +2272,12 @@ $size1: 1.6rem;
 
                 .wraperKanan-Three {
                     h3 {
-                        color: #0A2939;
-                        font-family: $ibmReguler;
-                        font-size: 1.125rem;
-                        font-weight: 300;
-                        letter-spacing: -0.01625rem;
-                        line-height: 1.75rem;
+                        color: #F05E36;
+                        font-family: "IBM Plex Sans";
+                        font-size: 20px;
+                        font-weight: 500;
+                        letter-spacing: -0.29px;
+                        line-height: 28px;
                     }
 
                     p {
@@ -2105,47 +2333,52 @@ $size1: 1.6rem;
         }
 
         .sectionTiga {
-            margin-top: 1.875rem;
-
             .sectionTigaAtas {
                 h1 {
                     margin: 1.5rem;
                     margin-left: 0;
                     font-family: $butler;
+                    color: #021925;
+                    font-family: Butler;
+                    font-size: 34px;
+                    letter-spacing: -0.5px;
+                    line-height: 38px;
                 }
             }
 
             .sectionTigaBawah {
+                margin-top: 1.875rem;
+
                 img {
                     height: 50%;
                     width: 100%;
                 }
 
                 .imgHide {
-                    display: none;
+                   margin-top: 16px;
                 }
 
                 .cardSlider {
                     opacity: 0.9;
                     background-color: #F05E36;
                     padding: 1.5rem;
+                    margin-top: 1rem;
 
                     h2 {
                         color: #0A2939;
-                        font-family: $butler;
-                        font-size: 1.5rem;
+                        font-family: Butler;
+                        font-size: 28px;
                         letter-spacing: 0;
-                        line-height: 2.125rem;
+                        line-height: 34px;
                     }
 
                     a {
-                        color: white;
+                        color: #FFFFFF;
                         font-family: "IBM Plex Sans";
-                        font-size: .875rem;
-                        letter-spacing: 0;
-                        line-height: 2.125rem;
-                        text-decoration: none;  
-                        font-weight: bold;                      
+                        font-size: 14px;
+                        letter-spacing: -0.09px;
+                        line-height: 24px;    
+                        text-decoration: none;              
                     }
 
                     p a {
@@ -2153,7 +2386,7 @@ $size1: 1.6rem;
                     }
 
                     .link {
-                        margin-bottom: -1rem;
+                        margin-bottom: -0.625rem;
                     }
 
                     p {
@@ -2180,10 +2413,11 @@ $size1: 1.6rem;
 
         .sectionLima {
             margin-top: 1.875rem;
+            border: 4px solid rgba(246, 110, 73, 0.15);
 
             .sectionLimaBody {
                 padding: 1.5rem;
-                border: 4px solid rgba(246, 110, 73, 0.15);
+               
 
                 .logo {
                     display: flex;
@@ -2307,11 +2541,78 @@ $size1: 1.6rem;
             }
 
             .SectionLimaBawah {
-                display: none;
+                margin-top: 1.875rem;
+
+                p {
+                    width: 100%;
+                    font-family: "IBM Plex Sans";
+                    font-size: 18px;
+                    letter-spacing: -0.26px;
+                    line-height: 24px;
+                    text-align: center;
+                }
+
+                .mc-field-group {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 2rem;
+                }
+
+                input {
+                    color: #363636;
+                    font-family: "IBM Plex Sans";
+                    font-size: 16px;
+                    letter-spacing: -0.24px;
+                    line-height: 30px;
+                    text-align: left;
+                    margin: auto;
+                        margin-top: auto;
+                        margin-right: auto;
+                        margin-left: auto;
+                    display: block;
+                    border: none;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px solid #E8D4CF;
+                    margin-left: 0;
+                    margin-right: 0;
+                    margin-top: 0;
+                    padding-bottom: 1rem;
+                    width: 90%;
+                }
+
+                ::placeholder {
+                    color: #363636;
+                    font-family: "IBM Plex Sans";
+                    font-size: 16px;
+                    letter-spacing: -0.24px;
+                    line-height: 30px;
+                    text-align: left;
+                    width: 100%;
+                }
+
+
             }
 
             .SectionLimaBawahDua {
-                display: none;
+                padding: 1.5625rem;
+
+                button {
+                    margin-top: 2rem;
+                    border: 1px solid #fff;
+                    border-radius: 24px;
+                    padding-top: .9375rem;
+                    padding-bottom: .9375rem;
+                    color: #FFFFFF;
+                    font-family: "IBM Plex Sans";
+                    font-size: 16px;
+                    font-weight: 500;
+                    letter-spacing: 0;
+                    line-height: 20px;
+                    background-color: #F05E36;
+                    width: 100%;
+                }
             }
         }
     }
@@ -2579,13 +2880,18 @@ $size1: 1.6rem;
                         line-height: 20px;
                     }
 
-                    li {
-                        color: #FFFFFF;
-                        font-family: $butler;
-                        font-size: 25px;
-                        font-weight: 300;
-                        letter-spacing: -0.59px;
-                        line-height: 50px;
+                    ul {
+                      padding-left: 0;
+
+                        li {
+                            list-style: none;
+                            color: #FFFFFF;
+                            font-family: $butler;
+                            font-size: 25px;
+                            font-weight: 300;
+                            letter-spacing: -0.59px;
+                            line-height: 50px;
+                        }
                     }
 
                     

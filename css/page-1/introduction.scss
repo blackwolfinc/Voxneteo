@@ -226,6 +226,8 @@ li.hidden ul li {
 }
 
 .section-4 {
+  display: flex;
+  flex-direction: column;
   .row {
     button {
       margin-top: 5rem;
@@ -287,15 +289,13 @@ li.hidden ul li {
     }
   }
 
-
-    .nav-link,
-    button span,
-    .dropdown-item {
-      font-family: $ibmSemiBold;
-      font-weight: 600;
-      font-size: 1.05rem;
-    }
-  
+  .nav-link,
+  button span,
+  .dropdown-item {
+    font-family: $ibmSemiBold;
+    font-weight: 600;
+    font-size: 1.05rem;
+  }
 
   .navbar-light {
     .navbar-nav {
@@ -431,7 +431,7 @@ li.hidden ul li {
           margin-top: 1rem;
         }
 
-        ul.dashed>li {
+        ul.dashed > li {
           list-style: none;
           text-indent: -20px;
           font-size: 2.5rem;
@@ -446,7 +446,7 @@ li.hidden ul li {
           height: 1.75rem;
         }
 
-        ul.dashed>li:before {
+        ul.dashed > li:before {
           content: "-";
           text-indent: -1.25rem;
           color: $color3;
@@ -673,32 +673,46 @@ li.hidden ul li {
 
     .section-4 {
       padding: 1.5rem 2rem;
+      .SliderOnMobile {
+        overflow: overlay;
 
+        flex-direction: row !important;
+        width: 70rem;
+        .card-img-top {
+          width: 15rem;
+        }
+
+        .card {
+          width: 400rem;
+          display: grid;
+        }
+      }
+      .title,
+      .card-title,
+      .card-text h3 {
+        color: $color4;
+      }
+
+      .title {
+        height: 2.375rem;
+
+        color: #0a2939;
+        font-family: $butler;
+        font-size: 2.125rem;
+        letter-spacing: -0.03125rem;
+        line-height: 2.375rem;
+      }
       .row {
-
-        .title,
-        .card-title,
-        .card-text h3 {
-          color: $color4;
-        }
-
-        .title {
-          height: 2.375rem;
-
-          color: #0a2939;
-          font-family: $butler;
-          font-size: 2.125rem;
-          letter-spacing: -0.03125rem;
-          line-height: 2.375rem;
-        }
+        overflow: overlay;
 
         .card-list-image {
           flex-direction: column;
+          min-width: 53rem;
 
           .card {
             margin-top: 1.875rem;
             border: none;
-
+            margin-right: 3rem;
             .card-body {
               h1 {
                 color: #0a2939;
@@ -729,30 +743,113 @@ li.hidden ul li {
             }
           }
         }
+      }
+      button {
+        height: 3.5srem;
+        width: 100%;
+        border-radius: 1.5rem;
+        background-color: #0a2939;
+        font-size: 1rem;
+        padding: 0.8125rem 3.8125rem;
+        margin-top: 3.375rem;
+        margin-bottom: 1.5rem;
+      }
 
-        button {
-          height: 3.5srem;
+      button.btn {
+        border-radius: 2.5rem;
+      }
 
-          border-radius: 1.5rem;
-          background-color: #0a2939;
-          font-size: 1rem;
-          padding: 0.8125rem 3.8125rem;
-          margin-top: 3.375rem;
-          margin-bottom: 1.5rem;
+      button.btn-primary {
+        background-color: $color4;
+        border-color: $color4;
+      }
+
+      button.btn-primary:hover {
+        background-color: $color4;
+        border-color: $color4;
+      }
+    }
+
+    .section-5 {
+      display: none;
+    }
+
+    .section-6 {
+      .row {
+        background-color: $color7;
+        color: $color1;
+        height: 39.5625rem;
+
+        .logo-center {
+          margin: 5.8rem 0;
+
+          img {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+          }
         }
 
-        button.btn {
-          border-radius: 2.5rem;
+        hr {
+          text-decoration: none;
+          border-bottom: 2px solid $colorLine;
+          height: 1px;
+          width: 80%;
+          margin-bottom: 1.9375rem;
         }
 
-        button.btn-primary {
-          background-color: $color4;
-          border-color: $color4;
+        .content {
+          width: 80%;
+          padding-left: 0;
+          padding-right: 0;
+          flex-direction: column;
+          margin-left: auto;
+          margin-right: auto;
+
+          .text {
+            margin: 0 auto;
+            text-align: center;
+          }
+
+          hr {
+            width: 100%;
+          }
+
+          h5 {
+            height: 0.9375rem;
+
+            font-family: $ibmMedium;
+            color: #ffffff;
+            font-size: 0.75rem;
+            font-weight: 500;
+            letter-spacing: 0.03125rem;
+            line-height: 0.9375rem;
+            margin-bottom: 2rem;
+          }
+
+          .right {
+            height: 1.8125rem;
+
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            margin-top: auto;
+            margin-bottom: auto;
+            padding-left: 1.5rem;
+
+            img {
+              margin-right: 0.3125rem;
+            }
+
+            h4 {
+              font-family: $ibmReguler;
+              font-size: 0.75rem;
+            }
+          }
         }
 
-        button.btn-primary:hover {
-          background-color: $color4;
-          border-color: $color4;
+        .end {
+          display: none;
         }
       }
     }
@@ -894,7 +991,8 @@ li.hidden ul li {
             list-style: none;
           }
 
-          .footerBodyKiriOne {}
+          .footerBodyKiriOne {
+          }
         }
 
         .footerBodyKanan {
@@ -948,7 +1046,7 @@ li.hidden ul li {
     margin-top: 1rem !important;
     margin-left: 0.75rem;
   }
-  
+
   li.nav-item {
     margin-bottom: 1.5rem;
     margin-left: 1.5rem;
@@ -1112,7 +1210,7 @@ li.hidden ul li {
           margin-top: 1rem;
         }
 
-        ul.dashed>li {
+        ul.dashed > li {
           list-style: none;
           text-indent: -20px;
           font-size: 2.5rem;
@@ -1127,7 +1225,7 @@ li.hidden ul li {
           height: 1.75rem;
         }
 
-        ul.dashed>li:before {
+        ul.dashed > li:before {
           content: "-";
           text-indent: -1.25rem;
           color: $color3;
@@ -1353,9 +1451,52 @@ li.hidden ul li {
 
     .section-4 {
       padding: 1.5rem 2rem;
+      .SliderOnMobile {
+        overflow: overlay;
 
+        flex-direction: row !important;
+        width: 70rem;
+        .card-img-top {
+          width: 15rem;
+        }
+
+        .card {
+          width: 400rem;
+          display: grid;
+        }
+      }
+      .title,
+      .card-title,
+      .card-text h3 {
+        color: $color4;
+      }
+
+      .title {
+        height: 2.375rem;
+
+        color: #0a2939;
+        font-family: $butler;
+        font-size: 2.125rem;
+        letter-spacing: -0.03125rem;
+        line-height: 2.375rem;
+      }
+      .title,
+      .card-title,
+      .card-text h3 {
+        color: $color4;
+      }
+
+      .title {
+        height: 2.375rem;
+
+        color: #0a2939;
+        font-family: $butler;
+        font-size: 2.125rem;
+        letter-spacing: -0.03125rem;
+        line-height: 2.375rem;
+      }
       .row {
-
+        overflow: overlay;
         .title,
         .card-title,
         .card-text h3 {
@@ -1374,11 +1515,12 @@ li.hidden ul li {
 
         .card-list-image {
           flex-direction: column;
+          min-width: 53rem;
 
           .card {
             margin-top: 1.875rem;
             border: none;
-
+            margin-right: 3rem;
             .card-body {
               h1 {
                 color: #0a2939;
@@ -1409,31 +1551,30 @@ li.hidden ul li {
             }
           }
         }
+      }
+      button {
+        height: 3.5srem;
+        width: 100%;
+        border-radius: 1.5rem;
+        background-color: #0a2939;
+        font-size: 1rem;
+        padding: 0.8125rem 3.8125rem;
+        margin-top: 3.375rem;
+        margin-bottom: 1.5rem;
+      }
 
-        button {
-          height: 3.5srem;
+      button.btn {
+        border-radius: 2.5rem;
+      }
 
-          border-radius: 1.5rem;
-          background-color: #0a2939;
-          font-size: 1rem;
-          padding: 0.8125rem 3.8125rem;
-          margin-top: 3.375rem;
-          margin-bottom: 1.5rem;
-        }
+      button.btn-primary {
+        background-color: $color4;
+        border-color: $color4;
+      }
 
-        button.btn {
-          border-radius: 2.5rem;
-        }
-
-        button.btn-primary {
-          background-color: $color4;
-          border-color: $color4;
-        }
-
-        button.btn-primary:hover {
-          background-color: $color4;
-          border-color: $color4;
-        }
+      button.btn-primary:hover {
+        background-color: $color4;
+        border-color: $color4;
       }
     }
 
@@ -1574,7 +1715,8 @@ li.hidden ul li {
             list-style: none;
           }
 
-          .footerBodyKiriOne {}
+          .footerBodyKiriOne {
+          }
         }
 
         .footerBodyKanan {
@@ -1844,7 +1986,7 @@ li.hidden ul li {
           margin-top: 2rem;
         }
 
-        ul.dashed>li {
+        ul.dashed > li {
           list-style: none;
           text-indent: -20px;
           font-size: 2.5rem;
@@ -1860,7 +2002,7 @@ li.hidden ul li {
           width: 19rem;
         }
 
-        ul.dashed>li:before {
+        ul.dashed > li:before {
           content: "-";
           text-indent: -1.25rem;
           color: $color3;
@@ -2076,9 +2218,37 @@ li.hidden ul li {
 
     .section-4 {
       padding: 1.5rem 2rem;
+      .title,
+      .card-title,
+      .card-text h3 {
+        color: $color4;
+      }
 
+      .title {
+        height: 2.375rem;
+
+        color: #0a2939;
+        font-family: $butler;
+        font-size: 2.125rem;
+        letter-spacing: -0.03125rem;
+        line-height: 2.375rem;
+      }
+      .title,
+      .card-title,
+      .card-text h3 {
+        color: $color4;
+      }
+
+      .title {
+        height: 2.375rem;
+
+        color: #0a2939;
+        font-family: $butler;
+        font-size: 2.125rem;
+        letter-spacing: -0.03125rem;
+        line-height: 2.375rem;
+      }
       .row {
-
         .title,
         .card-title,
         .card-text h3 {
@@ -2157,6 +2327,30 @@ li.hidden ul li {
           background-color: $color4;
           border-color: $color4;
         }
+      }
+      button {
+        height: 3.5srem;
+
+        border-radius: 1.5rem;
+        background-color: #0a2939;
+        font-size: 1rem;
+        padding: 0.8125rem 3.8125rem;
+        margin-top: 3.375rem;
+        margin-bottom: 1.5rem;
+      }
+
+      button.btn {
+        border-radius: 2.5rem;
+      }
+
+      button.btn-primary {
+        background-color: $color4;
+        border-color: $color4;
+      }
+
+      button.btn-primary:hover {
+        background-color: $color4;
+        border-color: $color4;
       }
     }
 
@@ -2500,7 +2694,7 @@ li.hidden ul li {
           margin-top: 2rem;
         }
 
-        ul.dashed>li {
+        ul.dashed > li {
           text-indent: -20px;
           font-size: 2.5rem;
           color: $color4;
@@ -2515,7 +2709,7 @@ li.hidden ul li {
           width: 19rem;
         }
 
-        ul.dashed>li:before {
+        ul.dashed > li:before {
           content: "-";
           text-indent: -1.25rem;
           color: $color3;
@@ -2729,9 +2923,22 @@ li.hidden ul li {
 
     .section-4 {
       padding: 1.5rem 2rem;
+      .title,
+      .card-title,
+      .card-text h3 {
+        color: $color4;
+      }
 
+      .title {
+        height: 2.375rem;
+
+        color: #0a2939;
+        font-family: $butler;
+        font-size: 2.125rem;
+        letter-spacing: -0.03125rem;
+        line-height: 2.375rem;
+      }
       .row {
-
         .title,
         .card-title,
         .card-text h3 {
@@ -2811,6 +3018,30 @@ li.hidden ul li {
           background-color: $color4;
           border-color: $color4;
         }
+      }
+      button {
+        height: 3rem;
+        width: 20rem;
+        border-radius: 1.5rem;
+        background-color: #0a2939;
+        font-size: 1rem;
+        padding: 0.8125rem 3.8125rem;
+        margin-top: 3.375rem;
+        margin-bottom: 1.5rem;
+      }
+
+      button.btn {
+        border-radius: 1.5rem;
+      }
+
+      button.btn-primary {
+        background-color: $color4;
+        border-color: $color4;
+      }
+
+      button.btn-primary:hover {
+        background-color: $color4;
+        border-color: $color4;
       }
     }
 
@@ -3195,7 +3426,7 @@ li.hidden ul li {
         padding-top: 6.25rem;
       }
 
-      ul.dashed>li {
+      ul.dashed > li {
         text-indent: -20px;
         font-size: 2rem;
         color: $color4;
@@ -3203,7 +3434,7 @@ li.hidden ul li {
         margin-bottom: 2.4rem;
       }
 
-      ul.dashed>li:before {
+      ul.dashed > li:before {
         content: "-";
         text-indent: -20px;
         color: $color3;
@@ -3432,9 +3663,22 @@ li.hidden ul li {
 
   .section-4 {
     padding: 6.875rem 6.25rem;
+    .title,
+    .card-title,
+    .card-text h3 {
+      color: $color4;
+    }
 
+    .title {
+      height: 2.375rem;
+
+      color: #0a2939;
+      font-family: $butler;
+      font-size: 2.125rem;
+      letter-spacing: -0.03125rem;
+      line-height: 2.375rem;
+    }
     .row {
-
       .title,
       .card-title,
       .card-text h3 {
@@ -3519,6 +3763,30 @@ li.hidden ul li {
         background-color: $color4;
         border-color: $color4;
       }
+    }
+    button {
+      height: 3.5srem;
+
+      border-radius: 1.5rem;
+      background-color: #0a2939;
+      font-size: 1rem;
+      padding: 0.8125rem 3.8125rem;
+      margin-top: 3.375rem;
+      margin-bottom: 1.5rem;
+    }
+
+    button.btn {
+      border-radius: 2.5rem;
+    }
+
+    button.btn-primary {
+      background-color: $color4;
+      border-color: $color4;
+    }
+
+    button.btn-primary:hover {
+      background-color: $color4;
+      border-color: $color4;
     }
   }
 
@@ -3905,7 +4173,7 @@ li.hidden ul li {
         padding-top: 6.25rem;
       }
 
-      ul.dashed>li {
+      ul.dashed > li {
         text-indent: -20px;
         font-size: 2rem;
         color: $color4;
@@ -3913,7 +4181,7 @@ li.hidden ul li {
         margin-bottom: 2.4rem;
       }
 
-      ul.dashed>li:before {
+      ul.dashed > li:before {
         content: "-";
         text-indent: -20px;
         color: $color3;
@@ -4141,9 +4409,22 @@ li.hidden ul li {
 
   .section-4 {
     padding: 6.875rem 6.25rem;
+    .title,
+    .card-title,
+    .card-text h3 {
+      color: $color4;
+    }
 
+    .title {
+      height: 2.375rem;
+
+      color: #0a2939;
+      font-family: $butler;
+      font-size: 2.125rem;
+      letter-spacing: -0.03125rem;
+      line-height: 2.375rem;
+    }
     .row {
-
       .title,
       .card-title,
       .card-text h3 {
@@ -4228,6 +4509,30 @@ li.hidden ul li {
         background-color: $color4;
         border-color: $color4;
       }
+    }
+    button {
+      height: 3.5srem;
+
+      border-radius: 1.5rem;
+      background-color: #0a2939;
+      font-size: 1rem;
+      padding: 0.8125rem 3.8125rem;
+      margin-top: 3.375rem;
+      margin-bottom: 1.5rem;
+    }
+
+    button.btn {
+      border-radius: 2.5rem;
+    }
+
+    button.btn-primary {
+      background-color: $color4;
+      border-color: $color4;
+    }
+
+    button.btn-primary:hover {
+      background-color: $color4;
+      border-color: $color4;
     }
   }
 
@@ -4491,7 +4796,7 @@ li.hidden ul li {
         padding-left: 0.75rem;
       }
 
-      ul.dashed>li {
+      ul.dashed > li {
         text-indent: -20px;
         font-size: 2.5rem;
         color: $color4;
@@ -4499,7 +4804,7 @@ li.hidden ul li {
         margin-bottom: 2.4rem;
       }
 
-      ul.dashed>li:before {
+      ul.dashed > li:before {
         content: "-";
         text-indent: -20px;
         color: $color3;
@@ -4728,9 +5033,22 @@ li.hidden ul li {
 
   .section-4 {
     padding: 6.875rem 6.25rem;
+    .title,
+    .card-title,
+    .card-text h3 {
+      color: $color4;
+    }
 
+    .title {
+      height: 2.375rem;
+
+      color: #0a2939;
+      font-family: $butler;
+      font-size: 2.125rem;
+      letter-spacing: -0.03125rem;
+      line-height: 2.375rem;
+    }
     .row {
-
       .title,
       .card-title,
       .card-text h3 {
@@ -4817,6 +5135,30 @@ li.hidden ul li {
         background-color: $color4;
         border-color: $color4;
       }
+    }
+    button {
+      height: 3.5srem;
+
+      border-radius: 1.5rem;
+      background-color: #0a2939;
+      font-size: 1rem;
+      padding: 0.8125rem 3.8125rem;
+      margin-top: 3.375rem;
+      margin-bottom: 1.5rem;
+    }
+
+    button.btn {
+      border-radius: 2.5rem;
+    }
+
+    button.btn-primary {
+      background-color: $color4;
+      border-color: $color4;
+    }
+
+    button.btn-primary:hover {
+      background-color: $color4;
+      border-color: $color4;
     }
   }
 
@@ -4934,21 +5276,6 @@ li.hidden ul li {
 
       .carousel-inner {
         width: 120%;
-
-        .carousel-item {
-          display: block;
-          opacity: 0.2;
-          margin-left: 40rem;
-        }
-
-        :nth-child(2).active {
-          margin-left: -40rem !important;
-        }
-
-        .active {
-          opacity: 1 !important;
-          margin-left: 0rem !important;
-        }
 
         .crop-Container {
           margin-top: 3rem;
