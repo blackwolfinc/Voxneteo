@@ -65,9 +65,64 @@ $size1: 1.6rem;
 }
 
 @media (max-width: 319.98px) {
-  .nav-mobile,
-  .menu-mobile {
+  .nav-mobile {
     display: none; // menjadi flex saat berada di mobile
+  }
+  .menu-mobile {
+    display: flex;
+    flex-direction: column;
+    background-color: #021925;
+    width: 95%;
+    height: 100vh;
+    padding: 15px 25px;
+    transform: translateX(-100vw);
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.2s;
+    z-index: 400; // lebih tinggi daripada navbar
+
+    .x-icon-mobile {
+      svg {
+        width: 2rem;
+        cursor: pointer;
+      }
+    }
+
+    .menu-mobile-list {
+      display: flex;
+      flex-direction: column;
+      margin: 25px 0;
+
+      a {
+        color: #ffffff;
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+        font-weight: bold;
+        text-decoration: none;
+      }
+    }
+
+    .mobile-language {
+      padding: 25px 0;
+      border-top: 1px solid #113d53;
+
+      p {
+        color: #ffffff;
+      }
+
+      p::before {
+        content: "";
+        width: 2px;
+        height: 25px;
+        background-color: #f05e36;
+        transform: translateX(-25px);
+      }
+
+      p.current-language {
+        color: #f05e36;
+      }
+    }
   }
 
   .container {
@@ -476,11 +531,65 @@ $size1: 1.6rem;
 }
 
 @media (min-width: 320px) and (max-width: 374.98px) {
-  .nav-mobile,
-  .menu-mobile {
+  .nav-mobile {
     display: none; // menjadi flex saat berada di mobile
   }
+  .menu-mobile {
+    display: flex;
+    flex-direction: column;
+    background-color: #021925;
+    width: 95%;
+    height: 100vh;
+    padding: 15px 25px;
+    transform: translateX(-100vw);
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.2s;
+    z-index: 400; // lebih tinggi daripada navbar
 
+    .x-icon-mobile {
+      svg {
+        width: 2rem;
+        cursor: pointer;
+      }
+    }
+
+    .menu-mobile-list {
+      display: flex;
+      flex-direction: column;
+      margin: 25px 0;
+
+      a {
+        color: #ffffff;
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+        font-weight: bold;
+        text-decoration: none;
+      }
+    }
+
+    .mobile-language {
+      padding: 25px 0;
+      border-top: 1px solid #113d53;
+
+      p {
+        color: #ffffff;
+      }
+
+      p::before {
+        content: "";
+        width: 2px;
+        height: 25px;
+        background-color: #f05e36;
+        transform: translateX(-25px);
+      }
+
+      p.current-language {
+        color: #f05e36;
+      }
+    }
+  }
   .navbar-nav {
     top: 0;
     left: 0;
@@ -880,9 +989,64 @@ $size1: 1.6rem;
 }
 
 @media (min-width: 375px) and (max-width: 574.98px) {
-  .nav-mobile,
-  .menu-mobile {
+  .nav-mobile {
     display: none; // menjadi flex saat berada di mobile
+  }
+  .menu-mobile {
+    display: flex;
+    flex-direction: column;
+    background-color: #021925;
+    width: 95%;
+    height: 100vh;
+    padding: 15px 25px;
+    transform: translateX(-100vw);
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.2s;
+    z-index: 400; // lebih tinggi daripada navbar
+
+    .x-icon-mobile {
+      svg {
+        width: 2rem;
+        cursor: pointer;
+      }
+    }
+
+    .menu-mobile-list {
+      display: flex;
+      flex-direction: column;
+      margin: 25px 0;
+
+      a {
+        color: #ffffff;
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+        font-weight: bold;
+        text-decoration: none;
+      }
+    }
+
+    .mobile-language {
+      padding: 25px 0;
+      border-top: 1px solid #113d53;
+
+      p {
+        color: #ffffff;
+      }
+
+      p::before {
+        content: "";
+        width: 2px;
+        height: 25px;
+        background-color: #f05e36;
+        transform: translateX(-25px);
+      }
+
+      p.current-language {
+        color: #f05e36;
+      }
+    }
   }
 
   .container {
@@ -1289,9 +1453,64 @@ $size1: 1.6rem;
 }
 
 @media (min-width: 575px) and (max-width: 991.98px) {
-  .nav-mobile,
-  .menu-mobile {
+  .nav-mobile {
     display: none; // menjadi flex saat berada di mobile
+  }
+  .menu-mobile {
+    display: flex;
+    flex-direction: column;
+    background-color: #021925;
+    width: 95%;
+    height: 100vh;
+    padding: 15px 25px;
+    transform: translateX(-100vw);
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.2s;
+    z-index: 400; // lebih tinggi daripada navbar
+
+    .x-icon-mobile {
+      svg {
+        width: 2rem;
+        cursor: pointer;
+      }
+    }
+
+    .menu-mobile-list {
+      display: flex;
+      flex-direction: column;
+      margin: 25px 0;
+
+      a {
+        color: #ffffff;
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+        font-weight: bold;
+        text-decoration: none;
+      }
+    }
+
+    .mobile-language {
+      padding: 25px 0;
+      border-top: 1px solid #113d53;
+
+      p {
+        color: #ffffff;
+      }
+
+      p::before {
+        content: "";
+        width: 2px;
+        height: 25px;
+        background-color: #f05e36;
+        transform: translateX(-25px);
+      }
+
+      p.current-language {
+        color: #f05e36;
+      }
+    }
   }
 
   .container {
