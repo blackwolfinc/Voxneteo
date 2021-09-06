@@ -133,7 +133,7 @@
     border-top: 1.5px solid #113d53;
   }
   .container .sectionSatu {
-    margin-top: 0;
+    margin-top: 25px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -173,6 +173,221 @@
   }
   .container .sectionSatu .sectionSatuKanan img {
     height: 12rem;
+  }
+  .container .sectionDua {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 50px;
+    padding: 50px 0;
+    border-top: 1px solid #e5e5e5;
+  }
+  .container .sectionDua .sectionDuaKiri {
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .container .sectionDua .sectionDuaKiri .detailContact {
+    margin-bottom: 50px;
+  }
+  .container .sectionDua .sectionDuaKiri .detailContact .kiri {
+    margin-bottom: 25px;
+  }
+  .container .sectionDua .sectionDuaKiri .detailContact .kiri h6 {
+    font-size: 1rem;
+    color: #f66e49;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+  }
+  .container .sectionDua .sectionDuaKiri .detailContact .kanan {
+    line-height: 0.5rem;
+  }
+  .container .sectionDua .sectionDuaKiri .detailContact .kanan p {
+    font-size: 0.8rem;
+  }
+  .container .sectionDua .sectionDuaKanan {
+    margin-top: 25px;
+  }
+  .container .sectionDua .sectionDuaKanan .linkMenujuLinkedln {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionDua .sectionDuaKanan .linkMenujuLinkedln a,
+  .container .sectionDua .sectionDuaKanan .linkMenujuLinkedln img {
+    margin: 0 5px;
+  }
+  .container .sectionDua .sectionDuaKanan .linkMenujuLinkedln a {
+    color: #f05e36;
+    font-size: 0.8rem;
+  }
+  .container .sectionDua .sectionDuaKanan .linkMenujuLinkedln img {
+    width: 24px;
+  }
+  .container .sectionTiga {
+    display: none;
+  }
+  .container .sectionEmpat {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    width: 100%;
+    border: 10px solid #f66f4933;
+    margin-bottom: 50px;
+  }
+  .container .sectionEmpat .stamp {
+    padding: 25px 0;
+  }
+  .container .sectionEmpat .stamp img {
+    width: 10rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody {
+    padding: 0 12px;
+    line-height: 1.5rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody h2 {
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 15px;
+  }
+  .container .sectionEmpat form .sectionEmpatBody p.body-text {
+    color: #f05e36;
+    font-size: 0.8rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah {
+    margin-top: 25px;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"] {
+    background-color: transparent;
+    border: transparent;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:hover,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:focus,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:active {
+    outline: #ffffff;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 25px;
+    padding-top: 25px;
+    border: 1px solid #e5e5e5;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea .control {
+    font-family: arial;
+    display: block;
+    color: #113d53;
+    position: relative;
+    margin-right: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea .control a {
+    color: #113d53;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea .control input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea .control_indicator {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background: #e6e6e6;
+    border: 0px solid #000000;
+    border-radius: 0px;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea .control:hover input ~ .control_indicator,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea .control input:focus ~ .control_indicator {
+    background: #cccccc;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea .control input:checked ~ .control_indicator {
+    background: #113d53;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea .control:hover
+input:not([disabled]):checked
+~ .control_indicator,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea .control input:checked:focus ~ .control_indicator {
+    background: #113d53;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea .control input:disabled ~ .control_indicator {
+    background: #e6e6e6;
+    opacity: 0.6;
+    pointer-events: none;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea .control_indicator:after {
+    -webkit-box-sizing: unset;
+            box-sizing: unset;
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea .control input:checked ~ .control_indicator:after {
+    display: block;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea .control-checkbox .control_indicator:after {
+    left: 8px;
+    top: 4px;
+    width: 3px;
+    height: 8px;
+    border: solid #ffffff;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea .control-checkbox input:disabled ~ .control_indicator:after {
+    border-color: #7b7b7b;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea .control-checkbox .control_indicator::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-left: -1.3rem;
+    margin-top: -1.3rem;
+    background: #2aa1c0;
+    border-radius: 3rem;
+    opacity: 0.6;
+    z-index: 99999;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer {
+    margin: 25px 0;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer h6 {
+    color: #113d53;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
   }
   .Footer {
     margin-top: 1.875rem;
@@ -329,7 +544,7 @@
     display: none;
   }
   .container .sectionSatu {
-    margin-top: 0;
+    margin-top: 25px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -370,6 +585,146 @@
   .container .sectionSatu .sectionSatuKanan img {
     height: 12rem;
     width: 100%;
+  }
+  .container .sectionDua {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 50px;
+    padding: 50px 0;
+    border-top: 1px solid #e5e5e5;
+  }
+  .container .sectionDua .sectionDuaKiri {
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .container .sectionDua .sectionDuaKiri .detailContact {
+    margin-bottom: 50px;
+  }
+  .container .sectionDua .sectionDuaKiri .detailContact .kiri {
+    margin-bottom: 25px;
+  }
+  .container .sectionDua .sectionDuaKiri .detailContact .kiri h6 {
+    font-size: 1rem;
+    color: #f66e49;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+  }
+  .container .sectionDua .sectionDuaKiri .detailContact .kanan {
+    line-height: 0.5rem;
+  }
+  .container .sectionDua .sectionDuaKiri .detailContact .kanan p {
+    font-size: 0.8rem;
+  }
+  .container .sectionDua .sectionDuaKanan {
+    margin-top: 25px;
+  }
+  .container .sectionDua .sectionDuaKanan .linkMenujuLinkedln {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionDua .sectionDuaKanan .linkMenujuLinkedln a,
+  .container .sectionDua .sectionDuaKanan .linkMenujuLinkedln img {
+    margin: 0 5px;
+  }
+  .container .sectionDua .sectionDuaKanan .linkMenujuLinkedln a {
+    color: #f05e36;
+    font-size: 0.8rem;
+  }
+  .container .sectionDua .sectionDuaKanan .linkMenujuLinkedln img {
+    width: 24px;
+  }
+  .container .sectionTiga {
+    display: none;
+  }
+  .container .sectionEmpat {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    width: 100%;
+    border: 10px solid #f66f4933;
+    margin-bottom: 50px;
+  }
+  .container .sectionEmpat .stamp {
+    padding: 25px 0;
+  }
+  .container .sectionEmpat .stamp img {
+    width: 10rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody {
+    padding: 0 12px;
+    line-height: 1.5rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody h2 {
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 15px;
+  }
+  .container .sectionEmpat form .sectionEmpatBody p.body-text {
+    color: #f05e36;
+    font-size: 0.8rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah {
+    margin-top: 25px;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"] {
+    background-color: transparent;
+    border: transparent;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:hover,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:focus,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:active {
+    outline: #ffffff;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 25px;
+    padding-top: 25px;
+    border-top: 1px solid #e5e5e5;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset input,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset .text,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset a.terms {
+    margin: 0 2px;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset .text,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset a.terms {
+    font-size: 0.8rem;
+    color: #113d53;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer {
+    margin: 25px 0;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer h6 {
+    color: #113d53;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
   }
   .Footer {
     margin-top: 1.875rem;
@@ -526,7 +881,7 @@
     border-top: 1.5px solid #113d53;
   }
   .container .sectionSatu {
-    margin-top: 0;
+    margin-top: 25px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -566,6 +921,143 @@
   }
   .container .sectionSatu .sectionSatuKanan img {
     height: 12rem;
+  }
+  .container .sectionDua {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    margin-top: 50px;
+    padding: 50px 0;
+    border-top: 1px solid #e5e5e5;
+  }
+  .container .sectionDua .sectionDuaKiri {
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .container .sectionDua .sectionDuaKiri .detailContact {
+    margin-bottom: 50px;
+  }
+  .container .sectionDua .sectionDuaKiri .detailContact .kiri {
+    margin-bottom: 25px;
+  }
+  .container .sectionDua .sectionDuaKiri .detailContact .kiri h6 {
+    font-size: 1rem;
+    color: #f66e49;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+  }
+  .container .sectionDua .sectionDuaKiri .detailContact .kanan {
+    line-height: 0.5rem;
+  }
+  .container .sectionDua .sectionDuaKiri .detailContact .kanan p {
+    font-size: 0.8rem;
+  }
+  .container .sectionDua .sectionDuaKanan {
+    margin-top: 25px;
+    margin-bottom: 40px;
+  }
+  .container .sectionDua .sectionDuaKanan .linkMenujuLinkedln {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionDua .sectionDuaKanan .linkMenujuLinkedln a,
+  .container .sectionDua .sectionDuaKanan .linkMenujuLinkedln img {
+    margin: 0 5px;
+  }
+  .container .sectionDua .sectionDuaKanan .linkMenujuLinkedln a {
+    color: #f05e36;
+    font-size: 0.8rem;
+  }
+  .container .sectionDua .sectionDuaKanan .linkMenujuLinkedln img {
+    width: 24px;
+  }
+  .container .sectionTiga {
+    display: none;
+  }
+  .container .sectionEmpat {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    width: 100%;
+    border: 10px solid #f66f4933;
+    margin-bottom: 50px;
+  }
+  .container .sectionEmpat .stamp {
+    padding: 25px 0;
+  }
+  .container .sectionEmpat .stamp img {
+    width: 10rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody {
+    padding: 0 12px;
+    line-height: 1.5rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody h2 {
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 15px;
+  }
+  .container .sectionEmpat form .sectionEmpatBody p.body-text {
+    color: #f05e36;
+    font-size: 0.8rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah {
+    margin-top: 25px;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"] {
+    background-color: transparent;
+    border: transparent;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:hover,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:focus,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:active {
+    outline: #ffffff;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 25px;
+    padding-top: 25px;
+    border-top: 1px solid #e5e5e5;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset input,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset .text,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset a.terms {
+    margin: 0 2px;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset .text,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset a.terms {
+    font-size: 0.8rem;
+    color: #113d53;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer {
+    margin: 25px 0;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer h6 {
+    color: #113d53;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
   }
   .Footer {
     margin-top: 1.875rem;
@@ -723,7 +1215,7 @@
     border-top: 1.5px solid #113d53;
   }
   .container .sectionSatu {
-    margin-top: 0;
+    margin-top: 25px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -764,6 +1256,142 @@
   .container .sectionSatu .sectionSatuKanan img {
     height: 12rem;
     width: 100%;
+  }
+  .container .sectionDua {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    margin-top: 50px;
+    padding: 50px 0;
+    border-top: 1px solid #e5e5e5;
+  }
+  .container .sectionDua .sectionDuaKiri {
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .container .sectionDua .sectionDuaKiri .detailContact {
+    margin-bottom: 50px;
+  }
+  .container .sectionDua .sectionDuaKiri .detailContact .kiri {
+    margin-bottom: 25px;
+  }
+  .container .sectionDua .sectionDuaKiri .detailContact .kiri h6 {
+    font-size: 1rem;
+    color: #f66e49;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+  }
+  .container .sectionDua .sectionDuaKiri .detailContact .kanan {
+    line-height: 0.5rem;
+  }
+  .container .sectionDua .sectionDuaKiri .detailContact .kanan p {
+    font-size: 0.8rem;
+  }
+  .container .sectionDua .sectionDuaKanan {
+    margin-top: 25px;
+    margin-bottom: 40px;
+  }
+  .container .sectionDua .sectionDuaKanan .linkMenujuLinkedln {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionDua .sectionDuaKanan .linkMenujuLinkedln a,
+  .container .sectionDua .sectionDuaKanan .linkMenujuLinkedln img {
+    margin: 0 5px;
+  }
+  .container .sectionDua .sectionDuaKanan .linkMenujuLinkedln a {
+    color: #f05e36;
+    font-size: 0.8rem;
+  }
+  .container .sectionDua .sectionDuaKanan .linkMenujuLinkedln img {
+    width: 24px;
+  }
+  .container .sectionTiga {
+    display: none;
+  }
+  .container .sectionEmpat {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    width: 100%;
+    border: 10px solid #f66f4933;
+    margin-bottom: 50px;
+  }
+  .container .sectionEmpat .stamp {
+    padding: 25px 0;
+  }
+  .container .sectionEmpat .stamp img {
+    width: 10rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody {
+    padding: 0 12px;
+    line-height: 1.5rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody h2 {
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 15px;
+  }
+  .container .sectionEmpat form .sectionEmpatBody p.body-text {
+    color: #f05e36;
+    font-size: 0.8rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah {
+    margin-top: 25px;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"] {
+    background-color: transparent;
+    border: transparent;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:hover,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:focus,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:active {
+    outline: #ffffff;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 25px;
+    padding-top: 25px;
+    border-top: 1px solid #e5e5e5;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset input,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset .text,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset a.terms {
+    margin: 0 2px;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset .text,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset a.terms {
+    font-size: 0.8rem;
+    color: #113d53;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer {
+    margin: 25px 0;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer h6 {
+    color: #113d53;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
   }
   .Footer {
     margin-top: 1.875rem;
@@ -950,6 +1578,185 @@
   }
   .container .sectionSatu .sectionSatuKanan img {
     width: 100%;
+  }
+  .container .sectionDua {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    margin-top: 50px;
+    padding: 50px 0;
+    border-top: 1px solid #e5e5e5;
+  }
+  .container .sectionDua .sectionDuaKiri {
+    width: 40%;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .container .sectionDua .sectionDuaKiri .detailContact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 130%;
+    margin-bottom: 50px;
+  }
+  .container .sectionDua .sectionDuaKiri .detailContact .kiri {
+    margin-bottom: 25px;
+  }
+  .container .sectionDua .sectionDuaKiri .detailContact .kiri h6 {
+    font-size: 1rem;
+    color: #f66e49;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+  }
+  .container .sectionDua .sectionDuaKiri .detailContact .kanan {
+    width: 60%;
+    line-height: 0.5rem;
+  }
+  .container .sectionDua .sectionDuaKiri .detailContact .kanan p {
+    font-size: 1rem;
+  }
+  .container .sectionDua .sectionDuaKanan {
+    margin-top: 25px;
+    margin-bottom: 40px;
+  }
+  .container .sectionDua .sectionDuaKanan .linkMenujuLinkedln {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionDua .sectionDuaKanan .linkMenujuLinkedln a,
+  .container .sectionDua .sectionDuaKanan .linkMenujuLinkedln img {
+    margin: 0 5px;
+  }
+  .container .sectionDua .sectionDuaKanan .linkMenujuLinkedln a {
+    color: #f05e36;
+    font-size: 1rem;
+  }
+  .container .sectionDua .sectionDuaKanan .linkMenujuLinkedln img {
+    width: 24px;
+  }
+  .container .sectionTiga {
+    display: none;
+  }
+  .container .sectionEmpat {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    position: relative;
+    width: 80%;
+    border: 10px solid #f66f4933;
+    padding-bottom: 50px;
+    margin: 0 auto 100px auto;
+  }
+  .container .sectionEmpat .stamp {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 25px;
+  }
+  .container .sectionEmpat .stamp img {
+    width: 18rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody {
+    padding: 50px 12px 0 12px;
+    line-height: 1.5rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    margin: 50px 0 25px 0;
+  }
+  .container .sectionEmpat form .sectionEmpatBody p.body-text {
+    color: #f05e36;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 50px auto 0 auto;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer {
+    margin: 0 50px;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"] {
+    background-color: transparent;
+    border: transparent;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:hover,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:focus,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:active {
+    outline: #ffffff;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset input,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset .text,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset a.terms {
+    margin: 0 2px;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset .text,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset a.terms {
+    font-size: 1rem;
+    color: #113d53;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer h6 {
+    color: #113d53;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
   }
   .Footer {
     margin-top: 1.875rem;
@@ -1191,6 +1998,190 @@
   }
   .sectionSatu .sectionSatuKanan img {
     width: 100%;
+  }
+  .sectionDua {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    margin-top: 50px;
+    padding: 50px 0;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .sectionDua .sectionDuaKiri {
+    width: 50%;
+  }
+  .sectionDua .sectionDuaKiri .detailContact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .sectionDua .sectionDuaKiri .detailContact .kiri {
+    margin-bottom: 25px;
+  }
+  .sectionDua .sectionDuaKiri .detailContact .kiri h6 {
+    font-size: 1rem;
+    color: #f66e49;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+  }
+  .sectionDua .sectionDuaKiri .detailContact .kanan {
+    line-height: 1rem;
+    width: 50%;
+  }
+  .sectionDua .sectionDuaKiri .detailContact .kanan p {
+    font-size: 1rem;
+  }
+  .sectionDua .sectionDuaKanan {
+    margin-top: 25px;
+    margin-bottom: 40px;
+  }
+  .sectionDua .sectionDuaKanan .linkMenujuLinkedln {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .sectionDua .sectionDuaKanan .linkMenujuLinkedln a,
+  .sectionDua .sectionDuaKanan .linkMenujuLinkedln img {
+    margin: 0 5px;
+  }
+  .sectionDua .sectionDuaKanan .linkMenujuLinkedln a {
+    color: #f05e36;
+    font-size: 1rem;
+  }
+  .sectionDua .sectionDuaKanan .linkMenujuLinkedln img {
+    width: 24px;
+  }
+  .sectionTiga {
+    display: block;
+    width: 80%;
+    background-color: #000000;
+    margin: 100px auto;
+  }
+  .sectionEmpat {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    position: relative;
+    -webkit-transform: translateX(2vw);
+            transform: translateX(2vw);
+    width: 80%;
+    border: 10px solid #f66f4933;
+    padding-bottom: 50px;
+    margin: 0 auto 100px auto;
+  }
+  .sectionEmpat .stamp {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 25px;
+  }
+  .sectionEmpat .stamp img {
+    width: 18rem;
+  }
+  .sectionEmpat form .sectionEmpatBody {
+    padding: 50px 12px 0 12px;
+    line-height: 1.5rem;
+  }
+  .sectionEmpat form .sectionEmpatBody h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    margin: 50px 0 25px 0;
+  }
+  .sectionEmpat form .sectionEmpatBody p.body-text {
+    color: #f05e36;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 50px auto 0 auto;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group,
+  .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow,
+  .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer {
+    margin: 0 50px;
+  }
+  .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"] {
+    background-color: transparent;
+    border: transparent;
+  }
+  .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:hover,
+  .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:focus,
+  .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:active {
+    outline: #ffffff;
+  }
+  .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset input,
+  .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset .text,
+  .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset a.terms {
+    margin: 0 2px;
+  }
+  .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset .text,
+  .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset a.terms {
+    font-size: 1rem;
+    color: #113d53;
+  }
+  .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer h6 {
+    color: #113d53;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
   }
   .Footer {
     width: 100%;
