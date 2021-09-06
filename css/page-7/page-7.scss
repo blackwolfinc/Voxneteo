@@ -1020,7 +1020,7 @@ html,body
 }
 
 /* For tablet: */
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .container {
         max-width: 100%;
     }
@@ -1484,7 +1484,7 @@ html,body
 }
 
 /* For tablet: */
-@media (min-width: 1024px) and (max-width: 1366px) { 
+@media (min-width: 992px) and (max-width: 1439px) { 
     .container {
         max-width: 100%;
     }
@@ -1548,7 +1548,7 @@ html,body
             flex-direction: column;
             display: flex;
             padding: 2rem;
-            height: 36rem;
+            height: 35rem;
 
             .sectionSatuKiri {
                 background-color: transparent;
@@ -1556,7 +1556,7 @@ html,body
                 .text {
                     margin-left: 0;
                     position: absolute;
-                    top: 12rem;
+                    top: 13rem;
 
                     h1 {
                         height: auto;
@@ -1581,7 +1581,7 @@ html,body
 
             .sectionSatuKanan {
                 position: absolute;
-                top: 18rem;
+                top: 19rem;
                 margin-right: 0;
                 height: auto;
                 padding-right: 2rem;
