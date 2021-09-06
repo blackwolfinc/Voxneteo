@@ -159,7 +159,7 @@ $size1: 1.6rem;
     }
 
     .sectionSatu {
-      margin-top: 0;
+      margin-top: 25px;
       flex-direction: column;
       display: flex;
 
@@ -198,6 +198,161 @@ $size1: 1.6rem;
 
         img {
           height: 12rem;
+        }
+      }
+    }
+
+    .sectionDua {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+      padding: 50px 0;
+      border-top: 1px solid $color2;
+
+      .sectionDuaKiri {
+        border-bottom: 1px solid $color2;
+
+        .detailContact {
+          margin-bottom: 50px;
+
+          .kiri {
+            margin-bottom: 25px;
+
+            h6 {
+              font-size: 1rem;
+              color: $color6;
+              letter-spacing: 0.1rem;
+              text-transform: uppercase;
+            }
+          }
+
+          .kanan {
+            line-height: 0.5rem;
+
+            p {
+              font-size: 0.8rem;
+            }
+          }
+        }
+      }
+
+      .sectionDuaKanan {
+        margin-top: 25px;
+        .linkMenujuLinkedln {
+          display: flex;
+
+          a,
+          img {
+            margin: 0 5px;
+          }
+
+          a {
+            color: $color3;
+            font-size: 0.8rem;
+          }
+
+          img {
+            width: 24px;
+          }
+        }
+      }
+    }
+
+    .sectionTiga {
+      display: none;
+    }
+
+    .sectionEmpat {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+      border: 10px solid #f66f4933;
+      margin-bottom: 50px;
+
+      .stamp {
+        padding: 25px 0;
+
+        img {
+          width: 10rem;
+        }
+      }
+
+      form {
+        .sectionEmpatBody {
+          padding: 0 12px;
+          line-height: 1.5rem;
+
+          h2 {
+            font-size: 1.5rem;
+            letter-spacing: 0.2rem;
+            margin-bottom: 15px;
+          }
+
+          p.body-text {
+            color: $color3;
+            font-size: 0.8rem;
+          }
+
+          .sectionEmpatTengah {
+            margin-top: 25px;
+
+            .mc-field-group {
+              input[type="email"] {
+                background-color: transparent;
+                border: transparent;
+              }
+
+              input[type="email"]:hover,
+              input[type="email"]:focus,
+              input[type="email"]:active {
+                outline: $color1;
+              }
+
+              input::placeholder {
+                font-size: 0.8rem;
+                text-align: center;
+              }
+            }
+
+            .gdpr-mergeRow {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-top: 25px;
+              padding-top: 25px;
+              border-top: 1px solid $color2;
+
+              .content__gdpr {
+                .mc_fieldset {
+                  input,
+                  .text,
+                  a.terms {
+                    margin: 0 2px;
+                  }
+
+                  .text,
+                  a.terms {
+                    font-size: 0.8rem;
+                    color: $colorLine;
+                  }
+                }
+              }
+            }
+
+            .envoyer {
+              margin: 25px 0;
+
+              h6 {
+                color: $colorLine;
+                text-transform: uppercase;
+                letter-spacing: 0.1rem;
+              }
+            }
+          }
         }
       }
     }
@@ -361,7 +516,7 @@ $size1: 1.6rem;
     }
 
     .sectionSatu {
-      margin-top: 0;
+      margin-top: 25px;
       flex-direction: column;
       display: flex;
 
@@ -401,6 +556,162 @@ $size1: 1.6rem;
         img {
           height: 12rem;
           width: 100%;
+        }
+      }
+    }
+
+    .sectionDua {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+      padding: 50px 0;
+      border-top: 1px solid $color2;
+
+      .sectionDuaKiri {
+        transform: translateX(-25px);
+        border-bottom: 1px solid $color2;
+
+        .detailContact {
+          margin-bottom: 50px;
+
+          .kiri {
+            margin-bottom: 25px;
+
+            h6 {
+              font-size: 1rem;
+              color: $color6;
+              letter-spacing: 0.1rem;
+              text-transform: uppercase;
+            }
+          }
+
+          .kanan {
+            line-height: 0.5rem;
+
+            p {
+              font-size: 0.8rem;
+            }
+          }
+        }
+      }
+
+      .sectionDuaKanan {
+        margin-top: 25px;
+        .linkMenujuLinkedln {
+          display: flex;
+
+          a,
+          img {
+            margin: 0 5px;
+          }
+
+          a {
+            color: $color3;
+            font-size: 0.8rem;
+          }
+
+          img {
+            width: 24px;
+          }
+        }
+      }
+    }
+
+    .sectionTiga {
+      display: none;
+    }
+
+    .sectionEmpat {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+      border: 10px solid #f66f4933;
+      margin-bottom: 50px;
+
+      .stamp {
+        padding: 25px 0;
+
+        img {
+          width: 10rem;
+        }
+      }
+
+      form {
+        .sectionEmpatBody {
+          padding: 0 12px;
+          line-height: 1.5rem;
+
+          h2 {
+            font-size: 1.5rem;
+            letter-spacing: 0.2rem;
+            margin-bottom: 15px;
+          }
+
+          p.body-text {
+            color: $color3;
+            font-size: 0.8rem;
+          }
+
+          .sectionEmpatTengah {
+            margin-top: 25px;
+
+            .mc-field-group {
+              input[type="email"] {
+                background-color: transparent;
+                border: transparent;
+              }
+
+              input[type="email"]:hover,
+              input[type="email"]:focus,
+              input[type="email"]:active {
+                outline: $color1;
+              }
+
+              input::placeholder {
+                font-size: 0.8rem;
+                text-align: center;
+              }
+            }
+
+            .gdpr-mergeRow {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-top: 25px;
+              padding-top: 25px;
+              border-top: 1px solid $color2;
+
+              .content__gdpr {
+                .mc_fieldset {
+                  input,
+                  .text,
+                  a.terms {
+                    margin: 0 2px;
+                  }
+
+                  .text,
+                  a.terms {
+                    font-size: 0.8rem;
+                    color: $colorLine;
+                  }
+                }
+              }
+            }
+
+            .envoyer {
+              margin: 25px 0;
+
+              h6 {
+                color: $colorLine;
+                text-transform: uppercase;
+                letter-spacing: 0.1rem;
+              }
+            }
+          }
         }
       }
     }
@@ -564,7 +875,7 @@ $size1: 1.6rem;
     }
 
     .sectionSatu {
-      margin-top: 0;
+      margin-top: 25px;
       flex-direction: column;
       display: flex;
 
@@ -603,6 +914,164 @@ $size1: 1.6rem;
 
         img {
           height: 12rem;
+        }
+      }
+    }
+
+    .sectionDua {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+      padding: 50px 0;
+      border-top: 1px solid $color2;
+
+      .sectionDuaKiri {
+        transform: translateX(-50px);
+        border-bottom: 1px solid $color2;
+
+        .detailContact {
+          margin-bottom: 50px;
+
+          .kiri {
+            margin-bottom: 25px;
+
+            h6 {
+              font-size: 1rem;
+              color: $color6;
+              letter-spacing: 0.1rem;
+              text-transform: uppercase;
+            }
+          }
+
+          .kanan {
+            line-height: 0.5rem;
+
+            p {
+              font-size: 0.8rem;
+            }
+          }
+        }
+      }
+
+      .sectionDuaKanan {
+        margin-top: 25px;
+        margin-bottom: 40px;
+
+        .linkMenujuLinkedln {
+          display: flex;
+
+          a,
+          img {
+            margin: 0 5px;
+          }
+
+          a {
+            color: $color3;
+            font-size: 0.8rem;
+          }
+
+          img {
+            width: 24px;
+          }
+        }
+      }
+    }
+
+    .sectionTiga {
+      display: none;
+    }
+
+    .sectionEmpat {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+      border: 10px solid #f66f4933;
+      margin-bottom: 50px;
+
+      .stamp {
+        padding: 25px 0;
+
+        img {
+          width: 10rem;
+        }
+      }
+
+      form {
+        .sectionEmpatBody {
+          padding: 0 12px;
+          line-height: 1.5rem;
+
+          h2 {
+            font-size: 1.5rem;
+            letter-spacing: 0.2rem;
+            margin-bottom: 15px;
+          }
+
+          p.body-text {
+            color: $color3;
+            font-size: 0.8rem;
+          }
+
+          .sectionEmpatTengah {
+            margin-top: 25px;
+
+            .mc-field-group {
+              input[type="email"] {
+                background-color: transparent;
+                border: transparent;
+              }
+
+              input[type="email"]:hover,
+              input[type="email"]:focus,
+              input[type="email"]:active {
+                outline: $color1;
+              }
+
+              input::placeholder {
+                font-size: 0.8rem;
+                text-align: center;
+              }
+            }
+
+            .gdpr-mergeRow {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-top: 25px;
+              padding-top: 25px;
+              border-top: 1px solid $color2;
+
+              .content__gdpr {
+                .mc_fieldset {
+                  input,
+                  .text,
+                  a.terms {
+                    margin: 0 2px;
+                  }
+
+                  .text,
+                  a.terms {
+                    font-size: 0.8rem;
+                    color: $colorLine;
+                  }
+                }
+              }
+            }
+
+            .envoyer {
+              margin: 25px 0;
+
+              h6 {
+                color: $colorLine;
+                text-transform: uppercase;
+                letter-spacing: 0.1rem;
+              }
+            }
+          }
         }
       }
     }
@@ -767,7 +1236,7 @@ $size1: 1.6rem;
     }
 
     .sectionSatu {
-      margin-top: 0;
+      margin-top: 25px;
       flex-direction: column;
       display: flex;
 
@@ -807,6 +1276,185 @@ $size1: 1.6rem;
         img {
           height: 12rem;
           width: 100%;
+        }
+      }
+    }
+
+    .sectionDua {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-end;
+      margin-top: 50px;
+      padding: 50px 0;
+      border-top: 1px solid $color2;
+
+      .sectionDuaKiri {
+        border-bottom: 1px solid $color2;
+
+        .detailContact {
+          margin-bottom: 50px;
+
+          .kiri {
+            margin-bottom: 25px;
+
+            h6 {
+              font-size: 1rem;
+              color: $color6;
+              letter-spacing: 0.1rem;
+              text-transform: uppercase;
+            }
+          }
+
+          .kanan {
+            line-height: 0.5rem;
+
+            p {
+              font-size: 0.8rem;
+            }
+          }
+        }
+      }
+
+      .sectionDuaKanan {
+        margin-top: 25px;
+        margin-bottom: 40px;
+
+        .linkMenujuLinkedln {
+          display: flex;
+
+          a,
+          img {
+            margin: 0 5px;
+          }
+
+          a {
+            color: $color3;
+            font-size: 0.8rem;
+          }
+
+          img {
+            width: 24px;
+          }
+        }
+      }
+    }
+
+    .sectionTiga {
+      display: none;
+    }
+
+    .sectionEmpat {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+      width: 80%;
+      border: 10px solid #f66f4933;
+      padding-bottom: 50px;
+      margin: 0 auto 100px auto;
+
+      .stamp {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 25px;
+        z-index: -1;
+
+        img {
+          width: 10rem;
+        }
+      }
+
+      form {
+        .sectionEmpatBody {
+          padding: 75px 12px 0 12px;
+          line-height: 1.5rem;
+
+          h2 {
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.4rem;
+            margin: 50px 0 25px 0;
+          }
+
+          p.body-text {
+            color: $color3;
+            font-size: 1rem;
+            line-height: 2rem;
+          }
+
+          .sectionEmpatTengah {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            width: fit-content;
+            margin: 50px auto 0 auto;
+            padding-bottom: 15px;
+            border-bottom: 1px solid $color2;
+
+            .mc-field-group,
+            .gdpr-mergeRow,
+            .envoyer {
+              margin: 0 25px;
+            }
+
+            .mc-field-group {
+              width: 100%;
+              margin-bottom: 25px;
+
+              input[type="email"] {
+                background-color: transparent;
+                border: transparent;
+              }
+
+              input[type="email"]:hover,
+              input[type="email"]:focus,
+              input[type="email"]:active {
+                outline: $color1;
+              }
+
+              input::placeholder {
+                font-size: 0.9rem;
+              }
+            }
+
+            .gdpr-mergeRow {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              .content__gdpr {
+                .mc_fieldset {
+                  input,
+                  .text,
+                  a.terms {
+                    margin: 0 2px;
+                  }
+
+                  .text,
+                  a.terms {
+                    font-size: 0.8rem;
+                    color: $colorLine;
+                  }
+                }
+              }
+            }
+
+            .envoyer {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              transform: translateY(3px);
+
+              h6 {
+                color: $colorLine;
+                text-transform: uppercase;
+                letter-spacing: 0.1rem;
+              }
+            }
+          }
         }
       }
     }
@@ -997,6 +1645,187 @@ $size1: 1.6rem;
 
         img {
           width: 100%;
+        }
+      }
+    }
+
+    .sectionDua {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-end;
+      margin-top: 50px;
+      padding: 50px 0;
+      border-top: 1px solid $color2;
+
+      .sectionDuaKiri {
+        width: 40%;
+        border-bottom: 1px solid $color2;
+
+        .detailContact {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+          width: 130%;
+          margin-bottom: 50px;
+
+          .kiri {
+            margin-bottom: 25px;
+
+            h6 {
+              font-size: 1rem;
+              color: $color6;
+              letter-spacing: 0.1rem;
+              text-transform: uppercase;
+            }
+          }
+
+          .kanan {
+            width: 60%;
+            line-height: 0.5rem;
+
+            p {
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+
+      .sectionDuaKanan {
+        margin-top: 25px;
+        margin-bottom: 60px;
+
+        .linkMenujuLinkedln {
+          display: flex;
+
+          a,
+          img {
+            margin: 0 5px;
+          }
+
+          a {
+            color: $color3;
+            font-size: 1rem;
+          }
+
+          img {
+            width: 24px;
+          }
+        }
+      }
+    }
+
+    .sectionTiga {
+      display: none;
+    }
+
+    .sectionEmpat {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+      width: 80%;
+      border: 10px solid #f66f4933;
+      padding-bottom: 50px;
+      margin: 0 auto 100px auto;
+
+      .stamp {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 25px;
+        z-index: -1;
+
+        img {
+          width: 15rem;
+        }
+      }
+
+      form {
+        .sectionEmpatBody {
+          padding: 50px 12px 0 12px;
+          line-height: 1.5rem;
+
+          h2 {
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.4rem;
+            margin: 50px 0 25px 0;
+          }
+
+          p.body-text {
+            color: $color3;
+            font-size: 1.2rem;
+            line-height: 2rem;
+          }
+
+          .sectionEmpatTengah {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: fit-content;
+            margin: 50px auto 0 auto;
+            padding-bottom: 15px;
+            border-bottom: 1px solid $color2;
+
+            .mc-field-group,
+            .gdpr-mergeRow,
+            .envoyer {
+              margin: 0 25px;
+            }
+
+            .mc-field-group {
+              input[type="email"] {
+                background-color: transparent;
+                border: transparent;
+              }
+
+              input[type="email"]:hover,
+              input[type="email"]:focus,
+              input[type="email"]:active {
+                outline: $color1;
+              }
+
+              input::placeholder {
+                font-size: 0.9rem;
+              }
+            }
+
+            .gdpr-mergeRow {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              .content__gdpr {
+                .mc_fieldset {
+                  input,
+                  .text,
+                  a.terms {
+                    margin: 0 2px;
+                  }
+
+                  .text,
+                  a.terms {
+                    font-size: 0.9rem;
+                    color: $colorLine;
+                  }
+                }
+              }
+            }
+
+            .envoyer {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              transform: translateY(3px);
+
+              h6 {
+                color: $colorLine;
+                text-transform: uppercase;
+                letter-spacing: 0.1rem;
+              }
+            }
+          }
         }
       }
     }
@@ -1243,6 +2072,190 @@ $size1: 1.6rem;
 
       img {
         width: 100%;
+      }
+    }
+  }
+
+  .sectionDua {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 50px;
+    padding: 50px 0;
+    border-top: 1px solid $color2;
+    border-bottom: 1px solid $color2;
+
+    .sectionDuaKiri {
+      width: 50%;
+
+      .detailContact {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        margin-bottom: 50px;
+
+        .kiri {
+          margin-bottom: 25px;
+
+          h6 {
+            font-size: 1rem;
+            color: $color6;
+            letter-spacing: 0.1rem;
+            text-transform: uppercase;
+          }
+        }
+
+        .kanan {
+          line-height: 1rem;
+          width: 50%;
+
+          p {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+
+    .sectionDuaKanan {
+      margin-top: 25px;
+      margin-bottom: 60px;
+
+      .linkMenujuLinkedln {
+        display: flex;
+
+        a,
+        img {
+          margin: 0 5px;
+        }
+
+        a {
+          color: $color3;
+          font-size: 1rem;
+        }
+
+        img {
+          width: 24px;
+        }
+      }
+    }
+  }
+
+  .sectionTiga {
+    display: block;
+    width: 80%;
+    background-color: #000000;
+    margin: 100px auto;
+  }
+
+  .sectionEmpat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    transform: translateX(2vw);
+    width: 80%;
+    border: 10px solid #f66f4933;
+    padding-bottom: 50px;
+    margin: 0 auto 100px auto;
+
+    .stamp {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 25px;
+
+      img {
+        width: 18rem;
+      }
+    }
+
+    form {
+      .sectionEmpatBody {
+        padding: 50px 12px 0 12px;
+        line-height: 1.5rem;
+
+        h2 {
+          font-size: 1.5rem;
+          text-transform: uppercase;
+          letter-spacing: 0.4rem;
+          margin: 50px 0 25px 0;
+        }
+
+        p.body-text {
+          color: $color3;
+          font-size: 1.2rem;
+          line-height: 2rem;
+        }
+
+        .sectionEmpatTengah {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          width: fit-content;
+          margin: 50px auto 0 auto;
+          padding-bottom: 15px;
+          border-bottom: 1px solid $color2;
+
+          .mc-field-group,
+          .gdpr-mergeRow,
+          .envoyer {
+            margin: 0 50px;
+          }
+
+          .mc-field-group {
+            input[type="email"] {
+              background-color: transparent;
+              border: transparent;
+            }
+
+            input[type="email"]:hover,
+            input[type="email"]:focus,
+            input[type="email"]:active {
+              outline: $color1;
+            }
+
+            input::placeholder {
+              font-size: 0.9rem;
+            }
+          }
+
+          .gdpr-mergeRow {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .content__gdpr {
+              .mc_fieldset {
+                input,
+                .text,
+                a.terms {
+                  margin: 0 2px;
+                }
+
+                .text,
+                a.terms {
+                  font-size: 0.9rem;
+                  color: $colorLine;
+                }
+              }
+            }
+          }
+
+          .envoyer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: translateY(3px);
+
+            h6 {
+              color: $colorLine;
+              text-transform: uppercase;
+              letter-spacing: 0.1rem;
+            }
+          }
+        }
       }
     }
   }
