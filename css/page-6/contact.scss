@@ -1348,40 +1348,48 @@ $size1: 1.6rem;
       flex-direction: column;
       justify-content: center;
       text-align: center;
+      font-family: $butler;
       position: relative;
-      width: 80%;
+      transform: translateX(2vw);
+      // height: 485px;
+      // width: 305px; // untuk ukuran layar mobile
+      width: 90%;
+      max-width: 950px;
       border: 10px solid #f66f4933;
-      padding-bottom: 50px;
+      // padding-bottom: 50px;
       margin: 0 auto 100px auto;
 
       .stamp {
-        position: absolute;
-        top: 0;
-        right: 0;
         padding: 25px;
-        z-index: -1;
 
         img {
-          width: 10rem;
+          width: 250px;
         }
       }
 
       form {
+        margin-top: 25px;
+
         .sectionEmpatBody {
-          padding: 75px 12px 0 12px;
+          padding: 0 12px 0 12px;
           line-height: 1.5rem;
 
           h2 {
-            font-size: 1.5rem;
+            color: $color5;
+            font-size: 26px;
+            font-family: "Minion";
+            font-weight: bold;
             text-transform: uppercase;
-            letter-spacing: 0.4rem;
-            margin: 50px 0 25px 0;
+            letter-spacing: 10.4px;
+            margin: 0 0 25px 0;
           }
 
           p.body-text {
-            color: $color3;
-            font-size: 1rem;
+            color: $color6;
+            font-size: 20px;
+            font-family: "IBM Plex Sans";
             line-height: 2rem;
+            letter-spacing: -0.32px;
           }
 
           .sectionEmpatTengah {
@@ -1390,23 +1398,32 @@ $size1: 1.6rem;
             justify-content: space-evenly;
             align-items: center;
             width: fit-content;
-            margin: 50px auto 0 auto;
-            padding-bottom: 15px;
+            margin: 50px auto 25px auto;
+            padding-bottom: 25px;
             border-bottom: 1px solid $color2;
 
             .mc-field-group,
             .gdpr-mergeRow,
             .envoyer {
-              margin: 0 25px;
+              margin: 0 30px;
             }
 
             .mc-field-group {
-              width: 100%;
+              width: 100%; // seharusnya 261 px tapi setelah diimplementasikan malah tidak rapi
+              height: 50px;
               margin-bottom: 25px;
+              border-bottom: 1px solid $color2;
 
               input[type="email"] {
+                width: 100%;
+                text-align: center;
                 background-color: transparent;
                 border: transparent;
+                font-size: 0.9rem;
+                color: #363636;
+                font-family: "IBM Plex Sans";
+                font-size: 16px;
+                letter-spacing: -0.24px;
               }
 
               input[type="email"]:hover,
@@ -1417,6 +1434,10 @@ $size1: 1.6rem;
 
               input::placeholder {
                 font-size: 0.9rem;
+                color: #363636;
+                font-family: "IBM Plex Sans";
+                font-size: 16px;
+                letter-spacing: -0.24px;
               }
             }
 
@@ -1435,8 +1456,10 @@ $size1: 1.6rem;
 
                   .text,
                   a.terms {
-                    font-size: 0.8rem;
-                    color: $colorLine;
+                    font-size: 16px;
+                    font-family: "IBM Plex Sans";
+                    color: $color5;
+                    letter-spacing: -0.24px;
                   }
                 }
               }
@@ -1446,12 +1469,14 @@ $size1: 1.6rem;
               display: flex;
               justify-content: center;
               align-items: center;
-              transform: translateY(3px);
+              transform: translateY(5px);
 
               h6 {
-                color: $colorLine;
+                color: $color5;
                 text-transform: uppercase;
-                letter-spacing: 0.1rem;
+                letter-spacing: 1px;
+                font-family: "IBM Plex Sans";
+                font-weight: 500;
               }
             }
           }
