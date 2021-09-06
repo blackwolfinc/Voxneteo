@@ -559,6 +559,9 @@ html,body
         .container {
             height: 1.5rem;
         }
+        nav.navbar {
+            justify-content: right;
+        }
     }
 
     .container {
@@ -570,6 +573,7 @@ html,body
             margin-left: -1.5rem;
             margin-right: -1.5rem;
             padding-bottom: 20px;
+            
     
             span.line {
                 display: none;
@@ -1026,7 +1030,6 @@ html,body
     }
     // styling navbar
     .navbar {
-        
         .container {
             height: 1.5rem;
             max-width: 100%;
@@ -1114,6 +1117,9 @@ html,body
                     margin-bottom: 2rem;
                 }
             }
+        }
+        nav.navbar {
+            justify-content: right;
         }
     }
     

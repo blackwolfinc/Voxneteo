@@ -603,6 +603,11 @@ html, body {
   .navbar .container {
     height: 1.5rem;
   }
+  .navbar nav.navbar {
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+  }
   .container {
     max-width: 100%;
   }
@@ -1125,6 +1130,11 @@ html, body {
   }
   .navbar .container .navbar-nav #hidebtn {
     margin-bottom: 2rem;
+  }
+  .navbar nav.navbar {
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
   }
   .navbar {
     border-bottom: 1px solid #e3e3e3;
