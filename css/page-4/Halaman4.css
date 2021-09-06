@@ -96,6 +96,8 @@
 .sectionBody .containerCards .item .title {
   font-size: 1.15rem;
   color: #0a2939;
+  margin-bottom: 0;
+  line-height: 1.6rem;
 }
 
 .sectionBody .containerCards .item.quotes {
@@ -151,7 +153,7 @@
 .sectionAddActuals {
   color: #f05e36;
   text-align: center;
-  margin-top: -3rem;
+  margin-top: -6rem;
 }
 
 .sectionAddActuals .icon-plus {
@@ -170,7 +172,6 @@
 
 @media only screen and (min-width: 0px) and (max-width: 1184px) {
   .sectionAddActuals {
-    margin-top: 0;
     position: relative;
     z-index: -1;
     margin-top: -1rem;
