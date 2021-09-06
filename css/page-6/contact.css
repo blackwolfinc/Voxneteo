@@ -282,7 +282,19 @@
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:active {
     outline: #ffffff;
   }
-  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea {
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-webkit-input-placeholder {
+    font-size: 0.8rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input:-ms-input-placeholder {
+    font-size: 0.8rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-ms-input-placeholder {
+    font-size: 0.8rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::placeholder {
+    font-size: 0.8rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -294,92 +306,17 @@
             align-items: center;
     margin-top: 25px;
     padding-top: 25px;
-    border: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
   }
-  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea .control {
-    font-family: arial;
-    display: block;
-    color: #113d53;
-    position: relative;
-    margin-right: 4px;
-    cursor: pointer;
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset input,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset .text,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset a.terms {
+    margin: 0 2px;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset .text,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset a.terms {
     font-size: 0.8rem;
-  }
-  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea .control a {
     color: #113d53;
-  }
-  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea .control input {
-    position: absolute;
-    z-index: -1;
-    opacity: 0;
-  }
-  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea .control_indicator {
-    position: absolute;
-    top: 2px;
-    left: 0;
-    height: 20px;
-    width: 20px;
-    background: #e6e6e6;
-    border: 0px solid #000000;
-    border-radius: 0px;
-  }
-  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea .control:hover input ~ .control_indicator,
-  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea .control input:focus ~ .control_indicator {
-    background: #cccccc;
-  }
-  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea .control input:checked ~ .control_indicator {
-    background: #113d53;
-  }
-  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea .control:hover
-input:not([disabled]):checked
-~ .control_indicator,
-  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea .control input:checked:focus ~ .control_indicator {
-    background: #113d53;
-  }
-  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea .control input:disabled ~ .control_indicator {
-    background: #e6e6e6;
-    opacity: 0.6;
-    pointer-events: none;
-  }
-  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea .control_indicator:after {
-    -webkit-box-sizing: unset;
-            box-sizing: unset;
-    content: "";
-    position: absolute;
-    display: none;
-  }
-  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea .control input:checked ~ .control_indicator:after {
-    display: block;
-  }
-  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea .control-checkbox .control_indicator:after {
-    left: 8px;
-    top: 4px;
-    width: 3px;
-    height: 8px;
-    border: solid #ffffff;
-    border-width: 0 2px 2px 0;
-    -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
-  }
-  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea .control-checkbox input:disabled ~ .control_indicator:after {
-    border-color: #7b7b7b;
-  }
-  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group .checkboxArea .control-checkbox .control_indicator::before {
-    content: "";
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 4.5rem;
-    height: 4.5rem;
-    margin-left: -1.3rem;
-    margin-top: -1.3rem;
-    background: #2aa1c0;
-    border-radius: 3rem;
-    opacity: 0.6;
-    z-index: 99999;
-    -webkit-transform: scale(0);
-            transform: scale(0);
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer {
     margin: 25px 0;
@@ -693,6 +630,18 @@ input:not([disabled]):checked
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:focus,
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:active {
     outline: #ffffff;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-webkit-input-placeholder {
+    font-size: 0.8rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input:-ms-input-placeholder {
+    font-size: 0.8rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-ms-input-placeholder {
+    font-size: 0.8rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::placeholder {
+    font-size: 0.8rem;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow {
     display: -webkit-box;
@@ -1027,6 +976,18 @@ input:not([disabled]):checked
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:active {
     outline: #ffffff;
   }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-webkit-input-placeholder {
+    font-size: 0.8rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input:-ms-input-placeholder {
+    font-size: 0.8rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-ms-input-placeholder {
+    font-size: 0.8rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::placeholder {
+    font-size: 0.8rem;
+  }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1326,31 +1287,64 @@ input:not([disabled]):checked
         -ms-flex-pack: center;
             justify-content: center;
     text-align: center;
-    width: 100%;
+    position: relative;
+    width: 80%;
     border: 10px solid #f66f4933;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto 100px auto;
   }
   .container .sectionEmpat .stamp {
-    padding: 25px 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 25px;
+    z-index: -1;
   }
   .container .sectionEmpat .stamp img {
     width: 10rem;
   }
   .container .sectionEmpat form .sectionEmpatBody {
-    padding: 0 12px;
+    padding: 75px 12px 0 12px;
     line-height: 1.5rem;
   }
   .container .sectionEmpat form .sectionEmpatBody h2 {
     font-size: 1.5rem;
-    letter-spacing: 0.2rem;
-    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    margin: 50px 0 25px 0;
   }
   .container .sectionEmpat form .sectionEmpatBody p.body-text {
     color: #f05e36;
-    font-size: 0.8rem;
+    font-size: 1rem;
+    line-height: 2rem;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah {
-    margin-top: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 50px auto 0 auto;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer {
+    margin: 0 25px;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group {
+    width: 100%;
+    margin-bottom: 25px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"] {
     background-color: transparent;
@@ -1360,6 +1354,18 @@ input:not([disabled]):checked
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:focus,
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:active {
     outline: #ffffff;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-webkit-input-placeholder {
+    font-size: 0.9rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input:-ms-input-placeholder {
+    font-size: 0.9rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-ms-input-placeholder {
+    font-size: 0.9rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::placeholder {
+    font-size: 0.9rem;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow {
     display: -webkit-box;
@@ -1371,9 +1377,6 @@ input:not([disabled]):checked
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 25px;
-    padding-top: 25px;
-    border-top: 1px solid #e5e5e5;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset input,
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset .text,
@@ -1386,7 +1389,17 @@ input:not([disabled]):checked
     color: #113d53;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer {
-    margin: 25px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: translateY(3px);
+            transform: translateY(3px);
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer h6 {
     color: #113d53;
@@ -1671,9 +1684,10 @@ input:not([disabled]):checked
     top: 0;
     right: 0;
     padding: 25px;
+    z-index: -1;
   }
   .container .sectionEmpat .stamp img {
-    width: 18rem;
+    width: 15rem;
   }
   .container .sectionEmpat form .sectionEmpatBody {
     padding: 50px 12px 0 12px;
@@ -1710,7 +1724,7 @@ input:not([disabled]):checked
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group,
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow,
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer {
-    margin: 0 50px;
+    margin: 0 25px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"] {
     background-color: transparent;
@@ -1720,6 +1734,18 @@ input:not([disabled]):checked
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:focus,
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:active {
     outline: #ffffff;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-webkit-input-placeholder {
+    font-size: 0.9rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input:-ms-input-placeholder {
+    font-size: 0.9rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-ms-input-placeholder {
+    font-size: 0.9rem;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::placeholder {
+    font-size: 0.9rem;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow {
     display: -webkit-box;
@@ -1739,7 +1765,7 @@ input:not([disabled]):checked
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset .text,
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset a.terms {
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #113d53;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer {
@@ -1752,6 +1778,8 @@ input:not([disabled]):checked
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-transform: translateY(3px);
+            transform: translateY(3px);
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer h6 {
     color: #113d53;
@@ -2146,6 +2174,18 @@ input:not([disabled]):checked
   .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:active {
     outline: #ffffff;
   }
+  .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-webkit-input-placeholder {
+    font-size: 0.9rem;
+  }
+  .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input:-ms-input-placeholder {
+    font-size: 0.9rem;
+  }
+  .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-ms-input-placeholder {
+    font-size: 0.9rem;
+  }
+  .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::placeholder {
+    font-size: 0.9rem;
+  }
   .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2164,7 +2204,7 @@ input:not([disabled]):checked
   }
   .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset .text,
   .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset a.terms {
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #113d53;
   }
   .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer {
@@ -2177,6 +2217,8 @@ input:not([disabled]):checked
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-transform: translateY(3px);
+            transform: translateY(3px);
   }
   .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer h6 {
     color: #113d53;
