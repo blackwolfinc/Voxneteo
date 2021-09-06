@@ -284,15 +284,19 @@
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-webkit-input-placeholder {
     font-size: 0.8rem;
+    text-align: center;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input:-ms-input-placeholder {
     font-size: 0.8rem;
+    text-align: center;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-ms-input-placeholder {
     font-size: 0.8rem;
+    text-align: center;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::placeholder {
     font-size: 0.8rem;
+    text-align: center;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow {
     display: -webkit-box;
@@ -542,6 +546,8 @@
     border-top: 1px solid #e5e5e5;
   }
   .container .sectionDua .sectionDuaKiri {
+    -webkit-transform: translateX(-25px);
+            transform: translateX(-25px);
     border-bottom: 1px solid #e5e5e5;
   }
   .container .sectionDua .sectionDuaKiri .detailContact {
@@ -633,15 +639,19 @@
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-webkit-input-placeholder {
     font-size: 0.8rem;
+    text-align: center;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input:-ms-input-placeholder {
     font-size: 0.8rem;
+    text-align: center;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-ms-input-placeholder {
     font-size: 0.8rem;
+    text-align: center;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::placeholder {
     font-size: 0.8rem;
+    text-align: center;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow {
     display: -webkit-box;
@@ -875,17 +885,23 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 50px;
     padding: 50px 0;
     border-top: 1px solid #e5e5e5;
   }
   .container .sectionDua .sectionDuaKiri {
+    -webkit-transform: translateX(-50px);
+            transform: translateX(-50px);
     border-bottom: 1px solid #e5e5e5;
   }
   .container .sectionDua .sectionDuaKiri .detailContact {
@@ -978,15 +994,19 @@
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-webkit-input-placeholder {
     font-size: 0.8rem;
+    text-align: center;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input:-ms-input-placeholder {
     font-size: 0.8rem;
+    text-align: center;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-ms-input-placeholder {
     font-size: 0.8rem;
+    text-align: center;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::placeholder {
     font-size: 0.8rem;
+    text-align: center;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow {
     display: -webkit-box;
@@ -1640,7 +1660,7 @@
   }
   .container .sectionDua .sectionDuaKanan {
     margin-top: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
   }
   .container .sectionDua .sectionDuaKanan .linkMenujuLinkedln {
     display: -webkit-box;
@@ -2075,7 +2095,7 @@
   }
   .sectionDua .sectionDuaKanan {
     margin-top: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
   }
   .sectionDua .sectionDuaKanan .linkMenujuLinkedln {
     display: -webkit-box;

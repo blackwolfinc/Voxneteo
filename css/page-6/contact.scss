@@ -314,6 +314,7 @@ $size1: 1.6rem;
 
               input::placeholder {
                 font-size: 0.8rem;
+                text-align: center;
               }
             }
 
@@ -569,6 +570,7 @@ $size1: 1.6rem;
       border-top: 1px solid $color2;
 
       .sectionDuaKiri {
+        transform: translateX(-25px);
         border-bottom: 1px solid $color2;
 
         .detailContact {
@@ -671,6 +673,7 @@ $size1: 1.6rem;
 
               input::placeholder {
                 font-size: 0.8rem;
+                text-align: center;
               }
             }
 
@@ -917,13 +920,15 @@ $size1: 1.6rem;
 
     .sectionDua {
       display: flex;
+      flex-direction: column;
       justify-content: center;
-      align-items: flex-end;
+      align-items: center;
       margin-top: 50px;
       padding: 50px 0;
       border-top: 1px solid $color2;
 
       .sectionDuaKiri {
+        transform: translateX(-50px);
         border-bottom: 1px solid $color2;
 
         .detailContact {
@@ -1028,6 +1033,7 @@ $size1: 1.6rem;
 
               input::placeholder {
                 font-size: 0.8rem;
+                text-align: center;
               }
             }
 
@@ -1686,7 +1692,7 @@ $size1: 1.6rem;
 
       .sectionDuaKanan {
         margin-top: 25px;
-        margin-bottom: 40px;
+        margin-bottom: 60px;
 
         .linkMenujuLinkedln {
           display: flex;
@@ -2113,7 +2119,7 @@ $size1: 1.6rem;
 
     .sectionDuaKanan {
       margin-top: 25px;
-      margin-bottom: 40px;
+      margin-bottom: 60px;
 
       .linkMenujuLinkedln {
         display: flex;
