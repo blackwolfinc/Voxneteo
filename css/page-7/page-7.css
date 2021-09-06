@@ -43,6 +43,14 @@
   src: url("../../assets/fonts/webfont-minion/Minion-Bold.ttf");
 }
 
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
 .container {
   max-width: 1440px;
 }
@@ -61,6 +69,7 @@
       align-self: center;
   background-color: transparent;
   margin-top: 2rem;
+  margin-right: 3rem;
 }
 
 .navbar span {
@@ -677,7 +686,7 @@
   }
   .navbar {
     border-bottom: 1px solid #e3e3e3;
-    width: 100%;
+    width: 90%;
     margin-left: 1rem;
   }
   .navbar span {
@@ -693,7 +702,7 @@
   }
   .navbar nav .navbar-brand img {
     top: -4.8rem;
-    margin-left: 0.5rem;
+    margin-left: 2.5rem;
     width: 3rem;
   }
   .container {
@@ -710,7 +719,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 2rem;
+    padding: 1rem;
     height: 22rem;
   }
   .container .sectionSatu .sectionSatuKiri {
@@ -743,17 +752,20 @@
     top: 12rem;
     height: auto;
     margin-right: 0;
+    padding-right: 1rem;
   }
   .container .sectionSatu .sectionSatuKanan img {
     height: 12rem;
   }
   .container .sectionDua {
     margin-left: 0;
+    padding: 0 1rem;
   }
   .container .sectionDua .sectionDuaJudul {
     width: 100%;
     margin-left: 0;
     margin-bottom: 2rem;
+    padding: 0;
   }
   .container .sectionDua .sectionDuaJudul h3 {
     font-size: 1.6rem;
@@ -766,6 +778,7 @@
     margin-left: 0;
     padding: 0 2rem;
     margin-top: 1rem;
+    padding: 0;
   }
   .container .sectionDua .sectionDuaText .sideAtas {
     width: 100%;
@@ -787,6 +800,7 @@
     margin-left: 0;
     margin-right: 0;
     border: none;
+    margin-top: 0;
   }
   .container .sectionTiga .sectionTigaBody {
     height: 485px;
@@ -796,9 +810,9 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
     padding-top: 1.25rem;
     padding-left: 3.75rem;
     padding-right: 3.75rem;
@@ -1029,14 +1043,15 @@
 }
 
 /* For tablet: */
-@media (min-width: 768px) and (max-width: 1024px) {
-  .navbar .container {
-    height: 1.5rem;
-  }
+@media (min-width: 768px) and (max-width: 1023px) {
   .container {
     max-width: 100%;
   }
-  .container .navbar {
+  .navbar .container {
+    height: 1.5rem;
+    max-width: 100%;
+  }
+  .navbar .container .navbar {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1048,16 +1063,16 @@
     margin-right: -1.5rem;
     padding-bottom: 20px;
   }
-  .container .navbar span.line {
+  .navbar .container .navbar span.line {
     display: none;
   }
-  .container .navbar-light {
+  .navbar .container .navbar-light {
     border: none;
   }
-  .container .navbar-light .navbar-toggler {
+  .navbar .container .navbar-light .navbar-toggler {
     border-color: transparent;
   }
-  .container .navbar-nav {
+  .navbar .container .navbar-nav {
     top: 0;
     left: 0;
     position: fixed;
@@ -1069,26 +1084,26 @@
     color: #ffffff;
     z-index: 1;
   }
-  .container .navbar-nav .nav-item {
+  .navbar .container .navbar-nav .nav-item {
     width: 100%;
     height: 2rem;
     margin-bottom: 24px;
   }
-  .container .navbar-nav .nav-item .nav-link {
+  .navbar .container .navbar-nav .nav-item .nav-link {
     color: #ffffff;
   }
-  .container .navbar-nav .nav-item .nav-link.active {
+  .navbar .container .navbar-nav .nav-item .nav-link.active {
     border: none;
   }
-  .container .navbar-nav .nav-item .nav-link.contact {
+  .navbar .container .navbar-nav .nav-item .nav-link.contact {
     margin-bottom: 50px;
   }
-  .container .navbar-nav .nav-item ul.dash {
+  .navbar .container .navbar-nav .nav-item ul.dash {
     list-style-type: none;
     margin-top: 30px;
     padding-left: 10px;
   }
-  .container .navbar-nav .nav-item ul.dash li {
+  .navbar .container .navbar-nav .nav-item ul.dash li {
     font-family: "IBMPlexSans";
     font-size: 14px;
     color: #ffffff;
@@ -1096,27 +1111,24 @@
     margin-bottom: 24px;
     text-indent: -5px;
   }
-  .container .navbar-nav .nav-item ul.dash li.first {
+  .navbar .container .navbar-nav .nav-item ul.dash li.first {
     color: #f05e36;
   }
-  .container .navbar-nav .nav-item ul.dash li:before {
+  .navbar .container .navbar-nav .nav-item ul.dash li:before {
     content: "-";
     text-indent: -5px;
     margin-right: 13px;
     color: #f05e36;
   }
-  .container .navbar-nav #listhide {
+  .navbar .container .navbar-nav #listhide {
     border-top: 1.5px solid #113d53;
   }
-  .container .navbar-nav #hidebtn {
+  .navbar .container .navbar-nav #hidebtn {
     margin-bottom: 2rem;
-  }
-  .col {
-    width: 100%;
   }
   .navbar {
     border-bottom: 1px solid #e3e3e3;
-    width: 100%;
+    width: 95%;
     margin-left: 1rem;
   }
   .navbar span {
@@ -1132,7 +1144,7 @@
   }
   .navbar nav .navbar-brand img {
     top: -4.8rem;
-    margin-left: 0.5rem;
+    margin-left: 2.5rem;
     width: 3rem;
   }
   .container {
@@ -1149,7 +1161,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 2rem;
+    padding: 1rem;
     height: 27rem;
   }
   .container .sectionSatu .sectionSatuKiri {
@@ -1182,6 +1194,379 @@
     top: 12rem;
     margin-right: 0;
     height: auto;
+    padding-right: 1rem;
+  }
+  .container .sectionSatu .sectionSatuKanan img {
+    margin-right: 0;
+  }
+  .container .sectionDua {
+    margin-left: 0;
+    padding: 0 1rem;
+  }
+  .container .sectionDua .sectionDuaJudul {
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+  }
+  .container .sectionDua .sectionDuaJudul h3 {
+    width: 100%;
+    line-height: 35px;
+    height: 104px;
+  }
+  .container .sectionDua .sectionDuaText {
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+  }
+  .container .sectionDua .sectionDuaText .sideAtas {
+    width: 100%;
+    margin-bottom: 48px;
+  }
+  .container .sectionDua .sectionDuaText .sideAtas h5 {
+    margin: 28px 0;
+  }
+  .container .sectionDua .sectionDuaText .sideButton {
+    text-align: center;
+  }
+  .container .sectionDua .sectionDuaText .sideButton button {
+    border-radius: 3rem;
+  }
+  .container .sectionTiga {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    border: none;
+  }
+  .container .sectionTiga .sectionTigaBody {
+    height: 485px;
+    border: 4px solid rgba(246, 110, 73, 0.15);
+  }
+  .container .sectionTiga .sectionTigaBody .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding-top: 1.25rem;
+    padding-left: 3.75rem;
+    padding-right: 3.75rem;
+    padding-bottom: 2.3125rem;
+  }
+  .container .sectionTiga .sectionTigaBody .logo img {
+    width: 11.625rem;
+  }
+  .container .sectionTiga .sectionTigaBody .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 0;
+  }
+  .container .sectionTiga .sectionTigaBody .title .title-1 h2 {
+    height: 46px;
+    line-height: 24px;
+    letter-spacing: 8px;
+    margin-bottom: 16px;
+  }
+  .container .sectionTiga .sectionTigaBody .title .title-1 p {
+    height: 42px;
+    line-height: 24px;
+    letter-spacing: -0.26px;
+    margin-bottom: 0;
+  }
+  .container .sectionTiga .SectionTigaTengah {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border-bottom: none;
+  }
+  .container .sectionTiga .SectionTigaTengah .mc-field-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .sectionTiga .SectionTigaTengah .mc-field-group input {
+    color: #363636;
+    font-family: "IBMPlexSans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: auto;
+    margin-top: auto;
+    display: block;
+    border-bottom: 1px solid #E8D4CF;
+    margin-top: 35px;
+    padding-bottom: 1rem;
+  }
+  .container .sectionTiga .SectionTigaTengah .mc-field-group .email {
+    padding: 0.5rem;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+  }
+  .container .sectionTiga .SectionTigaTengah ::-webkit-input-placeholder {
+    border-left: none;
+    width: 100%;
+  }
+  .container .sectionTiga .SectionTigaTengah :-ms-input-placeholder {
+    border-left: none;
+    width: 100%;
+  }
+  .container .sectionTiga .SectionTigaTengah ::-ms-input-placeholder {
+    border-left: none;
+    width: 100%;
+  }
+  .container .sectionTiga .SectionTigaTengah ::placeholder {
+    border-left: none;
+    width: 100%;
+  }
+  .container .sectionTiga .SectionTigaTengah [placeholder] + span::after {
+    position: absolute;
+  }
+  .container .sectionTiga .SectionTigaTengah h6 {
+    text-align: center;
+  }
+  .container .sectionTiga .SectionTigaTengah .mc_fieldset {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 1.3125rem;
+    margin-bottom: 1.875rem;
+  }
+  .container .sectionTiga .SectionTigaTengah .mc_fieldset input {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 10.85px;
+    border: 2px solid #FFFFFF;
+    margin-right: 0;
+  }
+  .container .sectionTiga .SectionTigaTengah .mc_fieldset .av-checkbox {
+    width: auto;
+  }
+  .container .sectionTiga .SectionTigaTengah .mc_fieldset .text {
+    color: #002F39;
+    font-family: "IBM Plex Sans";
+    letter-spacing: -0.21px;
+    line-height: 18px;
+    padding-right: .3125rem;
+    margin-right: 0;
+  }
+  .container .sectionTiga .SectionTigaTengah .mc_fieldset .terms {
+    font-size: 16px;
+  }
+  .container .sectionTiga .SectionTigaTengah .mc_fieldset a {
+    color: #002f39;
+    font-family: "IBMPlexSans";
+    font-size: 14px;
+    letter-spacing: -0.21px;
+    line-height: 18px;
+    text-decoration: underline;
+  }
+  .container .sectionTiga h6 {
+    font-family: "IBMPlexSans-Medium";
+    color: #002f39;
+  }
+  .Footer {
+    margin-top: 1.875rem;
+    background-color: #021925;
+  }
+  .Footer .container .footerHeader {
+    margin-top: 2rem;
+    width: 100%;
+    border-bottom: 1px solid #113d53;
+    margin-bottom: 10rem;
+  }
+  .Footer .container .footerHeader img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 2.9375rem;
+    width: 14rem;
+    padding-bottom: 4rem;
+  }
+  .Footer .container .foooterBody {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-top: none;
+    border-bottom: none;
+  }
+  .Footer .container .foooterBody .footerBodyKiri {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-top: 1.5px solid #113D53;
+    padding-top: 1.9375rem;
+    border-bottom: 1.5px solid #113D53;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 1rem;
+  }
+  .Footer .container .foooterBody .footerBodyKiri li {
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+    list-style: none;
+  }
+  .Footer .container .foooterBody .footerBodyKiri .footerBodyKiriOne {
+    margin: 0;
+    padding: 0;
+  }
+  .Footer .container .foooterBody .footerBodyKanan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 3.6875rem;
+    margin-top: 0;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: none;
+    border-top: 1px solid #113d53;
+  }
+  .Footer .container .foooterBody .footerBodyKanan img {
+    padding-right: 1rem;
+  }
+  .Footer .container .foooterBody .footerBodyKanan h5 {
+    display: inline-block;
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 18px;
+    letter-spacing: -0.22px;
+    line-height: 19.5px;
+  }
+}
+
+/* For tablet: */
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .container {
+    max-width: 100%;
+  }
+  .navbar .container .navbar span.line {
+    border-right: none;
+  }
+  .navbar .container .navbar .navbar-brand img {
+    top: -3rem;
+    margin-left: 0;
+  }
+  .navbar .container .navbar-light {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .navbar .container ul.navbar-nav {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+  .navbar .container ul.navbar-nav .nav-item .nav-link {
+    margin-right: 1.5rem;
+    margin-left: 0;
+  }
+  .navbar .container ul.navbar-nav .nav-item.dropdown .navlink {
+    margin-right: 4rem;
+  }
+  .navbar .container ul.navbar-nav .nav-item.end {
+    margin-right: 0;
+  }
+  .navbar .container ul.navbar-nav hr {
+    display: none;
+  }
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+  }
+  .container .sectionSatu {
+    margin-top: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 2rem;
+    height: 36rem;
+  }
+  .container .sectionSatu .sectionSatuKiri {
+    background-color: transparent;
+  }
+  .container .sectionSatu .sectionSatuKiri .text {
+    margin-left: 0;
+    position: absolute;
+    top: 12rem;
+  }
+  .container .sectionSatu .sectionSatuKiri .text h1 {
+    height: auto;
+    color: #F05E36;
+    font-family: "Butler";
+    font-size: 2.625rem;
+    letter-spacing: -0.03875rem;
+    line-height: 2.375rem;
+  }
+  .container .sectionSatu .sectionSatuKiri .text h5 {
+    margin-top: .75rem;
+    color: #021925;
+    font-family: "Minion-DisplayItalic";
+    font-size: 1.125rem;
+    font-style: italic;
+    letter-spacing: .00625rem;
+    line-height: 1.125rem;
+  }
+  .container .sectionSatu .sectionSatuKanan {
+    position: absolute;
+    top: 18rem;
+    margin-right: 0;
+    height: auto;
+    padding-right: 2rem;
   }
   .container .sectionSatu .sectionSatuKanan img {
     margin-right: 0;
@@ -1196,7 +1581,7 @@
   .container .sectionDua .sectionDuaJudul h3 {
     width: 100%;
     line-height: 35px;
-    height: 104px;
+    height: 70px;
   }
   .container .sectionDua .sectionDuaText {
     width: 100%;
@@ -1368,7 +1753,7 @@
     color: #002f39;
   }
   .Footer {
-    margin-top: 1.875rem;
+    margin-top: 4rem;
     background-color: #021925;
   }
   .Footer .container .footerHeader {
