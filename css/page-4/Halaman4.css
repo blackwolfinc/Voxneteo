@@ -43,7 +43,7 @@
 
 .sectionBody .containerCards .item {
   width: 320px;
-  margin-bottom: 4rem;
+  margin-bottom: 4.5rem;
 }
 
 .sectionBody .containerCards .item.center .containerImage::after {
@@ -82,10 +82,10 @@
 .sectionBody .containerCards .item .date {
   color: #0a2939;
   font-family: Minion;
-  font-size: 3rem;
-  line-height: 29px;
+  font-size: 3.4rem;
+  line-height: 45px;
   margin-top: 2rem;
-  margin-bottom: 1.8rem;
+  margin-bottom: 1.5rem;
 }
 
 .sectionBody .containerCards .item .subTitle {
@@ -94,7 +94,7 @@
 }
 
 .sectionBody .containerCards .item .title {
-  font-size: 1.18rem;
+  font-size: 1.15rem;
   color: #0a2939;
 }
 
@@ -105,14 +105,14 @@
 .sectionBody .containerCards .item.quotes .quotes {
   font-family: Minion;
   color: #0a2939;
-  font-size: 2.5rem;
-  line-height: 2.4rem;
+  font-size: 2.27rem;
+  line-height: 2.5rem;
 }
 
 .sectionBody .containerCards .item.quotes .subQuotes {
   margin-bottom: 0.7rem;
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   letter-spacing: 1.5px;
   color: #f05e36;
   font-weight: bold;
@@ -151,7 +151,7 @@
 .sectionAddActuals {
   color: #f05e36;
   text-align: center;
-  margin-top: -5rem;
+  margin-top: -3rem;
 }
 
 .sectionAddActuals .icon-plus {
@@ -159,11 +159,13 @@
           filter: invert(56%) sepia(34%) saturate(6580%) hue-rotate(339deg) brightness(96%) contrast(96%);
   width: 24px;
   height: 24px;
-  margin-bottom: 1.3rem;
 }
 
 .sectionAddActuals p {
   text-transform: uppercase;
+  font-size: 0.75rem;
+  line-height: 3.1rem;
+  letter-spacing: 2px;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 1184px) {
@@ -171,6 +173,7 @@
     margin-top: 0;
     position: relative;
     z-index: -1;
+    margin-top: -1rem;
   }
   .sectionBody {
     margin-top: 2rem;
@@ -204,6 +207,14 @@
         -ms-flex-align: center;
             align-items: center;
     padding: 0;
+  }
+  .sectionBody .containerCards .item .date {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .sectionBody .containerCards .item .subTitle {
+    margin-bottom: 0.8rem;
   }
   .sectionBody .containerCards .item .containerImage::after {
     display: none;
