@@ -19,38 +19,43 @@ $minionBold: "Minion-Bold";
 $size1: 1.6rem;
 
 @font-face {
-  font-family: $ibmReguler;
-  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans.ttf");
-}
-@font-face {
-  font-family: $ibmSemiBold;
-  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBold.ttf");
-}
-@font-face {
-  font-family: $ibmLight;
-  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Light.ttf");
-}
-@font-face {
-  font-family: $ibmMedium;
-  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Medium.ttf");
-}
-@font-face {
-  font-family: $ibmSemiBoldItalic;
-  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBoldItalic.ttf");
+    font-family: $ibmReguler;
+    src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans.ttf");
 }
 
 @font-face {
-  font-family: $butlerLight;
-  src: url("../../assets/fonts/webfont-butler/Butler-Light.ttf");
-}
-@font-face {
-  font-family: $butler;
-  src: url("../../assets/fonts/webfont-butler/Butler.ttf");
+    font-family: $ibmSemiBold;
+    src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBold.ttf");
 }
 
 @font-face {
-  font-family: $minionItalic;
-  src: url("../../assets/fonts/webfont-minion/Minion-DisplayItalic.ttf");
+    font-family: $ibmLight;
+    src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Light.ttf");
+}
+
+@font-face {
+    font-family: $ibmMedium;
+    src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Medium.ttf");
+}
+
+@font-face {
+    font-family: $ibmSemiBoldItalic;
+    src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBoldItalic.ttf");
+}
+
+@font-face {
+    font-family: $butlerLight;
+    src: url("../../assets/fonts/webfont-butler/Butler-Light.ttf");
+}
+
+@font-face {
+    font-family: $butler;
+    src: url("../../assets/fonts/webfont-butler/Butler.ttf");
+}
+
+@font-face {
+    font-family: $minionItalic;
+    src: url("../../assets/fonts/webfont-minion/Minion-DisplayItalic.ttf");
 }
 
 @font-face {
@@ -70,10 +75,10 @@ $size1: 1.6rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    align-self: center ;
+    align-self: center;
     background-color: transparent;
     margin-top: 2rem;
-    
+
     span {
         height: 400px;
         position: absolute;
@@ -117,15 +122,15 @@ $size1: 1.6rem;
         background-color: transparent;
     }
 
-    .nav-item {   
-        
+    .nav-item {
+
         &.start {
             margin-right: 5rem;
-        } 
+        }
 
         &.end {
             margin-right: -5rem;
-        } 
+        }
 
         a {
             img {
@@ -136,6 +141,7 @@ $size1: 1.6rem;
                 margin-top: -1rem;
             }
         }
+
         .dropdown-toggle::after {
             display: none;
             background-color: transparent;
@@ -166,7 +172,7 @@ $size1: 1.6rem;
             color: #0A2939;
         }
 
-            
+
         &.dropdown {
             .nav-link {
                 border: 2px solid #E5E5E5;
@@ -242,9 +248,9 @@ $size1: 1.6rem;
         margin-right: -3.75rem;
         height: 405px;
 
-        img{
+        img {
             width: 100%;
-        }   
+        }
     }
 }
 
@@ -326,13 +332,17 @@ $size1: 1.6rem;
     }
 
     .sectionTigaBody {
-        .title, .SectionLimaTengah, .SectionLimaBawah {
+
+        .title,
+        .SectionLimaTengah,
+        .SectionLimaBawah {
             margin: 0 5rem;
         }
+
         text-align: center;
 
         p {
-        
+
             color: #F66E49;
             font-family: $ibmReguler;
             font-size: 22px;
@@ -352,9 +362,9 @@ $size1: 1.6rem;
             .title-1 {
                 width: 48rem;
                 text-align: center;
-                
+
                 h2 {
-                    height: 81px;        
+                    height: 81px;
                     color: #002F39;
                     font-family: $minionBold;
                     font-size: 26px;
@@ -362,11 +372,11 @@ $size1: 1.6rem;
                     letter-spacing: 10.4px;
                     line-height: 80px;
                     text-align: center;
-                    text-transform: uppercase;          
+                    text-transform: uppercase;
                 }
             }
         }
-        
+
         .SectionTigaTengah {
             display: flex;
             align-items: center;
@@ -376,8 +386,9 @@ $size1: 1.6rem;
             .email {
                 padding: 0.5rem;
                 border: none;
-                width: 12.8rem;
+                width: 13rem;
                 padding-bottom: 1.25rem;
+                font-family: $ibmReguler;
             }
 
             ::placeholder {
@@ -386,8 +397,8 @@ $size1: 1.6rem;
                 width: 13rem;
             }
 
-            [placeholder] + span::after{
-                content:"*";
+            [placeholder]+span::after {
+                content: "*";
                 color: red;
             }
 
@@ -408,7 +419,8 @@ $size1: 1.6rem;
                 margin-left: 0.5rem;
             }
 
-            .text, .terms {
+            .text,
+            .terms {
                 color: $color5;
                 font-family: $ibmReguler;
                 font-size: 16px;
@@ -446,7 +458,8 @@ $size1: 1.6rem;
         .footerHeader {
             margin-top: 8rem;
             margin-bottom: 6rem;
-            img{
+
+            img {
                 transform: scale(1.1);
                 opacity: 0.8;
             }
@@ -456,7 +469,7 @@ $size1: 1.6rem;
             display: flex;
             border-top: 1.5px solid #113D53;
             border-bottom: 1.5px solid #113D53;
-         
+
             width: 90%;
             height: 10rem;
             justify-content: space-evenly;
@@ -467,7 +480,7 @@ $size1: 1.6rem;
                 width: 65%;
                 padding: 3rem 2rem;
                 border-right: 2px #113D53 solid;
-                
+
                 li {
                     list-style: none;
                     margin-bottom: 2rem;
@@ -505,58 +518,59 @@ $size1: 1.6rem;
                     color: transparent;
                 }
 
-            .linkedIn{
-                display: flex;
-                justify-content: center;
-                align-items: flex-start;
-                padding-top: 3rem;
+                .linkedIn {
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-start;
+                    padding-top: 3rem;
 
-                h5{
-                    margin-top: 0.5rem;
-                    margin-left: 1rem;
-                    color: #FFFFFF;
-                    font-family: $ibmReguler;
-                    font-size: 15px;
-                    letter-spacing: -0.22px;
-                    line-height: 15px;
+                    h5 {
+                        margin-top: 0.5rem;
+                        margin-left: 1rem;
+                        color: #FFFFFF;
+                        font-family: $ibmReguler;
+                        font-size: 15px;
+                        letter-spacing: -0.22px;
+                        line-height: 15px;
+                    }
+
+                    text-decoration: none;
                 }
-                text-decoration: none;
-            }
             }
         }
     }
 }
 
 /* For mobile phones: */
-@media only screen and (max-width: 767px) {
-    // .container {
-    //     max-width: 767px;
-    // }
-    .col {
-      width: 100%;
+@media (min-width: 200px) and (max-width: 767px) {
+    // styling navbar
+    .navbar {
+        
+        .container {
+            height: 1.5rem;
+        }
     }
+
     .container {
-        margin-left: 0;
-        margin-right: 0;
         max-width: 100%;
-       
+
         .navbar {
             display: flex;
             flex-direction: row-reverse;
             margin-left: -1.5rem;
             margin-right: -1.5rem;
-            border-bottom: 1px solid #e3e3e3;
             padding-bottom: 20px;
-
-            .line {
+    
+            span.line {
                 display: none;
             }
-
         }
 
         .navbar-light {
+            border: none;
+
             .navbar-toggler {
-                border: none;
+                border-color: transparent;
             }
         }
 
@@ -564,79 +578,126 @@ $size1: 1.6rem;
             top: 0;
             left: 0;
             position: fixed;
-            background-color: #021925;
-            height: auto;
             display: inline-block;
-            width: 90%;
+            background-color: #021925;
+            height: 100%;
+            width: 100%;
             padding: 1.5rem;
-            color: white;
-                li {
-                    .nav-link {
-                        font-family: $ibmSemiBold;
-                        font-size: 18px;
+            color: $color1;
+            z-index: 1;
+
+            .nav-item {
+                width: 100%;
+                height: 2rem;
+                margin-bottom: 24px;
+
+                .nav-link {
+                    color: $color1;
+                }
+
+                .nav-link.active {
+                    border: none;
+                }
+
+                .nav-link.contact {
+                    margin-bottom: 50px;
+                }
+
+                ul.dash {
+                    list-style-type: none;
+                    margin-top: 30px;
+                    padding-left: 10px;
+
+                    li {
+                        font-family: $ibmReguler;
+                        font-size: 14px;
                         color: $color1;
-                        line-height: 23px;
+                        line-height: 18px;
                         margin-bottom: 24px;
-
-                        &:hover {
-                            color:orange;
-                        }
+                        text-indent: -5px;
+                        
                     }
-
-                    .nav-link.contact {
-                        margin-bottom: 50px;
+                    li.first {
+                        color: $color3;
                     }
-
-                    ul.dash {
-                        list-style-type: none;
-                        margin-top: 30px;
-                        padding-left: 10px;
-
-                        li {
-                            font-family: $ibmReguler;
-                            font-size: 14px;
-                            color: $color1;
-                            line-height: 18px;
-                            margin-bottom: 24px;
-                            text-indent: -5px;
-                            
-                        }
-                        li.first {
-                            color: $color3;
-                        }
-                        li:before {
-                            content: "-";
-                            text-indent: -5px;
-                            margin-right: 13px;
-                            color: $color3;
-                        }
+                    li:before {
+                        content: "-";
+                        text-indent: -5px;
+                        margin-right: 13px;
+                        color: $color3;
                     }
                 }
+            }
 
-                #listhide {
-                    border-top: 1.5px solid #113d53;
-                }
+            #listhide {
+                border-top: 1.5px solid $colorLine;
+            }
+
+            #hidebtn {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+    .col {
+        width: 100%;
+    }
+    
+    .navbar {
+        border-bottom: 1px solid #e3e3e3;
+        width: 100%;
+        margin-left: 1rem;
+
+        span {
+            height: 0;
+            border-right: none;
         }
 
+        span.navbar-toggler-icon {
+            margin-left: -0.5rem;
+            position: absolute;
+            bottom: 3rem;
+            width: 2rem;
+            height: 3rem;
+        }
+
+        nav .navbar-brand {
+            img {
+                top: -4.8rem;
+                margin-left: 0.5rem;
+                width: 3rem;
+            }
+        }
+    }
+    
+// Styling content
+    .container {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100%;
+
+        // styling section 1
         .sectionSatu {
             margin-top: 0;
             flex-direction: column;
             display: flex;
+            padding: 2rem;
+            height: 22rem;
 
             .sectionSatuKiri {
                 background-color: transparent;
 
                 .text {
                     margin-left: 0;
-                    position: block;
-                    
+                    position: absolute;
+                    top: 6rem;
+
                     h1 {
-                       height: auto;
-                       color: #F05E36;
-                       font-family: $butler;
-                       font-size: 2.625rem;
-                       letter-spacing: -0.03875rem;
-                       line-height: 2.375rem;
+                        height: auto;
+                        color: #F05E36;
+                        font-family: $butler;
+                        font-size: 2.625rem;
+                        letter-spacing: -0.03875rem;
+                        line-height: 2.375rem;
                     }
 
                     h5 {
@@ -652,9 +713,10 @@ $size1: 1.6rem;
             }
 
             .sectionSatuKanan {
-                position: block;
-                margin-left: 0;
-                margin-top: 1.625rem;
+                position: absolute;
+                top: 12rem;
+                height: auto;
+                margin-right: 0;
 
                 img {
                     height: 12rem;
@@ -662,11 +724,55 @@ $size1: 1.6rem;
             }
         }
 
+        // Styling section 2
         .sectionDua {
+            margin-left: 0;
+
+            .sectionDuaJudul {
+                width: 100%;
+                margin-left: 0;
+                margin-bottom: 2rem;
+
+                h3 {
+                    font-size: 1.6rem;
+                    width: 100%;
+                    line-height: 35px;
+                    height: 104px;
+                }
+            }
+
+            .sectionDuaText {
+                width: 100%;
+                margin-left: 0;
+                padding: 0 2rem;
+                margin-top: 1rem;
+
+                .sideAtas {
+                    width: 100%;
+                    margin-bottom: 48px;
+
+                    p {
+                        font-size: 14px;
+                    }
+                    h5 {
+                        font-size: 16px;
+                        margin: 28px 0;
+                    }
+                }
+                .sideButton {
+                    button {
+                        border-radius: 3rem;
+                        width: 100%;
+                    }
+                }
+            }
         }
 
         .sectionTiga {
-            margin-top: 1.875rem;
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+            border: none;
 
             .sectionTigaBody {
                 height: 485px;
@@ -688,35 +794,31 @@ $size1: 1.6rem;
                 .title {
                     display: flex;
                     justify-content: center;
-                }
-
-                h2 {
-                    color: #002F39;
-                    font-family: "Minion-Bold";
-                    font-size: 22px;
-                    font-weight: bold;
-                    letter-spacing: 8px;
-                    line-height: 24px;
-                    text-align: center;
-                    text-transform: uppercase;
-                    margin-bottom: 1rem;
-                }
-
-                p {
-                    margin-top: 1rem;
-                    width: 256px;
-                    color: #F66E49;
-                    font-family: "IBMPlexSans-Light";
-                    font-size: 18px;
-                    letter-spacing: -0.26px;
-                    line-height: 24px;
-                    text-align: center;
                     margin-bottom: 0;
-                    margin-top: 0;
+
+                    .title-1 {
+                        h2 {
+                            font-size: 22px;
+                            height: 32px;
+                            line-height: 24px;
+                            letter-spacing: 8px;
+                            margin-bottom: 16px;
+                        }
+
+                        p {
+                            font-size: 18px;
+                            height: 42px;
+                            line-height: 24px;
+                            letter-spacing: -0.26px;
+                            margin-bottom: 0.5rem;
+                        }
+                    }
                 }
             }
 
             .SectionTigaTengah {
+                flex-direction: column;
+                border-bottom: none;
 
                 .mc-field-group {
                     display: flex;
@@ -724,46 +826,47 @@ $size1: 1.6rem;
                     justify-content: center;
 
                     input {
-                    color: #363636;
-                    font-family: "IBM Plex Sans";
-                    font-size: 16px;
-                    letter-spacing: -0.24px;
-                    line-height: 30px;
-                    text-align: center;
-                    margin: auto;
-                     margin-top: auto;
-                    margin-top: auto;
-                    display: block;
-                    border: none;
-                    border-top: none;
-                    border-left: none;
-                    border-right: none;
-                    border-bottom: 1px solid #E8D4CF;
-                    margin-top: 35px;
-                    padding-bottom: 1rem;
-
-                    
+                        color: #363636;
+                        font-family: $ibmReguler;
+                        font-size: 16px;
+                        letter-spacing: -0.24px;
+                        line-height: 30px;
+                        text-align: center;
+                        margin: auto;
+                        margin-top: auto;
+                        margin-top: auto;
+                        display: block;
+                        border-bottom: 1px solid #E8D4CF;
+                        margin-top: 35px;
+                        padding-bottom: 1rem;
                     }
 
                     .email {
                         padding: 0.5rem;
-                        width: 80%;
                         margin-left: 0;
                         margin-right: 0;
+                        padding-right: 0;
                     }
-
-                    [placeholder] + span::after{
-                        content:"*";
-                        color: red;
-                    }
-
                 }
+                ::placeholder {
+                    border-left: none;
+                    width: 100%;
+                }
+                
+                [placeholder] + span::after{
+                    position: absolute;
+                }
+    
+                // .mc-field-group::after {
+                //     content:" *";
+                //     color: red;
+                //     display: inline;
+                //     margin-left: -20px;
+                // }
+
 
                 h6 {
                     text-align: center;
-                    text-align: center;
-                    font-family: "IBMPlexSans-Medium";
-                    color: #002f39;
                 }
 
                 .mc_fieldset {
@@ -776,7 +879,7 @@ $size1: 1.6rem;
                         box-sizing: border-box;
                         width: 10.85px;
                         border: 2px solid #FFFFFF;
-                        margin-right: .5rem;
+                        margin-right: 0;
                     }
 
                     .text {
@@ -785,18 +888,27 @@ $size1: 1.6rem;
                         font-size: 14px;
                         letter-spacing: -0.21px;
                         line-height: 18px;
+                        padding-right: .3125rem;
+                        margin-right: 0;
                     }
 
                     a {
-                        color: #002F39;
-                        font-family: "IBM Plex Sans";
+                        color:$color5;
+                        font-family: $ibmReguler;
                         font-size: 14px;
                         letter-spacing: -0.21px;
                         line-height: 18px;
-                        padding-left: .3125rem;
+                        text-decoration: underline;
                     }
+                    
                 }
             }
+            
+            h6 {
+                font-family: $ibmMedium;
+                color: $color5;
+            }
+            
         }
     }
 
@@ -806,14 +918,18 @@ $size1: 1.6rem;
 
         .container {
             .footerHeader {
-               
+                margin-top: 2rem;
+                width: 100%;
+                border-bottom: 1px solid $colorLine;
+                margin-bottom: 10rem;
+
                 img {
                     margin-left: auto;
                     margin-right: auto;
                     display: block;
                     padding-top: 2.9375rem;
                     width: 11.625rem;
-                    padding-bottom: 3rem;
+                    padding-bottom: 4rem;
                 }
             }
 
@@ -822,36 +938,51 @@ $size1: 1.6rem;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+                border-top: none;
+                border-bottom: none;
 
                 .footerBodyKiri {
                     width: 100%;
                     box-sizing: border-box;
-                    border-top : 1.5px solid #113D53;
+                    border-top: 1.5px solid #113D53;
                     padding-top: 1.9375rem;
                     border-bottom: 1.5px solid #113D53;
+                    flex-direction: column;
+                    border-right: none;
+                    border-bottom: none;
+                    border-top: none;
+                    padding-bottom: 0;
+                    padding-top: 0;
+                    margin-bottom: 1rem;
 
-                        li { 
-                            color: #FFFFFF;
-                            font-family: $ibmLight;
-                            font-size: 12px;
-                            font-weight: 500;
-                            letter-spacing: 0.5px;
-                            line-height: 15px;
-                            text-align: center;
-                            text-transform: uppercase;
-                            padding-bottom: 1.5rem;
-                            list-style: none;
-                        }
+                    li {
+                        color: #FFFFFF;
+                        font-family: $ibmLight;
+                        font-size: 12px;
+                        font-weight: 500;
+                        letter-spacing: 0.5px;
+                        line-height: 15px;
+                        text-align: center;
+                        text-transform: uppercase;
+                        padding-bottom: 1.5rem;
+                        list-style: none;
+                    }
+
+                    .footerBodyKiriOne {
+                        margin: 0;
+                        padding: 0;
+                    }
                 }
 
                 .footerBodyKanan {
                     display: flex;
                     flex-direction: row;
                     margin-bottom: 3.6875rem;
-                    margin-top: 1.9375rem;
+                    margin-top: 0;
                     width: 100%;
                     justify-content: center;
                     border: none;
+                    border-top: 1px solid $colorLine;
 
                     img {
                         padding-right: 1rem;
@@ -871,4 +1002,468 @@ $size1: 1.6rem;
             }
         }
     }
-  }
+}
+
+/* For tablet: */
+@media (min-width: 768px) and (max-width: 1024px) {
+    // styling navbar
+    .navbar {
+        
+        .container {
+            height: 1.5rem;
+        }
+    }
+
+    .container {
+        max-width: 100%;
+
+        .navbar {
+            display: flex;
+            flex-direction: row-reverse;
+            margin-left: -1.5rem;
+            margin-right: -1.5rem;
+            padding-bottom: 20px;
+    
+            span.line {
+                display: none;
+            }
+        }
+
+        .navbar-light {
+            border: none;
+
+            .navbar-toggler {
+                border-color: transparent;
+            }
+        }
+
+        .navbar-nav {
+            top: 0;
+            left: 0;
+            position: fixed;
+            display: inline-block;
+            background-color: #021925;
+            height: 50%;
+            width: 50%;
+            padding: 1.5rem;
+            color: $color1;
+            z-index: 1;
+
+            .nav-item {
+                width: 100%;
+                height: 2rem;
+                margin-bottom: 24px;
+
+                .nav-link {
+                    color: $color1;
+                }
+
+                .nav-link.active {
+                    border: none;
+                }
+
+                .nav-link.contact {
+                    margin-bottom: 50px;
+                }
+
+                ul.dash {
+                    list-style-type: none;
+                    margin-top: 30px;
+                    padding-left: 10px;
+
+                    li {
+                        font-family: $ibmReguler;
+                        font-size: 14px;
+                        color: $color1;
+                        line-height: 18px;
+                        margin-bottom: 24px;
+                        text-indent: -5px;
+                        
+                    }
+                    li.first {
+                        color: $color3;
+                    }
+                    li:before {
+                        content: "-";
+                        text-indent: -5px;
+                        margin-right: 13px;
+                        color: $color3;
+                    }
+                }
+            }
+
+            #listhide {
+                border-top: 1.5px solid $colorLine;
+            }
+
+            #hidebtn {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+    .col {
+        width: 100%;
+    }
+    
+    .navbar {
+        border-bottom: 1px solid #e3e3e3;
+        width: 100%;
+        margin-left: 1rem;
+
+        span {
+            height: 0;
+            border-right: none;
+        }
+
+        span.navbar-toggler-icon {
+            margin-left: -3rem;
+            position: absolute;
+            bottom: 3rem;
+            width: 2rem;
+            height: 3rem;
+        }
+
+        nav .navbar-brand {
+            img {
+                top: -4.8rem;
+                margin-left: 0.5rem;
+                width: 3rem;
+            }
+        }
+    }
+    
+// Styling content
+    .container {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100%;
+
+        // styling section 1
+        .sectionSatu {
+            margin-top: 0;
+            flex-direction: column;
+            display: flex;
+            padding: 2rem;
+            height: 27rem;
+
+            .sectionSatuKiri {
+                background-color: transparent;
+
+                .text {
+                    margin-left: 0;
+                    position: absolute;
+                    top: 6rem;
+
+                    h1 {
+                        height: auto;
+                        color: #F05E36;
+                        font-family: $butler;
+                        font-size: 2.625rem;
+                        letter-spacing: -0.03875rem;
+                        line-height: 2.375rem;
+                    }
+
+                    h5 {
+                        margin-top: .75rem;
+                        color: #021925;
+                        font-family: $minionItalic;
+                        font-size: 1.125rem;
+                        font-style: italic;
+                        letter-spacing: .00625rem;
+                        line-height: 1.125rem;
+                    }
+                }
+            }
+
+            .sectionSatuKanan {
+                position: absolute;
+                top: 12rem;
+                margin-right: 0;
+                height: auto;
+
+                img {
+                    // height: 12rem;
+                    margin-right: 0;
+                }
+            }
+        }
+
+        // Styling section 2
+        .sectionDua {
+            margin-left: 0;
+
+            .sectionDuaJudul {
+                width: 100%;
+                margin-left: 0;
+
+                h3 {
+                    width: 100%;
+                    line-height: 35px;
+                    height: 104px;
+                }
+            }
+
+            .sectionDuaText {
+                width: 100%;
+                margin-left: 0;
+                padding: 0 2rem;
+
+                .sideAtas {
+                    width: 100%;
+                    margin-bottom: 48px;
+
+                    h5 {
+                        margin: 28px 0;
+                    }
+                }
+                .sideButton {
+                    text-align: center;
+                    button {
+                        border-radius: 3rem;
+                        // width: 100%;
+                    }
+                }
+            }
+        }
+
+        .sectionTiga {
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 0;
+            border: none;
+
+            .sectionTigaBody {
+                height: 485px;
+                border: 4px solid rgba(246, 110, 73, 0.15);
+
+                .logo {
+                    display: flex;
+                    justify-content: flex-end;
+                    padding-top: 1.25rem;
+                    padding-left: 3.75rem;
+                    padding-right: 3.75rem;
+                    padding-bottom: 2.3125rem;
+
+                    img {
+                        width: 11.625rem;
+                    }
+                }
+
+                .title {
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 0;
+
+                    .title-1 {
+                        h2 {
+                            height: 46px;
+                            line-height: 24px;
+                            letter-spacing: 8px;
+                            margin-bottom: 16px;
+                        }
+
+                        p {
+                            height: 42px;
+                            line-height: 24px;
+                            letter-spacing: -0.26px;
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+
+            .SectionTigaTengah {
+                flex-direction: column;
+                border-bottom: none;
+
+                .mc-field-group {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    input {
+                        color: #363636;
+                        font-family: $ibmReguler;
+                        font-size: 16px;
+                        letter-spacing: -0.24px;
+                        line-height: 30px;
+                        text-align: center;
+                        margin: auto;
+                        margin-top: auto;
+                        margin-top: auto;
+                        display: block;
+                        border-bottom: 1px solid #E8D4CF;
+                        margin-top: 35px;
+                        padding-bottom: 1rem;
+                    }
+
+                    .email {
+                        padding: 0.5rem;
+                        margin-left: 0;
+                        margin-right: 0;
+                        padding-right: 0;
+                    }
+                }
+                ::placeholder {
+                    border-left: none;
+                    width: 100%;
+                }
+                
+                [placeholder] + span::after{
+                    position: absolute;
+                }
+    
+                // .mc-field-group::after {
+                //     content:" *";
+                //     color: red;
+                //     display: inline;
+                //     margin-left: -20px;
+                // }
+
+
+                h6 {
+                    text-align: center;
+                }
+
+                .mc_fieldset {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 1.3125rem;
+                    margin-bottom: 1.875rem;
+
+                    input {
+                        box-sizing: border-box;
+                        width: 10.85px;
+                        border: 2px solid #FFFFFF;
+                        margin-right: 0;
+                    }
+
+                    .av-checkbox {
+                        width: auto;
+                    }
+
+                    .text {
+                        color: #002F39;
+                        font-family: "IBM Plex Sans";
+                        letter-spacing: -0.21px;
+                        line-height: 18px;
+                        padding-right: .3125rem;
+                        margin-right: 0;
+                    }
+
+                    .terms {
+                        font-size: 16px;
+                    }
+
+                    a {
+                        color:$color5;
+                        font-family: $ibmReguler;
+                        font-size: 14px;
+                        letter-spacing: -0.21px;
+                        line-height: 18px;
+                        text-decoration: underline;
+                    }
+                    
+                }
+            }
+            
+            h6 {
+                font-family: $ibmMedium;
+                color: $color5;
+            }
+            
+        }
+    }
+
+    .Footer {
+        margin-top: 1.875rem;
+        background-color: #021925;
+
+        .container {
+            .footerHeader {
+                margin-top: 2rem;
+                width: 100%;
+                border-bottom: 1px solid $colorLine;
+                margin-bottom: 10rem;
+
+                img {
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: block;
+                    padding-top: 2.9375rem;
+                    width: 14rem;
+                    padding-bottom: 4rem;
+                }
+            }
+
+            .foooterBody {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border-top: none;
+                border-bottom: none;
+
+                .footerBodyKiri {
+                    width: 100%;
+                    box-sizing: border-box;
+                    border-top: 1.5px solid #113D53;
+                    padding-top: 1.9375rem;
+                    border-bottom: 1.5px solid #113D53;
+                    flex-direction: column;
+                    border-right: none;
+                    border-bottom: none;
+                    border-top: none;
+                    padding-bottom: 0;
+                    padding-top: 0;
+                    margin-bottom: 1rem;
+
+                    li {
+                        color: #FFFFFF;
+                        font-family: $ibmLight;
+                        font-size: 14px;
+                        font-weight: 500;
+                        letter-spacing: 0.5px;
+                        line-height: 15px;
+                        text-align: center;
+                        text-transform: uppercase;
+                        padding-bottom: 1.5rem;
+                        list-style: none;
+                    }
+
+                    .footerBodyKiriOne {
+                        margin: 0;
+                        padding: 0;
+                    }
+                }
+
+                .footerBodyKanan {
+                    display: flex;
+                    flex-direction: row;
+                    margin-bottom: 3.6875rem;
+                    margin-top: 0;
+                    width: 100%;
+                    justify-content: center;
+                    border: none;
+                    border-top: 1px solid $colorLine;
+
+                    img {
+                        padding-right: 1rem;
+                    }
+
+                    h5 {
+                        display: inline-block;
+                        color: #FFFFFF;
+                        font-family: $ibmLight;
+                        font-size: 18px;
+                        letter-spacing: -0.22px;
+                        line-height: 19.5px;
+                    }
+
+                }
+
+            }
+        }
+    }
+}
