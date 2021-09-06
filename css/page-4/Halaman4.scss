@@ -45,6 +45,7 @@
       .containerImage {
         position: relative;
         display: block;
+        z-index: -1;
         img {
           height: 320px;
           width: 320px;
@@ -122,6 +123,7 @@
 .sectionAddActuals {
   color: #f05e36;
   text-align: center;
+  margin-top: -5rem;
   .icon-plus {
     filter: invert(56%) sepia(34%) saturate(6580%) hue-rotate(339deg)
       brightness(96%) contrast(96%);
@@ -137,12 +139,23 @@
 
 // }
 
-@media only screen and (min-device-width: 0px) and (max-device-width: 991.98px) {
+// @media only screen and (min-device-width: 0px) and (max-device-width: 991.98px) {
+
+@media only screen and (min-width: 0px) and (max-width: 1184px) {
+  .sectionAddActuals {
+    margin-top: 0;
+    position: relative;
+    z-index: -1;
+  }
   .sectionBody {
     margin-top: 2rem;
     display: block;
     .containerCategories {
       position: relative;
+      z-index: -1;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      white-space: nowrap;
       &::after {
         content: "";
         position: absolute;
@@ -152,10 +165,10 @@
         height: 60px;
         width: 20%;
       }
-      display: flex;
-      overflow-x: auto;
+
       li {
         margin-right: 1rem;
+        display: inline-block;
       }
     }
     .containerCards {
@@ -166,10 +179,12 @@
     }
     .containerCards {
       .item {
-        width: 100%;
         .containerImage {
+          &::after {
+            display: none;
+            visibility: hidden;
+          }
           img {
-            width: 100%;
             object-fit: contain;
           }
         }
@@ -180,6 +195,14 @@
           margin-top: 0;
         }
       }
+    }
+  }
+}
+
+@media only screen and (min-width: 717px) {
+  .sectionBody {
+    .containerCategories {
+      overflow-x: auto;
     }
   }
 }

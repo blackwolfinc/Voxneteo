@@ -61,6 +61,7 @@
 .sectionBody .containerCards .item .containerImage {
   position: relative;
   display: block;
+  z-index: -1;
 }
 
 .sectionBody .containerCards .item .containerImage img {
@@ -150,6 +151,7 @@
 .sectionAddActuals {
   color: #f05e36;
   text-align: center;
+  margin-top: -5rem;
 }
 
 .sectionAddActuals .icon-plus {
@@ -164,17 +166,22 @@
   text-transform: uppercase;
 }
 
-@media only screen and (min-device-width: 0px) and (max-device-width: 991.98px) {
+@media only screen and (min-width: 0px) and (max-width: 1184px) {
+  .sectionAddActuals {
+    margin-top: 0;
+    position: relative;
+    z-index: -1;
+  }
   .sectionBody {
     margin-top: 2rem;
     display: block;
   }
   .sectionBody .containerCategories {
     position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    overflow-x: auto;
+    z-index: -1;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
   }
   .sectionBody .containerCategories::after {
     content: "";
@@ -188,6 +195,7 @@
   }
   .sectionBody .containerCategories li {
     margin-right: 1rem;
+    display: inline-block;
   }
   .sectionBody .containerCards {
     height: auto;
@@ -197,11 +205,11 @@
             align-items: center;
     padding: 0;
   }
-  .sectionBody .containerCards .item {
-    width: 100%;
+  .sectionBody .containerCards .item .containerImage::after {
+    display: none;
+    visibility: hidden;
   }
   .sectionBody .containerCards .item .containerImage img {
-    width: 100%;
     -o-object-fit: contain;
        object-fit: contain;
   }
@@ -210,6 +218,12 @@
   }
   .sectionBody .containerCards .item.top-right {
     margin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 717px) {
+  .sectionBody .containerCategories {
+    overflow-x: auto;
   }
 }
 /*# sourceMappingURL=Halaman4.css.map */
