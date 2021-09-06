@@ -1693,8 +1693,13 @@
         -ms-flex-pack: center;
             justify-content: center;
     text-align: center;
+    font-family: "Butler";
     position: relative;
-    width: 80%;
+    -webkit-transform: translateX(2vw);
+            transform: translateX(2vw);
+    height: 403px;
+    width: 90%;
+    max-width: 950px;
     border: 10px solid #f66f4933;
     padding-bottom: 50px;
     margin: 0 auto 100px auto;
@@ -1704,25 +1709,29 @@
     top: 0;
     right: 0;
     padding: 25px;
-    z-index: -1;
   }
   .container .sectionEmpat .stamp img {
-    width: 15rem;
+    width: 18rem;
   }
   .container .sectionEmpat form .sectionEmpatBody {
     padding: 50px 12px 0 12px;
     line-height: 1.5rem;
   }
   .container .sectionEmpat form .sectionEmpatBody h2 {
-    font-size: 1.5rem;
+    color: #002f39;
+    font-size: 26px;
+    font-family: "Minion";
+    font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 0.4rem;
+    letter-spacing: 10.4px;
     margin: 50px 0 25px 0;
   }
   .container .sectionEmpat form .sectionEmpatBody p.body-text {
-    color: #f05e36;
-    font-size: 1.2rem;
+    color: #f66e49;
+    font-size: 22px;
+    font-family: "IBM Plex Sans";
     line-height: 2rem;
+    letter-spacing: -0.32px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah {
     display: -webkit-box;
@@ -1737,18 +1746,28 @@
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
-    margin: 50px auto 0 auto;
-    padding-bottom: 15px;
+    margin: 50px auto 25px auto;
+    padding-bottom: 25px;
     border-bottom: 1px solid #e5e5e5;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group,
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow,
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer {
-    margin: 0 25px;
+    margin: 0 30px;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group {
+    width: 200px;
+    height: 30px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"] {
+    width: 100%;
     background-color: transparent;
     border: transparent;
+    font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:hover,
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:focus,
@@ -1757,15 +1776,31 @@
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-webkit-input-placeholder {
     font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input:-ms-input-placeholder {
     font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-ms-input-placeholder {
     font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::placeholder {
     font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow {
     display: -webkit-box;
@@ -1785,8 +1820,10 @@
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset .text,
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset a.terms {
-    font-size: 0.9rem;
-    color: #113d53;
+    font-size: 16px;
+    font-family: "IBM Plex Sans";
+    color: #002f39;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer {
     display: -webkit-box;
@@ -1802,9 +1839,11 @@
             transform: translateY(3px);
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer h6 {
-    color: #113d53;
+    color: #002f39;
     text-transform: uppercase;
-    letter-spacing: 0.1rem;
+    letter-spacing: 1px;
+    font-family: "IBM Plex Sans";
+    font-weight: 500;
   }
   .Footer {
     margin-top: 1.875rem;
