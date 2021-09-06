@@ -159,7 +159,7 @@ $size1: 1.6rem;
     }
 
     .sectionSatu {
-      margin-top: 0;
+      margin-top: 25px;
       flex-direction: column;
       display: flex;
 
@@ -198,6 +198,228 @@ $size1: 1.6rem;
 
         img {
           height: 12rem;
+        }
+      }
+    }
+
+    .sectionDua {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+      padding: 50px 0;
+      border-top: 1px solid $color2;
+
+      .sectionDuaKiri {
+        border-bottom: 1px solid $color2;
+
+        .detailContact {
+          margin-bottom: 50px;
+
+          .kiri {
+            margin-bottom: 25px;
+
+            h6 {
+              font-size: 1rem;
+              color: $color6;
+              letter-spacing: 0.1rem;
+              text-transform: uppercase;
+            }
+          }
+
+          .kanan {
+            line-height: 0.5rem;
+
+            p {
+              font-size: 0.8rem;
+            }
+          }
+        }
+      }
+
+      .sectionDuaKanan {
+        margin-top: 25px;
+        .linkMenujuLinkedln {
+          display: flex;
+
+          a,
+          img {
+            margin: 0 5px;
+          }
+
+          a {
+            color: $color3;
+            font-size: 0.8rem;
+          }
+
+          img {
+            width: 24px;
+          }
+        }
+      }
+    }
+
+    .sectionTiga {
+      display: none;
+    }
+
+    .sectionEmpat {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+      border: 10px solid #f66f4933;
+      margin-bottom: 50px;
+
+      .stamp {
+        padding: 25px 0;
+
+        img {
+          width: 10rem;
+        }
+      }
+
+      form {
+        .sectionEmpatBody {
+          padding: 0 12px;
+          line-height: 1.5rem;
+
+          h2 {
+            font-size: 1.5rem;
+            letter-spacing: 0.2rem;
+            margin-bottom: 15px;
+          }
+
+          p.body-text {
+            color: $color3;
+            font-size: 0.8rem;
+          }
+
+          .sectionEmpatTengah {
+            margin-top: 25px;
+
+            .mc-field-group {
+              input[type="email"] {
+                background-color: transparent;
+                border: transparent;
+              }
+
+              input[type="email"]:hover,
+              input[type="email"]:focus,
+              input[type="email"]:active {
+                outline: $color1;
+              }
+
+              .checkboxArea {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 25px;
+                padding-top: 25px;
+                border: 1px solid $color2;
+
+                .control {
+                  font-family: arial;
+                  display: block;
+                  color: $colorLine;
+                  position: relative;
+                  margin-right: 4px;
+                  cursor: pointer;
+                  font-size: 0.8rem;
+
+                  a {
+                    color: $colorLine;
+                  }
+                }
+                .control input {
+                  position: absolute;
+                  z-index: -1;
+                  opacity: 0;
+                }
+
+                .control_indicator {
+                  position: absolute;
+                  top: 2px;
+                  left: 0;
+                  height: 20px;
+                  width: 20px;
+                  background: #e6e6e6;
+                  border: 0px solid #000000;
+                  border-radius: 0px;
+                }
+
+                .control:hover input ~ .control_indicator,
+                .control input:focus ~ .control_indicator {
+                  background: #cccccc;
+                }
+
+                .control input:checked ~ .control_indicator {
+                  background: $colorLine;
+                }
+                .control:hover
+                  input:not([disabled]):checked
+                  ~ .control_indicator,
+                .control input:checked:focus ~ .control_indicator {
+                  background: $colorLine;
+                }
+                .control input:disabled ~ .control_indicator {
+                  background: #e6e6e6;
+                  opacity: 0.6;
+                  pointer-events: none;
+                }
+                .control_indicator:after {
+                  box-sizing: unset;
+                  content: "";
+                  position: absolute;
+                  display: none;
+                }
+
+                .control input:checked ~ .control_indicator:after {
+                  display: block;
+                }
+                .control-checkbox .control_indicator:after {
+                  left: 8px;
+                  top: 4px;
+                  width: 3px;
+                  height: 8px;
+                  border: solid #ffffff;
+                  border-width: 0 2px 2px 0;
+                  transform: rotate(45deg);
+                }
+                .control-checkbox input:disabled ~ .control_indicator:after {
+                  border-color: #7b7b7b;
+                }
+                .control-checkbox .control_indicator::before {
+                  content: "";
+                  display: block;
+                  position: absolute;
+                  left: 0;
+                  top: 0;
+                  width: 4.5rem;
+                  height: 4.5rem;
+                  margin-left: -1.3rem;
+                  margin-top: -1.3rem;
+                  background: #2aa1c0;
+                  border-radius: 3rem;
+                  opacity: 0.6;
+                  z-index: 99999;
+                  transform: scale(0);
+                }
+              }
+            }
+
+            .envoyer {
+              margin: 25px 0;
+
+              h6 {
+                color: $colorLine;
+                text-transform: uppercase;
+                letter-spacing: 0.1rem;
+              }
+            }
+          }
         }
       }
     }
@@ -361,7 +583,7 @@ $size1: 1.6rem;
     }
 
     .sectionSatu {
-      margin-top: 0;
+      margin-top: 25px;
       flex-direction: column;
       display: flex;
 
@@ -401,6 +623,156 @@ $size1: 1.6rem;
         img {
           height: 12rem;
           width: 100%;
+        }
+      }
+    }
+
+    .sectionDua {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+      padding: 50px 0;
+      border-top: 1px solid $color2;
+
+      .sectionDuaKiri {
+        border-bottom: 1px solid $color2;
+
+        .detailContact {
+          margin-bottom: 50px;
+
+          .kiri {
+            margin-bottom: 25px;
+
+            h6 {
+              font-size: 1rem;
+              color: $color6;
+              letter-spacing: 0.1rem;
+              text-transform: uppercase;
+            }
+          }
+
+          .kanan {
+            line-height: 0.5rem;
+
+            p {
+              font-size: 0.8rem;
+            }
+          }
+        }
+      }
+
+      .sectionDuaKanan {
+        margin-top: 25px;
+        .linkMenujuLinkedln {
+          display: flex;
+
+          a,
+          img {
+            margin: 0 5px;
+          }
+
+          a {
+            color: $color3;
+            font-size: 0.8rem;
+          }
+
+          img {
+            width: 24px;
+          }
+        }
+      }
+    }
+
+    .sectionTiga {
+      display: none;
+    }
+
+    .sectionEmpat {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+      border: 10px solid #f66f4933;
+      margin-bottom: 50px;
+
+      .stamp {
+        padding: 25px 0;
+
+        img {
+          width: 10rem;
+        }
+      }
+
+      form {
+        .sectionEmpatBody {
+          padding: 0 12px;
+          line-height: 1.5rem;
+
+          h2 {
+            font-size: 1.5rem;
+            letter-spacing: 0.2rem;
+            margin-bottom: 15px;
+          }
+
+          p.body-text {
+            color: $color3;
+            font-size: 0.8rem;
+          }
+
+          .sectionEmpatTengah {
+            margin-top: 25px;
+
+            .mc-field-group {
+              input[type="email"] {
+                background-color: transparent;
+                border: transparent;
+              }
+
+              input[type="email"]:hover,
+              input[type="email"]:focus,
+              input[type="email"]:active {
+                outline: $color1;
+              }
+            }
+
+            .gdpr-mergeRow {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-top: 25px;
+              padding-top: 25px;
+              border-top: 1px solid $color2;
+
+              .content__gdpr {
+                .mc_fieldset {
+                  input,
+                  .text,
+                  a.terms {
+                    margin: 0 2px;
+                  }
+
+                  .text,
+                  a.terms {
+                    font-size: 0.8rem;
+                    color: $colorLine;
+                  }
+                }
+              }
+            }
+
+            .envoyer {
+              margin: 25px 0;
+
+              h6 {
+                color: $colorLine;
+                text-transform: uppercase;
+                letter-spacing: 0.1rem;
+              }
+            }
+          }
         }
       }
     }
@@ -564,7 +936,7 @@ $size1: 1.6rem;
     }
 
     .sectionSatu {
-      margin-top: 0;
+      margin-top: 25px;
       flex-direction: column;
       display: flex;
 
@@ -603,6 +975,157 @@ $size1: 1.6rem;
 
         img {
           height: 12rem;
+        }
+      }
+    }
+
+    .sectionDua {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      margin-top: 50px;
+      padding: 50px 0;
+      border-top: 1px solid $color2;
+
+      .sectionDuaKiri {
+        border-bottom: 1px solid $color2;
+
+        .detailContact {
+          margin-bottom: 50px;
+
+          .kiri {
+            margin-bottom: 25px;
+
+            h6 {
+              font-size: 1rem;
+              color: $color6;
+              letter-spacing: 0.1rem;
+              text-transform: uppercase;
+            }
+          }
+
+          .kanan {
+            line-height: 0.5rem;
+
+            p {
+              font-size: 0.8rem;
+            }
+          }
+        }
+      }
+
+      .sectionDuaKanan {
+        margin-top: 25px;
+        margin-bottom: 40px;
+
+        .linkMenujuLinkedln {
+          display: flex;
+
+          a,
+          img {
+            margin: 0 5px;
+          }
+
+          a {
+            color: $color3;
+            font-size: 0.8rem;
+          }
+
+          img {
+            width: 24px;
+          }
+        }
+      }
+    }
+
+    .sectionTiga {
+      display: none;
+    }
+
+    .sectionEmpat {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+      border: 10px solid #f66f4933;
+      margin-bottom: 50px;
+
+      .stamp {
+        padding: 25px 0;
+
+        img {
+          width: 10rem;
+        }
+      }
+
+      form {
+        .sectionEmpatBody {
+          padding: 0 12px;
+          line-height: 1.5rem;
+
+          h2 {
+            font-size: 1.5rem;
+            letter-spacing: 0.2rem;
+            margin-bottom: 15px;
+          }
+
+          p.body-text {
+            color: $color3;
+            font-size: 0.8rem;
+          }
+
+          .sectionEmpatTengah {
+            margin-top: 25px;
+
+            .mc-field-group {
+              input[type="email"] {
+                background-color: transparent;
+                border: transparent;
+              }
+
+              input[type="email"]:hover,
+              input[type="email"]:focus,
+              input[type="email"]:active {
+                outline: $color1;
+              }
+            }
+
+            .gdpr-mergeRow {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-top: 25px;
+              padding-top: 25px;
+              border-top: 1px solid $color2;
+
+              .content__gdpr {
+                .mc_fieldset {
+                  input,
+                  .text,
+                  a.terms {
+                    margin: 0 2px;
+                  }
+
+                  .text,
+                  a.terms {
+                    font-size: 0.8rem;
+                    color: $colorLine;
+                  }
+                }
+              }
+            }
+
+            .envoyer {
+              margin: 25px 0;
+
+              h6 {
+                color: $colorLine;
+                text-transform: uppercase;
+                letter-spacing: 0.1rem;
+              }
+            }
+          }
         }
       }
     }
@@ -767,7 +1290,7 @@ $size1: 1.6rem;
     }
 
     .sectionSatu {
-      margin-top: 0;
+      margin-top: 25px;
       flex-direction: column;
       display: flex;
 
@@ -807,6 +1330,157 @@ $size1: 1.6rem;
         img {
           height: 12rem;
           width: 100%;
+        }
+      }
+    }
+
+    .sectionDua {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-end;
+      margin-top: 50px;
+      padding: 50px 0;
+      border-top: 1px solid $color2;
+
+      .sectionDuaKiri {
+        border-bottom: 1px solid $color2;
+
+        .detailContact {
+          margin-bottom: 50px;
+
+          .kiri {
+            margin-bottom: 25px;
+
+            h6 {
+              font-size: 1rem;
+              color: $color6;
+              letter-spacing: 0.1rem;
+              text-transform: uppercase;
+            }
+          }
+
+          .kanan {
+            line-height: 0.5rem;
+
+            p {
+              font-size: 0.8rem;
+            }
+          }
+        }
+      }
+
+      .sectionDuaKanan {
+        margin-top: 25px;
+        margin-bottom: 40px;
+
+        .linkMenujuLinkedln {
+          display: flex;
+
+          a,
+          img {
+            margin: 0 5px;
+          }
+
+          a {
+            color: $color3;
+            font-size: 0.8rem;
+          }
+
+          img {
+            width: 24px;
+          }
+        }
+      }
+    }
+
+    .sectionTiga {
+      display: none;
+    }
+
+    .sectionEmpat {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+      border: 10px solid #f66f4933;
+      margin-bottom: 50px;
+
+      .stamp {
+        padding: 25px 0;
+
+        img {
+          width: 10rem;
+        }
+      }
+
+      form {
+        .sectionEmpatBody {
+          padding: 0 12px;
+          line-height: 1.5rem;
+
+          h2 {
+            font-size: 1.5rem;
+            letter-spacing: 0.2rem;
+            margin-bottom: 15px;
+          }
+
+          p.body-text {
+            color: $color3;
+            font-size: 0.8rem;
+          }
+
+          .sectionEmpatTengah {
+            margin-top: 25px;
+
+            .mc-field-group {
+              input[type="email"] {
+                background-color: transparent;
+                border: transparent;
+              }
+
+              input[type="email"]:hover,
+              input[type="email"]:focus,
+              input[type="email"]:active {
+                outline: $color1;
+              }
+            }
+
+            .gdpr-mergeRow {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-top: 25px;
+              padding-top: 25px;
+              border-top: 1px solid $color2;
+
+              .content__gdpr {
+                .mc_fieldset {
+                  input,
+                  .text,
+                  a.terms {
+                    margin: 0 2px;
+                  }
+
+                  .text,
+                  a.terms {
+                    font-size: 0.8rem;
+                    color: $colorLine;
+                  }
+                }
+              }
+            }
+
+            .envoyer {
+              margin: 25px 0;
+
+              h6 {
+                color: $colorLine;
+                text-transform: uppercase;
+                letter-spacing: 0.1rem;
+              }
+            }
+          }
         }
       }
     }
@@ -997,6 +1671,181 @@ $size1: 1.6rem;
 
         img {
           width: 100%;
+        }
+      }
+    }
+
+    .sectionDua {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-end;
+      margin-top: 50px;
+      padding: 50px 0;
+      border-top: 1px solid $color2;
+
+      .sectionDuaKiri {
+        width: 40%;
+        border-bottom: 1px solid $color2;
+
+        .detailContact {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+          width: 130%;
+          margin-bottom: 50px;
+
+          .kiri {
+            margin-bottom: 25px;
+
+            h6 {
+              font-size: 1rem;
+              color: $color6;
+              letter-spacing: 0.1rem;
+              text-transform: uppercase;
+            }
+          }
+
+          .kanan {
+            width: 60%;
+            line-height: 0.5rem;
+
+            p {
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+
+      .sectionDuaKanan {
+        margin-top: 25px;
+        margin-bottom: 40px;
+
+        .linkMenujuLinkedln {
+          display: flex;
+
+          a,
+          img {
+            margin: 0 5px;
+          }
+
+          a {
+            color: $color3;
+            font-size: 1rem;
+          }
+
+          img {
+            width: 24px;
+          }
+        }
+      }
+    }
+
+    .sectionTiga {
+      display: none;
+    }
+
+    .sectionEmpat {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+      width: 80%;
+      border: 10px solid #f66f4933;
+      padding-bottom: 50px;
+      margin: 0 auto 100px auto;
+
+      .stamp {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 25px;
+
+        img {
+          width: 18rem;
+        }
+      }
+
+      form {
+        .sectionEmpatBody {
+          padding: 50px 12px 0 12px;
+          line-height: 1.5rem;
+
+          h2 {
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.4rem;
+            margin: 50px 0 25px 0;
+          }
+
+          p.body-text {
+            color: $color3;
+            font-size: 1.2rem;
+            line-height: 2rem;
+          }
+
+          .sectionEmpatTengah {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: fit-content;
+            margin: 50px auto 0 auto;
+            padding-bottom: 15px;
+            border-bottom: 1px solid $color2;
+
+            .mc-field-group,
+            .gdpr-mergeRow,
+            .envoyer {
+              margin: 0 50px;
+            }
+
+            .mc-field-group {
+              input[type="email"] {
+                background-color: transparent;
+                border: transparent;
+              }
+
+              input[type="email"]:hover,
+              input[type="email"]:focus,
+              input[type="email"]:active {
+                outline: $color1;
+              }
+            }
+
+            .gdpr-mergeRow {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              .content__gdpr {
+                .mc_fieldset {
+                  input,
+                  .text,
+                  a.terms {
+                    margin: 0 2px;
+                  }
+
+                  .text,
+                  a.terms {
+                    font-size: 1rem;
+                    color: $colorLine;
+                  }
+                }
+              }
+            }
+
+            .envoyer {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              h6 {
+                color: $colorLine;
+                text-transform: uppercase;
+                letter-spacing: 0.1rem;
+              }
+            }
+          }
         }
       }
     }
@@ -1243,6 +2092,185 @@ $size1: 1.6rem;
 
       img {
         width: 100%;
+      }
+    }
+  }
+
+  .sectionDua {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 50px;
+    padding: 50px 0;
+    border-top: 1px solid $color2;
+    border-bottom: 1px solid $color2;
+
+    .sectionDuaKiri {
+      width: 50%;
+
+      .detailContact {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        margin-bottom: 50px;
+
+        .kiri {
+          margin-bottom: 25px;
+
+          h6 {
+            font-size: 1rem;
+            color: $color6;
+            letter-spacing: 0.1rem;
+            text-transform: uppercase;
+          }
+        }
+
+        .kanan {
+          line-height: 1rem;
+          width: 50%;
+
+          p {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+
+    .sectionDuaKanan {
+      margin-top: 25px;
+      margin-bottom: 40px;
+
+      .linkMenujuLinkedln {
+        display: flex;
+
+        a,
+        img {
+          margin: 0 5px;
+        }
+
+        a {
+          color: $color3;
+          font-size: 1rem;
+        }
+
+        img {
+          width: 24px;
+        }
+      }
+    }
+  }
+
+  .sectionTiga {
+    display: block;
+    width: 80%;
+    background-color: #000000;
+    margin: 100px auto;
+  }
+
+  .sectionEmpat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    transform: translateX(2vw);
+    width: 80%;
+    border: 10px solid #f66f4933;
+    padding-bottom: 50px;
+    margin: 0 auto 100px auto;
+
+    .stamp {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 25px;
+
+      img {
+        width: 18rem;
+      }
+    }
+
+    form {
+      .sectionEmpatBody {
+        padding: 50px 12px 0 12px;
+        line-height: 1.5rem;
+
+        h2 {
+          font-size: 1.5rem;
+          text-transform: uppercase;
+          letter-spacing: 0.4rem;
+          margin: 50px 0 25px 0;
+        }
+
+        p.body-text {
+          color: $color3;
+          font-size: 1.2rem;
+          line-height: 2rem;
+        }
+
+        .sectionEmpatTengah {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          width: fit-content;
+          margin: 50px auto 0 auto;
+          padding-bottom: 15px;
+          border-bottom: 1px solid $color2;
+
+          .mc-field-group,
+          .gdpr-mergeRow,
+          .envoyer {
+            margin: 0 50px;
+          }
+
+          .mc-field-group {
+            input[type="email"] {
+              background-color: transparent;
+              border: transparent;
+            }
+
+            input[type="email"]:hover,
+            input[type="email"]:focus,
+            input[type="email"]:active {
+              outline: $color1;
+            }
+          }
+
+          .gdpr-mergeRow {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .content__gdpr {
+              .mc_fieldset {
+                input,
+                .text,
+                a.terms {
+                  margin: 0 2px;
+                }
+
+                .text,
+                a.terms {
+                  font-size: 1rem;
+                  color: $colorLine;
+                }
+              }
+            }
+          }
+
+          .envoyer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            h6 {
+              color: $colorLine;
+              text-transform: uppercase;
+              letter-spacing: 0.1rem;
+            }
+          }
+        }
       }
     }
   }
