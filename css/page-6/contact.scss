@@ -2153,9 +2153,11 @@ $size1: 1.6rem;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    font-family: $butler;
     position: relative;
     transform: translateX(2vw);
-    width: 80%;
+    height: 403px;
+    width: 1073px;
     border: 10px solid #f66f4933;
     padding-bottom: 50px;
     margin: 0 auto 100px auto;
@@ -2177,16 +2179,21 @@ $size1: 1.6rem;
         line-height: 1.5rem;
 
         h2 {
-          font-size: 1.5rem;
+          color: $color5;
+          font-size: 26px;
+          font-family: "Minion";
+          font-weight: bold;
           text-transform: uppercase;
-          letter-spacing: 0.4rem;
+          letter-spacing: 10.4px;
           margin: 50px 0 25px 0;
         }
 
         p.body-text {
-          color: $color3;
-          font-size: 1.2rem;
+          color: $color6;
+          font-size: 22px;
+          font-family: "IBM Plex Sans";
           line-height: 2rem;
+          letter-spacing: -0.32px;
         }
 
         .sectionEmpatTengah {
@@ -2194,8 +2201,8 @@ $size1: 1.6rem;
           justify-content: space-evenly;
           align-items: center;
           width: fit-content;
-          margin: 50px auto 0 auto;
-          padding-bottom: 15px;
+          margin: 50px auto 25px auto;
+          padding-bottom: 25px;
           border-bottom: 1px solid $color2;
 
           .mc-field-group,
@@ -2205,9 +2212,18 @@ $size1: 1.6rem;
           }
 
           .mc-field-group {
+            width: 200px; // seharusnya 261 px tapi setelah diimplementasikan malah tidak rapi
+            height: 30px;
+
             input[type="email"] {
+              width: 100%;
               background-color: transparent;
               border: transparent;
+              font-size: 0.9rem;
+              color: #363636;
+              font-family: "IBM Plex Sans";
+              font-size: 16px;
+              letter-spacing: -0.24px;
             }
 
             input[type="email"]:hover,
@@ -2218,6 +2234,10 @@ $size1: 1.6rem;
 
             input::placeholder {
               font-size: 0.9rem;
+              color: #363636;
+              font-family: "IBM Plex Sans";
+              font-size: 16px;
+              letter-spacing: -0.24px;
             }
           }
 
@@ -2236,8 +2256,10 @@ $size1: 1.6rem;
 
                 .text,
                 a.terms {
-                  font-size: 0.9rem;
-                  color: $colorLine;
+                  font-size: 16px;
+                  font-family: "IBM Plex Sans";
+                  color: $color5;
+                  letter-spacing: -0.24px;
                 }
               }
             }
@@ -2250,9 +2272,11 @@ $size1: 1.6rem;
             transform: translateY(3px);
 
             h6 {
-              color: $colorLine;
+              color: $color5;
               text-transform: uppercase;
-              letter-spacing: 0.1rem;
+              letter-spacing: 1px;
+              font-family: "IBM Plex Sans";
+              font-weight: 500;
             }
           }
         }
