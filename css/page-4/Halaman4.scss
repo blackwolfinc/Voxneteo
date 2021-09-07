@@ -1,3 +1,8 @@
+.container {
+  .navbar-nav {
+    z-index: 1;
+  }
+}
 .sectionBody {
   display: flex;
   margin-top: 4.6rem;
@@ -28,7 +33,7 @@
     margin-bottom: 0;
     .item {
       width: 320px;
-      margin-bottom: 4rem;
+      margin-bottom: 4.5rem;
       &.center {
         .containerImage {
           &::after {
@@ -62,31 +67,33 @@
       .date {
         color: #0a2939;
         font-family: Minion;
-        font-size: 3rem;
-        line-height: 29px;
+        font-size: 3.4rem;
+        line-height: 45px;
         margin-top: 2rem;
-        margin-bottom: 1.8rem;
+        margin-bottom: 1.5rem;
       }
       .subTitle {
         font-size: 0.9rem;
         color: #f05e36;
       }
       .title {
-        font-size: 1.18rem;
+        font-size: 1.15rem;
         color: #0a2939;
+        margin-bottom: 0;
+        line-height: 1.6rem;
       }
       &.quotes {
         padding: 2.5rem;
         .quotes {
           font-family: Minion;
           color: #0a2939;
-          font-size: 2.5rem;
-          line-height: 2.4rem;
+          font-size: 2.27rem;
+          line-height: 2.5rem;
         }
         .subQuotes {
           margin-bottom: 0.7rem;
           text-transform: uppercase;
-          font-size: 0.8rem;
+          font-size: 0.75rem;
           letter-spacing: 1.5px;
           color: #f05e36;
           font-weight: bold;
@@ -122,40 +129,54 @@
 .sectionAddActuals {
   color: #f05e36;
   text-align: center;
+  margin-top: -6rem;
+  position: relative;
   .icon-plus {
     filter: invert(56%) sepia(34%) saturate(6580%) hue-rotate(339deg)
       brightness(96%) contrast(96%);
     width: 24px;
     height: 24px;
-    margin-bottom: 1.3rem;
+    cursor: pointer;
   }
   p {
     text-transform: uppercase;
+    font-size: 0.75rem;
+    line-height: 3.1rem;
+    letter-spacing: 2px;
+    span {
+      cursor: pointer;
+    }
   }
 }
-// @media only screen and (min-device-width: 1400px) {
 
-// }
-
-@media only screen and (min-device-width: 0px) and (max-device-width: 991.98px) {
+@media only screen and (min-width: 0px) and (max-width: 1184px) {
+  .sectionAddActuals {
+    margin-top: -1rem;
+  }
   .sectionBody {
     margin-top: 2rem;
     display: block;
-    .containerCategories {
+    .containerCategoriesCornerBlur {
       position: relative;
-      &::after {
-        content: "";
-        position: absolute;
-        background: transparent;
-        background: linear-gradient(90deg, transparent 0%, white 100%);
+      div {
         right: 0;
         height: 60px;
         width: 20%;
+        z-index: 1;
+        position: absolute;
+        background: transparent;
+        background: linear-gradient(90deg, transparent 0%, white 100%);
       }
-      display: flex;
-      overflow-x: auto;
+    }
+    .containerCategories {
+      position: relative;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      white-space: nowrap;
+
       li {
         margin-right: 1rem;
+        display: inline-block;
       }
     }
     .containerCards {
@@ -163,13 +184,22 @@
       width: auto;
       align-items: center;
       padding: 0;
-    }
-    .containerCards {
+
       .item {
-        width: 100%;
+        .date {
+          font-size: 2rem;
+          margin-top: 1rem;
+          margin-bottom: 0.5rem;
+        }
+        .subTitle {
+          margin-bottom: 0.8rem;
+        }
         .containerImage {
+          &::after {
+            display: none;
+            visibility: hidden;
+          }
           img {
-            width: 100%;
             object-fit: contain;
           }
         }
@@ -178,6 +208,33 @@
         }
         &.top-right {
           margin-top: 0;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 717px) {
+  .sectionBody {
+    .containerCategories {
+      overflow-x: auto;
+    }
+    .containerCategoriesCornerBlur {
+      display: none;
+      visibility: hidden;
+    }
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 373px) {
+  .sectionBody {
+    .containerCards {
+      .item {
+        width: 100%;
+        .containerImage {
+          img {
+            width: 100%;
+          }
         }
       }
     }

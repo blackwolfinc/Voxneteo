@@ -525,7 +525,7 @@ li.hidden ul li {
               width: 100%;
               height: auto;
               display: flex;
-              padding-left: 50%;
+              padding-left: 40%;
 
               span {
                 display: inline-block;
@@ -640,7 +640,7 @@ li.hidden ul li {
               font-family: $ibmMedium;
               margin-top: 5.4375rem;
               height: 2.3125rem;
-
+              margin-bottom: 3rem;
               color: #0a2939;
               font-size: 1.5rem;
               font-weight: 500;
@@ -695,10 +695,11 @@ li.hidden ul li {
 
       .title {
         height: 2.375rem;
-
+        margin-bottom: 3rem;
         color: #0a2939;
         font-family: $butler;
-        font-size: 2.125rem;
+        font-size: 56px;
+
         letter-spacing: -0.03125rem;
         line-height: 2.375rem;
       }
@@ -950,6 +951,7 @@ li.hidden ul li {
           margin-right: auto;
           display: block;
           padding-top: 3.9375rem;
+          width: 20%;
           padding-bottom: 3rem;
         }
       }
@@ -1304,7 +1306,7 @@ li.hidden ul li {
               width: 100%;
               height: auto;
               display: flex;
-              padding-left: 50%;
+              padding-left: 40%;
 
               span {
                 display: inline-block;
@@ -1418,7 +1420,7 @@ li.hidden ul li {
               font-family: $ibmMedium;
               margin-top: 5.4375rem;
               height: 2.3125rem;
-
+              margin-bottom: 3rem;
               color: #0a2939;
               font-size: 1.5rem;
               font-weight: 500;
@@ -1476,7 +1478,8 @@ li.hidden ul li {
 
         color: #0a2939;
         font-family: $butler;
-        font-size: 2.125rem;
+        font-size: 56px;
+
         letter-spacing: -0.03125rem;
         line-height: 2.375rem;
       }
@@ -1491,7 +1494,8 @@ li.hidden ul li {
 
         color: #0a2939;
         font-family: $butler;
-        font-size: 2.125rem;
+        font-size: 56px;
+
         letter-spacing: -0.03125rem;
         line-height: 2.375rem;
       }
@@ -1508,7 +1512,8 @@ li.hidden ul li {
 
           color: #0a2939;
           font-family: $butler;
-          font-size: 2.125rem;
+          font-size: 56px;
+
           letter-spacing: -0.03125rem;
           line-height: 2.375rem;
         }
@@ -1673,8 +1678,9 @@ li.hidden ul li {
           margin-left: auto;
           margin-right: auto;
           display: block;
+          width: 20%;
           padding-top: 3.9375rem;
-          padding-bottom: 3rem;
+          padding-bottom: 5rem;
         }
       }
 
@@ -1756,10 +1762,11 @@ li.hidden ul li {
       .footerHeader {
         img {
           margin-left: auto;
+          width: 20%;
           margin-right: auto;
           display: block;
           padding-top: 3.9375rem;
-          padding-bottom: 3rem;
+          padding-bottom: 5rem;
         }
       }
 
@@ -2081,7 +2088,7 @@ li.hidden ul li {
               width: 100%;
               height: auto;
               display: flex;
-              padding-left: 50%;
+              padding-left: 40%;
 
               span {
                 display: inline-block;
@@ -2185,7 +2192,7 @@ li.hidden ul li {
               font-family: $ibmMedium;
               margin-top: 5.4375rem;
               height: 2.3125rem;
-
+              margin-bottom: 3rem;
               color: #0a2939;
               font-size: 1.5rem;
               font-weight: 500;
@@ -2229,7 +2236,8 @@ li.hidden ul li {
 
         color: #0a2939;
         font-family: $butler;
-        font-size: 2.125rem;
+        font-size: 56px;
+
         letter-spacing: -0.03125rem;
         line-height: 2.375rem;
       }
@@ -2260,7 +2268,8 @@ li.hidden ul li {
           width: 19.0625rem;
           color: #0a2939;
           font-family: $butler;
-          font-size: 2.125rem;
+          font-size: 56px;
+
           letter-spacing: -0.03125rem;
           line-height: 2.375rem;
         }
@@ -2451,9 +2460,10 @@ li.hidden ul li {
         img {
           margin-left: auto;
           margin-right: auto;
+          width: 20%;
           display: block;
           padding-top: 3.9375rem;
-          padding-bottom: 3rem;
+          padding-bottom: 6rem;
         }
       }
 
@@ -2788,7 +2798,7 @@ li.hidden ul li {
               width: 100%;
               height: auto;
               display: flex;
-              padding-left: 50%;
+              padding-left: 40%;
 
               span {
                 display: inline-block;
@@ -2890,7 +2900,7 @@ li.hidden ul li {
               font-family: $ibmMedium;
               margin-top: 5.4375rem;
               height: 2.3125rem;
-
+              margin-bottom: 3rem;
               color: #0a2939;
               font-size: 1.5rem;
               font-weight: 500;
@@ -2934,7 +2944,8 @@ li.hidden ul li {
 
         color: #0a2939;
         font-family: $butler;
-        font-size: 2.125rem;
+        font-size: 56px;
+
         letter-spacing: -0.03125rem;
         line-height: 2.375rem;
       }
@@ -2948,9 +2959,11 @@ li.hidden ul li {
         .title {
           height: 2.375rem;
           width: 19.0625rem;
+          margin-bottom: 3rem;
           color: #0a2939;
           font-family: $butler;
-          font-size: 2.125rem;
+          font-size: 56px;
+
           letter-spacing: -0.03125rem;
           line-height: 2.375rem;
         }
@@ -3143,8 +3156,9 @@ li.hidden ul li {
           margin-left: auto;
           margin-right: auto;
           display: block;
+          width: 20%;
           padding-top: 3.9375rem;
-          padding-bottom: 3rem;
+          padding-bottom: 6rem;
         }
       }
 
@@ -3431,17 +3445,17 @@ li.hidden ul li {
         font-size: 2rem;
         color: $color4;
         line-height: 3rem;
-        margin-bottom: 2.4rem;
+        margin-bottom: 1.4rem;
       }
 
       ul.dashed > li:before {
         content: "-";
         text-indent: -20px;
         color: $color3;
-        margin-right: 3.1rem;
+        margin-right: 2.1rem;
       }
 
-      ul.dashed .li-first {
+      ul.dashed :hover {
         color: $color3;
       }
 
@@ -3526,7 +3540,7 @@ li.hidden ul li {
             width: 100%;
             height: auto;
             display: flex;
-            padding-left: 50%;
+            padding-left: 40%;
 
             span {
               display: inline-block;
@@ -3630,7 +3644,7 @@ li.hidden ul li {
             font-family: $ibmMedium;
             margin-top: 5.4375rem;
             height: 2.3125rem;
-
+            margin-bottom: 3rem;
             color: #0a2939;
             font-size: 1.5rem;
             font-weight: 500;
@@ -3674,7 +3688,8 @@ li.hidden ul li {
 
       color: #0a2939;
       font-family: $butler;
-      font-size: 2.125rem;
+      font-size: 56px;
+
       letter-spacing: -0.03125rem;
       line-height: 2.375rem;
     }
@@ -3705,10 +3720,12 @@ li.hidden ul li {
           border: none;
 
           .card-body {
+            padding: 0rem;
             h1 {
               height: 2.8125rem;
               width: 10.74375rem;
               color: #0a2939;
+              margin-top: 3rem;
               font-family: $butler;
               font-size: 3rem;
               letter-spacing: -0.044375rem;
@@ -3890,8 +3907,9 @@ li.hidden ul li {
           margin-left: auto;
           margin-right: auto;
           display: block;
+          width: 20%;
           padding-top: 3.9375rem;
-          padding-bottom: 3rem;
+          padding-bottom: 6rem;
         }
       }
 
@@ -4140,6 +4158,7 @@ li.hidden ul li {
 
   .section-2 {
     .content-left {
+      padding-left: 5rem;
       h1 {
         margin-bottom: 3.125rem;
         font-family: $ibmMedium;
@@ -4178,17 +4197,17 @@ li.hidden ul li {
         font-size: 2rem;
         color: $color4;
         line-height: 3rem;
-        margin-bottom: 2.4rem;
+        margin-bottom: 1.4rem;
       }
 
       ul.dashed > li:before {
         content: "-";
         text-indent: -20px;
         color: $color3;
-        margin-right: 3.1rem;
+        margin-right: 2.1rem;
       }
 
-      ul.dashed .li-first {
+      ul.dashed :hover {
         color: $color3;
       }
 
@@ -4273,7 +4292,7 @@ li.hidden ul li {
             width: 100%;
             height: auto;
             display: flex;
-            padding-left: 50%;
+            padding-left: 40%;
 
             span {
               display: inline-block;
@@ -4376,7 +4395,7 @@ li.hidden ul li {
             font-family: $ibmMedium;
             margin-top: 5.4375rem;
             height: 2.3125rem;
-
+            margin-bottom: 3rem;
             color: #0a2939;
             font-size: 1.5rem;
             font-weight: 500;
@@ -4417,10 +4436,11 @@ li.hidden ul li {
 
     .title {
       height: 2.375rem;
-
+      margin-bottom: 3rem;
       color: #0a2939;
       font-family: $butler;
-      font-size: 2.125rem;
+      font-size: 56px;
+
       letter-spacing: -0.03125rem;
       line-height: 2.375rem;
     }
@@ -4451,9 +4471,11 @@ li.hidden ul li {
           border: none;
 
           .card-body {
+            padding: 0rem;
             h1 {
               height: 2.8125rem;
               width: 10.74375rem;
+              margin-top: 2rem;
               color: #0a2939;
               font-family: $butler;
               font-size: 3rem;
@@ -4628,7 +4650,6 @@ li.hidden ul li {
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1440px) {
   .container {
-    max-width: $maxWidth;
   }
 
   hr {
@@ -4790,7 +4811,7 @@ li.hidden ul li {
 
       ul.dashed {
         list-style-type: none;
-        width: 66.2rem;
+        // width: 66.2rem;
         font-family: $butlerLight;
         margin-left: 6.938rem;
         padding-left: 0.75rem;
@@ -4801,17 +4822,17 @@ li.hidden ul li {
         font-size: 2.5rem;
         color: $color4;
         line-height: 3rem;
-        margin-bottom: 2.4rem;
+        margin-bottom: 1rem;
       }
 
       ul.dashed > li:before {
         content: "-";
         text-indent: -20px;
         color: $color3;
-        margin-right: 3.1rem;
+        margin-right: 2.1rem;
       }
 
-      ul.dashed .li-first {
+      ul.dashed :hover {
         color: $color3;
       }
 
@@ -4819,7 +4840,7 @@ li.hidden ul li {
         width: 100%;
         height: auto;
         display: flex;
-        padding-left: 50%;
+        padding-left: 40%;
         padding-top: 20%;
 
         span {
@@ -4889,15 +4910,15 @@ li.hidden ul li {
 
   .section-3 {
     .content {
+      background-color: $color3;
       .row {
-        background-color: $color3;
-
         .content-left {
+          padding-left: 2rem;
           .sett-line-section-3 {
             width: 100%;
             height: auto;
             display: flex;
-            padding-left: 50%;
+            padding-left: 40%;
 
             span {
               display: inline-block;
@@ -4999,6 +5020,7 @@ li.hidden ul li {
           h1 {
             font-family: $ibmMedium;
             margin-top: 5.4375rem;
+            margin-bottom: 3rem;
             height: 2.3125rem;
 
             color: #0a2939;
@@ -5041,10 +5063,11 @@ li.hidden ul li {
 
     .title {
       height: 2.375rem;
-
+      margin-bottom: 3rem;
       color: #0a2939;
       font-family: $butler;
-      font-size: 2.125rem;
+      font-size: 56px;
+
       letter-spacing: -0.03125rem;
       line-height: 2.375rem;
     }
@@ -5076,9 +5099,11 @@ li.hidden ul li {
           border: none;
 
           .card-body {
+            padding: 0rem;
             h1 {
               height: 2.8125rem;
               width: 10.74375rem;
+              margin-top: 2rem;
               color: #0a2939;
               font-family: $butler;
               font-size: 3rem;
@@ -5170,8 +5195,8 @@ li.hidden ul li {
     background-repeat: no-repeat;
     display: flex;
     justify-content: flex-end;
-    height: 60rem;
-
+    height: 55rem;
+    margin-bottom: -3.6rem;
     .sectionArrow {
       width: 80%;
       position: relative;
@@ -5246,7 +5271,7 @@ li.hidden ul li {
     }
 
     .carousel {
-      margin-top: 15rem;
+      margin-top: 10rem;
       margin-right: 10rem;
       margin-left: -20rem;
       width: 60%;
@@ -5263,8 +5288,8 @@ li.hidden ul li {
       .carousel-control-next-icon {
         background-color: #f66e49 !important;
         opacity: 0.95;
-        height: 10rem;
-        width: 10rem;
+        height: 7rem;
+        width: 7rem;
         background-size: 51px;
         margin-left: -9rem;
         border-radius: 50%;
@@ -5292,15 +5317,16 @@ li.hidden ul li {
 
         p {
           font-size: 16px;
+          margin-top: 2rem;
         }
 
         h1 {
           margin-top: 4rem;
-          height: 196px;
+          height: 120px;
           width: 997px;
           color: #ffffff;
           font-family: Butler;
-          font-size: 150px;
+          font-size: 120px;
 
           font-weight: 300;
           letter-spacing: 0;
@@ -5435,8 +5461,9 @@ li.hidden ul li {
           margin-left: auto;
           margin-right: auto;
           display: block;
+          width: 20%;
           padding-top: 3.9375rem;
-          padding-bottom: 3rem;
+          padding-bottom: 6rem;
         }
       }
 
