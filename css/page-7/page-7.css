@@ -4,6 +4,11 @@
 }
 
 @font-face {
+  font-family: "IBMPlexSans-Bold";
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Bold.ttf");
+}
+
+@font-face {
   font-family: "IBMPlexSans-SemiBold";
   src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBold.ttf");
 }
@@ -104,7 +109,7 @@ html, body {
 .navbar nav .navbar-brand img {
   width: 5rem;
   height: 7rem;
-  margin-left: 7rem;
+  margin-left: 9rem;
   padding-bottom: 2rem;
 }
 
@@ -149,11 +154,8 @@ html, body {
 }
 
 .navbar .nav-item .nav-link:hover {
-  border-bottom: #F05E36 solid 2px;
-}
-
-.navbar .nav-item .nav-link.active {
-  border-bottom: #F05E36 solid 2px;
+  border-bottom: 2px #F05E36 solid;
+  border-width: 30%;
 }
 
 .navbar .nav-item img {
@@ -166,7 +168,7 @@ html, body {
   padding-left: 2.4375rem;
   padding-right: 4.4375rem;
   border-radius: 1.5rem;
-  font-family: "IBMPlexSans";
+  font-family: "IBMPlexSans-Bold";
 }
 
 .navbar .nav-item.dropdown .nav-link::after {
@@ -179,6 +181,11 @@ html, body {
   width: 4.6875rem;
   height: 5.625rem;
   top: 2.0625rem;
+}
+
+.navbar #hidebtn svg {
+  width: 2rem;
+  margin-left: 0.3rem;
 }
 
 .sectionSatu {
@@ -217,7 +224,7 @@ html, body {
   height: 196px;
   width: 792px;
   color: #F05E36;
-  font-family: Butler;
+  font-family: "Butler";
   font-size: 100px;
   letter-spacing: -1.47px;
   line-height: 50px;
@@ -227,12 +234,12 @@ html, body {
   height: 27px;
   width: 464px;
   color: #021925;
-  font-family: Minion;
+  font-family: "Minion-DisplayItalic";
   font-size: 28px;
   font-style: italic;
   letter-spacing: 1.27px;
   line-height: 29px;
-  margin-top: -6rem;
+  margin-top: -7.4rem;
 }
 
 .sectionSatu .sectionSatuKanan {
@@ -243,12 +250,21 @@ html, body {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin-right: -3.75rem;
+  margin-right: 0;
+  margin-left: auto;
   height: 405px;
 }
 
 .sectionSatu .sectionSatuKanan img {
   width: 100%;
+}
+
+.sectionSatu .overlay-samping {
+  width: 125px;
+  background-color: #f05e36;
+  max-width: 100%;
+  margin-right: -2.5rem;
+  height: 405px;
 }
 
 .sectionDua {
@@ -373,6 +389,7 @@ html, body {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 2.5rem;
+  margin-top: -5rem;
 }
 
 .sectionTiga .sectionTigaBody .title .title-1 {
@@ -459,6 +476,10 @@ html, body {
   font-size: 16px;
 }
 
+.sectionTiga .sectionTigaBody .SectionTigaTengah a.terms {
+  text-decoration: underline;
+}
+
 .sectionTiga .sectionTigaBody .SectionTigaTengah h6 {
   font-family: "IBMPlexSans-Medium";
   color: #002f39;
@@ -469,7 +490,7 @@ html, body {
   width: 100%;
   background-color: #021925;
   height: 40rem;
-  margin-top: 9.4375rem;
+  margin-top: 8.1rem;
 }
 
 .Footer .container {
@@ -652,6 +673,9 @@ html, body {
   .container .navbar-nav .nav-item .nav-link {
     color: #ffffff;
   }
+  .container .navbar-nav .nav-item .nav-link:hover {
+    border-bottom: none;
+  }
   .container .navbar-nav .nav-item .nav-link.active {
     border: none;
   }
@@ -675,7 +699,7 @@ html, body {
     color: #f05e36;
   }
   .container .navbar-nav .nav-item ul.dash li:before {
-    content: "-";
+    content: "\2015";
     text-indent: -5px;
     margin-right: 13px;
     color: #f05e36;
@@ -762,6 +786,17 @@ html, body {
   .container .sectionSatu .sectionSatuKanan img {
     height: 12rem;
   }
+  .container .sectionSatu .overlay-samping {
+    display: none;
+  }
+  .container .sectionSatu .overlay-bawah {
+    width: auto;
+    background-color: #f05e36;
+    max-width: 100%;
+    height: 16px;
+    position: relative;
+    top: -0.6rem;
+  }
   .container .sectionDua {
     margin-left: 0;
     padding: 0 1rem;
@@ -769,7 +804,7 @@ html, body {
   .container .sectionDua .sectionDuaJudul {
     width: 100%;
     margin-left: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 0;
     padding: 0;
   }
   .container .sectionDua .sectionDuaJudul h3 {
@@ -781,13 +816,12 @@ html, body {
   .container .sectionDua .sectionDuaText {
     width: 100%;
     margin-left: 0;
-    padding: 0 2rem;
     margin-top: 1rem;
     padding: 0;
   }
   .container .sectionDua .sectionDuaText .sideAtas {
     width: 100%;
-    margin-bottom: 48px;
+    margin-bottom: 41px;
   }
   .container .sectionDua .sectionDuaText .sideAtas p {
     font-size: 14px;
@@ -834,6 +868,7 @@ html, body {
         -ms-flex-pack: center;
             justify-content: center;
     margin-bottom: 0;
+    margin-top: 0;
   }
   .container .sectionTiga .sectionTigaBody .title .title-1 h2 {
     font-size: 22px;
@@ -929,7 +964,7 @@ html, body {
   }
   .container .sectionTiga .SectionTigaTengah .mc_fieldset .text {
     color: #002F39;
-    font-family: "IBM Plex Sans";
+    font-family: "IBMPlexSans";
     font-size: 14px;
     letter-spacing: -0.21px;
     line-height: 18px;
@@ -949,7 +984,7 @@ html, body {
     color: #002f39;
   }
   .Footer {
-    margin-top: 1.875rem;
+    margin-top: 41px;
     background-color: #021925;
   }
   .Footer .container .footerHeader {
@@ -1097,6 +1132,9 @@ html, body {
   .navbar .container .navbar-nav .nav-item .nav-link {
     color: #ffffff;
   }
+  .navbar .container .navbar-nav .nav-item .nav-link:hover {
+    border-bottom: none;
+  }
   .navbar .container .navbar-nav .nav-item .nav-link.active {
     border: none;
   }
@@ -1120,7 +1158,7 @@ html, body {
     color: #f05e36;
   }
   .navbar .container .navbar-nav .nav-item ul.dash li:before {
-    content: "-";
+    content: "\2015";
     text-indent: -5px;
     margin-right: 13px;
     color: #f05e36;
@@ -1172,7 +1210,7 @@ html, body {
     display: -ms-flexbox;
     display: flex;
     padding: 1rem;
-    height: 27rem;
+    height: 30rem;
   }
   .container .sectionSatu .sectionSatuKiri {
     background-color: transparent;
@@ -1208,6 +1246,17 @@ html, body {
   }
   .container .sectionSatu .sectionSatuKanan img {
     margin-right: 0;
+  }
+  .container .sectionSatu .overlay-samping {
+    display: none;
+  }
+  .container .sectionSatu .overlay-bawah {
+    width: auto;
+    background-color: #f05e36;
+    max-width: 100%;
+    height: 16px;
+    position: relative;
+    top: -0.6rem;
   }
   .container .sectionDua {
     margin-left: 0;
@@ -1275,6 +1324,7 @@ html, body {
         -ms-flex-pack: center;
             justify-content: center;
     margin-bottom: 0;
+    margin-top: 0;
   }
   .container .sectionTiga .sectionTigaBody .title .title-1 h2 {
     height: 46px;
@@ -1371,7 +1421,7 @@ html, body {
   }
   .container .sectionTiga .SectionTigaTengah .mc_fieldset .text {
     color: #002F39;
-    font-family: "IBM Plex Sans";
+    font-family: "IBMPlexSans";
     letter-spacing: -0.21px;
     line-height: 18px;
     padding-right: .3125rem;
@@ -1393,7 +1443,7 @@ html, body {
     color: #002f39;
   }
   .Footer {
-    margin-top: 1.875rem;
+    margin-top: 41px;
     background-color: #021925;
   }
   .Footer .container .footerHeader {
@@ -1544,7 +1594,7 @@ html, body {
     display: -ms-flexbox;
     display: flex;
     padding: 2rem;
-    height: 35rem;
+    height: 40rem;
   }
   .container .sectionSatu .sectionSatuKiri {
     background-color: transparent;
@@ -1580,6 +1630,17 @@ html, body {
   }
   .container .sectionSatu .sectionSatuKanan img {
     margin-right: 0;
+  }
+  .container .sectionSatu .overlay-samping {
+    display: none;
+  }
+  .container .sectionSatu .overlay-bawah {
+    width: auto;
+    background-color: #f05e36;
+    max-width: 100%;
+    height: 16px;
+    position: relative;
+    top: -0.2rem;
   }
   .container .sectionDua {
     margin-left: 0;
@@ -1645,6 +1706,7 @@ html, body {
         -ms-flex-pack: center;
             justify-content: center;
     margin-bottom: 0;
+    margin-top: 0;
   }
   .container .sectionTiga .sectionTigaBody .title .title-1 h2 {
     height: 46px;
@@ -1741,7 +1803,7 @@ html, body {
   }
   .container .sectionTiga .SectionTigaTengah .mc_fieldset .text {
     color: #002F39;
-    font-family: "IBM Plex Sans";
+    font-family: "IBMPlexSans";
     letter-spacing: -0.21px;
     line-height: 18px;
     padding-right: .3125rem;
