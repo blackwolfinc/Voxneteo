@@ -165,6 +165,7 @@
           filter: invert(56%) sepia(34%) saturate(6580%) hue-rotate(339deg) brightness(96%) contrast(96%);
   width: 24px;
   height: 24px;
+  cursor: pointer;
 }
 
 .sectionAddActuals p {
@@ -172,6 +173,10 @@
   font-size: 0.75rem;
   line-height: 3.1rem;
   letter-spacing: 2px;
+}
+
+.sectionAddActuals p span {
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 1184px) {
@@ -182,21 +187,24 @@
     margin-top: 2rem;
     display: block;
   }
+  .sectionBody .containerCategoriesCornerBlur {
+    position: relative;
+  }
+  .sectionBody .containerCategoriesCornerBlur div {
+    right: 0;
+    height: 60px;
+    width: 20%;
+    z-index: 1;
+    position: absolute;
+    background: transparent;
+    background: -webkit-gradient(linear, left top, right top, from(transparent), to(white));
+    background: linear-gradient(90deg, transparent 0%, white 100%);
+  }
   .sectionBody .containerCategories {
     position: relative;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
-  }
-  .sectionBody .containerCategories::after {
-    content: "";
-    position: absolute;
-    background: transparent;
-    background: -webkit-gradient(linear, left top, right top, from(transparent), to(white));
-    background: linear-gradient(90deg, transparent 0%, white 100%);
-    right: 0;
-    height: 60px;
-    width: 20%;
   }
   .sectionBody .containerCategories li {
     margin-right: 1rem;
@@ -237,6 +245,10 @@
 @media only screen and (min-width: 717px) {
   .sectionBody .containerCategories {
     overflow-x: auto;
+  }
+  .sectionBody .containerCategoriesCornerBlur {
+    display: none;
+    visibility: hidden;
   }
 }
 
