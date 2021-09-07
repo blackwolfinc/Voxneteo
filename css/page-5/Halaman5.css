@@ -11,9 +11,11 @@
 
 .containerBack {
   text-align: center;
+  margin-top: 4.0625rem;
   margin-bottom: 2.5625rem;
   position: relative;
   overflow: hidden;
+  font-family: IBM Plex Sans;
 }
 
 .containerBack span {
@@ -30,7 +32,7 @@
   display: table;
   width: 100%;
   position: absolute;
-  top: 0.3rem;
+  top: 0.4rem;
   right: 2rem;
 }
 
@@ -78,7 +80,7 @@
 
 .containerCard .date {
   color: #0a2939;
-  font-family: Minion;
+  font-family: Minion Display;
   font-size: 3.4rem;
   line-height: 45px;
   margin-top: 2rem;
@@ -88,6 +90,7 @@
 .containerCard .subTitle {
   font-size: 0.9rem;
   color: #f05e36;
+  font-family: IBM Plex Sans;
 }
 
 .containerCard .title {
@@ -95,32 +98,35 @@
   color: #0a2939;
   margin-bottom: 0;
   line-height: 1.6rem;
+  font-family: IBM Plex Sans;
 }
 
 .containerNews {
-  font-family: "IBM Plex Sans";
+  font-family: IBM Plex Sans;
 }
 
 .containerNews .newsTitle {
   color: #0a2939;
   line-height: 2.6125rem;
-  margin-bottom: 1.775rem;
+  margin-bottom: 1.275rem;
   font-size: 2rem;
 }
 
 .containerNews .newsAuthor {
   font-size: 1rem;
-  padding-bottom: 1.4375rem;
+  padding-bottom: 1rem;
   border-bottom: 2px solid #e3e3e3;
   margin-bottom: 1.9375rem;
   color: #3891a5;
   line-height: 1.875rem;
+  font-weight: 300;
 }
 
-.containerNews .news {
+.containerNews .containerNewsAllText {
   line-height: 1.875rem;
   color: #0a2939;
   font-weight: 300;
+  margin-bottom: 3rem;
 }
 
 .containerNews .visitWebsite {
@@ -134,6 +140,26 @@
   margin-top: 3.125rem;
   height: 2px;
   background-color: #e3e3e3;
+}
+
+.sectionSatu .sectionSatuKanan img {
+  width: 1049px;
+}
+
+.sectionSatu .sectionSatuKanan .orangeBlock {
+  height: 16px;
+  background-color: #f05e36;
+}
+
+@media only screen and (min-width: 1400px) {
+  .sectionSatu .sectionSatuKanan img {
+    width: 1049px;
+  }
+  .sectionSatu .sectionSatuKanan .orangeBlock {
+    width: 100px;
+    background-color: #f05e36;
+    height: 100%;
+  }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 1399.98px) {
@@ -190,9 +216,9 @@
     margin-bottom: 1.6875rem;
     line-height: 1.125rem;
   }
-  .containerNews .news {
+  .containerNews .containerNewsAllText {
     line-height: 1.625rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     letter-spacing: -0.09px;
     font-size: 14px;
   }
