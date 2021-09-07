@@ -120,6 +120,7 @@
 .containerNews .news {
   line-height: 1.875rem;
   color: #0a2939;
+  font-weight: 300;
 }
 
 .containerNews .visitWebsite {
@@ -155,13 +156,14 @@
     left: 3rem;
     right: unset;
   }
-  .containerCard {
-    padding-top: 0;
-    margin: 0 auto;
-  }
   .sectionBody {
     display: block;
     padding: 0;
+  }
+  .containerCard {
+    padding-top: 0;
+    margin: 0 auto;
+    margin-bottom: 2rem;
   }
   .containerCard .date {
     font-size: 2rem;
@@ -169,7 +171,7 @@
     margin-bottom: 0.5rem;
   }
   .containerCard .subTitle {
-    margin-bottom: 0.8rem;
+    margin-bottom: 0;
     font-size: 1rem;
   }
   .containerCard .containerImage::after {
@@ -191,6 +193,8 @@
   .containerNews .news {
     line-height: 1.625rem;
     margin-bottom: 2rem;
+    letter-spacing: -0.09px;
+    font-size: 14px;
   }
   .containerNews .visitWebsite {
     margin-bottom: 3rem;
