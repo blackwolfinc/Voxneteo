@@ -60,658 +60,6 @@ $size1: 1.6rem;
 
 @media (max-width: 319.98px) {
     
-    .container {
-        margin-left: 0;
-        margin-right: 0;
-        max-width: 100%;
-       
-        .navbar {
-            flex-direction: row-reverse;
-            margin-left: -1.5rem;
-            margin-right: -1.5rem;
-            display: flex;
-            border-bottom: 1px solid #e3e3e3;
-            padding-bottom: 20px;
-
-            .line {
-                display: none;
-            }
-        }
-
-        .navbar-light {
-            .navbar-toggler {
-                border: none;
-            }
-        }
-
-        .drop {
-            .btn-group {
-              margin-top: 0;
-              margin-left: -2.5rem;
-            }
-        }
-
-        .navbar-nav {
-            top: 0;
-            left: 0;
-            position: fixed;
-            background-color: #021925;
-            height: 100%;
-            display: inline-block;
-            width: 90%;
-            padding: 1.5rem;
-            color: white;
-                li {
-                    .nav-link {
-                        font-family: $ibmSemiBold;
-                        font-size: 18px;
-                        color: $color1;
-                        line-height: 23px;
-                        margin-bottom: 24px;
-
-                        &:hover {
-                            color:orange;
-                        }
-                    }
-
-                    .nav-link.contact {
-                        margin-bottom: 50px;
-                    }
-
-                    ul.dash {
-                        list-style-type: none;
-                        margin-top: 30px;
-                        padding-left: 10px;
-
-                        li {
-                            font-family: $ibmReguler;
-                            font-size: 14px;
-                            color: $color1;
-                            line-height: 18px;
-                            margin-bottom: 24px;
-                            text-indent: -5px;
-                            
-                        }
-                        li.first {
-                            color: $color3;
-                        }
-                        li:before {
-                            content: "-";
-                            text-indent: -5px;
-                            margin-right: 13px;
-                            color: $color3;
-                        }
-                    }
-                }
-
-                #listhide {
-                    border-top: 1.5px solid #113d53;
-                }
-        }
-
-        .sectionSatu {
-            margin-top: 0;
-            flex-direction: column;
-            display: flex;
-
-            .sectionSatuKiri {
-                background-color: transparent;
-
-                .text {
-                    margin-left: 0;
-                    position: block;
-                    
-                    h1 {
-                       height: auto;
-                       color: #F05E36;
-                       font-family: $butler;
-                       font-size: 2.625rem;
-                       letter-spacing: -0.03875rem;
-                       line-height: 2.375rem;
-                    }
-
-                    h5 {
-                        margin-top: .75rem;
-                        color: #021925;
-                        font-family: $minionItalic;
-                        font-size: 1.125rem;
-                        font-style: italic;
-                        letter-spacing: .00625rem;
-                        line-height: 1.125rem;
-                    }
-                }
-            }
-
-            .sectionSatuKanan {
-                position: block;
-                margin-left: 0;
-                margin-top: 1.625rem;
-
-                img {
-                    height: 12rem;
-                }
-            }
-        }
-
-        .sectionDua {
-            margin-top: 2.0625rem;
-            flex-direction: column;
-            display: flex;
-
-            .sectionDuaKiri {
-
-                .wraperKiri-One {
-                    color: #0A2939;
-                    font-family: $ibmReguler;
-                    font-size: 1.125rem;
-                    font-weight: 300;
-                    letter-spacing: -0.01625rem;
-                    line-height: 1.75rem;
-                }
-
-
-                .wraperKiri-Two {
-                    p {
-                        color: #0A2939;
-                        font-family: $ibmLight;
-                        font-size: .875rem;
-                        font-weight: 300;
-                        letter-spacing: -0.005625rem;
-                        line-height: 1.625rem;
-                    }
-                }
-
-                .wraperKiri-Three {
-                    img {
-                        margin-left: -1.5rem;
-                    }
-                }
-
-                .wraperKiri-Four {
-                    margin-top: 2rem;
-                    background-color: #0A2939;
-                    padding: 2rem;
-
-                    h3 {
-                        color: #F05E36;
-                        font-family: Butler;
-                        font-size: 32px;
-                        font-weight: 300;
-                        letter-spacing: -0.47px;
-                        line-height: 36px;
-                    }
-
-                    p {
-                        color: #FFFFFF;
-                        font-family: "IBM Plex Sans";
-                        font-size: 18px;
-                        font-weight: 300;
-                        letter-spacing: -0.11px;
-                        line-height: 28px;
-                    }
-                }
-
-            }
-
-            .sectionDuaKanan {
-                margin-top: 1.4375rem;
-
-                .wraperKanan-One {
-                    background-color: #F05E36;
-                    padding: .75rem;
-                    display: none;
-
-                    p {
-                        color: #0A2939;
-                        font-family: $ibmLight;
-                        font-size: .875rem;
-                        font-weight: 300;
-                        letter-spacing: -0.005625rem;
-                        line-height: 1.625rem;
-                    }
-
-                    ul {
-                        list-style: square;
-                        li {
-                            color: #FFFFFF;
-                            font-family: $butler;
-                            font-size: 1.25rem;
-                            font-weight: 300;
-                            letter-spacing: -0.036875rem;
-                            line-height: 3.125rem;
-                        }
-                    }
-                }
-
-                .wraperKanan-Two {
-                    margin-top: 1.25rem;
-
-                    p {
-                        color: #0A2939;
-                        font-family: $ibmLight;
-                        font-size: .875rem;
-                        font-weight: 300;
-                        letter-spacing: -0.005625rem;
-                        line-height: 1.625rem;
-                    }
-                }
-
-                .wraperKanan-Three {
-                    h3 {
-                        color: #F05E36;
-                        font-family: "IBM Plex Sans";
-                        font-size: 20px;
-                        font-weight: 500;
-                        letter-spacing: -0.29px;
-                        line-height: 28px;
-                        margin-top: 2.125rem;
-                    }
-
-                    p {
-                        margin-top: 1.25rem;
-                        color: #0A2939;
-                        font-family: $ibmLight;
-                        font-size: .875rem;
-                        font-weight: 300;
-                        letter-spacing: -0.005625rem;
-                        line-height: 1.625rem;
-                    }
-                }
-
-                .wraperKanan-Four {
-                    margin-top: 2.4375rem;
-                    h1 {
-                        color: #F05E36;
-                        font-family: "IBM Plex Sans";
-                        font-size: 20px;
-                        font-weight: 500;
-                        letter-spacing: -0.29px;
-                        line-height: 28px;
-                    }
-
-                    ul {
-                        margin-left: 0;
-                        padding-left: 0;
-
-                        li {
-                            color: #0A2939;
-                            font-family: $ibmLight;
-                            font-size: .875rem;
-                            font-weight: 300;
-                            letter-spacing: -0.00625rem;
-                            line-height: 1.875rem;
-                            list-style: none;
-                            width: 100%;
-                        }
-
-                        li:before {
-                            content: "-";
-                            text-indent: -20px;
-                            color: #f05e36;
-                            font-size: 20px;
-                            letter-spacing: -0.1px;
-                            line-height: 30px;
-                            margin-right: .625rem;
-                        }
-                    }
-                }
-            }
-        }
-
-        .sectionTiga {
-            margin-top: 1.875rem;
-
-            .sectionTigaAtas {
-                h1 {
-                    margin: 1.5rem;
-                    margin-left: 0;
-                    color: #021925;
-                    font-family: Butler;
-                    font-size: 34px;
-                    letter-spacing: -0.5px;
-                    line-height: 38px;
-                }
-            }
-
-            .sectionTigaBawah {
-                img {
-                    margin-top: 1rem;
-                    height: 50%;
-                    width: 100%;
-                }
-
-                .cardSlider {
-                    opacity: 0.9;
-                    background-color: #F05E36;
-                    padding: 1.5rem;
-                    margin-top: 1rem;
-
-                    h2 {
-                        color: #0A2939;
-                        font-family: Butler;
-                        font-size: 28px;
-                        letter-spacing: 0;
-                        line-height: 34px;
-                    }
-
-                    a {
-                        color: #FFFFFF;
-                        font-family: "IBM Plex Sans";
-                        font-size: 14px;
-                        letter-spacing: -0.09px;
-                        line-height: 24px;  
-                        text-decoration: none;                    
-                    }
-
-                    p a {
-                        padding: 0;
-                    }
-                    
-                    .link {
-                        margin-bottom: -0.625rem;
-                    }
-
-                    p {
-                        color: white;
-                        font-family: "IBM Plex Sans";
-                        font-size: .875rem;
-                        letter-spacing: 0;
-                        line-height: 2.125rem;
-                    }
-                }
-            }
-        }
-
-        .sectionEmpat {
-
-            .sectionEmpatAtas {
-                display: none;
-            }
-
-            .sectionEmpatBawah {
-                display: none;
-            }
-        }
-
-        .sectionLima {
-            margin-top: 1.875rem;
-            border: 4px solid rgba(246, 110, 73, 0.15);
-            .sectionLimaBody {
-                
-                padding: 1.5rem;
-
-                .logo {
-                    display: flex;
-                    justify-content: center;
-
-                    img {
-                        width: 11.25rem;
-                    }
-                }
-
-                .title {
-                    display: flex;
-                    justify-content: center;
-                    margin-top: 1.5625rem;
-                    margin-bottom: 1.5625rem;
-                }
-
-                h2 {
-                    color: #002F39;
-                    font-family: $minionBold;
-                    font-size: 1.1875rem;
-                    font-weight: bold;
-                    letter-spacing: .65rem;
-                    line-height: 2rem;
-                    text-align: center;
-                    text-transform: uppercase;
-                    height: auto;
-                }
-
-                p {
-                    margin-top: 0;
-                    margin-bottom: 0;
-                    color: #F66E49;
-                    font-family: "IBM Plex Sans";
-                    font-size: .9375rem;
-                    letter-spacing: -0.01625rem;
-                    line-height: 1.125rem;
-                    text-align: center;
-                    margin-left: auto;
-                    margin-right: auto;
-                    width: 80%;
-                }
-            }
-
-            .SectionLimaTengah {
-
-                .mc-field-group {
-                    display: flex;
-                    justify-content: center;
-
-                    input {
-                        color: #363636;
-                        font-family: "IBM Plex Sans";
-                        font-size: 16px;
-                        letter-spacing: -0.24px;
-                        line-height: 30px;
-                        text-align: center;
-
-                        margin: auto;
-                        display: block;
-                        border: none;
-                        border-top: none;
-                        border-left: none;
-                        border-right: none;
-                        border-bottom: 1px solid #E8D4CF;
-                        margin-left: 0;
-                        margin-right: 0;
-                        margin-top: 0;
-                        padding-bottom: 1rem;            
-                    }
-
-                    ::placeholder {
-                        height: 30px;
-                        width: 256px;
-                        color: #F05E36;
-                        font-family: "IBM Plex Sans";
-                        font-size: 16px;
-                        letter-spacing: -0.24px;
-                        line-height: 30px;
-                        text-align: center;
-                    }
-
-                    [placeholder] + span::after{
-                        content:"*";
-                        color: red;
-                    }
-
-                }
-
-                h6 {
-                    text-align: center;
-                    font-family: $ibmMedium;
-                    color: #002f39;
-                }
-
-                .mc_fieldset {
-                    display: flex;
-                    justify-content: center;
-                    margin-top: 1.3125rem;
-                    margin-bottom: 1.875rem;
-                    margin-left: -1.875rem;
-                    margin-right: -1.875rem;
-
-                    input {
-                        box-sizing: border-box;
-                        width: 10.85px;
-                        border: 2px solid #FFFFFF;
-                        margin-right: .5rem;
-                    }
-
-                    .text {
-                        color: #002F39;
-                        font-family: "IBM Plex Sans";
-                        font-size: 14px;
-                        letter-spacing: -0.21px;
-                        line-height: 18px;
-                    }
-
-                    a {
-                        margin-left: .3125rem;
-                        color: #002F39;
-                        font-family: "IBM Plex Sans";
-                        font-size: 14px;
-                        letter-spacing: -0.21px;
-                        line-height: 18px;
-                    }
-                }
-            }
-
-            .SectionLimaBawah {
-                margin-top: 1.875rem;
-
-                p {
-                    color: #F66E49;
-                    font-family: "IBM Plex Sans";
-                    font-size: 18px;
-                    letter-spacing: -0.26px;
-                    line-height: 24px;
-                    text-align: center;
-                }
-
-                .mc-field-group {
-                    margin-top: 2rem;
-                }
-
-                input {
-                    color: #363636;
-                    font-family: "IBM Plex Sans";
-                    font-size: 16px;
-                    letter-spacing: -0.24px;
-                    line-height: 30px;
-                    text-align: left;
-
-                    margin: auto;
-                    display: block;
-                    border: none;
-                    border-top: none;
-                    border-left: none;
-                    border-right: none;
-                    border-bottom: 1px solid #E8D4CF;
-                    margin-left: 0;
-                    margin-right: 0;
-                    margin-top: 0;
-                    padding-bottom: 1rem;            
-                }
-
-                ::placeholder {
-                    color: #363636;
-                    font-family: "IBM Plex Sans";
-                    font-size: 16px;
-                    letter-spacing: -0.24px;
-                    line-height: 30px;
-                    text-align: left;
-                }
-            }
-
-            .SectionLimaBawahDua {
-                padding: 1.5625rem;
-
-                button {
-                    margin-top: 1.5625rem;
-                    border: 1px solid #fff;
-                    border-radius: 24px;
-                    padding-top: .9375rem;
-                    padding-bottom: .9375rem;
-                    color: #FFFFFF;
-                    font-family: "IBM Plex Sans";
-                    font-size: 16px;
-                    font-weight: 500;
-                    letter-spacing: 0;
-                    line-height: 20px;
-                    background-color: #F05E36;
-                    width: 100%;
-                }
-            }
-        }
-    }
-
-    .Footer {
-        margin-top: 1.875rem;
-        background-color: #021925;
-
-        .container {
-            .footerHeader {
-               
-                img {
-                    margin-left: auto;
-                    margin-right: auto;
-                    display: block;
-                    padding-top: 2.9375rem;
-                    width: 11.625rem;
-                    padding-bottom: 3rem;
-                }
-            }
-
-            .foooterBody {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-
-                .footerBodyKiri {
-                    width: 100%;
-                    box-sizing: border-box;
-                    border-top : 1.5px solid #113D53;
-                    padding-top: 1.9375rem;
-                    border-bottom: 1.5px solid #113D53;
-
-                        li { 
-                            color: #FFFFFF;
-                            font-family: $ibmLight;
-                            font-size: 12px;
-                            font-weight: 500;
-                            letter-spacing: 0.5px;
-                            line-height: 15px;
-                            text-align: center;
-                            text-transform: uppercase;
-                            padding-bottom: 1.5rem;
-                            list-style: none;
-                        }
-                }
-
-                .footerBodyKanan {
-                    display: flex;
-                    flex-direction: row;
-                    margin-bottom: 3.6875rem;
-                    margin-top: 1.9375rem;
-                    width: 100%;
-                    justify-content: center;
-                    border: none;
-
-                    img {
-                        padding-right: 1rem;
-                    }
-
-                    h5 {
-                        display: inline-block;
-                        color: #FFFFFF;
-                        font-family: $ibmLight;
-                        font-size: 15px;
-                        letter-spacing: -0.22px;
-                        line-height: 19.5px;
-                    }
-
-                }
-
-            }
-        }
-    }
-}
-
-@media (min-width: 320px) and (max-width: 374.98px) {
-
     .navbar-nav {
         top: 0;
         left: 0;
@@ -805,6 +153,7 @@ $size1: 1.6rem;
                 .text {
                     margin-left: 0;
                     position: block;
+                    margin-top: 1.375rem;
                     
                     h1 {
                        height: auto;
@@ -847,27 +196,31 @@ $size1: 1.6rem;
             .sectionDuaKiri {
 
                 .wraperKiri-One {
-                    color: #0A2939;
-                    font-family: $ibmReguler;
-                    font-size: 1.125rem;
-                    font-weight: 300;
-                    letter-spacing: -0.01625rem;
-                    line-height: 1.75rem;
+                    h3 {
+                        color: #0A2939;
+                        font-family: "IBM Plex Sans";
+                        font-size: 18px;
+                        font-weight: 300;
+                        letter-spacing: -0.26px;
+                        line-height: 28px;
+                    }
                 }
 
 
                 .wraperKiri-Two {
                     p {
                         color: #0A2939;
-                        font-family: $ibmLight;
-                        font-size: .875rem;
+                        font-family: "IBM Plex Sans";
+                        font-size: 14px;
                         font-weight: 300;
-                        letter-spacing: -0.005625rem;
-                        line-height: 1.625rem;
+                        letter-spacing: -0.09px;
+                        line-height: 26px;
+                        margin-bottom: 1.375rem;
                     }
                 }
 
                 .wraperKiri-Three {
+                    margin-right: -1.5rem;
 
                     img {
                         width: 100%;
@@ -930,7 +283,7 @@ $size1: 1.6rem;
                 }
 
                 .wraperKanan-Two {
-                    margin-top: 1.25rem;
+                    
 
                     p {
                         color: #0A2939;
@@ -969,6 +322,7 @@ $size1: 1.6rem;
                     padding-left: 0;
                     padding-right: 0;
                     margin-top: 2.4375rem;
+                    padding-bottom: 0;
 
                     h1 {
                         color: #F05E36;
@@ -977,32 +331,46 @@ $size1: 1.6rem;
                         font-weight: 500;
                         letter-spacing: -0.29px;
                         line-height: 28px;
+                        margin-bottom: 1.25rem;
                     }
 
                     ul {
                         margin-left: 0;
                         padding-left: 0;
+                        margin-left: 1.5rem;
+                        
 
                         li {
                             color: #0A2939;
-                            font-family: $ibmLight;
-                            font-size: .875rem;
+                            font-family: "IBM Plex Sans";
+                            font-size: 14px;
                             font-weight: 300;
-                            letter-spacing: -0.00625rem;
-                            line-height: 1.875rem;
+                            letter-spacing: -0.09px;
+                            line-height: 26px;
                             list-style: none;
-                            width: 100%;
+                            display: flex;
                         }
 
-                        li:before {
-                            content: "-";
+                        .strip {
                             text-indent: -20px;
-                            color: #f05e36;
-                            font-size: 20px;
+                            color: $color3;
+                            font-size: 40px;
                             letter-spacing: -0.1px;
                             line-height: 30px;
                             margin-right: .625rem;
+                            display: inline-flex;
                         }
+        
+                        p {
+                            color: #0A2939;
+                            font-family: "IBM Plex Sans";
+                            font-size: 14px;
+                            font-weight: 300;
+                            letter-spacing: -0.09px;
+                            line-height: 26px;
+                            display: inline-flex;
+                        }
+
                     }
                 }
             }
@@ -1080,11 +448,83 @@ $size1: 1.6rem;
         .sectionEmpat {
 
             .sectionEmpatAtas {
-                display: none;
+                
+                h5 {
+                    margin-top: 3rem;
+                    color: #F05E36;
+                    font-family: "IBM Plex Sans";
+                    font-size: 20px;
+                    font-weight: 500;
+                    letter-spacing: -0.29px;
+                    line-height: 28px;
+                    margin-bottom: 1.25rem;
+                }
             }
 
             .sectionEmpatBawah {
-                display: none;
+                .sectionEmpatBawahKiri {
+                    ul {
+                        padding-left: 0;
+                        margin-bottom: 0;
+
+                        li {
+                            list-style: none;
+                            display: flex;
+                            
+                            .strip {
+                                display: inline-flex;
+                                color: #0A2939;
+                                font-size: 1.875rem;
+                                padding-right: .8125rem;
+                            }
+
+                            p {
+                                display: inline-flex;
+                                color: #0A2939;
+                                font-family: $butler;
+                                font-size: 28px;
+                                font-weight: 300;
+                                letter-spacing: 0;
+                                line-height: 34px;
+
+                                &:hover {
+                                    color: #F05E36;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .sectionEmpatBawahKanan {
+                    ul {
+                        padding-left: 0;
+                        li {
+                            list-style: none;
+                            display: flex;
+                            
+                            .strip {
+                                display: inline-flex;
+                                color: #0A2939;
+                                font-size: 1.875rem;
+                                padding-right: .8125rem;
+                            }
+
+                            p {
+                                display: inline-flex;
+                                color: #0A2939;
+                                font-family: $butler;
+                                font-size: 28px;
+                                font-weight: 300;
+                                letter-spacing: 0;
+                                line-height: 34px;
+
+                                &:hover {
+                                    color: #F05E36;
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
 
@@ -1337,6 +777,779 @@ $size1: 1.6rem;
                     padding-top: 1.9375rem;
                     border-bottom: 1.5px solid #113D53;
 
+                    .footerBodyKiriOne {
+                        padding-right: 0 !important;
+                        margin-right: 0 !important;
+                    }
+
+                        li { 
+                            color: #FFFFFF;
+                            font-family: $ibmLight;
+                            font-size: 12px;
+                            font-weight: 500;
+                            letter-spacing: 0.5px;
+                            line-height: 15px;
+                            text-align: center;
+                            text-transform: uppercase;
+                            padding-bottom: 1.5rem;
+                            list-style: none;
+                        }
+                }
+
+                .footerBodyKanan {
+                    display: flex;
+                    flex-direction: row;
+                    margin-bottom: 3.6875rem;
+                    margin-top: 1.9375rem;
+                    width: 100%;
+                    justify-content: center;
+                    border: none;
+
+                    img {
+                        padding-right: 1rem;
+                    }
+
+                    h5 {
+                        display: inline-block;
+                        color: #FFFFFF;
+                        font-family: $ibmLight;
+                        font-size: 15px;
+                        letter-spacing: -0.22px;
+                        line-height: 19.5px;
+                    }
+
+                }
+
+            }
+        }
+    }
+   
+}
+
+@media (min-width: 320px) and (max-width: 374.98px) {
+
+    .navbar-nav {
+        top: 0;
+        left: 0;
+        position: fixed;
+        background-color: #021925;
+        height: 100%;
+        display: inline-block;
+        width: 90%;
+        padding: 1.5rem;
+        color: white;
+            li {
+                .nav-link {
+                    font-family: $ibmSemiBold;
+                    font-size: 18px;
+                    color: $color1;
+                    line-height: 23px;
+                    margin-bottom: 24px;
+
+                    &:hover {
+                        color:orange;
+                    }
+                }
+
+                .nav-link.contact {
+                    margin-bottom: 50px;
+                }
+
+                ul.dash {
+                    list-style-type: none;
+                    margin-top: 30px;
+                    padding-left: 10px;
+
+                    li {
+                        font-family: $ibmReguler;
+                        font-size: 14px;
+                        color: $color1;
+                        line-height: 18px;
+                        margin-bottom: 24px;
+                        text-indent: -5px;
+                        
+                    }
+                    li.first {
+                        color: $color3;
+                    }
+                    li:before {
+                        content: "-";
+                        text-indent: -5px;
+                        margin-right: 13px;
+                        color: $color3;
+                    }
+                }
+            }
+
+            #listhide {
+                border-top: 1.5px solid #113d53;
+            }
+    }
+
+    .navbar-light {
+        .navbar-toggler {
+            border: none;
+        }
+    }
+
+    .container {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100%;
+       
+        .navbar {
+            display: flex;
+            flex-direction: row-reverse;
+            margin-left: -1.5rem;
+            margin-right: -1.5rem;
+            border-bottom: 1px solid #e3e3e3;
+            padding-bottom: 20px;
+
+            .line {
+                display: none;
+            }
+        }
+
+        .sectionSatu {
+            margin-top: 0;
+            flex-direction: column;
+            display: flex;
+
+            .sectionSatuKiri {
+                background-color: transparent;
+
+                .text {
+                    margin-left: 0;
+                    position: block;
+                    margin-top: 1.375rem;
+                    
+                    h1 {
+                       height: auto;
+                       color: #F05E36;
+                       font-family: $butler;
+                       font-size: 2.625rem;
+                       letter-spacing: -0.03875rem;
+                       line-height: 2.375rem;
+                    }
+
+                    h5 {
+                        margin-top: .75rem;
+                        color: #021925;
+                        font-family: $minionItalic;
+                        font-size: 1.125rem;
+                        font-style: italic;
+                        letter-spacing: .00625rem;
+                        line-height: 1.125rem;
+                    }
+                }
+            }
+
+            .sectionSatuKanan {
+                position: block;
+                margin-left: 0;
+                margin-top: 1.625rem;
+
+                img {
+                    height: 12rem;
+                    width: 100%;
+                }
+            }
+        }
+
+        .sectionDua {
+            margin-top: 2.0625rem;
+            flex-direction: column;
+            display: flex;
+
+            .sectionDuaKiri {
+
+                .wraperKiri-One {
+                    h3 {
+                        color: #0A2939;
+                        font-family: "IBM Plex Sans";
+                        font-size: 18px;
+                        font-weight: 300;
+                        letter-spacing: -0.26px;
+                        line-height: 28px;
+                    }
+                }
+
+
+                .wraperKiri-Two {
+                    p {
+                        color: #0A2939;
+                        font-family: "IBM Plex Sans";
+                        font-size: 14px;
+                        font-weight: 300;
+                        letter-spacing: -0.09px;
+                        line-height: 26px;
+                        margin-bottom: 1.375rem;
+                    }
+                }
+
+                .wraperKiri-Three {
+                    margin-right: -1.5rem;
+
+                    img {
+                        width: 100%;
+                        margin-left: -1.5rem;
+                    }
+                }
+
+                .wraperKiri-Four {
+                    margin-top: 2rem;
+                    background-color: #0A2939;
+                    padding: 2rem;
+
+                    h3 {
+                        color: #F05E36;
+                        font-family: Butler;
+                        font-size: 32px;
+                        font-weight: 300;
+                        letter-spacing: -0.47px;
+                        line-height: 36px;
+                    }
+
+                    p {
+                        color: #FFFFFF;
+                        font-family: "IBM Plex Sans";
+                        font-size: 18px;
+                        font-weight: 300;
+                        letter-spacing: -0.11px;
+                        line-height: 28px;
+                    }
+                }
+
+            }
+
+            .sectionDuaKanan {
+                margin-top: 1.4375rem;
+
+                .wraperKanan-One {
+                    display: none;
+
+                    p {
+                        color: #0A2939;
+                        font-family: $ibmLight;
+                        font-size: .875rem;
+                        font-weight: 300;
+                        letter-spacing: -0.005625rem;
+                        line-height: 1.625rem;
+                    }
+
+                    ul {
+                        list-style: square;
+                        li {
+                            color: #FFFFFF;
+                            font-family: $butler;
+                            font-size: 1.5rem;
+                            font-weight: 300;
+                            letter-spacing: -0.036875rem;
+                            line-height: 3.125rem;
+                        }
+                    }
+                }
+
+                .wraperKanan-Two {
+                    
+
+                    p {
+                        color: #0A2939;
+                        font-family: $ibmLight;
+                        font-size: .875rem;
+                        font-weight: 300;
+                        letter-spacing: -0.005625rem;
+                        line-height: 1.625rem;
+                    }
+                }
+
+                .wraperKanan-Three {
+                    h3 {
+                        color: #F05E36;
+                        font-family: "IBM Plex Sans";
+                        font-size: 20px;
+                        font-weight: 500;
+                        letter-spacing: -0.29px;
+                        line-height: 28px;
+                        margin-top: 2.125rem;
+                    }
+
+                    p {
+                        margin-top: 1.25rem;
+                        color: #0A2939;
+                        font-family: $ibmLight;
+                        font-size: .875rem;
+                        font-weight: 300;
+                        letter-spacing: -0.005625rem;
+                        line-height: 1.625rem;
+                    }
+                }
+
+                .wraperKanan-Four {
+                    padding: 1.5rem;
+                    padding-left: 0;
+                    padding-right: 0;
+                    margin-top: 2.4375rem;
+                    padding-bottom: 0;
+
+                    h1 {
+                        color: #F05E36;
+                        font-family: "IBM Plex Sans";
+                        font-size: 20px;
+                        font-weight: 500;
+                        letter-spacing: -0.29px;
+                        line-height: 28px;
+                        margin-bottom: 1.25rem;
+                    }
+
+                    ul {
+                        margin-left: 0;
+                        padding-left: 0;
+                        margin-left: 1.5rem;
+                        
+
+                        li {
+                            color: #0A2939;
+                            font-family: "IBM Plex Sans";
+                            font-size: 14px;
+                            font-weight: 300;
+                            letter-spacing: -0.09px;
+                            line-height: 26px;
+                            list-style: none;
+                            display: flex;
+                        }
+
+                        .strip {
+                            text-indent: -20px;
+                            color: $color3;
+                            font-size: 40px;
+                            letter-spacing: -0.1px;
+                            line-height: 30px;
+                            margin-right: .625rem;
+                            display: inline-flex;
+                        }
+        
+                        p {
+                            color: #0A2939;
+                            font-family: "IBM Plex Sans";
+                            font-size: 14px;
+                            font-weight: 300;
+                            letter-spacing: -0.09px;
+                            line-height: 26px;
+                            display: inline-flex;
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .sectionTiga {
+            margin-top: 1.875rem;
+
+            .sectionTigaAtas {
+                h1 {
+                    margin: 1.5rem;
+                    margin-left: 0;
+                    margin-left: 0;
+                    color: #021925;
+                    font-family: Butler;
+                    font-size: 34px;
+                    letter-spacing: -0.5px;
+                    line-height: 38px;
+                }
+            }
+
+            .sectionTigaBawah {
+                img {
+                    height: 50%;
+                    width: 100%;
+                    margin-top: 1rem;
+                }
+
+                .imgHide {
+                    
+                }
+
+                .cardSlider {
+                    opacity: 0.9;
+                    background-color: #F05E36;
+                    padding: 1.5rem;
+                    margin-top: 1rem;
+
+                    h2 {
+                        color: #0A2939;
+                        font-family: Butler;
+                        font-size: 28px;
+                        letter-spacing: 0;
+                        line-height: 34px;
+                    }
+
+                    a {
+                        color: #FFFFFF;
+                        font-family: "IBM Plex Sans";
+                        font-size: 14px;
+                        letter-spacing: -0.09px;
+                        line-height: 24px;  
+                        text-decoration: none;               
+                    }
+
+                    p a {
+                        padding: 0;
+                    }
+
+                    .link {
+                        margin-bottom: -0.625rem;
+                    }
+
+                    p {
+                        color: white;
+                        font-family: "IBM Plex Sans";
+                        font-size: .875rem;
+                        letter-spacing: 0;
+                        line-height: 2.125rem;
+                    }
+                }
+            }
+        }
+
+        .sectionEmpat {
+
+            .sectionEmpatAtas {
+                
+                h5 {
+                    margin-top: 3rem;
+                    color: #F05E36;
+                    font-family: "IBM Plex Sans";
+                    font-size: 20px;
+                    font-weight: 500;
+                    letter-spacing: -0.29px;
+                    line-height: 28px;
+                    margin-bottom: 1.25rem;
+                }
+            }
+
+            .sectionEmpatBawah {
+                .sectionEmpatBawahKiri {
+                    ul {
+                        padding-left: 0;
+                        margin-bottom: 0;
+
+                        li {
+                            list-style: none;
+                            display: flex;
+                            
+                            .strip {
+                                display: inline-flex;
+                                color: #0A2939;
+                                font-size: 1.875rem;
+                                padding-right: .8125rem;
+                            }
+
+                            p {
+                                display: inline-flex;
+                                color: #0A2939;
+                                font-family: $butler;
+                                font-size: 28px;
+                                font-weight: 300;
+                                letter-spacing: 0;
+                                line-height: 34px;
+
+                                &:hover {
+                                    color: #F05E36;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .sectionEmpatBawahKanan {
+                    ul {
+                        padding-left: 0;
+                        li {
+                            list-style: none;
+                            display: flex;
+                            
+                            .strip {
+                                display: inline-flex;
+                                color: #0A2939;
+                                font-size: 1.875rem;
+                                padding-right: .8125rem;
+                            }
+
+                            p {
+                                display: inline-flex;
+                                color: #0A2939;
+                                font-family: $butler;
+                                font-size: 28px;
+                                font-weight: 300;
+                                letter-spacing: 0;
+                                line-height: 34px;
+
+                                &:hover {
+                                    color: #F05E36;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .sectionLima {
+            margin-top: 1.875rem;
+            border: 4px solid rgba(246, 110, 73, 0.15);
+
+            .sectionLimaBody {
+                
+                .logo {
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 1.25rem;
+                    padding-left: 3.75rem;
+                    padding-right: 3.75rem;
+                    padding-bottom: 2.3125rem;
+
+                    img {
+                        width: 11.625rem;
+                    }
+                }
+
+                .title {
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 1.5625rem;
+                }
+
+                h2 {
+                    color: #002F39;
+                    font-family: $minionBold;
+                    font-size: 1.1875rem;
+                    font-weight: bold;
+                    letter-spacing: 8px;
+                    line-height: 24px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    margin-bottom: 1rem;
+                }
+
+                p {
+                    margin-top: 1rem;
+                    width: 256px;
+                    color: #F66E49;
+                    font-family: $ibmLight;
+                    font-size: 1.0625rem;
+                    letter-spacing: -0.26px;
+                    line-height: 24px;
+                    text-align: center;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                }
+            }
+
+            .SectionLimaTengah {
+
+                .mc-field-group {
+                    display: flex;
+                    justify-content: center;
+
+                    input {
+                        color: #363636;
+                        font-family: "IBM Plex Sans";
+                        font-size: 16px;
+                        letter-spacing: -0.24px;
+                        line-height: 30px;
+                        text-align: center;
+
+                        margin: auto;
+                        display: block;
+                        border: none;
+                        border-top: none;
+                        border-left: none;
+                        border-right: none;
+                        border-bottom: 1px solid #E8D4CF;
+                        margin-left: 0;
+                        margin-right: 0;
+                        margin-top: 0;
+                        padding-bottom: 1rem;            
+                    }
+
+                    ::placeholder {
+                        height: 30px;
+                        width: 256px;
+                        color: #F05E36;
+                        font-family: "IBM Plex Sans";
+                        font-size: 16px;
+                        letter-spacing: -0.24px;
+                        line-height: 30px;
+                        text-align: center;
+                    }
+
+                    [placeholder] + span::after{
+                        content:"*";
+                        color: red;
+                    }
+
+                    // input[type=email]+span::before{
+                    //     content:" *";
+                    //     color: red;
+                    //     display: inline;
+                    //     margin-left: -20px;
+                    //  }
+                }
+
+                h6 {
+                    text-align: center;
+                    font-family: $ibmMedium;
+                    color: #002f39;
+                }
+
+                .mc_fieldset {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 1.3125rem;
+                    margin-bottom: 1.875rem;
+
+                    input {
+                        box-sizing: border-box;
+                        width: 10.85px;
+                        border: 2px solid #FFFFFF;
+                        margin-right: .5rem;
+                    }
+
+                    .text {
+                        color: #002F39;
+                        font-family: "IBM Plex Sans";
+                        font-size: 14px;
+                        letter-spacing: -0.21px;
+                        line-height: 18px;
+                        margin-right: .3125rem;
+                    }
+
+                    a {
+                        color: #002F39;
+                        font-family: "IBM Plex Sans";
+                        font-size: 14px;
+                        letter-spacing: -0.21px;
+                        line-height: 18px;
+                    }
+                }
+            }
+
+            .SectionLimaBawah {
+                margin-top: 1.875rem;
+
+                p {
+                    height: 48px;
+                    width: 100%;
+                    color: #F66E49;
+                    font-family: "IBM Plex Sans";
+                    font-size: 18px;
+                    letter-spacing: -0.26px;
+                    line-height: 24px;
+                    text-align: center;
+                }
+
+                .mc-field-group {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 2rem;
+                }
+
+                input {
+                    color: #363636;
+                    font-family: "IBM Plex Sans";
+                    font-size: 16px;
+                    letter-spacing: -0.24px;
+                    line-height: 30px;
+                    text-align: left;
+                    margin: auto;
+                        margin-top: auto;
+                        margin-right: auto;
+                        margin-left: auto;
+                    display: block;
+                    border: none;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px solid #E8D4CF;
+                    margin-left: 0;
+                    margin-right: 0;
+                    margin-top: 0;
+                    padding-bottom: 1rem;
+                    width: 90%;
+                }
+
+                ::placeholder {
+                    color: #363636;
+                    font-family: "IBM Plex Sans";
+                    font-size: 16px;
+                    letter-spacing: -0.24px;
+                    line-height: 30px;
+                    text-align: left;
+                    width: 100%;
+                }
+
+
+            }
+
+            .SectionLimaBawahDua {
+                padding: 1.5625rem;
+
+                button {
+                    margin-top: 2rem;
+                    border: 1px solid #fff;
+                    border-radius: 24px;
+                    padding-top: .9375rem;
+                    padding-bottom: .9375rem;
+                    color: #FFFFFF;
+                    font-family: "IBM Plex Sans";
+                    font-size: 16px;
+                    font-weight: 500;
+                    letter-spacing: 0;
+                    line-height: 20px;
+                    background-color: #F05E36;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .Footer {
+        margin-top: 1.875rem;
+        background-color: #021925;
+
+        .container {
+            .footerHeader {
+               
+                img {
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: block;
+                    padding-top: 2.9375rem;
+                    width: 11.625rem;
+                    padding-bottom: 3rem;
+                }
+            }
+
+            .foooterBody {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .footerBodyKiri {
+                    width: 100%;
+                    box-sizing: border-box;
+                    border-top : 1.5px solid #113D53;
+                    padding-top: 1.9375rem;
+                    border-bottom: 1.5px solid #113D53;
+
+                    .footerBodyKiriOne {
+                        padding-right: 0 !important;
+                        margin-right: 0 !important;
+                    }
+
                         li { 
                             color: #FFFFFF;
                             font-family: $ibmLight;
@@ -1383,6 +1596,70 @@ $size1: 1.6rem;
 
 @media (min-width: 375px) and (max-width: 574.98px) {
     
+    .navbar-nav {
+        top: 0;
+        left: 0;
+        position: fixed;
+        background-color: #021925;
+        height: 100%;
+        display: inline-block;
+        width: 90%;
+        padding: 1.5rem;
+        color: white;
+            li {
+                .nav-link {
+                    font-family: $ibmSemiBold;
+                    font-size: 18px;
+                    color: $color1;
+                    line-height: 23px;
+                    margin-bottom: 24px;
+
+                    &:hover {
+                        color:orange;
+                    }
+                }
+
+                .nav-link.contact {
+                    margin-bottom: 50px;
+                }
+
+                ul.dash {
+                    list-style-type: none;
+                    margin-top: 30px;
+                    padding-left: 10px;
+
+                    li {
+                        font-family: $ibmReguler;
+                        font-size: 14px;
+                        color: $color1;
+                        line-height: 18px;
+                        margin-bottom: 24px;
+                        text-indent: -5px;
+                        
+                    }
+                    li.first {
+                        color: $color3;
+                    }
+                    li:before {
+                        content: "-";
+                        text-indent: -5px;
+                        margin-right: 13px;
+                        color: $color3;
+                    }
+                }
+            }
+
+            #listhide {
+                border-top: 1.5px solid #113d53;
+            }
+    }
+
+    .navbar-light {
+        .navbar-toggler {
+            border: none;
+        }
+    }
+
     .container {
         margin-left: 0;
         margin-right: 0;
@@ -1399,71 +1676,6 @@ $size1: 1.6rem;
             .line {
                 display: none;
             }
-
-        }
-
-        .navbar-light {
-            .navbar-toggler {
-                border: none;
-            }
-        }
-
-        .navbar-nav {
-            top: 0;
-            left: 0;
-            position: fixed;
-            background-color: #021925;
-            height: 100%;
-            display: inline-block;
-            width: 90%;
-            padding: 1.5rem;
-            color: white;
-                li {
-                    .nav-link {
-                        font-family: $ibmSemiBold;
-                        font-size: 18px;
-                        color: $color1;
-                        line-height: 23px;
-                        margin-bottom: 24px;
-
-                        &:hover {
-                            color:orange;
-                        }
-                    }
-
-                    .nav-link.contact {
-                        margin-bottom: 50px;
-                    }
-
-                    ul.dash {
-                        list-style-type: none;
-                        margin-top: 30px;
-                        padding-left: 10px;
-
-                        li {
-                            font-family: $ibmReguler;
-                            font-size: 14px;
-                            color: $color1;
-                            line-height: 18px;
-                            margin-bottom: 24px;
-                            text-indent: -5px;
-                            
-                        }
-                        li.first {
-                            color: $color3;
-                        }
-                        li:before {
-                            content: "-";
-                            text-indent: -5px;
-                            margin-right: 13px;
-                            color: $color3;
-                        }
-                    }
-                }
-
-                #listhide {
-                    border-top: 1.5px solid #113d53;
-                }
         }
 
         .sectionSatu {
@@ -1477,6 +1689,7 @@ $size1: 1.6rem;
                 .text {
                     margin-left: 0;
                     position: block;
+                    margin-top: 1.375rem;
                     
                     h1 {
                        height: auto;
@@ -1506,6 +1719,7 @@ $size1: 1.6rem;
 
                 img {
                     height: 12rem;
+                    width: 100%;
                 }
             }
         }
@@ -1518,28 +1732,34 @@ $size1: 1.6rem;
             .sectionDuaKiri {
 
                 .wraperKiri-One {
-                    color: #0A2939;
-                    font-family: $ibmReguler;
-                    font-size: 1.125rem;
-                    font-weight: 300;
-                    letter-spacing: -0.01625rem;
-                    line-height: 1.75rem;
+                    h3 {
+                        color: #0A2939;
+                        font-family: "IBM Plex Sans";
+                        font-size: 18px;
+                        font-weight: 300;
+                        letter-spacing: -0.26px;
+                        line-height: 28px;
+                    }
                 }
 
 
                 .wraperKiri-Two {
                     p {
                         color: #0A2939;
-                        font-family: $ibmLight;
-                        font-size: .875rem;
+                        font-family: "IBM Plex Sans";
+                        font-size: 14px;
                         font-weight: 300;
-                        letter-spacing: -0.005625rem;
-                        line-height: 1.625rem;
+                        letter-spacing: -0.09px;
+                        line-height: 26px;
+                        margin-bottom: 1.375rem;
                     }
                 }
 
                 .wraperKiri-Three {
+                    margin-right: -1.5rem;
+
                     img {
+                        width: 100%;
                         margin-left: -1.5rem;
                     }
                 }
@@ -1574,7 +1794,7 @@ $size1: 1.6rem;
                 margin-top: 1.4375rem;
 
                 .wraperKanan-One {
-                   display: none;
+                    display: none;
 
                     p {
                         color: #0A2939;
@@ -1590,7 +1810,7 @@ $size1: 1.6rem;
                         li {
                             color: #FFFFFF;
                             font-family: $butler;
-                            font-size: 1.25rem;
+                            font-size: 1.5rem;
                             font-weight: 300;
                             letter-spacing: -0.036875rem;
                             line-height: 3.125rem;
@@ -1599,7 +1819,7 @@ $size1: 1.6rem;
                 }
 
                 .wraperKanan-Two {
-                    margin-top: 1.25rem;
+                    
 
                     p {
                         color: #0A2939;
@@ -1634,7 +1854,11 @@ $size1: 1.6rem;
                 }
 
                 .wraperKanan-Four {
-                    margin-top: 1.875rem;
+                    padding: 1.5rem;
+                    padding-left: 0;
+                    padding-right: 0;
+                    margin-top: 2.4375rem;
+                    padding-bottom: 0;
 
                     h1 {
                         color: #F05E36;
@@ -1643,31 +1867,46 @@ $size1: 1.6rem;
                         font-weight: 500;
                         letter-spacing: -0.29px;
                         line-height: 28px;
+                        margin-bottom: 1.25rem;
                     }
 
                     ul {
-                        padding-left: 0px;
+                        margin-left: 0;
+                        padding-left: 0;
+                        margin-left: 1.5rem;
+                        
+
                         li {
-                            margin-left: .75rem;
                             color: #0A2939;
-                            font-family: $ibmLight;
-                            font-size: 0.875rem;
+                            font-family: "IBM Plex Sans";
+                            font-size: 14px;
                             font-weight: 300;
-                            letter-spacing: -0.00625rem;
-                            line-height: 1.875rem;
+                            letter-spacing: -0.09px;
+                            line-height: 26px;
                             list-style: none;
-                            padding-left: 0;
-                            margin-left: 0;
+                            display: flex;
                         }
 
-                        li::before {
-                            content: "-";
+                        .strip {
                             text-indent: -20px;
-                            color: #f05e36;
+                            color: $color3;
+                            font-size: 40px;
                             letter-spacing: -0.1px;
                             line-height: 30px;
-                            margin-right: 0.625rem;
+                            margin-right: .625rem;
+                            display: inline-flex;
                         }
+        
+                        p {
+                            color: #0A2939;
+                            font-family: "IBM Plex Sans";
+                            font-size: 14px;
+                            font-weight: 300;
+                            letter-spacing: -0.09px;
+                            line-height: 26px;
+                            display: inline-flex;
+                        }
+
                     }
                 }
             }
@@ -1679,6 +1918,7 @@ $size1: 1.6rem;
             .sectionTigaAtas {
                 h1 {
                     margin: 1.5rem;
+                    margin-left: 0;
                     margin-left: 0;
                     color: #021925;
                     font-family: Butler;
@@ -1692,17 +1932,18 @@ $size1: 1.6rem;
                 img {
                     height: 50%;
                     width: 100%;
+                    margin-top: 1rem;
                 }
 
                 .imgHide {
-                   margin-top: 1rem;
+                    
                 }
 
                 .cardSlider {
-                    margin-top: 1rem;
                     opacity: 0.9;
                     background-color: #F05E36;
                     padding: 1.5rem;
+                    margin-top: 1rem;
 
                     h2 {
                         color: #0A2939;
@@ -1717,8 +1958,8 @@ $size1: 1.6rem;
                         font-family: "IBM Plex Sans";
                         font-size: 14px;
                         letter-spacing: -0.09px;
-                        line-height: 24px;
-                        text-decoration: none;                    
+                        line-height: 24px;  
+                        text-decoration: none;               
                     }
 
                     p a {
@@ -1743,11 +1984,83 @@ $size1: 1.6rem;
         .sectionEmpat {
 
             .sectionEmpatAtas {
-                display: none;
+                
+                h5 {
+                    margin-top: 3rem;
+                    color: #F05E36;
+                    font-family: "IBM Plex Sans";
+                    font-size: 20px;
+                    font-weight: 500;
+                    letter-spacing: -0.29px;
+                    line-height: 28px;
+                    margin-bottom: 1.25rem;
+                }
             }
 
             .sectionEmpatBawah {
-                display: none;
+                .sectionEmpatBawahKiri {
+                    ul {
+                        padding-left: 0;
+                        margin-bottom: 0;
+
+                        li {
+                            list-style: none;
+                            display: flex;
+                            
+                            .strip {
+                                display: inline-flex;
+                                color: #0A2939;
+                                font-size: 1.875rem;
+                                padding-right: .8125rem;
+                            }
+
+                            p {
+                                display: inline-flex;
+                                color: #0A2939;
+                                font-family: $butler;
+                                font-size: 28px;
+                                font-weight: 300;
+                                letter-spacing: 0;
+                                line-height: 34px;
+
+                                &:hover {
+                                    color: #F05E36;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .sectionEmpatBawahKanan {
+                    ul {
+                        padding-left: 0;
+                        li {
+                            list-style: none;
+                            display: flex;
+                            
+                            .strip {
+                                display: inline-flex;
+                                color: #0A2939;
+                                font-size: 1.875rem;
+                                padding-right: .8125rem;
+                            }
+
+                            p {
+                                display: inline-flex;
+                                color: #0A2939;
+                                font-family: $butler;
+                                font-size: 28px;
+                                font-weight: 300;
+                                letter-spacing: 0;
+                                line-height: 34px;
+
+                                &:hover {
+                                    color: #F05E36;
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
 
@@ -1757,7 +2070,6 @@ $size1: 1.6rem;
 
             .sectionLimaBody {
                 
-
                 .logo {
                     display: flex;
                     justify-content: center;
@@ -1774,12 +2086,13 @@ $size1: 1.6rem;
                 .title {
                     display: flex;
                     justify-content: center;
+                    margin-bottom: 1.5625rem;
                 }
 
                 h2 {
                     color: #002F39;
-                    font-family: "Minion-Bold";
-                    font-size: 22px;
+                    font-family: $minionBold;
+                    font-size: 1.1875rem;
                     font-weight: bold;
                     letter-spacing: 8px;
                     line-height: 24px;
@@ -1792,8 +2105,8 @@ $size1: 1.6rem;
                     margin-top: 1rem;
                     width: 256px;
                     color: #F66E49;
-                    font-family: "IBMPlexSans-Light";
-                    font-size: 18px;
+                    font-family: $ibmLight;
+                    font-size: 1.0625rem;
                     letter-spacing: -0.26px;
                     line-height: 24px;
                     text-align: center;
@@ -1806,36 +2119,39 @@ $size1: 1.6rem;
 
                 .mc-field-group {
                     display: flex;
-                    align-items: center;
                     justify-content: center;
 
                     input {
-                    color: #363636;
-                    font-family: "IBM Plex Sans";
-                    font-size: 16px;
-                    letter-spacing: -0.24px;
-                    line-height: 30px;
-                    text-align: center;
-                    margin: auto;
-                     margin-top: auto;
-                    margin-top: auto;
-                    display: block;
-                    border: none;
-                    border-top: none;
-                    border-left: none;
-                    border-right: none;
-                    border-bottom: 1px solid #E8D4CF;
-                    margin-top: 35px;
-                    padding-bottom: 1rem;
+                        color: #363636;
+                        font-family: "IBM Plex Sans";
+                        font-size: 16px;
+                        letter-spacing: -0.24px;
+                        line-height: 30px;
+                        text-align: center;
 
-                    
-                    }
-
-                    .email {
-                        padding: 0.5rem;
-                        width: 80%;
+                        margin: auto;
+                        display: block;
+                        border: none;
+                        border-top: none;
+                        border-left: none;
+                        border-right: none;
+                        border-bottom: 1px solid #E8D4CF;
                         margin-left: 0;
                         margin-right: 0;
+                        margin-top: 0;
+                        padding-bottom: 1rem;  
+                        width: 80%;          
+                    }
+
+                    ::placeholder {
+                        height: 30px;
+                        width: 256px;
+                        color: #F05E36;
+                        font-family: "IBM Plex Sans";
+                        font-size: 16px;
+                        letter-spacing: -0.24px;
+                        line-height: 30px;
+                        text-align: center;
                     }
 
                     [placeholder] + span::after{
@@ -1843,12 +2159,17 @@ $size1: 1.6rem;
                         color: red;
                     }
 
+                    // input[type=email]+span::before{
+                    //     content:" *";
+                    //     color: red;
+                    //     display: inline;
+                    //     margin-left: -20px;
+                    //  }
                 }
 
                 h6 {
                     text-align: center;
-                    text-align: center;
-                    font-family: "IBMPlexSans-Medium";
+                    font-family: $ibmMedium;
                     color: #002f39;
                 }
 
@@ -1871,6 +2192,7 @@ $size1: 1.6rem;
                         font-size: 14px;
                         letter-spacing: -0.21px;
                         line-height: 18px;
+                        margin-right: .3125rem;
                     }
 
                     a {
@@ -1879,7 +2201,6 @@ $size1: 1.6rem;
                         font-size: 14px;
                         letter-spacing: -0.21px;
                         line-height: 18px;
-                        padding-left: .3125rem;
                     }
                 }
             }
@@ -1888,7 +2209,9 @@ $size1: 1.6rem;
                 margin-top: 1.875rem;
 
                 p {
+                    height: 48px;
                     width: 100%;
+                    color: #F66E49;
                     font-family: "IBM Plex Sans";
                     font-size: 18px;
                     letter-spacing: -0.26px;
@@ -1923,7 +2246,7 @@ $size1: 1.6rem;
                     margin-right: 0;
                     margin-top: 0;
                     padding-bottom: 1rem;
-                    width: 90%;
+                    width: 80%;
                 }
 
                 ::placeholder {
@@ -1990,6 +2313,11 @@ $size1: 1.6rem;
                     border-top : 1.5px solid #113D53;
                     padding-top: 1.9375rem;
                     border-bottom: 1.5px solid #113D53;
+
+                    .footerBodyKiriOne {
+                        padding-right: 0 !important;
+                        margin-right: 0 !important;
+                    }
 
                         li { 
                             color: #FFFFFF;
@@ -2032,9 +2360,74 @@ $size1: 1.6rem;
             }
         }
     }
+   
 }
 
 @media (min-width: 575px) and (max-width: 991.98px) {
+
+    .navbar-nav {
+        top: 0;
+        left: 0;
+        position: fixed;
+        background-color: #021925;
+        height: 100%;
+        display: inline-block;
+        width: 90%;
+        padding: 1.5rem;
+        color: white;
+            li {
+                .nav-link {
+                    font-family: $ibmSemiBold;
+                    font-size: 18px;
+                    color: $color1;
+                    line-height: 23px;
+                    margin-bottom: 24px;
+
+                    &:hover {
+                        color:orange;
+                    }
+                }
+
+                .nav-link.contact {
+                    margin-bottom: 50px;
+                }
+
+                ul.dash {
+                    list-style-type: none;
+                    margin-top: 30px;
+                    padding-left: 10px;
+
+                    li {
+                        font-family: $ibmReguler;
+                        font-size: 14px;
+                        color: $color1;
+                        line-height: 18px;
+                        margin-bottom: 24px;
+                        text-indent: -5px;
+                        
+                    }
+                    li.first {
+                        color: $color3;
+                    }
+                    li:before {
+                        content: "-";
+                        text-indent: -5px;
+                        margin-right: 13px;
+                        color: $color3;
+                    }
+                }
+            }
+
+            #listhide {
+                border-top: 1.5px solid #113d53;
+            }
+    }
+
+    .navbar-light {
+        .navbar-toggler {
+            border: none;
+        }
+    }
 
     .container {
         margin-left: 0;
@@ -2047,77 +2440,11 @@ $size1: 1.6rem;
             margin-left: -1.5rem;
             margin-right: -1.5rem;
             border-bottom: 1px solid #e3e3e3;
-            margin-bottom: 20px;
             padding-bottom: 20px;
 
             .line {
                 display: none;
             }
-    
-        }
-
-        .navbar-light {
-            .navbar-toggler {
-                border: none;
-            }
-        }
-
-        .navbar-nav {
-            top: 0;
-            left: 0;
-            position: fixed;
-            background-color: #021925;
-            height: 100%;
-            display: inline-block;
-            width: 90%;
-            padding: 1.5rem;
-            color: white;
-                li {
-                    .nav-link {
-                        font-family: $ibmSemiBold;
-                        font-size: 18px;
-                        color: $color1;
-                        line-height: 23px;
-                        margin-bottom: 24px;
-
-                        &:hover {
-                            color:orange;
-                        }
-                    }
-
-                    .nav-link.contact {
-                        margin-bottom: 50px;
-                    }
-
-                    ul.dash {
-                        list-style-type: none;
-                        margin-top: 30px;
-                        padding-left: 10px;
-
-                        li {
-                            font-family: $ibmReguler;
-                            font-size: 14px;
-                            color: $color1;
-                            line-height: 18px;
-                            margin-bottom: 24px;
-                            text-indent: -5px;
-                            
-                        }
-                        li.first {
-                            color: $color3;
-                        }
-                        li:before {
-                            content: "-";
-                            text-indent: -5px;
-                            margin-right: 13px;
-                            color: $color3;
-                        }
-                    }
-                }
-
-                #listhide {
-                    border-top: 1.5px solid #113d53;
-                }
         }
 
         .sectionSatu {
@@ -2131,6 +2458,7 @@ $size1: 1.6rem;
                 .text {
                     margin-left: 0;
                     position: block;
+                    margin-top: 1.375rem;
                     
                     h1 {
                        height: auto;
@@ -2173,35 +2501,40 @@ $size1: 1.6rem;
             .sectionDuaKiri {
 
                 .wraperKiri-One {
-                    color: #0A2939;
-                    font-family: $ibmReguler;
-                    font-size: 1.125rem;
-                    font-weight: 300;
-                    letter-spacing: -0.01625rem;
-                    line-height: 1.75rem;
+                    h3 {
+                        color: #0A2939;
+                        font-family: "IBM Plex Sans";
+                        font-size: 18px;
+                        font-weight: 300;
+                        letter-spacing: -0.26px;
+                        line-height: 28px;
+                    }
                 }
 
 
                 .wraperKiri-Two {
                     p {
                         color: #0A2939;
-                        font-family: $ibmLight;
-                        font-size: .875rem;
+                        font-family: "IBM Plex Sans";
+                        font-size: 14px;
                         font-weight: 300;
-                        letter-spacing: -0.005625rem;
-                        line-height: 1.625rem;
+                        letter-spacing: -0.09px;
+                        line-height: 26px;
+                        margin-bottom: 1.375rem;
                     }
                 }
 
                 .wraperKiri-Three {
+                    margin-right: -1.5rem;
 
                     img {
                         width: 100%;
+                        margin-left: -1.5rem;
                     }
                 }
 
                 .wraperKiri-Four {
-                    margin-top: 1.4375rem;
+                    margin-top: 2rem;
                     background-color: #0A2939;
                     padding: 2rem;
 
@@ -2230,8 +2563,7 @@ $size1: 1.6rem;
                 margin-top: 1.4375rem;
 
                 .wraperKanan-One {
-                    background-color: #F05E36;
-                    padding: .75rem;
+                    display: none;
 
                     p {
                         color: #0A2939;
@@ -2243,13 +2575,11 @@ $size1: 1.6rem;
                     }
 
                     ul {
-                        list-style: none;
-                        padding-left: 0;
-
+                        list-style: square;
                         li {
                             color: #FFFFFF;
                             font-family: $butler;
-                            font-size: 1.7rem;
+                            font-size: 1.5rem;
                             font-weight: 300;
                             letter-spacing: -0.036875rem;
                             line-height: 3.125rem;
@@ -2258,7 +2588,7 @@ $size1: 1.6rem;
                 }
 
                 .wraperKanan-Two {
-                    margin-top: 1.25rem;
+                    
 
                     p {
                         color: #0A2939;
@@ -2278,6 +2608,7 @@ $size1: 1.6rem;
                         font-weight: 500;
                         letter-spacing: -0.29px;
                         line-height: 28px;
+                        margin-top: 2.125rem;
                     }
 
                     p {
@@ -2292,52 +2623,72 @@ $size1: 1.6rem;
                 }
 
                 .wraperKanan-Four {
-                    margin-top: 1.25rem;
+                    padding: 1.5rem;
+                    padding-left: 0;
+                    padding-right: 0;
+                    margin-top: 2.4375rem;
+                    padding-bottom: 0;
 
                     h1 {
                         color: #F05E36;
-                        font-family: $ibmReguler;
-                        font-size: 1.5rem;
+                        font-family: "IBM Plex Sans";
+                        font-size: 20px;
                         font-weight: 500;
-                        letter-spacing: -0.018125rem;
-                        line-height: 1.75rem;
+                        letter-spacing: -0.29px;
+                        line-height: 28px;
+                        margin-bottom: 1.25rem;
                     }
 
                     ul {
-                    margin-left: 0;
-                    padding-left: 0;
+                        margin-left: 0;
+                        padding-left: 0;
+                        margin-left: 1.5rem;
+                        
 
                         li {
-                            color: #021925;
-                            font-family: $ibmLight;
-                            font-size: 1rem;
+                            color: #0A2939;
+                            font-family: "IBM Plex Sans";
+                            font-size: 14px;
                             font-weight: 300;
-                            letter-spacing: -0.00625rem;
-                            line-height: 1.875rem;
+                            letter-spacing: -0.09px;
+                            line-height: 26px;
                             list-style: none;
+                            display: flex;
                         }
-                    }
 
-                    li:before {
-                        content: "-";
-                        text-indent: -20px;
-                        color: $color3;
-                        font-size: 20px;
-                        letter-spacing: -0.1px;
-                        line-height: 30px;
-                        margin-right: .625rem;
-                        width: 24px;
+                        .strip {
+                            text-indent: -20px;
+                            color: $color3;
+                            font-size: 40px;
+                            letter-spacing: -0.1px;
+                            line-height: 30px;
+                            margin-right: .625rem;
+                            display: inline-flex;
+                        }
+        
+                        p {
+                            color: #0A2939;
+                            font-family: "IBM Plex Sans";
+                            font-size: 14px;
+                            font-weight: 300;
+                            letter-spacing: -0.09px;
+                            line-height: 26px;
+                            display: inline-flex;
+                        }
+
                     }
                 }
             }
         }
 
         .sectionTiga {
+            margin-top: 1.875rem;
+
             .sectionTigaAtas {
                 h1 {
                     margin: 1.5rem;
                     margin-left: 0;
-                    font-family: $butler;
+                    margin-left: 0;
                     color: #021925;
                     font-family: Butler;
                     font-size: 34px;
@@ -2347,15 +2698,14 @@ $size1: 1.6rem;
             }
 
             .sectionTigaBawah {
-                margin-top: 1.875rem;
-
                 img {
                     height: 50%;
                     width: 100%;
+                    margin-top: 1rem;
                 }
 
                 .imgHide {
-                   margin-top: 16px;
+                    
                 }
 
                 .cardSlider {
@@ -2377,8 +2727,8 @@ $size1: 1.6rem;
                         font-family: "IBM Plex Sans";
                         font-size: 14px;
                         letter-spacing: -0.09px;
-                        line-height: 24px;    
-                        text-decoration: none;              
+                        line-height: 24px;  
+                        text-decoration: none;               
                     }
 
                     p a {
@@ -2403,11 +2753,83 @@ $size1: 1.6rem;
         .sectionEmpat {
 
             .sectionEmpatAtas {
-                display: none;
+                
+                h5 {
+                    margin-top: 3rem;
+                    color: #F05E36;
+                    font-family: "IBM Plex Sans";
+                    font-size: 20px;
+                    font-weight: 500;
+                    letter-spacing: -0.29px;
+                    line-height: 28px;
+                    margin-bottom: 1.25rem;
+                }
             }
 
             .sectionEmpatBawah {
-                display: none;
+                .sectionEmpatBawahKiri {
+                    ul {
+                        padding-left: 0;
+                        margin-bottom: 0;
+
+                        li {
+                            list-style: none;
+                            display: flex;
+                            
+                            .strip {
+                                display: inline-flex;
+                                color: #0A2939;
+                                font-size: 1.875rem;
+                                padding-right: .8125rem;
+                            }
+
+                            p {
+                                display: inline-flex;
+                                color: #0A2939;
+                                font-family: $butler;
+                                font-size: 28px;
+                                font-weight: 300;
+                                letter-spacing: 0;
+                                line-height: 34px;
+
+                                &:hover {
+                                    color: #F05E36;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .sectionEmpatBawahKanan {
+                    ul {
+                        padding-left: 0;
+                        li {
+                            list-style: none;
+                            display: flex;
+                            
+                            .strip {
+                                display: inline-flex;
+                                color: #0A2939;
+                                font-size: 1.875rem;
+                                padding-right: .8125rem;
+                            }
+
+                            p {
+                                display: inline-flex;
+                                color: #0A2939;
+                                font-family: $butler;
+                                font-size: 28px;
+                                font-weight: 300;
+                                letter-spacing: 0;
+                                line-height: 34px;
+
+                                &:hover {
+                                    color: #F05E36;
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
 
@@ -2416,90 +2838,111 @@ $size1: 1.6rem;
             border: 4px solid rgba(246, 110, 73, 0.15);
 
             .sectionLimaBody {
-                padding: 1.5rem;
-               
 
+                .title-1 {
+                    margin-top: -5.3125rem;
+                }
+                
                 .logo {
                     display: flex;
                     justify-content: flex-end;
+                    padding-top: 1.25rem;
+                    padding-left: 3.75rem;
+                    padding-right: 3.75rem;
+                    padding-bottom: 2.3125rem;
+
+                    img {
+                        width: 11.625rem;
+                    }
                 }
-    
+
                 .title {
+                    display: flex;
                     justify-content: center;
+                    margin-bottom: 1.5625rem;
                 }
 
                 h2 {
                     color: #002F39;
                     font-family: $minionBold;
-                    font-size: 1.5rem;
+                    font-size: 1.1875rem;
                     font-weight: bold;
-                    letter-spacing: .65rem;
-                    line-height: 5rem;
+                    letter-spacing: 8px;
+                    line-height: 24px;
                     text-align: center;
                     text-transform: uppercase;
+                    margin-bottom: 1rem;
                 }
 
                 p {
+                    margin-top: 1rem;
+                    width: 256px;
                     color: #F66E49;
-                    font-family: $ibmReguler;
-                    font-size: 1.125rem;
-                    letter-spacing: -0.01625rem;
-                    line-height: 1.125rem;
+                    font-family: $ibmLight;
+                    font-size: 1.0625rem;
+                    letter-spacing: -0.26px;
+                    line-height: 24px;
                     text-align: center;
+                    margin-bottom: 0;
+                    margin-top: 0;
                 }
             }
 
             .SectionLimaTengah {
+
                 .mc-field-group {
                     display: flex;
-                    align-items: center;
                     justify-content: center;
 
                     input {
-                    color: #363636;
-                    font-family: "IBM Plex Sans";
-                    font-size: 16px;
-                    letter-spacing: -0.24px;
-                    line-height: 30px;
-                    text-align: center;
-                    margin: auto;
-                     margin-top: auto;
-                    margin-top: auto;
-                    display: block;
-                    border: none;
-                    border-top: none;
-                    border-left: none;
-                    border-right: none;
-                    border-bottom: 1px solid #E8D4CF;
-                    margin-top: 35px;
-                    padding-bottom: 1rem;
-
-                    
-                    }
-
-                    .email {
-                        padding: 0.5rem;
+                        color: #363636;
+                        font-family: "IBM Plex Sans";
+                        font-size: 16px;
+                        letter-spacing: -0.24px;
+                        line-height: 30px;
+                        text-align: center;
                         width: 80%;
+                        margin: auto;
+                        display: block;
+                        border: none;
+                        border-top: none;
+                        border-left: none;
+                        border-right: none;
+                        border-bottom: 1px solid #E8D4CF;
                         margin-left: 0;
                         margin-right: 0;
+                        margin-top: 0;
+                        padding-bottom: 1rem;            
                     }
-                }
 
-                [placeholder] + span::after{
-                    content:"*";
-                    color: red;
-                }
-    
-                // .mc-field-group::after {
-                //     content:" *";
-                //     color: red;
-                //     display: inline;
-                //     margin-left: -20px;
-                // }
+                    ::placeholder {
+                        height: 30px;
+                        width: 256px;
+                        color: #F05E36;
+                        font-family: "IBM Plex Sans";
+                        font-size: 16px;
+                        letter-spacing: -0.24px;
+                        line-height: 30px;
+                        text-align: center;
+                    }
 
+                    [placeholder] + span::after{
+                        content:"*";
+                        color: red;
+                    }
+
+                    // input[type=email]+span::before{
+                    //     content:" *";
+                    //     color: red;
+                    //     display: inline;
+                    //     margin-left: -20px;
+                    //  }
+                }
 
                 h6 {
                     text-align: center;
+                    font-family: $ibmMedium;
+                    color: #002f39;
                 }
 
                 .mc_fieldset {
@@ -2521,35 +2964,32 @@ $size1: 1.6rem;
                         font-size: 14px;
                         letter-spacing: -0.21px;
                         line-height: 18px;
-                        padding-right: .3125rem;
+                        margin-right: .3125rem;
                     }
 
                     a {
-                        color:$color5;
-                        font-family: $ibmReguler;
+                        color: #002F39;
+                        font-family: "IBM Plex Sans";
                         font-size: 14px;
                         letter-spacing: -0.21px;
                         line-height: 18px;
                     }
-                    
                 }
-            }
-            
-            h6 {
-                font-family: $ibmMedium;
-                color: $color5;
             }
 
             .SectionLimaBawah {
                 margin-top: 1.875rem;
 
                 p {
-                    width: 100%;
+                    height: 48px;
+                    width: 256px;
+                    color: #F66E49;
                     font-family: "IBM Plex Sans";
                     font-size: 18px;
                     letter-spacing: -0.26px;
                     line-height: 24px;
                     text-align: center;
+                    width: 100%;
                 }
 
                 .mc-field-group {
@@ -2647,6 +3087,11 @@ $size1: 1.6rem;
                     padding-top: 1.9375rem;
                     border-bottom: 1.5px solid #113D53;
 
+                    .footerBodyKiriOne {
+                        padding-right: 0 !important;
+                        margin-right: 0 !important;
+                    }
+
                         li { 
                             color: #FFFFFF;
                             font-family: $ibmLight;
@@ -2666,6 +3111,8 @@ $size1: 1.6rem;
                     flex-direction: row;
                     margin-bottom: 3.6875rem;
                     margin-top: 1.9375rem;
+                    width: 100%;
+                    justify-content: center;
                     border: none;
 
                     img {
@@ -2713,7 +3160,7 @@ $size1: 1.6rem;
                     }
 
                     .nav-item {
-                        margin-right: 1.875rem;
+                        margin-right: 3.75rem;
                         margin-top: .625rem;
 
                         a {
@@ -2743,6 +3190,8 @@ $size1: 1.6rem;
                             font-weight: 600;
                             letter-spacing: -0.26px;
                             line-height: 23px;
+                            padding-left: 0px;
+                            padding-right: 0px;
 
                             &:hover {
                                 border-bottom: #F05E36 solid 2px;
@@ -2776,6 +3225,7 @@ $size1: 1.6rem;
                 .text {
                     margin-left: 0;
                     position: block;
+                    margin-top: 1.875rem;
                     
                     h1 {
                        height: auto;
@@ -2810,143 +3260,201 @@ $size1: 1.6rem;
         }
 
         .sectionDua {
+            width: 100%;
             display: flex;
-            flex-direction: row;
-
+            justify-content: space-between;
+           
             .sectionDuaKiri {
-                padding: 1.5rem;
-
+                width: 50%;
+                padding: 2rem;
+                padding-top: 0;
+                display: flex;
+                flex-direction: column;
+                padding-left: 0;
+                padding-left: 1.5rem;
+        
                 .wraperKiri-One {
-                    margin-top: .625rem;
-                }
-
-                .wraperKiri-Two {
-                    margin-top: .625rem;
-                    color: #0A2939;
-                    font-family: $ibmLight;
-                    font-size: 16px;
-                    font-weight: 300;
-                    letter-spacing: -0.1px;
-                    line-height: 30px;
-                }
-
-                .wraperKiri-Three {
-                    margin-top: .625rem;
-                }
-
-                .wraperKiri-Four {
-                    margin-top: .625rem;
-                    background-color: #0A2939;
-                    padding: 2.625rem 3.5625rem;
-
+                    margin-top: 6.75rem;
+        
                     h3 {
+                        height: 184px;
+                        width: 507px;
+                        color: #0A2939;
+                        font-family: "IBM Plex Sans";
+                        font-size: 28.6px;
+                        font-weight: 300;
+                        letter-spacing: -0.42px;
+                        line-height: 41.8px;
+                    }
+                }
+        
+                .wraperKiri-Two {
+                    margin-top: 1.875rem;
+        
+                    p {
+                        color: #0A2939;
+                        font-family: "IBM Plex Sans";
+                        font-size: 16px;
+                        font-weight: 300;
+                        letter-spacing: -0.1px;
+                        line-height: 30px;
+                    }      
+                }
+        
+        
+                .wraperKiri-Three {
+                    margin-left: -3.75rem;
+        
+                    span {
+                        box-sizing: border-box;
+                        height: 105px;
+                        width: 2px;
+                        border: 2px solid #F66E49;
+                        display: block;
+                        position: relative;
+                        left: 37%;
+                        top: 5rem;
+                    }
+        
+                    img {
+                        height: 466px;
+                        width: 674px;
+                    }
+                }
+        
+                
+                .wraperKiri-Four {
+                    margin-top: 7.625rem;
+                    color: #fff;
+                    padding: 3.5625rem;
+                    padding-top: 2.625rem;
+                    padding-bottom: 4.25rem;
+                    background-color: #0A2939;
+        
+                    h3 {
+                        margin-bottom: 2rem;
                         color: #F05E36;
-                        font-family: $butler;
+                        font-family: Butler;
                         font-size: 40px;
                         font-weight: 300;
                         letter-spacing: -0.59px;
                         line-height: 50px;
                     }
-
+        
                     p {
+                        height: 102px;
+                        width: 374px;
                         color: #FFFFFF;
-                        font-family: $ibmLight;
+                        font-family: "IBM Plex Sans";
                         font-size: 22px;
                         font-weight: 300;
                         letter-spacing: -0.14px;
                         line-height: 34px;
                     }
-                }
-
-                .wraperKiri-Four {
-                    margin-top: 9.375rem;
+                 
                 }
             }
-
+        
             .sectionDuaKanan {
-                padding: 1.5rem;
+                padding: 2rem;
+                margin-right: 0;
+                padding-top: 0;
+                padding-bottom: 0;
+                margin-top: 7.1875rem;
+                padding-left: 2.5rem;
                 padding-right: 0;
-
+        
                 .wraperKanan-One {
+                    // height: 352px;
+                    // width: 488px;
                     background-color: #F05E36;
-                    padding: 2.6875rem 3.75rem;
-
+                    margin-bottom: 3rem;
+                    padding: 43px 68px;
+        
                     p {
+                        // height: 20px;
+                        // width: 138px;
                         color: #0A2939;
-                        font-family: $ibmLight;
+                        font-family: "IBM Plex Sans";
                         font-size: 16px;
                         font-weight: 500;
                         letter-spacing: -0.24px;
                         line-height: 20px;
+                        margin-bottom: 2.0625rem;
                     }
-
-                    ul {
-                      padding-left: 0;
-
-                        li {
-                            list-style: none;
-                            color: #FFFFFF;
-                            font-family: $butler;
-                            font-size: 25px;
-                            font-weight: 300;
-                            letter-spacing: -0.59px;
-                            line-height: 50px;
-                        }
+        
+                    li {
+                        list-style: none;
+                        // width: 374px;
+                        color: #FFFFFF;
+                        font-family: Butler;
+                        font-size: 40px;
+                        font-weight: 300;
+                        letter-spacing: -0.59px;
+                        line-height: 50px;
+                        margin-left: -2rem;
                     }
-
-                    
+                   
                 }
-
+        
                 .wraperKanan-Two {
                     p {
+                        // height: 241px;
+                        // width: 486px;
                         color: #0A2939;
-                        font-family: $ibmLight;
+                        font-family: "IBM Plex Sans";
                         font-size: 16px;
                         font-weight: 300;
                         letter-spacing: -0.1px;
                         line-height: 30px;
-                        margin-top: .625rem;
                     }
+                    margin-bottom: 5rem;
                 }
-
+        
                 .wraperKanan-Three {
+                    display: flex;
+                    flex-direction: column;
+        
                     h3 {
+                        // height: 72px;
+                        // width: 497px;
                         color: #F05E36;
-                        font-family: $ibmLight;
+                        font-family: "IBM Plex Sans";
                         font-size: 28px;
                         font-weight: 500;
                         letter-spacing: -0.41px;
                         line-height: 36px;
+                        margin-bottom: 3rem;
                     }
-
+        
                     p {
+                        // height: 150px;
+                        // width: 486px;
                         color: #0A2939;
-                        font-family: $ibmLight;
+                        font-family: "IBM Plex Sans";
                         font-size: 16px;
                         font-weight: 300;
                         letter-spacing: -0.1px;
                         line-height: 30px;
                     }
                 }
-
-                .wraperKanan-Four {
-                    margin-left: 0;
+            }
+        
+            .wraperKanan-Four {
+                h1 {
+                    // height: 36px;
+                    // width: 497px;
+                    color: #F05E36;
+                    font-family: "IBM Plex Sans";
+                    font-size: 28px;
+                    font-weight: 500;
+                    letter-spacing: -0.41px;
+                    line-height: 36px;
+                }
+        
+                ul {
+                    margin-top: 1.875rem;
                     padding-left: 0;
-
-                    h1 {
-                        color: #F05E36;
-                        font-family: $ibmLight;
-                        font-size: 28px;
-                        font-weight: 500;
-                        letter-spacing: -0.41px;
-                        line-height: 36px;
-                    }
-
-                    ul {
-                        margin-left: 0;
-                        padding-left: 0;
-                    }
-
                     li {
                         color: #0A2939;
                         font-family: $ibmLight;
@@ -2955,370 +3463,500 @@ $size1: 1.6rem;
                         letter-spacing: -0.1px;
                         line-height: 30px;
                         list-style: none;
+                        display: flex;
+                        margin-left: 1.5rem;
+        
+                        .strip {
+                            text-indent: -20px;
+                            color: $color3;
+                            font-size: 40px;
+                            letter-spacing: -0.1px;
+                            line-height: 30px;
+                            margin-right: .625rem;
+                            display: inline;
+                        }
+        
+                        p {
+                            display: inline;
+                        }
                     }
-
-                    li:before {
-                        content: "-";
-                        text-indent: -20px;
-                        color: $color3;
-                        font-size: 20px;
-                        letter-spacing: -0.1px;
-                        line-height: 30px;
-                        margin-right: .625rem;
-                        width: 24px;
-                    }
-
+        
+                    
                 }
-
+        
+                
+        
             }
         }
-
+        
         .sectionTiga {
-            margin-top: .625rem;
+            margin-top: 1.25rem;
+            margin-bottom: 0;
+            width: 100%;
+            margin-left: 1.5rem;
         
             .sectionTigaAtas {
+                margin-left: 0;
+                display: flex;
+                color: #fff;
+                align-items: center;
+        
                 h1 {
+                    width: 916px;
                     color: #0A2939;
-                    font-family: $butler;
+                    font-family: Butler;
                     font-size: 56px;
                     letter-spacing: -0.82px;
                     line-height: 56px;
                 }
             }
-
+        
+        
             .sectionTigaBawah {
                 margin-top: 5rem;
-
+        
                 .containerSlide {
                     display: flex;
                     flex-direction: row;
-
-                    .img-fluid {
-                        max-width: none;
+                    
+                    .logo {
+                        padding-left: 0;
                     }
-
+            
+                    div {
+                        margin-right: 1rem;
+                        padding-left: 2rem;
+        
+                    }
+        
                     .cardSlider {
-                        padding: 1.5rem;
-                        opacity: 0.9;
+                        padding: 4rem 3rem;
+                        margin-left: 2rem;
                         background-color: #F05E36;
-    
+        
+                        :nth-child(3) {
+                            margin-top: -1rem;
+                            margin-bottom: 4rem;
+                        }
+        
+                        a {
+                            height: 47px;
+                            width: 328px;
+                            color: #FFFFFF;
+                            font-family: "IBM Plex Sans";
+                            font-size: 14px;
+                            letter-spacing: -0.09px;
+                            line-height: 24px;
+                            list-style: none;
+                            text-decoration: none;
+                            margin-bottom: 8rem;
+                        }
+        
                         h2 {
+                            height: 28px;
+                            width: 310px;
                             color: #0A2939;
                             font-family: Butler;
                             font-size: 28px;
                             letter-spacing: 0;
                             line-height: 34px;
+                            margin-bottom: 1rem;
                         }
-
+        
                         p {
+        
+                            width: 328px;
                             color: #FFFFFF;
                             font-family: "IBM Plex Sans";
-                            font-size: 1rem;
+                            font-size: 14px;
                             letter-spacing: -0.09px;
                             line-height: 24px;
-
-                            a {
-                                text-decoration: none;
-                                color: #FFFFFF;
-                                font-family: "IBM Plex Sans";
-                                font-size: 1rem;
-                                letter-spacing: -0.09px;
-                                line-height: 24px;
-                            }
+                            margin-bottom: 1rem;
                         }
-
-                        .link {
-                            margin-bottom: -0.4375rem;
-                        }
-
                     }
-                    
-                    img.imgHide {
-                        display: none;
-                    }
+        
                 }
             }
-
+        
+        
         }
-
+        
         .sectionEmpat {
-            margin-top: .625rem;
-
-            .sectionEmpatAtas {
-                margin-top: 7.0625rem;
-
-                h5  {
-                    margin-top: 1.0625rem;
-                    color: #F05E36;
-                    font-family: $ibmLight;
-                    font-size: 16px;
-                    font-weight: 500;
-                    letter-spacing: 0;
-                    line-height: 20px;
-                }                    
-            }
-
-            .sectionEmpatBawah {
-                display: flex;
-                flex-direction: row;
-                margin-top: .625rem;
+            display: flex;
+            flex-direction: column;
+            padding: 2rem;
+            margin-left: 1.5rem;
+            padding-left: 0;
+            padding-top: 0;
+            margin-top: 7.0625rem;
+            padding-bottom: 0;
+        
+            li {
                 color: #0A2939;
-                font-family: $butler;
+                font-family: $butlerLight;
                 font-size: 40px;
                 font-weight: 300;
                 letter-spacing: 0;
                 line-height: 48px;
-
-                li {
-                    list-style: none;
-                }
-
-                li::before {
-                    content: "-";
-                    text-indent: -20px;
-                    color: #f05e36;
-                    font-size: 40px;
-                    letter-spacing: -0.1px;
-                    line-height: 30px;
-                    margin-right: 0.625rem;
-                    width: 19px;
-                }
-
-                .sectionEmpatBawahKiri {
-                    margin-right: 2rem;
-                }
-
-                .sectionEmpatBawahKanan {
-                    margin-left: 2rem;
-                    margin-right: 2rem;
-                }
-            }
-    }
-
-    .sectionLima {
-        border: 10px solid #f66f4933;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        padding-top: 1.25rem;
         
-        margin-top: 3.75rem;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 1.875rem;
-
-        form {
-            width: 100%;
-            margin-right: 8rem;
-            margin-left: 8rem;
+        
+            }
+        
+            .sectionEmpatAtas {
+                h5 {
+                    height: 20px;
+                    width: 417px;
+                    color: #F05E36;
+                    font-family: "IBM Plex Sans";
+                    font-size: 16px;
+                    font-weight: 500;
+                    letter-spacing: 0;
+                    line-height: 20px;
+                    margin-bottom: 1.0625rem;
+                }
+            }
+        
+            .sectionEmpatBawah {
+                display: flex;
+        
+                .sectionEmpatBawahKiri {
+                    width: 100%;
+        
+                    ul {
+                        padding-left: 0;
+                    }
+        
+                    li {
+                        list-style: none;
+                        display: flex;
+        
+        
+                        .strip {
+                            color: #0A2939;
+                            font-size: 40px;
+                            font-weight: 300;
+                            letter-spacing: 0;
+                            line-height: 48px;
+                            margin-right: .625rem;
+                            padding-top: .625rem;
+        
+                        }
+        
+                        p {
+                            color: #0A2939;
+                            font-family: $butlerLight;
+                            font-size: 40px;
+                            font-weight: 300;
+                            letter-spacing: 0;
+                            line-height: 48px;
+        
+                            &:hover {
+                                color: #F05E36;
+                            }
+        
+                        }
+                    }
+        
+                }
+        
+                .sectionEmpatBawahKanan {
+                    width: 100%;
+                   
+        
+                    ul {
+                        padding-left: 0;
+                    }
+        
+                    li {
+                        list-style: none;
+                        display: flex;
+        
+        
+                        .strip {
+                            color: #0A2939;
+                            font-size: 40px;
+                            font-weight: 300;
+                            letter-spacing: 0;
+                            line-height: 48px;
+                            margin-right: .625rem;
+                            padding-top: .625rem;
+        
+                           
+                        }
+        
+                        p {
+                            color: #0A2939;
+                            font-family: $butlerLight;
+                            font-size: 40px;
+                            font-weight: 300;
+                            letter-spacing: 0;
+                            line-height: 48px;
+        
+                            &:hover {
+                                color: #F05E36;
+                            }
+                        }
+                    }
+                }
+            }
         }
-    
-        .sectionLimaBody {
-
-            .logo {
-                display: flex;
-                justify-content: flex-end;
+        
+        .sectionLima {
+            border: 10px solid #f66f4933;
+            display: flex;
+            justify-content: center;
+            padding-top: 3rem;
+            margin-top: 7rem;
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
+        
+            form {
+                width: 90%;
             }
+        
+            .sectionLimaBody {
+                .title-1 {
+                    margin-top: -5.3125rem;
+                }
 
-            .title {
-                justify-content: center;
-            }
-
-            h2 {
-                height: 81px;
-    
-                color: #002F39;
-                font-family: Minion;
-                font-size: 26px;
-                font-weight: bold;
-                letter-spacing: 10.4px;
-                line-height: 80px;
+                .title, .SectionLimaTengah, .SectionLimaBawah {
+                    margin: 0 5rem;
+                }
                 text-align: center;
-                text-transform: uppercase;
-            }
-    
-            p {
-    
-                color: #F66E49;
-                font-family: "IBM Plex Sans";
-                font-size: 22px;
-                letter-spacing: -0.32px;
-                line-height: 30px;
-                margin-bottom: 0;
-            }
-    
-            .SectionLimaTengah {
-                width: 100%;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                margin-bottom: 2rem;
-                margin-top: 2.5rem;
-    
-                .email {
-                    padding: 0.5rem;
-                    border: none;
-                    // margin-right: 9rem;
+        
+                p {
+                
+                    color: #F66E49;
+                    font-family: $ibmReguler;
+                    font-size: 22px;
+                    letter-spacing: -0.32px;
+                    line-height: 30px;
+                    margin-bottom: 0;
                 }
-
-                ::placeholder {
-                    border-left: 2px solid $color5;
-                    margin-left: 1rem;
-                     width: 13rem;
+        
+                .logo {
+                    display: flex;
+                    justify-content: flex-end;
                 }
-
-                .mc-field-group {
-                    
-                    input {
-                        margin-right: 0;
-                        padding-right: 0;
+        
+                .title {
+                    justify-content: center;
+                    margin-bottom: 2.5rem;
+        
+                    .title-1 {
+                        width: 48rem;
+                        text-align: center;
+                        
+                        h2 {
+                            height: 81px;        
+                            color: #002F39;
+                            font-family: $minionBold;
+                            font-size: 26px;
+                            font-weight: bold;
+                            letter-spacing: 10.4px;
+                            line-height: 80px;
+                            text-align: center;
+                            text-transform: uppercase;          
+                        }
+                    }
+                }
+                
+                .SectionLimaTengah {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 4rem;
+        
+                    .email {
+                        padding: 0.5rem;
+                        border: none;
+                        width: 12.8rem;
                         padding-bottom: 1.25rem;
                     }
+        
+                    ::placeholder {
+                        border-left: 2px solid $color5;
+                        margin-left: 1rem;
+                        width: 13rem;
+                    }
+        
+                    [placeholder] + span::after{
+                        content:"*";
+                        color: red;
+                    }
+        
+                    // .mc-field-group::after {
+                    //     content:" *";
+                    //     color: red;
+                    //     display: inline;
+                    // }
+        
+                    .av-checkbox {
+                        a {
+                            padding-left: 2rem;
+                        }
+                    }
+        
+                    .text {
+                        margin-right: 0.3rem;
+                        margin-left: 0.5rem;
+                    }
+        
+                    .text, .terms {
+                        color: $color5;
+                        font-family: $ibmReguler;
+                        font-size: 16px;
+                    }
+        
+                    h6 {
+                        font-family: $ibmMedium;
+                        color: $color5;
+                        margin-bottom: 0;
+                    }
+        
+                    border-bottom: 1px solid #E8D4CF;
+        
                 }
-    
-                .mc-field-group::after {
-                    content:" *";
-                    color: red;
-                    display: inline;
-                }
-    
-                .av-checkbox {
-                    a {
-                        padding-left: 2rem;
+        
+                .SectionLimaBawah {
+                    input {
+                        margin: 2rem 0rem;
+                        width: 100%;
+                        border-top: none;
+                        border-left: none;
+                        border-right: none;
+                        padding-bottom: 1.6rem;
+                        border-bottom: 1px solid #E8D4CF;
+                        outline: none;
                     }
                 }
-
-                a {
-                    color: #002f39;
-                    padding-left: .3125rem;
-                }
-
-                input {
-                    margin-right: .625rem;
-                }
-    
-
-                color: #002f39;
-                font-family: "IBM Plex Sans";
-                font-size: 16px;        
-                border-bottom: 1px solid #E8D4CF;
-    
+        
+        
             }
-    
-            .SectionLimaBawah {
-                input {
-                    margin: 2rem 0rem;
-                    width: 100%;
-                    border-top: none;
-                    border-left: none;
-                    border-right: none;
-                    padding-bottom: 1.6rem;
-                    border-bottom: 1px solid #E8D4CF;
-                    outline: none;
+        
+            .SectionLimaBawahDua {
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+                align-items: center;
+                margin: 4rem 5rem;
+        
+                .button {
+                    border: 1px solid #fff;
+                    padding: 1rem 4rem;
+                    border-radius: 2.4rem;
+                    color: #FFFFFF;
+                    font-family: "IBM Plex Sans";
+                    font-size: 16px;
+                    font-weight: 500;
+                    letter-spacing: 0;
+                    line-height: 20px;
+                    background-color: #F05E36;
                 }
+        
+                margin-bottom: 4rem;
+        
+        
             }
-    
-    
         }
-    
-        .SectionLimaBawahDua {
-            display: flex;
-            flex-direction: row-reverse;
-            justify-content: space-between;
-            align-items: center;
-            //     background-color: rgb(11, 2, 20);
-    
-    
-            .button {
-                border: 1px solid #fff;
-                padding: 1rem 4rem;
-                border-radius: 24px;
-                color: #FFFFFF;
-                font-family: "IBM Plex Sans";
-                font-size: 16px;
-                font-weight: 500;
-                letter-spacing: 0;
-                line-height: 20px;
-                background-color: #F05E36;
-            }
-    
-            margin-bottom: 8rem;
-    
-    
-        }
+        
     }
-}
-
+    
 .Footer {
-    margin-top: 1.875rem;
+    width: 100%;
     background-color: #021925;
+    height: 40rem;
+    margin-top: 9.4375rem;
 
     .container {
+        background-color: #021925;
+
+        height: 100%;
+        color: #E8D4CF;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+
+        // justify-content: center;
         .footerHeader {
-           
-            img {
-                margin-left: auto;
-                margin-right: auto;
-                display: block;
-                padding-top: 2.9375rem;
-                width: 11.625rem;
-                padding-bottom: 3rem;
+            margin-top: 8rem;
+            margin-bottom: 6rem;
+            img{
+                transform: scale(1.1);
+                opacity: 0.8;
             }
         }
 
         .foooterBody {
             display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            border-top: 1.5px solid #113D53;
+            border-bottom: 1.5px solid #113D53;
+         
+            width: 90%;
+            height: 10rem;
+            justify-content: space-evenly;
 
             .footerBodyKiri {
-                width: 100%;
-                box-sizing: border-box;
-                border-top : 1.5px solid #113D53;
-                padding-top: 1.9375rem;
-                border-bottom: 1.5px solid #113D53;
+                display: flex;
+                flex-direction: row;
+                width: 65%;
+                padding: 3rem 2rem;
+                border-right: 2px #113D53 solid;
+                
+                li {
+                    list-style: none;
+                    margin-bottom: 2rem;
+                    height: 15px;
+                    color: #FFFFFF;
+                    font-family: $ibmLight;
+                    font-size: 12px;
+                    font-weight: 500;
+                    letter-spacing: 0.5px;
+                    line-height: 15px;
+                    text-transform: uppercase;
+                }
 
-                    li { 
-                        color: #FFFFFF;
-                        font-family: $ibmLight;
-                        font-size: 12px;
-                        font-weight: 500;
-                        letter-spacing: 0.5px;
-                        line-height: 15px;
-                        text-align: center;
-                        text-transform: uppercase;
-                        padding-bottom: 1.5rem;
-                        list-style: none;
-                    }
+                .footerBodyKiriOne {
+                    flex-direction: column;
+                    display: flex;
+                    padding-right: 8rem;
+                    margin-right: 6rem;
+
+                }
+
+                .footerBodyKiriTwo {
+                    display: flex;
+                    flex-direction: column;
+
+                }
             }
 
             .footerBodyKanan {
+
+               
+                // border-left: 2px #113D53 solid;
                 display: flex;
-                flex-direction: row;
-                margin-bottom: 3.6875rem;
-                margin-top: 1.9375rem;
+                justify-content: center;
 
-                img {
-                    padding-right: 1rem;
-                }
-
-                h5 {
-                    display: inline-block;
+            .linkedIn{
+                display: flex;
+                justify-content: center;
+                align-items: center ;
+                h5{
+                    margin-top: 0.5rem;
+                    margin-left: 1rem;
                     color: #FFFFFF;
-                    font-family: $ibmLight;
+                    font-family: $ibmReguler;
                     font-size: 15px;
                     letter-spacing: -0.22px;
                     line-height: 19.5px;
                 }
-
+                text-decoration: none;
             }
-
+            }
         }
-    }
-}
-
+    }}
 }
 
 @media (min-width: 1400px) {
@@ -3400,18 +4038,18 @@ $size1: 1.6rem;
             font-weight: 600;
             letter-spacing: -0.26px;
             line-height: 23px;
-            margin-right: 4rem;
+            margin-right: 4.625rem;
             margin-left: .75rem;
             margin-bottom: -10rem;
+            padding-left: 0;
+            padding-right: 0;
 
             &:hover {
-                border-bottom: #F05E36 solid 2px;
-            }
-
-            &.active {
-                border-bottom: #F05E36 solid 2px;
+                border-bottom: #F05E36 2px solid;
+                border-width: 30%;
             }
         }
+
 
         img {
             background-color: rebeccapurple;
@@ -3451,7 +4089,7 @@ $size1: 1.6rem;
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 30rem;
+    // height: 30rem;
 
     .sectionSatuKiri {
         background-color: blue;
@@ -3465,8 +4103,6 @@ $size1: 1.6rem;
             margin-left: 1rem;
 
             h1 {
-                height: 196px;
-                width: 792px;
                 color: #F05E36;
                 font-family: Butler;
                 font-size: 100px;
@@ -3475,15 +4111,13 @@ $size1: 1.6rem;
             }
 
             h5 {
-                height: 27px;
-                width: 464px;
                 color: #021925;
                 font-family: Minion;
                 font-size: 28px;
                 font-style: italic;
                 letter-spacing: 1.27px;
                 line-height: 29px;
-                margin-top: -6rem;
+                margin-top: 2.4375rem;
             }
         }
     }
@@ -3513,11 +4147,13 @@ $size1: 1.6rem;
         display: flex;
         flex-direction: column;
         padding-left: 0;
+        padding-left: 1.5rem;
 
         .wraperKiri-One {
             margin-left: 7.75rem;
+            margin-top: 6.75rem;
 
-            h1 {
+            h3 {
                 height: 184px;
                 width: 507px;
                 color: #0A2939;
@@ -3534,22 +4170,18 @@ $size1: 1.6rem;
             margin-top: 1.875rem;
 
             p {
-                height: 405px;
-                width: 498px;
                 color: #0A2939;
                 font-family: "IBM Plex Sans";
                 font-size: 16px;
                 font-weight: 300;
                 letter-spacing: -0.1px;
                 line-height: 30px;
-                margin-bottom: 0;   
             }      
         }
 
 
         .wraperKiri-Three {
             margin-left: -3.75rem;
-            margin-top: 2.5rem;
 
             span {
                 box-sizing: border-box;
@@ -3558,8 +4190,13 @@ $size1: 1.6rem;
                 border: 2px solid #F66E49;
                 display: block;
                 position: relative;
-                left: 34%;
+                left: 37%;
                 top: 5rem;
+            }
+
+            img {
+                height: 466px;
+                width: 674px;
             }
         }
 
@@ -3567,10 +4204,10 @@ $size1: 1.6rem;
         .wraperKiri-Four {
             margin-top: 7.625rem;
             margin-left: 7.75rem;
-            height: 15rem;
-            width: 27.5rem;
             color: #fff;
-            padding: 3rem;
+            padding: 3.5625rem;
+            padding-top: 2.625rem;
+            padding-bottom: 4.25rem;
             background-color: #0A2939;
 
             h3 {
@@ -3582,6 +4219,17 @@ $size1: 1.6rem;
                 letter-spacing: -0.59px;
                 line-height: 50px;
             }
+
+            p {
+                height: 102px;
+                width: 374px;
+                color: #FFFFFF;
+                font-family: "IBM Plex Sans";
+                font-size: 22px;
+                font-weight: 300;
+                letter-spacing: -0.14px;
+                line-height: 34px;
+            }
          
         }
     }
@@ -3591,13 +4239,15 @@ $size1: 1.6rem;
         margin-right: 7.75rem;
         padding-top: 0;
         padding-bottom: 0;
+        margin-top: 7.1875rem;
+        padding-left: 6.25rem;
 
         .wraperKanan-One {
-            height: 20rem;
-            width: 30.8rem;
+            height: 352px;
+            width: 488px;
             background-color: #F05E36;
             margin-bottom: 3rem;
-            padding:  2rem 4rem;
+            padding: 43px 68px;
 
             p {
                 height: 20px;
@@ -3608,6 +4258,7 @@ $size1: 1.6rem;
                 font-weight: 500;
                 letter-spacing: -0.24px;
                 line-height: 20px;
+                margin-bottom: 2.0625rem;
             }
 
             li {
@@ -3683,8 +4334,6 @@ $size1: 1.6rem;
             margin-top: 1.875rem;
             padding-left: 0;
             li {
-                height: 41px;
-                width: 486px;
                 color: #0A2939;
                 font-family: $ibmLight;
                 font-size: 16px;
@@ -3692,19 +4341,28 @@ $size1: 1.6rem;
                 letter-spacing: -0.1px;
                 line-height: 30px;
                 list-style: none;
+                display: flex;
+                margin-left: 1.5rem;
+
+                .strip {
+                    text-indent: -20px;
+                    color: $color3;
+                    font-size: 40px;
+                    letter-spacing: -0.1px;
+                    line-height: 30px;
+                    margin-right: .625rem;
+                    display: inline;
+                }
+
+                p {
+                    display: inline;
+                }
             }
+
+            
         }
 
-        li:before {
-            content: "-";
-            text-indent: -20px;
-            color: $color3;
-            font-size: 20px;
-            letter-spacing: -0.1px;
-            line-height: 30px;
-            margin-right: .625rem;
-            width: 24px;
-        }
+        
 
     }
 }
@@ -3813,11 +4471,13 @@ $size1: 1.6rem;
 
     li {
         color: #0A2939;
-        font-family: Butler;
+        font-family: $butlerLight;
         font-size: 40px;
         font-weight: 300;
         letter-spacing: 0;
         line-height: 48px;
+
+
     }
 
     .sectionEmpatAtas {
@@ -3830,6 +4490,7 @@ $size1: 1.6rem;
             font-weight: 500;
             letter-spacing: 0;
             line-height: 20px;
+            margin-bottom: 1.0625rem;
         }
     }
 
@@ -3839,43 +4500,80 @@ $size1: 1.6rem;
         .sectionEmpatBawahKiri {
             width: 50%;
 
-            :nth-child(2) {
-                color: #F05E36;
+            ul {
+                padding-left: 0;
             }
 
             li {
                 list-style: none;
+                display: flex;
+
+
+                .strip {
+                    color: #0A2939;
+                    font-size: 40px;
+                    font-weight: 300;
+                    letter-spacing: 0;
+                    line-height: 48px;
+                    margin-right: .625rem;
+                    padding-top: .625rem;
+
+                }
+
+                p {
+                    color: #0A2939;
+                    font-family: $butlerLight;
+                    font-size: 40px;
+                    font-weight: 300;
+                    letter-spacing: 0;
+                    line-height: 48px;
+
+                    &:hover {
+                        color: #F05E36;
+                    }
+
+                }
             }
 
-            li::before {
-                content: "-";
-                text-indent: -20px;
-                color: #f05e36;
-                font-size: 40px;
-                letter-spacing: -0.1px;
-                line-height: 30px;
-                margin-right: .625rem;
-                width: 19px;
-            }
         }
 
         .sectionEmpatBawahKanan {
             width: 50%;
             margin-right: 20rem;
 
-            li {
-                list-style: none;
+            ul {
+                padding-left: 0;
             }
 
-            li::before {
-                content: "-";
-                text-indent: -20px;
-                color: #f05e36;
-                font-size: 40px;
-                letter-spacing: -0.1px;
-                line-height: 30px;
-                margin-right: .625rem;
-                width: 19px;
+            li {
+                list-style: none;
+                display: flex;
+
+
+                .strip {
+                    color: #0A2939;
+                    font-size: 40px;
+                    font-weight: 300;
+                    letter-spacing: 0;
+                    line-height: 48px;
+                    margin-right: .625rem;
+                    padding-top: .625rem;
+
+                   
+                }
+
+                p {
+                    color: #0A2939;
+                    font-family: $butlerLight;
+                    font-size: 40px;
+                    font-weight: 300;
+                    letter-spacing: 0;
+                    line-height: 48px;
+
+                    &:hover {
+                        color: #F05E36;
+                    }
+                }
             }
         }
     }
@@ -3895,18 +4593,28 @@ $size1: 1.6rem;
     }
 
     .sectionLimaBody {
+        .title-1 {
+            margin-top: -5.3125rem;
+        }
+
+        .title {
+            margin-bottom: 3.125rem;
+        }
+
+
         .title, .SectionLimaTengah, .SectionLimaBawah {
             margin: 0 5rem;
+            
         }
         text-align: center;
 
         p {
-        
             color: #F66E49;
             font-family: $ibmReguler;
             font-size: 22px;
             letter-spacing: -0.32px;
             line-height: 30px;
+            margin-bottom: 0;
         }
 
         .logo {
@@ -3916,7 +4624,7 @@ $size1: 1.6rem;
 
         .title {
             justify-content: center;
-            margin-bottom: 2.5rem;
+            margin-bottom: 3.125rem;
 
             .title-1 {
                 width: 48rem;
