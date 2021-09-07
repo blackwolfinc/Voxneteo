@@ -9,9 +9,11 @@
 }
 .containerBack {
   text-align: center;
+  margin-top: 4.0625rem;
   margin-bottom: 2.5625rem;
   position: relative;
   overflow: hidden;
+  font-family: IBM Plex Sans;
 
   span {
     color: #f66e49;
@@ -26,7 +28,7 @@
     display: table;
     width: 100%;
     position: absolute;
-    top: 0.3rem;
+    top: 0.4rem;
     right: 2rem;
   }
   .rotation-wrapper-inner {
@@ -65,7 +67,7 @@
   }
   .date {
     color: #0a2939;
-    font-family: Minion;
+    font-family: Minion Display;
     font-size: 3.4rem;
     line-height: 45px;
     margin-top: 2rem;
@@ -74,34 +76,38 @@
   .subTitle {
     font-size: 0.9rem;
     color: #f05e36;
+    font-family: IBM Plex Sans;
   }
   .title {
     font-size: 1.15rem;
     color: #0a2939;
     margin-bottom: 0;
     line-height: 1.6rem;
+    font-family: IBM Plex Sans;
   }
 }
 .containerNews {
-  font-family: "IBM Plex Sans";
+  font-family: IBM Plex Sans;
   .newsTitle {
     color: #0a2939;
     line-height: 2.6125rem;
-    margin-bottom: 1.775rem;
+    margin-bottom: 1.275rem;
     font-size: 2rem;
   }
   .newsAuthor {
     font-size: 1rem;
-    padding-bottom: 1.4375rem;
+    padding-bottom: 1rem;
     border-bottom: 2px solid #e3e3e3;
     margin-bottom: 1.9375rem;
     color: #3891a5;
     line-height: 1.875rem;
+    font-weight: 300;
   }
-  .news {
+  .containerNewsAllText {
     line-height: 1.875rem;
     color: #0a2939;
     font-weight: 300;
+    margin-bottom: 3rem;
   }
   .visitWebsite {
     font-size: 1rem;
@@ -116,6 +122,34 @@
     background-color: #e3e3e3;
   }
 }
+
+.sectionSatu {
+  .sectionSatuKanan {
+    img {
+      width: 1049px;
+    }
+    .orangeBlock {
+      height: 16px;
+      background-color: #f05e36;
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .sectionSatu {
+    .sectionSatuKanan {
+      img {
+        width: 1049px;
+      }
+      .orangeBlock {
+        width: 100px;
+        background-color: #f05e36;
+        height: 100%;
+      }
+    }
+  }
+}
+
 @media only screen and (min-width: 0px) and (max-width: 1399.98px) {
   .containerBack {
     margin-top: 1.5rem;
@@ -171,9 +205,9 @@
       margin-bottom: 1.6875rem;
       line-height: 1.125rem;
     }
-    .news {
+    .containerNewsAllText {
       line-height: 1.625rem;
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
       letter-spacing: -0.09px;
       font-size: 14px;
     }
