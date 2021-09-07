@@ -224,8 +224,16 @@
     margin-left: 0;
     margin-top: 1.625rem;
   }
-  .container .sectionSatu .sectionSatuKanan img {
-    height: 12rem;
+  .container .sectionSatu .sectionSatuKanan img.mobile {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: left;
+       object-position: left;
+    height: 192px;
+    border-bottom: 16px solid #f05e36;
+  }
+  .container .sectionSatu .sectionSatuKanan img.desktop {
+    display: none;
   }
   .container .sectionDua {
     display: -webkit-box;
@@ -704,9 +712,17 @@
     margin-left: 0;
     margin-top: 1.625rem;
   }
-  .container .sectionSatu .sectionSatuKanan img {
-    height: 12rem;
+  .container .sectionSatu .sectionSatuKanan img.mobile {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: left;
+       object-position: left;
     width: 100%;
+    height: 192px;
+    border-bottom: 16px solid #f05e36;
+  }
+  .container .sectionSatu .sectionSatuKanan img.desktop {
+    display: none;
   }
   .container .sectionDua {
     display: -webkit-box;
@@ -1182,8 +1198,17 @@
     margin-left: 0;
     margin-top: 1.625rem;
   }
-  .container .sectionSatu .sectionSatuKanan img {
-    height: 12rem;
+  .container .sectionSatu .sectionSatuKanan img.mobile {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: left;
+       object-position: left;
+    width: 100%;
+    height: 192px;
+    border-bottom: 16px solid #f05e36;
+  }
+  .container .sectionSatu .sectionSatuKanan img.desktop {
+    display: none;
   }
   .container .sectionDua {
     display: -webkit-box;
@@ -1669,7 +1694,10 @@
     margin-left: 0;
     margin-top: 1.625rem;
   }
-  .container .sectionSatu .sectionSatuKanan img {
+  .container .sectionSatu .sectionSatuKanan img.mobile {
+    display: none;
+  }
+  .container .sectionSatu .sectionSatuKanan img.desktop {
     height: 12rem;
     width: 100%;
   }
@@ -2076,7 +2104,10 @@
     margin-left: 0;
     margin-top: 1.625rem;
   }
-  .container .sectionSatu .sectionSatuKanan img {
+  .container .sectionSatu .sectionSatuKanan img.mobile {
+    display: none;
+  }
+  .container .sectionSatu .sectionSatuKanan img.desktop {
     width: 100%;
   }
   .container .sectionDua {
@@ -2548,7 +2579,10 @@
     margin-right: -3.75rem;
     height: 405px;
   }
-  .sectionSatu .sectionSatuKanan img {
+  .sectionSatu .sectionSatuKanan img.mobile {
+    display: none;
+  }
+  .sectionSatu .sectionSatuKanan img.desktop {
     width: 100%;
   }
   .sectionDua {

@@ -245,8 +245,15 @@ $size1: 1.6rem;
         margin-left: 0;
         margin-top: 1.625rem;
 
-        img {
-          height: 12rem;
+        img.mobile {
+          object-fit: cover;
+          object-position: left;
+          height: 192px;
+          border-bottom: 16px solid $color3;
+        }
+
+        img.desktop {
+          display: none;
         }
       }
     }
@@ -699,9 +706,16 @@ $size1: 1.6rem;
         margin-left: 0;
         margin-top: 1.625rem;
 
-        img {
-          height: 12rem;
+        img.mobile {
+          object-fit: cover;
+          object-position: left;
           width: 100%;
+          height: 192px;
+          border-bottom: 16px solid $color3;
+        }
+
+        img.desktop {
+          display: none;
         }
       }
     }
@@ -1153,8 +1167,16 @@ $size1: 1.6rem;
         margin-left: 0;
         margin-top: 1.625rem;
 
-        img {
-          height: 12rem;
+        img.mobile {
+          object-fit: cover;
+          object-position: left;
+          width: 100%;
+          height: 192px;
+          border-bottom: 16px solid $color3;
+        }
+
+        img.desktop {
+          display: none;
         }
       }
     }
@@ -1618,7 +1640,11 @@ $size1: 1.6rem;
         margin-left: 0;
         margin-top: 1.625rem;
 
-        img {
+        img.mobile {
+          display: none;
+        }
+
+        img.desktop {
           height: 12rem;
           width: 100%;
         }
@@ -2008,7 +2034,11 @@ $size1: 1.6rem;
         margin-left: 0;
         margin-top: 1.625rem;
 
-        img {
+        img.mobile {
+          display: none;
+        }
+
+        img.desktop {
           width: 100%;
         }
       }
@@ -2459,7 +2489,11 @@ $size1: 1.6rem;
       margin-right: -3.75rem;
       height: 405px;
 
-      img {
+      img.mobile {
+        display: none;
+      }
+
+      img.desktop {
         width: 100%;
       }
     }
