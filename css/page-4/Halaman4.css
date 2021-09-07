@@ -1,3 +1,7 @@
+.container .navbar-nav {
+  z-index: 1;
+}
+
 .sectionBody {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -61,7 +65,6 @@
 .sectionBody .containerCards .item .containerImage {
   position: relative;
   display: block;
-  z-index: -1;
 }
 
 .sectionBody .containerCards .item .containerImage img {
@@ -154,6 +157,7 @@
   color: #f05e36;
   text-align: center;
   margin-top: -6rem;
+  position: relative;
 }
 
 .sectionAddActuals .icon-plus {
@@ -172,8 +176,6 @@
 
 @media only screen and (min-width: 0px) and (max-width: 1184px) {
   .sectionAddActuals {
-    position: relative;
-    z-index: -1;
     margin-top: -1rem;
   }
   .sectionBody {
@@ -182,7 +184,6 @@
   }
   .sectionBody .containerCategories {
     position: relative;
-    z-index: -1;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;

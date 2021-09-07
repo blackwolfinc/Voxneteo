@@ -1,3 +1,8 @@
+.container {
+  .navbar-nav {
+    z-index: 1;
+  }
+}
 .sectionBody {
   display: flex;
   margin-top: 4.6rem;
@@ -45,7 +50,6 @@
       .containerImage {
         position: relative;
         display: block;
-        z-index: -1;
         img {
           height: 320px;
           width: 320px;
@@ -126,6 +130,7 @@
   color: #f05e36;
   text-align: center;
   margin-top: -6rem;
+  position: relative;
   .icon-plus {
     filter: invert(56%) sepia(34%) saturate(6580%) hue-rotate(339deg)
       brightness(96%) contrast(96%);
@@ -142,8 +147,6 @@
 
 @media only screen and (min-width: 0px) and (max-width: 1184px) {
   .sectionAddActuals {
-    position: relative;
-    z-index: -1;
     margin-top: -1rem;
   }
   .sectionBody {
@@ -151,7 +154,6 @@
     display: block;
     .containerCategories {
       position: relative;
-      z-index: -1;
       overflow-x: scroll;
       overflow-y: hidden;
       white-space: nowrap;
