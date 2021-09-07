@@ -27,26 +27,31 @@
   <div class="cookies">
     <div class="container">
       <div class="cookiesContainer">
-        <div class="cookieskiri">
-          <h1>Ce site web utilise des cookies.</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-            aliquam eros non ipsum euismod malesuada. Ut dictum, arcu in
-            eleifend bibendum, mi elit condimentum metus, in scelerisque felis
-            erat et elit. Nullam risus arcu, consequat in augue vitae, volutpat
-            ornare magna. Praesent malesuada non ligula eu varius. Aliquam
-            fringilla magna quam, et viverra diam eleifend at. Nulla turpis
-            tortor, facilisis vel tincidunt eget, facilisis et risus. Nulla
-            feugiat aliquet mi sit amet dapibus. In metus neque, ornare vel nunc
-            vel, aliquet pretium quam. Duis eleifend odio lorem, vel consequat
-            eros laoreet vel. Integer rutrum elit luctus, blandit dolor vitae,
-            gravida enim. Maecenas tempus arcu quam, elementum vehicula diam
-            condimentum at.
-          </p>
-        </div>
-        <div class="cookieskanan">
-          <button>Fermer</button><button>Accepter</button>
-        </div>
+          <div class="title">
+            <h1>Ce site web utilise des cookies.</h1>
+          </div>
+          <span class="line"></span>
+          <div class="detail">
+            <div class="cookieskiri">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                aliquam eros non ipsum euismod malesuada. Ut dictum, arcu in
+                eleifend bibendum, mi elit condimentum metus, in scelerisque felis
+                erat et elit. Nullam risus arcu, consequat in augue vitae, volutpat
+                ornare magna. Praesent malesuada<span id="read-more">...read more</span><span id="text-read-more"> non ligula eu varius. Aliquam
+                fringilla magna quam, et viverra diam eleifend at. Nulla turpis
+                tortor, facilisis vel tincidunt eget, facilisis et risus. Nulla
+                feugiat aliquet mi sit amet dapibus. In metus neque, ornare vel nunc
+                vel, aliquet pretium quam. Duis eleifend odio lorem, vel consequat
+                eros laoreet vel. Integer rutrum elit luctus, blandit dolor vitae,
+                gravida enim. Maecenas tempus arcu quam, elementum vehicula diam
+                condimentum at.</span>
+              </p>
+            </div>
+            <div class="cookieskanan">
+              <button>Fermer</button><button>Accepter</button>
+            </div>
+          </div>
       </div>
     </div>
   </div>
@@ -538,5 +543,6 @@
         // })
       });
     </script>
+    <script src="js/readMore.js"></script>
   </body>
 </html>
