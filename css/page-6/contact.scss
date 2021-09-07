@@ -65,9 +65,64 @@ $size1: 1.6rem;
 }
 
 @media (max-width: 319.98px) {
-  .nav-mobile,
-  .menu-mobile {
+  .nav-mobile {
     display: none; // menjadi flex saat berada di mobile
+  }
+  .menu-mobile {
+    display: flex;
+    flex-direction: column;
+    background-color: #021925;
+    width: 95%;
+    height: 100vh;
+    padding: 15px 25px;
+    transform: translateX(-100vw);
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.2s;
+    z-index: 400; // lebih tinggi daripada navbar
+
+    .x-icon-mobile {
+      svg {
+        width: 2rem;
+        cursor: pointer;
+      }
+    }
+
+    .menu-mobile-list {
+      display: flex;
+      flex-direction: column;
+      margin: 25px 0;
+
+      a {
+        color: #ffffff;
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+        font-weight: bold;
+        text-decoration: none;
+      }
+    }
+
+    .mobile-language {
+      padding: 25px 0;
+      border-top: 1px solid #113d53;
+
+      p {
+        color: #ffffff;
+      }
+
+      p::before {
+        content: "";
+        width: 2px;
+        height: 25px;
+        background-color: #f05e36;
+        transform: translateX(-25px);
+      }
+
+      p.current-language {
+        color: #f05e36;
+      }
+    }
   }
 
   .container {
@@ -269,41 +324,77 @@ $size1: 1.6rem;
       flex-direction: column;
       justify-content: center;
       text-align: center;
+      font-family: $butler;
+      height: 515px; // seharusnya 485px tetapi kurang rapi
       width: 100%;
-      border: 10px solid #f66f4933;
-      margin-bottom: 50px;
+      max-width: 370px;
+      // padding-bottom: 50px;
+      border: 4px solid #f66f4933;
+      margin: 0 auto 100px auto;
 
       .stamp {
-        padding: 25px 0;
+        padding: 25px 0 0 0;
 
         img {
-          width: 10rem;
+          width: 200px;
         }
       }
 
       form {
+        margin-top: 25px;
+
         .sectionEmpatBody {
-          padding: 0 12px;
+          padding: 0 15px 0 15px;
           line-height: 1.5rem;
 
           h2 {
-            font-size: 1.5rem;
-            letter-spacing: 0.2rem;
-            margin-bottom: 15px;
+            color: $color5;
+            font-family: "Minion";
+            font-size: 18px;
+            text-align: center;
+            font-weight: bold;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            margin: 0 0 25px 0;
           }
 
           p.body-text {
-            color: $color3;
-            font-size: 0.8rem;
+            color: $color6;
+            font-size: 16px;
+            letter-spacing: -0.26px;
+            font-family: "IBM Plex Sans";
+            line-height: 24px;
           }
 
           .sectionEmpatTengah {
-            margin-top: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            width: fit-content;
+            margin: 50px auto 25px auto;
+
+            .mc-field-group,
+            .gdpr-mergeRow,
+            .envoyer {
+              margin: 0 30px;
+            }
 
             .mc-field-group {
+              width: 100%; // seharusnya 261 px tapi setelah diimplementasikan malah tidak rapi
+              height: 50px;
+              margin-bottom: 25px;
+              border-bottom: 1px solid $color2;
+
               input[type="email"] {
+                width: 100%;
+                text-align: center;
                 background-color: transparent;
                 border: transparent;
+                color: #363636;
+                font-family: "IBM Plex Sans";
+                font-size: 16px;
+                letter-spacing: -0.24px;
               }
 
               input[type="email"]:hover,
@@ -313,8 +404,11 @@ $size1: 1.6rem;
               }
 
               input::placeholder {
-                font-size: 0.8rem;
-                text-align: center;
+                font-size: 0.9rem;
+                color: #363636;
+                font-family: "IBM Plex Sans";
+                font-size: 16px;
+                letter-spacing: -0.24px;
               }
             }
 
@@ -322,11 +416,11 @@ $size1: 1.6rem;
               display: flex;
               justify-content: center;
               align-items: center;
-              margin-top: 25px;
-              padding-top: 25px;
-              border-top: 1px solid $color2;
+              width: 100%;
 
               .content__gdpr {
+                width: 100%;
+
                 .mc_fieldset {
                   input,
                   .text,
@@ -336,20 +430,28 @@ $size1: 1.6rem;
 
                   .text,
                   a.terms {
-                    font-size: 0.8rem;
-                    color: $colorLine;
+                    font-size: 14px;
+                    font-family: "IBM Plex Sans";
+                    color: $color5;
+                    letter-spacing: -0.24px;
                   }
                 }
               }
             }
 
             .envoyer {
-              margin: 25px 0;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-top: 25px;
 
               h6 {
-                color: $colorLine;
+                color: $color5;
                 text-transform: uppercase;
-                letter-spacing: 0.1rem;
+                font-size: 16px;
+                font-weight: 500;
+                letter-spacing: 1px;
+                font-family: "IBM Plex Sans";
               }
             }
           }
@@ -429,11 +531,65 @@ $size1: 1.6rem;
 }
 
 @media (min-width: 320px) and (max-width: 374.98px) {
-  .nav-mobile,
-  .menu-mobile {
+  .nav-mobile {
     display: none; // menjadi flex saat berada di mobile
   }
+  .menu-mobile {
+    display: flex;
+    flex-direction: column;
+    background-color: #021925;
+    width: 95%;
+    height: 100vh;
+    padding: 15px 25px;
+    transform: translateX(-100vw);
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.2s;
+    z-index: 400; // lebih tinggi daripada navbar
 
+    .x-icon-mobile {
+      svg {
+        width: 2rem;
+        cursor: pointer;
+      }
+    }
+
+    .menu-mobile-list {
+      display: flex;
+      flex-direction: column;
+      margin: 25px 0;
+
+      a {
+        color: #ffffff;
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+        font-weight: bold;
+        text-decoration: none;
+      }
+    }
+
+    .mobile-language {
+      padding: 25px 0;
+      border-top: 1px solid #113d53;
+
+      p {
+        color: #ffffff;
+      }
+
+      p::before {
+        content: "";
+        width: 2px;
+        height: 25px;
+        background-color: #f05e36;
+        transform: translateX(-25px);
+      }
+
+      p.current-language {
+        color: #f05e36;
+      }
+    }
+  }
   .navbar-nav {
     top: 0;
     left: 0;
@@ -628,41 +784,77 @@ $size1: 1.6rem;
       flex-direction: column;
       justify-content: center;
       text-align: center;
+      font-family: $butler;
+      height: 515px; // seharusnya 485px tetapi kurang rapi
       width: 100%;
-      border: 10px solid #f66f4933;
-      margin-bottom: 50px;
+      max-width: 370px;
+      // padding-bottom: 50px;
+      border: 4px solid #f66f4933;
+      margin: 0 auto 100px auto;
 
       .stamp {
-        padding: 25px 0;
+        padding: 25px 0 0 0;
 
         img {
-          width: 10rem;
+          width: 200px;
         }
       }
 
       form {
+        margin-top: 25px;
+
         .sectionEmpatBody {
-          padding: 0 12px;
+          padding: 0 15px 0 15px;
           line-height: 1.5rem;
 
           h2 {
-            font-size: 1.5rem;
-            letter-spacing: 0.2rem;
-            margin-bottom: 15px;
+            color: $color5;
+            font-family: "Minion";
+            font-size: 18px;
+            text-align: center;
+            font-weight: bold;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+            margin: 0 0 25px 0;
           }
 
           p.body-text {
-            color: $color3;
-            font-size: 0.8rem;
+            color: $color6;
+            font-size: 16px;
+            letter-spacing: -0.26px;
+            font-family: "IBM Plex Sans";
+            line-height: 24px;
           }
 
           .sectionEmpatTengah {
-            margin-top: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            width: fit-content;
+            margin: 50px auto 25px auto;
+
+            .mc-field-group,
+            .gdpr-mergeRow,
+            .envoyer {
+              margin: 0 30px;
+            }
 
             .mc-field-group {
+              width: 100%; // seharusnya 261 px tapi setelah diimplementasikan malah tidak rapi
+              height: 50px;
+              margin-bottom: 25px;
+              border-bottom: 1px solid $color2;
+
               input[type="email"] {
+                width: 100%;
+                text-align: center;
                 background-color: transparent;
                 border: transparent;
+                color: #363636;
+                font-family: "IBM Plex Sans";
+                font-size: 16px;
+                letter-spacing: -0.24px;
               }
 
               input[type="email"]:hover,
@@ -672,8 +864,11 @@ $size1: 1.6rem;
               }
 
               input::placeholder {
-                font-size: 0.8rem;
-                text-align: center;
+                font-size: 0.9rem;
+                color: #363636;
+                font-family: "IBM Plex Sans";
+                font-size: 16px;
+                letter-spacing: -0.24px;
               }
             }
 
@@ -681,9 +876,7 @@ $size1: 1.6rem;
               display: flex;
               justify-content: center;
               align-items: center;
-              margin-top: 25px;
-              padding-top: 25px;
-              border-top: 1px solid $color2;
+              width: 100%;
 
               .content__gdpr {
                 .mc_fieldset {
@@ -695,20 +888,28 @@ $size1: 1.6rem;
 
                   .text,
                   a.terms {
-                    font-size: 0.8rem;
-                    color: $colorLine;
+                    font-size: 14px;
+                    font-family: "IBM Plex Sans";
+                    color: $color5;
+                    letter-spacing: -0.24px;
                   }
                 }
               }
             }
 
             .envoyer {
-              margin: 25px 0;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-top: 25px;
 
               h6 {
-                color: $colorLine;
+                color: $color5;
                 text-transform: uppercase;
-                letter-spacing: 0.1rem;
+                font-size: 16px;
+                font-weight: 500;
+                letter-spacing: 1px;
+                font-family: "IBM Plex Sans";
               }
             }
           }
@@ -788,9 +989,64 @@ $size1: 1.6rem;
 }
 
 @media (min-width: 375px) and (max-width: 574.98px) {
-  .nav-mobile,
-  .menu-mobile {
+  .nav-mobile {
     display: none; // menjadi flex saat berada di mobile
+  }
+  .menu-mobile {
+    display: flex;
+    flex-direction: column;
+    background-color: #021925;
+    width: 95%;
+    height: 100vh;
+    padding: 15px 25px;
+    transform: translateX(-100vw);
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.2s;
+    z-index: 400; // lebih tinggi daripada navbar
+
+    .x-icon-mobile {
+      svg {
+        width: 2rem;
+        cursor: pointer;
+      }
+    }
+
+    .menu-mobile-list {
+      display: flex;
+      flex-direction: column;
+      margin: 25px 0;
+
+      a {
+        color: #ffffff;
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+        font-weight: bold;
+        text-decoration: none;
+      }
+    }
+
+    .mobile-language {
+      padding: 25px 0;
+      border-top: 1px solid #113d53;
+
+      p {
+        color: #ffffff;
+      }
+
+      p::before {
+        content: "";
+        width: 2px;
+        height: 25px;
+        background-color: #f05e36;
+        transform: translateX(-25px);
+      }
+
+      p.current-language {
+        color: #f05e36;
+      }
+    }
   }
 
   .container {
@@ -827,6 +1083,7 @@ $size1: 1.6rem;
       width: 90%;
       padding: 1.5rem;
       color: white;
+
       li {
         .nav-link {
           font-family: $ibmSemiBold;
@@ -988,41 +1245,80 @@ $size1: 1.6rem;
       flex-direction: column;
       justify-content: center;
       text-align: center;
+      font-family: $butler;
+      position: relative;
+      // height: 485px;
+      // width: 305px; // untuk ukuran layar mobile
       width: 100%;
+      max-width: 560px;
       border: 10px solid #f66f4933;
-      margin-bottom: 50px;
+      // padding-bottom: 50px;
+      margin: 0 auto 100px auto;
 
       .stamp {
-        padding: 25px 0;
+        padding: 25px;
 
         img {
-          width: 10rem;
+          width: 200px;
         }
       }
 
       form {
+        margin-top: 25px;
+
         .sectionEmpatBody {
-          padding: 0 12px;
+          padding: 0 25px 0 25px;
           line-height: 1.5rem;
 
           h2 {
-            font-size: 1.5rem;
-            letter-spacing: 0.2rem;
-            margin-bottom: 15px;
+            color: $color5;
+            font-family: "Minion";
+            font-size: 22px;
+            text-align: center;
+            font-weight: bold;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+            margin: 0 0 25px 0;
           }
 
           p.body-text {
-            color: $color3;
-            font-size: 0.8rem;
+            color: $color6;
+            font-size: 18px;
+            letter-spacing: -0.26px;
+            font-family: "IBM Plex Sans";
+            line-height: 24px;
           }
 
           .sectionEmpatTengah {
-            margin-top: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            width: fit-content;
+            margin: 50px auto 25px auto;
+            padding-bottom: 25px;
+
+            .mc-field-group,
+            .gdpr-mergeRow,
+            .envoyer {
+              margin: 0 30px;
+            }
 
             .mc-field-group {
+              width: 100%; // seharusnya 261 px tapi setelah diimplementasikan malah tidak rapi
+              height: 50px;
+              margin-bottom: 25px;
+              border-bottom: 1px solid $color2;
+
               input[type="email"] {
+                width: 100%;
+                text-align: center;
                 background-color: transparent;
                 border: transparent;
+                color: #363636;
+                font-family: "IBM Plex Sans";
+                font-size: 16px;
+                letter-spacing: -0.24px;
               }
 
               input[type="email"]:hover,
@@ -1032,8 +1328,11 @@ $size1: 1.6rem;
               }
 
               input::placeholder {
-                font-size: 0.8rem;
-                text-align: center;
+                font-size: 0.9rem;
+                color: #363636;
+                font-family: "IBM Plex Sans";
+                font-size: 16px;
+                letter-spacing: -0.24px;
               }
             }
 
@@ -1041,9 +1340,7 @@ $size1: 1.6rem;
               display: flex;
               justify-content: center;
               align-items: center;
-              margin-top: 25px;
-              padding-top: 25px;
-              border-top: 1px solid $color2;
+              width: 100%;
 
               .content__gdpr {
                 .mc_fieldset {
@@ -1055,20 +1352,28 @@ $size1: 1.6rem;
 
                   .text,
                   a.terms {
-                    font-size: 0.8rem;
-                    color: $colorLine;
+                    font-size: 14px;
+                    font-family: "IBM Plex Sans";
+                    color: $color5;
+                    letter-spacing: -0.24px;
                   }
                 }
               }
             }
 
             .envoyer {
-              margin: 25px 0;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-top: 25px;
 
               h6 {
-                color: $colorLine;
+                color: $color5;
                 text-transform: uppercase;
-                letter-spacing: 0.1rem;
+                font-size: 16px;
+                font-weight: 500;
+                letter-spacing: 1px;
+                font-family: "IBM Plex Sans";
               }
             }
           }
@@ -1148,9 +1453,64 @@ $size1: 1.6rem;
 }
 
 @media (min-width: 575px) and (max-width: 991.98px) {
-  .nav-mobile,
-  .menu-mobile {
+  .nav-mobile {
     display: none; // menjadi flex saat berada di mobile
+  }
+  .menu-mobile {
+    display: flex;
+    flex-direction: column;
+    background-color: #021925;
+    width: 95%;
+    height: 100vh;
+    padding: 15px 25px;
+    transform: translateX(-100vw);
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.2s;
+    z-index: 400; // lebih tinggi daripada navbar
+
+    .x-icon-mobile {
+      svg {
+        width: 2rem;
+        cursor: pointer;
+      }
+    }
+
+    .menu-mobile-list {
+      display: flex;
+      flex-direction: column;
+      margin: 25px 0;
+
+      a {
+        color: #ffffff;
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+        font-weight: bold;
+        text-decoration: none;
+      }
+    }
+
+    .mobile-language {
+      padding: 25px 0;
+      border-top: 1px solid #113d53;
+
+      p {
+        color: #ffffff;
+      }
+
+      p::before {
+        content: "";
+        width: 2px;
+        height: 25px;
+        background-color: #f05e36;
+        transform: translateX(-25px);
+      }
+
+      p.current-language {
+        color: #f05e36;
+      }
+    }
   }
 
   .container {
@@ -1348,40 +1708,47 @@ $size1: 1.6rem;
       flex-direction: column;
       justify-content: center;
       text-align: center;
+      font-family: $butler;
       position: relative;
-      width: 80%;
+      // height: 485px;
+      // width: 305px; // untuk ukuran layar mobile
+      width: 90%;
+      max-width: 950px;
       border: 10px solid #f66f4933;
-      padding-bottom: 50px;
+      // padding-bottom: 50px;
       margin: 0 auto 100px auto;
 
       .stamp {
-        position: absolute;
-        top: 0;
-        right: 0;
         padding: 25px;
-        z-index: -1;
 
         img {
-          width: 10rem;
+          width: 250px;
         }
       }
 
       form {
+        margin-top: 25px;
+
         .sectionEmpatBody {
-          padding: 75px 12px 0 12px;
+          padding: 0 12px 0 12px;
           line-height: 1.5rem;
 
           h2 {
-            font-size: 1.5rem;
+            color: $color5;
+            font-size: 26px;
+            font-family: "Minion";
+            font-weight: bold;
             text-transform: uppercase;
-            letter-spacing: 0.4rem;
-            margin: 50px 0 25px 0;
+            letter-spacing: 10.4px;
+            margin: 0 0 25px 0;
           }
 
           p.body-text {
-            color: $color3;
-            font-size: 1rem;
+            color: $color6;
+            font-size: 20px;
+            font-family: "IBM Plex Sans";
             line-height: 2rem;
+            letter-spacing: -0.32px;
           }
 
           .sectionEmpatTengah {
@@ -1390,23 +1757,32 @@ $size1: 1.6rem;
             justify-content: space-evenly;
             align-items: center;
             width: fit-content;
-            margin: 50px auto 0 auto;
-            padding-bottom: 15px;
+            margin: 50px auto 25px auto;
+            padding-bottom: 25px;
             border-bottom: 1px solid $color2;
 
             .mc-field-group,
             .gdpr-mergeRow,
             .envoyer {
-              margin: 0 25px;
+              margin: 0 30px;
             }
 
             .mc-field-group {
-              width: 100%;
+              width: 100%; // seharusnya 261 px tapi setelah diimplementasikan malah tidak rapi
+              height: 50px;
               margin-bottom: 25px;
+              border-bottom: 1px solid $color2;
 
               input[type="email"] {
+                width: 100%;
+                text-align: center;
                 background-color: transparent;
                 border: transparent;
+                font-size: 0.9rem;
+                color: #363636;
+                font-family: "IBM Plex Sans";
+                font-size: 16px;
+                letter-spacing: -0.24px;
               }
 
               input[type="email"]:hover,
@@ -1417,6 +1793,10 @@ $size1: 1.6rem;
 
               input::placeholder {
                 font-size: 0.9rem;
+                color: #363636;
+                font-family: "IBM Plex Sans";
+                font-size: 16px;
+                letter-spacing: -0.24px;
               }
             }
 
@@ -1435,8 +1815,10 @@ $size1: 1.6rem;
 
                   .text,
                   a.terms {
-                    font-size: 0.8rem;
-                    color: $colorLine;
+                    font-size: 16px;
+                    font-family: "IBM Plex Sans";
+                    color: $color5;
+                    letter-spacing: -0.24px;
                   }
                 }
               }
@@ -1446,12 +1828,14 @@ $size1: 1.6rem;
               display: flex;
               justify-content: center;
               align-items: center;
-              transform: translateY(3px);
+              transform: translateY(5px);
 
               h6 {
-                color: $colorLine;
+                color: $color5;
                 text-transform: uppercase;
-                letter-spacing: 0.1rem;
+                letter-spacing: 1px;
+                font-family: "IBM Plex Sans";
+                font-weight: 500;
               }
             }
           }
@@ -1723,8 +2107,11 @@ $size1: 1.6rem;
       flex-direction: column;
       justify-content: center;
       text-align: center;
+      font-family: $butler;
       position: relative;
-      width: 80%;
+      height: 403px;
+      width: 90%;
+      max-width: 950px;
       border: 10px solid #f66f4933;
       padding-bottom: 50px;
       margin: 0 auto 100px auto;
@@ -1734,10 +2121,9 @@ $size1: 1.6rem;
         top: 0;
         right: 0;
         padding: 25px;
-        z-index: -1;
 
         img {
-          width: 15rem;
+          width: 18rem;
         }
       }
 
@@ -1747,16 +2133,21 @@ $size1: 1.6rem;
           line-height: 1.5rem;
 
           h2 {
-            font-size: 1.5rem;
+            color: $color5;
+            font-size: 26px;
+            font-family: "Minion";
+            font-weight: bold;
             text-transform: uppercase;
-            letter-spacing: 0.4rem;
+            letter-spacing: 10.4px;
             margin: 50px 0 25px 0;
           }
 
           p.body-text {
-            color: $color3;
-            font-size: 1.2rem;
+            color: $color6;
+            font-size: 22px;
+            font-family: "IBM Plex Sans";
             line-height: 2rem;
+            letter-spacing: -0.32px;
           }
 
           .sectionEmpatTengah {
@@ -1764,20 +2155,29 @@ $size1: 1.6rem;
             justify-content: space-evenly;
             align-items: center;
             width: fit-content;
-            margin: 50px auto 0 auto;
-            padding-bottom: 15px;
+            margin: 50px auto 25px auto;
+            padding-bottom: 25px;
             border-bottom: 1px solid $color2;
 
             .mc-field-group,
             .gdpr-mergeRow,
             .envoyer {
-              margin: 0 25px;
+              margin: 0 30px;
             }
 
             .mc-field-group {
+              width: 200px; // seharusnya 261 px tapi setelah diimplementasikan malah tidak rapi
+              height: 30px;
+
               input[type="email"] {
+                width: 100%;
                 background-color: transparent;
                 border: transparent;
+                font-size: 0.9rem;
+                color: #363636;
+                font-family: "IBM Plex Sans";
+                font-size: 16px;
+                letter-spacing: -0.24px;
               }
 
               input[type="email"]:hover,
@@ -1788,6 +2188,10 @@ $size1: 1.6rem;
 
               input::placeholder {
                 font-size: 0.9rem;
+                color: #363636;
+                font-family: "IBM Plex Sans";
+                font-size: 16px;
+                letter-spacing: -0.24px;
               }
             }
 
@@ -1806,8 +2210,10 @@ $size1: 1.6rem;
 
                   .text,
                   a.terms {
-                    font-size: 0.9rem;
-                    color: $colorLine;
+                    font-size: 16px;
+                    font-family: "IBM Plex Sans";
+                    color: $color5;
+                    letter-spacing: -0.24px;
                   }
                 }
               }
@@ -1820,9 +2226,11 @@ $size1: 1.6rem;
               transform: translateY(3px);
 
               h6 {
-                color: $colorLine;
+                color: $color5;
                 text-transform: uppercase;
-                letter-spacing: 0.1rem;
+                letter-spacing: 1px;
+                font-family: "IBM Plex Sans";
+                font-weight: 500;
               }
             }
           }
@@ -2153,9 +2561,11 @@ $size1: 1.6rem;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    font-family: $butler;
     position: relative;
     transform: translateX(2vw);
-    width: 80%;
+    height: 403px;
+    width: 1073px;
     border: 10px solid #f66f4933;
     padding-bottom: 50px;
     margin: 0 auto 100px auto;
@@ -2177,16 +2587,21 @@ $size1: 1.6rem;
         line-height: 1.5rem;
 
         h2 {
-          font-size: 1.5rem;
+          color: $color5;
+          font-size: 26px;
+          font-family: "Minion";
+          font-weight: bold;
           text-transform: uppercase;
-          letter-spacing: 0.4rem;
+          letter-spacing: 10.4px;
           margin: 50px 0 25px 0;
         }
 
         p.body-text {
-          color: $color3;
-          font-size: 1.2rem;
+          color: $color6;
+          font-size: 22px;
+          font-family: "IBM Plex Sans";
           line-height: 2rem;
+          letter-spacing: -0.32px;
         }
 
         .sectionEmpatTengah {
@@ -2194,8 +2609,8 @@ $size1: 1.6rem;
           justify-content: space-evenly;
           align-items: center;
           width: fit-content;
-          margin: 50px auto 0 auto;
-          padding-bottom: 15px;
+          margin: 50px auto 25px auto;
+          padding-bottom: 25px;
           border-bottom: 1px solid $color2;
 
           .mc-field-group,
@@ -2205,9 +2620,18 @@ $size1: 1.6rem;
           }
 
           .mc-field-group {
+            width: 200px; // seharusnya 261 px tapi setelah diimplementasikan malah tidak rapi
+            height: 30px;
+
             input[type="email"] {
+              width: 100%;
               background-color: transparent;
               border: transparent;
+              font-size: 0.9rem;
+              color: #363636;
+              font-family: "IBM Plex Sans";
+              font-size: 16px;
+              letter-spacing: -0.24px;
             }
 
             input[type="email"]:hover,
@@ -2218,6 +2642,10 @@ $size1: 1.6rem;
 
             input::placeholder {
               font-size: 0.9rem;
+              color: #363636;
+              font-family: "IBM Plex Sans";
+              font-size: 16px;
+              letter-spacing: -0.24px;
             }
           }
 
@@ -2236,8 +2664,10 @@ $size1: 1.6rem;
 
                 .text,
                 a.terms {
-                  font-size: 0.9rem;
-                  color: $colorLine;
+                  font-size: 16px;
+                  font-family: "IBM Plex Sans";
+                  color: $color5;
+                  letter-spacing: -0.24px;
                 }
               }
             }
@@ -2250,9 +2680,11 @@ $size1: 1.6rem;
             transform: translateY(3px);
 
             h6 {
-              color: $colorLine;
+              color: $color5;
               text-transform: uppercase;
-              letter-spacing: 0.1rem;
+              letter-spacing: 1px;
+              font-family: "IBM Plex Sans";
+              font-weight: 500;
             }
           }
         }

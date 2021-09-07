@@ -51,9 +51,68 @@
 }
 
 @media (max-width: 319.98px) {
-  .nav-mobile,
-  .menu-mobile {
+  .nav-mobile {
     display: none;
+  }
+  .menu-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #021925;
+    width: 95%;
+    height: 100vh;
+    padding: 15px 25px;
+    -webkit-transform: translateX(-100vw);
+            transform: translateX(-100vw);
+    position: fixed;
+    top: 0;
+    left: 0;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    z-index: 400;
+  }
+  .menu-mobile .x-icon-mobile svg {
+    width: 2rem;
+    cursor: pointer;
+  }
+  .menu-mobile .menu-mobile-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 25px 0;
+  }
+  .menu-mobile .menu-mobile-list a {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .menu-mobile .mobile-language {
+    padding: 25px 0;
+    border-top: 1px solid #113d53;
+  }
+  .menu-mobile .mobile-language p {
+    color: #ffffff;
+  }
+  .menu-mobile .mobile-language p::before {
+    content: "";
+    width: 2px;
+    height: 25px;
+    background-color: #f05e36;
+    -webkit-transform: translateX(-25px);
+            transform: translateX(-25px);
+  }
+  .menu-mobile .mobile-language p.current-language {
+    color: #f05e36;
   }
   .container {
     margin-left: 0;
@@ -247,35 +306,82 @@
         -ms-flex-pack: center;
             justify-content: center;
     text-align: center;
+    font-family: "Butler";
+    height: 515px;
     width: 100%;
-    border: 10px solid #f66f4933;
-    margin-bottom: 50px;
+    max-width: 370px;
+    border: 4px solid #f66f4933;
+    margin: 0 auto 100px auto;
   }
   .container .sectionEmpat .stamp {
-    padding: 25px 0;
+    padding: 25px 0 0 0;
   }
   .container .sectionEmpat .stamp img {
-    width: 10rem;
+    width: 200px;
+  }
+  .container .sectionEmpat form {
+    margin-top: 25px;
   }
   .container .sectionEmpat form .sectionEmpatBody {
-    padding: 0 12px;
+    padding: 0 15px 0 15px;
     line-height: 1.5rem;
   }
   .container .sectionEmpat form .sectionEmpatBody h2 {
-    font-size: 1.5rem;
-    letter-spacing: 0.2rem;
-    margin-bottom: 15px;
+    color: #002f39;
+    font-family: "Minion";
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 0 0 25px 0;
   }
   .container .sectionEmpat form .sectionEmpatBody p.body-text {
-    color: #f05e36;
-    font-size: 0.8rem;
+    color: #f66e49;
+    font-size: 16px;
+    letter-spacing: -0.26px;
+    font-family: "IBM Plex Sans";
+    line-height: 24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah {
-    margin-top: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 50px auto 25px auto;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer {
+    margin: 0 30px;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #e5e5e5;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"] {
+    width: 100%;
+    text-align: center;
     background-color: transparent;
     border: transparent;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:hover,
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:focus,
@@ -283,20 +389,32 @@
     outline: #ffffff;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-webkit-input-placeholder {
-    font-size: 0.8rem;
-    text-align: center;
+    font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input:-ms-input-placeholder {
-    font-size: 0.8rem;
-    text-align: center;
+    font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-ms-input-placeholder {
-    font-size: 0.8rem;
-    text-align: center;
+    font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::placeholder {
-    font-size: 0.8rem;
-    text-align: center;
+    font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow {
     display: -webkit-box;
@@ -308,9 +426,10 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 25px;
-    padding-top: 25px;
-    border-top: 1px solid #e5e5e5;
+    width: 100%;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr {
+    width: 100%;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset input,
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset .text,
@@ -319,16 +438,30 @@
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset .text,
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset a.terms {
-    font-size: 0.8rem;
-    color: #113d53;
+    font-size: 14px;
+    font-family: "IBM Plex Sans";
+    color: #002f39;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer {
-    margin: 25px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 25px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer h6 {
-    color: #113d53;
+    color: #002f39;
     text-transform: uppercase;
-    letter-spacing: 0.1rem;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: "IBM Plex Sans";
   }
   .Footer {
     margin-top: 1.875rem;
@@ -407,9 +540,68 @@
 }
 
 @media (min-width: 320px) and (max-width: 374.98px) {
-  .nav-mobile,
-  .menu-mobile {
+  .nav-mobile {
     display: none;
+  }
+  .menu-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #021925;
+    width: 95%;
+    height: 100vh;
+    padding: 15px 25px;
+    -webkit-transform: translateX(-100vw);
+            transform: translateX(-100vw);
+    position: fixed;
+    top: 0;
+    left: 0;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    z-index: 400;
+  }
+  .menu-mobile .x-icon-mobile svg {
+    width: 2rem;
+    cursor: pointer;
+  }
+  .menu-mobile .menu-mobile-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 25px 0;
+  }
+  .menu-mobile .menu-mobile-list a {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .menu-mobile .mobile-language {
+    padding: 25px 0;
+    border-top: 1px solid #113d53;
+  }
+  .menu-mobile .mobile-language p {
+    color: #ffffff;
+  }
+  .menu-mobile .mobile-language p::before {
+    content: "";
+    width: 2px;
+    height: 25px;
+    background-color: #f05e36;
+    -webkit-transform: translateX(-25px);
+            transform: translateX(-25px);
+  }
+  .menu-mobile .mobile-language p.current-language {
+    color: #f05e36;
   }
   .navbar-nav {
     top: 0;
@@ -602,35 +794,82 @@
         -ms-flex-pack: center;
             justify-content: center;
     text-align: center;
+    font-family: "Butler";
+    height: 515px;
     width: 100%;
-    border: 10px solid #f66f4933;
-    margin-bottom: 50px;
+    max-width: 370px;
+    border: 4px solid #f66f4933;
+    margin: 0 auto 100px auto;
   }
   .container .sectionEmpat .stamp {
-    padding: 25px 0;
+    padding: 25px 0 0 0;
   }
   .container .sectionEmpat .stamp img {
-    width: 10rem;
+    width: 200px;
+  }
+  .container .sectionEmpat form {
+    margin-top: 25px;
   }
   .container .sectionEmpat form .sectionEmpatBody {
-    padding: 0 12px;
+    padding: 0 15px 0 15px;
     line-height: 1.5rem;
   }
   .container .sectionEmpat form .sectionEmpatBody h2 {
-    font-size: 1.5rem;
-    letter-spacing: 0.2rem;
-    margin-bottom: 15px;
+    color: #002f39;
+    font-family: "Minion";
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    margin: 0 0 25px 0;
   }
   .container .sectionEmpat form .sectionEmpatBody p.body-text {
-    color: #f05e36;
-    font-size: 0.8rem;
+    color: #f66e49;
+    font-size: 16px;
+    letter-spacing: -0.26px;
+    font-family: "IBM Plex Sans";
+    line-height: 24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah {
-    margin-top: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 50px auto 25px auto;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer {
+    margin: 0 30px;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #e5e5e5;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"] {
+    width: 100%;
+    text-align: center;
     background-color: transparent;
     border: transparent;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:hover,
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:focus,
@@ -638,20 +877,32 @@
     outline: #ffffff;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-webkit-input-placeholder {
-    font-size: 0.8rem;
-    text-align: center;
+    font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input:-ms-input-placeholder {
-    font-size: 0.8rem;
-    text-align: center;
+    font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-ms-input-placeholder {
-    font-size: 0.8rem;
-    text-align: center;
+    font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::placeholder {
-    font-size: 0.8rem;
-    text-align: center;
+    font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow {
     display: -webkit-box;
@@ -663,9 +914,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 25px;
-    padding-top: 25px;
-    border-top: 1px solid #e5e5e5;
+    width: 100%;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset input,
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset .text,
@@ -674,16 +923,30 @@
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset .text,
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset a.terms {
-    font-size: 0.8rem;
-    color: #113d53;
+    font-size: 14px;
+    font-family: "IBM Plex Sans";
+    color: #002f39;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer {
-    margin: 25px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 25px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer h6 {
-    color: #113d53;
+    color: #002f39;
     text-transform: uppercase;
-    letter-spacing: 0.1rem;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: "IBM Plex Sans";
   }
   .Footer {
     margin-top: 1.875rem;
@@ -762,9 +1025,68 @@
 }
 
 @media (min-width: 375px) and (max-width: 574.98px) {
-  .nav-mobile,
-  .menu-mobile {
+  .nav-mobile {
     display: none;
+  }
+  .menu-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #021925;
+    width: 95%;
+    height: 100vh;
+    padding: 15px 25px;
+    -webkit-transform: translateX(-100vw);
+            transform: translateX(-100vw);
+    position: fixed;
+    top: 0;
+    left: 0;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    z-index: 400;
+  }
+  .menu-mobile .x-icon-mobile svg {
+    width: 2rem;
+    cursor: pointer;
+  }
+  .menu-mobile .menu-mobile-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 25px 0;
+  }
+  .menu-mobile .menu-mobile-list a {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .menu-mobile .mobile-language {
+    padding: 25px 0;
+    border-top: 1px solid #113d53;
+  }
+  .menu-mobile .mobile-language p {
+    color: #ffffff;
+  }
+  .menu-mobile .mobile-language p::before {
+    content: "";
+    width: 2px;
+    height: 25px;
+    background-color: #f05e36;
+    -webkit-transform: translateX(-25px);
+            transform: translateX(-25px);
+  }
+  .menu-mobile .mobile-language p.current-language {
+    color: #f05e36;
   }
   .container {
     margin-left: 0;
@@ -957,35 +1279,83 @@
         -ms-flex-pack: center;
             justify-content: center;
     text-align: center;
+    font-family: "Butler";
+    position: relative;
     width: 100%;
+    max-width: 560px;
     border: 10px solid #f66f4933;
-    margin-bottom: 50px;
+    margin: 0 auto 100px auto;
   }
   .container .sectionEmpat .stamp {
-    padding: 25px 0;
+    padding: 25px;
   }
   .container .sectionEmpat .stamp img {
-    width: 10rem;
+    width: 200px;
+  }
+  .container .sectionEmpat form {
+    margin-top: 25px;
   }
   .container .sectionEmpat form .sectionEmpatBody {
-    padding: 0 12px;
+    padding: 0 25px 0 25px;
     line-height: 1.5rem;
   }
   .container .sectionEmpat form .sectionEmpatBody h2 {
-    font-size: 1.5rem;
-    letter-spacing: 0.2rem;
-    margin-bottom: 15px;
+    color: #002f39;
+    font-family: "Minion";
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    margin: 0 0 25px 0;
   }
   .container .sectionEmpat form .sectionEmpatBody p.body-text {
-    color: #f05e36;
-    font-size: 0.8rem;
+    color: #f66e49;
+    font-size: 18px;
+    letter-spacing: -0.26px;
+    font-family: "IBM Plex Sans";
+    line-height: 24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah {
-    margin-top: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 50px auto 25px auto;
+    padding-bottom: 25px;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow,
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer {
+    margin: 0 30px;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #e5e5e5;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"] {
+    width: 100%;
+    text-align: center;
     background-color: transparent;
     border: transparent;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:hover,
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:focus,
@@ -993,20 +1363,32 @@
     outline: #ffffff;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-webkit-input-placeholder {
-    font-size: 0.8rem;
-    text-align: center;
+    font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input:-ms-input-placeholder {
-    font-size: 0.8rem;
-    text-align: center;
+    font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-ms-input-placeholder {
-    font-size: 0.8rem;
-    text-align: center;
+    font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::placeholder {
-    font-size: 0.8rem;
-    text-align: center;
+    font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow {
     display: -webkit-box;
@@ -1018,9 +1400,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 25px;
-    padding-top: 25px;
-    border-top: 1px solid #e5e5e5;
+    width: 100%;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset input,
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset .text,
@@ -1029,16 +1409,30 @@
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset .text,
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset a.terms {
-    font-size: 0.8rem;
-    color: #113d53;
+    font-size: 14px;
+    font-family: "IBM Plex Sans";
+    color: #002f39;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer {
-    margin: 25px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 25px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer h6 {
-    color: #113d53;
+    color: #002f39;
     text-transform: uppercase;
-    letter-spacing: 0.1rem;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: "IBM Plex Sans";
   }
   .Footer {
     margin-top: 1.875rem;
@@ -1117,9 +1511,68 @@
 }
 
 @media (min-width: 575px) and (max-width: 991.98px) {
-  .nav-mobile,
-  .menu-mobile {
+  .nav-mobile {
     display: none;
+  }
+  .menu-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #021925;
+    width: 95%;
+    height: 100vh;
+    padding: 15px 25px;
+    -webkit-transform: translateX(-100vw);
+            transform: translateX(-100vw);
+    position: fixed;
+    top: 0;
+    left: 0;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    z-index: 400;
+  }
+  .menu-mobile .x-icon-mobile svg {
+    width: 2rem;
+    cursor: pointer;
+  }
+  .menu-mobile .menu-mobile-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 25px 0;
+  }
+  .menu-mobile .menu-mobile-list a {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .menu-mobile .mobile-language {
+    padding: 25px 0;
+    border-top: 1px solid #113d53;
+  }
+  .menu-mobile .mobile-language p {
+    color: #ffffff;
+  }
+  .menu-mobile .mobile-language p::before {
+    content: "";
+    width: 2px;
+    height: 25px;
+    background-color: #f05e36;
+    -webkit-transform: translateX(-25px);
+            transform: translateX(-25px);
+  }
+  .menu-mobile .mobile-language p.current-language {
+    color: #f05e36;
   }
   .container {
     margin-left: 0;
@@ -1307,36 +1760,41 @@
         -ms-flex-pack: center;
             justify-content: center;
     text-align: center;
+    font-family: "Butler";
     position: relative;
-    width: 80%;
+    width: 90%;
+    max-width: 950px;
     border: 10px solid #f66f4933;
-    padding-bottom: 50px;
     margin: 0 auto 100px auto;
   }
   .container .sectionEmpat .stamp {
-    position: absolute;
-    top: 0;
-    right: 0;
     padding: 25px;
-    z-index: -1;
   }
   .container .sectionEmpat .stamp img {
-    width: 10rem;
+    width: 250px;
+  }
+  .container .sectionEmpat form {
+    margin-top: 25px;
   }
   .container .sectionEmpat form .sectionEmpatBody {
-    padding: 75px 12px 0 12px;
+    padding: 0 12px 0 12px;
     line-height: 1.5rem;
   }
   .container .sectionEmpat form .sectionEmpatBody h2 {
-    font-size: 1.5rem;
+    color: #002f39;
+    font-size: 26px;
+    font-family: "Minion";
+    font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 0.4rem;
-    margin: 50px 0 25px 0;
+    letter-spacing: 10.4px;
+    margin: 0 0 25px 0;
   }
   .container .sectionEmpat form .sectionEmpatBody p.body-text {
-    color: #f05e36;
-    font-size: 1rem;
+    color: #f66e49;
+    font-size: 20px;
+    font-family: "IBM Plex Sans";
     line-height: 2rem;
+    letter-spacing: -0.32px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah {
     display: -webkit-box;
@@ -1353,22 +1811,31 @@
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
-    margin: 50px auto 0 auto;
-    padding-bottom: 15px;
+    margin: 50px auto 25px auto;
+    padding-bottom: 25px;
     border-bottom: 1px solid #e5e5e5;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group,
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow,
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer {
-    margin: 0 25px;
+    margin: 0 30px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group {
     width: 100%;
+    height: 50px;
     margin-bottom: 25px;
+    border-bottom: 1px solid #e5e5e5;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"] {
+    width: 100%;
+    text-align: center;
     background-color: transparent;
     border: transparent;
+    font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:hover,
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:focus,
@@ -1377,15 +1844,31 @@
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-webkit-input-placeholder {
     font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input:-ms-input-placeholder {
     font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-ms-input-placeholder {
     font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::placeholder {
     font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow {
     display: -webkit-box;
@@ -1405,8 +1888,10 @@
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset .text,
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset a.terms {
-    font-size: 0.8rem;
-    color: #113d53;
+    font-size: 16px;
+    font-family: "IBM Plex Sans";
+    color: #002f39;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer {
     display: -webkit-box;
@@ -1418,13 +1903,15 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-transform: translateY(3px);
-            transform: translateY(3px);
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer h6 {
-    color: #113d53;
+    color: #002f39;
     text-transform: uppercase;
-    letter-spacing: 0.1rem;
+    letter-spacing: 1px;
+    font-family: "IBM Plex Sans";
+    font-weight: 500;
   }
   .Footer {
     margin-top: 1.875rem;
@@ -1693,8 +2180,11 @@
         -ms-flex-pack: center;
             justify-content: center;
     text-align: center;
+    font-family: "Butler";
     position: relative;
-    width: 80%;
+    height: 403px;
+    width: 90%;
+    max-width: 950px;
     border: 10px solid #f66f4933;
     padding-bottom: 50px;
     margin: 0 auto 100px auto;
@@ -1704,25 +2194,29 @@
     top: 0;
     right: 0;
     padding: 25px;
-    z-index: -1;
   }
   .container .sectionEmpat .stamp img {
-    width: 15rem;
+    width: 18rem;
   }
   .container .sectionEmpat form .sectionEmpatBody {
     padding: 50px 12px 0 12px;
     line-height: 1.5rem;
   }
   .container .sectionEmpat form .sectionEmpatBody h2 {
-    font-size: 1.5rem;
+    color: #002f39;
+    font-size: 26px;
+    font-family: "Minion";
+    font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 0.4rem;
+    letter-spacing: 10.4px;
     margin: 50px 0 25px 0;
   }
   .container .sectionEmpat form .sectionEmpatBody p.body-text {
-    color: #f05e36;
-    font-size: 1.2rem;
+    color: #f66e49;
+    font-size: 22px;
+    font-family: "IBM Plex Sans";
     line-height: 2rem;
+    letter-spacing: -0.32px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah {
     display: -webkit-box;
@@ -1737,18 +2231,28 @@
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
-    margin: 50px auto 0 auto;
-    padding-bottom: 15px;
+    margin: 50px auto 25px auto;
+    padding-bottom: 25px;
     border-bottom: 1px solid #e5e5e5;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group,
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow,
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer {
-    margin: 0 25px;
+    margin: 0 30px;
+  }
+  .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group {
+    width: 200px;
+    height: 30px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"] {
+    width: 100%;
     background-color: transparent;
     border: transparent;
+    font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:hover,
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:focus,
@@ -1757,15 +2261,31 @@
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-webkit-input-placeholder {
     font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input:-ms-input-placeholder {
     font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-ms-input-placeholder {
     font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::placeholder {
     font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow {
     display: -webkit-box;
@@ -1785,8 +2305,10 @@
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset .text,
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset a.terms {
-    font-size: 0.9rem;
-    color: #113d53;
+    font-size: 16px;
+    font-family: "IBM Plex Sans";
+    color: #002f39;
+    letter-spacing: -0.24px;
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer {
     display: -webkit-box;
@@ -1802,9 +2324,11 @@
             transform: translateY(3px);
   }
   .container .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer h6 {
-    color: #113d53;
+    color: #002f39;
     text-transform: uppercase;
-    letter-spacing: 0.1rem;
+    letter-spacing: 1px;
+    font-family: "IBM Plex Sans";
+    font-weight: 500;
   }
   .Footer {
     margin-top: 1.875rem;
@@ -2131,10 +2655,12 @@
         -ms-flex-pack: center;
             justify-content: center;
     text-align: center;
+    font-family: "Butler";
     position: relative;
     -webkit-transform: translateX(2vw);
             transform: translateX(2vw);
-    width: 80%;
+    height: 403px;
+    width: 1073px;
     border: 10px solid #f66f4933;
     padding-bottom: 50px;
     margin: 0 auto 100px auto;
@@ -2153,15 +2679,20 @@
     line-height: 1.5rem;
   }
   .sectionEmpat form .sectionEmpatBody h2 {
-    font-size: 1.5rem;
+    color: #002f39;
+    font-size: 26px;
+    font-family: "Minion";
+    font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 0.4rem;
+    letter-spacing: 10.4px;
     margin: 50px 0 25px 0;
   }
   .sectionEmpat form .sectionEmpatBody p.body-text {
-    color: #f05e36;
-    font-size: 1.2rem;
+    color: #f66e49;
+    font-size: 22px;
+    font-family: "IBM Plex Sans";
     line-height: 2rem;
+    letter-spacing: -0.32px;
   }
   .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah {
     display: -webkit-box;
@@ -2176,8 +2707,8 @@
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
-    margin: 50px auto 0 auto;
-    padding-bottom: 15px;
+    margin: 50px auto 25px auto;
+    padding-bottom: 25px;
     border-bottom: 1px solid #e5e5e5;
   }
   .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group,
@@ -2185,9 +2716,19 @@
   .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer {
     margin: 0 50px;
   }
+  .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group {
+    width: 200px;
+    height: 30px;
+  }
   .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"] {
+    width: 100%;
     background-color: transparent;
     border: transparent;
+    font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:hover,
   .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input[type="email"]:focus,
@@ -2196,15 +2737,31 @@
   }
   .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-webkit-input-placeholder {
     font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input:-ms-input-placeholder {
     font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::-ms-input-placeholder {
     font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .mc-field-group input::placeholder {
     font-size: 0.9rem;
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
   }
   .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow {
     display: -webkit-box;
@@ -2224,8 +2781,10 @@
   }
   .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset .text,
   .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .gdpr-mergeRow .content__gdpr .mc_fieldset a.terms {
-    font-size: 0.9rem;
-    color: #113d53;
+    font-size: 16px;
+    font-family: "IBM Plex Sans";
+    color: #002f39;
+    letter-spacing: -0.24px;
   }
   .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer {
     display: -webkit-box;
@@ -2241,9 +2800,11 @@
             transform: translateY(3px);
   }
   .sectionEmpat form .sectionEmpatBody .sectionEmpatTengah .envoyer h6 {
-    color: #113d53;
+    color: #002f39;
     text-transform: uppercase;
-    letter-spacing: 0.1rem;
+    letter-spacing: 1px;
+    font-family: "IBM Plex Sans";
+    font-weight: 500;
   }
   .Footer {
     width: 100%;
