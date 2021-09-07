@@ -258,10 +258,11 @@ $size1: 1.6rem;
       align-items: center;
       margin-top: 50px;
       padding: 50px 0;
-      border-top: 1px solid $color2;
+      border-top: 2px solid #e3e3e3;
 
       .sectionDuaKiri {
-        border-bottom: 1px solid $color2;
+        width: 100%;
+        border-bottom: 2px solid #e3e3e3;
 
         .detailContact {
           margin-bottom: 50px;
@@ -289,6 +290,7 @@ $size1: 1.6rem;
 
       .sectionDuaKanan {
         margin-top: 25px;
+
         .linkMenujuLinkedln {
           display: flex;
 
@@ -711,11 +713,11 @@ $size1: 1.6rem;
       align-items: center;
       margin-top: 50px;
       padding: 50px 0;
-      border-top: 1px solid $color2;
+      border-top: 2px solid #e3e3e3;
 
       .sectionDuaKiri {
-        transform: translateX(-25px);
-        border-bottom: 1px solid $color2;
+        width: 100%;
+        border-bottom: 2px solid #e3e3e3;
 
         .detailContact {
           margin-bottom: 50px;
@@ -1164,11 +1166,12 @@ $size1: 1.6rem;
       align-items: center;
       margin-top: 50px;
       padding: 50px 0;
-      border-top: 1px solid $color2;
+      border-top: 2px solid #e3e3e3;
 
       .sectionDuaKiri {
-        transform: translateX(-50px);
-        border-bottom: 1px solid $color2;
+        width: 100%;
+        border-bottom: 2px solid #e3e3e3;
+        padding: 0 8%;
 
         .detailContact {
           margin-bottom: 50px;
@@ -1627,12 +1630,11 @@ $size1: 1.6rem;
       justify-content: space-around;
       align-items: flex-end;
       margin-top: 50px;
-      padding: 50px 0;
-      border-top: 1px solid $color2;
+      padding: 50px 0 25px 0;
+      border-top: 2px solid $color2;
+      border-bottom: 2px solid $color2;
 
       .sectionDuaKiri {
-        border-bottom: 1px solid $color2;
-
         .detailContact {
           margin-bottom: 50px;
 
@@ -1692,13 +1694,10 @@ $size1: 1.6rem;
       text-align: center;
       font-family: $butler;
       position: relative;
-      // height: 485px;
-      // width: 305px; // untuk ukuran layar mobile
       width: 90%;
       max-width: 950px;
-      border: 10px solid #f66f4933;
-      // padding-bottom: 50px;
-      margin: 0 auto 100px auto;
+      border: 5px solid #f66f4933;
+      margin: 50px auto 100px auto;
 
       .stamp {
         padding: 25px;
@@ -2020,12 +2019,12 @@ $size1: 1.6rem;
       justify-content: space-around;
       align-items: flex-end;
       margin-top: 50px;
-      padding: 50px 0;
-      border-top: 1px solid $color2;
+      padding: 100px 0 25px 0;
+      border-top: 2px solid #e3e3e3;
+      border-bottom: 2px solid #e3e3e3;
 
       .sectionDuaKiri {
         width: 40%;
-        border-bottom: 1px solid $color2;
 
         .detailContact {
           display: flex;
@@ -2096,7 +2095,7 @@ $size1: 1.6rem;
       max-width: 950px;
       border: 10px solid #f66f4933;
       padding-bottom: 50px;
-      margin: 0 auto 100px auto;
+      margin: 75px auto 100px auto;
 
       .stamp {
         position: absolute;
@@ -2471,9 +2470,9 @@ $size1: 1.6rem;
     justify-content: space-around;
     align-items: flex-end;
     margin-top: 50px;
-    padding: 50px 0;
-    border-top: 1px solid $color2;
-    border-bottom: 1px solid $color2;
+    padding: 100px 0 50px 0;
+    border-top: 2px solid #e3e3e3;
+    border-bottom: 2px solid #e3e3e3;
 
     .sectionDuaKiri {
       width: 50%;

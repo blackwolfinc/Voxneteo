@@ -243,10 +243,11 @@
             align-items: center;
     margin-top: 50px;
     padding: 50px 0;
-    border-top: 1px solid #e5e5e5;
+    border-top: 2px solid #e3e3e3;
   }
   .container .sectionDua .sectionDuaKiri {
-    border-bottom: 1px solid #e5e5e5;
+    width: 100%;
+    border-bottom: 2px solid #e3e3e3;
   }
   .container .sectionDua .sectionDuaKiri .detailContact {
     margin-bottom: 50px;
@@ -723,12 +724,11 @@
             align-items: center;
     margin-top: 50px;
     padding: 50px 0;
-    border-top: 1px solid #e5e5e5;
+    border-top: 2px solid #e3e3e3;
   }
   .container .sectionDua .sectionDuaKiri {
-    -webkit-transform: translateX(-25px);
-            transform: translateX(-25px);
-    border-bottom: 1px solid #e5e5e5;
+    width: 100%;
+    border-bottom: 2px solid #e3e3e3;
   }
   .container .sectionDua .sectionDuaKiri .detailContact {
     margin-bottom: 50px;
@@ -1201,12 +1201,12 @@
             align-items: center;
     margin-top: 50px;
     padding: 50px 0;
-    border-top: 1px solid #e5e5e5;
+    border-top: 2px solid #e3e3e3;
   }
   .container .sectionDua .sectionDuaKiri {
-    -webkit-transform: translateX(-50px);
-            transform: translateX(-50px);
-    border-bottom: 1px solid #e5e5e5;
+    width: 100%;
+    border-bottom: 2px solid #e3e3e3;
+    padding: 0 8%;
   }
   .container .sectionDua .sectionDuaKiri .detailContact {
     margin-bottom: 50px;
@@ -1683,11 +1683,9 @@
         -ms-flex-align: end;
             align-items: flex-end;
     margin-top: 50px;
-    padding: 50px 0;
-    border-top: 1px solid #e5e5e5;
-  }
-  .container .sectionDua .sectionDuaKiri {
-    border-bottom: 1px solid #e5e5e5;
+    padding: 50px 0 25px 0;
+    border-top: 2px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
   }
   .container .sectionDua .sectionDuaKiri .detailContact {
     margin-bottom: 50px;
@@ -1746,8 +1744,8 @@
     position: relative;
     width: 90%;
     max-width: 950px;
-    border: 10px solid #f66f4933;
-    margin: 0 auto 100px auto;
+    border: 5px solid #f66f4933;
+    margin: 50px auto 100px auto;
   }
   .container .sectionEmpat .stamp {
     padding: 25px;
@@ -2091,12 +2089,12 @@
         -ms-flex-align: end;
             align-items: flex-end;
     margin-top: 50px;
-    padding: 50px 0;
-    border-top: 1px solid #e5e5e5;
+    padding: 100px 0 25px 0;
+    border-top: 2px solid #e3e3e3;
+    border-bottom: 2px solid #e3e3e3;
   }
   .container .sectionDua .sectionDuaKiri {
     width: 40%;
-    border-bottom: 1px solid #e5e5e5;
   }
   .container .sectionDua .sectionDuaKiri .detailContact {
     display: -webkit-box;
@@ -2169,7 +2167,7 @@
     max-width: 950px;
     border: 10px solid #f66f4933;
     padding-bottom: 50px;
-    margin: 0 auto 100px auto;
+    margin: 75px auto 100px auto;
   }
   .container .sectionEmpat .stamp {
     position: absolute;
@@ -2563,9 +2561,9 @@
         -ms-flex-align: end;
             align-items: flex-end;
     margin-top: 50px;
-    padding: 50px 0;
-    border-top: 1px solid #e5e5e5;
-    border-bottom: 1px solid #e5e5e5;
+    padding: 100px 0 50px 0;
+    border-top: 2px solid #e3e3e3;
+    border-bottom: 2px solid #e3e3e3;
   }
   .sectionDua .sectionDuaKiri {
     width: 50%;
