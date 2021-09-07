@@ -1,3 +1,8 @@
+.container {
+  .navbar-nav {
+    z-index: 1;
+  }
+}
 .sectionBody {
   display: flex;
   margin-top: 4.6rem;
@@ -45,7 +50,6 @@
       .containerImage {
         position: relative;
         display: block;
-        z-index: -1;
         img {
           height: 320px;
           width: 320px;
@@ -126,44 +130,49 @@
   color: #f05e36;
   text-align: center;
   margin-top: -6rem;
+  position: relative;
   .icon-plus {
     filter: invert(56%) sepia(34%) saturate(6580%) hue-rotate(339deg)
       brightness(96%) contrast(96%);
     width: 24px;
     height: 24px;
+    cursor: pointer;
   }
   p {
     text-transform: uppercase;
     font-size: 0.75rem;
     line-height: 3.1rem;
     letter-spacing: 2px;
+    span {
+      cursor: pointer;
+    }
   }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 1184px) {
   .sectionAddActuals {
-    position: relative;
-    z-index: -1;
     margin-top: -1rem;
   }
   .sectionBody {
     margin-top: 2rem;
     display: block;
-    .containerCategories {
+    .containerCategoriesCornerBlur {
       position: relative;
-      z-index: -1;
-      overflow-x: scroll;
-      overflow-y: hidden;
-      white-space: nowrap;
-      &::after {
-        content: "";
-        position: absolute;
-        background: transparent;
-        background: linear-gradient(90deg, transparent 0%, white 100%);
+      div {
         right: 0;
         height: 60px;
         width: 20%;
+        z-index: 1;
+        position: absolute;
+        background: transparent;
+        background: linear-gradient(90deg, transparent 0%, white 100%);
       }
+    }
+    .containerCategories {
+      position: relative;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      white-space: nowrap;
 
       li {
         margin-right: 1rem;
@@ -209,6 +218,10 @@
   .sectionBody {
     .containerCategories {
       overflow-x: auto;
+    }
+    .containerCategoriesCornerBlur {
+      display: none;
+      visibility: hidden;
     }
   }
 }
