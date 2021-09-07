@@ -1,5 +1,5 @@
 .container .navbar-nav {
-  z-index: 1;
+  z-index: 2;
 }
 
 .sectionBody {
@@ -12,6 +12,7 @@
 .sectionBody .containerCategories {
   list-style: none;
   text-align: right;
+  font-family: IBM Plex Sans;
   padding: 0;
 }
 
@@ -26,6 +27,10 @@
 }
 
 .sectionBody .containerCategories li.active {
+  color: #f05e36;
+}
+
+.sectionBody .containerCategories li:hover {
   color: #f05e36;
 }
 
@@ -68,7 +73,6 @@
 }
 
 .sectionBody .containerCards .item .containerImage img {
-  height: 320px;
   width: 320px;
 }
 
@@ -84,15 +88,16 @@
 
 .sectionBody .containerCards .item .date {
   color: #0a2939;
-  font-family: Minion;
   font-size: 3.4rem;
   line-height: 45px;
-  margin-top: 2rem;
+  margin-top: 1.6rem;
+  font-family: Minion Display;
   margin-bottom: 1.5rem;
 }
 
 .sectionBody .containerCards .item .subTitle {
   font-size: 0.9rem;
+  font-family: IBM Plex Sans;
   color: #f05e36;
 }
 
@@ -101,6 +106,8 @@
   color: #0a2939;
   margin-bottom: 0;
   line-height: 1.6rem;
+  font-weight: 500;
+  font-family: IBM Plex Sans;
 }
 
 .sectionBody .containerCards .item.quotes {
@@ -108,13 +115,14 @@
 }
 
 .sectionBody .containerCards .item.quotes .quotes {
-  font-family: Minion;
+  font-family: Butler;
   color: #0a2939;
   font-size: 2.27rem;
   line-height: 2.5rem;
 }
 
 .sectionBody .containerCards .item.quotes .subQuotes {
+  font-family: IBM Plex Sans;
   margin-bottom: 0.7rem;
   text-transform: uppercase;
   font-size: 0.75rem;
@@ -142,11 +150,11 @@
 }
 
 .sectionBody .containerCards .item.quotes.darkBlue {
-  background-color: #0a2939;
+  background-color: #1e5875;
 }
 
 .sectionBody .containerCards .item.quotes.darkBlue .subQuotes {
-  color: #f05e36;
+  color: #f66e49;
 }
 
 .sectionBody .containerCards .item.quotes.darkBlue .quotes {
@@ -156,7 +164,7 @@
 .sectionAddActuals {
   color: #f05e36;
   text-align: center;
-  margin-top: -6rem;
+  margin-top: -2rem;
   position: relative;
 }
 
@@ -172,11 +180,21 @@
   text-transform: uppercase;
   font-size: 0.75rem;
   line-height: 3.1rem;
+  font-family: IBM Plex Sans;
   letter-spacing: 2px;
 }
 
 .sectionAddActuals p span {
   cursor: pointer;
+}
+
+.sectionSatu .sectionSatuKanan img {
+  width: 1049px;
+}
+
+.sectionSatu .sectionSatuKanan .orangeBlock {
+  height: 16px;
+  background-color: #f05e36;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 1184px) {
@@ -240,11 +258,28 @@
   .sectionBody .containerCards .item.top-right {
     margin-top: 0;
   }
+  .sectionBody .containerCards .item.quotes.pink {
+    margin-bottom: 2.36625rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .sectionSatu .sectionSatuKanan img {
+    width: 1049px;
+  }
+  .sectionSatu .sectionSatuKanan .orangeBlock {
+    width: 100px;
+    background-color: #f05e36;
+    height: 100%;
+  }
 }
 
 @media only screen and (min-width: 717px) {
   .sectionBody .containerCategories {
     overflow-x: auto;
+  }
+  .sectionBody .containerCategories li:last-child {
+    margin-right: 0;
   }
   .sectionBody .containerCategoriesCornerBlur {
     display: none;
