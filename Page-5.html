@@ -1,22 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       http-equiv="X-UA-Compatible"
       content="width=device-width, initial-scale=1.0"
     />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>News List</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/csscustom.css" />
-    <link rel="stylesheet" href="css/HalamanAndrel.css" />
-    <link rel="stylesheet" href="css/HalamanAndrel.css.map" />
-    <link rel="stylesheet" href="Fonts/fontSetup/stylesheet.css" />
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/page-2/csscustom.css" />
+    <link rel="stylesheet" href="css/page-2/Halaman2.css" />
+    <link rel="stylesheet" href="css/page-2/Halaman2.css.map" />
+    <link rel="stylesheet" href="css/page-5/Halaman5.css" />
+    <link rel="stylesheet" href="css/page-5/Halaman5.css.map" />
+
+    <link
+      rel="stylesheet"
+      href="assets/fonts/webfont-ibm-plex/stylesheet.css"
+    />
+    <link rel="stylesheet" href="assets/fonts/webfont-minion/stylesheet.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
-    <div class="birukanan">tt</div>
     <!-- Carousel Col -->
 
     <div class="container-fluid">
@@ -26,88 +36,78 @@
           <nav class="navbar navbar-expand-lg navbar-black">
             <div class="container-fluid">
               <div class="container">
-                <div class="containerMenu">
+                <nav class="navbar navbar-light bg-white">
+                  <span class="line"></span>
+                  <a class="navbar-brand" href="#">
+                    <img
+                      src="assets/logos/logo-fmg-color-tiny.svg"
+                      width="50"
+                      height="50"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </a>
                   <button
                     class="navbar-toggler"
                     type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent"
+                    data-toggle="collapse"
+                    data-target="#main-navigation"
                     aria-controls="navbarSupportedContent"
                     aria-expanded="false"
                     aria-label="Toggle navigation"
                   >
-                    <span class="navbar-toggler-icon">
-                      <img
-                        src="Source/logo.svg"
-                        alt="My Happy SVG"
-                        class="logo-desktop"
-                      />
-                    </span>
+                    <span class="navbar-toggler-icon"> </span>
                   </button>
-                  <div
-                    class="col-md-12 collapse navbar-collapse"
-                    id="navbarSupportedContent"
-                  >
-                    <ul class="navbar-nav col-md-12">
-                      <li class="nav-item col-md-2">
-                        <img
-                          class="nav-item"
-                          src="Source/logo.svg"
-                          alt="My Happy SVG"
-                        />
-                      </li>
-
-                      <li class="nav-item col-md-2">
-                        <a class="nav-link active" aria-current="page" href="#">
-                          <span>Nos services</span>
-                        </a>
-                      </li>
-                      <li class="nav-item col-md-2">
-                        <a class="nav-link" href="#">A propos de FMG</a>
-                      </li>
-                      <li class="nav-item col-md-2">
-                        <a class="nav-link" href="#">Actualité fiscale</a>
-                      </li>
-                      <li class="nav-item col-md-2">
-                        <a class="nav-link" href="#">Contact</a>
-                      </li>
-                      <li class="nav-item dropdown col-md-2">
-                        <a
-                          class="dropdownButton nav-link dropdown-toggle"
-                          href="#"
-                          id="navbarDropdown"
-                          role="button"
-                          data-bs-toggle="dropdown"
-                          aria-expanded="false"
-                        >
-                          Français
-                        </a>
-                        <ul
-                          class="dropdown-menu"
-                          aria-labelledby="navbarDropdown"
-                        >
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li>
-                            <a class="dropdown-item" href="#">Another action</a>
-                          </li>
-                          <li>
-                            <hr class="dropdown-divider" />
-                          </li>
-                          <li>
-                            <a class="dropdown-item" href="#"
-                              >Something else here</a
-                            >
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
+                </nav>
+                <div class="collapse navbar-collapse" id="main-navigation">
+                  <ul class="navbar-nav">
+                    <!-- hide icon -->
+                    <li class="nav-item d-none" id="hidebtn">
+                      <a class="nav-link"><i class="fa fa-close fa-2x"></i></a>
+                    </li>
+                    <!-- end -->
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#"
+                        >Nos services</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">A propos de FMG</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Actualité fiscale</a>
+                    </li>
+                    <li class="nav-item start">
+                      <a class="nav-link contact" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item hidden d-none" id="listhide">
+                      <ul class="dash">
+                        <li class="first">Français</li>
+                        <li>English</li>
+                      </ul>
+                    </li>
+                    <li class="nav-item end dropdown drop">
+                      <a
+                        class="dropdownButton nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Français
+                        <img src="assets/Icons/arrow-dropdown.svg" alt="" />
+                      </a>
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <li><a class="dropdown-item" href="#">Francais</a></li>
+                        <li><a class="dropdown-item" href="#">English</a></li>
+                      </ul>
+                    </li>
+                  </ul>
                 </div>
-                <img
-                  src="Source/logo.svg"
-                  alt="My Happy SVG"
-                  class="logo-mobile"
-                />
               </div>
             </div>
           </nav>
@@ -121,163 +121,85 @@
                 </div>
               </div>
               <div class="sectionSatuKanan">
-                <img src="./Source/apropos.png" alt="" />
+                <img
+                  src="./assets/images/header-news.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+                <div class="orangeBlock"></div>
               </div>
             </div>
-
-            <div class="sectionSatuMobile">
-              <div class="sectionSatuAtas">
-                <div class="text">
-                  <h1>Actualités</h1>
-                  <h5>pour votre fiscalité</h5>
+            <section class="containerBack">
+              <div class="rotation-wrapper-outer">
+                <div class="rotation-wrapper-inner">
+                  <img
+                    src="assets/Icons/arrow-line3.svg"
+                    class="icon-back"
+                    alt="Icon Back"
+                  />
                 </div>
               </div>
-              <div class="sectionSatuBawah">
-                <img src="./Source/apropos.png" alt="" />
-              </div>
-            </div>
-
-            <section class="sectionBody">
-              <ul class="containerCategories">
-                <li class="active">Categories</li>
-                <li>fiscalus</li>
-                <li>ipsum summius</li>
-                <li>lorem magnus</li>
-                <li>actualité</li>
-                <li>contact</li>
-              </ul>
-              <ul class="containerCards">
-                <li class="item">
-                  <span class="containerImage">
-                    <img
-                      src="./dist/Images/visual-news-04.jpg"
-                      alt="Visual News 2"
-                    />
-                  </span>
-                  <p class="date">01.03.21</p>
-                  <p class="subTitle">Droits des societes</p>
-                  <h6 class="title">
-                    Avantages, reports, droit passerelle, lorem est trebem
-                    ressius
-                  </h6>
-                </li>
-                <li class="item quotes darkBlue">
-                  <p class="subQuotes">conseil pratique</p>
-                  <p class="quotes">
-                    Le trimeste se termine bientot, lorem est ipsum tremes
-                    queries la fiscalius.
-                  </p>
-                </li>
-                <li class="item">
-                  <span class="containerImage">
-                    <img
-                      src="./dist/Images/visual-news-01.jpg"
-                      alt="Visual News 1"
-                    />
-                  </span>
-                  <p class="date">01.03.21</p>
-                  <p class="subTitle">Droits des societes</p>
-                  <h6 class="title">
-                    Avantages, reports, droit passerelle, lorem est trebem
-                    ressius
-                  </h6>
-                </li>
-                <li class="item center top-center">
-                  <span class="containerImage">
-                    <img
-                      src="./dist/Images/visual-news-05.jpg"
-                      alt="Visual News 5"
-                    />
-                  </span>
-                  <p class="date">23.03.21</p>
-                  <p class="subTitle">Droits des societes</p>
-                  <h6 class="title">
-                    Avantages, reports, droit passerelle, lorem est trebem
-                    ressius
-                  </h6>
-                </li>
-                <li class="item center">
-                  <span class="containerImage">
-                    <img
-                      src="./dist/Images/visual-news-07.jpg"
-                      alt="Visual News 7"
-                    />
-                  </span>
-                  <p class="date">23.03.21</p>
-                  <p class="subTitle">Droits des societes</p>
-                  <h6 class="title">
-                    Avantages, reports, droit passerelle, lorem est trebem
-                    ressius
-                  </h6>
-                </li>
-
-                <li class="item quotes pink top-right">
-                  <p class="subQuotes">conseil pratique</p>
-                  <p class="quotes">
-                    Le trimeste se termine bientot, lorem est ipsum tremes
-                    queries la fiscalius.
-                  </p>
-                </li>
-
-                <li class="item">
-                  <span class="containerImage">
-                    <img
-                      src="./dist/Images/visual-news-06.jpg"
-                      alt="Visual News 6"
-                    />
-                  </span>
-                  <p class="date">10.04.21</p>
-                  <p class="subTitle">Droits des societes</p>
-                  <h6 class="title">
-                    Avantages, reports, droit passerelle, lorem est trebem
-                    ressius
-                  </h6>
-                </li>
-
-                <li class="item quotes orange">
-                  <p class="subQuotes">conseil pratique</p>
-                  <p class="quotes">
-                    Le trimeste se termine bientot, lorem est ipsum tremes
-                    queries la fiscalius.
-                  </p>
-                </li>
-                <!-- <li class="item quotes darkBlue">
-                                <p class="subQuotes">conseil pratique</p>
-                                <p class="quotes">Le trimeste se termine bientot, lorem est ipsum tremes queries la fiscalius.</p>
-                            </li>
-                            <li class="item">
-                                <span class="containerImage">
-                                    <img src="./dist/Images/visual-news-06.jpg" alt="Visual News 6">
-
-                                </span>
-                                <p class="date">01.03.21</p>
-                                <p class="subTitle">Droits des societes</p>
-                                <h6 class="title">Avantages, reports, droit passerelle, lorem est trebem ressius</h6>
-                            </li>
-                            <li class="item">
-                                <span class="containerImage">
-                                    <img src="./dist/Images/visual-news-06.jpg" alt="Visual News 6">
-
-                                </span>
-                                <p class="date">01.03.21</p>
-                                <p class="subTitle">Droits des societes</p>
-                                <h6 class="title">Avantages, reports, droit passerelle, lorem est trebem ressius</h6>
-                            </li>
-                            <li class="item quotes orange">
-                                <p class="subQuotes">conseil pratique</p>
-                                <p class="quotes">Le trimeste se termine bientot, lorem est ipsum tremes queries la fiscalius.</p>
-                            </li> -->
-              </ul>
+              <span>les actualités</span>
             </section>
-
-            <div class="sectionAddActuals">
-              <img
-                class="icon-plus"
-                src="./dist/Images/inspect/FMG-Maquette-v3/Design System/FMG - Design System/Icons/Icons/icon-plus-icon-plus-orange.svg"
-                alt="icon plus"
-              />
-              <p>voir plus d'actualites</p>
-            </div>
+            <section class="sectionBody">
+              <div class="containerCard">
+                <span class="containerImage">
+                  <img
+                    src="./dist/Images/visual-news-04.jpg"
+                    alt="Visual News 2"
+                  />
+                </span>
+                <p class="date">01.03.21</p>
+                <p class="subTitle">Droits des sociétés</p>
+              </div>
+              <div class="containerNews">
+                <h3 class="newsTitle">
+                  Vos employés sont en télétravail ? Vérifier leurs contrats.
+                </h3>
+                <p class="newsAuthor">Par Bernad Labarre</p>
+                <div class="containerNewsAllText">
+                  Mauris non tempor quam, et lacinia sapien. Mauris accumsan
+                  eros eget libero posuere vulputate. Etiam elit elit, elementum
+                  sed varius at, adipiscing vitae est. Sed nec felis
+                  pellentesque, lacinia dui sed, ultricies sapien. Pellentesque
+                  orci lectus, consectetur vel posuere posuere, rutrum eu ipsum.
+                  Aliquam eget odio sed ligula iaculis consequat at eget orci.
+                  <br />
+                  Mauris molestie sit amet metus mattis varius. Donec sit amet
+                  ligula eget nisi sodales egestas. Aliquam interdum dolor
+                  aliquet dolor sollicitudin fermentum. Donec congue lorem a
+                  molestie bibendum. Etiam nisi ante, consectetur eget placerat
+                  a, tempus a neque. Donec ut elit urna. Etiam venenatis
+                  eleifend urna eget scelerisque. Aliquam in nunc quis dui
+                  sollicitudin ornare ac vitae lectus.
+                  <br />
+                  <br />
+                  <p
+                    style="
+                      margin: 0;
+                      font-family: IBM Plex Sans;
+                      line-height: 24px;
+                      font-weight: 600;
+                      font-size: 16px;
+                    "
+                  >
+                    <b>Lorem dolores ipsum summius est </b>
+                  </p>
+                  <br />
+                  <p>
+                    Mauris non tempor quam, et lacinia sapien. Mauris accumsan
+                    eros eget libero posuere vulputate. Etiam elit elit,
+                    elementum sed varius at, adipiscing vitae est. Sed nec felis
+                    pellentesque, lacinia dui sed, ultricies sapien.
+                    Pellentesque orci lectus, consectetur vel posuere posuere,
+                    rutrum eu ipsum. Aliquam eget odio sed ligula iaculis
+                    consequat at eget orci.
+                  </p>
+                </div>
+                <a href="" class="visitWebsite">Visit the website</a>
+                <div class="dividerVisitWebsite"></div>
+              </div>
+            </section>
 
             <div id="mc_embed_signup" class="sectionLima">
               <form
@@ -290,67 +212,56 @@
                 novalidate="novalidate"
               >
                 <div class="sectionLimaBody" id="mc_embed_signup_scroll">
-                  <img
-                    src="./Source/icon-stamp.svg"
-                    class="icon-stamp"
-                    alt="Icon Stamp"
-                  />
-                  <h2>Newsletter</h2>
-                  <p>
-                    Moures non tempor quam, et lacinia sapien mauris <br />
-                    Accumsan erros eget libero posur vulputat
-                  </p>
-
+                  <div class="logo">
+                    <img src="assets/Icons/icon-stamp.svg" alt="" />
+                  </div>
+                  <div class="title d-flex flex-row">
+                    <div class="title-1">
+                      <h2>Newsletter</h2>
+                      <p>Moures non tempor quam, et lacinia sapien mauris</p>
+                      <p>Accumsan erros eget libero posur vulputat</p>
+                    </div>
+                  </div>
                   <div class="SectionLimaTengah">
-                    <div class="mc-field-group containerInput">
+                    <div class="mc-field-group">
                       <input
                         type="email"
                         value=""
                         name="EMAIL"
                         class="required email"
                         id="mce-EMAIL"
-                        placeholder="Enter votre addrese email"
+                        placeholder="Enterer votre addrese email"
                         aria-required="true"
-                      />
+                      /><span></span>
                     </div>
-                    <!-- <div id="mergeRow-gdpr"
-                                        class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group ">
-                                        <div class="content__gdpr">
-                                            <div class="mc_fieldset gdprRequired mc-field-group"
-                                                name="interestgroup_field">
-                                                <input type="checkbox" id="gdpr_348641" name="gdpr[348641]" value="Y"
-                                                    class="av-checkbox gdpr">
-                                                J'accepte les
-                                                <a href="https://app-fmg.php8-01.dev.voxteneo.com/fr/conditions-generales"
-                                                    target="_blank">condition generales</a></div>
-                                        </div>
-                                    </div> -->
-                    <div class="customCheckbox">
-                      <input
-                        class="styled-checkbox"
-                        id="styled-checkbox-1"
-                        type="checkbox"
-                        value="value1"
-                      />
-                      <label for="styled-checkbox-1"
-                        >J'accepte les
-                        <a
-                          href="https://app-fmg.php8-01.dev.voxteneo.com/fr/conditions-generales"
-                          target="_blank"
-                          class="link"
-                          >condition generales</a
-                        ></label
-                      >
-                    </div>
-                    <button
-                      type="submit"
-                      value=""
-                      name="subscribe"
-                      id="mc-embedded-subscribe"
-                      class="button button-submit"
+                    <div
+                      id="mergeRow-gdpr"
+                      class="mergeRow gdpr-mergeRow content__gdprBlock"
                     >
-                      envoyer
-                    </button>
+                      <div class="content__gdpr">
+                        <div
+                          class="mc_fieldset gdprRequired d-flex flex-row align-items-center"
+                          name="interestgroup_field"
+                        >
+                          <input
+                            type="checkbox"
+                            id="gdpr_348641"
+                            name="gdpr[348641]"
+                            value="Y"
+                            class="av-checkbox gdpr"
+                          />
+                          <div class="text">J'accepte les</div>
+                          <a
+                            class="terms"
+                            href="https://app-fmg.php8-01.dev.voxteneo.com/fr/conditions-generales"
+                            target="_blank"
+                          >
+                            condition generales</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <h6>ENVOYER</h6>
                   </div>
                 </div>
 
@@ -368,22 +279,6 @@
                 </div>
 
                 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-
-                <!-- <div class="SectionLimaBawahDua"> -->
-                <!-- <div class="g-recaptcha" data-sitekey="6LehUfkbAAAAAJmPAbkWQx4tJbW-fKiqjvP22XzC">
-                                    <div style="width: 304px; height: 78px;">
-                                        <div><iframe title="reCAPTCHA" src="./Source/anchor.html" width="304"
-                                                height="78" role="presentation" name="a-4ouob3yp8ta3" frameborder="0"
-                                                scrolling="no"
-                                                sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
-                                        </div><textarea id="g-recaptcha-response" name="g-recaptcha-response"
-                                            class="g-recaptcha-response"
-                                            style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
-                                    </div>
-                                </div> -->
-                <!-- <button type="submit" value="" name="subscribe"
-                                        id="mc-embedded-subscribe" class="button">Incrivez-moi</button>
-                                        </div> -->
               </form>
             </div>
 
@@ -393,22 +288,26 @@
         <div class="Footer">
           <div class="container">
             <div class="footerHeader">
-              <img src="Source/logo-fmg-colors (1).svg" alt="My Happy SVG" />
+              <img
+                src="assets/logos/logo-fmg-colors.svg"
+                alt="My Happy SVG"
+                class="img-fluid"
+              />
             </div>
             <div class="foooterBody">
               <div class="footerBodyKiri">
-                <ul class="footerBodyKiriOne">
+                <div class="footerBodyKiriOne">
                   <li>qui sommes-nous</li>
                   <li>nos services</li>
-                </ul>
-                <ul class="footerBodyKiriTwo">
+                </div>
+                <div class="footerBodyKiriTwo">
                   <li>actualité</li>
                   <li>contact</li>
-                </ul>
+                </div>
               </div>
               <div class="footerBodyKanan">
                 <a class="linkedIn">
-                  <img src="Source/icon-linkedin.svg" alt="" />
+                  <img src="assets/Icons/icon-linkedin.svg" alt="" />
                   <h5>Let’s stay in touch on LinkedIn</h5>
                 </a>
               </div>
@@ -424,6 +323,34 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- end -->
+
+    <!-- custom js -->
+    <script>
+      $(document).ready(function () {
+        $(".navbar-toggler").click(function () {
+          $(".drop").hide();
+          $("#hidebtn").removeClass("d-none");
+          $("#listhide").removeClass("d-none");
+        });
+
+        $("#hidebtn").click(function () {
+          $("#main-navigation").hide();
+          $("#hidebtn").addClass("d-none");
+          $("#listhide").addClass("d-none");
+          $(".drop").show();
+        });
+
+        $(".navbar-toggler").click(function () {
+          $("#main-navigation").toggle();
+        });
+
+        // $("#tombol_pre").click(function() {
+        //   $("#box").before("<p>Learning jQuery...</p>");
+        // })
+      });
+    </script>
   </body>
 </html>

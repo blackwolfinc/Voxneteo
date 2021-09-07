@@ -451,7 +451,7 @@ li.hidden ul li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-left: 50%;
+    padding-left: 40%;
   }
   .container .section-3 .content .row .content-left .sett-line-section-3 span {
     display: inline-block;
@@ -551,6 +551,7 @@ li.hidden ul li {
     font-family: "IBMPlexSans-Medium";
     margin-top: 5.4375rem;
     height: 2.3125rem;
+    margin-bottom: 3rem;
     color: #0a2939;
     font-size: 1.5rem;
     font-weight: 500;
@@ -598,9 +599,10 @@ li.hidden ul li {
   }
   .container .section-4 .title {
     height: 2.375rem;
+    margin-bottom: 3rem;
     color: #0a2939;
     font-family: "Butler";
-    font-size: 2.125rem;
+    font-size: 56px;
     letter-spacing: -0.03125rem;
     line-height: 2.375rem;
   }
@@ -811,6 +813,7 @@ li.hidden ul li {
     margin-right: auto;
     display: block;
     padding-top: 3.9375rem;
+    width: 20%;
     padding-bottom: 3rem;
   }
   .Footer .container .foooterBody {
@@ -1126,7 +1129,7 @@ li.hidden ul li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-left: 50%;
+    padding-left: 40%;
   }
   .container .section-3 .content .row .content-left .sett-line-section-3 span {
     display: inline-block;
@@ -1225,6 +1228,7 @@ li.hidden ul li {
     font-family: "IBMPlexSans-Medium";
     margin-top: 5.4375rem;
     height: 2.3125rem;
+    margin-bottom: 3rem;
     color: #0a2939;
     font-size: 1.5rem;
     font-weight: 500;
@@ -1274,7 +1278,7 @@ li.hidden ul li {
     height: 2.375rem;
     color: #0a2939;
     font-family: "Butler";
-    font-size: 2.125rem;
+    font-size: 56px;
     letter-spacing: -0.03125rem;
     line-height: 2.375rem;
   }
@@ -1287,7 +1291,7 @@ li.hidden ul li {
     height: 2.375rem;
     color: #0a2939;
     font-family: "Butler";
-    font-size: 2.125rem;
+    font-size: 56px;
     letter-spacing: -0.03125rem;
     line-height: 2.375rem;
   }
@@ -1303,7 +1307,7 @@ li.hidden ul li {
     height: 2.375rem;
     color: #0a2939;
     font-family: "Butler";
-    font-size: 2.125rem;
+    font-size: 56px;
     letter-spacing: -0.03125rem;
     line-height: 2.375rem;
   }
@@ -1440,8 +1444,9 @@ li.hidden ul li {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    width: 20%;
     padding-top: 3.9375rem;
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
   }
   .Footer .container .foooterBody {
     display: -webkit-box;
@@ -1527,10 +1532,11 @@ li.hidden ul li {
   }
   .Footer .container .footerHeader img {
     margin-left: auto;
+    width: 20%;
     margin-right: auto;
     display: block;
     padding-top: 3.9375rem;
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
   }
   .Footer .container .foooterBody {
     display: -webkit-box;
@@ -1817,7 +1823,7 @@ li.hidden ul li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-left: 50%;
+    padding-left: 40%;
   }
   .container .section-3 .content .row .content-left .sett-line-section-3 span {
     display: inline-block;
@@ -1904,6 +1910,7 @@ li.hidden ul li {
     font-family: "IBMPlexSans-Medium";
     margin-top: 5.4375rem;
     height: 2.3125rem;
+    margin-bottom: 3rem;
     color: #0a2939;
     font-size: 1.5rem;
     font-weight: 500;
@@ -1937,7 +1944,7 @@ li.hidden ul li {
     height: 2.375rem;
     color: #0a2939;
     font-family: "Butler";
-    font-size: 2.125rem;
+    font-size: 56px;
     letter-spacing: -0.03125rem;
     line-height: 2.375rem;
   }
@@ -1964,7 +1971,7 @@ li.hidden ul li {
     width: 19.0625rem;
     color: #0a2939;
     font-family: "Butler";
-    font-size: 2.125rem;
+    font-size: 56px;
     letter-spacing: -0.03125rem;
     line-height: 2.375rem;
   }
@@ -2123,9 +2130,10 @@ li.hidden ul li {
   .Footer .container .footerHeader img {
     margin-left: auto;
     margin-right: auto;
+    width: 20%;
     display: block;
     padding-top: 3.9375rem;
-    padding-bottom: 3rem;
+    padding-bottom: 6rem;
   }
   .Footer .container .foooterBody {
     display: -webkit-box;
@@ -2418,7 +2426,7 @@ li.hidden ul li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-left: 50%;
+    padding-left: 40%;
   }
   .container .section-3 .content .row .content-left .sett-line-section-3 span {
     display: inline-block;
@@ -2503,6 +2511,7 @@ li.hidden ul li {
     font-family: "IBMPlexSans-Medium";
     margin-top: 5.4375rem;
     height: 2.3125rem;
+    margin-bottom: 3rem;
     color: #0a2939;
     font-size: 1.5rem;
     font-weight: 500;
@@ -2536,7 +2545,7 @@ li.hidden ul li {
     height: 2.375rem;
     color: #0a2939;
     font-family: "Butler";
-    font-size: 2.125rem;
+    font-size: 56px;
     letter-spacing: -0.03125rem;
     line-height: 2.375rem;
   }
@@ -2548,9 +2557,10 @@ li.hidden ul li {
   .container .section-4 .row .title {
     height: 2.375rem;
     width: 19.0625rem;
+    margin-bottom: 3rem;
     color: #0a2939;
     font-family: "Butler";
-    font-size: 2.125rem;
+    font-size: 56px;
     letter-spacing: -0.03125rem;
     line-height: 2.375rem;
   }
@@ -2712,8 +2722,9 @@ li.hidden ul li {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    width: 20%;
     padding-top: 3.9375rem;
-    padding-bottom: 3rem;
+    padding-bottom: 6rem;
   }
   .Footer .container .foooterBody {
     display: -webkit-box;
@@ -2980,15 +2991,15 @@ li.hidden ul li {
     font-size: 2rem;
     color: #0a2939;
     line-height: 3rem;
-    margin-bottom: 2.4rem;
+    margin-bottom: 1.4rem;
   }
   .section-2 .content-left ul.dashed > li:before {
     content: "-";
     text-indent: -20px;
     color: #f05e36;
-    margin-right: 3.1rem;
+    margin-right: 2.1rem;
   }
-  .section-2 .content-left ul.dashed .li-first {
+  .section-2 .content-left ul.dashed :hover {
     color: #f05e36;
   }
   .section-2 .content-left .sett-line-section-2 {
@@ -3059,7 +3070,7 @@ li.hidden ul li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-left: 50%;
+    padding-left: 40%;
   }
   .section-3 .content .row .content-left .sett-line-section-3 span {
     display: inline-block;
@@ -3144,6 +3155,7 @@ li.hidden ul li {
     font-family: "IBMPlexSans-Medium";
     margin-top: 5.4375rem;
     height: 2.3125rem;
+    margin-bottom: 3rem;
     color: #0a2939;
     font-size: 1.5rem;
     font-weight: 500;
@@ -3177,7 +3189,7 @@ li.hidden ul li {
     height: 2.375rem;
     color: #0a2939;
     font-family: "Butler";
-    font-size: 2.125rem;
+    font-size: 56px;
     letter-spacing: -0.03125rem;
     line-height: 2.375rem;
   }
@@ -3203,10 +3215,14 @@ li.hidden ul li {
     margin-right: 1.3125rem;
     border: none;
   }
+  .section-4 .row .card-list-image .card .card-body {
+    padding: 0rem;
+  }
   .section-4 .row .card-list-image .card .card-body h1 {
     height: 2.8125rem;
     width: 10.74375rem;
     color: #0a2939;
+    margin-top: 3rem;
     font-family: "Butler";
     font-size: 3rem;
     letter-spacing: -0.044375rem;
@@ -3356,8 +3372,9 @@ li.hidden ul li {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    width: 20%;
     padding-top: 3.9375rem;
-    padding-bottom: 3rem;
+    padding-bottom: 6rem;
   }
   .Footer .container .foooterBody {
     display: -webkit-box;
@@ -3588,6 +3605,9 @@ li.hidden ul li {
     width: 100%;
     margin-bottom: -3.75rem;
   }
+  .section-2 .content-left {
+    padding-left: 5rem;
+  }
   .section-2 .content-left h1 {
     margin-bottom: 3.125rem;
     font-family: "IBMPlexSans-Medium";
@@ -3624,15 +3644,15 @@ li.hidden ul li {
     font-size: 2rem;
     color: #0a2939;
     line-height: 3rem;
-    margin-bottom: 2.4rem;
+    margin-bottom: 1.4rem;
   }
   .section-2 .content-left ul.dashed > li:before {
     content: "-";
     text-indent: -20px;
     color: #f05e36;
-    margin-right: 3.1rem;
+    margin-right: 2.1rem;
   }
-  .section-2 .content-left ul.dashed .li-first {
+  .section-2 .content-left ul.dashed :hover {
     color: #f05e36;
   }
   .section-2 .content-left .sett-line-section-2 {
@@ -3703,7 +3723,7 @@ li.hidden ul li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-left: 50%;
+    padding-left: 40%;
   }
   .section-3 .content .row .content-left .sett-line-section-3 span {
     display: inline-block;
@@ -3789,6 +3809,7 @@ li.hidden ul li {
     font-family: "IBMPlexSans-Medium";
     margin-top: 5.4375rem;
     height: 2.3125rem;
+    margin-bottom: 3rem;
     color: #0a2939;
     font-size: 1.5rem;
     font-weight: 500;
@@ -3820,9 +3841,10 @@ li.hidden ul li {
   }
   .section-4 .title {
     height: 2.375rem;
+    margin-bottom: 3rem;
     color: #0a2939;
     font-family: "Butler";
-    font-size: 2.125rem;
+    font-size: 56px;
     letter-spacing: -0.03125rem;
     line-height: 2.375rem;
   }
@@ -3848,9 +3870,13 @@ li.hidden ul li {
     margin-right: 1.3125rem;
     border: none;
   }
+  .section-4 .row .card-list-image .card .card-body {
+    padding: 0rem;
+  }
   .section-4 .row .card-list-image .card .card-body h1 {
     height: 2.8125rem;
     width: 10.74375rem;
+    margin-top: 2rem;
     color: #0a2939;
     font-family: "Butler";
     font-size: 3rem;
@@ -3993,9 +4019,6 @@ li.hidden ul li {
 }
 
 @media (min-width: 1440px) {
-  .container {
-    max-width: 144rem;
-  }
   hr {
     display: none;
   }
@@ -4138,7 +4161,6 @@ li.hidden ul li {
   }
   .section-2 .content-left ul.dashed {
     list-style-type: none;
-    width: 66.2rem;
     font-family: "Butler-Light";
     margin-left: 6.938rem;
     padding-left: 0.75rem;
@@ -4148,15 +4170,15 @@ li.hidden ul li {
     font-size: 2.5rem;
     color: #0a2939;
     line-height: 3rem;
-    margin-bottom: 2.4rem;
+    margin-bottom: 1rem;
   }
   .section-2 .content-left ul.dashed > li:before {
     content: "-";
     text-indent: -20px;
     color: #f05e36;
-    margin-right: 3.1rem;
+    margin-right: 2.1rem;
   }
-  .section-2 .content-left ul.dashed .li-first {
+  .section-2 .content-left ul.dashed :hover {
     color: #f05e36;
   }
   .section-2 .content-left .sett-line-section-2 {
@@ -4165,7 +4187,7 @@ li.hidden ul li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-left: 50%;
+    padding-left: 40%;
     padding-top: 20%;
   }
   .section-2 .content-left .sett-line-section-2 span {
@@ -4219,8 +4241,11 @@ li.hidden ul li {
     background-color: #f05e36;
     border-color: #f05e36;
   }
-  .section-3 .content .row {
+  .section-3 .content {
     background-color: #f05e36;
+  }
+  .section-3 .content .row .content-left {
+    padding-left: 2rem;
   }
   .section-3 .content .row .content-left .sett-line-section-3 {
     width: 100%;
@@ -4228,7 +4253,7 @@ li.hidden ul li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-left: 50%;
+    padding-left: 40%;
   }
   .section-3 .content .row .content-left .sett-line-section-3 span {
     display: inline-block;
@@ -4313,6 +4338,7 @@ li.hidden ul li {
   .section-3 .content .row .content-right h1 {
     font-family: "IBMPlexSans-Medium";
     margin-top: 5.4375rem;
+    margin-bottom: 3rem;
     height: 2.3125rem;
     color: #0a2939;
     font-size: 1.5rem;
@@ -4345,9 +4371,10 @@ li.hidden ul li {
   }
   .section-4 .title {
     height: 2.375rem;
+    margin-bottom: 3rem;
     color: #0a2939;
     font-family: "Butler";
-    font-size: 2.125rem;
+    font-size: 56px;
     letter-spacing: -0.03125rem;
     line-height: 2.375rem;
   }
@@ -4374,9 +4401,13 @@ li.hidden ul li {
     margin-right: 1.3125rem;
     border: none;
   }
+  .section-4 .row .card-list-image .card .card-body {
+    padding: 0rem;
+  }
   .section-4 .row .card-list-image .card .card-body h1 {
     height: 2.8125rem;
     width: 10.74375rem;
+    margin-top: 2rem;
     color: #0a2939;
     font-family: "Butler";
     font-size: 3rem;
@@ -4454,7 +4485,8 @@ li.hidden ul li {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    height: 60rem;
+    height: 55rem;
+    margin-bottom: -3.6rem;
   }
   .section-5 .sectionArrow {
     width: 80%;
@@ -4535,7 +4567,7 @@ li.hidden ul li {
             transform: scale(2);
   }
   .section-5 .carousel {
-    margin-top: 15rem;
+    margin-top: 10rem;
     margin-right: 10rem;
     margin-left: -20rem;
     width: 60%;
@@ -4553,8 +4585,8 @@ li.hidden ul li {
   .section-5 .carousel .carousel-control-next-icon {
     background-color: #f66e49 !important;
     opacity: 0.95;
-    height: 10rem;
-    width: 10rem;
+    height: 7rem;
+    width: 7rem;
     background-size: 51px;
     margin-left: -9rem;
     border-radius: 50%;
@@ -4577,14 +4609,15 @@ li.hidden ul li {
   }
   .section-5 .carousel .carousel-inner p {
     font-size: 16px;
+    margin-top: 2rem;
   }
   .section-5 .carousel .carousel-inner h1 {
     margin-top: 4rem;
-    height: 196px;
+    height: 120px;
     width: 997px;
     color: #ffffff;
     font-family: Butler;
-    font-size: 150px;
+    font-size: 120px;
     font-weight: 300;
     letter-spacing: 0;
     line-height: 50px;
@@ -4702,8 +4735,9 @@ li.hidden ul li {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    width: 20%;
     padding-top: 3.9375rem;
-    padding-bottom: 3rem;
+    padding-bottom: 6rem;
   }
   .Footer .container .foooterBody {
     display: -webkit-box;

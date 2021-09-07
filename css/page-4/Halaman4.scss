@@ -1,9 +1,15 @@
+.container {
+  .navbar-nav {
+    z-index: 2;
+  }
+}
 .sectionBody {
   display: flex;
   margin-top: 4.6rem;
   .containerCategories {
     list-style: none;
     text-align: right;
+    font-family: IBM Plex Sans;
     padding: 0;
     li {
       color: #0a2939;
@@ -14,6 +20,9 @@
       font-weight: 500;
       cursor: pointer;
       &.active {
+        color: #f05e36;
+      }
+      &:hover {
         color: #f05e36;
       }
     }
@@ -28,7 +37,7 @@
     margin-bottom: 0;
     .item {
       width: 320px;
-      margin-bottom: 4rem;
+      margin-bottom: 4.5rem;
       &.center {
         .containerImage {
           &::after {
@@ -46,7 +55,6 @@
         position: relative;
         display: block;
         img {
-          height: 320px;
           width: 320px;
         }
         &::after {
@@ -61,32 +69,38 @@
       }
       .date {
         color: #0a2939;
-        font-family: Minion;
-        font-size: 3rem;
-        line-height: 29px;
-        margin-top: 2rem;
-        margin-bottom: 1.8rem;
+        font-size: 3.4rem;
+        line-height: 45px;
+        margin-top: 1.6rem;
+        font-family: Minion Display;
+        margin-bottom: 1.5rem;
       }
       .subTitle {
         font-size: 0.9rem;
+        font-family: IBM Plex Sans;
         color: #f05e36;
       }
       .title {
-        font-size: 1.18rem;
+        font-size: 1.15rem;
         color: #0a2939;
+        margin-bottom: 0;
+        line-height: 1.6rem;
+        font-weight: 500;
+        font-family: IBM Plex Sans;
       }
       &.quotes {
         padding: 2.5rem;
         .quotes {
-          font-family: Minion;
+          font-family: Butler;
           color: #0a2939;
-          font-size: 2.5rem;
-          line-height: 2.4rem;
+          font-size: 2.27rem;
+          line-height: 2.5rem;
         }
         .subQuotes {
+          font-family: IBM Plex Sans;
           margin-bottom: 0.7rem;
           text-transform: uppercase;
-          font-size: 0.8rem;
+          font-size: 0.75rem;
           letter-spacing: 1.5px;
           color: #f05e36;
           font-weight: bold;
@@ -106,9 +120,9 @@
           }
         }
         &.darkBlue {
-          background-color: #0a2939;
+          background-color: #1e5875;
           .subQuotes {
-            color: #f05e36;
+            color: #f66e49;
           }
           .quotes {
             color: white;
@@ -122,40 +136,67 @@
 .sectionAddActuals {
   color: #f05e36;
   text-align: center;
+  margin-top: -2rem;
+  position: relative;
   .icon-plus {
     filter: invert(56%) sepia(34%) saturate(6580%) hue-rotate(339deg)
       brightness(96%) contrast(96%);
     width: 24px;
     height: 24px;
-    margin-bottom: 1.3rem;
+    cursor: pointer;
   }
   p {
     text-transform: uppercase;
+    font-size: 0.75rem;
+    line-height: 3.1rem;
+    font-family: IBM Plex Sans;
+    letter-spacing: 2px;
+    span {
+      cursor: pointer;
+    }
   }
 }
-// @media only screen and (min-device-width: 1400px) {
 
-// }
+.sectionSatu {
+  .sectionSatuKanan {
+    img {
+      width: 1049px;
+    }
+    .orangeBlock {
+      height: 16px;
+      background-color: #f05e36;
+    }
+  }
+}
 
-@media only screen and (min-device-width: 0px) and (max-device-width: 991.98px) {
+@media only screen and (min-width: 0px) and (max-width: 1184px) {
+  .sectionAddActuals {
+    margin-top: -1rem;
+  }
   .sectionBody {
     margin-top: 2rem;
     display: block;
-    .containerCategories {
+    .containerCategoriesCornerBlur {
       position: relative;
-      &::after {
-        content: "";
-        position: absolute;
-        background: transparent;
-        background: linear-gradient(90deg, transparent 0%, white 100%);
+      div {
         right: 0;
         height: 60px;
         width: 20%;
+        z-index: 1;
+        position: absolute;
+        background: transparent;
+        background: linear-gradient(90deg, transparent 0%, white 100%);
       }
-      display: flex;
-      overflow-x: auto;
+    }
+    .containerCategories {
+      position: relative;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      white-space: nowrap;
+
       li {
         margin-right: 1rem;
+        display: inline-block;
       }
     }
     .containerCards {
@@ -163,13 +204,22 @@
       width: auto;
       align-items: center;
       padding: 0;
-    }
-    .containerCards {
+
       .item {
-        width: 100%;
+        .date {
+          font-size: 2rem;
+          margin-top: 1rem;
+          margin-bottom: 0.5rem;
+        }
+        .subTitle {
+          margin-bottom: 0.8rem;
+        }
         .containerImage {
+          &::after {
+            display: none;
+            visibility: hidden;
+          }
           img {
-            width: 100%;
             object-fit: contain;
           }
         }
@@ -178,6 +228,58 @@
         }
         &.top-right {
           margin-top: 0;
+        }
+        &.quotes {
+          &.pink {
+            margin-bottom: 2.36625rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .sectionSatu {
+    .sectionSatuKanan {
+      img {
+        width: 1049px;
+      }
+      .orangeBlock {
+        width: 100px;
+        background-color: #f05e36;
+        height: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 717px) {
+  .sectionBody {
+    .containerCategories {
+      overflow-x: auto;
+      li {
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+    .containerCategoriesCornerBlur {
+      display: none;
+      visibility: hidden;
+    }
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 373px) {
+  .sectionBody {
+    .containerCards {
+      .item {
+        width: 100%;
+        .containerImage {
+          img {
+            width: 100%;
+          }
         }
       }
     }

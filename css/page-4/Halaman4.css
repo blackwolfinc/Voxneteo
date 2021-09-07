@@ -1,3 +1,7 @@
+.container .navbar-nav {
+  z-index: 2;
+}
+
 .sectionBody {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8,6 +12,7 @@
 .sectionBody .containerCategories {
   list-style: none;
   text-align: right;
+  font-family: IBM Plex Sans;
   padding: 0;
 }
 
@@ -22,6 +27,10 @@
 }
 
 .sectionBody .containerCategories li.active {
+  color: #f05e36;
+}
+
+.sectionBody .containerCategories li:hover {
   color: #f05e36;
 }
 
@@ -43,7 +52,7 @@
 
 .sectionBody .containerCards .item {
   width: 320px;
-  margin-bottom: 4rem;
+  margin-bottom: 4.5rem;
 }
 
 .sectionBody .containerCards .item.center .containerImage::after {
@@ -64,7 +73,6 @@
 }
 
 .sectionBody .containerCards .item .containerImage img {
-  height: 320px;
   width: 320px;
 }
 
@@ -80,21 +88,26 @@
 
 .sectionBody .containerCards .item .date {
   color: #0a2939;
-  font-family: Minion;
-  font-size: 3rem;
-  line-height: 29px;
-  margin-top: 2rem;
-  margin-bottom: 1.8rem;
+  font-size: 3.4rem;
+  line-height: 45px;
+  margin-top: 1.6rem;
+  font-family: Minion Display;
+  margin-bottom: 1.5rem;
 }
 
 .sectionBody .containerCards .item .subTitle {
   font-size: 0.9rem;
+  font-family: IBM Plex Sans;
   color: #f05e36;
 }
 
 .sectionBody .containerCards .item .title {
-  font-size: 1.18rem;
+  font-size: 1.15rem;
   color: #0a2939;
+  margin-bottom: 0;
+  line-height: 1.6rem;
+  font-weight: 500;
+  font-family: IBM Plex Sans;
 }
 
 .sectionBody .containerCards .item.quotes {
@@ -102,16 +115,17 @@
 }
 
 .sectionBody .containerCards .item.quotes .quotes {
-  font-family: Minion;
+  font-family: Butler;
   color: #0a2939;
-  font-size: 2.5rem;
-  line-height: 2.4rem;
+  font-size: 2.27rem;
+  line-height: 2.5rem;
 }
 
 .sectionBody .containerCards .item.quotes .subQuotes {
+  font-family: IBM Plex Sans;
   margin-bottom: 0.7rem;
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   letter-spacing: 1.5px;
   color: #f05e36;
   font-weight: bold;
@@ -136,11 +150,11 @@
 }
 
 .sectionBody .containerCards .item.quotes.darkBlue {
-  background-color: #0a2939;
+  background-color: #1e5875;
 }
 
 .sectionBody .containerCards .item.quotes.darkBlue .subQuotes {
-  color: #f05e36;
+  color: #f66e49;
 }
 
 .sectionBody .containerCards .item.quotes.darkBlue .quotes {
@@ -150,6 +164,8 @@
 .sectionAddActuals {
   color: #f05e36;
   text-align: center;
+  margin-top: -2rem;
+  position: relative;
 }
 
 .sectionAddActuals .icon-plus {
@@ -157,37 +173,60 @@
           filter: invert(56%) sepia(34%) saturate(6580%) hue-rotate(339deg) brightness(96%) contrast(96%);
   width: 24px;
   height: 24px;
-  margin-bottom: 1.3rem;
+  cursor: pointer;
 }
 
 .sectionAddActuals p {
   text-transform: uppercase;
+  font-size: 0.75rem;
+  line-height: 3.1rem;
+  font-family: IBM Plex Sans;
+  letter-spacing: 2px;
 }
 
-@media only screen and (min-device-width: 0px) and (max-device-width: 991.98px) {
+.sectionAddActuals p span {
+  cursor: pointer;
+}
+
+.sectionSatu .sectionSatuKanan img {
+  width: 1049px;
+}
+
+.sectionSatu .sectionSatuKanan .orangeBlock {
+  height: 16px;
+  background-color: #f05e36;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1184px) {
+  .sectionAddActuals {
+    margin-top: -1rem;
+  }
   .sectionBody {
     margin-top: 2rem;
     display: block;
   }
-  .sectionBody .containerCategories {
+  .sectionBody .containerCategoriesCornerBlur {
     position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    overflow-x: auto;
   }
-  .sectionBody .containerCategories::after {
-    content: "";
+  .sectionBody .containerCategoriesCornerBlur div {
+    right: 0;
+    height: 60px;
+    width: 20%;
+    z-index: 1;
     position: absolute;
     background: transparent;
     background: -webkit-gradient(linear, left top, right top, from(transparent), to(white));
     background: linear-gradient(90deg, transparent 0%, white 100%);
-    right: 0;
-    height: 60px;
-    width: 20%;
+  }
+  .sectionBody .containerCategories {
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
   }
   .sectionBody .containerCategories li {
     margin-right: 1rem;
+    display: inline-block;
   }
   .sectionBody .containerCards {
     height: auto;
@@ -197,11 +236,19 @@
             align-items: center;
     padding: 0;
   }
-  .sectionBody .containerCards .item {
-    width: 100%;
+  .sectionBody .containerCards .item .date {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .sectionBody .containerCards .item .subTitle {
+    margin-bottom: 0.8rem;
+  }
+  .sectionBody .containerCards .item .containerImage::after {
+    display: none;
+    visibility: hidden;
   }
   .sectionBody .containerCards .item .containerImage img {
-    width: 100%;
     -o-object-fit: contain;
        object-fit: contain;
   }
@@ -210,6 +257,42 @@
   }
   .sectionBody .containerCards .item.top-right {
     margin-top: 0;
+  }
+  .sectionBody .containerCards .item.quotes.pink {
+    margin-bottom: 2.36625rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .sectionSatu .sectionSatuKanan img {
+    width: 1049px;
+  }
+  .sectionSatu .sectionSatuKanan .orangeBlock {
+    width: 100px;
+    background-color: #f05e36;
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 717px) {
+  .sectionBody .containerCategories {
+    overflow-x: auto;
+  }
+  .sectionBody .containerCategories li:last-child {
+    margin-right: 0;
+  }
+  .sectionBody .containerCategoriesCornerBlur {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 373px) {
+  .sectionBody .containerCards .item {
+    width: 100%;
+  }
+  .sectionBody .containerCards .item .containerImage img {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=Halaman4.css.map */

@@ -44,644 +44,6 @@
 }
 
 @media (max-width: 319.98px) {
-  .container {
-    margin-left: 0;
-    margin-right: 0;
-    max-width: 100%;
-  }
-  .container .navbar {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
-    margin-left: -1.5rem;
-    margin-right: -1.5rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    border-bottom: 1px solid #e3e3e3;
-    padding-bottom: 20px;
-  }
-  .container .navbar .line {
-    display: none;
-  }
-  .container .navbar-light .navbar-toggler {
-    border: none;
-  }
-  .container .drop .btn-group {
-    margin-top: 0;
-    margin-left: -2.5rem;
-  }
-  .container .navbar-nav {
-    top: 0;
-    left: 0;
-    position: fixed;
-    background-color: #021925;
-    height: 100%;
-    display: inline-block;
-    width: 90%;
-    padding: 1.5rem;
-    color: white;
-  }
-  .container .navbar-nav li .nav-link {
-    font-family: "IBMPlexSans-SemiBold";
-    font-size: 18px;
-    color: #ffffff;
-    line-height: 23px;
-    margin-bottom: 24px;
-  }
-  .container .navbar-nav li .nav-link:hover {
-    color: orange;
-  }
-  .container .navbar-nav li .nav-link.contact {
-    margin-bottom: 50px;
-  }
-  .container .navbar-nav li ul.dash {
-    list-style-type: none;
-    margin-top: 30px;
-    padding-left: 10px;
-  }
-  .container .navbar-nav li ul.dash li {
-    font-family: "IBMPlexSans";
-    font-size: 14px;
-    color: #ffffff;
-    line-height: 18px;
-    margin-bottom: 24px;
-    text-indent: -5px;
-  }
-  .container .navbar-nav li ul.dash li.first {
-    color: #f05e36;
-  }
-  .container .navbar-nav li ul.dash li:before {
-    content: "-";
-    text-indent: -5px;
-    margin-right: 13px;
-    color: #f05e36;
-  }
-  .container .navbar-nav #listhide {
-    border-top: 1.5px solid #113d53;
-  }
-  .container .sectionSatu {
-    margin-top: 0;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .container .sectionSatu .sectionSatuKiri {
-    background-color: transparent;
-  }
-  .container .sectionSatu .sectionSatuKiri .text {
-    margin-left: 0;
-    position: block;
-  }
-  .container .sectionSatu .sectionSatuKiri .text h1 {
-    height: auto;
-    color: #F05E36;
-    font-family: "Butler";
-    font-size: 2.625rem;
-    letter-spacing: -0.03875rem;
-    line-height: 2.375rem;
-  }
-  .container .sectionSatu .sectionSatuKiri .text h5 {
-    margin-top: .75rem;
-    color: #021925;
-    font-family: "Minion-DisplayItalic";
-    font-size: 1.125rem;
-    font-style: italic;
-    letter-spacing: .00625rem;
-    line-height: 1.125rem;
-  }
-  .container .sectionSatu .sectionSatuKanan {
-    position: block;
-    margin-left: 0;
-    margin-top: 1.625rem;
-  }
-  .container .sectionSatu .sectionSatuKanan img {
-    height: 12rem;
-  }
-  .container .sectionDua {
-    margin-top: 2.0625rem;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .container .sectionDua .sectionDuaKiri .wraperKiri-One {
-    color: #0A2939;
-    font-family: "IBMPlexSans";
-    font-size: 1.125rem;
-    font-weight: 300;
-    letter-spacing: -0.01625rem;
-    line-height: 1.75rem;
-  }
-  .container .sectionDua .sectionDuaKiri .wraperKiri-Two p {
-    color: #0A2939;
-    font-family: "IBMPlexSans-Light";
-    font-size: .875rem;
-    font-weight: 300;
-    letter-spacing: -0.005625rem;
-    line-height: 1.625rem;
-  }
-  .container .sectionDua .sectionDuaKiri .wraperKiri-Three img {
-    margin-left: -1.5rem;
-  }
-  .container .sectionDua .sectionDuaKiri .wraperKiri-Four {
-    margin-top: 2rem;
-    background-color: #0A2939;
-    padding: 2rem;
-  }
-  .container .sectionDua .sectionDuaKiri .wraperKiri-Four h3 {
-    color: #F05E36;
-    font-family: Butler;
-    font-size: 32px;
-    font-weight: 300;
-    letter-spacing: -0.47px;
-    line-height: 36px;
-  }
-  .container .sectionDua .sectionDuaKiri .wraperKiri-Four p {
-    color: #FFFFFF;
-    font-family: "IBM Plex Sans";
-    font-size: 18px;
-    font-weight: 300;
-    letter-spacing: -0.11px;
-    line-height: 28px;
-  }
-  .container .sectionDua .sectionDuaKanan {
-    margin-top: 1.4375rem;
-  }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-One {
-    background-color: #F05E36;
-    padding: .75rem;
-    display: none;
-  }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-One p {
-    color: #0A2939;
-    font-family: "IBMPlexSans-Light";
-    font-size: .875rem;
-    font-weight: 300;
-    letter-spacing: -0.005625rem;
-    line-height: 1.625rem;
-  }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-One ul {
-    list-style: square;
-  }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-One ul li {
-    color: #FFFFFF;
-    font-family: "Butler";
-    font-size: 1.25rem;
-    font-weight: 300;
-    letter-spacing: -0.036875rem;
-    line-height: 3.125rem;
-  }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-Two {
-    margin-top: 1.25rem;
-  }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-Two p {
-    color: #0A2939;
-    font-family: "IBMPlexSans-Light";
-    font-size: .875rem;
-    font-weight: 300;
-    letter-spacing: -0.005625rem;
-    line-height: 1.625rem;
-  }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-Three h3 {
-    color: #F05E36;
-    font-family: "IBM Plex Sans";
-    font-size: 20px;
-    font-weight: 500;
-    letter-spacing: -0.29px;
-    line-height: 28px;
-    margin-top: 2.125rem;
-  }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-Three p {
-    margin-top: 1.25rem;
-    color: #0A2939;
-    font-family: "IBMPlexSans-Light";
-    font-size: .875rem;
-    font-weight: 300;
-    letter-spacing: -0.005625rem;
-    line-height: 1.625rem;
-  }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-Four {
-    margin-top: 2.4375rem;
-  }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-Four h1 {
-    color: #F05E36;
-    font-family: "IBM Plex Sans";
-    font-size: 20px;
-    font-weight: 500;
-    letter-spacing: -0.29px;
-    line-height: 28px;
-  }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul {
-    margin-left: 0;
-    padding-left: 0;
-  }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul li {
-    color: #0A2939;
-    font-family: "IBMPlexSans-Light";
-    font-size: .875rem;
-    font-weight: 300;
-    letter-spacing: -0.00625rem;
-    line-height: 1.875rem;
-    list-style: none;
-    width: 100%;
-  }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul li:before {
-    content: "-";
-    text-indent: -20px;
-    color: #f05e36;
-    font-size: 20px;
-    letter-spacing: -0.1px;
-    line-height: 30px;
-    margin-right: .625rem;
-  }
-  .container .sectionTiga {
-    margin-top: 1.875rem;
-  }
-  .container .sectionTiga .sectionTigaAtas h1 {
-    margin: 1.5rem;
-    margin-left: 0;
-    color: #021925;
-    font-family: Butler;
-    font-size: 34px;
-    letter-spacing: -0.5px;
-    line-height: 38px;
-  }
-  .container .sectionTiga .sectionTigaBawah img {
-    margin-top: 1rem;
-    height: 50%;
-    width: 100%;
-  }
-  .container .sectionTiga .sectionTigaBawah .cardSlider {
-    opacity: 0.9;
-    background-color: #F05E36;
-    padding: 1.5rem;
-    margin-top: 1rem;
-  }
-  .container .sectionTiga .sectionTigaBawah .cardSlider h2 {
-    color: #0A2939;
-    font-family: Butler;
-    font-size: 28px;
-    letter-spacing: 0;
-    line-height: 34px;
-  }
-  .container .sectionTiga .sectionTigaBawah .cardSlider a {
-    color: #FFFFFF;
-    font-family: "IBM Plex Sans";
-    font-size: 14px;
-    letter-spacing: -0.09px;
-    line-height: 24px;
-    text-decoration: none;
-  }
-  .container .sectionTiga .sectionTigaBawah .cardSlider p a {
-    padding: 0;
-  }
-  .container .sectionTiga .sectionTigaBawah .cardSlider .link {
-    margin-bottom: -0.625rem;
-  }
-  .container .sectionTiga .sectionTigaBawah .cardSlider p {
-    color: white;
-    font-family: "IBM Plex Sans";
-    font-size: .875rem;
-    letter-spacing: 0;
-    line-height: 2.125rem;
-  }
-  .container .sectionEmpat .sectionEmpatAtas {
-    display: none;
-  }
-  .container .sectionEmpat .sectionEmpatBawah {
-    display: none;
-  }
-  .container .sectionLima {
-    margin-top: 1.875rem;
-    border: 4px solid rgba(246, 110, 73, 0.15);
-  }
-  .container .sectionLima .sectionLimaBody {
-    padding: 1.5rem;
-  }
-  .container .sectionLima .sectionLimaBody .logo {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .container .sectionLima .sectionLimaBody .logo img {
-    width: 11.25rem;
-  }
-  .container .sectionLima .sectionLimaBody .title {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-top: 1.5625rem;
-    margin-bottom: 1.5625rem;
-  }
-  .container .sectionLima .sectionLimaBody h2 {
-    color: #002F39;
-    font-family: "Minion-Bold";
-    font-size: 1.1875rem;
-    font-weight: bold;
-    letter-spacing: .65rem;
-    line-height: 2rem;
-    text-align: center;
-    text-transform: uppercase;
-    height: auto;
-  }
-  .container .sectionLima .sectionLimaBody p {
-    margin-top: 0;
-    margin-bottom: 0;
-    color: #F66E49;
-    font-family: "IBM Plex Sans";
-    font-size: .9375rem;
-    letter-spacing: -0.01625rem;
-    line-height: 1.125rem;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-  }
-  .container .sectionLima .SectionLimaTengah .mc-field-group {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .container .sectionLima .SectionLimaTengah .mc-field-group input {
-    color: #363636;
-    font-family: "IBM Plex Sans";
-    font-size: 16px;
-    letter-spacing: -0.24px;
-    line-height: 30px;
-    text-align: center;
-    margin: auto;
-    display: block;
-    border: none;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid #E8D4CF;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 1rem;
-  }
-  .container .sectionLima .SectionLimaTengah .mc-field-group ::-webkit-input-placeholder {
-    height: 30px;
-    width: 256px;
-    color: #F05E36;
-    font-family: "IBM Plex Sans";
-    font-size: 16px;
-    letter-spacing: -0.24px;
-    line-height: 30px;
-    text-align: center;
-  }
-  .container .sectionLima .SectionLimaTengah .mc-field-group :-ms-input-placeholder {
-    height: 30px;
-    width: 256px;
-    color: #F05E36;
-    font-family: "IBM Plex Sans";
-    font-size: 16px;
-    letter-spacing: -0.24px;
-    line-height: 30px;
-    text-align: center;
-  }
-  .container .sectionLima .SectionLimaTengah .mc-field-group ::-ms-input-placeholder {
-    height: 30px;
-    width: 256px;
-    color: #F05E36;
-    font-family: "IBM Plex Sans";
-    font-size: 16px;
-    letter-spacing: -0.24px;
-    line-height: 30px;
-    text-align: center;
-  }
-  .container .sectionLima .SectionLimaTengah .mc-field-group ::placeholder {
-    height: 30px;
-    width: 256px;
-    color: #F05E36;
-    font-family: "IBM Plex Sans";
-    font-size: 16px;
-    letter-spacing: -0.24px;
-    line-height: 30px;
-    text-align: center;
-  }
-  .container .sectionLima .SectionLimaTengah .mc-field-group [placeholder] + span::after {
-    content: "*";
-    color: red;
-  }
-  .container .sectionLima .SectionLimaTengah h6 {
-    text-align: center;
-    font-family: "IBMPlexSans-Medium";
-    color: #002f39;
-  }
-  .container .sectionLima .SectionLimaTengah .mc_fieldset {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-top: 1.3125rem;
-    margin-bottom: 1.875rem;
-    margin-left: -1.875rem;
-    margin-right: -1.875rem;
-  }
-  .container .sectionLima .SectionLimaTengah .mc_fieldset input {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    width: 10.85px;
-    border: 2px solid #FFFFFF;
-    margin-right: .5rem;
-  }
-  .container .sectionLima .SectionLimaTengah .mc_fieldset .text {
-    color: #002F39;
-    font-family: "IBM Plex Sans";
-    font-size: 14px;
-    letter-spacing: -0.21px;
-    line-height: 18px;
-  }
-  .container .sectionLima .SectionLimaTengah .mc_fieldset a {
-    margin-left: .3125rem;
-    color: #002F39;
-    font-family: "IBM Plex Sans";
-    font-size: 14px;
-    letter-spacing: -0.21px;
-    line-height: 18px;
-  }
-  .container .sectionLima .SectionLimaBawah {
-    margin-top: 1.875rem;
-  }
-  .container .sectionLima .SectionLimaBawah p {
-    color: #F66E49;
-    font-family: "IBM Plex Sans";
-    font-size: 18px;
-    letter-spacing: -0.26px;
-    line-height: 24px;
-    text-align: center;
-  }
-  .container .sectionLima .SectionLimaBawah .mc-field-group {
-    margin-top: 2rem;
-  }
-  .container .sectionLima .SectionLimaBawah input {
-    color: #363636;
-    font-family: "IBM Plex Sans";
-    font-size: 16px;
-    letter-spacing: -0.24px;
-    line-height: 30px;
-    text-align: left;
-    margin: auto;
-    display: block;
-    border: none;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid #E8D4CF;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 1rem;
-  }
-  .container .sectionLima .SectionLimaBawah ::-webkit-input-placeholder {
-    color: #363636;
-    font-family: "IBM Plex Sans";
-    font-size: 16px;
-    letter-spacing: -0.24px;
-    line-height: 30px;
-    text-align: left;
-  }
-  .container .sectionLima .SectionLimaBawah :-ms-input-placeholder {
-    color: #363636;
-    font-family: "IBM Plex Sans";
-    font-size: 16px;
-    letter-spacing: -0.24px;
-    line-height: 30px;
-    text-align: left;
-  }
-  .container .sectionLima .SectionLimaBawah ::-ms-input-placeholder {
-    color: #363636;
-    font-family: "IBM Plex Sans";
-    font-size: 16px;
-    letter-spacing: -0.24px;
-    line-height: 30px;
-    text-align: left;
-  }
-  .container .sectionLima .SectionLimaBawah ::placeholder {
-    color: #363636;
-    font-family: "IBM Plex Sans";
-    font-size: 16px;
-    letter-spacing: -0.24px;
-    line-height: 30px;
-    text-align: left;
-  }
-  .container .sectionLima .SectionLimaBawahDua {
-    padding: 1.5625rem;
-  }
-  .container .sectionLima .SectionLimaBawahDua button {
-    margin-top: 1.5625rem;
-    border: 1px solid #fff;
-    border-radius: 24px;
-    padding-top: .9375rem;
-    padding-bottom: .9375rem;
-    color: #FFFFFF;
-    font-family: "IBM Plex Sans";
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: 0;
-    line-height: 20px;
-    background-color: #F05E36;
-    width: 100%;
-  }
-  .Footer {
-    margin-top: 1.875rem;
-    background-color: #021925;
-  }
-  .Footer .container .footerHeader img {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    padding-top: 2.9375rem;
-    width: 11.625rem;
-    padding-bottom: 3rem;
-  }
-  .Footer .container .foooterBody {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .Footer .container .foooterBody .footerBodyKiri {
-    width: 100%;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    border-top: 1.5px solid #113D53;
-    padding-top: 1.9375rem;
-    border-bottom: 1.5px solid #113D53;
-  }
-  .Footer .container .foooterBody .footerBodyKiri li {
-    color: #FFFFFF;
-    font-family: "IBMPlexSans-Light";
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-    line-height: 15px;
-    text-align: center;
-    text-transform: uppercase;
-    padding-bottom: 1.5rem;
-    list-style: none;
-  }
-  .Footer .container .foooterBody .footerBodyKanan {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    margin-bottom: 3.6875rem;
-    margin-top: 1.9375rem;
-    width: 100%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    border: none;
-  }
-  .Footer .container .foooterBody .footerBodyKanan img {
-    padding-right: 1rem;
-  }
-  .Footer .container .foooterBody .footerBodyKanan h5 {
-    display: inline-block;
-    color: #FFFFFF;
-    font-family: "IBMPlexSans-Light";
-    font-size: 15px;
-    letter-spacing: -0.22px;
-    line-height: 19.5px;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 374.98px) {
   .navbar-nav {
     top: 0;
     left: 0;
@@ -771,6 +133,7 @@
   .container .sectionSatu .sectionSatuKiri .text {
     margin-left: 0;
     position: block;
+    margin-top: 1.375rem;
   }
   .container .sectionSatu .sectionSatuKiri .text h1 {
     height: auto;
@@ -808,21 +171,25 @@
     display: -ms-flexbox;
     display: flex;
   }
-  .container .sectionDua .sectionDuaKiri .wraperKiri-One {
+  .container .sectionDua .sectionDuaKiri .wraperKiri-One h3 {
     color: #0A2939;
-    font-family: "IBMPlexSans";
-    font-size: 1.125rem;
+    font-family: "IBM Plex Sans";
+    font-size: 18px;
     font-weight: 300;
-    letter-spacing: -0.01625rem;
-    line-height: 1.75rem;
+    letter-spacing: -0.26px;
+    line-height: 28px;
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Two p {
     color: #0A2939;
-    font-family: "IBMPlexSans-Light";
-    font-size: .875rem;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
     font-weight: 300;
-    letter-spacing: -0.005625rem;
-    line-height: 1.625rem;
+    letter-spacing: -0.09px;
+    line-height: 26px;
+    margin-bottom: 1.375rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Three {
+    margin-right: -1.5rem;
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Three img {
     width: 100%;
@@ -874,9 +241,6 @@
     letter-spacing: -0.036875rem;
     line-height: 3.125rem;
   }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-Two {
-    margin-top: 1.25rem;
-  }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Two p {
     color: #0A2939;
     font-family: "IBMPlexSans-Light";
@@ -908,6 +272,7 @@
     padding-left: 0;
     padding-right: 0;
     margin-top: 2.4375rem;
+    padding-bottom: 0;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Four h1 {
     color: #F05E36;
@@ -916,29 +281,46 @@
     font-weight: 500;
     letter-spacing: -0.29px;
     line-height: 28px;
+    margin-bottom: 1.25rem;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul {
     margin-left: 0;
     padding-left: 0;
+    margin-left: 1.5rem;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul li {
     color: #0A2939;
-    font-family: "IBMPlexSans-Light";
-    font-size: .875rem;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
     font-weight: 300;
-    letter-spacing: -0.00625rem;
-    line-height: 1.875rem;
+    letter-spacing: -0.09px;
+    line-height: 26px;
     list-style: none;
-    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul li:before {
-    content: "-";
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul .strip {
     text-indent: -20px;
     color: #f05e36;
-    font-size: 20px;
+    font-size: 40px;
     letter-spacing: -0.1px;
     line-height: 30px;
     margin-right: .625rem;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul p {
+    color: #0A2939;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: -0.09px;
+    line-height: 26px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
   }
   .container .sectionTiga {
     margin-top: 1.875rem;
@@ -992,11 +374,78 @@
     letter-spacing: 0;
     line-height: 2.125rem;
   }
-  .container .sectionEmpat .sectionEmpatAtas {
-    display: none;
+  .container .sectionEmpat .sectionEmpatAtas h5 {
+    margin-top: 3rem;
+    color: #F05E36;
+    font-family: "IBM Plex Sans";
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.29px;
+    line-height: 28px;
+    margin-bottom: 1.25rem;
   }
-  .container .sectionEmpat .sectionEmpatBawah {
-    display: none;
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul {
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul li {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul li .strip {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: #0A2939;
+    font-size: 1.875rem;
+    padding-right: .8125rem;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul li p {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: #0A2939;
+    font-family: "Butler";
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 34px;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul li p:hover {
+    color: #F05E36;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul {
+    padding-left: 0;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul li {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul li .strip {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: #0A2939;
+    font-size: 1.875rem;
+    padding-right: .8125rem;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul li p {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: #0A2939;
+    font-family: "Butler";
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 34px;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul li p:hover {
+    color: #F05E36;
   }
   .container .sectionLima {
     margin-top: 1.875rem;
@@ -1291,6 +740,10 @@
     padding-top: 1.9375rem;
     border-bottom: 1.5px solid #113D53;
   }
+  .Footer .container .foooterBody .footerBodyKiri .footerBodyKiriOne {
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+  }
   .Footer .container .foooterBody .footerBodyKiri li {
     color: #FFFFFF;
     font-family: "IBMPlexSans-Light";
@@ -1332,7 +785,59 @@
   }
 }
 
-@media (min-width: 375px) and (max-width: 574.98px) {
+@media (min-width: 320px) and (max-width: 374.98px) {
+  .navbar-nav {
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #021925;
+    height: 100%;
+    display: inline-block;
+    width: 90%;
+    padding: 1.5rem;
+    color: white;
+  }
+  .navbar-nav li .nav-link {
+    font-family: "IBMPlexSans-SemiBold";
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 23px;
+    margin-bottom: 24px;
+  }
+  .navbar-nav li .nav-link:hover {
+    color: orange;
+  }
+  .navbar-nav li .nav-link.contact {
+    margin-bottom: 50px;
+  }
+  .navbar-nav li ul.dash {
+    list-style-type: none;
+    margin-top: 30px;
+    padding-left: 10px;
+  }
+  .navbar-nav li ul.dash li {
+    font-family: "IBMPlexSans";
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 18px;
+    margin-bottom: 24px;
+    text-indent: -5px;
+  }
+  .navbar-nav li ul.dash li.first {
+    color: #f05e36;
+  }
+  .navbar-nav li ul.dash li:before {
+    content: "-";
+    text-indent: -5px;
+    margin-right: 13px;
+    color: #f05e36;
+  }
+  .navbar-nav #listhide {
+    border-top: 1.5px solid #113d53;
+  }
+  .navbar-light .navbar-toggler {
+    border: none;
+  }
   .container {
     margin-left: 0;
     margin-right: 0;
@@ -1354,58 +859,6 @@
   .container .navbar .line {
     display: none;
   }
-  .container .navbar-light .navbar-toggler {
-    border: none;
-  }
-  .container .navbar-nav {
-    top: 0;
-    left: 0;
-    position: fixed;
-    background-color: #021925;
-    height: 100%;
-    display: inline-block;
-    width: 90%;
-    padding: 1.5rem;
-    color: white;
-  }
-  .container .navbar-nav li .nav-link {
-    font-family: "IBMPlexSans-SemiBold";
-    font-size: 18px;
-    color: #ffffff;
-    line-height: 23px;
-    margin-bottom: 24px;
-  }
-  .container .navbar-nav li .nav-link:hover {
-    color: orange;
-  }
-  .container .navbar-nav li .nav-link.contact {
-    margin-bottom: 50px;
-  }
-  .container .navbar-nav li ul.dash {
-    list-style-type: none;
-    margin-top: 30px;
-    padding-left: 10px;
-  }
-  .container .navbar-nav li ul.dash li {
-    font-family: "IBMPlexSans";
-    font-size: 14px;
-    color: #ffffff;
-    line-height: 18px;
-    margin-bottom: 24px;
-    text-indent: -5px;
-  }
-  .container .navbar-nav li ul.dash li.first {
-    color: #f05e36;
-  }
-  .container .navbar-nav li ul.dash li:before {
-    content: "-";
-    text-indent: -5px;
-    margin-right: 13px;
-    color: #f05e36;
-  }
-  .container .navbar-nav #listhide {
-    border-top: 1.5px solid #113d53;
-  }
   .container .sectionSatu {
     margin-top: 0;
     -webkit-box-orient: vertical;
@@ -1422,6 +875,7 @@
   .container .sectionSatu .sectionSatuKiri .text {
     margin-left: 0;
     position: block;
+    margin-top: 1.375rem;
   }
   .container .sectionSatu .sectionSatuKiri .text h1 {
     height: auto;
@@ -1447,6 +901,7 @@
   }
   .container .sectionSatu .sectionSatuKanan img {
     height: 12rem;
+    width: 100%;
   }
   .container .sectionDua {
     margin-top: 2.0625rem;
@@ -1458,23 +913,28 @@
     display: -ms-flexbox;
     display: flex;
   }
-  .container .sectionDua .sectionDuaKiri .wraperKiri-One {
+  .container .sectionDua .sectionDuaKiri .wraperKiri-One h3 {
     color: #0A2939;
-    font-family: "IBMPlexSans";
-    font-size: 1.125rem;
+    font-family: "IBM Plex Sans";
+    font-size: 18px;
     font-weight: 300;
-    letter-spacing: -0.01625rem;
-    line-height: 1.75rem;
+    letter-spacing: -0.26px;
+    line-height: 28px;
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Two p {
     color: #0A2939;
-    font-family: "IBMPlexSans-Light";
-    font-size: .875rem;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
     font-weight: 300;
-    letter-spacing: -0.005625rem;
-    line-height: 1.625rem;
+    letter-spacing: -0.09px;
+    line-height: 26px;
+    margin-bottom: 1.375rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Three {
+    margin-right: -1.5rem;
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Three img {
+    width: 100%;
     margin-left: -1.5rem;
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Four {
@@ -1518,13 +978,10 @@
   .container .sectionDua .sectionDuaKanan .wraperKanan-One ul li {
     color: #FFFFFF;
     font-family: "Butler";
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 300;
     letter-spacing: -0.036875rem;
     line-height: 3.125rem;
-  }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-Two {
-    margin-top: 1.25rem;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Two p {
     color: #0A2939;
@@ -1553,7 +1010,11 @@
     line-height: 1.625rem;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Four {
-    margin-top: 1.875rem;
+    padding: 1.5rem;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 2.4375rem;
+    padding-bottom: 0;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Four h1 {
     color: #F05E36;
@@ -1562,35 +1023,53 @@
     font-weight: 500;
     letter-spacing: -0.29px;
     line-height: 28px;
+    margin-bottom: 1.25rem;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul {
-    padding-left: 0px;
+    margin-left: 0;
+    padding-left: 0;
+    margin-left: 1.5rem;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul li {
-    margin-left: .75rem;
     color: #0A2939;
-    font-family: "IBMPlexSans-Light";
-    font-size: 0.875rem;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
     font-weight: 300;
-    letter-spacing: -0.00625rem;
-    line-height: 1.875rem;
+    letter-spacing: -0.09px;
+    line-height: 26px;
     list-style: none;
-    padding-left: 0;
-    margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul li::before {
-    content: "-";
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul .strip {
     text-indent: -20px;
     color: #f05e36;
+    font-size: 40px;
     letter-spacing: -0.1px;
     line-height: 30px;
-    margin-right: 0.625rem;
+    margin-right: .625rem;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul p {
+    color: #0A2939;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: -0.09px;
+    line-height: 26px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
   }
   .container .sectionTiga {
     margin-top: 1.875rem;
   }
   .container .sectionTiga .sectionTigaAtas h1 {
     margin: 1.5rem;
+    margin-left: 0;
     margin-left: 0;
     color: #021925;
     font-family: Butler;
@@ -1601,15 +1080,13 @@
   .container .sectionTiga .sectionTigaBawah img {
     height: 50%;
     width: 100%;
-  }
-  .container .sectionTiga .sectionTigaBawah .imgHide {
     margin-top: 1rem;
   }
   .container .sectionTiga .sectionTigaBawah .cardSlider {
-    margin-top: 1rem;
     opacity: 0.9;
     background-color: #F05E36;
     padding: 1.5rem;
+    margin-top: 1rem;
   }
   .container .sectionTiga .sectionTigaBawah .cardSlider h2 {
     color: #0A2939;
@@ -1639,11 +1116,78 @@
     letter-spacing: 0;
     line-height: 2.125rem;
   }
-  .container .sectionEmpat .sectionEmpatAtas {
-    display: none;
+  .container .sectionEmpat .sectionEmpatAtas h5 {
+    margin-top: 3rem;
+    color: #F05E36;
+    font-family: "IBM Plex Sans";
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.29px;
+    line-height: 28px;
+    margin-bottom: 1.25rem;
   }
-  .container .sectionEmpat .sectionEmpatBawah {
-    display: none;
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul {
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul li {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul li .strip {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: #0A2939;
+    font-size: 1.875rem;
+    padding-right: .8125rem;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul li p {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: #0A2939;
+    font-family: "Butler";
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 34px;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul li p:hover {
+    color: #F05E36;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul {
+    padding-left: 0;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul li {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul li .strip {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: #0A2939;
+    font-size: 1.875rem;
+    padding-right: .8125rem;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul li p {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: #0A2939;
+    font-family: "Butler";
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 34px;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul li p:hover {
+    color: #F05E36;
   }
   .container .sectionLima {
     margin-top: 1.875rem;
@@ -1671,11 +1215,12 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-bottom: 1.5625rem;
   }
   .container .sectionLima .sectionLimaBody h2 {
     color: #002F39;
     font-family: "Minion-Bold";
-    font-size: 22px;
+    font-size: 1.1875rem;
     font-weight: bold;
     letter-spacing: 8px;
     line-height: 24px;
@@ -1688,7 +1233,7 @@
     width: 256px;
     color: #F66E49;
     font-family: "IBMPlexSans-Light";
-    font-size: 18px;
+    font-size: 1.0625rem;
     letter-spacing: -0.26px;
     line-height: 24px;
     text-align: center;
@@ -1699,9 +1244,6 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -1714,29 +1256,62 @@
     line-height: 30px;
     text-align: center;
     margin: auto;
-    margin-top: auto;
-    margin-top: auto;
     display: block;
     border: none;
     border-top: none;
     border-left: none;
     border-right: none;
     border-bottom: 1px solid #E8D4CF;
-    margin-top: 35px;
-    padding-bottom: 1rem;
-  }
-  .container .sectionLima .SectionLimaTengah .mc-field-group .email {
-    padding: 0.5rem;
-    width: 80%;
     margin-left: 0;
     margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 1rem;
+  }
+  .container .sectionLima .SectionLimaTengah .mc-field-group ::-webkit-input-placeholder {
+    height: 30px;
+    width: 256px;
+    color: #F05E36;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .container .sectionLima .SectionLimaTengah .mc-field-group :-ms-input-placeholder {
+    height: 30px;
+    width: 256px;
+    color: #F05E36;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .container .sectionLima .SectionLimaTengah .mc-field-group ::-ms-input-placeholder {
+    height: 30px;
+    width: 256px;
+    color: #F05E36;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .container .sectionLima .SectionLimaTengah .mc-field-group ::placeholder {
+    height: 30px;
+    width: 256px;
+    color: #F05E36;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: center;
   }
   .container .sectionLima .SectionLimaTengah .mc-field-group [placeholder] + span::after {
     content: "*";
     color: red;
   }
   .container .sectionLima .SectionLimaTengah h6 {
-    text-align: center;
     text-align: center;
     font-family: "IBMPlexSans-Medium";
     color: #002f39;
@@ -1764,6 +1339,7 @@
     font-size: 14px;
     letter-spacing: -0.21px;
     line-height: 18px;
+    margin-right: .3125rem;
   }
   .container .sectionLima .SectionLimaTengah .mc_fieldset a {
     color: #002F39;
@@ -1771,13 +1347,14 @@
     font-size: 14px;
     letter-spacing: -0.21px;
     line-height: 18px;
-    padding-left: .3125rem;
   }
   .container .sectionLima .SectionLimaBawah {
     margin-top: 1.875rem;
   }
   .container .sectionLima .SectionLimaBawah p {
+    height: 48px;
     width: 100%;
+    color: #F66E49;
     font-family: "IBM Plex Sans";
     font-size: 18px;
     letter-spacing: -0.26px;
@@ -1904,6 +1481,753 @@
     border-top: 1.5px solid #113D53;
     padding-top: 1.9375rem;
     border-bottom: 1.5px solid #113D53;
+  }
+  .Footer .container .foooterBody .footerBodyKiri .footerBodyKiriOne {
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+  }
+  .Footer .container .foooterBody .footerBodyKiri li {
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+    list-style: none;
+  }
+  .Footer .container .foooterBody .footerBodyKanan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 3.6875rem;
+    margin-top: 1.9375rem;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: none;
+  }
+  .Footer .container .foooterBody .footerBodyKanan img {
+    padding-right: 1rem;
+  }
+  .Footer .container .foooterBody .footerBodyKanan h5 {
+    display: inline-block;
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 15px;
+    letter-spacing: -0.22px;
+    line-height: 19.5px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 574.98px) {
+  .navbar-nav {
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #021925;
+    height: 100%;
+    display: inline-block;
+    width: 90%;
+    padding: 1.5rem;
+    color: white;
+  }
+  .navbar-nav li .nav-link {
+    font-family: "IBMPlexSans-SemiBold";
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 23px;
+    margin-bottom: 24px;
+  }
+  .navbar-nav li .nav-link:hover {
+    color: orange;
+  }
+  .navbar-nav li .nav-link.contact {
+    margin-bottom: 50px;
+  }
+  .navbar-nav li ul.dash {
+    list-style-type: none;
+    margin-top: 30px;
+    padding-left: 10px;
+  }
+  .navbar-nav li ul.dash li {
+    font-family: "IBMPlexSans";
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 18px;
+    margin-bottom: 24px;
+    text-indent: -5px;
+  }
+  .navbar-nav li ul.dash li.first {
+    color: #f05e36;
+  }
+  .navbar-nav li ul.dash li:before {
+    content: "-";
+    text-indent: -5px;
+    margin-right: 13px;
+    color: #f05e36;
+  }
+  .navbar-nav #listhide {
+    border-top: 1.5px solid #113d53;
+  }
+  .navbar-light .navbar-toggler {
+    border: none;
+  }
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+  }
+  .container .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 20px;
+  }
+  .container .navbar .line {
+    display: none;
+  }
+  .container .sectionSatu {
+    margin-top: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionSatu .sectionSatuKiri {
+    background-color: transparent;
+  }
+  .container .sectionSatu .sectionSatuKiri .text {
+    margin-left: 0;
+    position: block;
+    margin-top: 1.375rem;
+  }
+  .container .sectionSatu .sectionSatuKiri .text h1 {
+    height: auto;
+    color: #F05E36;
+    font-family: "Butler";
+    font-size: 2.625rem;
+    letter-spacing: -0.03875rem;
+    line-height: 2.375rem;
+  }
+  .container .sectionSatu .sectionSatuKiri .text h5 {
+    margin-top: .75rem;
+    color: #021925;
+    font-family: "Minion-DisplayItalic";
+    font-size: 1.125rem;
+    font-style: italic;
+    letter-spacing: .00625rem;
+    line-height: 1.125rem;
+  }
+  .container .sectionSatu .sectionSatuKanan {
+    position: block;
+    margin-left: 0;
+    margin-top: 1.625rem;
+  }
+  .container .sectionSatu .sectionSatuKanan img {
+    height: 12rem;
+    width: 100%;
+  }
+  .container .sectionDua {
+    margin-top: 2.0625rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-One h3 {
+    color: #0A2939;
+    font-family: "IBM Plex Sans";
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.26px;
+    line-height: 28px;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Two p {
+    color: #0A2939;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: -0.09px;
+    line-height: 26px;
+    margin-bottom: 1.375rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Three {
+    margin-right: -1.5rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Three img {
+    width: 100%;
+    margin-left: -1.5rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four {
+    margin-top: 2rem;
+    background-color: #0A2939;
+    padding: 2rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four h3 {
+    color: #F05E36;
+    font-family: Butler;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: -0.47px;
+    line-height: 36px;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Four p {
+    color: #FFFFFF;
+    font-family: "IBM Plex Sans";
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.11px;
+    line-height: 28px;
+  }
+  .container .sectionDua .sectionDuaKanan {
+    margin-top: 1.4375rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One {
+    display: none;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One ul {
+    list-style: square;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One ul li {
+    color: #FFFFFF;
+    font-family: "Butler";
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: -0.036875rem;
+    line-height: 3.125rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Two p {
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Three h3 {
+    color: #F05E36;
+    font-family: "IBM Plex Sans";
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.29px;
+    line-height: 28px;
+    margin-top: 2.125rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Three p {
+    margin-top: 1.25rem;
+    color: #0A2939;
+    font-family: "IBMPlexSans-Light";
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -0.005625rem;
+    line-height: 1.625rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four {
+    padding: 1.5rem;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 2.4375rem;
+    padding-bottom: 0;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four h1 {
+    color: #F05E36;
+    font-family: "IBM Plex Sans";
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.29px;
+    line-height: 28px;
+    margin-bottom: 1.25rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul {
+    margin-left: 0;
+    padding-left: 0;
+    margin-left: 1.5rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul li {
+    color: #0A2939;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: -0.09px;
+    line-height: 26px;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul .strip {
+    text-indent: -20px;
+    color: #f05e36;
+    font-size: 40px;
+    letter-spacing: -0.1px;
+    line-height: 30px;
+    margin-right: .625rem;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul p {
+    color: #0A2939;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: -0.09px;
+    line-height: 26px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .container .sectionTiga {
+    margin-top: 1.875rem;
+  }
+  .container .sectionTiga .sectionTigaAtas h1 {
+    margin: 1.5rem;
+    margin-left: 0;
+    margin-left: 0;
+    color: #021925;
+    font-family: Butler;
+    font-size: 34px;
+    letter-spacing: -0.5px;
+    line-height: 38px;
+  }
+  .container .sectionTiga .sectionTigaBawah img {
+    height: 50%;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider {
+    opacity: 0.9;
+    background-color: #F05E36;
+    padding: 1.5rem;
+    margin-top: 1rem;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider h2 {
+    color: #0A2939;
+    font-family: Butler;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 34px;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider a {
+    color: #FFFFFF;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    letter-spacing: -0.09px;
+    line-height: 24px;
+    text-decoration: none;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider p a {
+    padding: 0;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider .link {
+    margin-bottom: -0.625rem;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider p {
+    color: white;
+    font-family: "IBM Plex Sans";
+    font-size: .875rem;
+    letter-spacing: 0;
+    line-height: 2.125rem;
+  }
+  .container .sectionEmpat .sectionEmpatAtas h5 {
+    margin-top: 3rem;
+    color: #F05E36;
+    font-family: "IBM Plex Sans";
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.29px;
+    line-height: 28px;
+    margin-bottom: 1.25rem;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul {
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul li {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul li .strip {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: #0A2939;
+    font-size: 1.875rem;
+    padding-right: .8125rem;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul li p {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: #0A2939;
+    font-family: "Butler";
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 34px;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul li p:hover {
+    color: #F05E36;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul {
+    padding-left: 0;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul li {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul li .strip {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: #0A2939;
+    font-size: 1.875rem;
+    padding-right: .8125rem;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul li p {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: #0A2939;
+    font-family: "Butler";
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 34px;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul li p:hover {
+    color: #F05E36;
+  }
+  .container .sectionLima {
+    margin-top: 1.875rem;
+    border: 4px solid rgba(246, 110, 73, 0.15);
+  }
+  .container .sectionLima .sectionLimaBody .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 1.25rem;
+    padding-left: 3.75rem;
+    padding-right: 3.75rem;
+    padding-bottom: 2.3125rem;
+  }
+  .container .sectionLima .sectionLimaBody .logo img {
+    width: 11.625rem;
+  }
+  .container .sectionLima .sectionLimaBody .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 1.5625rem;
+  }
+  .container .sectionLima .sectionLimaBody h2 {
+    color: #002F39;
+    font-family: "Minion-Bold";
+    font-size: 1.1875rem;
+    font-weight: bold;
+    letter-spacing: 8px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+  .container .sectionLima .sectionLimaBody p {
+    margin-top: 1rem;
+    width: 256px;
+    color: #F66E49;
+    font-family: "IBMPlexSans-Light";
+    font-size: 1.0625rem;
+    letter-spacing: -0.26px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .container .sectionLima .SectionLimaTengah .mc-field-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .sectionLima .SectionLimaTengah .mc-field-group input {
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    border: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #E8D4CF;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 1rem;
+    width: 80%;
+  }
+  .container .sectionLima .SectionLimaTengah .mc-field-group ::-webkit-input-placeholder {
+    height: 30px;
+    width: 256px;
+    color: #F05E36;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .container .sectionLima .SectionLimaTengah .mc-field-group :-ms-input-placeholder {
+    height: 30px;
+    width: 256px;
+    color: #F05E36;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .container .sectionLima .SectionLimaTengah .mc-field-group ::-ms-input-placeholder {
+    height: 30px;
+    width: 256px;
+    color: #F05E36;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .container .sectionLima .SectionLimaTengah .mc-field-group ::placeholder {
+    height: 30px;
+    width: 256px;
+    color: #F05E36;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .container .sectionLima .SectionLimaTengah .mc-field-group [placeholder] + span::after {
+    content: "*";
+    color: red;
+  }
+  .container .sectionLima .SectionLimaTengah h6 {
+    text-align: center;
+    font-family: "IBMPlexSans-Medium";
+    color: #002f39;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 1.3125rem;
+    margin-bottom: 1.875rem;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset input {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 10.85px;
+    border: 2px solid #FFFFFF;
+    margin-right: .5rem;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset .text {
+    color: #002F39;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    letter-spacing: -0.21px;
+    line-height: 18px;
+    margin-right: .3125rem;
+  }
+  .container .sectionLima .SectionLimaTengah .mc_fieldset a {
+    color: #002F39;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    letter-spacing: -0.21px;
+    line-height: 18px;
+  }
+  .container .sectionLima .SectionLimaBawah {
+    margin-top: 1.875rem;
+  }
+  .container .sectionLima .SectionLimaBawah p {
+    height: 48px;
+    width: 100%;
+    color: #F66E49;
+    font-family: "IBM Plex Sans";
+    font-size: 18px;
+    letter-spacing: -0.26px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .container .sectionLima .SectionLimaBawah .mc-field-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 2rem;
+  }
+  .container .sectionLima .SectionLimaBawah input {
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: left;
+    margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #E8D4CF;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 1rem;
+    width: 80%;
+  }
+  .container .sectionLima .SectionLimaBawah ::-webkit-input-placeholder {
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: left;
+    width: 100%;
+  }
+  .container .sectionLima .SectionLimaBawah :-ms-input-placeholder {
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: left;
+    width: 100%;
+  }
+  .container .sectionLima .SectionLimaBawah ::-ms-input-placeholder {
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: left;
+    width: 100%;
+  }
+  .container .sectionLima .SectionLimaBawah ::placeholder {
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: left;
+    width: 100%;
+  }
+  .container .sectionLima .SectionLimaBawahDua {
+    padding: 1.5625rem;
+  }
+  .container .sectionLima .SectionLimaBawahDua button {
+    margin-top: 2rem;
+    border: 1px solid #fff;
+    border-radius: 24px;
+    padding-top: .9375rem;
+    padding-bottom: .9375rem;
+    color: #FFFFFF;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
+    background-color: #F05E36;
+    width: 100%;
+  }
+  .Footer {
+    margin-top: 1.875rem;
+    background-color: #021925;
+  }
+  .Footer .container .footerHeader img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 2.9375rem;
+    width: 11.625rem;
+    padding-bottom: 3rem;
+  }
+  .Footer .container .foooterBody {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Footer .container .foooterBody .footerBodyKiri {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-top: 1.5px solid #113D53;
+    padding-top: 1.9375rem;
+    border-bottom: 1.5px solid #113D53;
+  }
+  .Footer .container .foooterBody .footerBodyKiri .footerBodyKiriOne {
+    padding-right: 0 !important;
+    margin-right: 0 !important;
   }
   .Footer .container .foooterBody .footerBodyKiri li {
     color: #FFFFFF;
@@ -1947,6 +2271,58 @@
 }
 
 @media (min-width: 575px) and (max-width: 991.98px) {
+  .navbar-nav {
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #021925;
+    height: 100%;
+    display: inline-block;
+    width: 90%;
+    padding: 1.5rem;
+    color: white;
+  }
+  .navbar-nav li .nav-link {
+    font-family: "IBMPlexSans-SemiBold";
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 23px;
+    margin-bottom: 24px;
+  }
+  .navbar-nav li .nav-link:hover {
+    color: orange;
+  }
+  .navbar-nav li .nav-link.contact {
+    margin-bottom: 50px;
+  }
+  .navbar-nav li ul.dash {
+    list-style-type: none;
+    margin-top: 30px;
+    padding-left: 10px;
+  }
+  .navbar-nav li ul.dash li {
+    font-family: "IBMPlexSans";
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 18px;
+    margin-bottom: 24px;
+    text-indent: -5px;
+  }
+  .navbar-nav li ul.dash li.first {
+    color: #f05e36;
+  }
+  .navbar-nav li ul.dash li:before {
+    content: "-";
+    text-indent: -5px;
+    margin-right: 13px;
+    color: #f05e36;
+  }
+  .navbar-nav #listhide {
+    border-top: 1.5px solid #113d53;
+  }
+  .navbar-light .navbar-toggler {
+    border: none;
+  }
   .container {
     margin-left: 0;
     margin-right: 0;
@@ -1963,63 +2339,10 @@
     margin-left: -1.5rem;
     margin-right: -1.5rem;
     border-bottom: 1px solid #e3e3e3;
-    margin-bottom: 20px;
     padding-bottom: 20px;
   }
   .container .navbar .line {
     display: none;
-  }
-  .container .navbar-light .navbar-toggler {
-    border: none;
-  }
-  .container .navbar-nav {
-    top: 0;
-    left: 0;
-    position: fixed;
-    background-color: #021925;
-    height: 100%;
-    display: inline-block;
-    width: 90%;
-    padding: 1.5rem;
-    color: white;
-  }
-  .container .navbar-nav li .nav-link {
-    font-family: "IBMPlexSans-SemiBold";
-    font-size: 18px;
-    color: #ffffff;
-    line-height: 23px;
-    margin-bottom: 24px;
-  }
-  .container .navbar-nav li .nav-link:hover {
-    color: orange;
-  }
-  .container .navbar-nav li .nav-link.contact {
-    margin-bottom: 50px;
-  }
-  .container .navbar-nav li ul.dash {
-    list-style-type: none;
-    margin-top: 30px;
-    padding-left: 10px;
-  }
-  .container .navbar-nav li ul.dash li {
-    font-family: "IBMPlexSans";
-    font-size: 14px;
-    color: #ffffff;
-    line-height: 18px;
-    margin-bottom: 24px;
-    text-indent: -5px;
-  }
-  .container .navbar-nav li ul.dash li.first {
-    color: #f05e36;
-  }
-  .container .navbar-nav li ul.dash li:before {
-    content: "-";
-    text-indent: -5px;
-    margin-right: 13px;
-    color: #f05e36;
-  }
-  .container .navbar-nav #listhide {
-    border-top: 1.5px solid #113d53;
   }
   .container .sectionSatu {
     margin-top: 0;
@@ -2037,6 +2360,7 @@
   .container .sectionSatu .sectionSatuKiri .text {
     margin-left: 0;
     position: block;
+    margin-top: 1.375rem;
   }
   .container .sectionSatu .sectionSatuKiri .text h1 {
     height: auto;
@@ -2074,27 +2398,32 @@
     display: -ms-flexbox;
     display: flex;
   }
-  .container .sectionDua .sectionDuaKiri .wraperKiri-One {
+  .container .sectionDua .sectionDuaKiri .wraperKiri-One h3 {
     color: #0A2939;
-    font-family: "IBMPlexSans";
-    font-size: 1.125rem;
+    font-family: "IBM Plex Sans";
+    font-size: 18px;
     font-weight: 300;
-    letter-spacing: -0.01625rem;
-    line-height: 1.75rem;
+    letter-spacing: -0.26px;
+    line-height: 28px;
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Two p {
     color: #0A2939;
-    font-family: "IBMPlexSans-Light";
-    font-size: .875rem;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
     font-weight: 300;
-    letter-spacing: -0.005625rem;
-    line-height: 1.625rem;
+    letter-spacing: -0.09px;
+    line-height: 26px;
+    margin-bottom: 1.375rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Three {
+    margin-right: -1.5rem;
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Three img {
     width: 100%;
+    margin-left: -1.5rem;
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Four {
-    margin-top: 1.4375rem;
+    margin-top: 2rem;
     background-color: #0A2939;
     padding: 2rem;
   }
@@ -2118,8 +2447,7 @@
     margin-top: 1.4375rem;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-One {
-    background-color: #F05E36;
-    padding: .75rem;
+    display: none;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-One p {
     color: #0A2939;
@@ -2130,19 +2458,15 @@
     line-height: 1.625rem;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-One ul {
-    list-style: none;
-    padding-left: 0;
+    list-style: square;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-One ul li {
     color: #FFFFFF;
     font-family: "Butler";
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 300;
     letter-spacing: -0.036875rem;
     line-height: 3.125rem;
-  }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-Two {
-    margin-top: 1.25rem;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Two p {
     color: #0A2939;
@@ -2159,6 +2483,7 @@
     font-weight: 500;
     letter-spacing: -0.29px;
     line-height: 28px;
+    margin-top: 2.125rem;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Three p {
     margin-top: 1.25rem;
@@ -2170,58 +2495,77 @@
     line-height: 1.625rem;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Four {
-    margin-top: 1.25rem;
+    padding: 1.5rem;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 2.4375rem;
+    padding-bottom: 0;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Four h1 {
     color: #F05E36;
-    font-family: "IBMPlexSans";
-    font-size: 1.5rem;
+    font-family: "IBM Plex Sans";
+    font-size: 20px;
     font-weight: 500;
-    letter-spacing: -0.018125rem;
-    line-height: 1.75rem;
+    letter-spacing: -0.29px;
+    line-height: 28px;
+    margin-bottom: 1.25rem;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul {
     margin-left: 0;
     padding-left: 0;
+    margin-left: 1.5rem;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul li {
-    color: #021925;
-    font-family: "IBMPlexSans-Light";
-    font-size: 1rem;
+    color: #0A2939;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
     font-weight: 300;
-    letter-spacing: -0.00625rem;
-    line-height: 1.875rem;
+    letter-spacing: -0.09px;
+    line-height: 26px;
     list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-Four li:before {
-    content: "-";
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul .strip {
     text-indent: -20px;
     color: #f05e36;
-    font-size: 20px;
+    font-size: 40px;
     letter-spacing: -0.1px;
     line-height: 30px;
     margin-right: .625rem;
-    width: 24px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul p {
+    color: #0A2939;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: -0.09px;
+    line-height: 26px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .container .sectionTiga {
+    margin-top: 1.875rem;
   }
   .container .sectionTiga .sectionTigaAtas h1 {
     margin: 1.5rem;
     margin-left: 0;
-    font-family: "Butler";
+    margin-left: 0;
     color: #021925;
     font-family: Butler;
     font-size: 34px;
     letter-spacing: -0.5px;
     line-height: 38px;
   }
-  .container .sectionTiga .sectionTigaBawah {
-    margin-top: 1.875rem;
-  }
   .container .sectionTiga .sectionTigaBawah img {
     height: 50%;
     width: 100%;
-  }
-  .container .sectionTiga .sectionTigaBawah .imgHide {
-    margin-top: 16px;
+    margin-top: 1rem;
   }
   .container .sectionTiga .sectionTigaBawah .cardSlider {
     opacity: 0.9;
@@ -2257,18 +2601,85 @@
     letter-spacing: 0;
     line-height: 2.125rem;
   }
-  .container .sectionEmpat .sectionEmpatAtas {
-    display: none;
+  .container .sectionEmpat .sectionEmpatAtas h5 {
+    margin-top: 3rem;
+    color: #F05E36;
+    font-family: "IBM Plex Sans";
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.29px;
+    line-height: 28px;
+    margin-bottom: 1.25rem;
   }
-  .container .sectionEmpat .sectionEmpatBawah {
-    display: none;
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul {
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul li {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul li .strip {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: #0A2939;
+    font-size: 1.875rem;
+    padding-right: .8125rem;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul li p {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: #0A2939;
+    font-family: "Butler";
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 34px;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul li p:hover {
+    color: #F05E36;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul {
+    padding-left: 0;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul li {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul li .strip {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: #0A2939;
+    font-size: 1.875rem;
+    padding-right: .8125rem;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul li p {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: #0A2939;
+    font-family: "Butler";
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 34px;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul li p:hover {
+    color: #F05E36;
   }
   .container .sectionLima {
     margin-top: 1.875rem;
     border: 4px solid rgba(246, 110, 73, 0.15);
   }
-  .container .sectionLima .sectionLimaBody {
-    padding: 1.5rem;
+  .container .sectionLima .sectionLimaBody .title-1 {
+    margin-top: -5.3125rem;
   }
   .container .sectionLima .sectionLimaBody .logo {
     display: -webkit-box;
@@ -2277,37 +2688,50 @@
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
+    padding-top: 1.25rem;
+    padding-left: 3.75rem;
+    padding-right: 3.75rem;
+    padding-bottom: 2.3125rem;
+  }
+  .container .sectionLima .sectionLimaBody .logo img {
+    width: 11.625rem;
   }
   .container .sectionLima .sectionLimaBody .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-bottom: 1.5625rem;
   }
   .container .sectionLima .sectionLimaBody h2 {
     color: #002F39;
     font-family: "Minion-Bold";
-    font-size: 1.5rem;
+    font-size: 1.1875rem;
     font-weight: bold;
-    letter-spacing: .65rem;
-    line-height: 5rem;
+    letter-spacing: 8px;
+    line-height: 24px;
     text-align: center;
     text-transform: uppercase;
+    margin-bottom: 1rem;
   }
   .container .sectionLima .sectionLimaBody p {
+    margin-top: 1rem;
+    width: 256px;
     color: #F66E49;
-    font-family: "IBMPlexSans";
-    font-size: 1.125rem;
-    letter-spacing: -0.01625rem;
-    line-height: 1.125rem;
+    font-family: "IBMPlexSans-Light";
+    font-size: 1.0625rem;
+    letter-spacing: -0.26px;
+    line-height: 24px;
     text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
   }
   .container .sectionLima .SectionLimaTengah .mc-field-group {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -2319,30 +2743,67 @@
     letter-spacing: -0.24px;
     line-height: 30px;
     text-align: center;
+    width: 80%;
     margin: auto;
-    margin-top: auto;
-    margin-top: auto;
     display: block;
     border: none;
     border-top: none;
     border-left: none;
     border-right: none;
     border-bottom: 1px solid #E8D4CF;
-    margin-top: 35px;
-    padding-bottom: 1rem;
-  }
-  .container .sectionLima .SectionLimaTengah .mc-field-group .email {
-    padding: 0.5rem;
-    width: 80%;
     margin-left: 0;
     margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 1rem;
   }
-  .container .sectionLima .SectionLimaTengah [placeholder] + span::after {
+  .container .sectionLima .SectionLimaTengah .mc-field-group ::-webkit-input-placeholder {
+    height: 30px;
+    width: 256px;
+    color: #F05E36;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .container .sectionLima .SectionLimaTengah .mc-field-group :-ms-input-placeholder {
+    height: 30px;
+    width: 256px;
+    color: #F05E36;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .container .sectionLima .SectionLimaTengah .mc-field-group ::-ms-input-placeholder {
+    height: 30px;
+    width: 256px;
+    color: #F05E36;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .container .sectionLima .SectionLimaTengah .mc-field-group ::placeholder {
+    height: 30px;
+    width: 256px;
+    color: #F05E36;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .container .sectionLima .SectionLimaTengah .mc-field-group [placeholder] + span::after {
     content: "*";
     color: red;
   }
   .container .sectionLima .SectionLimaTengah h6 {
     text-align: center;
+    font-family: "IBMPlexSans-Medium";
+    color: #002f39;
   }
   .container .sectionLima .SectionLimaTengah .mc_fieldset {
     display: -webkit-box;
@@ -2367,29 +2828,28 @@
     font-size: 14px;
     letter-spacing: -0.21px;
     line-height: 18px;
-    padding-right: .3125rem;
+    margin-right: .3125rem;
   }
   .container .sectionLima .SectionLimaTengah .mc_fieldset a {
-    color: #002f39;
-    font-family: "IBMPlexSans";
+    color: #002F39;
+    font-family: "IBM Plex Sans";
     font-size: 14px;
     letter-spacing: -0.21px;
     line-height: 18px;
-  }
-  .container .sectionLima h6 {
-    font-family: "IBMPlexSans-Medium";
-    color: #002f39;
   }
   .container .sectionLima .SectionLimaBawah {
     margin-top: 1.875rem;
   }
   .container .sectionLima .SectionLimaBawah p {
-    width: 100%;
+    height: 48px;
+    width: 256px;
+    color: #F66E49;
     font-family: "IBM Plex Sans";
     font-size: 18px;
     letter-spacing: -0.26px;
     line-height: 24px;
     text-align: center;
+    width: 100%;
   }
   .container .sectionLima .SectionLimaBawah .mc-field-group {
     display: -webkit-box;
@@ -2512,6 +2972,10 @@
     padding-top: 1.9375rem;
     border-bottom: 1.5px solid #113D53;
   }
+  .Footer .container .foooterBody .footerBodyKiri .footerBodyKiriOne {
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+  }
   .Footer .container .foooterBody .footerBodyKiri li {
     color: #FFFFFF;
     font-family: "IBMPlexSans-Light";
@@ -2534,6 +2998,10 @@
             flex-direction: row;
     margin-bottom: 3.6875rem;
     margin-top: 1.9375rem;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     border: none;
   }
   .Footer .container .foooterBody .footerBodyKanan img {
@@ -2581,7 +3049,7 @@
         justify-content: space-around;
   }
   .container .navbar-collapse .nav-item {
-    margin-right: 1.875rem;
+    margin-right: 3.75rem;
     margin-top: .625rem;
   }
   .container .navbar-collapse .nav-item a img {
@@ -2607,6 +3075,8 @@
     font-weight: 600;
     letter-spacing: -0.26px;
     line-height: 23px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .container .navbar-collapse .nav-item .nav-link:hover {
     border-bottom: #F05E36 solid 2px;
@@ -2633,6 +3103,7 @@
   .container .sectionSatu .sectionSatuKiri .text {
     margin-left: 0;
     position: block;
+    margin-top: 1.875rem;
   }
   .container .sectionSatu .sectionSatuKiri .text h1 {
     height: auto;
@@ -2660,126 +3131,180 @@
     width: 100%;
   }
   .container .sectionDua {
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .container .sectionDua .sectionDuaKiri {
-    padding: 1.5rem;
+    width: 50%;
+    padding: 2rem;
+    padding-top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 0;
+    padding-left: 1.5rem;
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-One {
-    margin-top: .625rem;
+    margin-top: 6.75rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-One h3 {
+    height: 184px;
+    width: 507px;
+    color: #0A2939;
+    font-family: "IBM Plex Sans";
+    font-size: 28.6px;
+    font-weight: 300;
+    letter-spacing: -0.42px;
+    line-height: 41.8px;
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Two {
-    margin-top: .625rem;
+    margin-top: 1.875rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Two p {
     color: #0A2939;
-    font-family: "IBMPlexSans-Light";
+    font-family: "IBM Plex Sans";
     font-size: 16px;
     font-weight: 300;
     letter-spacing: -0.1px;
     line-height: 30px;
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Three {
-    margin-top: .625rem;
+    margin-left: -3.75rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Three span {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 105px;
+    width: 2px;
+    border: 2px solid #F66E49;
+    display: block;
+    position: relative;
+    left: 37%;
+    top: 5rem;
+  }
+  .container .sectionDua .sectionDuaKiri .wraperKiri-Three img {
+    height: 466px;
+    width: 674px;
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Four {
-    margin-top: .625rem;
+    margin-top: 7.625rem;
+    color: #fff;
+    padding: 3.5625rem;
+    padding-top: 2.625rem;
+    padding-bottom: 4.25rem;
     background-color: #0A2939;
-    padding: 2.625rem 3.5625rem;
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Four h3 {
+    margin-bottom: 2rem;
     color: #F05E36;
-    font-family: "Butler";
+    font-family: Butler;
     font-size: 40px;
     font-weight: 300;
     letter-spacing: -0.59px;
     line-height: 50px;
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Four p {
+    height: 102px;
+    width: 374px;
     color: #FFFFFF;
-    font-family: "IBMPlexSans-Light";
+    font-family: "IBM Plex Sans";
     font-size: 22px;
     font-weight: 300;
     letter-spacing: -0.14px;
     line-height: 34px;
   }
-  .container .sectionDua .sectionDuaKiri .wraperKiri-Four {
-    margin-top: 9.375rem;
-  }
   .container .sectionDua .sectionDuaKanan {
-    padding: 1.5rem;
+    padding: 2rem;
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 7.1875rem;
+    padding-left: 2.5rem;
     padding-right: 0;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-One {
     background-color: #F05E36;
-    padding: 2.6875rem 3.75rem;
+    margin-bottom: 3rem;
+    padding: 43px 68px;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-One p {
     color: #0A2939;
-    font-family: "IBMPlexSans-Light";
+    font-family: "IBM Plex Sans";
     font-size: 16px;
     font-weight: 500;
     letter-spacing: -0.24px;
     line-height: 20px;
+    margin-bottom: 2.0625rem;
   }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-One ul {
-    padding-left: 0;
-  }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-One ul li {
+  .container .sectionDua .sectionDuaKanan .wraperKanan-One li {
     list-style: none;
     color: #FFFFFF;
-    font-family: "Butler";
-    font-size: 25px;
+    font-family: Butler;
+    font-size: 40px;
     font-weight: 300;
     letter-spacing: -0.59px;
     line-height: 50px;
+    margin-left: -2rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Two {
+    margin-bottom: 5rem;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Two p {
     color: #0A2939;
-    font-family: "IBMPlexSans-Light";
+    font-family: "IBM Plex Sans";
     font-size: 16px;
     font-weight: 300;
     letter-spacing: -0.1px;
     line-height: 30px;
-    margin-top: .625rem;
+  }
+  .container .sectionDua .sectionDuaKanan .wraperKanan-Three {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Three h3 {
     color: #F05E36;
-    font-family: "IBMPlexSans-Light";
+    font-family: "IBM Plex Sans";
     font-size: 28px;
     font-weight: 500;
     letter-spacing: -0.41px;
     line-height: 36px;
+    margin-bottom: 3rem;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Three p {
     color: #0A2939;
-    font-family: "IBMPlexSans-Light";
+    font-family: "IBM Plex Sans";
     font-size: 16px;
     font-weight: 300;
     letter-spacing: -0.1px;
     line-height: 30px;
   }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-Four {
-    margin-left: 0;
-    padding-left: 0;
-  }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-Four h1 {
+  .container .sectionDua .wraperKanan-Four h1 {
     color: #F05E36;
-    font-family: "IBMPlexSans-Light";
+    font-family: "IBM Plex Sans";
     font-size: 28px;
     font-weight: 500;
     letter-spacing: -0.41px;
     line-height: 36px;
   }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul {
-    margin-left: 0;
+  .container .sectionDua .wraperKanan-Four ul {
+    margin-top: 1.875rem;
     padding-left: 0;
   }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-Four li {
+  .container .sectionDua .wraperKanan-Four ul li {
     color: #0A2939;
     font-family: "IBMPlexSans-Light";
     font-size: 16px;
@@ -2787,23 +3312,43 @@
     letter-spacing: -0.1px;
     line-height: 30px;
     list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 1.5rem;
   }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-Four li:before {
-    content: "-";
+  .container .sectionDua .wraperKanan-Four ul li .strip {
     text-indent: -20px;
     color: #f05e36;
-    font-size: 20px;
+    font-size: 40px;
     letter-spacing: -0.1px;
     line-height: 30px;
     margin-right: .625rem;
-    width: 24px;
+    display: inline;
+  }
+  .container .sectionDua .wraperKanan-Four ul li p {
+    display: inline;
   }
   .container .sectionTiga {
-    margin-top: .625rem;
+    margin-top: 1.25rem;
+    margin-bottom: 0;
+    width: 100%;
+    margin-left: 1.5rem;
+  }
+  .container .sectionTiga .sectionTigaAtas {
+    margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #fff;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .container .sectionTiga .sectionTigaAtas h1 {
+    width: 916px;
     color: #0A2939;
-    font-family: "Butler";
+    font-family: Butler;
     font-size: 56px;
     letter-spacing: -0.82px;
     line-height: 56px;
@@ -2820,113 +3365,188 @@
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  .container .sectionTiga .sectionTigaBawah .containerSlide .img-fluid {
-    max-width: none;
+  .container .sectionTiga .sectionTigaBawah .containerSlide .logo {
+    padding-left: 0;
+  }
+  .container .sectionTiga .sectionTigaBawah .containerSlide div {
+    margin-right: 1rem;
+    padding-left: 2rem;
   }
   .container .sectionTiga .sectionTigaBawah .containerSlide .cardSlider {
-    padding: 1.5rem;
-    opacity: 0.9;
+    padding: 4rem 3rem;
+    margin-left: 2rem;
     background-color: #F05E36;
   }
+  .container .sectionTiga .sectionTigaBawah .containerSlide .cardSlider :nth-child(3) {
+    margin-top: -1rem;
+    margin-bottom: 4rem;
+  }
+  .container .sectionTiga .sectionTigaBawah .containerSlide .cardSlider a {
+    height: 47px;
+    width: 328px;
+    color: #FFFFFF;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    letter-spacing: -0.09px;
+    line-height: 24px;
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 8rem;
+  }
   .container .sectionTiga .sectionTigaBawah .containerSlide .cardSlider h2 {
+    height: 28px;
+    width: 310px;
     color: #0A2939;
     font-family: Butler;
     font-size: 28px;
     letter-spacing: 0;
     line-height: 34px;
+    margin-bottom: 1rem;
   }
   .container .sectionTiga .sectionTigaBawah .containerSlide .cardSlider p {
+    width: 328px;
     color: #FFFFFF;
     font-family: "IBM Plex Sans";
-    font-size: 1rem;
+    font-size: 14px;
     letter-spacing: -0.09px;
     line-height: 24px;
-  }
-  .container .sectionTiga .sectionTigaBawah .containerSlide .cardSlider p a {
-    text-decoration: none;
-    color: #FFFFFF;
-    font-family: "IBM Plex Sans";
-    font-size: 1rem;
-    letter-spacing: -0.09px;
-    line-height: 24px;
-  }
-  .container .sectionTiga .sectionTigaBawah .containerSlide .cardSlider .link {
-    margin-bottom: -0.4375rem;
-  }
-  .container .sectionTiga .sectionTigaBawah .containerSlide img.imgHide {
-    display: none;
+    margin-bottom: 1rem;
   }
   .container .sectionEmpat {
-    margin-top: .625rem;
-  }
-  .container .sectionEmpat .sectionEmpatAtas {
-    margin-top: 7.0625rem;
-  }
-  .container .sectionEmpat .sectionEmpatAtas h5 {
-    margin-top: 1.0625rem;
-    color: #F05E36;
-    font-family: "IBMPlexSans-Light";
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: 0;
-    line-height: 20px;
-  }
-  .container .sectionEmpat .sectionEmpatBawah {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    margin-top: .625rem;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2rem;
+    margin-left: 1.5rem;
+    padding-left: 0;
+    padding-top: 0;
+    margin-top: 7.0625rem;
+    padding-bottom: 0;
+  }
+  .container .sectionEmpat li {
     color: #0A2939;
-    font-family: "Butler";
+    font-family: "Butler-Light";
     font-size: 40px;
     font-weight: 300;
     letter-spacing: 0;
     line-height: 48px;
   }
-  .container .sectionEmpat .sectionEmpatBawah li {
-    list-style: none;
+  .container .sectionEmpat .sectionEmpatAtas h5 {
+    height: 20px;
+    width: 417px;
+    color: #F05E36;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-bottom: 1.0625rem;
   }
-  .container .sectionEmpat .sectionEmpatBawah li::before {
-    content: "-";
-    text-indent: -20px;
-    color: #f05e36;
-    font-size: 40px;
-    letter-spacing: -0.1px;
-    line-height: 30px;
-    margin-right: 0.625rem;
-    width: 19px;
+  .container .sectionEmpat .sectionEmpatBawah {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri {
-    margin-right: 2rem;
+    width: 100%;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul {
+    padding-left: 0;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri li {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri li .strip {
+    color: #0A2939;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 48px;
+    margin-right: .625rem;
+    padding-top: .625rem;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri li p {
+    color: #0A2939;
+    font-family: "Butler-Light";
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 48px;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri li p:hover {
+    color: #F05E36;
   }
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    width: 100%;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul {
+    padding-left: 0;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan li {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan li .strip {
+    color: #0A2939;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 48px;
+    margin-right: .625rem;
+    padding-top: .625rem;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan li p {
+    color: #0A2939;
+    font-family: "Butler-Light";
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 48px;
+  }
+  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan li p:hover {
+    color: #F05E36;
   }
   .container .sectionLima {
     border: 10px solid #f66f4933;
-    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    text-align: center;
-    padding-top: 1.25rem;
-    margin-top: 3.75rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1.875rem;
+    padding-top: 3rem;
+    margin-top: 7rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
   .container .sectionLima form {
-    width: 100%;
-    margin-right: 8rem;
-    margin-left: 8rem;
+    width: 90%;
+  }
+  .container .sectionLima .sectionLimaBody {
+    text-align: center;
+  }
+  .container .sectionLima .sectionLimaBody .title-1 {
+    margin-top: -5.3125rem;
+  }
+  .container .sectionLima .sectionLimaBody .title, .container .sectionLima .sectionLimaBody .SectionLimaTengah, .container .sectionLima .sectionLimaBody .SectionLimaBawah {
+    margin: 0 5rem;
+  }
+  .container .sectionLima .sectionLimaBody p {
+    color: #F66E49;
+    font-family: "IBMPlexSans";
+    font-size: 22px;
+    letter-spacing: -0.32px;
+    line-height: 30px;
+    margin-bottom: 0;
   }
   .container .sectionLima .sectionLimaBody .logo {
     display: -webkit-box;
@@ -2940,11 +3560,16 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-bottom: 2.5rem;
   }
-  .container .sectionLima .sectionLimaBody h2 {
+  .container .sectionLima .sectionLimaBody .title .title-1 {
+    width: 48rem;
+    text-align: center;
+  }
+  .container .sectionLima .sectionLimaBody .title .title-1 h2 {
     height: 81px;
     color: #002F39;
-    font-family: Minion;
+    font-family: "Minion-Bold";
     font-size: 26px;
     font-weight: bold;
     letter-spacing: 10.4px;
@@ -2952,16 +3577,7 @@
     text-align: center;
     text-transform: uppercase;
   }
-  .container .sectionLima .sectionLimaBody p {
-    color: #F66E49;
-    font-family: "IBM Plex Sans";
-    font-size: 22px;
-    letter-spacing: -0.32px;
-    line-height: 30px;
-    margin-bottom: 0;
-  }
   .container .sectionLima .sectionLimaBody .SectionLimaTengah {
-    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2971,16 +3587,14 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-bottom: 2rem;
-    margin-top: 2.5rem;
-    color: #002f39;
-    font-family: "IBM Plex Sans";
-    font-size: 16px;
+    margin-bottom: 4rem;
     border-bottom: 1px solid #E8D4CF;
   }
   .container .sectionLima .sectionLimaBody .SectionLimaTengah .email {
     padding: 0.5rem;
     border: none;
+    width: 12.8rem;
+    padding-bottom: 1.25rem;
   }
   .container .sectionLima .sectionLimaBody .SectionLimaTengah ::-webkit-input-placeholder {
     border-left: 2px solid #002f39;
@@ -3002,25 +3616,26 @@
     margin-left: 1rem;
     width: 13rem;
   }
-  .container .sectionLima .sectionLimaBody .SectionLimaTengah .mc-field-group input {
-    margin-right: 0;
-    padding-right: 0;
-    padding-bottom: 1.25rem;
-  }
-  .container .sectionLima .sectionLimaBody .SectionLimaTengah .mc-field-group::after {
-    content: " *";
+  .container .sectionLima .sectionLimaBody .SectionLimaTengah [placeholder] + span::after {
+    content: "*";
     color: red;
-    display: inline;
   }
   .container .sectionLima .sectionLimaBody .SectionLimaTengah .av-checkbox a {
     padding-left: 2rem;
   }
-  .container .sectionLima .sectionLimaBody .SectionLimaTengah a {
-    color: #002f39;
-    padding-left: .3125rem;
+  .container .sectionLima .sectionLimaBody .SectionLimaTengah .text {
+    margin-right: 0.3rem;
+    margin-left: 0.5rem;
   }
-  .container .sectionLima .sectionLimaBody .SectionLimaTengah input {
-    margin-right: .625rem;
+  .container .sectionLima .sectionLimaBody .SectionLimaTengah .text, .container .sectionLima .sectionLimaBody .SectionLimaTengah .terms {
+    color: #002f39;
+    font-family: "IBMPlexSans";
+    font-size: 16px;
+  }
+  .container .sectionLima .sectionLimaBody .SectionLimaTengah h6 {
+    font-family: "IBMPlexSans-Medium";
+    color: #002f39;
+    margin-bottom: 0;
   }
   .container .sectionLima .sectionLimaBody .SectionLimaBawah input {
     margin: 2rem 0rem;
@@ -3046,12 +3661,13 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-bottom: 8rem;
+    margin: 4rem 5rem;
+    margin-bottom: 4rem;
   }
   .container .sectionLima .SectionLimaBawahDua .button {
     border: 1px solid #fff;
     padding: 1rem 4rem;
-    border-radius: 24px;
+    border-radius: 2.4rem;
     color: #FFFFFF;
     font-family: "IBM Plex Sans";
     font-size: 16px;
@@ -3061,53 +3677,49 @@
     background-color: #F05E36;
   }
   .Footer {
-    margin-top: 1.875rem;
+    width: 100%;
     background-color: #021925;
+    height: 40rem;
+    margin-top: 9.4375rem;
+  }
+  .Footer .container {
+    background-color: #021925;
+    height: 100%;
+    color: #E8D4CF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Footer .container .footerHeader {
+    margin-top: 8rem;
+    margin-bottom: 6rem;
   }
   .Footer .container .footerHeader img {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    padding-top: 2.9375rem;
-    width: 11.625rem;
-    padding-bottom: 3rem;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    opacity: 0.8;
   }
   .Footer .container .foooterBody {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    border-top: 1.5px solid #113D53;
+    border-bottom: 1.5px solid #113D53;
+    width: 90%;
+    height: 10rem;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
   .Footer .container .foooterBody .footerBodyKiri {
-    width: 100%;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    border-top: 1.5px solid #113D53;
-    padding-top: 1.9375rem;
-    border-bottom: 1.5px solid #113D53;
-  }
-  .Footer .container .foooterBody .footerBodyKiri li {
-    color: #FFFFFF;
-    font-family: "IBMPlexSans-Light";
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-    line-height: 15px;
-    text-align: center;
-    text-transform: uppercase;
-    padding-bottom: 1.5rem;
-    list-style: none;
-  }
-  .Footer .container .foooterBody .footerBodyKanan {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3115,16 +3727,67 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    margin-bottom: 3.6875rem;
-    margin-top: 1.9375rem;
+    width: 65%;
+    padding: 3rem 2rem;
+    border-right: 2px #113D53 solid;
   }
-  .Footer .container .foooterBody .footerBodyKanan img {
-    padding-right: 1rem;
-  }
-  .Footer .container .foooterBody .footerBodyKanan h5 {
-    display: inline-block;
+  .Footer .container .foooterBody .footerBodyKiri li {
+    list-style: none;
+    margin-bottom: 2rem;
+    height: 15px;
     color: #FFFFFF;
     font-family: "IBMPlexSans-Light";
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 15px;
+    text-transform: uppercase;
+  }
+  .Footer .container .foooterBody .footerBodyKiri .footerBodyKiriOne {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-right: 8rem;
+    margin-right: 6rem;
+  }
+  .Footer .container .foooterBody .footerBodyKiri .footerBodyKiriTwo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Footer .container .foooterBody .footerBodyKanan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .Footer .container .foooterBody .footerBodyKanan .linkedIn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-decoration: none;
+  }
+  .Footer .container .foooterBody .footerBodyKanan .linkedIn h5 {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    color: #FFFFFF;
+    font-family: "IBMPlexSans";
     font-size: 15px;
     letter-spacing: -0.22px;
     line-height: 19.5px;
@@ -3203,15 +3866,15 @@
     font-weight: 600;
     letter-spacing: -0.26px;
     line-height: 23px;
-    margin-right: 4rem;
+    margin-right: 4.625rem;
     margin-left: .75rem;
     margin-bottom: -10rem;
+    padding-left: 0;
+    padding-right: 0;
   }
   .navbar .nav-item .nav-link:hover {
-    border-bottom: #F05E36 solid 2px;
-  }
-  .navbar .nav-item .nav-link.active {
-    border-bottom: #F05E36 solid 2px;
+    border-bottom: #F05E36 2px solid;
+    border-width: 30%;
   }
   .navbar .nav-item img {
     background-color: rebeccapurple;
@@ -3243,7 +3906,6 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
     width: 100%;
-    height: 30rem;
   }
   .sectionSatu .sectionSatuKiri {
     background-color: blue;
@@ -3264,8 +3926,6 @@
     margin-left: 1rem;
   }
   .sectionSatu .sectionSatuKiri .text h1 {
-    height: 196px;
-    width: 792px;
     color: #F05E36;
     font-family: Butler;
     font-size: 100px;
@@ -3273,15 +3933,13 @@
     line-height: 50px;
   }
   .sectionSatu .sectionSatuKiri .text h5 {
-    height: 27px;
-    width: 464px;
     color: #021925;
     font-family: Minion;
     font-size: 28px;
     font-style: italic;
     letter-spacing: 1.27px;
     line-height: 29px;
-    margin-top: -6rem;
+    margin-top: 2.4375rem;
   }
   .sectionSatu .sectionSatuKanan {
     z-index: -1;
@@ -3318,11 +3976,13 @@
         -ms-flex-direction: column;
             flex-direction: column;
     padding-left: 0;
+    padding-left: 1.5rem;
   }
   .sectionDua .sectionDuaKiri .wraperKiri-One {
     margin-left: 7.75rem;
+    margin-top: 6.75rem;
   }
-  .sectionDua .sectionDuaKiri .wraperKiri-One h1 {
+  .sectionDua .sectionDuaKiri .wraperKiri-One h3 {
     height: 184px;
     width: 507px;
     color: #0A2939;
@@ -3337,19 +3997,15 @@
     margin-top: 1.875rem;
   }
   .sectionDua .sectionDuaKiri .wraperKiri-Two p {
-    height: 405px;
-    width: 498px;
     color: #0A2939;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     font-weight: 300;
     letter-spacing: -0.1px;
     line-height: 30px;
-    margin-bottom: 0;
   }
   .sectionDua .sectionDuaKiri .wraperKiri-Three {
     margin-left: -3.75rem;
-    margin-top: 2.5rem;
   }
   .sectionDua .sectionDuaKiri .wraperKiri-Three span {
     -webkit-box-sizing: border-box;
@@ -3359,16 +4015,20 @@
     border: 2px solid #F66E49;
     display: block;
     position: relative;
-    left: 34%;
+    left: 37%;
     top: 5rem;
+  }
+  .sectionDua .sectionDuaKiri .wraperKiri-Three img {
+    height: 466px;
+    width: 674px;
   }
   .sectionDua .sectionDuaKiri .wraperKiri-Four {
     margin-top: 7.625rem;
     margin-left: 7.75rem;
-    height: 15rem;
-    width: 27.5rem;
     color: #fff;
-    padding: 3rem;
+    padding: 3.5625rem;
+    padding-top: 2.625rem;
+    padding-bottom: 4.25rem;
     background-color: #0A2939;
   }
   .sectionDua .sectionDuaKiri .wraperKiri-Four h3 {
@@ -3380,18 +4040,30 @@
     letter-spacing: -0.59px;
     line-height: 50px;
   }
+  .sectionDua .sectionDuaKiri .wraperKiri-Four p {
+    height: 102px;
+    width: 374px;
+    color: #FFFFFF;
+    font-family: "IBM Plex Sans";
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: -0.14px;
+    line-height: 34px;
+  }
   .sectionDua .sectionDuaKanan {
     padding: 2rem;
     margin-right: 7.75rem;
     padding-top: 0;
     padding-bottom: 0;
+    margin-top: 7.1875rem;
+    padding-left: 6.25rem;
   }
   .sectionDua .sectionDuaKanan .wraperKanan-One {
-    height: 20rem;
-    width: 30.8rem;
+    height: 352px;
+    width: 488px;
     background-color: #F05E36;
     margin-bottom: 3rem;
-    padding: 2rem 4rem;
+    padding: 43px 68px;
   }
   .sectionDua .sectionDuaKanan .wraperKanan-One p {
     height: 20px;
@@ -3402,6 +4074,7 @@
     font-weight: 500;
     letter-spacing: -0.24px;
     line-height: 20px;
+    margin-bottom: 2.0625rem;
   }
   .sectionDua .sectionDuaKanan .wraperKanan-One li {
     list-style: none;
@@ -3472,8 +4145,6 @@
     padding-left: 0;
   }
   .sectionDua .wraperKanan-Four ul li {
-    height: 41px;
-    width: 486px;
     color: #0A2939;
     font-family: "IBMPlexSans-Light";
     font-size: 16px;
@@ -3481,16 +4152,22 @@
     letter-spacing: -0.1px;
     line-height: 30px;
     list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 1.5rem;
   }
-  .sectionDua .wraperKanan-Four li:before {
-    content: "-";
+  .sectionDua .wraperKanan-Four ul li .strip {
     text-indent: -20px;
     color: #f05e36;
-    font-size: 20px;
+    font-size: 40px;
     letter-spacing: -0.1px;
     line-height: 30px;
     margin-right: .625rem;
-    width: 24px;
+    display: inline;
+  }
+  .sectionDua .wraperKanan-Four ul li p {
+    display: inline;
   }
   .sectionTiga {
     margin-top: 1.25rem;
@@ -3592,7 +4269,7 @@
   }
   .sectionEmpat li {
     color: #0A2939;
-    font-family: Butler;
+    font-family: "Butler-Light";
     font-size: 40px;
     font-weight: 300;
     letter-spacing: 0;
@@ -3607,6 +4284,7 @@
     font-weight: 500;
     letter-spacing: 0;
     line-height: 20px;
+    margin-bottom: 1.0625rem;
   }
   .sectionEmpat .sectionEmpatBawah {
     display: -webkit-box;
@@ -3616,38 +4294,67 @@
   .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri {
     width: 50%;
   }
-  .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri :nth-child(2) {
-    color: #F05E36;
+  .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul {
+    padding-left: 0;
   }
   .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri li {
     list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
-  .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri li::before {
-    content: "-";
-    text-indent: -20px;
-    color: #f05e36;
+  .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri li .strip {
+    color: #0A2939;
     font-size: 40px;
-    letter-spacing: -0.1px;
-    line-height: 30px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 48px;
     margin-right: .625rem;
-    width: 19px;
+    padding-top: .625rem;
+  }
+  .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri li p {
+    color: #0A2939;
+    font-family: "Butler-Light";
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 48px;
+  }
+  .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri li p:hover {
+    color: #F05E36;
   }
   .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan {
     width: 50%;
     margin-right: 20rem;
   }
+  .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul {
+    padding-left: 0;
+  }
   .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan li {
     list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
-  .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan li::before {
-    content: "-";
-    text-indent: -20px;
-    color: #f05e36;
+  .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan li .strip {
+    color: #0A2939;
     font-size: 40px;
-    letter-spacing: -0.1px;
-    line-height: 30px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 48px;
     margin-right: .625rem;
-    width: 19px;
+    padding-top: .625rem;
+  }
+  .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan li p {
+    color: #0A2939;
+    font-family: "Butler-Light";
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 48px;
+  }
+  .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan li p:hover {
+    color: #F05E36;
   }
   .sectionLima {
     border: 10px solid #f66f4933;
@@ -3668,6 +4375,12 @@
   .sectionLima .sectionLimaBody {
     text-align: center;
   }
+  .sectionLima .sectionLimaBody .title-1 {
+    margin-top: -5.3125rem;
+  }
+  .sectionLima .sectionLimaBody .title {
+    margin-bottom: 3.125rem;
+  }
   .sectionLima .sectionLimaBody .title, .sectionLima .sectionLimaBody .SectionLimaTengah, .sectionLima .sectionLimaBody .SectionLimaBawah {
     margin: 0 5rem;
   }
@@ -3677,6 +4390,7 @@
     font-size: 22px;
     letter-spacing: -0.32px;
     line-height: 30px;
+    margin-bottom: 0;
   }
   .sectionLima .sectionLimaBody .logo {
     display: -webkit-box;
@@ -3690,7 +4404,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-bottom: 2.5rem;
+    margin-bottom: 3.125rem;
   }
   .sectionLima .sectionLimaBody .title .title-1 {
     width: 48rem;
@@ -3839,6 +4553,91 @@
   }
   .Footer .container .foooterBody {
     display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-top: 1.5px solid #113D53;
+    border-bottom: 1.5px solid #113D53;
+    width: 90%;
+    height: 10rem;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .Footer .container .foooterBody .footerBodyKiri {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 65%;
+    padding: 3rem 2rem;
+    border-right: 2px #113D53 solid;
+  }
+  .Footer .container .foooterBody .footerBodyKiri li {
+    list-style: none;
+    margin-bottom: 2rem;
+    height: 15px;
+    color: #FFFFFF;
+    font-family: "IBMPlexSans-Light";
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 15px;
+    text-transform: uppercase;
+  }
+  .Footer .container .foooterBody .footerBodyKiri .footerBodyKiriOne {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-right: 8rem;
+    margin-right: 6rem;
+  }
+  .Footer .container .foooterBody .footerBodyKiri .footerBodyKiriTwo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Footer .container .foooterBody .footerBodyKanan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .Footer .container .foooterBody .footerBodyKanan .linkedIn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-decoration: none;
+  }
+  .Footer .container .foooterBody .footerBodyKanan .linkedIn h5 {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    color: #FFFFFF;
+    font-family: "IBMPlexSans";
+    font-size: 15px;
+    letter-spacing: -0.22px;
+    line-height: 19.5px;
+  }
+}
+/*# sourceMappingURL=Halaman2.css.map */x;
     display: -ms-flexbox;
     display: flex;
     border-top: 1.5px solid #113D53;
