@@ -146,7 +146,7 @@
 }
 
 .sectionSatu .sectionSatuKanan img {
-  width: 1049px;
+  width: 1056px;
 }
 
 .sectionSatu .sectionSatuKanan .orangeBlock {
@@ -156,7 +156,7 @@
 
 @media only screen and (min-width: 1400px) {
   .sectionSatu .sectionSatuKanan img {
-    width: 1049px;
+    width: 1056px;
   }
   .sectionSatu .sectionSatuKanan .orangeBlock {
     width: 100px;
