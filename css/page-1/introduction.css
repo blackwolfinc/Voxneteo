@@ -2713,6 +2713,37 @@ li.hidden ul li {
   }
 }
 
+@media (min-width: 0px) and (max-width: 992px) {
+  .section-2 .content-right .overlay-img img {
+    width: 100%;
+  }
+  .section-3 .content .row .content-right img {
+    width: 100%;
+  }
+  .section-1 {
+    min-height: 20rem;
+  }
+  .section-1 .sett_img {
+    display: block !important;
+  }
+  .section-1 .container-banner-text img {
+    width: 11.625rem;
+    margin-bottom: 1rem;
+  }
+  .section-1 .text-title .une-approche-globale {
+    color: #ffffff;
+    font-family: "Butler-Light";
+    font-size: 2.125rem;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    line-height: 2.375rem;
+    text-align: center;
+  }
+  .section-1 .sett_arrow_section-1.d-flex {
+    display: none !important;
+  }
+}
+
 @media (min-width: 992px) and (max-width: 1160.98px) {
   .Footer {
     background-color: #021925;
@@ -2827,6 +2858,7 @@ li.hidden ul li {
     background-size: cover;
     padding-left: 0;
     padding-right: 0;
+    margin: 0;
   }
   .section-1 .sett-line-section-1-top {
     -webkit-box-pack: start;
@@ -4046,6 +4078,7 @@ li.hidden ul li {
     background-size: cover;
     padding-left: 0;
     padding-right: 0;
+    margin: 0;
   }
   .section-1 .sett-line-section-1-top {
     -webkit-box-pack: start;

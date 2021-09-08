@@ -14,16 +14,19 @@
   text-align: right;
   font-family: IBM Plex Sans;
   padding: 0;
+  width: 123px;
 }
 
 .sectionBody .containerCategories li {
   color: #0a2939;
-  padding-bottom: 2rem;
+  margin-bottom: 2.3125rem;
   text-transform: uppercase;
-  font-size: 0.8rem;
-  letter-spacing: 1.5px;
-  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.5px;
   cursor: pointer;
+  font-family: IBM Plex Sans;
+  font-weight: 500;
+  line-height: 15px;
 }
 
 .sectionBody .containerCategories li.active {
@@ -48,15 +51,16 @@
   height: 100rem;
   list-style: none;
   margin-bottom: 0;
+  padding-left: 2.6125rem;
 }
 
 .sectionBody .containerCards .item {
-  width: 320px;
+  width: 314px;
   margin-bottom: 4.5rem;
 }
 
 .sectionBody .containerCards .item.center .containerImage::after {
-  bottom: 7rem;
+  bottom: 5.5rem;
 }
 
 .sectionBody .containerCards .item.top-center {
@@ -73,7 +77,7 @@
 }
 
 .sectionBody .containerCards .item .containerImage img {
-  width: 320px;
+  width: 314px;
 }
 
 .sectionBody .containerCards .item .containerImage::after {
@@ -83,7 +87,7 @@
   height: 4.8rem;
   position: absolute;
   bottom: -1.98rem;
-  right: 2rem;
+  right: 2.5rem;
 }
 
 .sectionBody .containerCards .item .date {
@@ -93,6 +97,7 @@
   margin-top: 1.6rem;
   font-family: Minion Display;
   margin-bottom: 1.5rem;
+  letter-spacing: -0.79px;
 }
 
 .sectionBody .containerCards .item .subTitle {
@@ -108,10 +113,11 @@
   line-height: 1.6rem;
   font-weight: 500;
   font-family: IBM Plex Sans;
+  letter-spacing: -0.26px;
 }
 
 .sectionBody .containerCards .item.quotes {
-  padding: 2.5rem;
+  padding: 2.5rem 1.8375rem;
 }
 
 .sectionBody .containerCards .item.quotes .quotes {
@@ -119,6 +125,7 @@
   color: #0a2939;
   font-size: 2.27rem;
   line-height: 2.5rem;
+  letter-spacing: -0.53px;
 }
 
 .sectionBody .containerCards .item.quotes .subQuotes {
@@ -164,7 +171,7 @@
 .sectionAddActuals {
   color: #f05e36;
   text-align: center;
-  margin-top: -2rem;
+  margin-top: -4rem;
   position: relative;
 }
 
@@ -189,7 +196,7 @@
 }
 
 .sectionSatu .sectionSatuKanan img {
-  width: 1049px;
+  width: 1056px;
 }
 
 .sectionSatu .sectionSatuKanan .orangeBlock {
@@ -223,6 +230,7 @@
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
+    width: auto;
   }
   .sectionBody .containerCategories li {
     margin-right: 1rem;
@@ -236,10 +244,17 @@
             align-items: center;
     padding: 0;
   }
+  .sectionBody .containerCards .item {
+    margin-bottom: 3.4375rem;
+  }
   .sectionBody .containerCards .item .date {
     font-size: 2rem;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
+    letter-spacing: -0.47px;
+  }
+  .sectionBody .containerCards .item .title {
+    letter-spacing: -0.26px;
   }
   .sectionBody .containerCards .item .subTitle {
     margin-bottom: 0.8rem;
@@ -265,7 +280,7 @@
 
 @media only screen and (min-width: 1400px) {
   .sectionSatu .sectionSatuKanan img {
-    width: 1049px;
+    width: 1056px;
   }
   .sectionSatu .sectionSatuKanan .orangeBlock {
     width: 100px;
@@ -287,7 +302,7 @@
   }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 373px) {
+@media only screen and (min-width: 0px) and (max-width: 415px) {
   .sectionBody .containerCards .item {
     width: 100%;
   }
