@@ -11,9 +11,10 @@
     text-align: right;
     font-family: IBM Plex Sans;
     padding: 0;
+    width: 123px;
     li {
       color: #0a2939;
-      padding-bottom: 2rem;
+      margin-bottom: 2rem;
       text-transform: uppercase;
       font-size: 0.8rem;
       letter-spacing: 1.5px;
@@ -35,8 +36,9 @@
     height: 100rem;
     list-style: none;
     margin-bottom: 0;
+    padding-left: 2.6125rem;
     .item {
-      width: 320px;
+      width: 310px;
       margin-bottom: 4.5rem;
       &.center {
         .containerImage {
@@ -55,7 +57,7 @@
         position: relative;
         display: block;
         img {
-          width: 320px;
+          width: 310px;
         }
         &::after {
           content: "";
@@ -74,6 +76,7 @@
         margin-top: 1.6rem;
         font-family: Minion Display;
         margin-bottom: 1.5rem;
+        letter-spacing: -0.79px;
       }
       .subTitle {
         font-size: 0.9rem;
@@ -87,14 +90,16 @@
         line-height: 1.6rem;
         font-weight: 500;
         font-family: IBM Plex Sans;
+        letter-spacing: -0.26px;
       }
       &.quotes {
-        padding: 2.5rem;
+        padding: 2.5rem 1.8375rem;
         .quotes {
           font-family: Butler;
           color: #0a2939;
           font-size: 2.27rem;
           line-height: 2.5rem;
+          letter-spacing: -0.53px;
         }
         .subQuotes {
           font-family: IBM Plex Sans;
@@ -136,7 +141,7 @@
 .sectionAddActuals {
   color: #f05e36;
   text-align: center;
-  margin-top: -2rem;
+  margin-top: -4rem;
   position: relative;
   .icon-plus {
     filter: invert(56%) sepia(34%) saturate(6580%) hue-rotate(339deg)
@@ -160,7 +165,7 @@
 .sectionSatu {
   .sectionSatuKanan {
     img {
-      width: 1049px;
+      width: 1025px;
     }
     .orangeBlock {
       height: 16px;
@@ -193,7 +198,7 @@
       overflow-x: scroll;
       overflow-y: hidden;
       white-space: nowrap;
-
+      width: auto;
       li {
         margin-right: 1rem;
         display: inline-block;
@@ -206,10 +211,15 @@
       padding: 0;
 
       .item {
+        margin-bottom: 3.4375rem;
         .date {
           font-size: 2rem;
           margin-top: 1rem;
           margin-bottom: 0.5rem;
+          letter-spacing: -0.47px;
+        }
+        .title {
+          letter-spacing: -0.26px;
         }
         .subTitle {
           margin-bottom: 0.8rem;
@@ -240,10 +250,17 @@
 }
 
 @media only screen and (min-width: 1400px) {
+  // .sectionSatu .sectionSatuKiri .text {
+  //   //waiting halaman 2
+  //   position: absolute;
+  //   top: 21.875rem;
+  //   margin-left: 3rem;
+  // }
+
   .sectionSatu {
     .sectionSatuKanan {
       img {
-        width: 1049px;
+        width: 1025px;
       }
       .orangeBlock {
         width: 100px;
