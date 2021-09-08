@@ -62,7 +62,7 @@
       height: 4.8rem;
       position: absolute;
       bottom: -1.98rem;
-      right: 2rem;
+      right: 2.5rem;
     }
   }
   .date {
@@ -70,8 +70,9 @@
     font-family: Minion Display;
     font-size: 3.4rem;
     line-height: 45px;
-    margin-top: 2rem;
-    margin-bottom: 1.5rem;
+    margin-top: 1.6rem;
+    margin-bottom: 1.3rem;
+    letter-spacing: -0.79px;
   }
   .subTitle {
     font-size: 0.9rem;
@@ -93,6 +94,7 @@
     line-height: 2.6125rem;
     margin-bottom: 1.275rem;
     font-size: 2rem;
+    letter-spacing: -0.44px;
   }
   .newsAuthor {
     font-size: 1rem;
@@ -102,6 +104,7 @@
     color: #3891a5;
     line-height: 1.875rem;
     font-weight: 300;
+    letter-spacing: -0.1px;
   }
   .containerNewsAllText {
     line-height: 1.875rem;
@@ -181,6 +184,7 @@
       font-size: 2rem;
       margin-top: 1rem;
       margin-bottom: 0.5rem;
+      letter-spacing: -0.47px;
     }
     .subTitle {
       margin-bottom: 0;
