@@ -130,13 +130,17 @@ $size1: 1.6rem;
                             line-height: 18px;
                             margin-bottom: 24px;
                             text-indent: -5px;
+
+                            &:hover {
+                                color: $color3;
+                            }
                             
                         }
                         li.first {
                             color: $color3;
                         }
                         li:before {
-                            content: "-";
+                            content: "\2015";
                             text-indent: -5px;
                             margin-right: 13px;
                             color: $color3;
@@ -146,6 +150,13 @@ $size1: 1.6rem;
 
                 #listhide {
                     border-top: 1.5px solid #113d53;
+                }
+
+                
+                #hidebtn {
+                    width: 1.875rem;
+                    margin-left: -0.25rem;
+                    margin-bottom: 1.25rem;
                 }
         }
 
@@ -824,13 +835,17 @@ $size1: 1.6rem;
                         line-height: 18px;
                         margin-bottom: 24px;
                         text-indent: -5px;
+
+                        &:hover {
+                            color: $color3;
+                        }
                         
                     }
                     li.first {
                         color: $color3;
                     }
                     li:before {
-                        content: "-";
+                        content: "\2015";
                         text-indent: -5px;
                         margin-right: 13px;
                         color: $color3;
@@ -840,6 +855,13 @@ $size1: 1.6rem;
 
             #listhide {
                 border-top: 1.5px solid #113d53;
+            }
+
+            
+            #hidebtn {
+                width: 1.875rem;
+                margin-left: -0.25rem;
+                margin-bottom: 1.25rem;
             }
     }
 
@@ -1596,13 +1618,17 @@ $size1: 1.6rem;
                             line-height: 18px;
                             margin-bottom: 24px;
                             text-indent: -5px;
+
+                            &:hover {
+                                color: $color3;
+                            }
                             
                         }
                         li.first {
                             color: $color3;
                         }
                         li:before {
-                            content: "-";
+                            content: "\2015";
                             text-indent: -5px;
                             margin-right: 13px;
                             color: $color3;
@@ -1612,6 +1638,13 @@ $size1: 1.6rem;
 
                 #listhide {
                     border-top: 1.5px solid #113d53;
+                }
+
+                
+                #hidebtn {
+                    width: 1.875rem;
+                    margin-left: -0.25rem;
+                    margin-bottom: 1.25rem;
                 }
         }
 
@@ -2339,13 +2372,17 @@ $size1: 1.6rem;
                             line-height: 18px;
                             margin-bottom: 24px;
                             text-indent: -5px;
+
+                            &:hover {
+                                color: $color3;
+                            }
                             
                         }
                         li.first {
                             color: $color3;
                         }
                         li:before {
-                            content: "-";
+                            content: "\2015";
                             text-indent: -5px;
                             margin-right: 13px;
                             color: $color3;
@@ -2355,6 +2392,13 @@ $size1: 1.6rem;
 
                 #listhide {
                     border-top: 1.5px solid #113d53;
+                }
+
+                
+                #hidebtn {
+                    width: 1.875rem;
+                    margin-left: -0.25rem;
+                    margin-bottom: 1.25rem;
                 }
         }
 
@@ -3113,6 +3157,7 @@ $size1: 1.6rem;
                 margin-top: 1.625rem;
 
                 img {
+                    height: auto;
                     width: 100%;
                 }
             }
@@ -3685,6 +3730,11 @@ $size1: 1.6rem;
                 border-top : 1.5px solid #113D53;
                 padding-top: 1.9375rem;
                 border-bottom: 1.5px solid #113D53;
+
+                .footerBodyKiriOne {
+                    padding-right: 0 !important;
+                    margin-right: 0 !important;
+                }
 
                     li { 
                         color: #FFFFFF;

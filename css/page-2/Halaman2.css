@@ -81,17 +81,25 @@
     margin-bottom: 24px;
     text-indent: -5px;
   }
+  .navbar-nav li ul.dash li:hover {
+    color: #f05e36;
+  }
   .navbar-nav li ul.dash li.first {
     color: #f05e36;
   }
   .navbar-nav li ul.dash li:before {
-    content: "-";
+    content: "\2015";
     text-indent: -5px;
     margin-right: 13px;
     color: #f05e36;
   }
   .navbar-nav #listhide {
     border-top: 1.5px solid #113d53;
+  }
+  .navbar-nav #hidebtn {
+    width: 1.875rem;
+    margin-left: -0.25rem;
+    margin-bottom: 1.25rem;
   }
   .navbar-light .navbar-toggler {
     border: none;
@@ -157,9 +165,14 @@
     margin-left: 0;
     margin-top: 1.625rem;
   }
-  .container .sectionSatu .sectionSatuKanan img {
+  .container .sectionSatu .sectionSatuKanan .overlay {
+    background-color: #f05e36;
+    margin-bottom: 1.25rem;
+  }
+  .container .sectionSatu .sectionSatuKanan .overlay img {
     height: 12rem;
     width: 100%;
+    margin-bottom: 20px;
   }
   .container .sectionDua {
     margin-top: 2.0625rem;
@@ -836,17 +849,25 @@
     margin-bottom: 24px;
     text-indent: -5px;
   }
+  .navbar-nav li ul.dash li:hover {
+    color: #f05e36;
+  }
   .navbar-nav li ul.dash li.first {
     color: #f05e36;
   }
   .navbar-nav li ul.dash li:before {
-    content: "-";
+    content: "\2015";
     text-indent: -5px;
     margin-right: 13px;
     color: #f05e36;
   }
   .navbar-nav #listhide {
     border-top: 1.5px solid #113d53;
+  }
+  .navbar-nav #hidebtn {
+    width: 1.875rem;
+    margin-left: -0.25rem;
+    margin-bottom: 1.25rem;
   }
   .navbar-light .navbar-toggler {
     border: none;
@@ -912,9 +933,14 @@
     margin-left: 0;
     margin-top: 1.625rem;
   }
-  .container .sectionSatu .sectionSatuKanan img {
+  .container .sectionSatu .sectionSatuKanan .overlay {
+    background-color: #f05e36;
+    margin-bottom: 1.25rem;
+  }
+  .container .sectionSatu .sectionSatuKanan .overlay img {
     height: 12rem;
     width: 100%;
+    margin-bottom: 1.25rem;
   }
   .container .sectionDua {
     margin-top: 2.0625rem;
@@ -1591,17 +1617,25 @@
     margin-bottom: 24px;
     text-indent: -5px;
   }
+  .navbar-nav li ul.dash li:hover {
+    color: #f05e36;
+  }
   .navbar-nav li ul.dash li.first {
     color: #f05e36;
   }
   .navbar-nav li ul.dash li:before {
-    content: "-";
+    content: "\2015";
     text-indent: -5px;
     margin-right: 13px;
     color: #f05e36;
   }
   .navbar-nav #listhide {
     border-top: 1.5px solid #113d53;
+  }
+  .navbar-nav #hidebtn {
+    width: 1.875rem;
+    margin-left: -0.25rem;
+    margin-bottom: 1.25rem;
   }
   .navbar-light .navbar-toggler {
     border: none;
@@ -1667,9 +1701,14 @@
     margin-left: 0;
     margin-top: 1.625rem;
   }
-  .container .sectionSatu .sectionSatuKanan img {
+  .container .sectionSatu .sectionSatuKanan .overlay {
+    background-color: #f05e36;
+    margin-bottom: 1.25rem;
+  }
+  .container .sectionSatu .sectionSatuKanan .overlay img {
     height: 12rem;
     width: 100%;
+    margin-bottom: 1.25rem;
   }
   .container .sectionDua {
     margin-top: 2.0625rem;
@@ -2347,17 +2386,25 @@
     margin-bottom: 24px;
     text-indent: -5px;
   }
+  .navbar-nav li ul.dash li:hover {
+    color: #f05e36;
+  }
   .navbar-nav li ul.dash li.first {
     color: #f05e36;
   }
   .navbar-nav li ul.dash li:before {
-    content: "-";
+    content: "\2015";
     text-indent: -5px;
     margin-right: 13px;
     color: #f05e36;
   }
   .navbar-nav #listhide {
     border-top: 1.5px solid #113d53;
+  }
+  .navbar-nav #hidebtn {
+    width: 1.875rem;
+    margin-left: -0.25rem;
+    margin-bottom: 1.25rem;
   }
   .navbar-light .navbar-toggler {
     border: none;
@@ -2423,9 +2470,14 @@
     margin-left: 0;
     margin-top: 1.625rem;
   }
-  .container .sectionSatu .sectionSatuKanan img {
+  .container .sectionSatu .sectionSatuKanan .overlay {
+    background-color: #f05e36;
+    margin-bottom: 1.25rem;
+  }
+  .container .sectionSatu .sectionSatuKanan .overlay img {
     height: 12rem;
     width: 100%;
+    margin-bottom: 1.25rem;
   }
   .container .sectionDua {
     margin-top: 2.0625rem;
@@ -3175,6 +3227,7 @@
   }
   .container .navbar-collapse .sectionSatu .sectionSatuKanan img {
     width: 100%;
+    height: auto;
   }
   .container .navbar-collapse .sectionDua {
     width: 100%;
@@ -4519,14 +4572,14 @@
     font-weight: 600;
     letter-spacing: -0.26px;
     line-height: 23px;
-    margin-right: 4.625rem;
+    margin-right: 5.3125rem;
     margin-left: .75rem;
     margin-bottom: -10rem;
     padding-left: 0;
     padding-right: 0;
   }
   .navbar .nav-item .nav-link:hover {
-    border-bottom: #F05E36 2px solid;
+    border-bottom: #F05E36 3px solid;
     border-width: 30%;
   }
   .navbar .nav-item img {
@@ -4602,11 +4655,16 @@
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    margin-right: -3.75rem;
+    margin-right: -2rem;
     height: 405px;
   }
-  .sectionSatu .sectionSatuKanan img {
+  .sectionSatu .sectionSatuKanan .overlay {
+    margin-left: 16.8125rem;
+    background-color: #F05E36;
+  }
+  .sectionSatu .sectionSatuKanan .overlay img {
     width: 100%;
+    padding-right: 6.25rem;
   }
   .sectionDua {
     width: 100%;
@@ -5290,7 +5348,8 @@
     line-height: 19.5px;
   }
 }
-/*# sourceMappingURL=Halaman2.css.map */argin-top: 8rem;
+/*# sourceMappingURL=Halaman2.css.map */er {
+    margin-top: 8rem;
     margin-bottom: 6rem;
   }
   .Footer .container .footerHeader img {

@@ -99,13 +99,17 @@ $size1: 1.6rem;
                         line-height: 18px;
                         margin-bottom: 24px;
                         text-indent: -5px;
+
+                        &:hover {
+                            color: $color3;
+                        }
                         
                     }
                     li.first {
                         color: $color3;
                     }
                     li:before {
-                        content: "-";
+                        content: "\2015";
                         text-indent: -5px;
                         margin-right: 13px;
                         color: $color3;
@@ -116,6 +120,12 @@ $size1: 1.6rem;
             #listhide {
                 border-top: 1.5px solid #113d53;
             }
+
+            #hidebtn {
+                width: 1.875rem;
+                margin-left: -0.25rem;
+                margin-bottom: 1.25rem;
+            }
     }
 
     .navbar-light {
@@ -123,6 +133,7 @@ $size1: 1.6rem;
             border: none;
         }
     }
+
 
     .container {
         margin-left: 0;
@@ -181,9 +192,15 @@ $size1: 1.6rem;
                 margin-left: 0;
                 margin-top: 1.625rem;
 
+                .overlay {
+                    background-color: $color3;
+                    margin-bottom: 1.25rem;
+
                 img {
                     height: 12rem;
                     width: 100%;
+                    margin-bottom: 20px;
+                }
                 }
             }
         }
@@ -869,13 +886,17 @@ $size1: 1.6rem;
                         line-height: 18px;
                         margin-bottom: 24px;
                         text-indent: -5px;
+
+                        &:hover {
+                            color: $color3;
+                        }
                         
                     }
                     li.first {
                         color: $color3;
                     }
                     li:before {
-                        content: "-";
+                        content: "\2015";
                         text-indent: -5px;
                         margin-right: 13px;
                         color: $color3;
@@ -885,6 +906,12 @@ $size1: 1.6rem;
 
             #listhide {
                 border-top: 1.5px solid #113d53;
+            }
+
+            #hidebtn {
+                width: 1.875rem;
+                margin-left: -0.25rem;
+                margin-bottom: 1.25rem;
             }
     }
 
@@ -951,9 +978,15 @@ $size1: 1.6rem;
                 margin-left: 0;
                 margin-top: 1.625rem;
 
+                .overlay {
+                    background-color: $color3;
+                    margin-bottom: 1.25rem;
+
                 img {
                     height: 12rem;
                     width: 100%;
+                    margin-bottom: 1.25rem;
+                }
                 }
             }
         }
@@ -1641,13 +1674,17 @@ $size1: 1.6rem;
                         line-height: 18px;
                         margin-bottom: 24px;
                         text-indent: -5px;
+
+                        &:hover {
+                            color: $color3;
+                        }
                         
                     }
                     li.first {
                         color: $color3;
                     }
                     li:before {
-                        content: "-";
+                        content: "\2015";
                         text-indent: -5px;
                         margin-right: 13px;
                         color: $color3;
@@ -1657,6 +1694,12 @@ $size1: 1.6rem;
 
             #listhide {
                 border-top: 1.5px solid #113d53;
+            }
+
+            #hidebtn {
+                width: 1.875rem;
+                margin-left: -0.25rem;
+                margin-bottom: 1.25rem;
             }
     }
 
@@ -1723,9 +1766,15 @@ $size1: 1.6rem;
                 margin-left: 0;
                 margin-top: 1.625rem;
 
+                .overlay {
+                    background-color: $color3;
+                    margin-bottom: 1.25rem;
+
                 img {
                     height: 12rem;
                     width: 100%;
+                    margin-bottom: 1.25rem;
+                }
                 }
             }
         }
@@ -2414,13 +2463,17 @@ $size1: 1.6rem;
                         line-height: 18px;
                         margin-bottom: 24px;
                         text-indent: -5px;
+
+                        &:hover {
+                            color: $color3;
+                        }
                         
                     }
                     li.first {
                         color: $color3;
                     }
                     li:before {
-                        content: "-";
+                        content: "\2015";
                         text-indent: -5px;
                         margin-right: 13px;
                         color: $color3;
@@ -2430,6 +2483,12 @@ $size1: 1.6rem;
 
             #listhide {
                 border-top: 1.5px solid #113d53;
+            }
+
+            #hidebtn {
+                width: 1.875rem;
+                margin-left: -0.25rem;
+                margin-bottom: 1.25rem;
             }
     }
 
@@ -2496,9 +2555,15 @@ $size1: 1.6rem;
                 margin-left: 0;
                 margin-top: 1.625rem;
 
+                .overlay {
+                    background-color: $color3;
+                    margin-bottom: 1.25rem;
+
                 img {
                     height: 12rem;
                     width: 100%;
+                    margin-bottom: 1.25rem;
+                }
                 }
             }
         }
@@ -3268,6 +3333,7 @@ $size1: 1.6rem;
 
                 img {
                     width: 100%;
+                    height: auto;
                 }
             }
         }
@@ -4708,14 +4774,14 @@ $size1: 1.6rem;
             font-weight: 600;
             letter-spacing: -0.26px;
             line-height: 23px;
-            margin-right: 4.625rem;
+            margin-right: 5.3125rem;
             margin-left: .75rem;
             margin-bottom: -10rem;
             padding-left: 0;
             padding-right: 0;
 
             &:hover {
-                border-bottom: #F05E36 2px solid;
+                border-bottom: #F05E36 3px solid;
                 border-width: 30%;
             }
         }
@@ -4796,12 +4862,17 @@ $size1: 1.6rem;
         z-index: -1;
         display: flex;
         justify-content: flex-end;
-        margin-right: -3.75rem;
+        margin-right: -2rem;
         height: 405px;
 
-        img{
-            width: 100%;
-        }   
+        .overlay {
+            margin-left: 16.8125rem;
+            background-color: #F05E36;
+            img{
+                width: 100%;
+                padding-right: 6.25rem;
+            } 
+        } 
     }
 }
 
