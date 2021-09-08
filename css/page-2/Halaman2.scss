@@ -742,40 +742,47 @@ $size1: 1.6rem;
             }
         }
     }
-
     .Footer {
-        margin-top: 1.875rem;
-        background-color: #021925;
+        margin-top: 1.875rem !important;
+        background-color: #021925 !important;
 
         .container {
             .footerHeader {
                
                 img {
-                    margin-left: auto;
-                    margin-right: auto;
-                    display: block;
-                    padding-top: 2.9375rem;
-                    width: 11.625rem;
-                    padding-bottom: 3rem;
+                    margin-left: auto !important;
+                    margin-right: auto !important;
+                    display: block !important;
+                    padding-top: 2.9375rem !important;
+                    width: 11.625rem !important;
+                    padding-bottom: 3rem !important;
                 }
             }
 
             .foooterBody {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
+                display: flex !important;
+                flex-direction: column !important;
+                justify-content: center !important;
+                align-items: center !important;
+                border: none !important;
+                width: 100% !important;
+                height: auto !important;
 
                 .footerBodyKiri {
-                    width: 100%;
-                    box-sizing: border-box;
-                    border-top : 1.5px solid #113D53;
-                    padding-top: 1.9375rem;
-                    border-bottom: 1.5px solid #113D53;
+                    width: 100% !important;
+                    box-sizing: border-box !important;
+                    border-top : 1.5px solid #113D53 !important;
+                    padding-top: 1.9375rem !important;
+                    border-bottom: 1.5px solid #113D53 !important;
+                    border-right: none !important;
+                    justify-content: center !important;
+                    flex-direction: column !important;
+                    padding-bottom: 0 !important;
 
                     .footerBodyKiriOne {
                         padding-right: 0 !important;
                         margin-right: 0 !important;
+                        width: 100%;
                     }
 
                         li { 
@@ -819,7 +826,6 @@ $size1: 1.6rem;
             }
         }
     }
-   
 }
 
 @media (min-width: 320px) and (max-width: 374.98px) {
@@ -1508,38 +1514,46 @@ $size1: 1.6rem;
     }
 
     .Footer {
-        margin-top: 1.875rem;
-        background-color: #021925;
+        margin-top: 1.875rem !important;
+        background-color: #021925 !important;
 
         .container {
             .footerHeader {
                
                 img {
-                    margin-left: auto;
-                    margin-right: auto;
-                    display: block;
-                    padding-top: 2.9375rem;
-                    width: 11.625rem;
-                    padding-bottom: 3rem;
+                    margin-left: auto !important;
+                    margin-right: auto !important;
+                    display: block !important;
+                    padding-top: 2.9375rem !important;
+                    width: 11.625rem !important;
+                    padding-bottom: 3rem !important;
                 }
             }
 
             .foooterBody {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
+                display: flex !important;
+                flex-direction: column !important;
+                justify-content: center !important;
+                align-items: center !important;
+                border: none !important;
+                width: 100% !important;
+                height: auto !important;
 
                 .footerBodyKiri {
-                    width: 100%;
-                    box-sizing: border-box;
-                    border-top : 1.5px solid #113D53;
-                    padding-top: 1.9375rem;
-                    border-bottom: 1.5px solid #113D53;
+                    width: 100% !important;
+                    box-sizing: border-box !important;
+                    border-top : 1.5px solid #113D53 !important;
+                    padding-top: 1.9375rem !important;
+                    border-bottom: 1.5px solid #113D53 !important;
+                    border-right: none !important;
+                    justify-content: center !important;
+                    flex-direction: column !important;
+                    padding-bottom: 0 !important;
 
                     .footerBodyKiriOne {
                         padding-right: 0 !important;
                         margin-right: 0 !important;
+                        width: 100%;
                     }
 
                         li { 
@@ -2273,38 +2287,46 @@ $size1: 1.6rem;
     }
 
     .Footer {
-        margin-top: 1.875rem;
-        background-color: #021925;
+        margin-top: 1.875rem !important;
+        background-color: #021925 !important;
 
         .container {
             .footerHeader {
                
                 img {
-                    margin-left: auto;
-                    margin-right: auto;
-                    display: block;
-                    padding-top: 2.9375rem;
-                    width: 11.625rem;
-                    padding-bottom: 3rem;
+                    margin-left: auto !important;
+                    margin-right: auto !important;
+                    display: block !important;
+                    padding-top: 2.9375rem !important;
+                    width: 11.625rem !important;
+                    padding-bottom: 3rem !important;
                 }
             }
 
             .foooterBody {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
+                display: flex !important;
+                flex-direction: column !important;
+                justify-content: center !important;
+                align-items: center !important;
+                border: none !important;
+                width: 100% !important;
+                height: auto !important;
 
                 .footerBodyKiri {
-                    width: 100%;
-                    box-sizing: border-box;
-                    border-top : 1.5px solid #113D53;
-                    padding-top: 1.9375rem;
-                    border-bottom: 1.5px solid #113D53;
+                    width: 100% !important;
+                    box-sizing: border-box !important;
+                    border-top : 1.5px solid #113D53 !important;
+                    padding-top: 1.9375rem !important;
+                    border-bottom: 1.5px solid #113D53 !important;
+                    border-right: none !important;
+                    justify-content: center !important;
+                    flex-direction: column !important;
+                    padding-bottom: 0 !important;
 
                     .footerBodyKiriOne {
                         padding-right: 0 !important;
                         margin-right: 0 !important;
+                        width: 100%;
                     }
 
                         li { 
@@ -3040,40 +3062,47 @@ $size1: 1.6rem;
             }
         }
     }
-
     .Footer {
-        margin-top: 1.875rem;
-        background-color: #021925;
+        margin-top: 1.875rem !important;
+        background-color: #021925 !important;
 
         .container {
             .footerHeader {
                
                 img {
-                    margin-left: auto;
-                    margin-right: auto;
-                    display: block;
-                    padding-top: 2.9375rem;
-                    width: 11.625rem;
-                    padding-bottom: 3rem;
+                    margin-left: auto !important;
+                    margin-right: auto !important;
+                    display: block !important;
+                    padding-top: 2.9375rem !important;
+                    width: 11.625rem !important;
+                    padding-bottom: 3rem !important;
                 }
             }
 
             .foooterBody {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
+                display: flex !important;
+                flex-direction: column !important;
+                justify-content: center !important;
+                align-items: center !important;
+                border: none !important;
+                width: 100% !important;
+                height: auto !important;
 
                 .footerBodyKiri {
-                    width: 100%;
-                    box-sizing: border-box;
-                    border-top : 1.5px solid #113D53;
-                    padding-top: 1.9375rem;
-                    border-bottom: 1.5px solid #113D53;
+                    width: 100% !important;
+                    box-sizing: border-box !important;
+                    border-top : 1.5px solid #113D53 !important;
+                    padding-top: 1.9375rem !important;
+                    border-bottom: 1.5px solid #113D53 !important;
+                    border-right: none !important;
+                    justify-content: center !important;
+                    flex-direction: column !important;
+                    padding-bottom: 0 !important;
 
                     .footerBodyKiriOne {
                         padding-right: 0 !important;
                         margin-right: 0 !important;
+                        width: 100%;
                     }
 
                         li { 
@@ -3117,8 +3146,8 @@ $size1: 1.6rem;
             }
         }
     }
-   
 }
+
 
 @media (min-width: 992px) and (max-width: 1399.98px) {
     .container {
@@ -4493,110 +4522,110 @@ $size1: 1.6rem;
                 background-color: #F05E36;
             }
     
-            margin-bottom: 4rem;
-    
-    
+            margin-bottom: 4rem;  
         }
     }
-}
-.Footer {
-    width: 100%;
-    background-color: #021925;
-    height: 40rem;
-    margin-top: 9.4375rem;
+    }
 
-    .container {
-        background-color: #021925;
-
-        height: 100%;
-        color: #E8D4CF;
-        display: flex;
+    .Footer {
         width: 100%;
-        align-items: center;
-        flex-direction: column;
-
-        // justify-content: center;
-        .footerHeader {
-            margin-top: 8rem;
-            margin-bottom: 6rem;
-
-            img{
-                width: 12.5rem;
-                opacity: 0.8;
-            }
-        }
-
-        .foooterBody {
+        background-color: #021925;
+        height: 40rem;
+        margin-top: 9.4375rem;
+    
+        .container {
+            background-color: #021925;
+    
+            height: 100%;
+            color: #E8D4CF;
             display: flex;
-            border-top: 1.5px solid #113D53;
-            border-bottom: 1.5px solid #113D53;
-         
-            width: 90%;
-            height: 10rem;
-            justify-content: space-evenly;
-
-            .footerBodyKiri {
-                display: flex;
-                flex-direction: row;
-                width: 65%;
-                padding: 3rem 2rem;
-                border-right: 2px #113D53 solid;
-                
-                li {
-                    list-style: none;
-                    margin-bottom: 2rem;
-                    height: 15px;
-                    color: #FFFFFF;
-                    font-family: $ibmLight;
-                    font-size: 12px;
-                    font-weight: 500;
-                    letter-spacing: 0.5px;
-                    line-height: 15px;
-                    text-transform: uppercase;
-                }
-
-                .footerBodyKiriOne {
-                    flex-direction: column;
-                    display: flex;
-                    padding-right: 8rem;
-                    margin-right: 6rem;
-
-                }
-
-                .footerBodyKiriTwo {
-                    display: flex;
-                    flex-direction: column;
-
+            width: 100%;
+            align-items: center;
+            flex-direction: column;
+    
+            // justify-content: center;
+            .footerHeader {
+                margin-top: 8rem;
+                margin-bottom: 6rem;
+    
+                img{
+                    width: 12.5rem;
+                    opacity: 0.8;
                 }
             }
-
-            .footerBodyKanan {
-
-               
-                // border-left: 2px #113D53 solid;
+    
+            .foooterBody {
                 display: flex;
-                justify-content: center;
-
-            .linkedIn{
-                display: flex;
-                justify-content: center;
-                align-items: center ;
-                h5{
-                    margin-top: 0.5rem;
-                    margin-left: 1rem;
-                    color: #FFFFFF;
-                    font-family: $ibmReguler;
-                    font-size: 15px;
-                    letter-spacing: -0.22px;
-                    line-height: 19.5px;
+                border-top: 1.5px solid #113D53;
+                border-bottom: 1.5px solid #113D53;
+             
+                width: 90%;
+                height: 10rem;
+                justify-content: space-evenly;
+    
+                .footerBodyKiri {
+                    display: flex;
+                    flex-direction: row;
+                    width: 65%;
+                    padding: 3rem 2rem;
+                    border-right: 2px #113D53 solid;
+                    
+                    li {
+                        list-style: none;
+                        margin-bottom: 2rem;
+                        height: 15px;
+                        color: #FFFFFF;
+                        font-family: $ibmLight;
+                        font-size: 12px;
+                        font-weight: 500;
+                        letter-spacing: 0.5px;
+                        line-height: 15px;
+                        text-transform: uppercase;
+                    }
+    
+                    .footerBodyKiriOne {
+                        flex-direction: column;
+                        display: flex;
+                        padding-right: 8rem;
+                        margin-right: 6rem;
+    
+                    }
+    
+                    .footerBodyKiriTwo {
+                        display: flex;
+                        flex-direction: column;
+    
+                    }
                 }
-                text-decoration: none;
-            }
+    
+                .footerBodyKanan {
+    
+                   
+                    // border-left: 2px #113D53 solid;
+                    display: flex;
+                    justify-content: center;
+    
+                .linkedIn{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center ;
+                    h5{
+                        margin-top: 0.5rem;
+                        margin-left: 1rem;
+                        color: #FFFFFF;
+                        font-family: $ibmReguler;
+                        font-size: 15px;
+                        letter-spacing: -0.22px;
+                        line-height: 19.5px;
+                    }
+                    text-decoration: none;
+                }
+                }
             }
         }
     }
 }
-}
+
 
 
 
