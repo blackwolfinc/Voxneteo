@@ -264,21 +264,18 @@ html,body
         z-index: -1;
         display: flex;
         justify-content: flex-end;
-        margin-right: 0;
+        margin-right: -3.75rem;
         margin-left: auto;
         height: 405px;
 
         img {
             width: 100%;
         }
+        img.mobile {
+            display: none;
+        }
     }
-    .overlay-samping {
-        width: 125px;
-        background-color: #f05e36;
-        max-width: 100%;
-        margin-right: -2.5rem;
-        height: 405px;
-    }
+    
 }
 
 .sectionDua {
@@ -757,24 +754,23 @@ html,body
                 top: 12rem;
                 height: auto;
                 margin-right: 0;
-                padding-right: 1rem;
+                padding-right: 2rem;
+                width: 100%;
 
                 img {
                     height: 12rem;
                 }
-            }
 
-            .overlay-samping {
-                display: none;
-            }
-            
-            .overlay-bawah {
-                width: auto;
-                background-color: #f05e36;
-                max-width: 100%;
-                height: 16px;
-                position: relative;
-                top: -0.6rem;
+                img.dekstop {
+                    display: none;
+                }
+    
+                img.mobile {
+                    display: flex;
+                    border-bottom: 16px solid $color3;
+                    width: 100%;
+                    object-fit: cover;
+                }
             }
         }
 
@@ -1099,8 +1095,8 @@ html,body
                 position: fixed;
                 display: inline-block;
                 background-color: #021925;
-                height: 50%;
-                width: 50%;
+                height: 100%;
+                width: 100%;
                 padding: 1.5rem;
                 color: $color1;
                 z-index: 1;
@@ -1205,7 +1201,7 @@ html,body
             flex-direction: column;
             display: flex;
             padding: 1rem;
-            height: 30rem;
+            height: 27rem;
 
             .sectionSatuKiri {
                 background-color: transparent;
@@ -1248,35 +1244,26 @@ html,body
                     margin-right: 0;
                 }
             }
-
-            .overlay-samping {
-                display: none;
-            }
-            
-            .overlay-bawah {
-                width: auto;
-                background-color: #f05e36;
-                max-width: 100%;
-                height: 16px;
-                position: relative;
-                top: -0.6rem;
-            }
         }
 
         // Styling section 2
         .sectionDua {
             margin-left: 0;
             padding: 0 1rem;
+            margin-top: 1.5rem;
 
             .sectionDuaJudul {
                 width: 100%;
                 margin-left: 0;
                 padding: 0;
+                height: 104px;
+                margin-bottom: 0.5rem;
 
                 h3 {
                     width: 100%;
                     line-height: 35px;
-                    height: 104px;
+                    display: flex;
+                    align-items: center;
                 }
             }
 
@@ -1577,7 +1564,7 @@ html,body
 
                 .nav-item {
                     .nav-link {
-                        margin-right: 1.5rem;
+                        margin-right: 3rem;
                         margin-left: 0;
                     }
                 }
@@ -1611,7 +1598,7 @@ html,body
             flex-direction: column;
             display: flex;
             padding: 2rem;
-            height: 40rem;
+            height: 35rem;
 
             .sectionSatuKiri {
                 background-color: transparent;
@@ -1647,25 +1634,13 @@ html,body
                 top: 19rem;
                 margin-right: 0;
                 height: auto;
-                padding-right: 2rem;
+                width: 100%;
+                padding-right: 4rem;
 
                 img {
                     // height: 12rem;
                     margin-right: 0;
                 }
-            }
-
-            .overlay-samping {
-                display: none;
-            }
-            
-            .overlay-bawah {
-                width: auto;
-                background-color: #f05e36;
-                max-width: 100%;
-                height: 16px;
-                position: relative;
-                top: -0.2rem;
             }
         }
 
@@ -1676,11 +1651,14 @@ html,body
             .sectionDuaJudul {
                 width: 100%;
                 margin-left: 0;
+                height: 104px;
+                margin-top: 3rem;
 
                 h3 {
                     width: 100%;
                     line-height: 35px;
-                    height: 70px;
+                    display: flex;
+                    align-items: center;
                 }
             }
 

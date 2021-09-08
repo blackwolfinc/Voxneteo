@@ -1,3 +1,22 @@
+$ibmReguler: "IBMPlexSans";
+$ibmSemiBold: "IBMPlexSans-SemiBold";
+$ibmMedium: "IBMPlexSans-Medium";
+
+@font-face {
+  font-family: $ibmReguler;
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans.ttf");
+}
+
+@font-face {
+  font-family: $ibmSemiBold;
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: $ibmMedium;
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Medium.ttf");
+}
+
 .cookies {
   display: flex;
   position: fixed;
@@ -27,20 +46,23 @@
       h1 {
         height: 26px;
         color: #ffffff;
-        font-family: "IBM Plex Sans";
+        font-family: $ibmSemiBold;
         font-size: 20px;
         font-weight: 600;
         letter-spacing: -0.29px;
         line-height: 26px;
+        text-transform: uppercase;
       }
-      p {
+      p, span.terms-cookies {
         height: 26px;
-
         color: #ffffff;
-        font-family: "IBM Plex Sans";
+        font-family: $ibmReguler;
         font-size: 16px;
         letter-spacing: -0.24px;
         line-height: 26px;
+      }
+      span.terms-cookies {
+        text-decoration: underline;
       }
     }
     .cookieskanan {
@@ -51,7 +73,7 @@
 
       button {
         color: #ffffff;
-
+        font-family: $ibmMedium;
         padding: 0.7rem 2rem;
         background-color: #f05e36;
         width: 10rem;
@@ -68,61 +90,130 @@
   }
 }
 
-@media all and (max-width: 768px) {
-  .cookiesContainer {
-    justify-content: space-around;
-    flex-direction: column;
-    height: 19rem !important;
+@media all and (max-width: 767px) {
+  .cookies {
+    .cookiesContainer {
+      justify-content: space-around;
+      flex-direction: column;
+      height: 19rem !important;
+  
+      .cookieskiri {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0rem !important;
+        margin-top: 1rem;
+        // border-bottom: 1px solid rgba(128, 128, 128, 0.185);
+        h1 {
+          height: auto;
+          width: 100%;
+          color: #ffffff;
+          font-size: 20px;
+          font-weight: 600;
+          letter-spacing: -0.29px;
+          line-height: 26px;
+        }
+        p, span.terms-cookies {
+          height: auto !important;
+          width: auto !important;
+          color: #ffffff;
+          font-size: 16px;
+          letter-spacing: -0.24px;
+          line-height: 26px;
+        }
+      }
+      .cookieskanan {
+        //   background-color: green;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        display: flex !important;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    
+        button {
+          color: #ffffff;
+          margin-left: 0rem !important;
+          padding: 0.7rem 1rem;
+          background-color: #f05e36;
+          width: 10rem;
+          border: 1px solid #ffffff;
+          border-radius: 24px;
+          font-size: 16px;
+          margin-right: 0;
+        }
+    
+        :hover {
+          background-color: #ffffff;
+          color: #0a2939;
+        }
+  
+        button.plus {
+          margin-right: 1rem;
+        }
+      }
+    }
   }
-  .cookieskiri {
-    width: 100% !important;
-    display: flex;
-    flex-direction: column;
-    margin-left: 0rem !important;
-    margin-top: 1rem;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.185);
-    h1 {
-      height: 26px;
-      width: 336px;
-      color: #ffffff;
-      font-family: "IBM Plex Sans";
-      font-size: 20px;
-      font-weight: 600;
-      letter-spacing: -0.29px;
-      line-height: 26px;
-    }
-    p {
-      height: auto !important;
-      width: auto !important;
-      color: #ffffff;
-      font-family: "IBM Plex Sans";
-      font-size: 16px;
-      letter-spacing: -0.24px;
-      line-height: 26px;
-    }
-  }
-  .cookieskanan {
-    //   background-color: green;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    display: flex !important;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
+}
 
-    button {
-      color: #ffffff;
-      margin-left: 0rem !important;
-      padding: 0.7rem 2rem;
-      background-color: #f05e36;
-      width: 10rem;
-      border: 1px solid #ffffff;
-      border-radius: 24px;
-    }
+@media (min-width: 768px) and (max-width: 992px) {
+  .cookies {
+    .cookiesContainer {
+      justify-content: space-around;
+      flex-direction: column;
+      height: 19rem !important;
 
-    :hover {
-      background-color: #ffffff;
-      color: #0a2939;
+      .cookieskiri {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0rem !important;
+        margin-top: 1rem;
+        // border-bottom: 1px solid rgba(128, 128, 128, 0.185);
+        h1 {
+          height: 30px;
+          width: 100%;
+          color: #ffffff;
+          font-size: 26px;
+          font-weight: 600;
+          letter-spacing: -0.29px;
+          line-height: 26px;
+        }
+        p, span.terms-cookies {
+          height: auto !important;
+          width: auto !important;
+          color: #ffffff;
+          font-size: 20px;
+          letter-spacing: -0.24px;
+          line-height: 26px;
+        }
+      }
+      .cookieskanan {
+        //   background-color: green;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        display: flex !important;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    
+        button {
+          color: #ffffff;
+          font-size: 20px;
+          margin-left: 0rem !important;
+          padding: 0.7rem 2rem;
+          background-color: #f05e36;
+          width: 10rem;
+          border: 1px solid #ffffff;
+          border-radius: 24px;
+          width: 30%;
+        }
+    
+        :hover {
+          background-color: #ffffff;
+          color: #0a2939;
+        }
+      }
     }
   }
 }

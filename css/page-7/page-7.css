@@ -250,7 +250,7 @@ html, body {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin-right: 0;
+  margin-right: -3.75rem;
   margin-left: auto;
   height: 405px;
 }
@@ -259,12 +259,8 @@ html, body {
   width: 100%;
 }
 
-.sectionSatu .overlay-samping {
-  width: 125px;
-  background-color: #f05e36;
-  max-width: 100%;
-  margin-right: -2.5rem;
-  height: 405px;
+.sectionSatu .sectionSatuKanan img.mobile {
+  display: none;
 }
 
 .sectionDua {
@@ -781,21 +777,23 @@ html, body {
     top: 12rem;
     height: auto;
     margin-right: 0;
-    padding-right: 1rem;
+    padding-right: 2rem;
+    width: 100%;
   }
   .container .sectionSatu .sectionSatuKanan img {
     height: 12rem;
   }
-  .container .sectionSatu .overlay-samping {
+  .container .sectionSatu .sectionSatuKanan img.dekstop {
     display: none;
   }
-  .container .sectionSatu .overlay-bawah {
-    width: auto;
-    background-color: #f05e36;
-    max-width: 100%;
-    height: 16px;
-    position: relative;
-    top: -0.6rem;
+  .container .sectionSatu .sectionSatuKanan img.mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 16px solid #f05e36;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .container .sectionDua {
     margin-left: 0;
@@ -1118,8 +1116,8 @@ html, body {
     position: fixed;
     display: inline-block;
     background-color: #021925;
-    height: 50%;
-    width: 50%;
+    height: 100%;
+    width: 100%;
     padding: 1.5rem;
     color: #ffffff;
     z-index: 1;
@@ -1210,7 +1208,7 @@ html, body {
     display: -ms-flexbox;
     display: flex;
     padding: 1rem;
-    height: 30rem;
+    height: 27rem;
   }
   .container .sectionSatu .sectionSatuKiri {
     background-color: transparent;
@@ -1247,30 +1245,27 @@ html, body {
   .container .sectionSatu .sectionSatuKanan img {
     margin-right: 0;
   }
-  .container .sectionSatu .overlay-samping {
-    display: none;
-  }
-  .container .sectionSatu .overlay-bawah {
-    width: auto;
-    background-color: #f05e36;
-    max-width: 100%;
-    height: 16px;
-    position: relative;
-    top: -0.6rem;
-  }
   .container .sectionDua {
     margin-left: 0;
     padding: 0 1rem;
+    margin-top: 1.5rem;
   }
   .container .sectionDua .sectionDuaJudul {
     width: 100%;
     margin-left: 0;
     padding: 0;
+    height: 104px;
+    margin-bottom: 0.5rem;
   }
   .container .sectionDua .sectionDuaJudul h3 {
     width: 100%;
     line-height: 35px;
-    height: 104px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .container .sectionDua .sectionDuaText {
     width: 100%;
@@ -1567,7 +1562,7 @@ html, body {
     margin-top: 1.5rem;
   }
   .navbar .container ul.navbar-nav .nav-item .nav-link {
-    margin-right: 1.5rem;
+    margin-right: 3rem;
     margin-left: 0;
   }
   .navbar .container ul.navbar-nav .nav-item.dropdown .navlink {
@@ -1594,7 +1589,7 @@ html, body {
     display: -ms-flexbox;
     display: flex;
     padding: 2rem;
-    height: 40rem;
+    height: 35rem;
   }
   .container .sectionSatu .sectionSatuKiri {
     background-color: transparent;
@@ -1626,21 +1621,11 @@ html, body {
     top: 19rem;
     margin-right: 0;
     height: auto;
-    padding-right: 2rem;
+    width: 100%;
+    padding-right: 4rem;
   }
   .container .sectionSatu .sectionSatuKanan img {
     margin-right: 0;
-  }
-  .container .sectionSatu .overlay-samping {
-    display: none;
-  }
-  .container .sectionSatu .overlay-bawah {
-    width: auto;
-    background-color: #f05e36;
-    max-width: 100%;
-    height: 16px;
-    position: relative;
-    top: -0.2rem;
   }
   .container .sectionDua {
     margin-left: 0;
@@ -1648,11 +1633,18 @@ html, body {
   .container .sectionDua .sectionDuaJudul {
     width: 100%;
     margin-left: 0;
+    height: 104px;
+    margin-top: 3rem;
   }
   .container .sectionDua .sectionDuaJudul h3 {
     width: 100%;
     line-height: 35px;
-    height: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .container .sectionDua .sectionDuaText {
     width: 100%;
