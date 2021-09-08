@@ -38,12 +38,12 @@
     margin-bottom: 0;
     padding-left: 2.6125rem;
     .item {
-      width: 310px;
+      width: 314px;
       margin-bottom: 4.5rem;
       &.center {
         .containerImage {
           &::after {
-            bottom: 7rem;
+            bottom: 5.7rem;
           }
         }
       }
@@ -57,7 +57,7 @@
         position: relative;
         display: block;
         img {
-          width: 310px;
+          width: 314px;
         }
         &::after {
           content: "";
@@ -66,7 +66,7 @@
           height: 4.8rem;
           position: absolute;
           bottom: -1.98rem;
-          right: 2rem;
+          right: 2.5rem;
         }
       }
       .date {
@@ -288,7 +288,7 @@
   }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 373px) {
+@media only screen and (min-width: 0px) and (max-width: 415px) {
   .sectionBody {
     .containerCards {
       .item {
