@@ -245,8 +245,15 @@ $size1: 1.6rem;
         margin-left: 0;
         margin-top: 1.625rem;
 
-        img {
-          height: 12rem;
+        img.mobile {
+          object-fit: cover;
+          object-position: left;
+          height: 192px;
+          border-bottom: 16px solid $color3;
+        }
+
+        img.desktop {
+          display: none;
         }
       }
     }
@@ -258,10 +265,11 @@ $size1: 1.6rem;
       align-items: center;
       margin-top: 50px;
       padding: 50px 0;
-      border-top: 1px solid $color2;
+      border-top: 2px solid #e3e3e3;
 
       .sectionDuaKiri {
-        border-bottom: 1px solid $color2;
+        width: 100%;
+        border-bottom: 2px solid #e3e3e3;
 
         .detailContact {
           margin-bottom: 50px;
@@ -289,6 +297,7 @@ $size1: 1.6rem;
 
       .sectionDuaKanan {
         margin-top: 25px;
+
         .linkMenujuLinkedln {
           display: flex;
 
@@ -697,9 +706,16 @@ $size1: 1.6rem;
         margin-left: 0;
         margin-top: 1.625rem;
 
-        img {
-          height: 12rem;
+        img.mobile {
+          object-fit: cover;
+          object-position: left;
           width: 100%;
+          height: 192px;
+          border-bottom: 16px solid $color3;
+        }
+
+        img.desktop {
+          display: none;
         }
       }
     }
@@ -711,11 +727,11 @@ $size1: 1.6rem;
       align-items: center;
       margin-top: 50px;
       padding: 50px 0;
-      border-top: 1px solid $color2;
+      border-top: 2px solid #e3e3e3;
 
       .sectionDuaKiri {
-        transform: translateX(-25px);
-        border-bottom: 1px solid $color2;
+        width: 100%;
+        border-bottom: 2px solid #e3e3e3;
 
         .detailContact {
           margin-bottom: 50px;
@@ -1151,8 +1167,16 @@ $size1: 1.6rem;
         margin-left: 0;
         margin-top: 1.625rem;
 
-        img {
-          height: 12rem;
+        img.mobile {
+          object-fit: cover;
+          object-position: left;
+          width: 100%;
+          height: 192px;
+          border-bottom: 16px solid $color3;
+        }
+
+        img.desktop {
+          display: none;
         }
       }
     }
@@ -1164,11 +1188,12 @@ $size1: 1.6rem;
       align-items: center;
       margin-top: 50px;
       padding: 50px 0;
-      border-top: 1px solid $color2;
+      border-top: 2px solid #e3e3e3;
 
       .sectionDuaKiri {
-        transform: translateX(-50px);
-        border-bottom: 1px solid $color2;
+        width: 100%;
+        border-bottom: 2px solid #e3e3e3;
+        padding: 0 8%;
 
         .detailContact {
           margin-bottom: 50px;
@@ -1599,13 +1624,7 @@ $size1: 1.6rem;
           }
 
           h5 {
-            margin-top: 0.75rem;
-            color: #021925;
-            font-family: $minionItalic;
-            font-size: 1.125rem;
-            font-style: italic;
-            letter-spacing: 0.00625rem;
-            line-height: 1.125rem;
+            display: none;
           }
         }
       }
@@ -1615,7 +1634,11 @@ $size1: 1.6rem;
         margin-left: 0;
         margin-top: 1.625rem;
 
-        img {
+        img.mobile {
+          display: none;
+        }
+
+        img.desktop {
           height: 12rem;
           width: 100%;
         }
@@ -1627,12 +1650,11 @@ $size1: 1.6rem;
       justify-content: space-around;
       align-items: flex-end;
       margin-top: 50px;
-      padding: 50px 0;
-      border-top: 1px solid $color2;
+      padding: 50px 0 25px 0;
+      border-top: 2px solid $color2;
+      border-bottom: 2px solid $color2;
 
       .sectionDuaKiri {
-        border-bottom: 1px solid $color2;
-
         .detailContact {
           margin-bottom: 50px;
 
@@ -1692,13 +1714,10 @@ $size1: 1.6rem;
       text-align: center;
       font-family: $butler;
       position: relative;
-      // height: 485px;
-      // width: 305px; // untuk ukuran layar mobile
       width: 90%;
       max-width: 950px;
-      border: 10px solid #f66f4933;
-      // padding-bottom: 50px;
-      margin: 0 auto 100px auto;
+      border: 5px solid #f66f4933;
+      margin: 50px auto 100px auto;
 
       .stamp {
         padding: 25px;
@@ -1993,13 +2012,7 @@ $size1: 1.6rem;
           }
 
           h5 {
-            margin-top: 0.75rem;
-            color: #021925;
-            font-family: $minionItalic;
-            font-size: 1.125rem;
-            font-style: italic;
-            letter-spacing: 0.00625rem;
-            line-height: 1.125rem;
+            display: none;
           }
         }
       }
@@ -2009,7 +2022,11 @@ $size1: 1.6rem;
         margin-left: 0;
         margin-top: 1.625rem;
 
-        img {
+        img.mobile {
+          display: none;
+        }
+
+        img.desktop {
           width: 100%;
         }
       }
@@ -2020,12 +2037,12 @@ $size1: 1.6rem;
       justify-content: space-around;
       align-items: flex-end;
       margin-top: 50px;
-      padding: 50px 0;
-      border-top: 1px solid $color2;
+      padding: 100px 0 25px 0;
+      border-top: 2px solid #e3e3e3;
+      border-bottom: 2px solid #e3e3e3;
 
       .sectionDuaKiri {
         width: 40%;
-        border-bottom: 1px solid $color2;
 
         .detailContact {
           display: flex;
@@ -2096,7 +2113,7 @@ $size1: 1.6rem;
       max-width: 950px;
       border: 10px solid #f66f4933;
       padding-bottom: 50px;
-      margin: 0 auto 100px auto;
+      margin: 75px auto 100px auto;
 
       .stamp {
         position: absolute;
@@ -2440,15 +2457,7 @@ $size1: 1.6rem;
         }
 
         h5 {
-          height: 27px;
-          width: 464px;
-          color: #021925;
-          font-family: Minion;
-          font-size: 28px;
-          font-style: italic;
-          letter-spacing: 1.27px;
-          line-height: 29px;
-          margin-top: -6rem;
+          display: none;
         }
       }
     }
@@ -2460,7 +2469,11 @@ $size1: 1.6rem;
       margin-right: -3.75rem;
       height: 405px;
 
-      img {
+      img.mobile {
+        display: none;
+      }
+
+      img.desktop {
         width: 100%;
       }
     }
@@ -2471,9 +2484,9 @@ $size1: 1.6rem;
     justify-content: space-around;
     align-items: flex-end;
     margin-top: 50px;
-    padding: 50px 0;
-    border-top: 1px solid $color2;
-    border-bottom: 1px solid $color2;
+    padding: 100px 0 50px 0;
+    border-top: 2px solid #e3e3e3;
+    border-bottom: 2px solid #e3e3e3;
 
     .sectionDuaKiri {
       width: 50%;

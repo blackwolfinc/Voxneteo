@@ -8,6 +8,7 @@ $color7: #021925;
 $colorLine: #113d53;
 $maxWidth: 144rem;
 $ibmReguler: "IBMPlexSans";
+$ibmBold: "IBMPlexSans-Bold";
 $ibmSemiBold: "IBMPlexSans-SemiBold";
 $ibmSemiBoldItalic: "IBMPlexSans-SemiBoldItalic";
 $ibmLight: "IBMPlexSans-Light";
@@ -21,6 +22,11 @@ $size1: 1.6rem;
 @font-face {
     font-family: $ibmReguler;
     src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans.ttf");
+}
+
+@font-face {
+    font-family: $ibmBold;
+    src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Bold.ttf");
 }
 
 @font-face {
@@ -121,7 +127,7 @@ html,body
             img {
                 width: 5rem;
                 height: 7rem;
-                margin-left: 7rem;
+                margin-left: 9rem;
                 padding-bottom: 2rem;
             }
         }
@@ -169,11 +175,8 @@ html,body
             margin-bottom: -10rem;
 
             &:hover {
-                border-bottom: #F05E36 solid 2px;
-            }
-
-            &.active {
-                border-bottom: #F05E36 solid 2px;
+                border-bottom: 2px #F05E36 solid;
+                border-width: 30%;
             }
         }
 
@@ -189,7 +192,7 @@ html,body
                 padding-left: 2.4375rem;
                 padding-right: 4.4375rem;
                 border-radius: 1.5rem;
-                font-family: $ibmReguler;
+                font-family: $ibmBold;
             }
 
             .nav-link::after {
@@ -198,13 +201,19 @@ html,body
         }
     }
 
-
     img {
         position: absolute;
         margin-top: 0;
         width: 4.6875rem;
         height: 5.625rem;
         top: 2.0625rem;
+    }
+
+    #hidebtn {
+        svg {
+            width: 2rem;
+            margin-left: 0.3rem;
+        }
     }
 
 }
@@ -231,7 +240,7 @@ html,body
                 height: 196px;
                 width: 792px;
                 color: #F05E36;
-                font-family: Butler;
+                font-family: $butler;
                 font-size: 100px;
                 letter-spacing: -1.47px;
                 line-height: 50px;
@@ -241,12 +250,12 @@ html,body
                 height: 27px;
                 width: 464px;
                 color: #021925;
-                font-family: Minion;
+                font-family: $minionItalic;
                 font-size: 28px;
                 font-style: italic;
                 letter-spacing: 1.27px;
                 line-height: 29px;
-                margin-top: -6rem;
+                margin-top: -7.4rem;
             }
         }
     }
@@ -255,12 +264,20 @@ html,body
         z-index: -1;
         display: flex;
         justify-content: flex-end;
-        margin-right: -3.75rem;
+        margin-right: 0;
+        margin-left: auto;
         height: 405px;
 
         img {
             width: 100%;
         }
+    }
+    .overlay-samping {
+        width: 125px;
+        background-color: #f05e36;
+        max-width: 100%;
+        margin-right: -2.5rem;
+        height: 405px;
     }
 }
 
@@ -268,7 +285,7 @@ html,body
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-left: 7.75rem;
+    margin-left: 6.4rem;
 
     .sectionDuaJudul {
         width: 75%;
@@ -290,7 +307,7 @@ html,body
 
     .sectionDuaText {
         width: 75%;
-        margin-left: 20rem;
+        margin-left: 19.4rem;
 
         .sideAtas {
             width: 78%;
@@ -368,6 +385,7 @@ html,body
         .title {
             justify-content: center;
             margin-bottom: 2.5rem;
+            margin-top: -5rem;
 
             .title-1 {
                 width: 48rem;
@@ -436,6 +454,10 @@ html,body
                 font-size: 16px;
             }
 
+            a.terms {
+                text-decoration: underline;
+            }
+
             h6 {
                 font-family: $ibmMedium;
                 color: $color5;
@@ -452,7 +474,7 @@ html,body
     width: 100%;
     background-color: #021925;
     height: 40rem;
-    margin-top: 9.4375rem;
+    margin-top: 8.1rem;
 
     .container {
         background-color: #021925;
@@ -607,6 +629,10 @@ html,body
 
                 .nav-link {
                     color: $color1;
+
+                    &:hover {
+                        border-bottom: none;
+                    }
                 }
 
                 .nav-link.active {
@@ -635,7 +661,7 @@ html,body
                         color: $color3;
                     }
                     li:before {
-                        content: "-";
+                        content: "\2015";
                         text-indent: -5px;
                         margin-right: 13px;
                         color: $color3;
@@ -737,6 +763,19 @@ html,body
                     height: 12rem;
                 }
             }
+
+            .overlay-samping {
+                display: none;
+            }
+            
+            .overlay-bawah {
+                width: auto;
+                background-color: #f05e36;
+                max-width: 100%;
+                height: 16px;
+                position: relative;
+                top: -0.6rem;
+            }
         }
 
         // Styling section 2
@@ -747,7 +786,7 @@ html,body
             .sectionDuaJudul {
                 width: 100%;
                 margin-left: 0;
-                margin-bottom: 2rem;
+                margin-bottom: 0;
                 padding: 0;
 
                 h3 {
@@ -761,13 +800,12 @@ html,body
             .sectionDuaText {
                 width: 100%;
                 margin-left: 0;
-                padding: 0 2rem;
                 margin-top: 1rem;
                 padding: 0;
 
                 .sideAtas {
                     width: 100%;
-                    margin-bottom: 48px;
+                    margin-bottom: 41px;
 
                     p {
                         font-size: 14px;
@@ -814,6 +852,7 @@ html,body
                     display: flex;
                     justify-content: center;
                     margin-bottom: 0;
+                    margin-top: 0;
 
                     .title-1 {
                         h2 {
@@ -903,7 +942,7 @@ html,body
 
                     .text {
                         color: #002F39;
-                        font-family: "IBM Plex Sans";
+                        font-family: $ibmReguler;
                         font-size: 14px;
                         letter-spacing: -0.21px;
                         line-height: 18px;
@@ -932,7 +971,7 @@ html,body
     }
 
     .Footer {
-        margin-top: 1.875rem;
+        margin-top: 41px;
         background-color: #021925;
 
         .container {
@@ -1073,6 +1112,10 @@ html,body
     
                     .nav-link {
                         color: $color1;
+
+                        &:hover {
+                            border-bottom: none;
+                        }
                     }
     
                     .nav-link.active {
@@ -1101,7 +1144,7 @@ html,body
                             color: $color3;
                         }
                         li:before {
-                            content: "-";
+                            content: "\2015";
                             text-indent: -5px;
                             margin-right: 13px;
                             color: $color3;
@@ -1162,7 +1205,7 @@ html,body
             flex-direction: column;
             display: flex;
             padding: 1rem;
-            height: 27rem;
+            height: 30rem;
 
             .sectionSatuKiri {
                 background-color: transparent;
@@ -1204,6 +1247,19 @@ html,body
                     // height: 12rem;
                     margin-right: 0;
                 }
+            }
+
+            .overlay-samping {
+                display: none;
+            }
+            
+            .overlay-bawah {
+                width: auto;
+                background-color: #f05e36;
+                max-width: 100%;
+                height: 16px;
+                position: relative;
+                top: -0.6rem;
             }
         }
 
@@ -1275,6 +1331,7 @@ html,body
                     display: flex;
                     justify-content: center;
                     margin-bottom: 0;
+                    margin-top: 0;
 
                     .title-1 {
                         h2 {
@@ -1366,7 +1423,7 @@ html,body
 
                     .text {
                         color: #002F39;
-                        font-family: "IBM Plex Sans";
+                        font-family: $ibmReguler;
                         letter-spacing: -0.21px;
                         line-height: 18px;
                         padding-right: .3125rem;
@@ -1398,7 +1455,7 @@ html,body
     }
 
     .Footer {
-        margin-top: 1.875rem;
+        margin-top: 41px;
         background-color: #021925;
 
         .container {
@@ -1490,7 +1547,7 @@ html,body
 }
 
 /* For tablet: */
-@media (min-width: 992px) and (max-width: 1439px) { 
+@media (min-width: 992px) and (max-width: 1366px) { 
     .container {
         max-width: 100%;
     }
@@ -1554,7 +1611,7 @@ html,body
             flex-direction: column;
             display: flex;
             padding: 2rem;
-            height: 35rem;
+            height: 40rem;
 
             .sectionSatuKiri {
                 background-color: transparent;
@@ -1597,6 +1654,19 @@ html,body
                     margin-right: 0;
                 }
             }
+
+            .overlay-samping {
+                display: none;
+            }
+            
+            .overlay-bawah {
+                width: auto;
+                background-color: #f05e36;
+                max-width: 100%;
+                height: 16px;
+                position: relative;
+                top: -0.2rem;
+            }
         }
 
         // Styling section 2
@@ -1637,6 +1707,7 @@ html,body
             }
         }
 
+        // Styling section 3
         .sectionTiga {
             width: 100%;
             margin-left: 0;
@@ -1665,6 +1736,7 @@ html,body
                     display: flex;
                     justify-content: center;
                     margin-bottom: 0;
+                    margin-top: 0;
 
                     .title-1 {
                         h2 {
@@ -1756,7 +1828,7 @@ html,body
 
                     .text {
                         color: #002F39;
-                        font-family: "IBM Plex Sans";
+                        font-family: $ibmReguler;
                         letter-spacing: -0.21px;
                         line-height: 18px;
                         padding-right: .3125rem;
@@ -1876,5 +1948,80 @@ html,body
 
             }
         }
+    }
+}
+
+// dekstop
+@media (min-width: 1367px) and (max-width: 1399px){
+    // Navbar
+    .navbar {
+        .container {
+            .navbar {
+                span.line {
+                    margin-left: 10.8rem;
+                }
+                .navbar-brand {
+                    img {
+                        margin-left: 2.3rem;
+                    }
+                }
+            }
+        }
+        .nav-item {
+            .nav-link {
+                margin-right: 3.5rem;
+                // margin-left: 0.2rem;
+            }
+        }
+    }
+
+    // Section 1
+    .sectionSatu {
+        .sectionSatuKiri {
+            .text {
+                margin-left: 8.5rem;
+            }
+        }  
+    }
+    // Section 2 
+    .sectionDua {
+        margin-left: 2rem;
+    }
+}
+
+//dekstop
+@media (min-width: 1400px) and (max-width: 1440px) {
+    // Navbar
+    .navbar {
+        .container {
+            .navbar {
+                span.line {
+                    margin-left: 12.8rem;
+                }
+                .navbar-brand {
+                    img {
+                        margin-left: 4.3rem;
+                    }
+                }
+            }
+        }
+        .nav-item {
+            .nav-link {
+                margin-right: 3.5rem;
+                // margin-left: 0.2rem;
+            }
+        }
+    }
+    // Section 1
+    .sectionSatu {
+        .sectionSatuKiri {
+            .text {
+                margin-left: 10.5rem;
+            }
+        }  
+    }
+    // Section 2 
+    .sectionDua {
+        margin-left: 4rem;
     }
 }

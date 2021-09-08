@@ -473,7 +473,7 @@ $size1: 1.6rem;
                             
                             .strip {
                                 display: inline-flex;
-                                color: #0A2939;
+                                color: #F05E36;
                                 font-size: 1.875rem;
                                 padding-right: .8125rem;
                             }
@@ -504,7 +504,7 @@ $size1: 1.6rem;
                             
                             .strip {
                                 display: inline-flex;
-                                color: #0A2939;
+                                color: #F05E36;
                                 font-size: 1.875rem;
                                 padding-right: .8125rem;
                             }
@@ -1241,7 +1241,7 @@ $size1: 1.6rem;
                             
                             .strip {
                                 display: inline-flex;
-                                color: #0A2939;
+                                color: #F05E36;
                                 font-size: 1.875rem;
                                 padding-right: .8125rem;
                             }
@@ -1272,7 +1272,7 @@ $size1: 1.6rem;
                             
                             .strip {
                                 display: inline-flex;
-                                color: #0A2939;
+                                color: #F05E36;
                                 font-size: 1.875rem;
                                 padding-right: .8125rem;
                             }
@@ -2009,7 +2009,7 @@ $size1: 1.6rem;
                             
                             .strip {
                                 display: inline-flex;
-                                color: #0A2939;
+                                color: #F05E36;
                                 font-size: 1.875rem;
                                 padding-right: .8125rem;
                             }
@@ -2778,7 +2778,7 @@ $size1: 1.6rem;
                             
                             .strip {
                                 display: inline-flex;
-                                color: #0A2939;
+                                color: #F05E36;
                                 font-size: 1.875rem;
                                 padding-right: .8125rem;
                             }
@@ -2809,7 +2809,7 @@ $size1: 1.6rem;
                             
                             .strip {
                                 display: inline-flex;
-                                color: #0A2939;
+                                color: #F05E36;
                                 font-size: 1.875rem;
                                 padding-right: .8125rem;
                             }
@@ -3154,14 +3154,13 @@ $size1: 1.6rem;
         .navbar-collapse {
             display: flex;
             justify-content: space-around;
+
                 .navbar-nav {
-                    display: flex;
-                    justify-content: space-around;
-                    }
+   
 
                     .nav-item {
-                        margin-right: 3.75rem;
                         margin-top: .625rem;
+                        margin-right: 1.875rem;
 
                         a {
                             img {
@@ -3192,6 +3191,7 @@ $size1: 1.6rem;
                             line-height: 23px;
                             padding-left: 0px;
                             padding-right: 0px;
+                            width: 100%;
 
                             &:hover {
                                 border-bottom: #F05E36 solid 2px;
@@ -3329,7 +3329,7 @@ $size1: 1.6rem;
                     padding: 3.5625rem;
                     padding-top: 2.625rem;
                     padding-bottom: 4.25rem;
-                    background-color: #0A2939;
+                    background-color: rgba(10, 41, 57, 0.9);
         
                     h3 {
                         margin-bottom: 2rem;
@@ -3367,7 +3367,7 @@ $size1: 1.6rem;
                 .wraperKanan-One {
                     // height: 352px;
                     // width: 488px;
-                    background-color: #F05E36;
+                    background-color: rgba(240, 94, 54, 0.9);
                     margin-bottom: 3rem;
                     padding: 43px 68px;
         
@@ -3407,6 +3407,7 @@ $size1: 1.6rem;
                         font-weight: 300;
                         letter-spacing: -0.1px;
                         line-height: 30px;
+                        margin-top: 6.25rem;
                     }
                     margin-bottom: 5rem;
                 }
@@ -3632,7 +3633,7 @@ $size1: 1.6rem;
         
         
                         .strip {
-                            color: #0A2939;
+                            color: #F05E36;
                             font-size: 40px;
                             font-weight: 300;
                             letter-spacing: 0;
@@ -3673,7 +3674,7 @@ $size1: 1.6rem;
         
         
                         .strip {
-                            color: #0A2939;
+                            color: #F05E36;
                             font-size: 40px;
                             font-weight: 300;
                             letter-spacing: 0;
@@ -3883,7 +3884,7 @@ $size1: 1.6rem;
             margin-top: 8rem;
             margin-bottom: 6rem;
             img{
-                transform: scale(1.1);
+                width: 12.5rem;
                 opacity: 0.8;
             }
         }
@@ -3975,7 +3976,7 @@ $size1: 1.6rem;
 
     
     span {
-        height: 600px;
+        height: 400px;
         position: absolute;
         border-right: 2px solid rgb(235, 235, 235);
         left: 10%;
@@ -4187,7 +4188,7 @@ $size1: 1.6rem;
                 box-sizing: border-box;
                 height: 105px;
                 width: 2px;
-                border: 2px solid #F66E49;
+                border-right: 2px solid #F66E49;
                 display: block;
                 position: relative;
                 left: 37%;
@@ -4208,7 +4209,7 @@ $size1: 1.6rem;
             padding: 3.5625rem;
             padding-top: 2.625rem;
             padding-bottom: 4.25rem;
-            background-color: #0A2939;
+            background-color: rgba(10, 41, 57, 0.9);
 
             h3 {
                 margin-bottom: 2rem;
@@ -4245,7 +4246,7 @@ $size1: 1.6rem;
         .wraperKanan-One {
             height: 352px;
             width: 488px;
-            background-color: #F05E36;
+            background-color: rgba(240, 94, 54, 0.9);
             margin-bottom: 3rem;
             padding: 43px 68px;
 
@@ -4285,6 +4286,7 @@ $size1: 1.6rem;
                 font-weight: 300;
                 letter-spacing: -0.1px;
                 line-height: 30px;
+                margin-top: 6.25rem;
             }
             margin-bottom: 5rem;
         }
@@ -4510,7 +4512,7 @@ $size1: 1.6rem;
 
 
                 .strip {
-                    color: #0A2939;
+                    color: #F05E36;
                     font-size: 40px;
                     font-weight: 300;
                     letter-spacing: 0;
@@ -4551,7 +4553,7 @@ $size1: 1.6rem;
 
 
                 .strip {
-                    color: #0A2939;
+                    color: #F05E36;
                     font-size: 40px;
                     font-weight: 300;
                     letter-spacing: 0;
@@ -4764,8 +4766,9 @@ $size1: 1.6rem;
         .footerHeader {
             margin-top: 8rem;
             margin-bottom: 6rem;
+
             img{
-                transform: scale(1.1);
+                width: 12.5rem;
                 opacity: 0.8;
             }
         }
