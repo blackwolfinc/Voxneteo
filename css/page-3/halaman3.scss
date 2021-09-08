@@ -721,6 +721,11 @@ $size1: 1.6rem;
                     padding-top: 1.9375rem;
                     border-bottom: 1.5px solid #113D53;
 
+                    .footerBodyKiriOne {
+                        margin-right: 0 !important;
+                        padding-right: 0 !important;
+                    }
+
                         li { 
                             color: #FFFFFF;
                             font-family: $ibmLight;
@@ -1071,6 +1076,7 @@ $size1: 1.6rem;
                         background-color: #0A2939;
                         padding: 1.875rem;
                         margin-bottom: 1.25rem;
+                        opacity: 0.9;
 
                         p {
                             color: #FFFFFF;
@@ -1447,6 +1453,12 @@ $size1: 1.6rem;
                     padding-top: 1.9375rem;
                     border-bottom: 1.5px solid #113D53;
 
+                    .footerBodyKiriOne {
+                        margin-right: 0 !important;
+                        padding-right: 0 !important;
+                    }
+
+
                         li { 
                             color: #FFFFFF;
                             font-family: $ibmLight;
@@ -1798,6 +1810,7 @@ $size1: 1.6rem;
                         background-color: #0A2939;
                         padding: 1.875rem;
                         margin-bottom: 1.25rem;
+                        opacity: 0.9;
 
                         p {
                             color: #FFFFFF;
@@ -1901,15 +1914,21 @@ $size1: 1.6rem;
                         font-weight: 300;
                         letter-spacing: -0.09px;
                         line-height: 26px;
-                    }
 
-                    li::before {
-                        content: "- ";
-                        text-indent: -20px;
-                        color: #f05e36;
-                        font-size: 17px;
-                        letter-spacing: -0.1px;
-                        line-height: 30px;
+                        display: flex;
+                        margin-bottom: 1rem;
+
+                        span {
+                            display: inline-flex;
+                            font-size: 1.875rem;
+                            color: orange;
+                        }
+
+                        p {
+                            display: inline-flex;
+                            margin-bottom: -0.25rem;
+                            margin-left: .8125rem;
+                        }
                     }
                 }
             }
@@ -2165,6 +2184,12 @@ $size1: 1.6rem;
                     border-top : 1.5px solid #113D53;
                     padding-top: 1.9375rem;
                     border-bottom: 1.5px solid #113D53;
+
+                    .footerBodyKiriOne {
+                        margin-right: 0 !important;
+                        padding-right: 0 !important;
+                    }
+
 
                         li { 
                             color: #FFFFFF;
@@ -2497,6 +2522,7 @@ $size1: 1.6rem;
                         background-color: #0A2939;
                         padding: 1.875rem;
                         margin-bottom: 1.25rem;
+                        opacity: 0.9;
 
                         p {
                             color: #FFFFFF;
@@ -2567,7 +2593,6 @@ $size1: 1.6rem;
 
             .title {
                 h1 {
-                    width: 159px;
                     color: #021925;
                     font-family: Butler;
                     font-size: 32px;
@@ -2599,16 +2624,22 @@ $size1: 1.6rem;
                         font-weight: 300;
                         letter-spacing: -0.09px;
                         line-height: 26px;
+                        display: flex;
+                        margin-bottom: 1rem;
+
+                        span {
+                            display: inline-flex;
+                            border-bottom: 1px solid orange;
+                            width: 19px;
+                        }
+
+                        p {
+                            display: inline-flex;
+                            margin-bottom: -0.25rem;
+                            margin-left: .8125rem;
+                        }
                     }
 
-                    li::before {
-                        content: "- ";
-                        text-indent: -20px;
-                        color: #f05e36;
-                        font-size: 17px;
-                        letter-spacing: -0.1px;
-                        line-height: 30px;
-                    }
                 }
             }
             
@@ -2632,6 +2663,9 @@ $size1: 1.6rem;
             .sectionLimaBody {
                 padding: 1.5rem;
                
+                .title-1 {
+                    margin-top: -6.25rem;
+                }
 
                 .logo {
                     display: flex;
@@ -2860,6 +2894,12 @@ $size1: 1.6rem;
                     border-top : 1.5px solid #113D53;
                     padding-top: 1.9375rem;
                     border-bottom: 1.5px solid #113D53;
+
+                    .footerBodyKiriOne {
+                        margin-right: 0 !important;
+                        padding-right: 0 !important;
+                    }
+
 
                         li { 
                             color: #FFFFFF;
@@ -3208,6 +3248,7 @@ $size1: 1.6rem;
                         background-color: #0A2939;
                         padding: 1.875rem;
                         margin-bottom: 1.25rem;
+                        opacity: 0.9;
 
                         p {
                             color: #FFFFFF;
@@ -3313,6 +3354,7 @@ $size1: 1.6rem;
             ul {
                 list-style: none;
                 padding-left: 0;
+                
 
                 li {
                     color: #0A2939;
@@ -3322,17 +3364,19 @@ $size1: 1.6rem;
                     letter-spacing: -0.1px;
                     line-height: 24px;
                     padding-top: 1.25rem;
-                }
-                
-                li::before {
-                    content: "-";
-                    text-indent: -20px;
-                    color: #f05e36;
-                    font-size: 40px;
-                    letter-spacing: -0.1px;
-                    line-height: 30px;
-                    margin-right: .625rem;
-                    width: 19px;
+                    display: flex;
+
+                    span {
+                        display: inline-flex;
+                        border-bottom: 1px solid orange;
+                        width: 19px;
+                    }
+
+                    p {
+                        display: inline-flex;
+                        margin-bottom: -0.25rem;
+                        margin-left: .8125rem;
+                    }
                 }
             }
         }
@@ -3419,6 +3463,12 @@ $size1: 1.6rem;
             .logo {
                 display: flex;
                 justify-content: flex-end;
+                margin-right: -6.25rem;
+                margin-left: -6.25rem;
+            }
+
+            .title-1 {
+                margin-top: -5.3125rem;
             }
 
             .title {
@@ -3637,7 +3687,7 @@ $size1: 1.6rem;
 
     
     span {
-        height: 600px;
+        height: 400px;
         position: absolute;
         border-right: 2px solid rgb(235, 235, 235);
         left: 10%;
@@ -3874,7 +3924,7 @@ $size1: 1.6rem;
                 box-sizing: border-box;
                 height: 105px;
                 width: 2px;
-                border: 2px solid #F66E49;
+                border-right: 3px solid #F66E49;
                 display: block;
                 position: relative;
                 left: 37%;
@@ -4003,6 +4053,7 @@ $size1: 1.6rem;
             background-color: #0A2939;
             margin-bottom: 3rem;
             padding:  4.0625rem 3.5625rem;
+            opacity: 0.9;
 
             p {
                 color: #FFFFFF;
@@ -4064,7 +4115,7 @@ $size1: 1.6rem;
             box-sizing: border-box;
             height: 105px;
             width: 2px;
-            border: 2px solid #F66E49;
+            border-right: 3px solid #F66E49;
             display: block;
             position: relative;
             left: 33%;
@@ -4128,17 +4179,19 @@ $size1: 1.6rem;
                     letter-spacing: -0.1px;
                     line-height: 24px;
                     padding-top: 1.25rem;
-                }
-                
-                li::before {
-                    content: "-";
-                    text-indent: -20px;
-                    color: #f05e36;
-                    font-size: 40px;
-                    letter-spacing: -0.1px;
-                    line-height: 30px;
-                    margin-right: .625rem;
-                    width: 19px;
+                    display: flex;
+
+                    span {
+                        display: inline-flex;
+                        border-bottom: 1px solid orange;
+                        width: 19px;
+                    }
+
+                    p {
+                        display: inline-flex;
+                        margin-bottom: -0.25rem;
+                        margin-left: .8125rem;
+                    }
                 }
             }
         }
@@ -4161,6 +4214,11 @@ $size1: 1.6rem;
     }
 
     .sectionLimaBody {
+
+        .title-1 {
+            margin-top: -5.3125rem;
+        }
+
         .title, .SectionLimaTengah, .SectionLimaBawah {
             margin: 0 5rem;
         }
@@ -4324,6 +4382,7 @@ $size1: 1.6rem;
             img{
                 transform: scale(1.1);
                 opacity: 0.8;
+                width: 14.375rem;
             }
         }
 

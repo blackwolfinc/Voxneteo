@@ -1882,7 +1882,7 @@
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    color: #0A2939;
+    color: #F05E36;
     font-size: 1.875rem;
     padding-right: .8125rem;
   }
@@ -3201,7 +3201,7 @@
     padding: 3.5625rem;
     padding-top: 2.625rem;
     padding-bottom: 4.25rem;
-    background-color: #0A2939;
+    background-color: rgba(10, 41, 57, 0.9);
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Four h3 {
     margin-bottom: 2rem;
@@ -3232,7 +3232,7 @@
     padding-right: 0;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-One {
-    background-color: #F05E36;
+    background-color: rgba(240, 94, 54, 0.9);
     margin-bottom: 3rem;
     padding: 43px 68px;
   }
@@ -3265,6 +3265,7 @@
     font-weight: 300;
     letter-spacing: -0.1px;
     line-height: 30px;
+    margin-top: 6.25rem;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Three {
     display: -webkit-box;
@@ -3814,7 +3815,7 @@
     background-color: transparent;
   }
   .navbar span {
-    height: 600px;
+    height: 400px;
     position: absolute;
     border-right: 2px solid #ebebeb;
     left: 10%;
@@ -4012,7 +4013,7 @@
             box-sizing: border-box;
     height: 105px;
     width: 2px;
-    border: 2px solid #F66E49;
+    border-right: 2px solid #F66E49;
     display: block;
     position: relative;
     left: 37%;
@@ -4029,7 +4030,7 @@
     padding: 3.5625rem;
     padding-top: 2.625rem;
     padding-bottom: 4.25rem;
-    background-color: #0A2939;
+    background-color: rgba(10, 41, 57, 0.9);
   }
   .sectionDua .sectionDuaKiri .wraperKiri-Four h3 {
     margin-bottom: 2rem;
@@ -4061,7 +4062,7 @@
   .sectionDua .sectionDuaKanan .wraperKanan-One {
     height: 352px;
     width: 488px;
-    background-color: #F05E36;
+    background-color: rgba(240, 94, 54, 0.9);
     margin-bottom: 3rem;
     padding: 43px 68px;
   }
@@ -4099,6 +4100,7 @@
     font-weight: 300;
     letter-spacing: -0.1px;
     line-height: 30px;
+    margin-top: 6.25rem;
   }
   .sectionDua .sectionDuaKanan .wraperKanan-Three {
     display: -webkit-box;
