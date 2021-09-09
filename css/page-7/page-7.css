@@ -48,7 +48,8 @@
   src: url("../../assets/fonts/webfont-minion/Minion-Bold.ttf");
 }
 
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
   margin: 0px;
@@ -142,29 +143,29 @@ html, body {
 }
 
 .navbar .nav-item .nav-link {
-  color: #0A2939;
+  color: #0a2939;
   font-family: "IBMPlexSans-Medium";
   font-size: 16px;
   font-weight: 600;
   letter-spacing: -0.26px;
   line-height: 23px;
   margin-right: 4rem;
-  margin-left: .75rem;
+  margin-left: 0.75rem;
   margin-bottom: -10rem;
 }
 
 .navbar .nav-item .nav-link:hover {
-  border-bottom: 2px #F05E36 solid;
+  border-bottom: 2px #f05e36 solid;
   border-width: 30%;
 }
 
 .navbar .nav-item img {
   background-color: rebeccapurple;
-  color: #0A2939;
+  color: #0a2939;
 }
 
 .navbar .nav-item.dropdown .nav-link {
-  border: 2px solid #E5E5E5;
+  border: 2px solid #e5e5e5;
   padding-left: 2.4375rem;
   padding-right: 4.4375rem;
   border-radius: 1.5rem;
@@ -172,7 +173,7 @@ html, body {
 }
 
 .navbar .nav-item.dropdown .nav-link::after {
-  color: #F05E36;
+  color: #f05e36;
 }
 
 .navbar img {
@@ -189,7 +190,7 @@ html, body {
 }
 
 .sectionSatu {
-  margin-top: 4.375rem;
+  margin-top: 2.375rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -223,7 +224,7 @@ html, body {
 .sectionSatu .sectionSatuKiri .text h1 {
   height: 196px;
   width: 792px;
-  color: #F05E36;
+  color: #f05e36;
   font-family: "Butler";
   font-size: 100px;
   letter-spacing: -1.47px;
@@ -291,7 +292,7 @@ html, body {
 .sectionDua .sectionDuaJudul h3 {
   height: 144px;
   width: 50%;
-  color: #0A2939;
+  color: #0a2939;
   font-family: "IBMPlexSans-Light";
   font-weight: 300;
   letter-spacing: -0.42px;
@@ -364,7 +365,7 @@ html, body {
 }
 
 .sectionTiga .sectionTigaBody p {
-  color: #F66E49;
+  color: #f66e49;
   font-family: "IBMPlexSans";
   font-size: 22px;
   letter-spacing: -0.32px;
@@ -395,7 +396,7 @@ html, body {
 
 .sectionTiga .sectionTigaBody .title .title-1 h2 {
   height: 81px;
-  color: #002F39;
+  color: #002f39;
   font-family: "Minion-Bold";
   font-size: 26px;
   font-weight: bold;
@@ -416,7 +417,7 @@ html, body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 4rem;
-  border-bottom: 1px solid #E8D4CF;
+  border-bottom: 1px solid #e8d4cf;
 }
 
 .sectionTiga .sectionTigaBody .SectionTigaTengah .email {
@@ -492,7 +493,7 @@ html, body {
 .Footer .container {
   background-color: #021925;
   height: 100%;
-  color: #E8D4CF;
+  color: #e8d4cf;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -512,8 +513,8 @@ html, body {
 }
 
 .Footer .container .footerHeader img {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
   opacity: 0.8;
 }
 
@@ -521,8 +522,8 @@ html, body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border-top: 1.5px solid #113D53;
-  border-bottom: 1.5px solid #113D53;
+  border-top: 1.5px solid #113d53;
+  border-bottom: 1.5px solid #113d53;
   width: 90%;
   height: 10rem;
   -webkit-box-pack: space-evenly;
@@ -540,14 +541,14 @@ html, body {
           flex-direction: row;
   width: 65%;
   padding: 3rem 2rem;
-  border-right: 2px #113D53 solid;
+  border-right: 2px #113d53 solid;
 }
 
 .Footer .container .foooterBody .footerBodyKiri li {
   list-style: none;
   margin-bottom: 2rem;
   height: 15px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "IBMPlexSans-Light";
   font-size: 12px;
   font-weight: 500;
@@ -608,7 +609,7 @@ html, body {
 .Footer .container .foooterBody .footerBodyKanan .linkedIn h5 {
   margin-top: 0.5rem;
   margin-left: 1rem;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "IBMPlexSans";
   font-size: 15px;
   letter-spacing: -0.22px;
@@ -757,19 +758,19 @@ html, body {
   }
   .container .sectionSatu .sectionSatuKiri .text h1 {
     height: auto;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "Butler";
     font-size: 2.625rem;
     letter-spacing: -0.03875rem;
     line-height: 2.375rem;
   }
   .container .sectionSatu .sectionSatuKiri .text h5 {
-    margin-top: .75rem;
+    margin-top: 0.75rem;
     color: #021925;
     font-family: "Minion-DisplayItalic";
     font-size: 1.125rem;
     font-style: italic;
-    letter-spacing: .00625rem;
+    letter-spacing: 0.00625rem;
     line-height: 1.125rem;
   }
   .container .sectionSatu .sectionSatuKanan {
@@ -911,7 +912,7 @@ html, body {
     margin-top: auto;
     margin-top: auto;
     display: block;
-    border-bottom: 1px solid #E8D4CF;
+    border-bottom: 1px solid #e8d4cf;
     margin-top: 35px;
     padding-bottom: 1rem;
   }
@@ -957,16 +958,16 @@ html, body {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     width: 10.85px;
-    border: 2px solid #FFFFFF;
+    border: 2px solid #ffffff;
     margin-right: 0;
   }
   .container .sectionTiga .SectionTigaTengah .mc_fieldset .text {
-    color: #002F39;
+    color: #002f39;
     font-family: "IBMPlexSans";
     font-size: 14px;
     letter-spacing: -0.21px;
     line-height: 18px;
-    padding-right: .3125rem;
+    padding-right: 0.3125rem;
     margin-right: 0;
   }
   .container .sectionTiga .SectionTigaTengah .mc_fieldset a {
@@ -1020,9 +1021,9 @@ html, body {
     width: 100%;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    border-top: 1.5px solid #113D53;
+    border-top: 1.5px solid #113d53;
     padding-top: 1.9375rem;
-    border-bottom: 1.5px solid #113D53;
+    border-bottom: 1.5px solid #113d53;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1035,7 +1036,7 @@ html, body {
     margin-bottom: 1rem;
   }
   .Footer .container .foooterBody .footerBodyKiri li {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBMPlexSans-Light";
     font-size: 12px;
     font-weight: 500;
@@ -1072,7 +1073,7 @@ html, body {
   }
   .Footer .container .foooterBody .footerBodyKanan h5 {
     display: inline-block;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBMPlexSans-Light";
     font-size: 15px;
     letter-spacing: -0.22px;
@@ -1220,19 +1221,19 @@ html, body {
   }
   .container .sectionSatu .sectionSatuKiri .text h1 {
     height: auto;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "Butler";
     font-size: 2.625rem;
     letter-spacing: -0.03875rem;
     line-height: 2.375rem;
   }
   .container .sectionSatu .sectionSatuKiri .text h5 {
-    margin-top: .75rem;
+    margin-top: 0.75rem;
     color: #021925;
     font-family: "Minion-DisplayItalic";
     font-size: 1.125rem;
     font-style: italic;
-    letter-spacing: .00625rem;
+    letter-spacing: 0.00625rem;
     line-height: 1.125rem;
   }
   .container .sectionSatu .sectionSatuKanan {
@@ -1362,7 +1363,7 @@ html, body {
     margin-top: auto;
     margin-top: auto;
     display: block;
-    border-bottom: 1px solid #E8D4CF;
+    border-bottom: 1px solid #e8d4cf;
     margin-top: 35px;
     padding-bottom: 1rem;
   }
@@ -1408,18 +1409,18 @@ html, body {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     width: 10.85px;
-    border: 2px solid #FFFFFF;
+    border: 2px solid #ffffff;
     margin-right: 0;
   }
   .container .sectionTiga .SectionTigaTengah .mc_fieldset .av-checkbox {
     width: auto;
   }
   .container .sectionTiga .SectionTigaTengah .mc_fieldset .text {
-    color: #002F39;
+    color: #002f39;
     font-family: "IBMPlexSans";
     letter-spacing: -0.21px;
     line-height: 18px;
-    padding-right: .3125rem;
+    padding-right: 0.3125rem;
     margin-right: 0;
   }
   .container .sectionTiga .SectionTigaTengah .mc_fieldset .terms {
@@ -1476,9 +1477,9 @@ html, body {
     width: 100%;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    border-top: 1.5px solid #113D53;
+    border-top: 1.5px solid #113d53;
     padding-top: 1.9375rem;
-    border-bottom: 1.5px solid #113D53;
+    border-bottom: 1.5px solid #113d53;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1491,7 +1492,7 @@ html, body {
     margin-bottom: 1rem;
   }
   .Footer .container .foooterBody .footerBodyKiri li {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBMPlexSans-Light";
     font-size: 14px;
     font-weight: 500;
@@ -1528,7 +1529,7 @@ html, body {
   }
   .Footer .container .foooterBody .footerBodyKanan h5 {
     display: inline-block;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBMPlexSans-Light";
     font-size: 18px;
     letter-spacing: -0.22px;
@@ -1601,19 +1602,19 @@ html, body {
   }
   .container .sectionSatu .sectionSatuKiri .text h1 {
     height: auto;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "Butler";
     font-size: 2.625rem;
     letter-spacing: -0.03875rem;
     line-height: 2.375rem;
   }
   .container .sectionSatu .sectionSatuKiri .text h5 {
-    margin-top: .75rem;
+    margin-top: 0.75rem;
     color: #021925;
     font-family: "Minion-DisplayItalic";
     font-size: 1.125rem;
     font-style: italic;
-    letter-spacing: .00625rem;
+    letter-spacing: 0.00625rem;
     line-height: 1.125rem;
   }
   .container .sectionSatu .sectionSatuKanan {
@@ -1741,7 +1742,7 @@ html, body {
     margin-top: auto;
     margin-top: auto;
     display: block;
-    border-bottom: 1px solid #E8D4CF;
+    border-bottom: 1px solid #e8d4cf;
     margin-top: 35px;
     padding-bottom: 1rem;
   }
@@ -1787,18 +1788,18 @@ html, body {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     width: 10.85px;
-    border: 2px solid #FFFFFF;
+    border: 2px solid #ffffff;
     margin-right: 0;
   }
   .container .sectionTiga .SectionTigaTengah .mc_fieldset .av-checkbox {
     width: auto;
   }
   .container .sectionTiga .SectionTigaTengah .mc_fieldset .text {
-    color: #002F39;
+    color: #002f39;
     font-family: "IBMPlexSans";
     letter-spacing: -0.21px;
     line-height: 18px;
-    padding-right: .3125rem;
+    padding-right: 0.3125rem;
     margin-right: 0;
   }
   .container .sectionTiga .SectionTigaTengah .mc_fieldset .terms {
@@ -1855,9 +1856,9 @@ html, body {
     width: 100%;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    border-top: 1.5px solid #113D53;
+    border-top: 1.5px solid #113d53;
     padding-top: 1.9375rem;
-    border-bottom: 1.5px solid #113D53;
+    border-bottom: 1.5px solid #113d53;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1870,7 +1871,7 @@ html, body {
     margin-bottom: 1rem;
   }
   .Footer .container .foooterBody .footerBodyKiri li {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBMPlexSans-Light";
     font-size: 14px;
     font-weight: 500;
@@ -1907,7 +1908,7 @@ html, body {
   }
   .Footer .container .foooterBody .footerBodyKanan h5 {
     display: inline-block;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBMPlexSans-Light";
     font-size: 18px;
     letter-spacing: -0.22px;

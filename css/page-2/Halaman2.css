@@ -145,19 +145,19 @@
   }
   .container .sectionSatu .sectionSatuKiri .text h1 {
     height: auto;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "Butler";
     font-size: 2.625rem;
     letter-spacing: -0.03875rem;
     line-height: 2.375rem;
   }
   .container .sectionSatu .sectionSatuKiri .text h5 {
-    margin-top: .75rem;
+    margin-top: 0.75rem;
     color: #021925;
     font-family: "Minion-DisplayItalic";
     font-size: 1.125rem;
     font-style: italic;
-    letter-spacing: .00625rem;
+    letter-spacing: 0.00625rem;
     line-height: 1.125rem;
   }
   .container .sectionSatu .sectionSatuKanan {
@@ -185,7 +185,7 @@
     display: flex;
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-One h3 {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 18px;
     font-weight: 300;
@@ -193,7 +193,7 @@
     line-height: 28px;
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Two p {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     font-weight: 300;
@@ -210,11 +210,11 @@
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Four {
     margin-top: 2rem;
-    background-color: #0A2939;
+    background-color: #0a2939;
     padding: 2rem;
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Four h3 {
-    color: #F05E36;
+    color: #f05e36;
     font-family: Butler;
     font-size: 32px;
     font-weight: 300;
@@ -222,7 +222,7 @@
     line-height: 36px;
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Four p {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBM Plex Sans";
     font-size: 18px;
     font-weight: 300;
@@ -236,9 +236,9 @@
     display: none;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-One p {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBMPlexSans-Light";
-    font-size: .875rem;
+    font-size: 0.875rem;
     font-weight: 300;
     letter-spacing: -0.005625rem;
     line-height: 1.625rem;
@@ -247,7 +247,7 @@
     list-style: square;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-One ul li {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "Butler";
     font-size: 1.5rem;
     font-weight: 300;
@@ -255,15 +255,15 @@
     line-height: 3.125rem;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Two p {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBMPlexSans-Light";
-    font-size: .875rem;
+    font-size: 0.875rem;
     font-weight: 300;
     letter-spacing: -0.005625rem;
     line-height: 1.625rem;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Three h3 {
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 20px;
     font-weight: 500;
@@ -273,9 +273,9 @@
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Three p {
     margin-top: 1.25rem;
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBMPlexSans-Light";
-    font-size: .875rem;
+    font-size: 0.875rem;
     font-weight: 300;
     letter-spacing: -0.005625rem;
     line-height: 1.625rem;
@@ -288,7 +288,7 @@
     padding-bottom: 0;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Four h1 {
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 20px;
     font-weight: 500;
@@ -302,7 +302,7 @@
     margin-left: 1.5rem;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul li {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     font-weight: 300;
@@ -319,13 +319,13 @@
     font-size: 40px;
     letter-spacing: -0.1px;
     line-height: 30px;
-    margin-right: .625rem;
+    margin-right: 0.625rem;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul p {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     font-weight: 300;
@@ -355,19 +355,19 @@
   }
   .container .sectionTiga .sectionTigaBawah .cardSlider {
     opacity: 0.9;
-    background-color: #F05E36;
+    background-color: #f05e36;
     padding: 1.5rem;
     margin-top: 1rem;
   }
   .container .sectionTiga .sectionTigaBawah .cardSlider h2 {
-    color: #0A2939;
+    color: #0a2939;
     font-family: Butler;
     font-size: 28px;
     letter-spacing: 0;
     line-height: 34px;
   }
   .container .sectionTiga .sectionTigaBawah .cardSlider a {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     letter-spacing: -0.09px;
@@ -383,13 +383,13 @@
   .container .sectionTiga .sectionTigaBawah .cardSlider p {
     color: white;
     font-family: "IBM Plex Sans";
-    font-size: .875rem;
+    font-size: 0.875rem;
     letter-spacing: 0;
     line-height: 2.125rem;
   }
   .container .sectionEmpat .sectionEmpatAtas h5 {
     margin-top: 3rem;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 20px;
     font-weight: 500;
@@ -411,15 +411,15 @@
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    color: #F05E36;
+    color: #f05e36;
     font-size: 1.875rem;
-    padding-right: .8125rem;
+    padding-right: 0.8125rem;
   }
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul li p {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    color: #0A2939;
+    color: #0a2939;
     font-family: "Butler";
     font-size: 28px;
     font-weight: 300;
@@ -427,7 +427,7 @@
     line-height: 34px;
   }
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul li p:hover {
-    color: #F05E36;
+    color: #f05e36;
   }
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul {
     padding-left: 0;
@@ -442,15 +442,15 @@
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    color: #F05E36;
+    color: #f05e36;
     font-size: 1.875rem;
-    padding-right: .8125rem;
+    padding-right: 0.8125rem;
   }
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul li p {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    color: #0A2939;
+    color: #0a2939;
     font-family: "Butler";
     font-size: 28px;
     font-weight: 300;
@@ -458,7 +458,7 @@
     line-height: 34px;
   }
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul li p:hover {
-    color: #F05E36;
+    color: #f05e36;
   }
   .container .sectionLima {
     margin-top: 1.875rem;
@@ -489,7 +489,7 @@
     margin-bottom: 1.5625rem;
   }
   .container .sectionLima .sectionLimaBody h2 {
-    color: #002F39;
+    color: #002f39;
     font-family: "Minion-Bold";
     font-size: 1.1875rem;
     font-weight: bold;
@@ -502,7 +502,7 @@
   .container .sectionLima .sectionLimaBody p {
     margin-top: 1rem;
     width: 256px;
-    color: #F66E49;
+    color: #f66e49;
     font-family: "IBMPlexSans-Light";
     font-size: 1.0625rem;
     letter-spacing: -0.26px;
@@ -532,7 +532,7 @@
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 1px solid #E8D4CF;
+    border-bottom: 1px solid #e8d4cf;
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -541,7 +541,7 @@
   .container .sectionLima .SectionLimaTengah .mc-field-group ::-webkit-input-placeholder {
     height: 30px;
     width: 256px;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     letter-spacing: -0.24px;
@@ -551,7 +551,7 @@
   .container .sectionLima .SectionLimaTengah .mc-field-group :-ms-input-placeholder {
     height: 30px;
     width: 256px;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     letter-spacing: -0.24px;
@@ -561,7 +561,7 @@
   .container .sectionLima .SectionLimaTengah .mc-field-group ::-ms-input-placeholder {
     height: 30px;
     width: 256px;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     letter-spacing: -0.24px;
@@ -571,7 +571,7 @@
   .container .sectionLima .SectionLimaTengah .mc-field-group ::placeholder {
     height: 30px;
     width: 256px;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     letter-spacing: -0.24px;
@@ -601,19 +601,19 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     width: 10.85px;
-    border: 2px solid #FFFFFF;
-    margin-right: .5rem;
+    border: 2px solid #ffffff;
+    margin-right: 0.5rem;
   }
   .container .sectionLima .SectionLimaTengah .mc_fieldset .text {
-    color: #002F39;
+    color: #002f39;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     letter-spacing: -0.21px;
     line-height: 18px;
-    margin-right: .3125rem;
+    margin-right: 0.3125rem;
   }
   .container .sectionLima .SectionLimaTengah .mc_fieldset a {
-    color: #002F39;
+    color: #002f39;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     letter-spacing: -0.21px;
@@ -625,7 +625,7 @@
   .container .sectionLima .SectionLimaBawah p {
     height: 48px;
     width: 256px;
-    color: #F66E49;
+    color: #f66e49;
     font-family: "IBM Plex Sans";
     font-size: 18px;
     letter-spacing: -0.26px;
@@ -657,7 +657,7 @@
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 1px solid #E8D4CF;
+    border-bottom: 1px solid #e8d4cf;
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -707,15 +707,15 @@
     margin-top: 2rem;
     border: 1px solid #fff;
     border-radius: 24px;
-    padding-top: .9375rem;
-    padding-bottom: .9375rem;
-    color: #FFFFFF;
+    padding-top: 0.9375rem;
+    padding-bottom: 0.9375rem;
+    color: #ffffff;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0;
     line-height: 20px;
-    background-color: #F05E36;
+    background-color: #f05e36;
     width: 100%;
   }
   .Footer {
@@ -752,9 +752,9 @@
     width: 100% !important;
     -webkit-box-sizing: border-box !important;
             box-sizing: border-box !important;
-    border-top: 1.5px solid #113D53 !important;
+    border-top: 1.5px solid #113d53 !important;
     padding-top: 1.9375rem !important;
-    border-bottom: 1.5px solid #113D53 !important;
+    border-bottom: 1.5px solid #113d53 !important;
     border-right: none !important;
     -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
@@ -771,7 +771,7 @@
     width: 100%;
   }
   .Footer .container .foooterBody .footerBodyKiri li {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBMPlexSans-Light";
     font-size: 12px;
     font-weight: 500;
@@ -803,7 +803,7 @@
   }
   .Footer .container .foooterBody .footerBodyKanan h5 {
     display: inline-block;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBMPlexSans-Light";
     font-size: 15px;
     letter-spacing: -0.22px;
@@ -913,19 +913,19 @@
   }
   .container .sectionSatu .sectionSatuKiri .text h1 {
     height: auto;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "Butler";
     font-size: 2.625rem;
     letter-spacing: -0.03875rem;
     line-height: 2.375rem;
   }
   .container .sectionSatu .sectionSatuKiri .text h5 {
-    margin-top: .75rem;
+    margin-top: 0.75rem;
     color: #021925;
     font-family: "Minion-DisplayItalic";
     font-size: 1.125rem;
     font-style: italic;
-    letter-spacing: .00625rem;
+    letter-spacing: 0.00625rem;
     line-height: 1.125rem;
   }
   .container .sectionSatu .sectionSatuKanan {
@@ -953,7 +953,7 @@
     display: flex;
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-One h3 {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 18px;
     font-weight: 300;
@@ -961,7 +961,7 @@
     line-height: 28px;
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Two p {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     font-weight: 300;
@@ -978,11 +978,11 @@
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Four {
     margin-top: 2rem;
-    background-color: #0A2939;
+    background-color: #0a2939;
     padding: 2rem;
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Four h3 {
-    color: #F05E36;
+    color: #f05e36;
     font-family: Butler;
     font-size: 32px;
     font-weight: 300;
@@ -990,7 +990,7 @@
     line-height: 36px;
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Four p {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBM Plex Sans";
     font-size: 18px;
     font-weight: 300;
@@ -1004,9 +1004,9 @@
     display: none;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-One p {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBMPlexSans-Light";
-    font-size: .875rem;
+    font-size: 0.875rem;
     font-weight: 300;
     letter-spacing: -0.005625rem;
     line-height: 1.625rem;
@@ -1015,7 +1015,7 @@
     list-style: square;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-One ul li {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "Butler";
     font-size: 1.5rem;
     font-weight: 300;
@@ -1023,15 +1023,15 @@
     line-height: 3.125rem;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Two p {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBMPlexSans-Light";
-    font-size: .875rem;
+    font-size: 0.875rem;
     font-weight: 300;
     letter-spacing: -0.005625rem;
     line-height: 1.625rem;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Three h3 {
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 20px;
     font-weight: 500;
@@ -1041,9 +1041,9 @@
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Three p {
     margin-top: 1.25rem;
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBMPlexSans-Light";
-    font-size: .875rem;
+    font-size: 0.875rem;
     font-weight: 300;
     letter-spacing: -0.005625rem;
     line-height: 1.625rem;
@@ -1056,7 +1056,7 @@
     padding-bottom: 0;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Four h1 {
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 20px;
     font-weight: 500;
@@ -1070,7 +1070,7 @@
     margin-left: 1.5rem;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul li {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     font-weight: 300;
@@ -1087,13 +1087,13 @@
     font-size: 40px;
     letter-spacing: -0.1px;
     line-height: 30px;
-    margin-right: .625rem;
+    margin-right: 0.625rem;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul p {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     font-weight: 300;
@@ -1123,19 +1123,19 @@
   }
   .container .sectionTiga .sectionTigaBawah .cardSlider {
     opacity: 0.9;
-    background-color: #F05E36;
+    background-color: #f05e36;
     padding: 1.5rem;
     margin-top: 1rem;
   }
   .container .sectionTiga .sectionTigaBawah .cardSlider h2 {
-    color: #0A2939;
+    color: #0a2939;
     font-family: Butler;
     font-size: 28px;
     letter-spacing: 0;
     line-height: 34px;
   }
   .container .sectionTiga .sectionTigaBawah .cardSlider a {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     letter-spacing: -0.09px;
@@ -1151,13 +1151,13 @@
   .container .sectionTiga .sectionTigaBawah .cardSlider p {
     color: white;
     font-family: "IBM Plex Sans";
-    font-size: .875rem;
+    font-size: 0.875rem;
     letter-spacing: 0;
     line-height: 2.125rem;
   }
   .container .sectionEmpat .sectionEmpatAtas h5 {
     margin-top: 3rem;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 20px;
     font-weight: 500;
@@ -1179,15 +1179,15 @@
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    color: #F05E36;
+    color: #f05e36;
     font-size: 1.875rem;
-    padding-right: .8125rem;
+    padding-right: 0.8125rem;
   }
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul li p {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    color: #0A2939;
+    color: #0a2939;
     font-family: "Butler";
     font-size: 28px;
     font-weight: 300;
@@ -1195,7 +1195,7 @@
     line-height: 34px;
   }
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul li p:hover {
-    color: #F05E36;
+    color: #f05e36;
   }
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul {
     padding-left: 0;
@@ -1210,15 +1210,15 @@
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    color: #F05E36;
+    color: #f05e36;
     font-size: 1.875rem;
-    padding-right: .8125rem;
+    padding-right: 0.8125rem;
   }
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul li p {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    color: #0A2939;
+    color: #0a2939;
     font-family: "Butler";
     font-size: 28px;
     font-weight: 300;
@@ -1226,7 +1226,7 @@
     line-height: 34px;
   }
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul li p:hover {
-    color: #F05E36;
+    color: #f05e36;
   }
   .container .sectionLima {
     margin-top: 1.875rem;
@@ -1257,7 +1257,7 @@
     margin-bottom: 1.5625rem;
   }
   .container .sectionLima .sectionLimaBody h2 {
-    color: #002F39;
+    color: #002f39;
     font-family: "Minion-Bold";
     font-size: 1.1875rem;
     font-weight: bold;
@@ -1270,7 +1270,7 @@
   .container .sectionLima .sectionLimaBody p {
     margin-top: 1rem;
     width: 256px;
-    color: #F66E49;
+    color: #f66e49;
     font-family: "IBMPlexSans-Light";
     font-size: 1.0625rem;
     letter-spacing: -0.26px;
@@ -1300,7 +1300,7 @@
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 1px solid #E8D4CF;
+    border-bottom: 1px solid #e8d4cf;
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -1309,7 +1309,7 @@
   .container .sectionLima .SectionLimaTengah .mc-field-group ::-webkit-input-placeholder {
     height: 30px;
     width: 256px;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     letter-spacing: -0.24px;
@@ -1319,7 +1319,7 @@
   .container .sectionLima .SectionLimaTengah .mc-field-group :-ms-input-placeholder {
     height: 30px;
     width: 256px;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     letter-spacing: -0.24px;
@@ -1329,7 +1329,7 @@
   .container .sectionLima .SectionLimaTengah .mc-field-group ::-ms-input-placeholder {
     height: 30px;
     width: 256px;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     letter-spacing: -0.24px;
@@ -1339,7 +1339,7 @@
   .container .sectionLima .SectionLimaTengah .mc-field-group ::placeholder {
     height: 30px;
     width: 256px;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     letter-spacing: -0.24px;
@@ -1369,19 +1369,19 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     width: 10.85px;
-    border: 2px solid #FFFFFF;
-    margin-right: .5rem;
+    border: 2px solid #ffffff;
+    margin-right: 0.5rem;
   }
   .container .sectionLima .SectionLimaTengah .mc_fieldset .text {
-    color: #002F39;
+    color: #002f39;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     letter-spacing: -0.21px;
     line-height: 18px;
-    margin-right: .3125rem;
+    margin-right: 0.3125rem;
   }
   .container .sectionLima .SectionLimaTengah .mc_fieldset a {
-    color: #002F39;
+    color: #002f39;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     letter-spacing: -0.21px;
@@ -1393,7 +1393,7 @@
   .container .sectionLima .SectionLimaBawah p {
     height: 48px;
     width: 100%;
-    color: #F66E49;
+    color: #f66e49;
     font-family: "IBM Plex Sans";
     font-size: 18px;
     letter-spacing: -0.26px;
@@ -1425,7 +1425,7 @@
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 1px solid #E8D4CF;
+    border-bottom: 1px solid #e8d4cf;
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -1475,15 +1475,15 @@
     margin-top: 2rem;
     border: 1px solid #fff;
     border-radius: 24px;
-    padding-top: .9375rem;
-    padding-bottom: .9375rem;
-    color: #FFFFFF;
+    padding-top: 0.9375rem;
+    padding-bottom: 0.9375rem;
+    color: #ffffff;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0;
     line-height: 20px;
-    background-color: #F05E36;
+    background-color: #f05e36;
     width: 100%;
   }
   .Footer {
@@ -1520,9 +1520,9 @@
     width: 100% !important;
     -webkit-box-sizing: border-box !important;
             box-sizing: border-box !important;
-    border-top: 1.5px solid #113D53 !important;
+    border-top: 1.5px solid #113d53 !important;
     padding-top: 1.9375rem !important;
-    border-bottom: 1.5px solid #113D53 !important;
+    border-bottom: 1.5px solid #113d53 !important;
     border-right: none !important;
     -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
@@ -1539,7 +1539,7 @@
     width: 100%;
   }
   .Footer .container .foooterBody .footerBodyKiri li {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBMPlexSans-Light";
     font-size: 12px;
     font-weight: 500;
@@ -1571,7 +1571,7 @@
   }
   .Footer .container .foooterBody .footerBodyKanan h5 {
     display: inline-block;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBMPlexSans-Light";
     font-size: 15px;
     letter-spacing: -0.22px;
@@ -1681,19 +1681,19 @@
   }
   .container .sectionSatu .sectionSatuKiri .text h1 {
     height: auto;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "Butler";
     font-size: 2.625rem;
     letter-spacing: -0.03875rem;
     line-height: 2.375rem;
   }
   .container .sectionSatu .sectionSatuKiri .text h5 {
-    margin-top: .75rem;
+    margin-top: 0.75rem;
     color: #021925;
     font-family: "Minion-DisplayItalic";
     font-size: 1.125rem;
     font-style: italic;
-    letter-spacing: .00625rem;
+    letter-spacing: 0.00625rem;
     line-height: 1.125rem;
   }
   .container .sectionSatu .sectionSatuKanan {
@@ -1721,7 +1721,7 @@
     display: flex;
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-One h3 {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 18px;
     font-weight: 300;
@@ -1729,7 +1729,7 @@
     line-height: 28px;
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Two p {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     font-weight: 300;
@@ -1746,11 +1746,11 @@
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Four {
     margin-top: 2rem;
-    background-color: #0A2939;
+    background-color: #0a2939;
     padding: 2rem;
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Four h3 {
-    color: #F05E36;
+    color: #f05e36;
     font-family: Butler;
     font-size: 32px;
     font-weight: 300;
@@ -1758,7 +1758,7 @@
     line-height: 36px;
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Four p {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBM Plex Sans";
     font-size: 18px;
     font-weight: 300;
@@ -1772,9 +1772,9 @@
     display: none;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-One p {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBMPlexSans-Light";
-    font-size: .875rem;
+    font-size: 0.875rem;
     font-weight: 300;
     letter-spacing: -0.005625rem;
     line-height: 1.625rem;
@@ -1783,7 +1783,7 @@
     list-style: square;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-One ul li {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "Butler";
     font-size: 1.5rem;
     font-weight: 300;
@@ -1791,15 +1791,15 @@
     line-height: 3.125rem;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Two p {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBMPlexSans-Light";
-    font-size: .875rem;
+    font-size: 0.875rem;
     font-weight: 300;
     letter-spacing: -0.005625rem;
     line-height: 1.625rem;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Three h3 {
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 20px;
     font-weight: 500;
@@ -1809,9 +1809,9 @@
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Three p {
     margin-top: 1.25rem;
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBMPlexSans-Light";
-    font-size: .875rem;
+    font-size: 0.875rem;
     font-weight: 300;
     letter-spacing: -0.005625rem;
     line-height: 1.625rem;
@@ -1824,7 +1824,7 @@
     padding-bottom: 0;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Four h1 {
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 20px;
     font-weight: 500;
@@ -1838,7 +1838,7 @@
     margin-left: 1.5rem;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul li {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     font-weight: 300;
@@ -1855,13 +1855,13 @@
     font-size: 40px;
     letter-spacing: -0.1px;
     line-height: 30px;
-    margin-right: .625rem;
+    margin-right: 0.625rem;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul p {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     font-weight: 300;
@@ -1873,9 +1873,11 @@
   }
   .container .sectionTiga {
     margin-top: 1.875rem;
+    padding: 0.4rem;
+    width: 100% !important;
   }
   .container .sectionTiga .sectionTigaAtas h1 {
-    margin: 1.5rem;
+    margin: -2rem;
     margin-left: 0;
     margin-left: 0;
     color: #021925;
@@ -1884,26 +1886,58 @@
     letter-spacing: -0.5px;
     line-height: 38px;
   }
+  .container .sectionTiga .carousel-indicators li {
+    margin: 0.1rem;
+    opacity: 0.6;
+  }
+  .container .sectionTiga .carousel-indicators .active {
+    opacity: 1 !important;
+  }
+  .container .sectionTiga .carousel-control-prev,
+  .container .sectionTiga .carousel-control-next {
+    display: none;
+  }
   .container .sectionTiga .sectionTigaBawah img {
     height: 50%;
     width: 100%;
-    margin-top: 1rem;
+  }
+  .container .sectionTiga .sectionTigaBawah .carousel-inner {
+    height: AUTO;
   }
   .container .sectionTiga .sectionTigaBawah .cardSlider {
-    opacity: 0.9;
-    background-color: #F05E36;
-    padding: 1.5rem;
-    margin-top: 1rem;
+    margin-top: 3rem;
+    height: -webkit-fit-content !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+    position: relative;
+    padding: 4rem 3rem;
+    margin-left: 0rem;
+    background-color: #f05e36;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider img {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: -webkit-fill-available;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider :nth-child(1):hover {
+    opacity: 0;
+  }
+  .container .sectionTiga .sectionTigaBawah .cardSlider :nth-child(4) {
+    margin-top: -1rem;
+    margin-bottom: 4rem;
   }
   .container .sectionTiga .sectionTigaBawah .cardSlider h2 {
-    color: #0A2939;
+    color: #0a2939;
     font-family: Butler;
     font-size: 28px;
     letter-spacing: 0;
     line-height: 34px;
   }
   .container .sectionTiga .sectionTigaBawah .cardSlider a {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     letter-spacing: -0.09px;
@@ -1919,13 +1953,13 @@
   .container .sectionTiga .sectionTigaBawah .cardSlider p {
     color: white;
     font-family: "IBM Plex Sans";
-    font-size: .875rem;
+    font-size: 0.875rem;
     letter-spacing: 0;
     line-height: 2.125rem;
   }
   .container .sectionEmpat .sectionEmpatAtas h5 {
     margin-top: 3rem;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 20px;
     font-weight: 500;
@@ -1947,15 +1981,15 @@
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    color: #F05E36;
+    color: #f05e36;
     font-size: 1.875rem;
-    padding-right: .8125rem;
+    padding-right: 0.8125rem;
   }
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul li p {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    color: #0A2939;
+    color: #0a2939;
     font-family: "Butler";
     font-size: 28px;
     font-weight: 300;
@@ -1963,7 +1997,7 @@
     line-height: 34px;
   }
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul li p:hover {
-    color: #F05E36;
+    color: #f05e36;
   }
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul {
     padding-left: 0;
@@ -1978,15 +2012,15 @@
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    color: #0A2939;
+    color: #f05e36;
     font-size: 1.875rem;
-    padding-right: .8125rem;
+    padding-right: 0.8125rem;
   }
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul li p {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    color: #0A2939;
+    color: #0a2939;
     font-family: "Butler";
     font-size: 28px;
     font-weight: 300;
@@ -1994,7 +2028,7 @@
     line-height: 34px;
   }
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul li p:hover {
-    color: #F05E36;
+    color: #f05e36;
   }
   .container .sectionLima {
     margin-top: 1.875rem;
@@ -2025,7 +2059,7 @@
     margin-bottom: 1.5625rem;
   }
   .container .sectionLima .sectionLimaBody h2 {
-    color: #002F39;
+    color: #002f39;
     font-family: "Minion-Bold";
     font-size: 1.1875rem;
     font-weight: bold;
@@ -2038,7 +2072,7 @@
   .container .sectionLima .sectionLimaBody p {
     margin-top: 1rem;
     width: 256px;
-    color: #F66E49;
+    color: #f66e49;
     font-family: "IBMPlexSans-Light";
     font-size: 1.0625rem;
     letter-spacing: -0.26px;
@@ -2068,7 +2102,7 @@
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 1px solid #E8D4CF;
+    border-bottom: 1px solid #e8d4cf;
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -2078,7 +2112,7 @@
   .container .sectionLima .SectionLimaTengah .mc-field-group ::-webkit-input-placeholder {
     height: 30px;
     width: 256px;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     letter-spacing: -0.24px;
@@ -2088,7 +2122,7 @@
   .container .sectionLima .SectionLimaTengah .mc-field-group :-ms-input-placeholder {
     height: 30px;
     width: 256px;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     letter-spacing: -0.24px;
@@ -2098,7 +2132,7 @@
   .container .sectionLima .SectionLimaTengah .mc-field-group ::-ms-input-placeholder {
     height: 30px;
     width: 256px;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     letter-spacing: -0.24px;
@@ -2108,7 +2142,7 @@
   .container .sectionLima .SectionLimaTengah .mc-field-group ::placeholder {
     height: 30px;
     width: 256px;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     letter-spacing: -0.24px;
@@ -2138,19 +2172,19 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     width: 10.85px;
-    border: 2px solid #FFFFFF;
-    margin-right: .5rem;
+    border: 2px solid #ffffff;
+    margin-right: 0.5rem;
   }
   .container .sectionLima .SectionLimaTengah .mc_fieldset .text {
-    color: #002F39;
+    color: #002f39;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     letter-spacing: -0.21px;
     line-height: 18px;
-    margin-right: .3125rem;
+    margin-right: 0.3125rem;
   }
   .container .sectionLima .SectionLimaTengah .mc_fieldset a {
-    color: #002F39;
+    color: #002f39;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     letter-spacing: -0.21px;
@@ -2162,7 +2196,7 @@
   .container .sectionLima .SectionLimaBawah p {
     height: 48px;
     width: 100%;
-    color: #F66E49;
+    color: #f66e49;
     font-family: "IBM Plex Sans";
     font-size: 18px;
     letter-spacing: -0.26px;
@@ -2194,7 +2228,7 @@
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 1px solid #E8D4CF;
+    border-bottom: 1px solid #e8d4cf;
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -2244,15 +2278,15 @@
     margin-top: 2rem;
     border: 1px solid #fff;
     border-radius: 24px;
-    padding-top: .9375rem;
-    padding-bottom: .9375rem;
-    color: #FFFFFF;
+    padding-top: 0.9375rem;
+    padding-bottom: 0.9375rem;
+    color: #ffffff;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0;
     line-height: 20px;
-    background-color: #F05E36;
+    background-color: #f05e36;
     width: 100%;
   }
   .Footer {
@@ -2289,9 +2323,9 @@
     width: 100% !important;
     -webkit-box-sizing: border-box !important;
             box-sizing: border-box !important;
-    border-top: 1.5px solid #113D53 !important;
+    border-top: 1.5px solid #113d53 !important;
     padding-top: 1.9375rem !important;
-    border-bottom: 1.5px solid #113D53 !important;
+    border-bottom: 1.5px solid #113d53 !important;
     border-right: none !important;
     -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
@@ -2308,7 +2342,7 @@
     width: 100%;
   }
   .Footer .container .foooterBody .footerBodyKiri li {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBMPlexSans-Light";
     font-size: 12px;
     font-weight: 500;
@@ -2340,7 +2374,7 @@
   }
   .Footer .container .foooterBody .footerBodyKanan h5 {
     display: inline-block;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBMPlexSans-Light";
     font-size: 15px;
     letter-spacing: -0.22px;
@@ -2450,19 +2484,19 @@
   }
   .container .sectionSatu .sectionSatuKiri .text h1 {
     height: auto;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "Butler";
     font-size: 2.625rem;
     letter-spacing: -0.03875rem;
     line-height: 2.375rem;
   }
   .container .sectionSatu .sectionSatuKiri .text h5 {
-    margin-top: .75rem;
+    margin-top: 0.75rem;
     color: #021925;
     font-family: "Minion-DisplayItalic";
     font-size: 1.125rem;
     font-style: italic;
-    letter-spacing: .00625rem;
+    letter-spacing: 0.00625rem;
     line-height: 1.125rem;
   }
   .container .sectionSatu .sectionSatuKanan {
@@ -2490,7 +2524,7 @@
     display: flex;
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-One h3 {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 18px;
     font-weight: 300;
@@ -2498,7 +2532,7 @@
     line-height: 28px;
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Two p {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     font-weight: 300;
@@ -2515,11 +2549,11 @@
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Four {
     margin-top: 2rem;
-    background-color: #0A2939;
+    background-color: #0a2939;
     padding: 2rem;
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Four h3 {
-    color: #F05E36;
+    color: #f05e36;
     font-family: Butler;
     font-size: 32px;
     font-weight: 300;
@@ -2527,7 +2561,7 @@
     line-height: 36px;
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Four p {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBM Plex Sans";
     font-size: 18px;
     font-weight: 300;
@@ -2541,9 +2575,9 @@
     display: none;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-One p {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBMPlexSans-Light";
-    font-size: .875rem;
+    font-size: 0.875rem;
     font-weight: 300;
     letter-spacing: -0.005625rem;
     line-height: 1.625rem;
@@ -2552,7 +2586,7 @@
     list-style: square;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-One ul li {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "Butler";
     font-size: 1.5rem;
     font-weight: 300;
@@ -2560,15 +2594,15 @@
     line-height: 3.125rem;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Two p {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBMPlexSans-Light";
-    font-size: .875rem;
+    font-size: 0.875rem;
     font-weight: 300;
     letter-spacing: -0.005625rem;
     line-height: 1.625rem;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Three h3 {
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 20px;
     font-weight: 500;
@@ -2578,9 +2612,9 @@
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Three p {
     margin-top: 1.25rem;
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBMPlexSans-Light";
-    font-size: .875rem;
+    font-size: 0.875rem;
     font-weight: 300;
     letter-spacing: -0.005625rem;
     line-height: 1.625rem;
@@ -2593,7 +2627,7 @@
     padding-bottom: 0;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Four h1 {
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 20px;
     font-weight: 500;
@@ -2607,7 +2641,7 @@
     margin-left: 1.5rem;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul li {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     font-weight: 300;
@@ -2624,13 +2658,13 @@
     font-size: 40px;
     letter-spacing: -0.1px;
     line-height: 30px;
-    margin-right: .625rem;
+    margin-right: 0.625rem;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul p {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     font-weight: 300;
@@ -2641,60 +2675,112 @@
     display: inline-flex;
   }
   .container .sectionTiga {
-    margin-top: 1.875rem;
+    margin-top: 1.25rem;
+    margin-bottom: 0;
+    width: 100%;
+  }
+  .container .sectionTiga .sectionTigaAtas {
+    margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #fff;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .container .sectionTiga .sectionTigaAtas h1 {
-    margin: 1.5rem;
-    margin-left: 0;
-    margin-left: 0;
-    color: #021925;
+    width: 916px;
+    color: #0a2939;
     font-family: Butler;
-    font-size: 34px;
-    letter-spacing: -0.5px;
-    line-height: 38px;
+    font-size: 56px;
+    letter-spacing: -0.82px;
+    line-height: 56px;
   }
-  .container .sectionTiga .sectionTigaBawah img {
-    height: 50%;
-    width: 100%;
-    margin-top: 1rem;
+  .container .sectionTiga .carousel-indicators li {
+    margin: 0.1rem;
+    opacity: 0.6;
   }
-  .container .sectionTiga .sectionTigaBawah .cardSlider {
-    opacity: 0.9;
-    background-color: #F05E36;
-    padding: 1.5rem;
-    margin-top: 1rem;
+  .container .sectionTiga .carousel-indicators .active {
+    opacity: 1 !important;
   }
-  .container .sectionTiga .sectionTigaBawah .cardSlider h2 {
-    color: #0A2939;
-    font-family: Butler;
-    font-size: 28px;
-    letter-spacing: 0;
-    line-height: 34px;
+  .container .sectionTiga .carousel-control-prev,
+  .container .sectionTiga .carousel-control-next {
+    display: none;
   }
-  .container .sectionTiga .sectionTigaBawah .cardSlider a {
-    color: #FFFFFF;
+  .container .sectionTiga .containerSlide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .container .sectionTiga .containerSlide .logo {
+    padding-left: 0;
+  }
+  .container .sectionTiga .containerSlide div {
+    margin-right: 1rem;
+    padding-left: 2rem;
+  }
+  .container .sectionTiga .containerSlide .cardSlider {
+    position: relative;
+    padding: 4rem 3rem;
+    margin-left: 2rem;
+    background-color: #f05e36;
+  }
+  .container .sectionTiga .containerSlide .cardSlider img {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    width: -webkit-fill-available;
+  }
+  .container .sectionTiga .containerSlide .cardSlider :nth-child(1):hover {
+    opacity: 0;
+  }
+  .container .sectionTiga .containerSlide .cardSlider :nth-child(4) {
+    margin-top: -1rem;
+    margin-bottom: 4rem;
+  }
+  .container .sectionTiga .containerSlide .cardSlider a {
+    height: 47px;
+    width: 328px;
+    color: #ffffff;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     letter-spacing: -0.09px;
     line-height: 24px;
+    list-style: none;
     text-decoration: none;
+    margin-bottom: 8rem;
   }
-  .container .sectionTiga .sectionTigaBawah .cardSlider p a {
-    padding: 0;
-  }
-  .container .sectionTiga .sectionTigaBawah .cardSlider .link {
-    margin-bottom: -0.625rem;
-  }
-  .container .sectionTiga .sectionTigaBawah .cardSlider p {
-    color: white;
-    font-family: "IBM Plex Sans";
-    font-size: .875rem;
+  .container .sectionTiga .containerSlide .cardSlider h2 {
+    height: 28px;
+    width: 310px;
+    color: #0a2939;
+    font-family: Butler;
+    font-size: 28px;
     letter-spacing: 0;
-    line-height: 2.125rem;
+    line-height: 34px;
+    margin-bottom: 1rem;
+  }
+  .container .sectionTiga .containerSlide .cardSlider p {
+    width: 328px;
+    color: #ffffff;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    letter-spacing: -0.09px;
+    line-height: 24px;
+    margin-bottom: 1rem;
+  }
+  .container .sectionTiga .sectionTigaBawah {
+    margin-top: 5rem;
   }
   .container .sectionEmpat .sectionEmpatAtas h5 {
     margin-top: 3rem;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 20px;
     font-weight: 500;
@@ -2716,15 +2802,15 @@
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    color: #F05E36;
+    color: #f05e36;
     font-size: 1.875rem;
-    padding-right: .8125rem;
+    padding-right: 0.8125rem;
   }
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul li p {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    color: #0A2939;
+    color: #0a2939;
     font-family: "Butler";
     font-size: 28px;
     font-weight: 300;
@@ -2732,7 +2818,7 @@
     line-height: 34px;
   }
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul li p:hover {
-    color: #F05E36;
+    color: #f05e36;
   }
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul {
     padding-left: 0;
@@ -2747,15 +2833,15 @@
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    color: #F05E36;
+    color: #f05e36;
     font-size: 1.875rem;
-    padding-right: .8125rem;
+    padding-right: 0.8125rem;
   }
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul li p {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    color: #0A2939;
+    color: #0a2939;
     font-family: "Butler";
     font-size: 28px;
     font-weight: 300;
@@ -2763,7 +2849,7 @@
     line-height: 34px;
   }
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul li p:hover {
-    color: #F05E36;
+    color: #f05e36;
   }
   .container .sectionLima {
     margin-top: 1.875rem;
@@ -2797,7 +2883,7 @@
     margin-bottom: 1.5625rem;
   }
   .container .sectionLima .sectionLimaBody h2 {
-    color: #002F39;
+    color: #002f39;
     font-family: "Minion-Bold";
     font-size: 1.1875rem;
     font-weight: bold;
@@ -2810,7 +2896,7 @@
   .container .sectionLima .sectionLimaBody p {
     margin-top: 1rem;
     width: 256px;
-    color: #F66E49;
+    color: #f66e49;
     font-family: "IBMPlexSans-Light";
     font-size: 1.0625rem;
     letter-spacing: -0.26px;
@@ -2841,7 +2927,7 @@
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 1px solid #E8D4CF;
+    border-bottom: 1px solid #e8d4cf;
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -2850,7 +2936,7 @@
   .container .sectionLima .SectionLimaTengah .mc-field-group ::-webkit-input-placeholder {
     height: 30px;
     width: 256px;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     letter-spacing: -0.24px;
@@ -2860,7 +2946,7 @@
   .container .sectionLima .SectionLimaTengah .mc-field-group :-ms-input-placeholder {
     height: 30px;
     width: 256px;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     letter-spacing: -0.24px;
@@ -2870,7 +2956,7 @@
   .container .sectionLima .SectionLimaTengah .mc-field-group ::-ms-input-placeholder {
     height: 30px;
     width: 256px;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     letter-spacing: -0.24px;
@@ -2880,7 +2966,7 @@
   .container .sectionLima .SectionLimaTengah .mc-field-group ::placeholder {
     height: 30px;
     width: 256px;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     letter-spacing: -0.24px;
@@ -2910,19 +2996,19 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     width: 10.85px;
-    border: 2px solid #FFFFFF;
-    margin-right: .5rem;
+    border: 2px solid #ffffff;
+    margin-right: 0.5rem;
   }
   .container .sectionLima .SectionLimaTengah .mc_fieldset .text {
-    color: #002F39;
+    color: #002f39;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     letter-spacing: -0.21px;
     line-height: 18px;
-    margin-right: .3125rem;
+    margin-right: 0.3125rem;
   }
   .container .sectionLima .SectionLimaTengah .mc_fieldset a {
-    color: #002F39;
+    color: #002f39;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     letter-spacing: -0.21px;
@@ -2934,7 +3020,7 @@
   .container .sectionLima .SectionLimaBawah p {
     height: 48px;
     width: 256px;
-    color: #F66E49;
+    color: #f66e49;
     font-family: "IBM Plex Sans";
     font-size: 18px;
     letter-spacing: -0.26px;
@@ -2967,7 +3053,7 @@
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 1px solid #E8D4CF;
+    border-bottom: 1px solid #e8d4cf;
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -3017,15 +3103,15 @@
     margin-top: 2rem;
     border: 1px solid #fff;
     border-radius: 24px;
-    padding-top: .9375rem;
-    padding-bottom: .9375rem;
-    color: #FFFFFF;
+    padding-top: 0.9375rem;
+    padding-bottom: 0.9375rem;
+    color: #ffffff;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0;
     line-height: 20px;
-    background-color: #F05E36;
+    background-color: #f05e36;
     width: 100%;
   }
   .Footer {
@@ -3062,9 +3148,9 @@
     width: 100% !important;
     -webkit-box-sizing: border-box !important;
             box-sizing: border-box !important;
-    border-top: 1.5px solid #113D53 !important;
+    border-top: 1.5px solid #113d53 !important;
     padding-top: 1.9375rem !important;
-    border-bottom: 1.5px solid #113D53 !important;
+    border-bottom: 1.5px solid #113d53 !important;
     border-right: none !important;
     -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
@@ -3081,7 +3167,7 @@
     width: 100%;
   }
   .Footer .container .foooterBody .footerBodyKiri li {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBMPlexSans-Light";
     font-size: 12px;
     font-weight: 500;
@@ -3113,7 +3199,7 @@
   }
   .Footer .container .foooterBody .footerBodyKanan h5 {
     display: inline-block;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBMPlexSans-Light";
     font-size: 15px;
     letter-spacing: -0.22px;
@@ -3146,7 +3232,7 @@
         justify-content: space-around;
   }
   .container .navbar-collapse .navbar-nav .nav-item {
-    margin-top: .625rem;
+    margin-top: 0.625rem;
     margin-right: 1.875rem;
   }
   .container .navbar-collapse .navbar-nav .nav-item a img {
@@ -3166,7 +3252,7 @@
     border-radius: 1.25rem;
   }
   .container .navbar-collapse .navbar-nav .nav-item .nav-link {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBMPlexSans-Medium";
     font-size: 18px;
     font-weight: 600;
@@ -3177,13 +3263,13 @@
     width: 100%;
   }
   .container .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
-    border-bottom: #F05E36 solid 2px;
+    border-bottom: #f05e36 solid 2px;
   }
   .container .navbar-collapse .navbar-nav .nav-item.dropdown .nav-link {
     font-family: "IBMPlexSans";
   }
   .container .navbar-collapse .navbar-nav .nav-item.dropdown .nav-link::after {
-    color: #F05E36;
+    color: #f05e36;
   }
   .container .navbar-collapse .sectionSatu {
     margin-top: 0;
@@ -3205,19 +3291,19 @@
   }
   .container .navbar-collapse .sectionSatu .sectionSatuKiri .text h1 {
     height: auto;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "Butler";
     font-size: 2.625rem;
     letter-spacing: -0.03875rem;
     line-height: 2.375rem;
   }
   .container .navbar-collapse .sectionSatu .sectionSatuKiri .text h5 {
-    margin-top: .75rem;
+    margin-top: 0.75rem;
     color: #021925;
     font-family: "Minion-DisplayItalic";
     font-size: 1.125rem;
     font-style: italic;
-    letter-spacing: .00625rem;
+    letter-spacing: 0.00625rem;
     line-height: 1.125rem;
   }
   .container .navbar-collapse .sectionSatu .sectionSatuKanan {
@@ -3258,7 +3344,7 @@
   .container .navbar-collapse .sectionDua .sectionDuaKiri .wraperKiri-One h3 {
     height: 184px;
     width: 507px;
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 28.6px;
     font-weight: 300;
@@ -3269,7 +3355,7 @@
     margin-top: 1.875rem;
   }
   .container .navbar-collapse .sectionDua .sectionDuaKiri .wraperKiri-Two p {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     font-weight: 300;
@@ -3284,7 +3370,7 @@
             box-sizing: border-box;
     height: 105px;
     width: 2px;
-    border: 2px solid #F66E49;
+    border: 2px solid #f66e49;
     display: block;
     position: relative;
     left: 37%;
@@ -3304,7 +3390,7 @@
   }
   .container .navbar-collapse .sectionDua .sectionDuaKiri .wraperKiri-Four h3 {
     margin-bottom: 2rem;
-    color: #F05E36;
+    color: #f05e36;
     font-family: Butler;
     font-size: 40px;
     font-weight: 300;
@@ -3314,7 +3400,7 @@
   .container .navbar-collapse .sectionDua .sectionDuaKiri .wraperKiri-Four p {
     height: 102px;
     width: 374px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBM Plex Sans";
     font-size: 22px;
     font-weight: 300;
@@ -3336,7 +3422,7 @@
     padding: 43px 68px;
   }
   .container .navbar-collapse .sectionDua .sectionDuaKanan .wraperKanan-One p {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     font-weight: 500;
@@ -3346,7 +3432,7 @@
   }
   .container .navbar-collapse .sectionDua .sectionDuaKanan .wraperKanan-One li {
     list-style: none;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: Butler;
     font-size: 40px;
     font-weight: 300;
@@ -3358,7 +3444,7 @@
     margin-bottom: 5rem;
   }
   .container .navbar-collapse .sectionDua .sectionDuaKanan .wraperKanan-Two p {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     font-weight: 300;
@@ -3376,7 +3462,7 @@
             flex-direction: column;
   }
   .container .navbar-collapse .sectionDua .sectionDuaKanan .wraperKanan-Three h3 {
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 28px;
     font-weight: 500;
@@ -3385,7 +3471,7 @@
     margin-bottom: 3rem;
   }
   .container .navbar-collapse .sectionDua .sectionDuaKanan .wraperKanan-Three p {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     font-weight: 300;
@@ -3393,7 +3479,7 @@
     line-height: 30px;
   }
   .container .navbar-collapse .sectionDua .wraperKanan-Four h1 {
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 28px;
     font-weight: 500;
@@ -3405,7 +3491,7 @@
     padding-left: 0;
   }
   .container .navbar-collapse .sectionDua .wraperKanan-Four ul li {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBMPlexSans-Light";
     font-size: 16px;
     font-weight: 300;
@@ -3423,7 +3509,7 @@
     font-size: 40px;
     letter-spacing: -0.1px;
     line-height: 30px;
-    margin-right: .625rem;
+    margin-right: 0.625rem;
     display: inline;
   }
   .container .navbar-collapse .sectionDua .wraperKanan-Four ul li p {
@@ -3447,7 +3533,7 @@
   }
   .container .navbar-collapse .sectionTiga .sectionTigaAtas h1 {
     width: 916px;
-    color: #0A2939;
+    color: #0a2939;
     font-family: Butler;
     font-size: 56px;
     letter-spacing: -0.82px;
@@ -3475,7 +3561,7 @@
   .container .navbar-collapse .sectionTiga .sectionTigaBawah .containerSlide .cardSlider {
     padding: 4rem 3rem;
     margin-left: 2rem;
-    background-color: #F05E36;
+    background-color: #f05e36;
   }
   .container .navbar-collapse .sectionTiga .sectionTigaBawah .containerSlide .cardSlider :nth-child(3) {
     margin-top: -1rem;
@@ -3484,7 +3570,7 @@
   .container .navbar-collapse .sectionTiga .sectionTigaBawah .containerSlide .cardSlider a {
     height: 47px;
     width: 328px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     letter-spacing: -0.09px;
@@ -3496,7 +3582,7 @@
   .container .navbar-collapse .sectionTiga .sectionTigaBawah .containerSlide .cardSlider h2 {
     height: 28px;
     width: 310px;
-    color: #0A2939;
+    color: #0a2939;
     font-family: Butler;
     font-size: 28px;
     letter-spacing: 0;
@@ -3505,7 +3591,7 @@
   }
   .container .navbar-collapse .sectionTiga .sectionTigaBawah .containerSlide .cardSlider p {
     width: 328px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     letter-spacing: -0.09px;
@@ -3528,7 +3614,7 @@
     padding-bottom: 0;
   }
   .container .navbar-collapse .sectionEmpat li {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "Butler-Light";
     font-size: 40px;
     font-weight: 300;
@@ -3538,7 +3624,7 @@
   .container .navbar-collapse .sectionEmpat .sectionEmpatAtas h5 {
     height: 20px;
     width: 417px;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     font-weight: 500;
@@ -3564,16 +3650,16 @@
     display: flex;
   }
   .container .navbar-collapse .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri li .strip {
-    color: #F05E36;
+    color: #f05e36;
     font-size: 40px;
     font-weight: 300;
     letter-spacing: 0;
     line-height: 48px;
-    margin-right: .625rem;
-    padding-top: .625rem;
+    margin-right: 0.625rem;
+    padding-top: 0.625rem;
   }
   .container .navbar-collapse .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri li p {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "Butler-Light";
     font-size: 40px;
     font-weight: 300;
@@ -3581,7 +3667,7 @@
     line-height: 48px;
   }
   .container .navbar-collapse .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri li p:hover {
-    color: #F05E36;
+    color: #f05e36;
   }
   .container .navbar-collapse .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan {
     width: 100%;
@@ -3596,16 +3682,16 @@
     display: flex;
   }
   .container .navbar-collapse .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan li .strip {
-    color: #F05E36;
+    color: #f05e36;
     font-size: 40px;
     font-weight: 300;
     letter-spacing: 0;
     line-height: 48px;
-    margin-right: .625rem;
-    padding-top: .625rem;
+    margin-right: 0.625rem;
+    padding-top: 0.625rem;
   }
   .container .navbar-collapse .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan li p {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "Butler-Light";
     font-size: 40px;
     font-weight: 300;
@@ -3613,7 +3699,7 @@
     line-height: 48px;
   }
   .container .navbar-collapse .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan li p:hover {
-    color: #F05E36;
+    color: #f05e36;
   }
   .container .navbar-collapse .sectionLima {
     border: 10px solid #f66f4933;
@@ -3637,11 +3723,13 @@
   .container .navbar-collapse .sectionLima .sectionLimaBody .title-1 {
     margin-top: -5.3125rem;
   }
-  .container .navbar-collapse .sectionLima .sectionLimaBody .title, .container .navbar-collapse .sectionLima .sectionLimaBody .SectionLimaTengah, .container .navbar-collapse .sectionLima .sectionLimaBody .SectionLimaBawah {
+  .container .navbar-collapse .sectionLima .sectionLimaBody .title,
+  .container .navbar-collapse .sectionLima .sectionLimaBody .SectionLimaTengah,
+  .container .navbar-collapse .sectionLima .sectionLimaBody .SectionLimaBawah {
     margin: 0 5rem;
   }
   .container .navbar-collapse .sectionLima .sectionLimaBody p {
-    color: #F66E49;
+    color: #f66e49;
     font-family: "IBMPlexSans";
     font-size: 22px;
     letter-spacing: -0.32px;
@@ -3668,7 +3756,7 @@
   }
   .container .navbar-collapse .sectionLima .sectionLimaBody .title .title-1 h2 {
     height: 81px;
-    color: #002F39;
+    color: #002f39;
     font-family: "Minion-Bold";
     font-size: 26px;
     font-weight: bold;
@@ -3688,7 +3776,7 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
     margin-bottom: 4rem;
-    border-bottom: 1px solid #E8D4CF;
+    border-bottom: 1px solid #e8d4cf;
   }
   .container .navbar-collapse .sectionLima .sectionLimaBody .SectionLimaTengah .email {
     padding: 0.5rem;
@@ -3727,7 +3815,8 @@
     margin-right: 0.3rem;
     margin-left: 0.5rem;
   }
-  .container .navbar-collapse .sectionLima .sectionLimaBody .SectionLimaTengah .text, .container .navbar-collapse .sectionLima .sectionLimaBody .SectionLimaTengah .terms {
+  .container .navbar-collapse .sectionLima .sectionLimaBody .SectionLimaTengah .text,
+  .container .navbar-collapse .sectionLima .sectionLimaBody .SectionLimaTengah .terms {
     color: #002f39;
     font-family: "IBMPlexSans";
     font-size: 16px;
@@ -3744,7 +3833,7 @@
     border-left: none;
     border-right: none;
     padding-bottom: 1.6rem;
-    border-bottom: 1px solid #E8D4CF;
+    border-bottom: 1px solid #e8d4cf;
     outline: none;
   }
   .container .navbar-collapse .sectionLima .SectionLimaBawahDua {
@@ -3768,13 +3857,13 @@
     border: 1px solid #fff;
     padding: 1rem 4rem;
     border-radius: 2.4rem;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0;
     line-height: 20px;
-    background-color: #F05E36;
+    background-color: #f05e36;
   }
   .container .sectionSatu {
     margin-top: 0;
@@ -3796,19 +3885,19 @@
   }
   .container .sectionSatu .sectionSatuKiri .text h1 {
     height: auto;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "Butler";
     font-size: 2.625rem;
     letter-spacing: -0.03875rem;
     line-height: 2.375rem;
   }
   .container .sectionSatu .sectionSatuKiri .text h5 {
-    margin-top: .75rem;
+    margin-top: 0.75rem;
     color: #021925;
     font-family: "Minion-DisplayItalic";
     font-size: 1.125rem;
     font-style: italic;
-    letter-spacing: .00625rem;
+    letter-spacing: 0.00625rem;
     line-height: 1.125rem;
   }
   .container .sectionSatu .sectionSatuKanan {
@@ -3851,7 +3940,7 @@
   .container .sectionDua .sectionDuaKiri .wraperKiri-One h3 {
     height: 184px;
     width: 507px;
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 28.6px;
     font-weight: 300;
@@ -3863,7 +3952,7 @@
     margin-top: 1.875rem;
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Two p {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     font-weight: 300;
@@ -3878,7 +3967,7 @@
             box-sizing: border-box;
     height: 105px;
     width: 2px;
-    border-right: 2px solid #F66E49;
+    border-right: 2px solid #f66e49;
     display: block;
     position: relative;
     left: 37%;
@@ -3899,7 +3988,7 @@
   }
   .container .sectionDua .sectionDuaKiri .wraperKiri-Four h3 {
     margin-bottom: 2rem;
-    color: #F05E36;
+    color: #f05e36;
     font-family: Butler;
     font-size: 40px;
     font-weight: 300;
@@ -3909,7 +3998,7 @@
   .container .sectionDua .sectionDuaKiri .wraperKiri-Four p {
     height: 102px;
     width: 374px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBM Plex Sans";
     font-size: 22px;
     font-weight: 300;
@@ -3934,7 +4023,7 @@
   .container .sectionDua .sectionDuaKanan .wraperKanan-One p {
     height: 20px;
     width: 138px;
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     font-weight: 500;
@@ -3945,7 +4034,7 @@
   .container .sectionDua .sectionDuaKanan .wraperKanan-One li {
     list-style: none;
     width: 374px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: Butler;
     font-size: 40px;
     font-weight: 300;
@@ -3959,7 +4048,7 @@
   .container .sectionDua .sectionDuaKanan .wraperKanan-Two p {
     height: 241px;
     width: 486px;
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     font-weight: 300;
@@ -3979,7 +4068,7 @@
   }
   .container .sectionDua .sectionDuaKanan .wraperKanan-Three h3 {
     height: 72px;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 28px;
     font-weight: 500;
@@ -3990,7 +4079,7 @@
   .container .sectionDua .sectionDuaKanan .wraperKanan-Three p {
     height: 150px;
     width: 486px;
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     font-weight: 300;
@@ -4000,7 +4089,7 @@
   .container .sectionDua .wraperKanan-Four h1 {
     height: 36px;
     width: 497px;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 28px;
     font-weight: 500;
@@ -4012,7 +4101,7 @@
     padding-left: 0;
   }
   .container .sectionDua .wraperKanan-Four ul li {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBMPlexSans-Light";
     font-size: 16px;
     font-weight: 300;
@@ -4030,7 +4119,7 @@
     font-size: 40px;
     letter-spacing: -0.1px;
     line-height: 30px;
-    margin-right: .625rem;
+    margin-right: 0.625rem;
     display: inline;
   }
   .container .sectionDua .wraperKanan-Four ul li p {
@@ -4053,7 +4142,7 @@
   }
   .container .sectionTiga .sectionTigaAtas h1 {
     width: 916px;
-    color: #0A2939;
+    color: #0a2939;
     font-family: Butler;
     font-size: 56px;
     letter-spacing: -0.82px;
@@ -4061,6 +4150,24 @@
   }
   .container .sectionTiga .sectionTigaBawah {
     margin-top: 5rem;
+  }
+  .container .sectionTiga .sectionTigaBawah .carousel-indicators {
+    left: auto;
+    bottom: auto;
+    right: -9rem;
+    top: -3rem;
+    font-size: 20px;
+  }
+  .container .sectionTiga .sectionTigaBawah .carousel-indicators li {
+    margin: 0.1rem;
+    opacity: 0.6;
+  }
+  .container .sectionTiga .sectionTigaBawah .carousel-indicators .active {
+    opacity: 1 !important;
+  }
+  .container .sectionTiga .sectionTigaBawah .carousel-control-prev,
+  .container .sectionTiga .sectionTigaBawah .carousel-control-next {
+    display: none;
   }
   .container .sectionTiga .sectionTigaBawah .containerSlide {
     display: -webkit-box;
@@ -4079,18 +4186,29 @@
     padding-left: 2rem;
   }
   .container .sectionTiga .sectionTigaBawah .containerSlide .cardSlider {
+    position: relative;
     padding: 4rem 3rem;
     margin-left: 2rem;
-    background-color: #F05E36;
+    background-color: #f05e36;
   }
-  .container .sectionTiga .sectionTigaBawah .containerSlide .cardSlider :nth-child(3) {
+  .container .sectionTiga .sectionTigaBawah .containerSlide .cardSlider img {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    width: -webkit-fill-available;
+  }
+  .container .sectionTiga .sectionTigaBawah .containerSlide .cardSlider :nth-child(1):hover {
+    opacity: 0;
+  }
+  .container .sectionTiga .sectionTigaBawah .containerSlide .cardSlider :nth-child(4) {
     margin-top: -1rem;
     margin-bottom: 4rem;
   }
   .container .sectionTiga .sectionTigaBawah .containerSlide .cardSlider a {
     height: 47px;
     width: 328px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     letter-spacing: -0.09px;
@@ -4102,7 +4220,7 @@
   .container .sectionTiga .sectionTigaBawah .containerSlide .cardSlider h2 {
     height: 28px;
     width: 310px;
-    color: #0A2939;
+    color: #0a2939;
     font-family: Butler;
     font-size: 28px;
     letter-spacing: 0;
@@ -4111,7 +4229,7 @@
   }
   .container .sectionTiga .sectionTigaBawah .containerSlide .cardSlider p {
     width: 328px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     letter-spacing: -0.09px;
@@ -4133,7 +4251,7 @@
     padding-bottom: 0;
   }
   .container .sectionEmpat li {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "Butler-Light";
     font-size: 40px;
     font-weight: 300;
@@ -4143,7 +4261,7 @@
   .container .sectionEmpat .sectionEmpatAtas h5 {
     height: 20px;
     width: 417px;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     font-weight: 500;
@@ -4169,16 +4287,16 @@
     display: flex;
   }
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri li .strip {
-    color: #F05E36;
+    color: #f05e36;
     font-size: 40px;
     font-weight: 300;
     letter-spacing: 0;
     line-height: 48px;
-    margin-right: .625rem;
-    padding-top: .625rem;
+    margin-right: 0.625rem;
+    padding-top: 0.625rem;
   }
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri li p {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "Butler-Light";
     font-size: 40px;
     font-weight: 300;
@@ -4186,7 +4304,7 @@
     line-height: 48px;
   }
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri li p:hover {
-    color: #F05E36;
+    color: #f05e36;
   }
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan {
     width: 50%;
@@ -4202,16 +4320,16 @@
     display: flex;
   }
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan li .strip {
-    color: #F05E36;
+    color: #f05e36;
     font-size: 40px;
     font-weight: 300;
     letter-spacing: 0;
     line-height: 48px;
-    margin-right: .625rem;
-    padding-top: .625rem;
+    margin-right: 0.625rem;
+    padding-top: 0.625rem;
   }
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan li p {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "Butler-Light";
     font-size: 40px;
     font-weight: 300;
@@ -4219,7 +4337,7 @@
     line-height: 48px;
   }
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan li p:hover {
-    color: #F05E36;
+    color: #f05e36;
   }
   .container .sectionLima {
     border: 10px solid #f66f4933;
@@ -4244,11 +4362,13 @@
   .container .sectionLima .sectionLimaBody .title {
     margin-bottom: 3.125rem;
   }
-  .container .sectionLima .sectionLimaBody .title, .container .sectionLima .sectionLimaBody .SectionLimaTengah, .container .sectionLima .sectionLimaBody .SectionLimaBawah {
+  .container .sectionLima .sectionLimaBody .title,
+  .container .sectionLima .sectionLimaBody .SectionLimaTengah,
+  .container .sectionLima .sectionLimaBody .SectionLimaBawah {
     margin: 0 5rem;
   }
   .container .sectionLima .sectionLimaBody p {
-    color: #F66E49;
+    color: #f66e49;
     font-family: "IBMPlexSans";
     font-size: 22px;
     letter-spacing: -0.32px;
@@ -4275,7 +4395,7 @@
   }
   .container .sectionLima .sectionLimaBody .title .title-1 h2 {
     height: 81px;
-    color: #002F39;
+    color: #002f39;
     font-family: "Minion-Bold";
     font-size: 26px;
     font-weight: bold;
@@ -4295,7 +4415,7 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
     margin-bottom: 4rem;
-    border-bottom: 1px solid #E8D4CF;
+    border-bottom: 1px solid #e8d4cf;
   }
   .container .sectionLima .sectionLimaBody .SectionLimaTengah .email {
     padding: 0.5rem;
@@ -4334,7 +4454,8 @@
     margin-right: 0.3rem;
     margin-left: 0.5rem;
   }
-  .container .sectionLima .sectionLimaBody .SectionLimaTengah .text, .container .sectionLima .sectionLimaBody .SectionLimaTengah .terms {
+  .container .sectionLima .sectionLimaBody .SectionLimaTengah .text,
+  .container .sectionLima .sectionLimaBody .SectionLimaTengah .terms {
     color: #002f39;
     font-family: "IBMPlexSans";
     font-size: 16px;
@@ -4351,7 +4472,7 @@
     border-left: none;
     border-right: none;
     padding-bottom: 1.6rem;
-    border-bottom: 1px solid #E8D4CF;
+    border-bottom: 1px solid #e8d4cf;
     outline: none;
   }
   .container .sectionLima .SectionLimaBawahDua {
@@ -4375,13 +4496,13 @@
     border: 1px solid #fff;
     padding: 1rem 4rem;
     border-radius: 2.4rem;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0;
     line-height: 20px;
-    background-color: #F05E36;
+    background-color: #f05e36;
   }
   .Footer {
     width: 100%;
@@ -4392,7 +4513,7 @@
   .Footer .container {
     background-color: #021925;
     height: 100%;
-    color: #E8D4CF;
+    color: #e8d4cf;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4417,8 +4538,8 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    border-top: 1.5px solid #113D53;
-    border-bottom: 1.5px solid #113D53;
+    border-top: 1.5px solid #113d53;
+    border-bottom: 1.5px solid #113d53;
     width: 90%;
     height: 10rem;
     -webkit-box-pack: space-evenly;
@@ -4435,13 +4556,13 @@
             flex-direction: row;
     width: 65%;
     padding: 3rem 2rem;
-    border-right: 2px #113D53 solid;
+    border-right: 2px #113d53 solid;
   }
   .Footer .container .foooterBody .footerBodyKiri li {
     list-style: none;
     margin-bottom: 2rem;
     height: 15px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBMPlexSans-Light";
     font-size: 12px;
     font-weight: 500;
@@ -4492,7 +4613,7 @@
   .Footer .container .foooterBody .footerBodyKanan .linkedIn h5 {
     margin-top: 0.5rem;
     margin-left: 1rem;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBMPlexSans";
     font-size: 15px;
     letter-spacing: -0.22px;
@@ -4566,35 +4687,35 @@
     background-color: transparent;
   }
   .navbar .nav-item .nav-link {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBMPlexSans-Medium";
     font-size: 16px;
     font-weight: 600;
     letter-spacing: -0.26px;
     line-height: 23px;
     margin-right: 5.3125rem;
-    margin-left: .75rem;
+    margin-left: 0.75rem;
     margin-bottom: -10rem;
     padding-left: 0;
     padding-right: 0;
   }
   .navbar .nav-item .nav-link:hover {
-    border-bottom: #F05E36 3px solid;
+    border-bottom: #f05e36 3px solid;
     border-width: 30%;
   }
   .navbar .nav-item img {
     background-color: rebeccapurple;
-    color: #0A2939;
+    color: #0a2939;
   }
   .navbar .nav-item.dropdown .nav-link {
-    border: 2px solid #E5E5E5;
+    border: 2px solid #e5e5e5;
     padding-left: 2.4375rem;
     padding-right: 4.4375rem;
     border-radius: 1.5rem;
     font-family: "IBMPlexSans";
   }
   .navbar .nav-item.dropdown .nav-link::after {
-    color: #F05E36;
+    color: #f05e36;
   }
   .navbar img {
     position: absolute;
@@ -4629,10 +4750,10 @@
   .sectionSatu .sectionSatuKiri .text {
     position: absolute;
     top: 21.875rem;
-    margin-left: 1rem;
+    margin-left: 4rem;
   }
   .sectionSatu .sectionSatuKiri .text h1 {
-    color: #F05E36;
+    color: #f05e36;
     font-family: Butler;
     font-size: 100px;
     letter-spacing: -1.47px;
@@ -4655,12 +4776,12 @@
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    margin-right: -2rem;
+    margin-right: -6rem;
     height: 405px;
   }
   .sectionSatu .sectionSatuKanan .overlay {
     margin-left: 16.8125rem;
-    background-color: #F05E36;
+    background-color: #f05e36;
   }
   .sectionSatu .sectionSatuKanan .overlay img {
     width: 100%;
@@ -4696,7 +4817,7 @@
   .sectionDua .sectionDuaKiri .wraperKiri-One h3 {
     height: 184px;
     width: 507px;
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 28.6px;
     font-weight: 300;
@@ -4708,7 +4829,7 @@
     margin-top: 1.875rem;
   }
   .sectionDua .sectionDuaKiri .wraperKiri-Two p {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     font-weight: 300;
@@ -4723,7 +4844,7 @@
             box-sizing: border-box;
     height: 105px;
     width: 2px;
-    border-right: 2px solid #F66E49;
+    border-right: 2px solid #f66e49;
     display: block;
     position: relative;
     left: 37%;
@@ -4744,7 +4865,7 @@
   }
   .sectionDua .sectionDuaKiri .wraperKiri-Four h3 {
     margin-bottom: 2rem;
-    color: #F05E36;
+    color: #f05e36;
     font-family: Butler;
     font-size: 40px;
     font-weight: 300;
@@ -4754,7 +4875,7 @@
   .sectionDua .sectionDuaKiri .wraperKiri-Four p {
     height: 102px;
     width: 374px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBM Plex Sans";
     font-size: 22px;
     font-weight: 300;
@@ -4779,7 +4900,7 @@
   .sectionDua .sectionDuaKanan .wraperKanan-One p {
     height: 20px;
     width: 138px;
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     font-weight: 500;
@@ -4790,7 +4911,7 @@
   .sectionDua .sectionDuaKanan .wraperKanan-One li {
     list-style: none;
     width: 374px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: Butler;
     font-size: 40px;
     font-weight: 300;
@@ -4804,7 +4925,7 @@
   .sectionDua .sectionDuaKanan .wraperKanan-Two p {
     height: 241px;
     width: 486px;
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     font-weight: 300;
@@ -4824,7 +4945,7 @@
   .sectionDua .sectionDuaKanan .wraperKanan-Three h3 {
     height: 72px;
     width: 497px;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 28px;
     font-weight: 500;
@@ -4835,7 +4956,7 @@
   .sectionDua .sectionDuaKanan .wraperKanan-Three p {
     height: 150px;
     width: 486px;
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     font-weight: 300;
@@ -4845,7 +4966,7 @@
   .sectionDua .wraperKanan-Four h1 {
     height: 36px;
     width: 497px;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 28px;
     font-weight: 500;
@@ -4857,7 +4978,7 @@
     padding-left: 0;
   }
   .sectionDua .wraperKanan-Four ul li {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "IBMPlexSans-Light";
     font-size: 16px;
     font-weight: 300;
@@ -4875,7 +4996,7 @@
     font-size: 40px;
     letter-spacing: -0.1px;
     line-height: 30px;
-    margin-right: .625rem;
+    margin-right: 0.625rem;
     display: inline;
   }
   .sectionDua .wraperKanan-Four ul li p {
@@ -4899,16 +5020,31 @@
   }
   .sectionTiga .sectionTigaAtas h1 {
     width: 916px;
-    color: #0A2939;
+    color: #0a2939;
     font-family: Butler;
     font-size: 56px;
     letter-spacing: -0.82px;
     line-height: 56px;
   }
-  .sectionTiga .sectionTigaBawah {
-    margin-top: 5rem;
+  .sectionTiga .carousel-indicators {
+    left: auto;
+    bottom: auto;
+    right: -9rem;
+    top: -3rem;
+    font-size: 20px;
   }
-  .sectionTiga .sectionTigaBawah .containerSlide {
+  .sectionTiga .carousel-indicators li {
+    margin: 0.1rem;
+    opacity: 0.6;
+  }
+  .sectionTiga .carousel-indicators .active {
+    opacity: 1 !important;
+  }
+  .sectionTiga .carousel-control-prev,
+  .sectionTiga .carousel-control-next {
+    display: none;
+  }
+  .sectionTiga .containerSlide {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4917,26 +5053,37 @@
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  .sectionTiga .sectionTigaBawah .containerSlide .logo {
+  .sectionTiga .containerSlide .logo {
     padding-left: 0;
   }
-  .sectionTiga .sectionTigaBawah .containerSlide div {
+  .sectionTiga .containerSlide div {
     margin-right: 1rem;
     padding-left: 2rem;
   }
-  .sectionTiga .sectionTigaBawah .containerSlide .cardSlider {
+  .sectionTiga .containerSlide .cardSlider {
+    position: relative;
     padding: 4rem 3rem;
     margin-left: 2rem;
-    background-color: #F05E36;
+    background-color: #f05e36;
   }
-  .sectionTiga .sectionTigaBawah .containerSlide .cardSlider :nth-child(3) {
+  .sectionTiga .containerSlide .cardSlider img {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    width: -webkit-fill-available;
+  }
+  .sectionTiga .containerSlide .cardSlider :nth-child(1):hover {
+    opacity: 0;
+  }
+  .sectionTiga .containerSlide .cardSlider :nth-child(4) {
     margin-top: -1rem;
     margin-bottom: 4rem;
   }
-  .sectionTiga .sectionTigaBawah .containerSlide .cardSlider a {
+  .sectionTiga .containerSlide .cardSlider a {
     height: 47px;
     width: 328px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     letter-spacing: -0.09px;
@@ -4945,24 +5092,27 @@
     text-decoration: none;
     margin-bottom: 8rem;
   }
-  .sectionTiga .sectionTigaBawah .containerSlide .cardSlider h2 {
+  .sectionTiga .containerSlide .cardSlider h2 {
     height: 28px;
     width: 310px;
-    color: #0A2939;
+    color: #0a2939;
     font-family: Butler;
     font-size: 28px;
     letter-spacing: 0;
     line-height: 34px;
     margin-bottom: 1rem;
   }
-  .sectionTiga .sectionTigaBawah .containerSlide .cardSlider p {
+  .sectionTiga .containerSlide .cardSlider p {
     width: 328px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     letter-spacing: -0.09px;
     line-height: 24px;
     margin-bottom: 1rem;
+  }
+  .sectionTiga .sectionTigaBawah {
+    margin-top: 5rem;
   }
   .sectionEmpat {
     display: -webkit-box;
@@ -4980,7 +5130,7 @@
     padding-bottom: 0;
   }
   .sectionEmpat li {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "Butler-Light";
     font-size: 40px;
     font-weight: 300;
@@ -4990,7 +5140,7 @@
   .sectionEmpat .sectionEmpatAtas h5 {
     height: 20px;
     width: 417px;
-    color: #F05E36;
+    color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     font-weight: 500;
@@ -5016,16 +5166,16 @@
     display: flex;
   }
   .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri li .strip {
-    color: #F05E36;
+    color: #f05e36;
     font-size: 40px;
     font-weight: 300;
     letter-spacing: 0;
     line-height: 48px;
-    margin-right: .625rem;
-    padding-top: .625rem;
+    margin-right: 0.625rem;
+    padding-top: 0.625rem;
   }
   .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri li p {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "Butler-Light";
     font-size: 40px;
     font-weight: 300;
@@ -5033,7 +5183,7 @@
     line-height: 48px;
   }
   .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri li p:hover {
-    color: #F05E36;
+    color: #f05e36;
   }
   .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan {
     width: 50%;
@@ -5049,16 +5199,16 @@
     display: flex;
   }
   .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan li .strip {
-    color: #F05E36;
+    color: #f05e36;
     font-size: 40px;
     font-weight: 300;
     letter-spacing: 0;
     line-height: 48px;
-    margin-right: .625rem;
-    padding-top: .625rem;
+    margin-right: 0.625rem;
+    padding-top: 0.625rem;
   }
   .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan li p {
-    color: #0A2939;
+    color: #0a2939;
     font-family: "Butler-Light";
     font-size: 40px;
     font-weight: 300;
@@ -5066,7 +5216,7 @@
     line-height: 48px;
   }
   .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan li p:hover {
-    color: #F05E36;
+    color: #f05e36;
   }
   .sectionLima {
     border: 10px solid #f66f4933;
@@ -5093,11 +5243,13 @@
   .sectionLima .sectionLimaBody .title {
     margin-bottom: 3.125rem;
   }
-  .sectionLima .sectionLimaBody .title, .sectionLima .sectionLimaBody .SectionLimaTengah, .sectionLima .sectionLimaBody .SectionLimaBawah {
+  .sectionLima .sectionLimaBody .title,
+  .sectionLima .sectionLimaBody .SectionLimaTengah,
+  .sectionLima .sectionLimaBody .SectionLimaBawah {
     margin: 0 5rem;
   }
   .sectionLima .sectionLimaBody p {
-    color: #F66E49;
+    color: #f66e49;
     font-family: "IBMPlexSans";
     font-size: 22px;
     letter-spacing: -0.32px;
@@ -5124,7 +5276,7 @@
   }
   .sectionLima .sectionLimaBody .title .title-1 h2 {
     height: 81px;
-    color: #002F39;
+    color: #002f39;
     font-family: "Minion-Bold";
     font-size: 26px;
     font-weight: bold;
@@ -5144,7 +5296,7 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
     margin-bottom: 4rem;
-    border-bottom: 1px solid #E8D4CF;
+    border-bottom: 1px solid #e8d4cf;
   }
   .sectionLima .sectionLimaBody .SectionLimaTengah .email {
     padding: 0.5rem;
@@ -5183,7 +5335,8 @@
     margin-right: 0.3rem;
     margin-left: 0.5rem;
   }
-  .sectionLima .sectionLimaBody .SectionLimaTengah .text, .sectionLima .sectionLimaBody .SectionLimaTengah .terms {
+  .sectionLima .sectionLimaBody .SectionLimaTengah .text,
+  .sectionLima .sectionLimaBody .SectionLimaTengah .terms {
     color: #002f39;
     font-family: "IBMPlexSans";
     font-size: 16px;
@@ -5200,7 +5353,7 @@
     border-left: none;
     border-right: none;
     padding-bottom: 1.6rem;
-    border-bottom: 1px solid #E8D4CF;
+    border-bottom: 1px solid #e8d4cf;
     outline: none;
   }
   .sectionLima .SectionLimaBawahDua {
@@ -5224,13 +5377,13 @@
     border: 1px solid #fff;
     padding: 1rem 4rem;
     border-radius: 2.4rem;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0;
     line-height: 20px;
-    background-color: #F05E36;
+    background-color: #f05e36;
   }
   .Footer {
     width: 100%;
@@ -5241,7 +5394,7 @@
   .Footer .container {
     background-color: #021925;
     height: 100%;
-    color: #E8D4CF;
+    color: #e8d4cf;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -5266,8 +5419,8 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    border-top: 1.5px solid #113D53;
-    border-bottom: 1.5px solid #113D53;
+    border-top: 1.5px solid #113d53;
+    border-bottom: 1.5px solid #113d53;
     width: 90%;
     height: 10rem;
     -webkit-box-pack: space-evenly;
@@ -5284,13 +5437,13 @@
             flex-direction: row;
     width: 65%;
     padding: 3rem 2rem;
-    border-right: 2px #113D53 solid;
+    border-right: 2px #113d53 solid;
   }
   .Footer .container .foooterBody .footerBodyKiri li {
     list-style: none;
     margin-bottom: 2rem;
     height: 15px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBMPlexSans-Light";
     font-size: 12px;
     font-weight: 500;
@@ -5341,101 +5494,7 @@
   .Footer .container .foooterBody .footerBodyKanan .linkedIn h5 {
     margin-top: 0.5rem;
     margin-left: 1rem;
-    color: #FFFFFF;
-    font-family: "IBMPlexSans";
-    font-size: 15px;
-    letter-spacing: -0.22px;
-    line-height: 19.5px;
-  }
-}
-/*# sourceMappingURL=Halaman2.css.map */er {
-    margin-top: 8rem;
-    margin-bottom: 6rem;
-  }
-  .Footer .container .footerHeader img {
-    width: 12.5rem;
-    opacity: 0.8;
-  }
-  .Footer .container .foooterBody {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    border-top: 1.5px solid #113D53;
-    border-bottom: 1.5px solid #113D53;
-    width: 90%;
-    height: 10rem;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-  }
-  .Footer .container .foooterBody .footerBodyKiri {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    width: 65%;
-    padding: 3rem 2rem;
-    border-right: 2px #113D53 solid;
-  }
-  .Footer .container .foooterBody .footerBodyKiri li {
-    list-style: none;
-    margin-bottom: 2rem;
-    height: 15px;
-    color: #FFFFFF;
-    font-family: "IBMPlexSans-Light";
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-    line-height: 15px;
-    text-transform: uppercase;
-  }
-  .Footer .container .foooterBody .footerBodyKiri .footerBodyKiriOne {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding-right: 8rem;
-    margin-right: 6rem;
-  }
-  .Footer .container .foooterBody .footerBodyKiri .footerBodyKiriTwo {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .Footer .container .foooterBody .footerBodyKanan {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .Footer .container .foooterBody .footerBodyKanan .linkedIn {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-decoration: none;
-  }
-  .Footer .container .foooterBody .footerBodyKanan .linkedIn h5 {
-    margin-top: 0.5rem;
-    margin-left: 1rem;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "IBMPlexSans";
     font-size: 15px;
     letter-spacing: -0.22px;

@@ -44,7 +44,7 @@ $ibmMedium: "IBMPlexSans-Medium";
       flex-direction: column;
       justify-content: center;
       margin-top: 0;
-      margin-left: 30%;
+      // margin-left: 30%;
       h1 {
         // height: 26px;
         color: #ffffff;
@@ -57,7 +57,8 @@ $ibmMedium: "IBMPlexSans-Medium";
         text-align: left;
         margin-right: auto;
       }
-      p, span.terms-cookies {
+      p,
+      span.terms-cookies {
         // height: 26px;
         color: #ffffff;
         font-family: $ibmReguler;
@@ -75,7 +76,9 @@ $ibmMedium: "IBMPlexSans-Medium";
       display: flex;
       align-items: center;
       text-align: center;
-      margin-right: 15%;
+      align-items: end;
+      margin-bottom: 2rem;
+      // margin-right: 15%;
 
       button {
         color: #ffffff;
@@ -102,7 +105,7 @@ $ibmMedium: "IBMPlexSans-Medium";
       justify-content: space-around;
       flex-direction: column;
       // height: 19rem !important;
-  
+
       .cookieskiri {
         width: 100% !important;
         display: flex;
@@ -119,7 +122,8 @@ $ibmMedium: "IBMPlexSans-Medium";
           letter-spacing: -0.29px;
           line-height: 26px;
         }
-        p, span.terms-cookies {
+        p,
+        span.terms-cookies {
           height: auto !important;
           width: auto !important;
           color: #ffffff;
@@ -135,9 +139,10 @@ $ibmMedium: "IBMPlexSans-Medium";
         margin-bottom: 2rem;
         display: flex !important;
         justify-content: space-around;
-        align-items: center;
+        align-items: end;
+        margin-bottom: 2rem;
         text-align: center;
-    
+
         button {
           color: #ffffff;
           margin-left: 0rem !important;
@@ -149,12 +154,12 @@ $ibmMedium: "IBMPlexSans-Medium";
           font-size: 16px;
           margin-right: 0;
         }
-    
+
         :hover {
           background-color: #ffffff;
           color: #0a2939;
         }
-  
+
         button.plus {
           margin-right: auto;
         }
@@ -185,7 +190,8 @@ $ibmMedium: "IBMPlexSans-Medium";
           letter-spacing: -0.29px;
           line-height: 26px;
         }
-        p, span.terms-cookies {
+        p,
+        span.terms-cookies {
           height: auto !important;
           width: auto !important;
           color: #ffffff;
@@ -202,7 +208,7 @@ $ibmMedium: "IBMPlexSans-Medium";
         justify-content: space-around;
         align-items: center;
         text-align: center;
-    
+
         button {
           color: #ffffff;
           font-size: 20px;
@@ -214,7 +220,7 @@ $ibmMedium: "IBMPlexSans-Medium";
           border-radius: 24px;
           width: 30%;
         }
-    
+
         :hover {
           background-color: #ffffff;
           color: #0a2939;
