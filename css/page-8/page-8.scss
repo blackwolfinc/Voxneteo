@@ -31,20 +31,22 @@ $ibmMedium: "IBMPlexSans-Medium";
 
     position: fixed;
     width: 100%;
-    height: 10rem;
+    // height: 10rem;
     bottom: 0px;
     left: 0px;
     display: flex;
     justify-content: space-around;
     padding: 2rem;
+    margin-left: 0;
     .cookieskiri {
-      width: 50%;
+      // width: 50%;
       display: flex;
       flex-direction: column;
-      margin-left: 2rem;
-      margin-top: 1rem;
+      justify-content: center;
+      margin-top: 0;
+      margin-left: 30%;
       h1 {
-        height: 26px;
+        // height: 26px;
         color: #ffffff;
         font-family: $ibmSemiBold;
         font-size: 20px;
@@ -52,14 +54,17 @@ $ibmMedium: "IBMPlexSans-Medium";
         letter-spacing: -0.29px;
         line-height: 26px;
         text-transform: uppercase;
+        text-align: left;
+        margin-right: auto;
       }
       p, span.terms-cookies {
-        height: 26px;
+        // height: 26px;
         color: #ffffff;
         font-family: $ibmReguler;
         font-size: 16px;
         letter-spacing: -0.24px;
         line-height: 26px;
+        margin-right: auto;
       }
       span.terms-cookies {
         text-decoration: underline;
@@ -70,6 +75,7 @@ $ibmMedium: "IBMPlexSans-Medium";
       display: flex;
       align-items: center;
       text-align: center;
+      margin-right: 15%;
 
       button {
         color: #ffffff;
@@ -95,7 +101,7 @@ $ibmMedium: "IBMPlexSans-Medium";
     .cookiesContainer {
       justify-content: space-around;
       flex-direction: column;
-      height: 19rem !important;
+      // height: 19rem !important;
   
       .cookieskiri {
         width: 100% !important;
@@ -120,6 +126,7 @@ $ibmMedium: "IBMPlexSans-Medium";
           font-size: 16px;
           letter-spacing: -0.24px;
           line-height: 26px;
+          text-align: justify;
         }
       }
       .cookieskanan {
@@ -149,7 +156,7 @@ $ibmMedium: "IBMPlexSans-Medium";
         }
   
         button.plus {
-          margin-right: 1rem;
+          margin-right: auto;
         }
       }
     }
@@ -161,7 +168,6 @@ $ibmMedium: "IBMPlexSans-Medium";
     .cookiesContainer {
       justify-content: space-around;
       flex-direction: column;
-      height: 19rem !important;
 
       .cookieskiri {
         width: 100% !important;
@@ -212,6 +218,10 @@ $ibmMedium: "IBMPlexSans-Medium";
         :hover {
           background-color: #ffffff;
           color: #0a2939;
+        }
+
+        button.plus {
+          margin-right: auto;
         }
       }
     }
