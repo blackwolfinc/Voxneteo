@@ -358,8 +358,8 @@ html,body
     .sectionTigaBody {
 
         .title,
-        .SectionLimaTengah,
-        .SectionLimaBawah {
+        .SectionTigaTengah,
+        .SectionTigaBawah {
             margin: 0 5rem;
         }
 
@@ -464,7 +464,49 @@ html,body
             border-bottom: 1px solid #E8D4CF;
 
         }
+
+        .SectionTigaBawah {
+            input {
+                font-family: $ibmReguler;
+                font-size: 16px;
+                margin: 2rem 0rem;
+                width: 100%;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                padding-bottom: 1.6rem;
+                border-bottom: 1px solid #E8D4CF;
+                outline: none;
+            }
+        }
+
+        .SectionTigaBawahDua {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: center;
+            margin: 4rem 5rem;
+    
+            .button {
+                border: 1px solid #fff;
+                padding: 1rem 4rem;
+                border-radius: 2.4rem;
+                color: #FFFFFF;
+                font-family: $ibmMedium;
+                font-size: 16px;
+                font-weight: 500;
+                letter-spacing: 0;
+                line-height: 20px;
+                background-color: #F05E36;
+            }
+    
+            margin-bottom: 4rem;
+    
+    
+        }
     }
+
+    
 }
 
 .Footer {
@@ -718,7 +760,7 @@ html,body
             flex-direction: column;
             display: flex;
             padding: 1rem;
-            height: 22rem;
+            height: 21rem;
 
             .sectionSatuKiri {
                 background-color: transparent;
@@ -752,7 +794,7 @@ html,body
             .sectionSatuKanan {
                 position: absolute;
                 top: 12rem;
-                height: auto;
+                height: 192px;
                 margin-right: 0;
                 padding-right: 2rem;
                 width: 100%;
@@ -789,14 +831,16 @@ html,body
                     font-size: 1.6rem;
                     width: 100%;
                     line-height: 35px;
-                    height: 104px;
+                    height: 80px;
+                    display: flex;
+                    align-items: center;
                 }
             }
 
             .sectionDuaText {
                 width: 100%;
                 margin-left: 0;
-                margin-top: 1rem;
+                margin-top: 24px;
                 padding: 0;
 
                 .sideAtas {
@@ -828,7 +872,7 @@ html,body
             margin-top: 0;
 
             .sectionTigaBody {
-                height: 485px;
+                height: auto;
                 border: 4px solid rgba(246, 110, 73, 0.15);
 
                 .logo {
@@ -871,6 +915,7 @@ html,body
             }
 
             .SectionTigaTengah {
+                margin: 0;
                 flex-direction: column;
                 border-bottom: none;
 
@@ -921,6 +966,7 @@ html,body
 
                 h6 {
                     text-align: center;
+                    display: none;
                 }
 
                 .mc_fieldset {
@@ -961,6 +1007,33 @@ html,body
             h6 {
                 font-family: $ibmMedium;
                 color: $color5;
+            }
+
+            .SectionTigaBawah {
+                margin: 0 24px;
+
+                p {
+                    font-size: 18px;
+                }
+
+                input {
+                    margin: 1rem 0;
+                }
+            }
+
+            .SectionTigaBawahDua {
+                justify-content: center;
+                flex-direction: column;
+                margin: 1rem 24px;
+                margin-bottom: 2rem;
+
+                .g-recaptcha {
+                    padding-left: 2rem;
+                }
+
+                button {
+                    margin-top: 32px;
+                }
             }
             
         }
@@ -1059,7 +1132,7 @@ html,body
 }
 
 /* For tablet: */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 767px) and (max-width: 991.9px) {
     .container {
         max-width: 100%;
     }
@@ -1236,7 +1309,7 @@ html,body
                 position: absolute;
                 top: 12rem;
                 margin-right: 0;
-                height: auto;
+                height: 354px;
                 padding-right: 1rem;
 
                 img {
@@ -1250,7 +1323,7 @@ html,body
         .sectionDua {
             margin-left: 0;
             padding: 0 1rem;
-            margin-top: 1.5rem;
+            margin-top: 3.5rem;
 
             .sectionDuaJudul {
                 width: 100%;
@@ -1298,7 +1371,7 @@ html,body
             border: none;
 
             .sectionTigaBody {
-                height: 485px;
+                height: auto;
                 border: 4px solid rgba(246, 110, 73, 0.15);
 
                 .logo {
@@ -1341,6 +1414,7 @@ html,body
             .SectionTigaTengah {
                 flex-direction: column;
                 border-bottom: none;
+                margin-bottom: 2rem;
 
                 .mc-field-group {
                     display: flex;
@@ -1389,6 +1463,7 @@ html,body
 
                 h6 {
                     text-align: center;
+                    display: none;
                 }
 
                 .mc_fieldset {
@@ -1438,6 +1513,13 @@ html,body
                 color: $color5;
             }
             
+            .SectionTigaBawahDua {
+                margin: 2rem 5rem;
+
+                .button {
+                    padding: 1rem 2.5rem;
+                }
+            }
         }
     }
 
@@ -1633,7 +1715,7 @@ html,body
                 position: absolute;
                 top: 19rem;
                 margin-right: 0;
-                height: auto;
+                height: 488px;
                 width: 100%;
                 padding-right: 4rem;
 
@@ -1647,6 +1729,7 @@ html,body
         // Styling section 2
         .sectionDua {
             margin-left: 0;
+            margin-top: 3rem;
 
             .sectionDuaJudul {
                 width: 100%;
@@ -1694,7 +1777,7 @@ html,body
             border: none;
 
             .sectionTigaBody {
-                height: 485px;
+                height: auto;
                 border: 4px solid rgba(246, 110, 73, 0.15);
 
                 .logo {
@@ -1737,6 +1820,7 @@ html,body
             .SectionTigaTengah {
                 flex-direction: column;
                 border-bottom: none;
+                margin-bottom: 2rem;
 
                 .mc-field-group {
                     display: flex;
@@ -1785,6 +1869,7 @@ html,body
 
                 h6 {
                     text-align: center;
+                    display: none;
                 }
 
                 .mc_fieldset {
@@ -1832,6 +1917,14 @@ html,body
             h6 {
                 font-family: $ibmMedium;
                 color: $color5;
+            }
+
+            .SectionTigaBawahDua {
+                margin: 2rem 5rem;
+
+                // .button {
+                //     padding: 1rem 2.5rem;
+                // }
             }
             
         }
@@ -1929,18 +2022,20 @@ html,body
     }
 }
 
-// dekstop
-@media (min-width: 1367px) and (max-width: 1399px){
+//dekstop
+@media (min-width: 1366px) and (max-width: 1440px) {
     // Navbar
     .navbar {
         .container {
             .navbar {
                 span.line {
-                    margin-left: 10.8rem;
+                    position: absolute;
+                    left: -8.7rem;
                 }
                 .navbar-brand {
                     img {
-                        margin-left: 2.3rem;
+                        position: absolute;
+                        left: -7.8rem;
                     }
                 }
             }
@@ -1955,11 +2050,19 @@ html,body
 
     // Section 1
     .sectionSatu {
+        position: relative;
         .sectionSatuKiri {
             .text {
-                margin-left: 8.5rem;
+                left: 6.7rem;
+                margin-left: 0;
+                top: 17rem;
             }
-        }  
+        } 
+        .sectionSatuKanan {
+            position: absolute;
+            left: 20rem;
+            right: 0;
+        } 
     }
     // Section 2 
     .sectionDua {
@@ -1968,38 +2071,38 @@ html,body
 }
 
 //dekstop
-@media (min-width: 1400px) and (max-width: 1440px) {
-    // Navbar
-    .navbar {
-        .container {
-            .navbar {
-                span.line {
-                    margin-left: 12.8rem;
-                }
-                .navbar-brand {
-                    img {
-                        margin-left: 4.3rem;
-                    }
-                }
-            }
-        }
-        .nav-item {
-            .nav-link {
-                margin-right: 3.5rem;
-                // margin-left: 0.2rem;
-            }
-        }
-    }
-    // Section 1
-    .sectionSatu {
-        .sectionSatuKiri {
-            .text {
-                margin-left: 10.5rem;
-            }
-        }  
-    }
-    // Section 2 
-    .sectionDua {
-        margin-left: 4rem;
-    }
-}
+// @media (min-width: 1400px) and (max-width: 1440px) {
+//     // Navbar
+//     .navbar {
+//         .container {
+//             .navbar {
+//                 span.line {
+//                     margin-left: 12.8rem;
+//                 }
+//                 .navbar-brand {
+//                     img {
+//                         margin-left: 4.3rem;
+//                     }
+//                 }
+//             }
+//         }
+//         .nav-item {
+//             .nav-link {
+//                 margin-right: 3.5rem;
+//                 // margin-left: 0.2rem;
+//             }
+//         }
+//     }
+//     // Section 1
+//     .sectionSatu {
+//         .sectionSatuKiri {
+//             .text {
+//                 margin-left: 10.5rem;
+//             }
+//         }  
+//     }
+//     // Section 2 
+//     .sectionDua {
+//         margin-left: 4rem;
+//     }
+// }
