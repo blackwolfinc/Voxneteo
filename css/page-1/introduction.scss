@@ -3315,6 +3315,11 @@ li.hidden ul li {
         line-height: 2.125rem;
         letter-spacing: -0.24px;
         font-weight: 500;
+        span {
+          opacity: 0;
+          visibility: hidden;
+          display: none;
+        }
       }
     }
     .btt-side {
@@ -3372,6 +3377,7 @@ li.hidden ul li {
       font-size: 2rem;
       line-height: 2.8125rem;
       letter-spacing: -0.47px;
+      margin-bottom: 0;
     }
     .card-text {
       h4 {
@@ -3723,12 +3729,20 @@ li.hidden ul li {
         display: flex;
         padding-left: 50%;
         padding-top: 8%;
-
+        position: relative;
         span {
           display: inline-block;
-          height: 61px;
+          height: 52px;
           color: #f05e36;
           border-right: 2px solid #f05e36;
+        }
+        &::after {
+          content: "";
+          width: 2px;
+          background-color: white;
+          height: 49px;
+          position: absolute;
+          bottom: -49px;
         }
       }
     }
@@ -3934,7 +3948,7 @@ li.hidden ul li {
   }
 
   .section-4 {
-    padding: 6.875rem 6.25rem;
+    padding: 6.875rem 6.25rem 5.25rem;
     .title,
     .card-title,
     .card-text h3 {
@@ -3950,6 +3964,7 @@ li.hidden ul li {
 
       letter-spacing: -0.03125rem;
       line-height: 2.375rem;
+      margin-bottom: 3rem;
     }
     .row {
       .title,
@@ -3970,11 +3985,11 @@ li.hidden ul li {
 
       .card-list-image {
         .card {
-          height: 34.95625rem;
+          // height: 34.95625rem;
           width: 24.1rem;
           margin-bottom: 1.9375rem;
           text-align: left;
-          margin-right: 1.3125rem;
+          margin-right: 1.8375rem;
           border: none;
 
           .card-body {
@@ -4046,8 +4061,11 @@ li.hidden ul li {
       background-color: #0a2939;
       font-size: 1rem;
       padding: 0.8125rem 3.8125rem;
-      margin-top: 3.375rem;
+      margin-top: 5.05625rem;
       margin-bottom: 1.5rem;
+      width: 20rem;
+      height: 3rem;
+      padding: 0;
     }
 
     button.btn {
@@ -4057,6 +4075,7 @@ li.hidden ul li {
     button.btn-primary {
       background-color: $color4;
       border-color: $color4;
+      display: block;
     }
 
     button.btn-primary:hover {
@@ -4475,12 +4494,20 @@ li.hidden ul li {
         display: flex;
         padding-left: 50%;
         padding-top: 8%;
-
+        position: relative;
         span {
           display: inline-block;
-          height: 61px;
+          height: 52px;
           color: #f05e36;
           border-right: 2px solid #f05e36;
+        }
+        &::after {
+          content: "";
+          width: 2px;
+          background-color: white;
+          height: 49px;
+          position: absolute;
+          bottom: -49px;
         }
       }
     }
@@ -4685,7 +4712,7 @@ li.hidden ul li {
   }
 
   .section-4 {
-    padding: 6.875rem 6.25rem;
+    padding: 6.875rem 6.25rem 5.25rem;
     .title,
     .card-title,
     .card-text h3 {
@@ -4721,11 +4748,11 @@ li.hidden ul li {
 
       .card-list-image {
         .card {
-          height: 34.95625rem;
+          // height: 34.95625rem;
           width: 24.1rem;
           margin-bottom: 1.9375rem;
           text-align: left;
-          margin-right: 1.3125rem;
+          margin-right: 1.8375rem;
           border: none;
 
           .card-body {
@@ -4797,8 +4824,11 @@ li.hidden ul li {
       background-color: #0a2939;
       font-size: 1rem;
       padding: 0.8125rem 3.8125rem;
-      margin-top: 3.375rem;
+      margin-top: 5.05625rem;
       margin-bottom: 1.5rem;
+      width: 20rem;
+      height: 3rem;
+      padding: 0;
     }
 
     button.btn {
@@ -4808,6 +4838,7 @@ li.hidden ul li {
     button.btn-primary {
       background-color: $color4;
       border-color: $color4;
+      display: block;
     }
 
     button.btn-primary:hover {
@@ -5101,12 +5132,20 @@ li.hidden ul li {
         display: flex;
         padding-left: 40%;
         padding-top: 20%;
-
+        position: relative;
         span {
           display: inline-block;
-          height: 61px;
+          height: 52px;
           color: #f05e36;
           border-right: 2px solid #f05e36;
+        }
+        &::after {
+          content: "";
+          width: 2px;
+          background-color: white;
+          height: 49px;
+          position: absolute;
+          bottom: -49px;
         }
       }
     }
@@ -5241,6 +5280,7 @@ li.hidden ul li {
             font-weight: 500;
             letter-spacing: -0.01625rem;
             line-height: 2.5rem;
+            cursor: pointer;
           }
 
           .btt-side {
@@ -5313,7 +5353,7 @@ li.hidden ul li {
   }
 
   .section-4 {
-    padding: 6.875rem 6.25rem;
+    padding: 6.875rem 6.25rem 5.25rem;
     .title,
     .card-title,
     .card-text h3 {
@@ -5349,13 +5389,16 @@ li.hidden ul li {
 
       .card-list-image {
         .card {
-          height: 34.95625rem;
-          width: 24.1rem;
+          // height: 34.95625rem;
+          width: 32%;
           margin-bottom: 1.9375rem;
           border: none;
           text-align: left;
-          margin-right: 1.3125rem;
+          margin-right: 1.8375rem;
           border: none;
+          &:last-child {
+            margin-right: 0;
+          }
 
           .card-body {
             padding: 0rem;
@@ -5427,8 +5470,11 @@ li.hidden ul li {
       background-color: #0a2939;
       font-size: 1rem;
       padding: 0.8125rem 3.8125rem;
-      margin-top: 3.375rem;
+      margin-top: 5.05625rem;
       margin-bottom: 1.5rem;
+      width: 20rem;
+      height: 3rem;
+      padding: 0;
     }
 
     button.btn {
@@ -5438,6 +5484,7 @@ li.hidden ul li {
     button.btn-primary {
       background-color: $color4;
       border-color: $color4;
+      display: block;
     }
 
     button.btn-primary:hover {
@@ -5791,6 +5838,16 @@ li.hidden ul li {
             line-height: 19.5px;
           }
         }
+      }
+    }
+  }
+}
+
+.section-4 {
+  .card-list-image {
+    .card {
+      &:last-child {
+        margin-right: 0;
       }
     }
   }
