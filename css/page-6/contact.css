@@ -2049,6 +2049,9 @@
     font-weight: 600;
     letter-spacing: -0.26px;
     line-height: 23px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
   }
   .container .navbar-collapse .nav-item .nav-link:hover {
     border-bottom: #f05e36 solid 2px;
@@ -2476,15 +2479,15 @@
     font-weight: 600;
     letter-spacing: -0.26px;
     line-height: 23px;
-    margin-right: 4rem;
+    margin-right: 5.3125rem;
     margin-left: 0.75rem;
     margin-bottom: -10rem;
+    padding-left: 0;
+    padding-right: 0;
   }
   .navbar .nav-item .nav-link:hover {
-    border-bottom: #f05e36 solid 2px;
-  }
-  .navbar .nav-item .nav-link.active {
-    border-bottom: #f05e36 solid 2px;
+    border-bottom: #f05e36 3px solid;
+    border-width: 30%;
   }
   .navbar .nav-item img {
     background-color: rebeccapurple;

@@ -1972,6 +1972,9 @@ $size1: 1.6rem;
           font-weight: 600;
           letter-spacing: -0.26px;
           line-height: 23px;
+          padding-left: 0px;
+          padding-right: 0px;
+          width: 100%;
 
           &:hover {
             border-bottom: #f05e36 solid 2px;
@@ -2386,16 +2389,15 @@ $size1: 1.6rem;
         font-weight: 600;
         letter-spacing: -0.26px;
         line-height: 23px;
-        margin-right: 4rem;
+        margin-right: 5.3125rem;
         margin-left: 0.75rem;
         margin-bottom: -10rem;
+        padding-left: 0;
+        padding-right: 0;
 
         &:hover {
-          border-bottom: #f05e36 solid 2px;
-        }
-
-        &.active {
-          border-bottom: #f05e36 solid 2px;
+          border-bottom: #f05e36 3px solid;
+          border-width: 30%;
         }
       }
 
