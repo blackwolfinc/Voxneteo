@@ -4340,7 +4340,7 @@ $size1: 1.6rem;
     width: 100%;
     background-color: #021925;
     height: 40rem;
-    margin-top: 8.875rem;
+    margin-top: 9.4375rem;
 
     .container {
       background-color: #021925;
@@ -4352,13 +4352,14 @@ $size1: 1.6rem;
       align-items: center;
       flex-direction: column;
 
+      // justify-content: center;
       .footerHeader {
         margin-top: 8rem;
         margin-bottom: 6rem;
+
         img {
-          transform: scale(1.1);
+          width: 12.5rem;
           opacity: 0.8;
-          width: 14.375rem;
         }
       }
 

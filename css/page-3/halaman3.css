@@ -4174,7 +4174,7 @@
     width: 100%;
     background-color: #021925;
     height: 40rem;
-    margin-top: 8.875rem;
+    margin-top: 9.4375rem;
   }
   .Footer .container {
     background-color: #021925;
@@ -4197,10 +4197,8 @@
     margin-bottom: 6rem;
   }
   .Footer .container .footerHeader img {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    width: 12.5rem;
     opacity: 0.8;
-    width: 14.375rem;
   }
   .Footer .container .foooterBody {
     display: -webkit-box;
@@ -4230,9 +4228,7 @@
     list-style: none;
     margin-bottom: 2rem;
     height: 15px;
-
-    color: #FFFFFF;
-
+    color: #ffffff;
     font-family: "IBMPlexSans-Light";
     font-size: 12px;
     font-weight: 500;
@@ -4283,8 +4279,7 @@
   .Footer .container .foooterBody .footerBodyKanan .linkedIn h5 {
     margin-top: 0.5rem;
     margin-left: 1rem;
-
-    color: #ffffff
+    color: #ffffff;
     font-family: "IBMPlexSans";
     font-size: 15px;
     letter-spacing: -0.22px;
