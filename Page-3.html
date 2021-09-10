@@ -257,8 +257,40 @@
                                     <h6>ENVOYER</h6>
                                 </div>
 
-                              
+                                <div class="SectionLimaBawah">
+                                    <p>Aidez-nous a mieux vous conaitre</p>
+
+                                    <div class="mc-field-group"><input type="text" value="" name="FNAME" class=""
+                                            id="mce-FNAME" placeholder="Votre nom"></div>
+                                    <div class="mc-field-group"><input type="text" value="" name="LNAME" class=""
+                                            id="mce-LNAME" placeholder="Votre prenom"></div>
+                                    <div class="mc-field-group"><input type="text" value="" name="COMPANY" class=""
+                                            id="mce-COMPANY" placeholder="Societe"></div>
+                                </div>
+                            </div>
+
+                            <div id="mce-responses" class="clear">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div>
+
                             <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+
+
+                            <div class="SectionLimaBawahDua">
+                                <div class="g-recaptcha" data-sitekey="6LehUfkbAAAAAJmPAbkWQx4tJbW-fKiqjvP22XzC">
+                                    <div style="width: 304px; height: 78px;">
+                                        <div><iframe title="reCAPTCHA" src="./assets/html/anchor.html" width="304"
+                                                height="78" role="presentation" name="a-4ouob3yp8ta3" frameborder="0"
+                                                scrolling="no"
+                                                sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+                                        </div><textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                                            class="g-recaptcha-response"
+                                            style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+                                    </div>
+                                </div>
+                             <button type="submit" value="" name="subscribe"
+                                        id="mc-embedded-subscribe" class="button">Incrivez-moi</button>
                         </form>
                         
                     </div>
@@ -335,6 +367,25 @@
     
             $(".navbar-toggler").click(function () {
                 $("#main-navigation").toggle();
+            });
+
+            let SectionLimaBawah = $(".SectionLimaBawah");
+            let SectionLimaBawahDua = $(".SectionLimaBawahDua");
+                SectionLimaBawah.hide();
+                SectionLimaBawahDua.hide();
+            $("#mce-EMAIL").keyup(function() {
+                let bintang = $(".bintang");
+
+                if($("#mce-EMAIL").val().length > 0) {
+                    SectionLimaBawah.show()
+                    SectionLimaBawahDua.show();
+                    bintang.hide();
+                } else {
+                    SectionLimaBawah.hide();
+                    SectionLimaBawahDua.hide();
+                    bintang.show()
+                }
+                
             });
     
             // $("#tombol_pre").click(function() {
