@@ -847,6 +847,12 @@ body {
               margin-bottom: 16px;
             }
 
+
+        .title,
+        .SectionTigaTengah,
+        .SectionTigaBawah {
+            margin: 0 5rem;
+
             p {
               font-size: 18px;
               height: 42px;
@@ -855,6 +861,7 @@ body {
               margin-bottom: 0.5rem;
             }
           }
+
         }
       }
 
@@ -1036,9 +1043,51 @@ body {
             line-height: 19.5px;
           }
         }
-      }
+
+
+        .SectionTigaBawah {
+            input {
+                font-family: $ibmReguler;
+                font-size: 16px;
+                margin: 2rem 0rem;
+                width: 100%;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                padding-bottom: 1.6rem;
+                border-bottom: 1px solid #E8D4CF;
+                outline: none;
+            }
+        }
+
+        .SectionTigaBawahDua {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: center;
+            margin: 4rem 5rem;
+    
+            .button {
+                border: 1px solid #fff;
+                padding: 1rem 4rem;
+                border-radius: 2.4rem;
+                color: #FFFFFF;
+                font-family: $ibmMedium;
+                font-size: 16px;
+                font-weight: 500;
+                letter-spacing: 0;
+                line-height: 20px;
+                background-color: #F05E36;
+            }
+    
+            margin-bottom: 4rem;
+    
+    
+        }
     }
-  }
+
+    
+
 }
 
 /* For tablet: */
@@ -1271,6 +1320,120 @@ body {
         }
       }
     }
+    
+// Styling content
+    .container {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100%;
+
+        // styling section 1
+        .sectionSatu {
+            margin-top: 0;
+            flex-direction: column;
+            display: flex;
+            padding: 1rem;
+            height: 21rem;
+
+            .sectionSatuKiri {
+                background-color: transparent;
+
+                .text {
+                    margin-left: 0;
+                    position: absolute;
+                    top: 6rem;
+
+                    h1 {
+                        height: auto;
+                        color: #F05E36;
+                        font-family: $butler;
+                        font-size: 2.625rem;
+                        letter-spacing: -0.03875rem;
+                        line-height: 2.375rem;
+                    }
+
+                    h5 {
+                        margin-top: .75rem;
+                        color: #021925;
+                        font-family: $minionItalic;
+                        font-size: 1.125rem;
+                        font-style: italic;
+                        letter-spacing: .00625rem;
+                        line-height: 1.125rem;
+                    }
+                }
+            }
+
+            .sectionSatuKanan {
+                position: absolute;
+                top: 12rem;
+                height: 192px;
+                margin-right: 0;
+                padding-right: 2rem;
+                width: 100%;
+
+                img {
+                    height: 12rem;
+                }
+
+                img.dekstop {
+                    display: none;
+                }
+    
+                img.mobile {
+                    display: flex;
+                    border-bottom: 16px solid $color3;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+
+        // Styling section 2
+        .sectionDua {
+            margin-left: 0;
+            padding: 0 1rem;
+
+            .sectionDuaJudul {
+                width: 100%;
+                margin-left: 0;
+                margin-bottom: 0;
+                padding: 0;
+
+                h3 {
+                    font-size: 1.6rem;
+                    width: 100%;
+                    line-height: 35px;
+                    height: 80px;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+
+            .sectionDuaText {
+                width: 100%;
+                margin-left: 0;
+                margin-top: 24px;
+                padding: 0;
+
+                .sideAtas {
+                    width: 100%;
+                    margin-bottom: 41px;
+
+                    p {
+                        font-size: 14px;
+                    }
+                    h5 {
+                        font-size: 16px;
+                        margin: 28px 0;
+                    }
+                }
+                .sideButton {
+                    button {
+                        border-radius: 3rem;
+                        width: 100%;
+                    }
+                }
 
     .sectionTiga {
       width: 100%;
@@ -1315,6 +1478,7 @@ body {
               line-height: 24px;
               letter-spacing: -0.26px;
               margin-bottom: 0;
+
             }
           }
         }
@@ -1349,6 +1513,176 @@ body {
             padding: 0.5rem;
             margin-left: 0;
             margin-right: 0;
+
+            border: none;
+            margin-top: 0;
+
+            .sectionTigaBody {
+                height: auto;
+                border: 4px solid rgba(246, 110, 73, 0.15);
+
+                .logo {
+                    display: flex;
+                    justify-content: flex-end;
+                    padding-top: 1.25rem;
+                    padding-left: 3.75rem;
+                    padding-right: 3.75rem;
+                    padding-bottom: 2.3125rem;
+
+                    img {
+                        width: 11.625rem;
+                    }
+                }
+
+                .title {
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 0;
+                    margin-top: 0;
+
+                    .title-1 {
+                        h2 {
+                            font-size: 22px;
+                            height: 32px;
+                            line-height: 24px;
+                            letter-spacing: 8px;
+                            margin-bottom: 16px;
+                        }
+
+                        p {
+                            font-size: 18px;
+                            height: 42px;
+                            line-height: 24px;
+                            letter-spacing: -0.26px;
+                            margin-bottom: 0.5rem;
+                        }
+                    }
+                }
+            }
+
+            .SectionTigaTengah {
+                margin: 0;
+                flex-direction: column;
+                border-bottom: none;
+
+                .mc-field-group {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    input {
+                        color: #363636;
+                        font-family: $ibmReguler;
+                        font-size: 16px;
+                        letter-spacing: -0.24px;
+                        line-height: 30px;
+                        text-align: center;
+                        margin: auto;
+                        margin-top: auto;
+                        margin-top: auto;
+                        display: block;
+                        border-bottom: 1px solid #E8D4CF;
+                        margin-top: 35px;
+                        padding-bottom: 1rem;
+                    }
+
+                    .email {
+                        padding: 0.5rem;
+                        margin-left: 0;
+                        margin-right: 0;
+                        padding-right: 0;
+                    }
+                }
+                ::placeholder {
+                    border-left: none;
+                    width: 100%;
+                }
+                
+                [placeholder] + span::after{
+                    position: absolute;
+                }
+    
+                // .mc-field-group::after {
+                //     content:" *";
+                //     color: red;
+                //     display: inline;
+                //     margin-left: -20px;
+                // }
+
+
+                h6 {
+                    text-align: center;
+                    display: none;
+                }
+
+                .mc_fieldset {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 1.3125rem;
+                    margin-bottom: 1.875rem;
+
+                    input {
+                        box-sizing: border-box;
+                        width: 10.85px;
+                        border: 2px solid #FFFFFF;
+                        margin-right: 0;
+                    }
+
+                    .text {
+                        color: #002F39;
+                        font-family: $ibmReguler;
+                        font-size: 14px;
+                        letter-spacing: -0.21px;
+                        line-height: 18px;
+                        padding-right: .3125rem;
+                        margin-right: 0;
+                    }
+
+                    a {
+                        color:$color5;
+                        font-family: $ibmReguler;
+                        font-size: 14px;
+                        letter-spacing: -0.21px;
+                        line-height: 18px;
+                        text-decoration: underline;
+                    }
+                    
+                }
+            }
+            
+            h6 {
+                font-family: $ibmMedium;
+                color: $color5;
+            }
+
+            .SectionTigaBawah {
+                margin: 0 24px;
+
+                p {
+                    font-size: 18px;
+                }
+
+                input {
+                    margin: 1rem 0;
+                }
+            }
+
+            .SectionTigaBawahDua {
+                justify-content: center;
+                flex-direction: column;
+                margin: 1rem 24px;
+                margin-bottom: 2rem;
+
+                .g-recaptcha {
+                    padding-left: 2rem;
+                }
+
+                button {
+                    margin-top: 32px;
+                }
+            }
+            
+
             padding-right: 0;
           }
         }
@@ -1370,6 +1704,7 @@ body {
 
         h6 {
           text-align: center;
+
         }
 
         .mc_fieldset {
@@ -1511,12 +1846,11 @@ body {
 }
 
 /* For tablet: */
-@media (min-width: 992px) and (max-width: 1366px) {
-  .container {
-    max-width: 100%;
-  }
 
-  .navbar {
+@media (min-width: 767px) and (max-width: 991.9px) {
+
+
+
     .container {
       .navbar {
         span.line {
@@ -1562,6 +1896,42 @@ body {
     }
   }
 
+
+            .sectionSatuKanan {
+                position: absolute;
+                top: 12rem;
+                margin-right: 0;
+                height: 354px;
+                padding-right: 1rem;
+
+                img {
+                    // height: 12rem;
+                    margin-right: 0;
+                }
+            }
+        }
+
+        // Styling section 2
+        .sectionDua {
+            margin-left: 0;
+            padding: 0 1rem;
+            margin-top: 3.5rem;
+
+            .sectionDuaJudul {
+                width: 100%;
+                margin-left: 0;
+                padding: 0;
+                height: 104px;
+                margin-bottom: 0.5rem;
+
+                h3 {
+                    width: 100%;
+                    line-height: 35px;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+
   // Styling content
   .container {
     margin-left: 0;
@@ -1605,6 +1975,158 @@ body {
         }
       }
 
+
+            .sectionTigaBody {
+                height: auto;
+                border: 4px solid rgba(246, 110, 73, 0.15);
+
+                .logo {
+                    display: flex;
+                    justify-content: flex-end;
+                    padding-top: 1.25rem;
+                    padding-left: 3.75rem;
+                    padding-right: 3.75rem;
+                    padding-bottom: 2.3125rem;
+
+                    img {
+                        width: 11.625rem;
+                    }
+                }
+
+                .title {
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 0;
+                    margin-top: 0;
+
+                    .title-1 {
+                        h2 {
+                            height: 46px;
+                            line-height: 24px;
+                            letter-spacing: 8px;
+                            margin-bottom: 16px;
+                        }
+
+                        p {
+                            height: 42px;
+                            line-height: 24px;
+                            letter-spacing: -0.26px;
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+
+            .SectionTigaTengah {
+                flex-direction: column;
+                border-bottom: none;
+                margin-bottom: 2rem;
+
+                .mc-field-group {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    input {
+                        color: #363636;
+                        font-family: $ibmReguler;
+                        font-size: 16px;
+                        letter-spacing: -0.24px;
+                        line-height: 30px;
+                        text-align: center;
+                        margin: auto;
+                        margin-top: auto;
+                        margin-top: auto;
+                        display: block;
+                        border-bottom: 1px solid #E8D4CF;
+                        margin-top: 35px;
+                        padding-bottom: 1rem;
+                    }
+
+                    .email {
+                        padding: 0.5rem;
+                        margin-left: 0;
+                        margin-right: 0;
+                        padding-right: 0;
+                    }
+                }
+                ::placeholder {
+                    border-left: none;
+                    width: 100%;
+                }
+                
+                [placeholder] + span::after{
+                    position: absolute;
+                }
+    
+                // .mc-field-group::after {
+                //     content:" *";
+                //     color: red;
+                //     display: inline;
+                //     margin-left: -20px;
+                // }
+
+
+                h6 {
+                    text-align: center;
+                    display: none;
+                }
+
+                .mc_fieldset {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 1.3125rem;
+                    margin-bottom: 1.875rem;
+
+                    input {
+                        box-sizing: border-box;
+                        width: 10.85px;
+                        border: 2px solid #FFFFFF;
+                        margin-right: 0;
+                    }
+
+                    .av-checkbox {
+                        width: auto;
+                    }
+
+                    .text {
+                        color: #002F39;
+                        font-family: $ibmReguler;
+                        letter-spacing: -0.21px;
+                        line-height: 18px;
+                        padding-right: .3125rem;
+                        margin-right: 0;
+                    }
+
+                    .terms {
+                        font-size: 16px;
+                    }
+
+                    a {
+                        color:$color5;
+                        font-family: $ibmReguler;
+                        font-size: 14px;
+                        letter-spacing: -0.21px;
+                        line-height: 18px;
+                        text-decoration: underline;
+                    }
+                    
+                }
+            }
+            
+            h6 {
+                font-family: $ibmMedium;
+                color: $color5;
+            }
+            
+            .SectionTigaBawahDua {
+                margin: 2rem 5rem;
+
+                .button {
+                    padding: 1rem 2.5rem;
+                }
+            }
+
       .sectionSatuKanan {
         position: absolute;
         top: 19rem;
@@ -1616,6 +2138,7 @@ body {
         img {
           // height: 12rem;
           margin-right: 0;
+
         }
       }
     }
@@ -1700,11 +2223,26 @@ body {
               margin-bottom: 16px;
             }
 
+
+            .sectionSatuKanan {
+                position: absolute;
+                top: 19rem;
+                margin-right: 0;
+                height: 488px;
+                width: 100%;
+                padding-right: 4rem;
+
+                img {
+                    // height: 12rem;
+                    margin-right: 0;
+                }
+
             p {
               height: 42px;
               line-height: 24px;
               letter-spacing: -0.26px;
               margin-bottom: 0;
+
             }
           }
         }
@@ -1738,6 +2276,9 @@ body {
           .email {
             padding: 0.5rem;
             margin-left: 0;
+
+            margin-top: 3rem;
+
             margin-right: 0;
             padding-right: 0;
           }
@@ -1746,6 +2287,7 @@ body {
           border-left: none;
           width: 100%;
         }
+
 
         [placeholder] + span::after {
           position: absolute;
@@ -1775,6 +2317,158 @@ body {
             margin-right: 0;
           }
 
+            .sectionTigaBody {
+                height: auto;
+                border: 4px solid rgba(246, 110, 73, 0.15);
+
+                .logo {
+                    display: flex;
+                    justify-content: flex-end;
+                    padding-top: 1.25rem;
+                    padding-left: 3.75rem;
+                    padding-right: 3.75rem;
+                    padding-bottom: 2.3125rem;
+
+                    img {
+                        width: 11.625rem;
+                    }
+                }
+
+                .title {
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 0;
+                    margin-top: 0;
+
+                    .title-1 {
+                        h2 {
+                            height: 46px;
+                            line-height: 24px;
+                            letter-spacing: 8px;
+                            margin-bottom: 16px;
+                        }
+
+                        p {
+                            height: 42px;
+                            line-height: 24px;
+                            letter-spacing: -0.26px;
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+
+            .SectionTigaTengah {
+                flex-direction: column;
+                border-bottom: none;
+                margin-bottom: 2rem;
+
+                .mc-field-group {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    input {
+                        color: #363636;
+                        font-family: $ibmReguler;
+                        font-size: 16px;
+                        letter-spacing: -0.24px;
+                        line-height: 30px;
+                        text-align: center;
+                        margin: auto;
+                        margin-top: auto;
+                        margin-top: auto;
+                        display: block;
+                        border-bottom: 1px solid #E8D4CF;
+                        margin-top: 35px;
+                        padding-bottom: 1rem;
+                    }
+
+                    .email {
+                        padding: 0.5rem;
+                        margin-left: 0;
+                        margin-right: 0;
+                        padding-right: 0;
+                    }
+                }
+                ::placeholder {
+                    border-left: none;
+                    width: 100%;
+                }
+                
+                [placeholder] + span::after{
+                    position: absolute;
+                }
+    
+                // .mc-field-group::after {
+                //     content:" *";
+                //     color: red;
+                //     display: inline;
+                //     margin-left: -20px;
+                // }
+
+
+                h6 {
+                    text-align: center;
+                    display: none;
+                }
+
+                .mc_fieldset {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 1.3125rem;
+                    margin-bottom: 1.875rem;
+
+                    input {
+                        box-sizing: border-box;
+                        width: 10.85px;
+                        border: 2px solid #FFFFFF;
+                        margin-right: 0;
+                    }
+
+                    .av-checkbox {
+                        width: auto;
+                    }
+
+                    .text {
+                        color: #002F39;
+                        font-family: $ibmReguler;
+                        letter-spacing: -0.21px;
+                        line-height: 18px;
+                        padding-right: .3125rem;
+                        margin-right: 0;
+                    }
+
+                    .terms {
+                        font-size: 16px;
+                    }
+
+                    a {
+                        color:$color5;
+                        font-family: $ibmReguler;
+                        font-size: 14px;
+                        letter-spacing: -0.21px;
+                        line-height: 18px;
+                        text-decoration: underline;
+                    }
+                    
+                }
+            }
+            
+            h6 {
+                font-family: $ibmMedium;
+                color: $color5;
+            }
+
+            .SectionTigaBawahDua {
+                margin: 2rem 5rem;
+
+                // .button {
+                //     padding: 1rem 2.5rem;
+                // }
+            }
+            
+
           .av-checkbox {
             width: auto;
           }
@@ -1800,6 +2494,7 @@ body {
             line-height: 18px;
             text-decoration: underline;
           }
+
         }
       }
 
@@ -1900,27 +2595,50 @@ body {
   }
 }
 
-// dekstop
-@media (min-width: 1367px) and (max-width: 1399px) {
-  // Navbar
-  .navbar {
-    .container {
-      .navbar {
-        span.line {
-          margin-left: 10.8rem;
-        }
-        .navbar-brand {
-          img {
-            margin-left: 2.3rem;
-          }
-        }
-      }
-    }
+
+//dekstop
+@media (min-width: 1366px) and (max-width: 1440px) {
+    // Navbar
+    .navbar {
+        .container {
+            .navbar {
+                span.line {
+                    position: absolute;
+                    left: -8.7rem;
+                }
+                .navbar-brand {
+                    img {
+                        position: absolute;
+                        left: -7.8rem;
+                    }
+                }
+            }
+
+
+
+
+    // Section 1
+    .sectionSatu {
+        position: relative;
+        .sectionSatuKiri {
+            .text {
+                left: 6.7rem;
+                margin-left: 0;
+                top: 17rem;
+            }
+        } 
+        .sectionSatuKanan {
+            position: absolute;
+            left: 20rem;
+            right: 0;
+        } 
+
     .nav-item {
       .nav-link {
         margin-right: 3.5rem;
         // margin-left: 0.2rem;
       }
+
     }
   }
 
@@ -1939,38 +2657,40 @@ body {
 }
 
 //dekstop
-@media (min-width: 1400px) and (max-width: 1440px) {
-  // Navbar
-  .navbar {
-    .container {
-      .navbar {
-        span.line {
-          margin-left: 12.8rem;
-        }
-        .navbar-brand {
-          img {
-            margin-left: 4.3rem;
-          }
-        }
-      }
-    }
-    .nav-item {
-      .nav-link {
-        margin-right: 3.5rem;
-        // margin-left: 0.2rem;
-      }
-    }
-  }
-  // Section 1
-  .sectionSatu {
-    .sectionSatuKiri {
-      .text {
-        margin-left: 10.5rem;
-      }
-    }
-  }
-  // Section 2
-  .sectionDua {
-    margin-left: 4rem;
-  }
-}
+
+// @media (min-width: 1400px) and (max-width: 1440px) {
+//     // Navbar
+//     .navbar {
+//         .container {
+//             .navbar {
+//                 span.line {
+//                     margin-left: 12.8rem;
+//                 }
+//                 .navbar-brand {
+//                     img {
+//                         margin-left: 4.3rem;
+//                     }
+//                 }
+//             }
+//         }
+//         .nav-item {
+//             .nav-link {
+//                 margin-right: 3.5rem;
+//                 // margin-left: 0.2rem;
+//             }
+//         }
+//     }
+//     // Section 1
+//     .sectionSatu {
+//         .sectionSatuKiri {
+//             .text {
+//                 margin-left: 10.5rem;
+//             }
+//         }  
+//     }
+//     // Section 2 
+//     .sectionDua {
+//         margin-left: 4rem;
+//     }
+// }
+

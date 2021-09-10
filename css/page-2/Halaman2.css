@@ -5419,8 +5419,9 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    border-top: 1.5px solid #113d53;
-    border-bottom: 1.5px solid #113d53;
+
+    border-top: 1.5px solid #113D53;
+    border-bottom: 1.5px solid #113D53
     width: 90%;
     height: 10rem;
     -webkit-box-pack: space-evenly;
@@ -5437,13 +5438,17 @@
             flex-direction: row;
     width: 65%;
     padding: 3rem 2rem;
-    border-right: 2px #113d53 solid;
+
+    border-right: 2px #113D53 solid;
+
   }
   .Footer .container .foooterBody .footerBodyKiri li {
     list-style: none;
     margin-bottom: 2rem;
     height: 15px;
-    color: #ffffff;
+
+    color: #FFFFFF;
+
     font-family: "IBMPlexSans-Light";
     font-size: 12px;
     font-weight: 500;
@@ -5494,7 +5499,9 @@
   .Footer .container .foooterBody .footerBodyKanan .linkedIn h5 {
     margin-top: 0.5rem;
     margin-left: 1rem;
-    color: #ffffff;
+
+    color: #FFFFFF;
+
     font-family: "IBMPlexSans";
     font-size: 15px;
     letter-spacing: -0.22px;
