@@ -208,6 +208,10 @@ li.hidden ul li {
   margin-top: 5rem;
 }
 
+.Footer .container .foooterBody .footerBodyKanan {
+  min-width: 242px;
+}
+
 @media (min-width: 0px) and (max-width: 376.98px) {
   .row {
     --bs-gutter-x: 0rem !important;
@@ -2867,10 +2871,17 @@ li.hidden ul li {
     letter-spacing: -0.24px;
     font-weight: 500;
   }
+  .container-contents-section3 ul li:hover span {
+    opacity: 1;
+  }
   .container-contents-section3 ul li span {
     opacity: 0;
-    visibility: hidden;
-    display: none;
+    position: absolute;
+    left: 10px;
+    margin-top: -1rem;
+  }
+  .container-contents-section3 ul li img {
+    width: 93%;
   }
   .container-contents-section3 .btt-side {
     background-color: white;
