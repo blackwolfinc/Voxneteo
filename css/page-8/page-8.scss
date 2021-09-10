@@ -31,20 +31,22 @@ $ibmMedium: "IBMPlexSans-Medium";
 
     position: fixed;
     width: 100%;
-    height: 10rem;
+    // height: 10rem;
     bottom: 0px;
     left: 0px;
     display: flex;
     justify-content: space-around;
     padding: 2rem;
+    margin-left: 0;
     .cookieskiri {
-      width: 50%;
+      // width: 50%;
       display: flex;
       flex-direction: column;
-      margin-left: 2rem;
-      margin-top: 1rem;
+      justify-content: center;
+      margin-top: 0;
+      // margin-left: 30%;
       h1 {
-        height: 26px;
+        // height: 26px;
         color: #ffffff;
         font-family: $ibmSemiBold;
         font-size: 20px;
@@ -52,14 +54,18 @@ $ibmMedium: "IBMPlexSans-Medium";
         letter-spacing: -0.29px;
         line-height: 26px;
         text-transform: uppercase;
+        text-align: left;
+        margin-right: auto;
       }
-      p, span.terms-cookies {
-        height: 26px;
+      p,
+      span.terms-cookies {
+        // height: 26px;
         color: #ffffff;
         font-family: $ibmReguler;
         font-size: 16px;
         letter-spacing: -0.24px;
         line-height: 26px;
+        margin-right: auto;
       }
       span.terms-cookies {
         text-decoration: underline;
@@ -70,6 +76,9 @@ $ibmMedium: "IBMPlexSans-Medium";
       display: flex;
       align-items: center;
       text-align: center;
+      align-items: end;
+      margin-bottom: 2rem;
+      // margin-right: 15%;
 
       button {
         color: #ffffff;
@@ -95,8 +104,8 @@ $ibmMedium: "IBMPlexSans-Medium";
     .cookiesContainer {
       justify-content: space-around;
       flex-direction: column;
-      height: 19rem !important;
-  
+      // height: 19rem !important;
+
       .cookieskiri {
         width: 100% !important;
         display: flex;
@@ -113,13 +122,15 @@ $ibmMedium: "IBMPlexSans-Medium";
           letter-spacing: -0.29px;
           line-height: 26px;
         }
-        p, span.terms-cookies {
+        p,
+        span.terms-cookies {
           height: auto !important;
           width: auto !important;
           color: #ffffff;
           font-size: 16px;
           letter-spacing: -0.24px;
           line-height: 26px;
+          text-align: justify;
         }
       }
       .cookieskanan {
@@ -128,9 +139,10 @@ $ibmMedium: "IBMPlexSans-Medium";
         margin-bottom: 2rem;
         display: flex !important;
         justify-content: space-around;
-        align-items: center;
+        align-items: end;
+        margin-bottom: 2rem;
         text-align: center;
-    
+
         button {
           color: #ffffff;
           margin-left: 0rem !important;
@@ -142,14 +154,14 @@ $ibmMedium: "IBMPlexSans-Medium";
           font-size: 16px;
           margin-right: 0;
         }
-    
+
         :hover {
           background-color: #ffffff;
           color: #0a2939;
         }
-  
+
         button.plus {
-          margin-right: 1rem;
+          margin-right: auto;
         }
       }
     }
@@ -161,7 +173,6 @@ $ibmMedium: "IBMPlexSans-Medium";
     .cookiesContainer {
       justify-content: space-around;
       flex-direction: column;
-      height: 19rem !important;
 
       .cookieskiri {
         width: 100% !important;
@@ -179,7 +190,8 @@ $ibmMedium: "IBMPlexSans-Medium";
           letter-spacing: -0.29px;
           line-height: 26px;
         }
-        p, span.terms-cookies {
+        p,
+        span.terms-cookies {
           height: auto !important;
           width: auto !important;
           color: #ffffff;
@@ -196,7 +208,7 @@ $ibmMedium: "IBMPlexSans-Medium";
         justify-content: space-around;
         align-items: center;
         text-align: center;
-    
+
         button {
           color: #ffffff;
           font-size: 20px;
@@ -208,10 +220,14 @@ $ibmMedium: "IBMPlexSans-Medium";
           border-radius: 24px;
           width: 30%;
         }
-    
+
         :hover {
           background-color: #ffffff;
           color: #0a2939;
+        }
+
+        button.plus {
+          margin-right: auto;
         }
       }
     }

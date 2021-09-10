@@ -124,6 +124,7 @@
   font-family: Butler;
   color: #0a2939;
   font-size: 2.27rem;
+  font-weight: 300;
   line-height: 2.5rem;
   letter-spacing: -0.53px;
 }
@@ -133,7 +134,7 @@
   margin-bottom: 0.7rem;
   text-transform: uppercase;
   font-size: 0.75rem;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.5px;
   color: #f05e36;
   font-weight: bold;
 }

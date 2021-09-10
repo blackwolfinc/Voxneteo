@@ -3163,12 +3163,47 @@ li.hidden ul li {
       }
     }
   }
+  .navbar {
+    height: 4.1875rem;
+  }
   .section-1 {
     min-height: 20rem;
+    margin: 0;
+    &::before {
+      content: "";
+      width: 1px;
+      height: 50px;
+      background-color: white;
+      position: absolute;
+      display: block;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      top: 0;
+      margin-right: auto;
+    }
     .sett_img {
       display: block !important;
     }
     .container-banner-text {
+      position: relative;
+      > .container {
+        margin-top: -3rem;
+      }
+      &::after {
+        content: "";
+        width: 1px;
+        height: 50px;
+        background-color: white;
+        position: absolute;
+        display: block;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 0;
+      }
+
       img {
         width: 11.625rem;
         margin-bottom: 1rem;
@@ -3190,6 +3225,185 @@ li.hidden ul li {
       &.d-flex {
         display: none !important;
       }
+    }
+  }
+  .container-contents-section2 {
+    padding: 1.9375rem 1.4375rem 3rem;
+    margin: 0;
+    h1 {
+      color: #0a2939;
+      line-height: 1.875rem;
+      font-family: IBM Plex Sans;
+      font-size: 1.125rem;
+      letter-spacing: -0.26px;
+      font-weight: 500;
+      margin-bottom: 2rem;
+    }
+    ul.dashed {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 2.25rem;
+      li {
+        font-size: 1.75rem;
+        font-family: Butler;
+        line-height: 2.125rem;
+        color: #0a2939;
+        margin-bottom: 1rem;
+        &:hover {
+          color: #f05e36;
+        }
+        &:before {
+          content: "-";
+          text-indent: -20px;
+          color: #f05e36;
+          margin-right: 0.8125rem;
+        }
+      }
+    }
+    img {
+      margin-bottom: 2rem;
+    }
+    .content-right {
+      h4 {
+        font-family: IBM Plex Sans;
+        font-size: 0.875rem;
+        line-height: 1.625rem;
+        letter-spacing: -0.09px;
+        color: #0a2939;
+        font-weight: 300;
+        margin-bottom: 2rem;
+      }
+      button {
+        width: 100%;
+        background-color: #f05e36;
+        border-radius: 24px;
+        border: none;
+        height: 48px;
+        font-size: 1rem;
+        line-height: 1.25rem;
+        color: white;
+      }
+    }
+  }
+  .container-contents-section3 {
+    padding: 1.9375rem 1.5rem 2.3125rem;
+    background-color: #f05e36;
+    margin: 0;
+    .show425 {
+      display: block !important;
+      width: 100%;
+      margin-bottom: 1.0625rem;
+    }
+    .text {
+      font-family: Butler;
+      font-size: 2.125rem;
+      line-height: 2.375rem;
+      letter-spacing: -0.5px;
+      color: white;
+      margin-bottom: 1.0625rem;
+    }
+    .hide425 {
+      display: none;
+      visibility: hidden;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 1.8125rem;
+      li {
+        font-family: IBM Plex Sans;
+        line-height: 2.125rem;
+        letter-spacing: -0.24px;
+        font-weight: 500;
+        span {
+          opacity: 0;
+          visibility: hidden;
+          display: none;
+        }
+      }
+    }
+    .btt-side {
+      background-color: white;
+      padding: 1.625rem 2.5rem;
+      text-align: center;
+      h4 {
+        font-family: IBM Plex Sans;
+        font-weight: 500;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        letter-spacing: 2.5px;
+        color: #f66e49;
+        margin-bottom: 0.6875rem;
+      }
+      h2 {
+        font-family: Minion;
+        font-size: 1.25rem;
+        line-height: 1.375;
+        color: #002f39;
+        font-style: italic;
+      }
+    }
+  }
+  .section-4 {
+    // padding: 2rem 0 3rem 1.4375rem;
+    padding: 2rem 1.4375rem 3rem;
+    .title {
+      font-family: Butler;
+      font-size: 2.125rem;
+      line-height: 3rem;
+      letter-spacing: -0.5px;
+      color: #0a2939;
+    }
+    .SliderOnMobile {
+      overflow-x: scroll;
+      display: block !important;
+      width: 51.6125rem;
+    }
+    .row {
+      overflow-x: scroll;
+      display: block !important;
+    }
+    .card {
+      border: none;
+      margin-right: 0.925rem;
+      width: 256px;
+      display: inline-block;
+    }
+    .card-img-top {
+      width: 256px;
+    }
+    .card-title {
+      font-family: Butler;
+      font-size: 2rem;
+      line-height: 2.8125rem;
+      letter-spacing: -0.47px;
+      margin-bottom: 0;
+    }
+    .card-text {
+      h4 {
+        font-family: IBM Plex Sans;
+        font-size: 1rem;
+        line-height: 2.8125rem;
+        font-weight: 300;
+        color: #f66e49;
+      }
+      h3 {
+        font-family: IBM Plex Sans;
+        font-weight: 500;
+        font-size: 1.125rem;
+        line-height: 1.625rem;
+        letter-spacing: -0.26px;
+      }
+    }
+    button {
+      border-radius: 24px;
+      background-color: #0a2939;
+      color: white;
+      font-weight: 500;
+      line-height: 1.25rem;
+      margin-top: 3.4375rem;
+      height: 3rem;
+      width: 100%;
     }
   }
 }
@@ -3515,12 +3729,20 @@ li.hidden ul li {
         display: flex;
         padding-left: 50%;
         padding-top: 8%;
-
+        position: relative;
         span {
           display: inline-block;
-          height: 61px;
+          height: 52px;
           color: #f05e36;
           border-right: 2px solid #f05e36;
+        }
+        &::after {
+          content: "";
+          width: 2px;
+          background-color: white;
+          height: 49px;
+          position: absolute;
+          bottom: -49px;
         }
       }
     }
@@ -3726,7 +3948,7 @@ li.hidden ul li {
   }
 
   .section-4 {
-    padding: 6.875rem 6.25rem;
+    padding: 6.875rem 6.25rem 5.25rem;
     .title,
     .card-title,
     .card-text h3 {
@@ -3742,6 +3964,7 @@ li.hidden ul li {
 
       letter-spacing: -0.03125rem;
       line-height: 2.375rem;
+      margin-bottom: 3rem;
     }
     .row {
       .title,
@@ -3762,11 +3985,11 @@ li.hidden ul li {
 
       .card-list-image {
         .card {
-          height: 34.95625rem;
+          // height: 34.95625rem;
           width: 24.1rem;
           margin-bottom: 1.9375rem;
           text-align: left;
-          margin-right: 1.3125rem;
+          margin-right: 1.8375rem;
           border: none;
 
           .card-body {
@@ -3838,8 +4061,11 @@ li.hidden ul li {
       background-color: #0a2939;
       font-size: 1rem;
       padding: 0.8125rem 3.8125rem;
-      margin-top: 3.375rem;
+      margin-top: 5.05625rem;
       margin-bottom: 1.5rem;
+      width: 20rem;
+      height: 3rem;
+      padding: 0;
     }
 
     button.btn {
@@ -3849,6 +4075,7 @@ li.hidden ul li {
     button.btn-primary {
       background-color: $color4;
       border-color: $color4;
+      display: block;
     }
 
     button.btn-primary:hover {
@@ -4267,12 +4494,20 @@ li.hidden ul li {
         display: flex;
         padding-left: 50%;
         padding-top: 8%;
-
+        position: relative;
         span {
           display: inline-block;
-          height: 61px;
+          height: 52px;
           color: #f05e36;
           border-right: 2px solid #f05e36;
+        }
+        &::after {
+          content: "";
+          width: 2px;
+          background-color: white;
+          height: 49px;
+          position: absolute;
+          bottom: -49px;
         }
       }
     }
@@ -4477,7 +4712,7 @@ li.hidden ul li {
   }
 
   .section-4 {
-    padding: 6.875rem 6.25rem;
+    padding: 6.875rem 6.25rem 5.25rem;
     .title,
     .card-title,
     .card-text h3 {
@@ -4513,11 +4748,11 @@ li.hidden ul li {
 
       .card-list-image {
         .card {
-          height: 34.95625rem;
+          // height: 34.95625rem;
           width: 24.1rem;
           margin-bottom: 1.9375rem;
           text-align: left;
-          margin-right: 1.3125rem;
+          margin-right: 1.8375rem;
           border: none;
 
           .card-body {
@@ -4589,8 +4824,11 @@ li.hidden ul li {
       background-color: #0a2939;
       font-size: 1rem;
       padding: 0.8125rem 3.8125rem;
-      margin-top: 3.375rem;
+      margin-top: 5.05625rem;
       margin-bottom: 1.5rem;
+      width: 20rem;
+      height: 3rem;
+      padding: 0;
     }
 
     button.btn {
@@ -4600,6 +4838,7 @@ li.hidden ul li {
     button.btn-primary {
       background-color: $color4;
       border-color: $color4;
+      display: block;
     }
 
     button.btn-primary:hover {
@@ -4893,12 +5132,20 @@ li.hidden ul li {
         display: flex;
         padding-left: 40%;
         padding-top: 20%;
-
+        position: relative;
         span {
           display: inline-block;
-          height: 61px;
+          height: 52px;
           color: #f05e36;
           border-right: 2px solid #f05e36;
+        }
+        &::after {
+          content: "";
+          width: 2px;
+          background-color: white;
+          height: 49px;
+          position: absolute;
+          bottom: -49px;
         }
       }
     }
@@ -5033,6 +5280,7 @@ li.hidden ul li {
             font-weight: 500;
             letter-spacing: -0.01625rem;
             line-height: 2.5rem;
+            cursor: pointer;
           }
 
           .btt-side {
@@ -5105,7 +5353,7 @@ li.hidden ul li {
   }
 
   .section-4 {
-    padding: 6.875rem 6.25rem;
+    padding: 6.875rem 6.25rem 5.25rem;
     .title,
     .card-title,
     .card-text h3 {
@@ -5141,13 +5389,16 @@ li.hidden ul li {
 
       .card-list-image {
         .card {
-          height: 34.95625rem;
-          width: 24.1rem;
+          // height: 34.95625rem;
+          width: 32%;
           margin-bottom: 1.9375rem;
           border: none;
           text-align: left;
-          margin-right: 1.3125rem;
+          margin-right: 1.8375rem;
           border: none;
+          &:last-child {
+            margin-right: 0;
+          }
 
           .card-body {
             padding: 0rem;
@@ -5219,8 +5470,11 @@ li.hidden ul li {
       background-color: #0a2939;
       font-size: 1rem;
       padding: 0.8125rem 3.8125rem;
-      margin-top: 3.375rem;
+      margin-top: 5.05625rem;
       margin-bottom: 1.5rem;
+      width: 20rem;
+      height: 3rem;
+      padding: 0;
     }
 
     button.btn {
@@ -5230,6 +5484,7 @@ li.hidden ul li {
     button.btn-primary {
       background-color: $color4;
       border-color: $color4;
+      display: block;
     }
 
     button.btn-primary:hover {
@@ -5583,6 +5838,16 @@ li.hidden ul li {
             line-height: 19.5px;
           }
         }
+      }
+    }
+  }
+}
+
+.section-4 {
+  .card-list-image {
+    .card {
+      &:last-child {
+        margin-right: 0;
       }
     }
   }

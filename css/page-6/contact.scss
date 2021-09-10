@@ -794,7 +794,7 @@ $size1: 1.6rem;
       max-width: 370px;
       // padding-bottom: 50px;
       border: 4px solid #f66f4933;
-      margin: 0 auto 100px auto;
+      margin: 0 auto 50px auto;
 
       .stamp {
         padding: 25px 0 0 0;
@@ -1254,13 +1254,10 @@ $size1: 1.6rem;
       text-align: center;
       font-family: $butler;
       position: relative;
-      // height: 485px;
-      // width: 305px; // untuk ukuran layar mobile
       width: 100%;
       max-width: 560px;
       border: 10px solid #f66f4933;
-      // padding-bottom: 50px;
-      margin: 0 auto 100px auto;
+      margin: 0 auto 50px auto;
 
       .stamp {
         padding: 25px;
@@ -1717,7 +1714,7 @@ $size1: 1.6rem;
       width: 90%;
       max-width: 950px;
       border: 5px solid #f66f4933;
-      margin: 50px auto 100px auto;
+      margin: 50px auto 50px auto;
 
       .stamp {
         padding: 25px;
@@ -1972,6 +1969,9 @@ $size1: 1.6rem;
           font-weight: 600;
           letter-spacing: -0.26px;
           line-height: 23px;
+          padding-left: 0px;
+          padding-right: 0px;
+          width: 100%;
 
           &:hover {
             border-bottom: #f05e36 solid 2px;
@@ -2324,7 +2324,7 @@ $size1: 1.6rem;
     background-color: transparent;
 
     span {
-      height: 600px;
+      height: 400px;
       position: absolute;
       border-right: 2px solid rgb(235, 235, 235);
       left: 10%;
@@ -2386,16 +2386,15 @@ $size1: 1.6rem;
         font-weight: 600;
         letter-spacing: -0.26px;
         line-height: 23px;
-        margin-right: 4rem;
+        margin-right: 5.3125rem;
         margin-left: 0.75rem;
         margin-bottom: -10rem;
+        padding-left: 0;
+        padding-right: 0;
 
         &:hover {
-          border-bottom: #f05e36 solid 2px;
-        }
-
-        &.active {
-          border-bottom: #f05e36 solid 2px;
+          border-bottom: #f05e36 3px solid;
+          border-width: 30%;
         }
       }
 
@@ -2708,7 +2707,7 @@ $size1: 1.6rem;
         margin-top: 8rem;
         margin-bottom: 6rem;
         img {
-          transform: scale(1.1);
+          transform: scale(0.7);
           opacity: 0.8;
         }
       }

@@ -26,16 +26,32 @@
 
   <div class="cookies">
     <div class="container">
-      <div class="cookiesContainer">
-        <div class="cookieskiri">
+      <div class="row cookiesContainer">
+        <div class="col cookieskiri">
           <h1>Ce site web utilise des cookies.</h1>
-          <p>
+          <p id="start">
             Pour continuer a naviguer sur le site, vous devez accepter notre
-            <span class="terms-cookies">politique en matière de cookies.</span> 
+            <span class="terms-cookies">politique en matière de cookies.</span>
+          </p>
+
+          <p class="d-none" id="end">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+            aliquam eros non ipsum euismod malesuada. Ut dictum, arcu in
+            eleifend bibendum, mi elit condimentum metus, in scelerisque felis
+            erat et elit. Nullam risus arcu, consequat in augue vitae, volutpat
+            ornare magna. Praesent malesuada non ligula eu varius. Aliquam
+            fringilla magna quam, et viverra diam eleifend at. Nulla turpis
+            tortor, facilisis vel tincidunt eget, facilisis et risus. Nulla
+            feugiat aliquet mi sit amet dapibus. In metus neque, ornare vel nunc
+            vel, aliquet pretium quam. Duis eleifend odio lorem, vel consequat
+            eros laoreet vel. Integer rutrum elit luctus, blandit dolor vitae,
+            gravida enim. Maecenas tempus arcu quam, elementum vehicula diam
+            condimentum at.
           </p>
         </div>
-        <div class="cookieskanan">
-          <button class="plus">Plus d’infos</button>
+        <div class="col cookieskanan">
+          <button class="plus" id="trigger">Plus d’infos</button>
+          <button class="plus d-none" id="hidetrigger">Fermer</button>
           <button class="accep">Accepter</button>
         </div>
       </div>
@@ -524,9 +540,17 @@
           $("#main-navigation").toggle();
         });
 
-        // $("#tombol_pre").click(function() {
-        //   $("#box").before("<p>Learning jQuery...</p>");
-        // })
+        $("#trigger").click(function () {
+          $("#end").removeClass("d-none");
+          $("#trigger").addClass("d-none");
+          $("#hidetrigger").removeClass("d-none");
+        });
+
+        $("#hidetrigger").click(function () {
+          $("#hidetrigger").addClass("d-none");
+          $("#trigger").removeClass("d-none");
+          $("#end").addClass("d-none");
+        });
       });
     </script>
   </body>
