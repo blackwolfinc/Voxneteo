@@ -274,6 +274,14 @@ li.hidden ul li {
     margin-left: 0.75rem;
   }
 
+  .nav-item.one {
+    margin-top: 0;
+  }
+
+  .nav-item.hidden {
+    margin-top: 0;
+  }
+
   li.nav-item {
     margin-top: 3rem;
     margin-left: 1.5rem;
@@ -299,7 +307,7 @@ li.hidden ul li {
     }
 
     .nav-link.contact {
-      margin-bottom: 50px;
+      margin-bottom: 0;
     }
 
     .nav-link,
@@ -1085,6 +1093,14 @@ li.hidden ul li {
     margin-left: 0.75rem;
   }
 
+  .nav-item.one {
+    margin-top: 0;
+  }
+
+  .nav-item.hidden {
+    margin-top: 0;
+  }
+
   li.nav-item {
     margin-top: 3rem;
     margin-left: 1.5rem;
@@ -1111,7 +1127,7 @@ li.hidden ul li {
     }
 
     .nav-link.contact {
-      margin-bottom: 50px;
+      margin-bottom: 0;
     }
 
     .nav-link,
@@ -1128,7 +1144,7 @@ li.hidden ul li {
       .nav-link {
         color: #ffffff;
         &:hover {
-          border-bottom: #f05e36 2px solid;
+          color: #f05e36;
         }
       }
     }
@@ -1910,8 +1926,13 @@ li.hidden ul li {
     margin-left: 0.75rem;
   }
 
+  li#hidebtn {
+    margin-top: 0;
+    margin-bottom: .75rem;
+  }
+
   li.nav-item {
-    margin-top: 1.5rem;
+    // margin-top: 1.5rem;
     margin-left: 1.5rem;
     svg {
       width: 30px;
@@ -1923,6 +1944,7 @@ li.hidden ul li {
       font-family: $ibmSemiBold;
       font-weight: 600;
       font-size: 1.05rem;
+      padding-left: .75rem;
     }
   }
 
@@ -1930,8 +1952,10 @@ li.hidden ul li {
     .navbar-nav {
       .nav-link {
         color: #ffffff;
+        padding-bottom: .75rem;
+        padding-top: .75rem;
         &:hover {
-          border-bottom: #f05e36 2px solid;
+          color: #f05e36;
         }
       }
     }
@@ -2606,16 +2630,25 @@ li.hidden ul li {
     padding-left: 36px;
     padding-right: 36px;
   }
+  
+  li#hidebtn {
+    margin-top: .75rem;
+    padding-left: 0;
+    margin-bottom: .75rem;
+  }
 
   li.nav-item {
     margin-left: 1.5rem;
+    padding-left: .75rem;
+
     svg {
       width: 30px;
       margin-top: 2rem;
     }
     .nav-link {
-      margin-top: 0.75rem;
-      font-size: 0.9rem;
+      font-size: 1.05rem;
+      padding-top: .75rem;
+      padding-bottom: .75rem;
     }
 
     .btn-group {
@@ -2638,7 +2671,7 @@ li.hidden ul li {
       .nav-link {
         color: #ffffff;
         &:hover {
-          border-bottom: #f05e36 2px solid;
+          color: #f05e36;
         }
       }
     }
@@ -3581,12 +3614,18 @@ li.hidden ul li {
 
   .navbar-light {
     .navbar-nav {
-      .nav-link {
-        color: #ffffff;
-        &:hover {
-          border-bottom: #f05e36 2px solid;
+      .nav-item {
+        padding-right: .5rem;
+        padding-left: .5rem;
+        .nav-link {
+          padding-right: 0;
+          padding-left: 0;
+          color: #ffffff;
+          &:hover {
+            border-bottom: #f05e36 2px solid;
+          }
         }
-      }
+      } 
     }
   }
 
@@ -4351,12 +4390,18 @@ li.hidden ul li {
 
   .navbar-light {
     .navbar-nav {
-      .nav-link {
-        color: #ffffff;
-        &:hover {
-          border-bottom: #f05e36 2px solid;
+      .nav-item {
+        padding-right: .5rem;
+        padding-left: .5rem;
+        .nav-link {
+          padding-right: 0;
+          padding-left: 0;
+          color: #ffffff;
+          &:hover {
+            border-bottom: #f05e36 2px solid;
+          }
         }
-      }
+      } 
     }
   }
 
@@ -5039,12 +5084,18 @@ li.hidden ul li {
 
   .navbar-light {
     .navbar-nav {
-      .nav-link {
-        color: #ffffff;
-        &:hover {
-          border-bottom: #f05e36 2px solid;
+      .nav-item {
+        padding-right: .5rem;
+        padding-left: .5rem;
+        .nav-link {
+          padding-right: 0;
+          padding-left: 0;
+          color: #ffffff;
+          &:hover {
+            border-bottom: #f05e36 2px solid;
+          }
         }
-      }
+      } 
     }
   }
 
