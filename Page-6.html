@@ -159,24 +159,27 @@
                         <img src="assets/images/map-in-contact-page.PNG" alt="Map-image">
                     </div>
 
-                    <div id="mc_embed_signup" class="sectionEmpat">
-                        <div class="stamp">
-                            <img src="assets/Icons/icon-stamp.svg" alt="Stamp icon">
-                        </div>
-
+                    <div id="mc_embed_signup" class="sectionLima">
+                        
                         <form
                             action="https://voxteneo.us5.list-manage.com/subscribe/post?u=8997332610305bf8025effc3a&amp;id=d7573cb811"
                             method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
                             class="validate" target="_blank" novalidate="novalidate">
-                            
-                            <div class="sectionEmpatBody" id="mc_embed_signup_scroll">
-                                <h2>Newsletter</h2>
-                                <p class="body-text">Moures non tempor quam, et lacinia sapien mauris <br>Accumsan erros eget libero posur vulputat</p>
-
-                                <div class="sectionEmpatTengah">
+                            <div class="sectionLimaBody" id="mc_embed_signup_scroll">
+                                <div class="logo">
+                                    <img src="assets/Icons/icon-stamp.svg" alt="">
+                                </div>
+                                <div class="title d-flex flex-row">
+                                    <div class="title-1">
+                                        <h2>Newsletter</h2>
+                                    <p>Moures non tempor quam, et lacinia sapien mauris</p>
+                                    <p>Accumsan erros eget libero posur vulputat</p>
+                                    </div>
+                                </div>
+                                <div class="SectionLimaTengah">
                                     <div class="mc-field-group">
                                         <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"
-                                            placeholder="Enter votre addrese email" aria-required="true">
+                                            placeholder="Enterer votre addrese email" aria-required="true"><span></span> 
                                     </div>
                                     <div id="mergeRow-gdpr"
                                         class="mergeRow gdpr-mergeRow content__gdprBlock">
@@ -190,9 +193,18 @@
                                                     target="_blank"> condition generales</a></div>
                                         </div>
                                     </div>
-                                    <div class="envoyer">
-                                        <h6 class="envoyer-text">Envoyer</h6>
-                                    </div>
+                                    <h6>ENVOYER</h6>
+                                </div>
+
+                                <div class="SectionLimaBawah">
+                                    <p>Aidez-nous a mieux vous conaitre</p>
+
+                                    <div class="mc-field-group"><input type="text" value="" name="FNAME" class=""
+                                            id="mce-FNAME" placeholder="Votre nom"></div>
+                                    <div class="mc-field-group"><input type="text" value="" name="LNAME" class=""
+                                            id="mce-LNAME" placeholder="Votre prenom"></div>
+                                    <div class="mc-field-group"><input type="text" value="" name="COMPANY" class=""
+                                            id="mce-COMPANY" placeholder="Societe"></div>
                                 </div>
                             </div>
 
@@ -203,9 +215,24 @@
 
                             <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 
-                    <!-- end continer  -->
 
-                </div>
+                            <div class="SectionLimaBawahDua">
+                                <div class="g-recaptcha" data-sitekey="6LehUfkbAAAAAJmPAbkWQx4tJbW-fKiqjvP22XzC">
+                                    <div style="width: 304px; height: 78px;">
+                                        <div><iframe title="reCAPTCHA" src="./assets/html/anchor.html" width="304"
+                                                height="78" role="presentation" name="a-4ouob3yp8ta3" frameborder="0"
+                                                scrolling="no"
+                                                sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+                                        </div><textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                                            class="g-recaptcha-response"
+                                            style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+                                    </div>
+                                </div>
+                             <button type="submit" value="" name="subscribe"
+                                        id="mc-embedded-subscribe" class="button">Incrivez-moi</button>
+                        </form>
+                        
+                    </div>
 
             </div>
             <div class="Footer">
@@ -240,6 +267,38 @@
         <!-- Javascript -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+            </script>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+            <!-- end -->
+    
+            <!-- custom js -->
+            <script>
+                $(document).ready(function () {
+                
+                let SectionLimaBawah = $(".SectionLimaBawah");
+                let SectionLimaBawahDua = $(".SectionLimaBawahDua");
+                    SectionLimaBawah.hide();
+                    SectionLimaBawahDua.hide();
+                $("#mce-EMAIL").keyup(function() {
+                    let bintang = $(".bintang");
+    
+                    if($("#mce-EMAIL").val().length > 0) {
+                        SectionLimaBawah.show()
+                        SectionLimaBawahDua.show();
+                        bintang.hide();
+                    } else {
+                        SectionLimaBawah.hide();
+                        SectionLimaBawahDua.hide();
+                        bintang.show()
+                    }
+                    
+                });
+    
+                // $("#tombol_pre").click(function() {
+                //   $("#box").before("<p>Learning jQuery...</p>");
+                // })
+                });
             </script>
             <script src="js/switchMenu.js"></script>
         <!-- end -->
