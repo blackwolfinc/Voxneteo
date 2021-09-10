@@ -618,6 +618,25 @@
             $('.carousel').carousel({
   interval: 20000
 })
+let SectionLimaBawah = $(".SectionLimaBawah");
+            let SectionLimaBawahDua = $(".SectionLimaBawahDua");
+                SectionLimaBawah.hide();
+                SectionLimaBawahDua.hide();
+            $("#mce-EMAIL").keyup(function() {
+                let bintang = $(".bintang");
+
+                if($("#mce-EMAIL").val().length > 0) {
+                    SectionLimaBawah.show()
+                    SectionLimaBawahDua.show();
+                    bintang.hide();
+                } else {
+                    SectionLimaBawah.hide();
+                    SectionLimaBawahDua.hide();
+                    bintang.show()
+                }
+                
+            });
+
             // $("#tombol_pre").click(function() {
             //   $("#box").before("<p>Learning jQuery...</p>");
             // })
