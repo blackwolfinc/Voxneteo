@@ -2,37 +2,46 @@
   font-family: "IBMPlexSans";
   src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans.ttf");
 }
+
 @font-face {
   font-family: "IBMPlexSans-SemiBold";
   src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBold.ttf");
 }
+
 @font-face {
   font-family: "IBMPlexSans-Light";
   src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Light.ttf");
 }
+
 @font-face {
   font-family: "IBMPlexSans-Medium";
   src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Medium.ttf");
 }
+
 @font-face {
   font-family: "IBMPlexSans-SemiBoldItalic";
   src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBoldItalic.ttf");
 }
+
 @font-face {
   font-family: "Butler-Light";
   src: url("../../assets/fonts/webfont-butler/Butler-Light.ttf");
 }
+
 @font-face {
   font-family: "Butler";
   src: url("../../assets/fonts/webfont-butler/Butler.ttf");
 }
+
 @font-face {
   font-family: "Minion-DisplayItalic";
   src: url("../../assets/fonts/webfont-minion/Minion-DisplayItalic.ttf");
 }
+
 .show425 {
   display: none !important;
 }
+
 .show425 img {
   width: inherit;
 }
@@ -47,6 +56,7 @@ li.hidden ul.dash {
   margin-top: 30px;
   padding-left: 10px;
 }
+
 li.hidden ul.dash li {
   font-family: "IBMPlexSans";
   font-size: 14px;
@@ -56,12 +66,15 @@ li.hidden ul.dash li {
   text-indent: -5px;
   font-weight: 400;
 }
+
 li.hidden ul.dash li.first {
   color: #f05e36;
 }
+
 li.hidden ul.dash li.last {
   margin-bottom: 48px;
 }
+
 li.hidden ul.dash li:before {
   content: "-";
   text-indent: -5px;
@@ -83,9 +96,11 @@ li.hidden ul.dash li:before {
   background-size: cover;
   /* Needed to position the navbar */
 }
+
 .section-1 .navbar .container .navbar-toggler {
   margin-left: -1rem;
 }
+
 .section-1 ul li a {
   width: auto;
 }
@@ -93,10 +108,12 @@ li.hidden ul.dash li:before {
 li.nav-item {
   margin-left: 0;
 }
+
 li.nav-item svg {
   width: 30px;
   margin-top: 2rem;
 }
+
 li.nav-item button img {
   width: auto;
   height: auto;
@@ -104,16 +121,19 @@ li.nav-item button img {
   margin-left: 1rem;
   margin-bottom: 0.5rem;
 }
+
 li.nav-item .dropdown-toggle::after {
   display: none;
   background-color: transparent;
 }
+
 li.nav-item #dropdownMenuButton.nav-link {
   border: 2px solid #e5e5e5;
   padding-left: 2.4375rem;
   padding-right: 3.4375rem;
   border-radius: 1.25rem;
 }
+
 li.nav-item .nav-link,
 li.nav-item button span,
 li.nav-item .dropdown-item {
@@ -125,24 +145,30 @@ li.nav-item .dropdown-item {
 li.drop .btn-group {
   margin-top: -0.5rem;
 }
+
 li.drop .btn-group .dropdown-menu .dropdown-item {
   font-size: 1rem;
 }
+
 li.drop .btn-group .dropdown-menu .dropdown-item.first {
   color: #f05e36;
   margin-bottom: 0.5rem;
 }
+
 li.drop button.btn {
   border-radius: 2.4rem;
   padding: 0.7rem 1.6rem;
   background-color: transparent;
 }
+
 li.drop button.btn-danger {
   border: 2px solid white;
 }
+
 li.drop button.dropdown-toggle {
   color: #f05e36;
 }
+
 li.drop button span {
   color: white;
 }
@@ -182,6 +208,7 @@ li.hidden ul li {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
 .section-4 .row button {
   margin-top: 5rem;
 }
@@ -194,11 +221,9 @@ li.hidden ul li {
   .row {
     --bs-gutter-x: 0rem !important;
   }
-
   .hide425 {
     display: none !important;
   }
-
   .show425 {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
@@ -206,25 +231,20 @@ li.hidden ul li {
     width: 90%;
     margin: 2rem auto;
   }
-
   .section-1 {
     padding-left: 2.25rem;
     padding-right: 2.25rem;
   }
-
   .navbar {
     margin-top: 1rem !important;
     margin-left: 0.75rem;
   }
-
   .nav-item.one {
     margin-top: 0;
   }
-
   .nav-item.hidden {
     margin-top: 0;
   }
-
   li.nav-item {
     margin-top: 3rem;
     margin-left: 1.5rem;
@@ -253,30 +273,26 @@ li.hidden ul li {
     margin-bottom: 0;
   }
   li.nav-item .nav-link,
-li.nav-item button span,
-li.nav-item .dropdown-item {
+  li.nav-item button span,
+  li.nav-item .dropdown-item {
     font-family: "IBMPlexSans-SemiBold";
     font-weight: 600;
     font-size: 1.05rem;
   }
-
   .nav-link,
-button span,
-.dropdown-item {
+  button span,
+  .dropdown-item {
     font-family: "IBMPlexSans-SemiBold";
     font-weight: 600;
     font-size: 1.05rem;
   }
-
   .navbar-light .navbar-nav .nav-link {
     color: #ffffff;
   }
-
   .drop .btn-group {
     margin-top: 0;
     margin-left: -2.5rem;
   }
-
   .navbar-nav {
     top: 0;
     left: 0;
@@ -293,16 +309,13 @@ button span,
   .navbar-nav :nth-child(1) {
     margin-top: 1rem;
   }
-
   .n .navbar-light .navbar-toggler {
     color: #ffffff;
     border: none;
   }
-
   nav {
     margin-top: -1.875rem;
   }
-
   .container {
     max-width: 100%;
   }
@@ -606,11 +619,12 @@ button span,
   }
   .container .section-4 .SliderOnMobile .card {
     width: 400rem;
+    display: -ms-grid;
     display: grid;
   }
   .container .section-4 .title,
-.container .section-4 .card-title,
-.container .section-4 .card-text h3 {
+  .container .section-4 .card-title,
+  .container .section-4 .card-text h3 {
     color: #0a2939;
   }
   .container .section-4 .title {
@@ -820,7 +834,6 @@ button span,
   .container .section-6 .row .end {
     display: none;
   }
-
   .Footer {
     background-color: #021925;
     height: 40rem;
@@ -870,8 +883,7 @@ button span,
             justify-content: start;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    -moz-text-align-last: start;
-         text-align-last: start;
+    text-align-last: start;
     padding-top: 1.9375rem;
     margin-bottom: 0rem;
   }
@@ -942,15 +954,14 @@ button span,
     line-height: 19.5px;
   }
 }
+
 @media (min-width: 376px) and (max-width: 625.98px) {
   .row {
     --bs-gutter-x: 0rem !important;
   }
-
   .hide425 {
     display: none !important;
   }
-
   .show425 {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
@@ -958,25 +969,20 @@ button span,
     width: 90%;
     margin: 2rem auto;
   }
-
   .section-1 {
     padding-left: 2.25rem;
     padding-right: 2.25rem;
   }
-
   .navbar {
     margin-top: 1rem !important;
     margin-left: 0.75rem;
   }
-
   .nav-item.one {
     margin-top: 0;
   }
-
   .nav-item.hidden {
     margin-top: 0;
   }
-
   li.nav-item {
     margin-top: 3rem;
     margin-left: 1.5rem;
@@ -1005,25 +1011,22 @@ button span,
     margin-bottom: 0;
   }
   li.nav-item .nav-link,
-li.nav-item button span,
-li.nav-item .dropdown-item {
+  li.nav-item button span,
+  li.nav-item .dropdown-item {
     font-family: "IBMPlexSans-SemiBold";
     font-weight: 600;
     font-size: 1.05rem;
   }
-
   .navbar-light .navbar-nav .nav-link {
     color: #ffffff;
   }
   .navbar-light .navbar-nav .nav-link:hover {
     color: #f05e36;
   }
-
   .drop .btn-group {
     margin-top: 0;
     margin-left: -2.5rem;
   }
-
   .navbar-nav {
     top: 0;
     left: 0;
@@ -1041,16 +1044,13 @@ li.nav-item .dropdown-item {
   .navbar-nav :nth-child(1) {
     margin-top: 1rem;
   }
-
   .navbar-light .navbar-toggler {
     color: #ffffff;
     border: none;
   }
-
   nav {
     margin-top: -1.875rem;
   }
-
   .container {
     max-width: 100%;
   }
@@ -1353,11 +1353,12 @@ li.nav-item .dropdown-item {
   }
   .container .section-4 .SliderOnMobile .card {
     width: 400rem;
+    display: -ms-grid;
     display: grid;
   }
   .container .section-4 .title,
-.container .section-4 .card-title,
-.container .section-4 .card-text h3 {
+  .container .section-4 .card-title,
+  .container .section-4 .card-text h3 {
     color: #0a2939;
   }
   .container .section-4 .title {
@@ -1369,8 +1370,8 @@ li.nav-item .dropdown-item {
     line-height: 2.375rem;
   }
   .container .section-4 .title,
-.container .section-4 .card-title,
-.container .section-4 .card-text h3 {
+  .container .section-4 .card-title,
+  .container .section-4 .card-text h3 {
     color: #0a2939;
   }
   .container .section-4 .title {
@@ -1385,8 +1386,8 @@ li.nav-item .dropdown-item {
     overflow: overlay;
   }
   .container .section-4 .row .title,
-.container .section-4 .row .card-title,
-.container .section-4 .row .card-text h3 {
+  .container .section-4 .row .card-title,
+  .container .section-4 .row .card-text h3 {
     color: #0a2939;
   }
   .container .section-4 .row .title {
@@ -1522,7 +1523,6 @@ li.nav-item .dropdown-item {
   .container .section-6 .row .end {
     display: none;
   }
-
   .Footer {
     background-color: #021925;
     height: 40rem;
@@ -1572,8 +1572,7 @@ li.nav-item .dropdown-item {
             justify-content: start;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    -moz-text-align-last: start;
-         text-align-last: start;
+    text-align-last: start;
     padding-top: 1.9375rem;
     margin-bottom: 0rem;
   }
@@ -1644,6 +1643,7 @@ li.nav-item .dropdown-item {
     line-height: 19.5px;
   }
 }
+
 @media (min-width: 626px) and (max-width: 767.98px) {
   .Footer {
     background-color: #021925;
@@ -1692,8 +1692,7 @@ li.nav-item .dropdown-item {
             justify-content: start;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    -moz-text-align-last: start;
-         text-align-last: start;
+    text-align-last: start;
     padding-top: 1.9375rem;
   }
   .Footer .container .foooterBody .footerBodyKiri li {
@@ -1732,22 +1731,18 @@ li.nav-item .dropdown-item {
     letter-spacing: -0.22px;
     line-height: 19.5px;
   }
-
   .section-1 {
     padding-left: 2.25rem;
     padding-right: 2.25rem;
   }
-
   .navbar {
     margin-top: 1rem !important;
     margin-left: 0.75rem;
   }
-
   li#hidebtn {
     margin-top: 0;
-    margin-bottom: 0.75rem;
+    margin-bottom: .75rem;
   }
-
   li.nav-item {
     margin-left: 1.5rem;
   }
@@ -1756,28 +1751,25 @@ li.nav-item .dropdown-item {
     margin-top: 2rem;
   }
   li.nav-item .nav-link,
-li.nav-item button span,
-li.nav-item .dropdown-item {
+  li.nav-item button span,
+  li.nav-item .dropdown-item {
     font-family: "IBMPlexSans-SemiBold";
     font-weight: 600;
     font-size: 1.05rem;
-    padding-left: 0.75rem;
+    padding-left: .75rem;
   }
-
   .navbar-light .navbar-nav .nav-link {
     color: #ffffff;
-    padding-bottom: 0.75rem;
-    padding-top: 0.75rem;
+    padding-bottom: .75rem;
+    padding-top: .75rem;
   }
   .navbar-light .navbar-nav .nav-link:hover {
     color: #f05e36;
   }
-
   .drop .btn-group {
     margin-top: 0;
     margin-left: -2.5rem;
   }
-
   .navbar-nav {
     top: 0;
     left: 0;
@@ -1789,16 +1781,13 @@ li.nav-item .dropdown-item {
     margin-top: 0rem !important;
     z-index: 100;
   }
-
   .n .navbar-light .navbar-toggler {
     color: #ffffff;
     border: none;
   }
-
   nav {
     margin-top: -1.875rem;
   }
-
   .container {
     max-width: 100%;
   }
@@ -2079,8 +2068,8 @@ li.nav-item .dropdown-item {
     padding: 1.5rem 2rem;
   }
   .container .section-4 .title,
-.container .section-4 .card-title,
-.container .section-4 .card-text h3 {
+  .container .section-4 .card-title,
+  .container .section-4 .card-text h3 {
     color: #0a2939;
   }
   .container .section-4 .title {
@@ -2092,8 +2081,8 @@ li.nav-item .dropdown-item {
     line-height: 2.375rem;
   }
   .container .section-4 .title,
-.container .section-4 .card-title,
-.container .section-4 .card-text h3 {
+  .container .section-4 .card-title,
+  .container .section-4 .card-text h3 {
     color: #0a2939;
   }
   .container .section-4 .title {
@@ -2105,8 +2094,8 @@ li.nav-item .dropdown-item {
     line-height: 2.375rem;
   }
   .container .section-4 .row .title,
-.container .section-4 .row .card-title,
-.container .section-4 .row .card-text h3 {
+  .container .section-4 .row .card-title,
+  .container .section-4 .row .card-text h3 {
     color: #0a2939;
   }
   .container .section-4 .row .title {
@@ -2264,6 +2253,7 @@ li.nav-item .dropdown-item {
     display: none;
   }
 }
+
 @media (min-width: 768px) and (max-width: 991.98px) {
   .Footer {
     background-color: #021925;
@@ -2312,8 +2302,7 @@ li.nav-item .dropdown-item {
             justify-content: start;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    -moz-text-align-last: start;
-         text-align-last: start;
+    text-align-last: start;
     padding-top: 1.9375rem;
   }
   .Footer .container .foooterBody .footerBodyKiri li {
@@ -2352,21 +2341,18 @@ li.nav-item .dropdown-item {
     letter-spacing: -0.22px;
     line-height: 19.5px;
   }
-
   .section-1 {
     padding-left: 36px;
     padding-right: 36px;
   }
-
   li#hidebtn {
-    margin-top: 0.75rem;
+    margin-top: .75rem;
     padding-left: 0;
-    margin-bottom: 0.75rem;
+    margin-bottom: .75rem;
   }
-
   li.nav-item {
     margin-left: 1.5rem;
-    padding-left: 0.75rem;
+    padding-left: .75rem;
   }
   li.nav-item svg {
     width: 30px;
@@ -2374,8 +2360,8 @@ li.nav-item .dropdown-item {
   }
   li.nav-item .nav-link {
     font-size: 1.05rem;
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
   }
   li.nav-item .btn-group button span {
     font-size: 0.9rem;
@@ -2383,20 +2369,17 @@ li.nav-item .dropdown-item {
   li.nav-item .btn-group .dropdown-menu .dropdown-item {
     font-size: 0.9rem;
   }
-
   .navbar-light .navbar-nav .nav-link {
     color: #ffffff;
   }
   .navbar-light .navbar-nav .nav-link:hover {
     color: #f05e36;
   }
-
   .navbar {
     margin-top: 1rem !important;
     margin-left: 0.75rem;
     padding-right: 1.3rem;
   }
-
   li.drop {
     margin-right: 1rem;
   }
@@ -2404,7 +2387,6 @@ li.nav-item .dropdown-item {
     margin-top: 0;
     margin-left: 0;
   }
-
   .navbar-collapse {
     top: 0;
     left: 0;
@@ -2416,16 +2398,13 @@ li.nav-item .dropdown-item {
     margin-top: -1rem !important;
     z-index: 100;
   }
-
   .navbar-light .navbar-toggler {
     color: #ffffff;
     border: none;
   }
-
   nav {
     margin-top: -1.875rem;
   }
-
   .container {
     max-width: 100%;
   }
@@ -2704,8 +2683,8 @@ li.nav-item .dropdown-item {
     padding: 1.5rem 2rem;
   }
   .container .section-4 .title,
-.container .section-4 .card-title,
-.container .section-4 .card-text h3 {
+  .container .section-4 .card-title,
+  .container .section-4 .card-text h3 {
     color: #0a2939;
   }
   .container .section-4 .title {
@@ -2717,8 +2696,8 @@ li.nav-item .dropdown-item {
     line-height: 2.375rem;
   }
   .container .section-4 .row .title,
-.container .section-4 .row .card-title,
-.container .section-4 .row .card-text h3 {
+  .container .section-4 .row .card-title,
+  .container .section-4 .row .card-text h3 {
     color: #0a2939;
   }
   .container .section-4 .row .title {
@@ -2879,19 +2858,17 @@ li.nav-item .dropdown-item {
     display: none;
   }
 }
+
 @media (min-width: 0px) and (max-width: 992px) {
   .section-2 .content-right .overlay-img img {
     width: 100%;
   }
-
   .section-3 .content .row .content-right img {
     width: 100%;
   }
-
   .navbar {
     height: 4.1875rem;
   }
-
   .section-1 {
     min-height: 20rem;
     margin: 0;
@@ -2947,7 +2924,6 @@ li.nav-item .dropdown-item {
   .section-1 .sett_arrow_section-1.d-flex {
     display: none !important;
   }
-
   .container-contents-section2 {
     padding: 1.9375rem 1.4375rem 3rem;
     margin: 0;
@@ -3004,7 +2980,6 @@ li.nav-item .dropdown-item {
     line-height: 1.25rem;
     color: white;
   }
-
   .container-contents-section3 {
     padding: 1.9375rem 1.5rem 2.3125rem;
     background-color: #f05e36;
@@ -3071,7 +3046,6 @@ li.nav-item .dropdown-item {
     color: #002f39;
     font-style: italic;
   }
-
   .section-4 {
     padding: 2rem 1.4375rem 3rem;
   }
@@ -3132,6 +3106,7 @@ li.nav-item .dropdown-item {
     width: 100%;
   }
 }
+
 @media (min-width: 992px) and (max-width: 1160.98px) {
   .Footer {
     background-color: #021925;
@@ -3180,8 +3155,7 @@ li.nav-item .dropdown-item {
             justify-content: start;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    -moz-text-align-last: start;
-         text-align-last: start;
+    text-align-last: start;
     padding-top: 1.9375rem;
   }
   .Footer .container .foooterBody .footerBodyKiri li {
@@ -3220,14 +3194,12 @@ li.nav-item .dropdown-item {
     letter-spacing: -0.22px;
     line-height: 19.5px;
   }
-
   .container {
     max-width: 144rem;
   }
-
   .navbar-light .navbar-nav .nav-item {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-right: .5rem;
+    padding-left: .5rem;
   }
   .navbar-light .navbar-nav .nav-item .nav-link {
     padding-right: 0;
@@ -3237,28 +3209,23 @@ li.nav-item .dropdown-item {
   .navbar-light .navbar-nav .nav-item .nav-link:hover {
     border-bottom: #f05e36 2px solid;
   }
-
   .navbar-light .navbar-toggler {
     color: #ffffff;
     border: none;
   }
-
   .navbar {
     margin-top: 1.25rem;
   }
-
   .navbar-collapse {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
     padding-left: 20%;
   }
-
   .drop .btn-group {
     margin-top: 0;
     margin-left: 40%;
   }
-
   .section-1 {
     background-size: cover;
     padding-left: 0;
@@ -3350,8 +3317,8 @@ li.nav-item .dropdown-item {
     margin-top: 2rem;
   }
   .section-1 ul li.nav-item .nav-link,
-.section-1 ul li.nav-item button span,
-.section-1 ul li.nav-item .dropdown-item {
+  .section-1 ul li.nav-item button span,
+  .section-1 ul li.nav-item .dropdown-item {
     font-family: "IBMPlexSans-SemiBold";
     font-weight: 600;
     font-size: 1rem;
@@ -3393,7 +3360,6 @@ li.nav-item .dropdown-item {
     width: 100%;
     margin-bottom: -3.75rem;
   }
-
   .section-2 .content-left h1 {
     margin-bottom: 3.125rem;
     font-family: "IBMPlexSans-Medium";
@@ -3509,7 +3475,6 @@ li.nav-item .dropdown-item {
     background-color: #f05e36;
     border-color: #f05e36;
   }
-
   .section-3 .content .row {
     background-color: #f05e36;
   }
@@ -3626,13 +3591,12 @@ li.nav-item .dropdown-item {
   .section-3 .content .row .content-right .text h4.second-text {
     margin-bottom: 8.4rem;
   }
-
   .section-4 {
     padding: 6.875rem 6.25rem 5.25rem;
   }
   .section-4 .title,
-.section-4 .card-title,
-.section-4 .card-text h3 {
+  .section-4 .card-title,
+  .section-4 .card-text h3 {
     color: #0a2939;
   }
   .section-4 .title {
@@ -3645,8 +3609,8 @@ li.nav-item .dropdown-item {
     margin-bottom: 3rem;
   }
   .section-4 .row .title,
-.section-4 .row .card-title,
-.section-4 .row .card-text h3 {
+  .section-4 .row .card-title,
+  .section-4 .row .card-text h3 {
     color: #0a2939;
   }
   .section-4 .row .title {
@@ -3740,11 +3704,9 @@ li.nav-item .dropdown-item {
     background-color: #0a2939;
     border-color: #0a2939;
   }
-
   .section-5 {
     display: none;
   }
-
   .section-6 .row {
     background-color: #021925;
     color: #ffffff;
@@ -3818,6 +3780,7 @@ li.nav-item .dropdown-item {
     font-size: 0.75rem;
   }
 }
+
 @media (min-width: 1160px) and (max-width: 1439.98px) {
   .Footer {
     background-color: #021925;
@@ -3866,8 +3829,7 @@ li.nav-item .dropdown-item {
             justify-content: start;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    -moz-text-align-last: start;
-         text-align-last: start;
+    text-align-last: start;
     padding-top: 1.9375rem;
   }
   .Footer .container .foooterBody .footerBodyKiri li {
@@ -3906,14 +3868,12 @@ li.nav-item .dropdown-item {
     letter-spacing: -0.22px;
     line-height: 19.5px;
   }
-
   .container {
     max-width: 144rem;
   }
-
   .navbar-light .navbar-nav .nav-item {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-right: .5rem;
+    padding-left: .5rem;
   }
   .navbar-light .navbar-nav .nav-item .nav-link {
     padding-right: 0;
@@ -3923,28 +3883,23 @@ li.nav-item .dropdown-item {
   .navbar-light .navbar-nav .nav-item .nav-link:hover {
     border-bottom: #f05e36 2px solid;
   }
-
   .navbar-light .navbar-toggler {
     color: #ffffff;
     border: none;
   }
-
   .navbar {
     margin-top: 1.25rem;
   }
-
   .navbar-collapse {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
     padding-left: 20%;
   }
-
   .drop .btn-group {
     margin-top: 0;
     margin-left: 40%;
   }
-
   .section-1 {
     background-size: cover;
     padding-left: 0;
@@ -4035,8 +3990,8 @@ li.nav-item .dropdown-item {
     margin-top: 2rem;
   }
   .section-1 ul li.nav-item .nav-link,
-.section-1 ul li.nav-item button span,
-.section-1 ul li.nav-item .dropdown-item {
+  .section-1 ul li.nav-item button span,
+  .section-1 ul li.nav-item .dropdown-item {
     font-family: "IBMPlexSans-SemiBold";
     font-weight: 600;
     font-size: 1rem;
@@ -4078,7 +4033,6 @@ li.nav-item .dropdown-item {
     width: 100%;
     margin-bottom: -3.75rem;
   }
-
   .section-2 .content-left {
     padding-left: 5rem;
   }
@@ -4197,7 +4151,6 @@ li.nav-item .dropdown-item {
     background-color: #f05e36;
     border-color: #f05e36;
   }
-
   .section-3 .content .row {
     background-color: #f05e36;
   }
@@ -4315,13 +4268,12 @@ li.nav-item .dropdown-item {
   .section-3 .content .row .content-right .text h4.second-text {
     margin-bottom: 8.4rem;
   }
-
   .section-4 {
     padding: 6.875rem 6.25rem 5.25rem;
   }
   .section-4 .title,
-.section-4 .card-title,
-.section-4 .card-text h3 {
+  .section-4 .card-title,
+  .section-4 .card-text h3 {
     color: #0a2939;
   }
   .section-4 .title {
@@ -4334,8 +4286,8 @@ li.nav-item .dropdown-item {
     line-height: 2.375rem;
   }
   .section-4 .row .title,
-.section-4 .row .card-title,
-.section-4 .row .card-text h3 {
+  .section-4 .row .card-title,
+  .section-4 .row .card-text h3 {
     color: #0a2939;
   }
   .section-4 .row .title {
@@ -4429,11 +4381,9 @@ li.nav-item .dropdown-item {
     background-color: #0a2939;
     border-color: #0a2939;
   }
-
   .section-5 {
     display: none;
   }
-
   .section-6 .row {
     background-color: #021925;
     color: #ffffff;
@@ -4507,14 +4457,14 @@ li.nav-item .dropdown-item {
     font-size: 0.75rem;
   }
 }
+
 @media (min-width: 1440px) {
   hr {
     display: none;
   }
-
   .navbar-light .navbar-nav .nav-item {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-right: .5rem;
+    padding-left: .5rem;
   }
   .navbar-light .navbar-nav .nav-item .nav-link {
     padding-right: 0;
@@ -4524,28 +4474,23 @@ li.nav-item .dropdown-item {
   .navbar-light .navbar-nav .nav-item .nav-link:hover {
     border-bottom: #f05e36 2px solid;
   }
-
   .navbar-collapse {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
     padding-left: 25%;
   }
-
   .navbar-light .navbar-toggler {
     color: #ffffff;
     border: none;
   }
-
   .navbar {
     margin-top: 1.875rem;
   }
-
   .drop .btn-group {
     margin-top: 0;
     margin-left: 20%;
   }
-
   .section-1 {
     background-size: cover;
     padding-left: 0;
@@ -4649,7 +4594,6 @@ li.nav-item .dropdown-item {
     margin-bottom: -3.75rem;
     padding-left: 20%;
   }
-
   .section-2 .content-left h1 {
     margin-bottom: 3.125rem;
     font-family: "IBMPlexSans-Medium";
@@ -4753,7 +4697,6 @@ li.nav-item .dropdown-item {
     background-color: #f05e36;
     border-color: #f05e36;
   }
-
   .section-3 .content {
     background-color: #f05e36;
   }
@@ -4875,13 +4818,12 @@ li.nav-item .dropdown-item {
   .section-3 .content .row .content-right .text h4.second-text {
     margin-bottom: 8.4rem;
   }
-
   .section-4 {
     padding: 6.875rem 6.25rem 5.25rem;
   }
   .section-4 .title,
-.section-4 .card-title,
-.section-4 .card-text h3 {
+  .section-4 .card-title,
+  .section-4 .card-text h3 {
     color: #0a2939;
   }
   .section-4 .title {
@@ -4894,8 +4836,8 @@ li.nav-item .dropdown-item {
     line-height: 2.375rem;
   }
   .section-4 .row .title,
-.section-4 .row .card-title,
-.section-4 .row .card-text h3 {
+  .section-4 .row .card-title,
+  .section-4 .row .card-text h3 {
     color: #0a2939;
   }
   .section-4 .row .title {
@@ -4994,7 +4936,6 @@ li.nav-item .dropdown-item {
     background-color: #0a2939;
     border-color: #0a2939;
   }
-
   .section-5 {
     width: 100%;
     padding: 0px !important;
@@ -5161,7 +5102,6 @@ li.nav-item .dropdown-item {
     font-size: 60px !important;
     height: 100px;
   }
-
   .section-6 .row {
     background-color: #021925;
     color: #ffffff;
@@ -5250,7 +5190,6 @@ li.nav-item .dropdown-item {
     font-family: "IBMPlexSans";
     font-size: 0.75rem;
   }
-
   .Footer {
     background-color: #021925;
     height: 40rem;
@@ -5298,8 +5237,7 @@ li.nav-item .dropdown-item {
             justify-content: start;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    -moz-text-align-last: start;
-         text-align-last: start;
+    text-align-last: start;
     padding-top: 1.9375rem;
   }
   .Footer .container .foooterBody .footerBodyKiri li {
@@ -5340,6 +5278,7 @@ li.nav-item .dropdown-item {
     line-height: 19.5px;
   }
 }
+
 .section-4 .card-list-image .card:last-child {
   margin-right: 0;
 }
