@@ -144,7 +144,7 @@
 .sectionAddActuals {
   color: #f05e36;
   text-align: center;
-  margin-top: -4rem;
+  margin-top: -8rem;
   position: relative;
   .icon-plus {
     filter: invert(56%) sepia(34%) saturate(6580%) hue-rotate(339deg)
@@ -168,7 +168,7 @@
 .sectionSatu {
   .sectionSatuKanan {
     img {
-      width: 1056px;
+      width: 1019px;
     }
     .orangeBlock {
       height: 16px;
@@ -253,17 +253,27 @@
 }
 
 @media only screen and (min-width: 1400px) {
-  // .sectionSatu .sectionSatuKiri .text {
-  //   //waiting halaman 2
-  //   position: absolute;
-  //   top: 21.875rem;
-  //   margin-left: 3rem;
-  // }
+  .navbar {
+    .nav-item {
+      .nav-link {
+        transition: border-color 0.3s ease-in-out;
+      }
+    }
+  }
+  .sectionSatu .sectionSatuKiri .text {
+    //parent: halaman 2
+    top: 23.875rem;
+  }
+
+  .sectionLima {
+    //parent: halaman 2
+    margin-top: 2rem;
+  }
 
   .sectionSatu {
     .sectionSatuKanan {
       img {
-        width: 1056px;
+        width: 1019px;
       }
       .orangeBlock {
         width: 100px;

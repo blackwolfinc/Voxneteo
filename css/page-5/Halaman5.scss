@@ -18,7 +18,7 @@
   span {
     color: #f66e49;
     font-size: 0.75rem;
-    margin-left: 5rem;
+    margin-left: 4rem;
     text-transform: uppercase;
     line-height: 0.9375rem;
     letter-spacing: 2px;
@@ -29,7 +29,7 @@
     width: 100%;
     position: absolute;
     top: 0.4rem;
-    right: 2rem;
+    right: 3rem;
   }
   .rotation-wrapper-inner {
     height: 0;
@@ -71,7 +71,7 @@
     font-size: 3.4rem;
     line-height: 45px;
     margin-top: 1.6rem;
-    margin-bottom: 1.3rem;
+    margin-bottom: 1rem;
     letter-spacing: -0.79px;
   }
   .subTitle {
@@ -117,7 +117,11 @@
     line-height: 1.875rem;
     color: #f05e36;
     // display: block;
+    transition: all 0.3s;
     text-decoration: none;
+    &:hover {
+      color: #0a2939;
+    }
   }
   .dividerVisitWebsite {
     margin-top: 3.125rem;
@@ -129,7 +133,7 @@
 .sectionSatu {
   .sectionSatuKanan {
     img {
-      width: 1056px;
+      width: 1019px;
     }
     .orangeBlock {
       height: 16px;
@@ -139,10 +143,20 @@
 }
 
 @media only screen and (min-width: 1400px) {
+  .sectionSatu .sectionSatuKiri .text {
+    //parent: halaman 2
+    top: 23.875rem;
+  }
+
+  .sectionLima {
+    //parent: halaman 2
+    margin-top: 2rem;
+  }
+
   .sectionSatu {
     .sectionSatuKanan {
       img {
-        width: 1056px;
+        width: 1019px;
       }
       .orangeBlock {
         width: 100px;
