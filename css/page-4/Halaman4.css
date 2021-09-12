@@ -172,7 +172,7 @@
 .sectionAddActuals {
   color: #f05e36;
   text-align: center;
-  margin-top: -4rem;
+  margin-top: -8rem;
   position: relative;
 }
 
@@ -197,7 +197,7 @@
 }
 
 .sectionSatu .sectionSatuKanan img {
-  width: 1056px;
+  width: 1019px;
 }
 
 .sectionSatu .sectionSatuKanan .orangeBlock {
@@ -280,8 +280,18 @@
 }
 
 @media only screen and (min-width: 1400px) {
+  .navbar .nav-item .nav-link {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+  }
+  .sectionSatu .sectionSatuKiri .text {
+    top: 23.875rem;
+  }
+  .sectionLima {
+    margin-top: 2rem;
+  }
   .sectionSatu .sectionSatuKanan img {
-    width: 1056px;
+    width: 1019px;
   }
   .sectionSatu .sectionSatuKanan .orangeBlock {
     width: 100px;
