@@ -440,6 +440,7 @@
   }
   .container .sectionLima .sectionLimaBody {
     padding: 1.5rem;
+    padding-bottom: 0;
   }
   .container .sectionLima .sectionLimaBody .logo {
     display: -webkit-box;
@@ -1326,7 +1327,6 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-bottom: 4rem;
     margin-left: 0;
     margin-right: 0;
     border-bottom: 1px solid #e8d4cf;
@@ -2106,7 +2106,6 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-bottom: 4rem;
     border-bottom: 1px solid #e8d4cf;
   }
   .sectionLima .sectionLimaBody .SectionLimaTengah .email {
@@ -2873,7 +2872,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-bottom: 4rem;
+    margin-bottom: 0;
     border-bottom: 1px solid #e8d4cf;
   }
   .sectionLima .sectionLimaBody .SectionLimaTengah .email {

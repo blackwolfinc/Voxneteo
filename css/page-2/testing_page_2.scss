@@ -626,18 +626,13 @@ $size1: 1.6rem;
               color: red;
             }
   
-            // input[type=email]+span::before{
-            //     content:" *";
-            //     color: red;
-            //     display: inline;
-            //     margin-left: -20px;
-            //  }
           }
   
           h6 {
             text-align: center;
             font-family: $ibmMedium;
             color: #002f39;
+            margin-bottom: 1.9375rem;
           }
   
           .mc_fieldset {
