@@ -3128,6 +3128,10 @@ li.hidden ul li {
     height: 3rem;
     width: 100%;
   }
+  .section-5 {
+    display: none;
+    visibility: hidden;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1160.98px) {
