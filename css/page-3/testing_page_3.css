@@ -1887,7 +1887,7 @@
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 3.125rem;
-    padding-right: 4rem;
+    padding-right: 6.25rem;
   }
   .sectionDua .sectionDuaKanan .wraperKanan-One {
     background-color: #0a2939;
@@ -1974,11 +1974,11 @@
   }
   .sectionTiga {
     margin-bottom: 0;
-    width: 87%;
     margin-left: 7.75rem;
     background-color: rgba(114, 147, 164, 0.1);
     margin-top: 8.4375rem;
     padding: 2.375rem 5.9375rem;
+    margin-right: 6.25rem;
   }
   .sectionTiga .title h1 {
     color: #0a2939;
