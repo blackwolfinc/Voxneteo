@@ -46,7 +46,8 @@
 }
 .containerCard {
   width: 320px;
-  margin-right: 6.625rem;
+  // margin-right: 6.625rem;
+  margin-right: 8.9%;
   padding-top: 0.7rem;
   .containerImage {
     position: relative;
@@ -150,7 +151,7 @@
 
   .sectionLima {
     //parent: halaman 2
-    margin-top: 2rem;
+    margin-top: 5.4375rem;
   }
 
   .sectionSatu {
@@ -172,7 +173,7 @@
     margin-top: 1.5rem;
   }
 }
-@media only screen and (min-width: 0px) and (max-width: 763px) {
+@media only screen and (min-width: 0px) and (max-width: 720px) {
   .containerBack {
     text-align: left;
     span {
@@ -194,6 +195,7 @@
     padding-top: 0;
     margin: 0 auto;
     margin-bottom: 2rem;
+    width: 100%;
     .date {
       font-size: 2rem;
       margin-top: 1rem;
@@ -211,6 +213,8 @@
       }
       img {
         object-fit: contain;
+        width: 100%;
+        height: auto;
       }
     }
   }

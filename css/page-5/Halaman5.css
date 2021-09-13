@@ -54,7 +54,7 @@
 
 .containerCard {
   width: 320px;
-  margin-right: 6.625rem;
+  margin-right: 8.9%;
   padding-top: 0.7rem;
 }
 
@@ -165,7 +165,7 @@
     top: 23.875rem;
   }
   .sectionLima {
-    margin-top: 2rem;
+    margin-top: 5.4375rem;
   }
   .sectionSatu .sectionSatuKanan img {
     width: 1019px;
@@ -183,7 +183,7 @@
   }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 763px) {
+@media only screen and (min-width: 0px) and (max-width: 720px) {
   .containerBack {
     text-align: left;
   }
@@ -205,6 +205,7 @@
     padding-top: 0;
     margin: 0 auto;
     margin-bottom: 2rem;
+    width: 100%;
   }
   .containerCard .date {
     font-size: 2rem;
@@ -223,6 +224,8 @@
   .containerCard .containerImage img {
     -o-object-fit: contain;
        object-fit: contain;
+    width: 100%;
+    height: auto;
   }
   .containerNews .newsTitle {
     font-size: 1.875rem;
