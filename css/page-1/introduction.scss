@@ -3551,6 +3551,10 @@ li.hidden ul li {
       width: 100%;
     }
   }
+  .section-5 {
+    display: none;
+    visibility: hidden;
+  }
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1160.98px) {

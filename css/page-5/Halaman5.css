@@ -155,11 +155,6 @@
   width: 1019px;
 }
 
-.sectionSatu .sectionSatuKanan .orangeBlock {
-  height: 16px;
-  background-color: #f05e36;
-}
-
 @media only screen and (min-width: 1400px) {
   .sectionSatu .sectionSatuKiri .text {
     top: 23.875rem;
@@ -169,11 +164,6 @@
   }
   .sectionSatu .sectionSatuKanan img {
     width: 1019px;
-  }
-  .sectionSatu .sectionSatuKanan .orangeBlock {
-    width: 100px;
-    background-color: #f05e36;
-    height: 100%;
   }
 }
 
