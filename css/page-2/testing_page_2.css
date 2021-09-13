@@ -1,40 +1,48 @@
-@charset "UTF-8";
 @font-face {
   font-family: "IBMPlexSans";
   src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans.ttf");
 }
+
 @font-face {
   font-family: "IBMPlexSans-SemiBold";
   src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBold.ttf");
 }
+
 @font-face {
   font-family: "IBMPlexSans-Light";
   src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Light.ttf");
 }
+
 @font-face {
   font-family: "IBMPlexSans-Medium";
   src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Medium.ttf");
 }
+
 @font-face {
   font-family: "IBMPlexSans-SemiBoldItalic";
   src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBoldItalic.ttf");
 }
+
 @font-face {
   font-family: "Butler-Light";
   src: url("../../assets/fonts/webfont-butler/Butler-Light.ttf");
 }
+
 @font-face {
   font-family: "Butler";
   src: url("../../assets/fonts/webfont-butler/Butler.ttf");
 }
+
 @font-face {
   font-family: "Minion-DisplayItalic";
   src: url("../../assets/fonts/webfont-minion/Minion-DisplayItalic.ttf");
 }
+
 @font-face {
   font-family: "Minion-Bold";
   src: url("../../assets/fonts/webfont-minion/Minion-Bold.ttf");
 }
+
 @media (max-width: 990.98px) {
   .navbar-nav {
     top: 0;
@@ -80,7 +88,7 @@
     color: #f05e36;
   }
   .navbar-nav li ul.dash li:before {
-    content: "―";
+    content: "\2015";
     text-indent: -5px;
     margin-right: 13px;
     color: #f05e36;
@@ -93,11 +101,9 @@
     margin-left: -0.25rem;
     margin-bottom: 1.25rem;
   }
-
   .navbar-light .navbar-toggler {
     border: none;
   }
-
   .container {
     margin-left: 0;
     margin-right: 0;
@@ -545,16 +551,6 @@
     line-height: 30px;
     text-align: center;
   }
-  .container .sectionLima .SectionLimaTengah .mc-field-group ::-moz-placeholder {
-    height: 30px;
-    width: 256px;
-    color: #f05e36;
-    font-family: "IBM Plex Sans";
-    font-size: 16px;
-    letter-spacing: -0.24px;
-    line-height: 30px;
-    text-align: center;
-  }
   .container .sectionLima .SectionLimaTengah .mc-field-group :-ms-input-placeholder {
     height: 30px;
     width: 256px;
@@ -680,15 +676,6 @@
     text-align: left;
     width: 100%;
   }
-  .container .sectionLima .SectionLimaBawah ::-moz-placeholder {
-    color: #363636;
-    font-family: "IBM Plex Sans";
-    font-size: 16px;
-    letter-spacing: -0.24px;
-    line-height: 30px;
-    text-align: left;
-    width: 100%;
-  }
   .container .sectionLima .SectionLimaBawah :-ms-input-placeholder {
     color: #363636;
     font-family: "IBM Plex Sans";
@@ -734,7 +721,6 @@
     background-color: #f05e36;
     width: 100%;
   }
-
   .Footer {
     margin-top: 1.875rem !important;
     background-color: #021925 !important;
@@ -827,13 +813,13 @@
     line-height: 19.5px;
   }
 }
+
 @media (min-width: 991px) and (max-width: 1207.98px) {
   .container {
     padding-left: 0px;
     padding-right: 0px;
     max-width: 1199.98px;
   }
-
   .navbar {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -897,7 +883,7 @@
   .navbar .nav-item .nav-link {
     color: #0a2939;
     font-family: "IBMPlexSans-Medium";
-    font-size: 0.75rem;
+    font-size: .75rem;
     font-weight: 600;
     letter-spacing: -0.26px;
     line-height: 23px;
@@ -930,9 +916,8 @@
     width: 60px;
     height: 60px;
     top: 3.125rem;
-    margin-left: 0.75rem;
+    margin-left: .75rem;
   }
-
   .sectionSatu {
     margin-top: 4.375rem;
     display: -webkit-box;
@@ -997,7 +982,6 @@
     width: 100%;
     padding-right: 6.25rem;
   }
-
   .sectionDua {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1198,7 +1182,6 @@
   .sectionDua .wraperKanan-Four ul li p {
     display: inline;
   }
-
   .sectionTiga {
     margin-top: 1.25rem;
     margin-bottom: 0;
@@ -1238,7 +1221,7 @@
     opacity: 1 !important;
   }
   .sectionTiga .carousel-control-prev,
-.sectionTiga .carousel-control-next {
+  .sectionTiga .carousel-control-next {
     display: none;
   }
   .sectionTiga .containerSlide {
@@ -1310,7 +1293,6 @@
   .sectionTiga .sectionTigaBawah {
     margin-top: 5rem;
   }
-
   .sectionEmpat {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1414,7 +1396,6 @@
   .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan li p:hover {
     color: #f05e36;
   }
-
   .sectionLima {
     border: 10px solid #f66f4933;
     display: -webkit-box;
@@ -1423,7 +1404,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding-top: 3rem;
+    padding-top: 1.25rem;
     margin-top: 7rem;
     margin-left: 7.75rem;
     margin-right: 7.75rem;
@@ -1441,9 +1422,9 @@
     margin-bottom: 3.125rem;
   }
   .sectionLima .sectionLimaBody .title,
-.sectionLima .sectionLimaBody .SectionLimaTengah,
-.sectionLima .sectionLimaBody .SectionLimaBawah {
-    margin: 0 5rem;
+  .sectionLima .sectionLimaBody .SectionLimaTengah,
+  .sectionLima .sectionLimaBody .SectionLimaBawah {
+    margin: 0;
   }
   .sectionLima .sectionLimaBody p {
     color: #f66e49;
@@ -1460,6 +1441,10 @@
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
+  }
+  .sectionLima .sectionLimaBody .logo img {
+    width: 15.625rem;
+    height: 100%;
   }
   .sectionLima .sectionLimaBody .title {
     -webkit-box-pack: center;
@@ -1506,11 +1491,6 @@
     margin-left: 1rem;
     width: 13rem;
   }
-  .sectionLima .sectionLimaBody .SectionLimaTengah ::-moz-placeholder {
-    border-left: 2px solid #002f39;
-    margin-left: 1rem;
-    width: 13rem;
-  }
   .sectionLima .sectionLimaBody .SectionLimaTengah :-ms-input-placeholder {
     border-left: 2px solid #002f39;
     margin-left: 1rem;
@@ -1538,7 +1518,7 @@
     margin-left: 0.5rem;
   }
   .sectionLima .sectionLimaBody .SectionLimaTengah .text,
-.sectionLima .sectionLimaBody .SectionLimaTengah .terms {
+  .sectionLima .sectionLimaBody .SectionLimaTengah .terms {
     color: #002f39;
     font-family: "IBMPlexSans";
     font-size: 16px;
@@ -1587,7 +1567,6 @@
     line-height: 20px;
     background-color: #f05e36;
   }
-
   .Footer {
     width: 100%;
     background-color: #021925;
@@ -1704,13 +1683,13 @@
     line-height: 19.5px;
   }
 }
+
 @media (min-width: 1208px) and (max-width: 1399.98px) {
   .container {
     padding-left: 0px;
     padding-right: 0px;
     max-width: 1399.98px;
   }
-
   .navbar {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1813,7 +1792,6 @@
     top: 2.0625rem;
     margin-left: 1.25rem;
   }
-
   .sectionSatu {
     margin-top: 4.375rem;
     display: -webkit-box;
@@ -1882,7 +1860,6 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-
   .sectionDua {
     width: 100%;
     display: -webkit-box;
@@ -2097,7 +2074,6 @@
   .sectionDua .wraperKanan-Four ul li p {
     display: inline;
   }
-
   .sectionTiga {
     margin-top: 1.25rem;
     margin-bottom: 0;
@@ -2137,7 +2113,7 @@
     opacity: 1 !important;
   }
   .sectionTiga .carousel-control-prev,
-.sectionTiga .carousel-control-next {
+  .sectionTiga .carousel-control-next {
     display: none;
   }
   .sectionTiga .containerSlide {
@@ -2209,7 +2185,6 @@
   .sectionTiga .sectionTigaBawah {
     margin-top: 5rem;
   }
-
   .sectionEmpat {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2313,7 +2288,6 @@
   .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan li p:hover {
     color: #f05e36;
   }
-
   .sectionLima {
     border: 10px solid #f66f4933;
     display: -webkit-box;
@@ -2322,7 +2296,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding-top: 3rem;
+    padding-top: 1.5625rem;
     margin-top: 7rem;
     margin-left: 7.75rem;
     margin-right: 7.75rem;
@@ -2340,8 +2314,8 @@
     margin-bottom: 3.125rem;
   }
   .sectionLima .sectionLimaBody .title,
-.sectionLima .sectionLimaBody .SectionLimaTengah,
-.sectionLima .sectionLimaBody .SectionLimaBawah {
+  .sectionLima .sectionLimaBody .SectionLimaTengah,
+  .sectionLima .sectionLimaBody .SectionLimaBawah {
     margin: 0 5rem;
   }
   .sectionLima .sectionLimaBody p {
@@ -2405,11 +2379,6 @@
     margin-left: 1rem;
     width: 13rem;
   }
-  .sectionLima .sectionLimaBody .SectionLimaTengah ::-moz-placeholder {
-    border-left: 2px solid #002f39;
-    margin-left: 1rem;
-    width: 13rem;
-  }
   .sectionLima .sectionLimaBody .SectionLimaTengah :-ms-input-placeholder {
     border-left: 2px solid #002f39;
     margin-left: 1rem;
@@ -2437,7 +2406,7 @@
     margin-left: 0.5rem;
   }
   .sectionLima .sectionLimaBody .SectionLimaTengah .text,
-.sectionLima .sectionLimaBody .SectionLimaTengah .terms {
+  .sectionLima .sectionLimaBody .SectionLimaTengah .terms {
     color: #002f39;
     font-family: "IBMPlexSans";
     font-size: 16px;
@@ -2486,7 +2455,6 @@
     line-height: 20px;
     background-color: #f05e36;
   }
-
   .Footer {
     width: 100%;
     background-color: #021925;
@@ -2603,13 +2571,13 @@
     line-height: 19.5px;
   }
 }
+
 @media (min-width: 1400px) {
   .container {
     padding-left: 0px;
     padding-right: 0px;
     max-width: 87.5rem;
   }
-
   .navbar {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2711,7 +2679,6 @@
     top: 2.0625rem;
     margin-left: 1.25rem;
   }
-
   .sectionSatu {
     margin-top: 4.375rem;
     display: -webkit-box;
@@ -2780,7 +2747,6 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-
   .sectionDua {
     width: 100%;
     display: -webkit-box;
@@ -2995,7 +2961,6 @@
   .sectionDua .wraperKanan-Four ul li p {
     display: inline;
   }
-
   .sectionTiga {
     margin-top: 1.25rem;
     margin-bottom: 0;
@@ -3035,7 +3000,7 @@
     opacity: 1 !important;
   }
   .sectionTiga .carousel-control-prev,
-.sectionTiga .carousel-control-next {
+  .sectionTiga .carousel-control-next {
     display: none;
   }
   .sectionTiga .containerSlide {
@@ -3108,7 +3073,6 @@
   .sectionTiga .sectionTigaBawah {
     margin-top: 5rem;
   }
-
   .sectionEmpat {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3213,7 +3177,6 @@
   .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan li p:hover {
     color: #f05e36;
   }
-
   .sectionLima {
     border: 10px solid #f66f4933;
     display: -webkit-box;
@@ -3240,8 +3203,8 @@
     margin-bottom: 3.125rem;
   }
   .sectionLima .sectionLimaBody .title,
-.sectionLima .sectionLimaBody .SectionLimaTengah,
-.sectionLima .sectionLimaBody .SectionLimaBawah {
+  .sectionLima .sectionLimaBody .SectionLimaTengah,
+  .sectionLima .sectionLimaBody .SectionLimaBawah {
     margin: 0 5rem;
   }
   .sectionLima .sectionLimaBody p {
@@ -3305,11 +3268,6 @@
     margin-left: 1rem;
     width: 13rem;
   }
-  .sectionLima .sectionLimaBody .SectionLimaTengah ::-moz-placeholder {
-    border-left: 2px solid #002f39;
-    margin-left: 1rem;
-    width: 13rem;
-  }
   .sectionLima .sectionLimaBody .SectionLimaTengah :-ms-input-placeholder {
     border-left: 2px solid #002f39;
     margin-left: 1rem;
@@ -3337,7 +3295,7 @@
     margin-left: 0.5rem;
   }
   .sectionLima .sectionLimaBody .SectionLimaTengah .text,
-.sectionLima .sectionLimaBody .SectionLimaTengah .terms {
+  .sectionLima .sectionLimaBody .SectionLimaTengah .terms {
     color: #002f39;
     font-family: "IBMPlexSans";
     font-size: 16px;
@@ -3386,7 +3344,6 @@
     line-height: 20px;
     background-color: #f05e36;
   }
-
   .Footer {
     width: 100%;
     background-color: #021925;
@@ -3470,6 +3427,40 @@
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Footer .container .foooterBody .footerBodyKanan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .Footer .container .foooterBody .footerBodyKanan .linkedIn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-decoration: none;
+  }
+  .Footer .container .foooterBody .footerBodyKanan .linkedIn h5 {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    color: #ffffff;
+    font-family: "IBMPlexSans";
+    font-size: 15px;
+    letter-spacing: -0.22px;
+    line-height: 19.5px;
+  }
+}
+/*# sourceMappingURL=testing_page_2.css.map */-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
