@@ -5309,4 +5309,21 @@ li.hidden ul li {
 .section-4 .card-list-image .card:last-child {
   margin-right: 0;
 }
+
+.container-contents-section5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+@media (min-width: 2100px) {
+  .container-contents-section5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 1400px;
+    margin: 0 auto;
+  }
+}
 /*# sourceMappingURL=introduction.css.map */
