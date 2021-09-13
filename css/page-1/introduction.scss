@@ -249,6 +249,36 @@ li.hidden ul li {
   }
 }
 
+.section-3 {
+  .content {
+    .row {
+      .content-right {
+        .container-contents {
+          margin-top: 5.4375rem;
+          .container-contents-content-right {
+            -webkit-transition: opacity 0.3s ease-in;
+            -moz-transition: opacity 0.3s ease-in;
+            -ms-transition: opacity 0.3s ease-in;
+            -o-transition: opacity 0.3s ease-in;
+            transition: opacity 0.3s ease-in;
+            opacity: 1;
+            &.removed {
+              opacity: 0;
+              h1,
+              h4 {
+                display: none;
+              }
+              .text {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (min-width: 0px) and (max-width: 376.98px) {
   .row {
     --bs-gutter-x: 0rem !important;
@@ -1928,7 +1958,7 @@ li.hidden ul li {
 
   li#hidebtn {
     margin-top: 0;
-    margin-bottom: .75rem;
+    margin-bottom: 0.75rem;
   }
 
   li.nav-item {
@@ -1944,7 +1974,7 @@ li.hidden ul li {
       font-family: $ibmSemiBold;
       font-weight: 600;
       font-size: 1.05rem;
-      padding-left: .75rem;
+      padding-left: 0.75rem;
     }
   }
 
@@ -1952,8 +1982,8 @@ li.hidden ul li {
     .navbar-nav {
       .nav-link {
         color: #ffffff;
-        padding-bottom: .75rem;
-        padding-top: .75rem;
+        padding-bottom: 0.75rem;
+        padding-top: 0.75rem;
         &:hover {
           color: #f05e36;
         }
@@ -2630,16 +2660,16 @@ li.hidden ul li {
     padding-left: 36px;
     padding-right: 36px;
   }
-  
+
   li#hidebtn {
-    margin-top: .75rem;
+    margin-top: 0.75rem;
     padding-left: 0;
-    margin-bottom: .75rem;
+    margin-bottom: 0.75rem;
   }
 
   li.nav-item {
     margin-left: 1.5rem;
-    padding-left: .75rem;
+    padding-left: 0.75rem;
 
     svg {
       width: 30px;
@@ -2647,8 +2677,8 @@ li.hidden ul li {
     }
     .nav-link {
       font-size: 1.05rem;
-      padding-top: .75rem;
-      padding-bottom: .75rem;
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
     }
 
     .btn-group {
@@ -3615,8 +3645,8 @@ li.hidden ul li {
   .navbar-light {
     .navbar-nav {
       .nav-item {
-        padding-right: .5rem;
-        padding-left: .5rem;
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
         .nav-link {
           padding-right: 0;
           padding-left: 0;
@@ -3625,7 +3655,7 @@ li.hidden ul li {
             border-bottom: #f05e36 2px solid;
           }
         }
-      } 
+      }
     }
   }
 
@@ -4391,8 +4421,8 @@ li.hidden ul li {
   .navbar-light {
     .navbar-nav {
       .nav-item {
-        padding-right: .5rem;
-        padding-left: .5rem;
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
         .nav-link {
           padding-right: 0;
           padding-left: 0;
@@ -4401,7 +4431,7 @@ li.hidden ul li {
             border-bottom: #f05e36 2px solid;
           }
         }
-      } 
+      }
     }
   }
 
@@ -5085,8 +5115,8 @@ li.hidden ul li {
   .navbar-light {
     .navbar-nav {
       .nav-item {
-        padding-right: .5rem;
-        padding-left: .5rem;
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
         .nav-link {
           padding-right: 0;
           padding-left: 0;
@@ -5095,7 +5125,7 @@ li.hidden ul li {
             border-bottom: #f05e36 2px solid;
           }
         }
-      } 
+      }
     }
   }
 
@@ -5723,7 +5753,7 @@ li.hidden ul li {
 
     .carousel {
       margin-top: 10rem;
-      margin-right: 10rem;
+      margin-right: 13rem;
       margin-left: -20rem;
       width: 60%;
       position: relative;

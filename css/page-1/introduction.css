@@ -217,6 +217,29 @@ li.hidden ul li {
   min-width: 242px;
 }
 
+.section-3 .content .row .content-right .container-contents {
+  margin-top: 5.4375rem;
+}
+
+.section-3 .content .row .content-right .container-contents .container-contents-content-right {
+  -webkit-transition: opacity 0.3s ease-in;
+  transition: opacity 0.3s ease-in;
+  opacity: 1;
+}
+
+.section-3 .content .row .content-right .container-contents .container-contents-content-right.removed {
+  opacity: 0;
+}
+
+.section-3 .content .row .content-right .container-contents .container-contents-content-right.removed h1,
+.section-3 .content .row .content-right .container-contents .container-contents-content-right.removed h4 {
+  display: none;
+}
+
+.section-3 .content .row .content-right .container-contents .container-contents-content-right.removed .text {
+  display: none;
+}
+
 @media (min-width: 0px) and (max-width: 376.98px) {
   .row {
     --bs-gutter-x: 0rem !important;
@@ -1741,7 +1764,7 @@ li.hidden ul li {
   }
   li#hidebtn {
     margin-top: 0;
-    margin-bottom: .75rem;
+    margin-bottom: 0.75rem;
   }
   li.nav-item {
     margin-left: 1.5rem;
@@ -1756,12 +1779,12 @@ li.hidden ul li {
     font-family: "IBMPlexSans-SemiBold";
     font-weight: 600;
     font-size: 1.05rem;
-    padding-left: .75rem;
+    padding-left: 0.75rem;
   }
   .navbar-light .navbar-nav .nav-link {
     color: #ffffff;
-    padding-bottom: .75rem;
-    padding-top: .75rem;
+    padding-bottom: 0.75rem;
+    padding-top: 0.75rem;
   }
   .navbar-light .navbar-nav .nav-link:hover {
     color: #f05e36;
@@ -2346,13 +2369,13 @@ li.hidden ul li {
     padding-right: 36px;
   }
   li#hidebtn {
-    margin-top: .75rem;
+    margin-top: 0.75rem;
     padding-left: 0;
-    margin-bottom: .75rem;
+    margin-bottom: 0.75rem;
   }
   li.nav-item {
     margin-left: 1.5rem;
-    padding-left: .75rem;
+    padding-left: 0.75rem;
   }
   li.nav-item svg {
     width: 30px;
@@ -2360,8 +2383,8 @@ li.hidden ul li {
   }
   li.nav-item .nav-link {
     font-size: 1.05rem;
-    padding-top: .75rem;
-    padding-bottom: .75rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
   }
   li.nav-item .btn-group button span {
     font-size: 0.9rem;
@@ -3198,8 +3221,8 @@ li.hidden ul li {
     max-width: 144rem;
   }
   .navbar-light .navbar-nav .nav-item {
-    padding-right: .5rem;
-    padding-left: .5rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
   }
   .navbar-light .navbar-nav .nav-item .nav-link {
     padding-right: 0;
@@ -3872,8 +3895,8 @@ li.hidden ul li {
     max-width: 144rem;
   }
   .navbar-light .navbar-nav .nav-item {
-    padding-right: .5rem;
-    padding-left: .5rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
   }
   .navbar-light .navbar-nav .nav-item .nav-link {
     padding-right: 0;
@@ -4463,8 +4486,8 @@ li.hidden ul li {
     display: none;
   }
   .navbar-light .navbar-nav .nav-item {
-    padding-right: .5rem;
-    padding-left: .5rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
   }
   .navbar-light .navbar-nav .nav-item .nav-link {
     padding-right: 0;
@@ -5031,7 +5054,7 @@ li.hidden ul li {
   }
   .section-5 .carousel {
     margin-top: 10rem;
-    margin-right: 10rem;
+    margin-right: 13rem;
     margin-left: -20rem;
     width: 60%;
     position: relative;

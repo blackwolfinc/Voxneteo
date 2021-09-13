@@ -177,7 +177,105 @@
   }
 }
 
+.container {
+  .sectionLima {
+    //parent: halaman 2
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .navbar {
+    .nav-item {
+      .nav-link {
+        transition: border-color 0.3s ease-in-out;
+      }
+    }
+  }
+  .sectionSatu .sectionSatuKiri .text {
+    //parent: halaman 2
+    top: 23.875rem;
+  }
+
+  .sectionSatu {
+    .sectionSatuKanan {
+      img {
+        width: 1019px;
+      }
+      .orangeBlock {
+        width: 100px;
+        background-color: #f05e36;
+        height: 100%;
+      }
+    }
+  }
+}
+
 @media only screen and (min-width: 0px) and (max-width: 1184px) {
+  .sectionBody {
+    .containerCards {
+      .item {
+        &.center {
+          .containerImage {
+            &::after {
+              bottom: 2.5rem;
+            }
+          }
+        }
+        width: 257px;
+        .containerImage {
+          img {
+            width: 257px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1000px) {
+  .sectionBody {
+    .containerCards {
+      height: 103rem;
+      .item {
+        width: 200px;
+        &.center {
+          .containerImage {
+            &::after {
+              bottom: 0.5rem;
+            }
+          }
+        }
+        .containerImage {
+          img {
+            width: 200px;
+          }
+        }
+      }
+    }
+  }
+  .sectionAddActuals {
+    margin-top: -3rem;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 813px) {
+  .sectionBody {
+    .containerCards {
+      height: 106rem;
+      .item {
+        width: 180px;
+        .containerImage {
+          img {
+            width: 180px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 720px) {
   .sectionAddActuals {
     margin-top: -1rem;
   }
@@ -215,6 +313,7 @@
 
       .item {
         margin-bottom: 3.4375rem;
+        width: 100%;
         .date {
           font-size: 2rem;
           margin-top: 1rem;
@@ -234,6 +333,7 @@
           }
           img {
             object-fit: contain;
+            width: 100%;
           }
         }
         &.top-center {
@@ -252,42 +352,9 @@
   }
 }
 
-@media only screen and (min-width: 1400px) {
-  .navbar {
-    .nav-item {
-      .nav-link {
-        transition: border-color 0.3s ease-in-out;
-      }
-    }
-  }
-  .sectionSatu .sectionSatuKiri .text {
-    //parent: halaman 2
-    top: 23.875rem;
-  }
-
-  .sectionLima {
-    //parent: halaman 2
-    margin-top: 2rem;
-  }
-
-  .sectionSatu {
-    .sectionSatuKanan {
-      img {
-        width: 1019px;
-      }
-      .orangeBlock {
-        width: 100px;
-        background-color: #f05e36;
-        height: 100%;
-      }
-    }
-  }
-}
-
-@media only screen and (min-width: 717px) {
+@media only screen and (min-width: 620px) and (max-width: 719px) {
   .sectionBody {
     .containerCategories {
-      overflow-x: auto;
       li {
         &:last-child {
           margin-right: 0;
@@ -297,21 +364,6 @@
     .containerCategoriesCornerBlur {
       display: none;
       visibility: hidden;
-    }
-  }
-}
-
-@media only screen and (min-width: 0px) and (max-width: 415px) {
-  .sectionBody {
-    .containerCards {
-      .item {
-        width: 100%;
-        .containerImage {
-          img {
-            width: 100%;
-          }
-        }
-      }
     }
   }
 }
