@@ -90,7 +90,10 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: end;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .cookies .cookiesContainer .cookieskanan button {

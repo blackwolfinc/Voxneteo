@@ -77,9 +77,9 @@ $ibmMedium: "IBMPlexSans-Medium";
       align-items: center;
       text-align: center;
       align-items: end;
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
       // margin-right: 15%;
-
+      justify-content: flex-end;
       button {
         color: #ffffff;
         font-family: $ibmMedium;
