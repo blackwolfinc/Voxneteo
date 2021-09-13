@@ -45,7 +45,7 @@
   -webkit-box-direction: normal;
       -ms-flex-flow: column;
           flex-flow: column;
-  width: 75rem;
+  width: 80rem;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   height: 100rem;
@@ -200,11 +200,6 @@
   width: 1019px;
 }
 
-.sectionSatu .sectionSatuKanan .orangeBlock {
-  height: 16px;
-  background-color: #f05e36;
-}
-
 .container .sectionLima {
   margin-top: 2rem;
 }
@@ -219,11 +214,6 @@
   }
   .sectionSatu .sectionSatuKanan img {
     width: 1019px;
-  }
-  .sectionSatu .sectionSatuKanan .orangeBlock {
-    width: 100px;
-    background-color: #f05e36;
-    height: 100%;
   }
 }
 

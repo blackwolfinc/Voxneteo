@@ -33,7 +33,7 @@
   .containerCards {
     display: flex;
     flex-flow: column;
-    width: 75rem;
+    width: 80rem;
     flex-wrap: wrap;
     height: 100rem;
     list-style: none;
@@ -170,10 +170,6 @@
     img {
       width: 1019px;
     }
-    .orangeBlock {
-      height: 16px;
-      background-color: #f05e36;
-    }
   }
 }
 
@@ -201,11 +197,6 @@
     .sectionSatuKanan {
       img {
         width: 1019px;
-      }
-      .orangeBlock {
-        width: 100px;
-        background-color: #f05e36;
-        height: 100%;
       }
     }
   }
