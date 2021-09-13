@@ -205,7 +205,71 @@
   background-color: #f05e36;
 }
 
+.container .sectionLima {
+  margin-top: 2rem;
+}
+
+@media only screen and (min-width: 1400px) {
+  .navbar .nav-item .nav-link {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+  }
+  .sectionSatu .sectionSatuKiri .text {
+    top: 23.875rem;
+  }
+  .sectionSatu .sectionSatuKanan img {
+    width: 1019px;
+  }
+  .sectionSatu .sectionSatuKanan .orangeBlock {
+    width: 100px;
+    background-color: #f05e36;
+    height: 100%;
+  }
+}
+
 @media only screen and (min-width: 0px) and (max-width: 1184px) {
+  .sectionBody .containerCards .item {
+    width: 257px;
+  }
+  .sectionBody .containerCards .item.center .containerImage::after {
+    bottom: 2.5rem;
+  }
+  .sectionBody .containerCards .item .containerImage img {
+    width: 257px;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1000px) {
+  .sectionBody .containerCards {
+    height: 103rem;
+  }
+  .sectionBody .containerCards .item {
+    width: 200px;
+  }
+  .sectionBody .containerCards .item.center .containerImage::after {
+    bottom: 0.5rem;
+  }
+  .sectionBody .containerCards .item .containerImage img {
+    width: 200px;
+  }
+  .sectionAddActuals {
+    margin-top: -3rem;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 813px) {
+  .sectionBody .containerCards {
+    height: 106rem;
+  }
+  .sectionBody .containerCards .item {
+    width: 180px;
+  }
+  .sectionBody .containerCards .item .containerImage img {
+    width: 180px;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 720px) {
   .sectionAddActuals {
     margin-top: -1rem;
   }
@@ -247,6 +311,7 @@
   }
   .sectionBody .containerCards .item {
     margin-bottom: 3.4375rem;
+    width: 100%;
   }
   .sectionBody .containerCards .item .date {
     font-size: 2rem;
@@ -267,6 +332,7 @@
   .sectionBody .containerCards .item .containerImage img {
     -o-object-fit: contain;
        object-fit: contain;
+    width: 100%;
   }
   .sectionBody .containerCards .item.top-center {
     margin-top: 0;
@@ -279,46 +345,13 @@
   }
 }
 
-@media only screen and (min-width: 1400px) {
-  .navbar .nav-item .nav-link {
-    -webkit-transition: border-color 0.3s ease-in-out;
-    transition: border-color 0.3s ease-in-out;
-  }
-  .sectionSatu .sectionSatuKiri .text {
-    top: 23.875rem;
-  }
-  .sectionLima {
-    margin-top: 2rem;
-  }
-  .sectionSatu .sectionSatuKanan img {
-    width: 1019px;
-  }
-  .sectionSatu .sectionSatuKanan .orangeBlock {
-    width: 100px;
-    background-color: #f05e36;
-    height: 100%;
-  }
-}
-
-@media only screen and (min-width: 717px) {
-  .sectionBody .containerCategories {
-    overflow-x: auto;
-  }
+@media only screen and (min-width: 620px) and (max-width: 719px) {
   .sectionBody .containerCategories li:last-child {
     margin-right: 0;
   }
   .sectionBody .containerCategoriesCornerBlur {
     display: none;
     visibility: hidden;
-  }
-}
-
-@media only screen and (min-width: 0px) and (max-width: 415px) {
-  .sectionBody .containerCards .item {
-    width: 100%;
-  }
-  .sectionBody .containerCards .item .containerImage img {
-    width: 100%;
   }
 }
 /*# sourceMappingURL=Halaman4.css.map */
