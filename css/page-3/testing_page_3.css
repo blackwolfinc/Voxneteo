@@ -809,7 +809,7 @@
   }
   .navbar .dropdown-menu {
     top: 45px;
-    left: 20px;
+    left: 0px;
   }
   .navbar .navbar-nav {
     width: 100%;
@@ -1555,7 +1555,7 @@
     line-height: 19.5px;
   }
 }
-@media (min-width: 1208px) and (max-width: 1399.98px) {
+@media (min-width: 1208px) and (max-width: 1439.98px) {
   .container {
     max-width: 1399.98px;
     padding: 0;
@@ -1590,8 +1590,8 @@
     background-color: transparent !important;
   }
   .navbar .dropdown-menu {
-    top: 45px;
-    left: 20px;
+    top: 2.8125rem;
+    left: 0.5rem;
   }
   .navbar .navbar-nav {
     width: 100%;
@@ -2342,11 +2342,11 @@
     line-height: 19.5px;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1440px) {
   .container {
     padding-left: 0px;
     padding-right: 0px;
-    max-width: 87.5rem;
+    max-width: 90rem;
   }
 
   .navbar {
@@ -2378,8 +2378,8 @@
     background-color: transparent !important;
   }
   .navbar .dropdown-menu {
-    top: 45px;
-    left: 20px;
+    top: 2.8125rem;
+    left: 4.0625rem;
   }
   .navbar nav .navbar-toggler-icon {
     width: 3rem;
@@ -2451,6 +2451,7 @@
     width: 4.6875rem;
     height: 5.625rem;
     top: 2.0625rem;
+    margin-left: 1.25rem;
   }
 
   .sectionSatu {
@@ -2761,11 +2762,12 @@
     border-right: 3px solid #f66e49;
     display: block;
     position: relative;
-    left: 35%;
+    left: 37.2%;
     top: 5rem;
   }
   .sectionDua .wraperKanan-Four img {
     margin-left: 0.125rem;
+    width: 100%;
   }
   .sectionDua .wraperKanan-Five {
     margin-top: 8.4375rem;
