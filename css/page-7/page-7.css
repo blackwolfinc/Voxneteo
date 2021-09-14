@@ -48,8 +48,7 @@
   src: url("../../assets/fonts/webfont-minion/Minion-Bold.ttf");
 }
 
-html,
-body {
+html, body {
   width: 100%;
   height: 100%;
   margin: 0px;
@@ -83,7 +82,7 @@ body {
   position: absolute;
   border-right: 2px solid #ebebeb;
   left: 10%;
-  margin-left: 18rem;
+  margin-left: 19.5rem;
 }
 
 .navbar .navbar-collapse {
@@ -110,7 +109,7 @@ body {
 .navbar nav .navbar-brand img {
   width: 5rem;
   height: 7rem;
-  margin-left: 9rem;
+  margin-left: 10.5rem;
   padding-bottom: 2rem;
 }
 
@@ -143,29 +142,29 @@ body {
 }
 
 .navbar .nav-item .nav-link {
-  color: #0a2939;
+  color: #0A2939;
   font-family: "IBMPlexSans-Medium";
   font-size: 16px;
   font-weight: 600;
   letter-spacing: -0.26px;
   line-height: 23px;
-  margin-right: 4rem;
-  margin-left: 0.75rem;
+  margin-right: 3.8rem;
+  margin-left: .75rem;
   margin-bottom: -10rem;
 }
 
 .navbar .nav-item .nav-link:hover {
-  border-bottom: 2px #f05e36 solid;
+  border-bottom: 2px #F05E36 solid;
   border-width: 30%;
 }
 
 .navbar .nav-item img {
   background-color: rebeccapurple;
-  color: #0a2939;
+  color: #0A2939;
 }
 
 .navbar .nav-item.dropdown .nav-link {
-  border: 2px solid #e5e5e5;
+  border: 2px solid #E5E5E5;
   padding-left: 2.4375rem;
   padding-right: 4.4375rem;
   border-radius: 1.5rem;
@@ -173,7 +172,7 @@ body {
 }
 
 .navbar .nav-item.dropdown .nav-link::after {
-  color: #f05e36;
+  color: #F05E36;
 }
 
 .navbar img {
@@ -190,7 +189,7 @@ body {
 }
 
 .sectionSatu {
-  margin-top: 2.375rem;
+  margin-top: 4.375rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -217,14 +216,14 @@ body {
 
 .sectionSatu .sectionSatuKiri .text {
   position: absolute;
-  top: 26rem;
-  margin-left: 13rem;
+  top: 27.5rem;
+  margin-left: 14.5rem;
 }
 
 .sectionSatu .sectionSatuKiri .text h1 {
   height: 196px;
   width: 792px;
-  color: #f05e36;
+  color: #F05E36;
   font-family: "Butler";
   font-size: 100px;
   letter-spacing: -1.47px;
@@ -251,13 +250,14 @@ body {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin-right: -3.75rem;
+  margin-right: -2.5rem;
   margin-left: auto;
   height: 405px;
 }
 
-.sectionSatu .sectionSatuKanan img {
+.sectionSatu .sectionSatuKanan img.dekstop {
   width: 100%;
+  border-right: 100px solid #f05e36;
 }
 
 .sectionSatu .sectionSatuKanan img.mobile {
@@ -286,13 +286,13 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-left: 9rem;
+  margin-left: 10.5rem;
 }
 
 .sectionDua .sectionDuaJudul h3 {
   height: 144px;
   width: 50%;
-  color: #0a2939;
+  color: #0A2939;
   font-family: "IBMPlexSans-Light";
   font-weight: 300;
   letter-spacing: -0.42px;
@@ -301,7 +301,7 @@ body {
 
 .sectionDua .sectionDuaText {
   width: 75%;
-  margin-left: 19.4rem;
+  margin-left: 21rem;
 }
 
 .sectionDua .sectionDuaText .sideAtas {
@@ -365,7 +365,7 @@ body {
 }
 
 .sectionTiga .sectionTigaBody p {
-  color: #f66e49;
+  color: #F66E49;
   font-family: "IBMPlexSans";
   font-size: 22px;
   letter-spacing: -0.32px;
@@ -396,7 +396,7 @@ body {
 
 .sectionTiga .sectionTigaBody .title .title-1 h2 {
   height: 81px;
-  color: #002f39;
+  color: #002F39;
   font-family: "Minion-Bold";
   font-size: 26px;
   font-weight: bold;
@@ -417,7 +417,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 4rem;
-  border-bottom: 1px solid #e8d4cf;
+  border-bottom: 1px solid #E8D4CF;
 }
 
 .sectionTiga .sectionTigaBody .SectionTigaTengah .email {
@@ -537,7 +537,7 @@ body {
 .Footer .container {
   background-color: #021925;
   height: 100%;
-  color: #e8d4cf;
+  color: #E8D4CF;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -557,8 +557,8 @@ body {
 }
 
 .Footer .container .footerHeader img {
-  -webkit-transform: scale(0.7);
-          transform: scale(0.7);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   opacity: 0.8;
 }
 
@@ -566,8 +566,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border-top: 1.5px solid #113d53;
-  border-bottom: 1.5px solid #113d53;
+  border-top: 1.5px solid #113D53;
+  border-bottom: 1.5px solid #113D53;
   width: 90%;
   height: 10rem;
   -webkit-box-pack: space-evenly;
@@ -585,14 +585,14 @@ body {
           flex-direction: row;
   width: 65%;
   padding: 3rem 2rem;
-  border-right: 2px #113d53 solid;
+  border-right: 2px #113D53 solid;
 }
 
 .Footer .container .foooterBody .footerBodyKiri li {
   list-style: none;
   margin-bottom: 2rem;
   height: 15px;
-  color: #ffffff;
+  color: #FFFFFF;
   font-family: "IBMPlexSans-Light";
   font-size: 12px;
   font-weight: 500;
@@ -653,7 +653,7 @@ body {
 .Footer .container .foooterBody .footerBodyKanan .linkedIn h5 {
   margin-top: 0.5rem;
   margin-left: 1rem;
-  color: #ffffff;
+  color: #FFFFFF;
   font-family: "IBMPlexSans";
   font-size: 15px;
   letter-spacing: -0.22px;
@@ -661,7 +661,7 @@ body {
 }
 
 /* For mobile phones: */
-@media (min-width: 200px) and (max-width: 767px) {
+@media (min-width: 200px) and (max-width: 767.9px) {
   .navbar .container {
     height: 1.5rem;
   }
@@ -802,19 +802,19 @@ body {
   }
   .container .sectionSatu .sectionSatuKiri .text h1 {
     height: auto;
-    color: #f05e36;
+    color: #F05E36;
     font-family: "Butler";
     font-size: 2.625rem;
     letter-spacing: -0.03875rem;
     line-height: 2.375rem;
   }
   .container .sectionSatu .sectionSatuKiri .text h5 {
-    margin-top: 0.75rem;
+    margin-top: .75rem;
     color: #021925;
     font-family: "Minion-DisplayItalic";
     font-size: 1.125rem;
     font-style: italic;
-    letter-spacing: 0.00625rem;
+    letter-spacing: .00625rem;
     line-height: 1.125rem;
   }
   .container .sectionSatu .sectionSatuKanan {
@@ -963,7 +963,7 @@ body {
     margin-top: auto;
     margin-top: auto;
     display: block;
-    border-bottom: 1px solid #e8d4cf;
+    border-bottom: 1px solid #E8D4CF;
     margin-top: 35px;
     padding-bottom: 1rem;
   }
@@ -1010,16 +1010,16 @@ body {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     width: 10.85px;
-    border: 2px solid #ffffff;
+    border: 2px solid #FFFFFF;
     margin-right: 0;
   }
   .container .sectionTiga .SectionTigaTengah .mc_fieldset .text {
-    color: #002f39;
+    color: #002F39;
     font-family: "IBMPlexSans";
     font-size: 14px;
     letter-spacing: -0.21px;
     line-height: 18px;
-    padding-right: 0.3125rem;
+    padding-right: .3125rem;
     margin-right: 0;
   }
   .container .sectionTiga .SectionTigaTengah .mc_fieldset a {
@@ -1099,9 +1099,9 @@ body {
     width: 100%;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    border-top: 1.5px solid #113d53;
+    border-top: 1.5px solid #113D53;
     padding-top: 1.9375rem;
-    border-bottom: 1.5px solid #113d53;
+    border-bottom: 1.5px solid #113D53;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1114,7 +1114,7 @@ body {
     margin-bottom: 1rem;
   }
   .Footer .container .foooterBody .footerBodyKiri li {
-    color: #ffffff;
+    color: #FFFFFF;
     font-family: "IBMPlexSans-Light";
     font-size: 12px;
     font-weight: 500;
@@ -1151,7 +1151,7 @@ body {
   }
   .Footer .container .foooterBody .footerBodyKanan h5 {
     display: inline-block;
-    color: #ffffff;
+    color: #FFFFFF;
     font-family: "IBMPlexSans-Light";
     font-size: 15px;
     letter-spacing: -0.22px;
@@ -1159,16 +1159,19 @@ body {
   }
 }
 
-/* For tablet: */
-@media (min-width: 767px) and (max-width: 991.9px) {
+@media (min-width: 768px) and (max-width: 991.9px) {
+  .navbar .container {
+    height: 1.5rem;
+  }
+  .navbar nav.navbar {
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+  }
   .container {
     max-width: 100%;
   }
-  .navbar .container {
-    height: 1.5rem;
-    max-width: 100%;
-  }
-  .navbar .container .navbar {
+  .container .navbar {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1180,16 +1183,16 @@ body {
     margin-right: -1.5rem;
     padding-bottom: 20px;
   }
-  .navbar .container .navbar span.line {
+  .container .navbar span.line {
     display: none;
   }
-  .navbar .container .navbar-light {
+  .container .navbar-light {
     border: none;
   }
-  .navbar .container .navbar-light .navbar-toggler {
+  .container .navbar-light .navbar-toggler {
     border-color: transparent;
   }
-  .navbar .container .navbar-nav {
+  .container .navbar-nav {
     top: 0;
     left: 0;
     position: fixed;
@@ -1201,29 +1204,29 @@ body {
     color: #ffffff;
     z-index: 1;
   }
-  .navbar .container .navbar-nav .nav-item {
+  .container .navbar-nav .nav-item {
     width: 100%;
     height: 2rem;
     margin-bottom: 24px;
   }
-  .navbar .container .navbar-nav .nav-item .nav-link {
+  .container .navbar-nav .nav-item .nav-link {
     color: #ffffff;
   }
-  .navbar .container .navbar-nav .nav-item .nav-link:hover {
+  .container .navbar-nav .nav-item .nav-link:hover {
     border-bottom: none;
   }
-  .navbar .container .navbar-nav .nav-item .nav-link.active {
+  .container .navbar-nav .nav-item .nav-link.active {
     border: none;
   }
-  .navbar .container .navbar-nav .nav-item .nav-link.contact {
+  .container .navbar-nav .nav-item .nav-link.contact {
     margin-bottom: 50px;
   }
-  .navbar .container .navbar-nav .nav-item ul.dash {
+  .container .navbar-nav .nav-item ul.dash {
     list-style-type: none;
     margin-top: 30px;
     padding-left: 10px;
   }
-  .navbar .container .navbar-nav .nav-item ul.dash li {
+  .container .navbar-nav .nav-item ul.dash li {
     font-family: "IBMPlexSans";
     font-size: 14px;
     color: #ffffff;
@@ -1231,29 +1234,27 @@ body {
     margin-bottom: 24px;
     text-indent: -5px;
   }
-  .navbar .container .navbar-nav .nav-item ul.dash li.first {
+  .container .navbar-nav .nav-item ul.dash li.first {
     color: #f05e36;
   }
-  .navbar .container .navbar-nav .nav-item ul.dash li:before {
+  .container .navbar-nav .nav-item ul.dash li:before {
     content: "\2015";
     text-indent: -5px;
     margin-right: 13px;
     color: #f05e36;
   }
-  .navbar .container .navbar-nav #listhide {
+  .container .navbar-nav #listhide {
     border-top: 1.5px solid #113d53;
   }
-  .navbar .container .navbar-nav #hidebtn {
+  .container .navbar-nav #hidebtn {
     margin-bottom: 2rem;
   }
-  .navbar nav.navbar {
-    -webkit-box-pack: right;
-        -ms-flex-pack: right;
-            justify-content: right;
+  .col {
+    width: 100%;
   }
   .navbar {
     border-bottom: 1px solid #e3e3e3;
-    width: 95%;
+    width: 96%;
     margin-left: 1rem;
   }
   .navbar span {
@@ -1269,7 +1270,7 @@ body {
   }
   .navbar nav .navbar-brand img {
     top: -4.8rem;
-    margin-left: 2.5rem;
+    margin-left: 1.8rem;
     width: 3rem;
   }
   .container {
@@ -1287,7 +1288,7 @@ body {
     display: -ms-flexbox;
     display: flex;
     padding: 1rem;
-    height: 27rem;
+    height: 21rem;
   }
   .container .sectionSatu .sectionSatuKiri {
     background-color: transparent;
@@ -1299,46 +1300,59 @@ body {
   }
   .container .sectionSatu .sectionSatuKiri .text h1 {
     height: auto;
-    color: #f05e36;
+    color: #F05E36;
     font-family: "Butler";
     font-size: 2.625rem;
     letter-spacing: -0.03875rem;
     line-height: 2.375rem;
   }
   .container .sectionSatu .sectionSatuKiri .text h5 {
-    margin-top: 0.75rem;
+    margin-top: .75rem;
     color: #021925;
     font-family: "Minion-DisplayItalic";
     font-size: 1.125rem;
     font-style: italic;
-    letter-spacing: 0.00625rem;
+    letter-spacing: .00625rem;
     line-height: 1.125rem;
   }
   .container .sectionSatu .sectionSatuKanan {
     position: absolute;
     top: 12rem;
+    height: 192px;
     margin-right: 0;
-    height: 354px;
-    padding-right: 1rem;
+    padding-right: 2rem;
+    width: 100%;
   }
   .container .sectionSatu .sectionSatuKanan img {
-    margin-right: 0;
+    height: 12rem;
+  }
+  .container .sectionSatu .sectionSatuKanan img.dekstop {
+    display: none;
+  }
+  .container .sectionSatu .sectionSatuKanan img.mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 16px solid #f05e36;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .container .sectionDua {
     margin-left: 0;
     padding: 0 1rem;
-    margin-top: 3.5rem;
   }
   .container .sectionDua .sectionDuaJudul {
     width: 100%;
     margin-left: 0;
+    margin-bottom: 0;
     padding: 0;
-    height: 104px;
-    margin-bottom: 0.5rem;
   }
   .container .sectionDua .sectionDuaJudul h3 {
+    font-size: 1.6rem;
     width: 100%;
     line-height: 35px;
+    height: 80px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1349,13 +1363,18 @@ body {
   .container .sectionDua .sectionDuaText {
     width: 100%;
     margin-left: 0;
+    margin-top: 24px;
     padding: 0;
   }
   .container .sectionDua .sectionDuaText .sideAtas {
     width: 100%;
-    margin-bottom: 48px;
+    margin-bottom: 41px;
+  }
+  .container .sectionDua .sectionDuaText .sideAtas p {
+    font-size: 14px;
   }
   .container .sectionDua .sectionDuaText .sideAtas h5 {
+    font-size: 16px;
     margin: 28px 0;
   }
   .container .sectionDua .sectionDuaText .sideButton {
@@ -1368,8 +1387,8 @@ body {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
-    margin-top: 0;
     border: none;
+    margin-top: 0;
   }
   .container .sectionTiga .sectionTigaBody {
     height: auto;
@@ -1401,24 +1420,26 @@ body {
     margin-top: 0;
   }
   .container .sectionTiga .sectionTigaBody .title .title-1 h2 {
-    height: 46px;
+    font-size: 22px;
+    height: 32px;
     line-height: 24px;
     letter-spacing: 8px;
     margin-bottom: 16px;
   }
   .container .sectionTiga .sectionTigaBody .title .title-1 p {
+    font-size: 18px;
     height: 42px;
     line-height: 24px;
     letter-spacing: -0.26px;
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
   }
   .container .sectionTiga .SectionTigaTengah {
+    margin: 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     border-bottom: none;
-    margin-bottom: 2rem;
   }
   .container .sectionTiga .SectionTigaTengah .mc-field-group {
     display: -webkit-box;
@@ -1442,7 +1463,7 @@ body {
     margin-top: auto;
     margin-top: auto;
     display: block;
-    border-bottom: 1px solid #e8d4cf;
+    border-bottom: 1px solid #E8D4CF;
     margin-top: 35px;
     padding-bottom: 1rem;
   }
@@ -1489,22 +1510,17 @@ body {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     width: 10.85px;
-    border: 2px solid #ffffff;
+    border: 2px solid #FFFFFF;
     margin-right: 0;
-  }
-  .container .sectionTiga .SectionTigaTengah .mc_fieldset .av-checkbox {
-    width: auto;
   }
   .container .sectionTiga .SectionTigaTengah .mc_fieldset .text {
-    color: #002f39;
+    color: #002F39;
     font-family: "IBMPlexSans";
+    font-size: 14px;
     letter-spacing: -0.21px;
     line-height: 18px;
-    padding-right: 0.3125rem;
+    padding-right: .3125rem;
     margin-right: 0;
-  }
-  .container .sectionTiga .SectionTigaTengah .mc_fieldset .terms {
-    font-size: 16px;
   }
   .container .sectionTiga .SectionTigaTengah .mc_fieldset a {
     color: #002f39;
@@ -1518,11 +1534,31 @@ body {
     font-family: "IBMPlexSans-Medium";
     color: #002f39;
   }
-  .container .sectionTiga .SectionTigaBawahDua {
-    margin: 2rem 5rem;
+  .container .sectionTiga .SectionTigaBawah {
+    margin: 0 24px;
   }
-  .container .sectionTiga .SectionTigaBawahDua .button {
-    padding: 1rem 2.5rem;
+  .container .sectionTiga .SectionTigaBawah p {
+    font-size: 18px;
+  }
+  .container .sectionTiga .SectionTigaBawah input {
+    margin: 1rem 0;
+  }
+  .container .sectionTiga .SectionTigaBawahDua {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 1rem 24px;
+    margin-bottom: 2rem;
+  }
+  .container .sectionTiga .SectionTigaBawahDua .g-recaptcha {
+    padding-left: 2rem;
+  }
+  .container .sectionTiga .SectionTigaBawahDua button {
+    margin-top: 32px;
   }
   .Footer {
     margin-top: 41px;
@@ -1539,7 +1575,7 @@ body {
     margin-right: auto;
     display: block;
     padding-top: 2.9375rem;
-    width: 14rem;
+    width: 11.625rem;
     padding-bottom: 4rem;
   }
   .Footer .container .foooterBody {
@@ -1563,9 +1599,9 @@ body {
     width: 100%;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    border-top: 1.5px solid #113d53;
+    border-top: 1.5px solid #113D53;
     padding-top: 1.9375rem;
-    border-bottom: 1.5px solid #113d53;
+    border-bottom: 1.5px solid #113D53;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1578,9 +1614,9 @@ body {
     margin-bottom: 1rem;
   }
   .Footer .container .foooterBody .footerBodyKiri li {
-    color: #ffffff;
+    color: #FFFFFF;
     font-family: "IBMPlexSans-Light";
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
     letter-spacing: 0.5px;
     line-height: 15px;
@@ -1615,407 +1651,401 @@ body {
   }
   .Footer .container .foooterBody .footerBodyKanan h5 {
     display: inline-block;
-    color: #ffffff;
+    color: #FFFFFF;
     font-family: "IBMPlexSans-Light";
-    font-size: 18px;
+    font-size: 15px;
     letter-spacing: -0.22px;
     line-height: 19.5px;
   }
 }
 
 /* For tablet: */
-@media (min-width: 992px) and (max-width: 1366px) {
-  .container {
-    max-width: 100%;
-  }
-  .navbar .container .navbar span.line {
-    border-right: none;
-  }
-  .navbar .container .navbar .navbar-brand img {
-    top: -3rem;
-    margin-left: 0;
-  }
-  .navbar .container .navbar-light {
-    width: 100%;
+@media (min-width: 992px) and (max-width: 1207.9px) {
+  .navbar {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-item-align: center;
+        align-self: center;
+    background-color: transparent;
+    margin-top: 1rem;
   }
-  .navbar .container ul.navbar-nav {
+  .navbar span {
+    height: 350px;
+    position: absolute;
+    border-right: 2px solid #ebebeb;
+    left: -13.8rem;
+  }
+  .navbar .navbar-collapse {
+    margin-left: 5.5rem;
     width: 100%;
-    margin-top: 1.5rem;
   }
-  .navbar .container ul.navbar-nav .nav-item .nav-link {
-    margin-right: 3rem;
-    margin-left: 0;
+  .navbar .bg-white {
+    background-color: transparent !important;
   }
-  .navbar .container ul.navbar-nav .nav-item.dropdown .navlink {
-    margin-right: 4rem;
+  .navbar .dropdown-menu {
+    top: 45px;
+    left: 0;
   }
-  .navbar .container ul.navbar-nav .nav-item.end {
-    margin-right: 0;
+  .navbar nav .navbar-toggler-icon {
+    width: 3rem;
+    height: 3rem;
   }
-  .navbar .container ul.navbar-nav hr {
-    display: none;
+  .navbar .navbar-nav {
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
-  .container {
-    margin-left: 0;
-    margin-right: 0;
-    max-width: 100%;
-  }
-  .container .sectionSatu {
-    margin-top: 0;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding: 2rem;
-    height: 35rem;
-  }
-  .container .sectionSatu .sectionSatuKiri {
+  .navbar nav.navbar {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
     background-color: transparent;
   }
-  .container .sectionSatu .sectionSatuKiri .text {
-    margin-left: 0;
-    position: absolute;
-    top: 13rem;
-  }
-  .container .sectionSatu .sectionSatuKiri .text h1 {
+  .navbar .nav-item a img {
+    width: auto;
     height: auto;
-    color: #f05e36;
-    font-family: "Butler";
-    font-size: 2.625rem;
-    letter-spacing: -0.03875rem;
-    line-height: 2.375rem;
+    background-color: transparent;
+    margin-left: 1rem;
+    margin-top: -1rem;
+    top: 2.1875rem;
   }
-  .container .sectionSatu .sectionSatuKiri .text h5 {
-    margin-top: 0.75rem;
-    color: #021925;
-    font-family: "Minion-DisplayItalic";
-    font-size: 1.125rem;
-    font-style: italic;
-    letter-spacing: 0.00625rem;
-    line-height: 1.125rem;
-  }
-  .container .sectionSatu .sectionSatuKanan {
-    position: absolute;
-    top: 19rem;
-    margin-right: 0;
-    height: 488px;
-    width: 100%;
-    padding-right: 4rem;
-  }
-  .container .sectionSatu .sectionSatuKanan img {
-    margin-right: 0;
-  }
-  .container .sectionDua {
-    margin-left: 0;
-    margin-top: 3rem;
-  }
-  .container .sectionDua .sectionDuaJudul {
-    width: 100%;
-    margin-left: 0;
-    height: 104px;
-    margin-top: 3rem;
-  }
-  .container .sectionDua .sectionDuaJudul h3 {
-    width: 100%;
-    line-height: 35px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .container .sectionDua .sectionDuaText {
-    width: 100%;
-    margin-left: 0;
-    padding: 0 2rem;
-  }
-  .container .sectionDua .sectionDuaText .sideAtas {
-    width: 100%;
-    margin-bottom: 48px;
-  }
-  .container .sectionDua .sectionDuaText .sideAtas h5 {
-    margin: 28px 0;
-  }
-  .container .sectionDua .sectionDuaText .sideButton {
-    text-align: center;
-  }
-  .container .sectionDua .sectionDuaText .sideButton button {
-    border-radius: 3rem;
-  }
-  .container .sectionTiga {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    border: none;
-  }
-  .container .sectionTiga .sectionTigaBody {
-    height: auto;
-    border: 4px solid rgba(246, 110, 73, 0.15);
-  }
-  .container .sectionTiga .sectionTigaBody .logo {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    padding-top: 1.25rem;
-    padding-left: 3.75rem;
-    padding-right: 3.75rem;
-    padding-bottom: 2.3125rem;
-  }
-  .container .sectionTiga .sectionTigaBody .logo img {
-    width: 11.625rem;
-  }
-  .container .sectionTiga .sectionTigaBody .title {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-bottom: 0;
-    margin-top: 0;
-  }
-  .container .sectionTiga .sectionTigaBody .title .title-1 h2 {
-    height: 46px;
-    line-height: 24px;
-    letter-spacing: 8px;
-    margin-bottom: 16px;
-  }
-  .container .sectionTiga .sectionTigaBody .title .title-1 p {
-    height: 42px;
-    line-height: 24px;
-    letter-spacing: -0.26px;
-    margin-bottom: 0;
-  }
-  .container .sectionTiga .SectionTigaTengah {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    border-bottom: none;
-    margin-bottom: 2rem;
-  }
-  .container .sectionTiga .SectionTigaTengah .mc-field-group {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .container .sectionTiga .SectionTigaTengah .mc-field-group input {
-    color: #363636;
-    font-family: "IBMPlexSans";
-    font-size: 16px;
-    letter-spacing: -0.24px;
-    line-height: 30px;
-    text-align: center;
-    margin: auto;
-    margin-top: auto;
-    margin-top: auto;
-    display: block;
-    border-bottom: 1px solid #e8d4cf;
-    margin-top: 35px;
-    padding-bottom: 1rem;
-  }
-  .container .sectionTiga .SectionTigaTengah .mc-field-group .email {
-    padding: 0.5rem;
-    margin-left: 0;
-    margin-right: 0;
-    padding-right: 0;
-  }
-  .container .sectionTiga .SectionTigaTengah ::-webkit-input-placeholder {
-    border-left: none;
-    width: 100%;
-  }
-  .container .sectionTiga .SectionTigaTengah :-ms-input-placeholder {
-    border-left: none;
-    width: 100%;
-  }
-  .container .sectionTiga .SectionTigaTengah ::-ms-input-placeholder {
-    border-left: none;
-    width: 100%;
-  }
-  .container .sectionTiga .SectionTigaTengah ::placeholder {
-    border-left: none;
-    width: 100%;
-  }
-  .container .sectionTiga .SectionTigaTengah [placeholder] + span::after {
-    position: absolute;
-  }
-  .container .sectionTiga .SectionTigaTengah h6 {
-    text-align: center;
+  .navbar .nav-item .dropdown-toggle::after {
     display: none;
+    background-color: transparent;
   }
-  .container .sectionTiga .SectionTigaTengah .mc_fieldset {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-top: 1.3125rem;
-    margin-bottom: 1.875rem;
+  .navbar .nav-item .nav-link {
+    color: #0a2939;
+    font-family: "IBMPlexSans-Medium";
+    font-size: .75rem;
+    font-weight: 600;
+    letter-spacing: -0.26px;
+    line-height: 23px;
+    margin-left: auto;
+    margin-bottom: -10rem;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 3rem;
   }
-  .container .sectionTiga .SectionTigaTengah .mc_fieldset input {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    width: 10.85px;
-    border: 2px solid #ffffff;
-    margin-right: 0;
+  .navbar .nav-item .nav-link:hover {
+    border-bottom: #f05e36 3px solid;
+    border-width: 30%;
   }
-  .container .sectionTiga .SectionTigaTengah .mc_fieldset .av-checkbox {
+  .navbar .nav-item img {
+    background-color: rebeccapurple;
+    color: #0a2939;
+  }
+  .navbar .nav-item.dropdown .nav-link {
+    border: 2px solid #e5e5e5;
+    padding-left: 2.4375rem;
+    padding-right: 4.4375rem;
+    border-radius: 1.5rem;
+    font-family: "IBMPlexSans";
+  }
+  .navbar .nav-item.dropdown .nav-link::after {
+    color: #f05e36;
+  }
+  .navbar .nav-item.end {
+    margin-right: -4rem;
+  }
+  .navbar nav .navbar-brand img {
+    position: absolute;
+    width: 4rem;
+    top: 3.125rem;
+    margin-left: 0;
+    left: -0.75rem;
+  }
+  .sectionSatu {
+    position: relative;
+    margin-bottom: 4rem;
+    margin-top: 2.5rem;
+    height: 300px;
+  }
+  .sectionSatu .sectionSatuKiri .text {
+    left: 4rem;
+    margin-left: 0;
+    top: 12rem;
+  }
+  .sectionSatu .sectionSatuKiri .text h1 {
+    height: 176px;
+    font-size: 70px;
+  }
+  .sectionSatu .sectionSatuKiri .text h5 {
+    font-size: 19px;
+    top: -7.4rem;
+  }
+  .sectionSatu .sectionSatuKanan {
+    position: absolute;
+    height: 100%;
+    left: 13.2rem;
+    right: 0;
+  }
+  .sectionSatu .sectionSatuKanan img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-right: 100px solid #f05e36;
+  }
+  .sectionDua {
+    margin-left: 2rem;
+  }
+  .sectionDua .sectionDuaJudul {
+    width: 55%;
+    margin-left: 3.2rem;
+  }
+  .sectionDua .sectionDuaJudul h3 {
+    height: 120px;
     width: auto;
   }
-  .container .sectionTiga .SectionTigaTengah .mc_fieldset .text {
-    color: #002f39;
-    font-family: "IBMPlexSans";
-    letter-spacing: -0.21px;
-    line-height: 18px;
-    padding-right: 0.3125rem;
-    margin-right: 0;
+  .sectionDua .sectionDuaText {
+    width: 75%;
+    margin-left: 14rem;
   }
-  .container .sectionTiga .SectionTigaTengah .mc_fieldset .terms {
-    font-size: 16px;
+  .sectionTiga {
+    margin-left: 5rem;
+    margin-right: 5rem;
   }
-  .container .sectionTiga .SectionTigaTengah .mc_fieldset a {
-    color: #002f39;
-    font-family: "IBMPlexSans";
-    font-size: 14px;
-    letter-spacing: -0.21px;
-    line-height: 18px;
-    text-decoration: underline;
+  .sectionTiga .sectionTigaBody {
+    position: relative;
   }
-  .container .sectionTiga h6 {
-    font-family: "IBMPlexSans-Medium";
-    color: #002f39;
+  .sectionTiga .sectionTigaBody .logo {
+    position: absolute;
+    right: -1rem;
+    top: -2rem;
+    height: 87px;
   }
-  .container .sectionTiga .SectionTigaBawahDua {
-    margin: 2rem 5rem;
+  .sectionTiga .sectionTigaBody .logo img {
+    width: 200px;
+  }
+  .sectionTiga .sectionTigaBody .title, .sectionTiga .sectionTigaBody .SectionTigaTengah, .sectionTiga .sectionTigaBody .SectionTigaBawah {
+    margin: 0;
+  }
+  .sectionTiga .sectionTigaBody .SectionTigaTengah {
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+  }
+  .sectionTiga .sectionTigaBody .SectionTigaBawahDua {
+    margin: 2rem 0;
   }
   .Footer {
-    margin-top: 4rem;
-    background-color: #021925;
+    height: 36rem;
   }
   .Footer .container .footerHeader {
-    margin-top: 2rem;
-    width: 100%;
-    border-bottom: 1px solid #113d53;
-    margin-bottom: 10rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 6rem;
   }
   .Footer .container .footerHeader img {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    padding-top: 2.9375rem;
-    width: 14rem;
-    padding-bottom: 4rem;
-  }
-  .Footer .container .foooterBody {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    border-top: none;
-    border-bottom: none;
-  }
-  .Footer .container .foooterBody .footerBodyKiri {
-    width: 100%;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    border-top: 1.5px solid #113d53;
-    padding-top: 1.9375rem;
-    border-bottom: 1.5px solid #113d53;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    border-right: none;
-    border-bottom: none;
-    border-top: none;
-    padding-bottom: 0;
-    padding-top: 0;
-    margin-bottom: 1rem;
-  }
-  .Footer .container .foooterBody .footerBodyKiri li {
-    color: #ffffff;
-    font-family: "IBMPlexSans-Light";
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-    line-height: 15px;
-    text-align: center;
-    text-transform: uppercase;
-    padding-bottom: 1.5rem;
-    list-style: none;
-  }
-  .Footer .container .foooterBody .footerBodyKiri .footerBodyKiriOne {
-    margin: 0;
-    padding: 0;
-  }
-  .Footer .container .foooterBody .footerBodyKanan {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    margin-bottom: 3.6875rem;
-    margin-top: 0;
-    width: 100%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    border: none;
-    border-top: 1px solid #113d53;
-  }
-  .Footer .container .foooterBody .footerBodyKanan img {
-    padding-right: 1rem;
-  }
-  .Footer .container .foooterBody .footerBodyKanan h5 {
-    display: inline-block;
-    color: #ffffff;
-    font-family: "IBMPlexSans-Light";
-    font-size: 18px;
-    letter-spacing: -0.22px;
-    line-height: 19.5px;
+    width: 60%;
   }
 }
 
-@media (min-width: 1366px) and (max-width: 1440px) {
+/* For dekstop: */
+@media (min-width: 1208px) and (max-width: 1399.9px) {
+  .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-item-align: center;
+        align-self: center;
+    background-color: transparent;
+    margin-top: 1rem;
+  }
+  .navbar span {
+    height: 400px;
+    position: absolute;
+    border-right: 2px solid #ebebeb;
+    left: -13.8rem;
+  }
+  .navbar .navbar-collapse {
+    margin-left: 4.3rem;
+    width: 100%;
+  }
+  .navbar .bg-white {
+    background-color: transparent !important;
+  }
+  .navbar .dropdown-menu {
+    top: 45px;
+    left: 0;
+  }
+  .navbar nav .navbar-toggler-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+  .navbar .navbar-nav {
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .navbar nav.navbar {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    background-color: transparent;
+  }
+  .navbar .nav-item a img {
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    margin-left: 1rem;
+    margin-top: -1rem;
+    top: 2.1875rem;
+  }
+  .navbar .nav-item .dropdown-toggle::after {
+    display: none;
+    background-color: transparent;
+  }
+  .navbar .nav-item .nav-link {
+    color: #0a2939;
+    font-family: "IBMPlexSans-Medium";
+    font-size: .75rem;
+    font-weight: 600;
+    letter-spacing: -0.26px;
+    line-height: 23px;
+    margin-left: auto;
+    margin-bottom: -10rem;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 3rem;
+  }
+  .navbar .nav-item .nav-link:hover {
+    border-bottom: #f05e36 3px solid;
+    border-width: 30%;
+  }
+  .navbar .nav-item img {
+    background-color: rebeccapurple;
+    color: #0a2939;
+  }
+  .navbar .nav-item.dropdown .nav-link {
+    border: 2px solid #e5e5e5;
+    padding-left: 2.4375rem;
+    padding-right: 4.4375rem;
+    border-radius: 1.5rem;
+    font-family: "IBMPlexSans";
+  }
+  .navbar .nav-item.dropdown .nav-link::after {
+    color: #f05e36;
+  }
+  .navbar .nav-item.end {
+    margin-right: -4rem;
+  }
+  .navbar nav .navbar-brand img {
+    position: absolute;
+    width: 4rem;
+    top: 3.125rem;
+    margin-left: 0;
+    left: -0.75rem;
+  }
+  .sectionSatu {
+    position: relative;
+    margin-bottom: 4rem;
+    margin-top: 2.5rem;
+    height: 405px;
+  }
+  .sectionSatu .sectionSatuKiri .text {
+    left: 4rem;
+    margin-left: 0;
+    top: 18rem;
+  }
+  .sectionSatu .sectionSatuKiri .text h1 {
+    height: 176px;
+    font-size: 70px;
+  }
+  .sectionSatu .sectionSatuKiri .text h5 {
+    font-size: 19px;
+    top: -7.4rem;
+  }
+  .sectionSatu .sectionSatuKanan {
+    position: absolute;
+    height: 100%;
+    left: 13.2rem;
+    right: 0;
+  }
+  .sectionSatu .sectionSatuKanan img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-right: 100px solid #f05e36;
+  }
+  .sectionDua {
+    margin-left: 2rem;
+  }
+  .sectionDua .sectionDuaJudul {
+    width: 45%;
+    margin-left: 3.2rem;
+  }
+  .sectionDua .sectionDuaJudul h3 {
+    height: 120px;
+    width: auto;
+  }
+  .sectionDua .sectionDuaText {
+    width: 75%;
+    margin-left: 14rem;
+  }
+  .sectionTiga .sectionTigaBody {
+    position: relative;
+  }
+  .sectionTiga .sectionTigaBody .logo {
+    position: absolute;
+    right: -1rem;
+    top: -2rem;
+    height: 87px;
+  }
+  .sectionTiga .sectionTigaBody .logo img {
+    width: 200px;
+  }
+  .sectionTiga .sectionTigaBody .title, .sectionTiga .sectionTigaBody .SectionTigaTengah, .sectionTiga .sectionTigaBody .SectionTigaBawah {
+    margin: 0;
+  }
+  .sectionTiga .sectionTigaBody .SectionTigaTengah {
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+  }
+  .sectionTiga .sectionTigaBody .SectionTigaBawahDua {
+    margin: 2rem 0;
+  }
+  .Footer .container .footerHeader {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 6rem;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1440px) {
+  .navbar {
+    margin-top: 1rem;
+    margin-right: 0;
+  }
+  .navbar .navbar-collapse {
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
   .navbar .container .navbar span.line {
     position: absolute;
-    left: -8.7rem;
+    left: -9.7rem;
   }
   .navbar .container .navbar .navbar-brand img {
     position: absolute;
-    left: -7.8rem;
+    left: -8.8rem;
   }
   .navbar .nav-item .nav-link {
     margin-right: 3.5rem;
@@ -2035,6 +2065,26 @@ body {
   }
   .sectionDua {
     margin-left: 2rem;
+  }
+  .sectionDua .sectionDuaJudul {
+    margin-left: 7.5rem;
+  }
+  .sectionDua .sectionDuaText {
+    margin-left: 18.8rem;
+  }
+  .sectionTiga .sectionTigaBody {
+    position: relative;
+  }
+  .sectionTiga .sectionTigaBody .logo {
+    position: absolute;
+    right: -1rem;
+    top: -2rem;
+  }
+  .sectionTiga .sectionTigaBody .title {
+    margin-top: 0;
+  }
+  .sectionTiga .sectionTigaBody .title .title-1 {
+    margin-top: 1rem;
   }
 }
 /*# sourceMappingURL=page-7.css.map */
