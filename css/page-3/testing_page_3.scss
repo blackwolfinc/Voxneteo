@@ -514,6 +514,7 @@ $size1: 1.6rem;
         border: 4px solid rgba(246, 110, 73, 0.15);
         .sectionLimaBody {
           padding: 1.5rem;
+          padding-bottom: 0;
   
           .logo {
             display: flex;
@@ -1372,7 +1373,6 @@ $size1: 1.6rem;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            margin-bottom: 4rem;
             margin-left: 0;
             margin-right: 0;
     
@@ -2153,7 +2153,6 @@ $size1: 1.6rem;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            margin-bottom: 4rem;
     
             .email {
               padding: 0.5rem;
@@ -2920,7 +2919,7 @@ $size1: 1.6rem;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            margin-bottom: 4rem;
+            margin-bottom: 0;
     
             .email {
               padding: 0.5rem;
