@@ -9,10 +9,10 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
-    <link
-    href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css"
-    rel="stylesheet"
-  />
+    <link id="myLink"
+      href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="css/page-2/csscustom.css" />
     <link rel="stylesheet" href="css/page-2/testing_page_2.css">
@@ -143,7 +143,7 @@
                 </div>
             </div>
             </div>
-            <section class="containerBack">
+            <section data-aos="fade-up"  data-aos-duration="1250" class="containerBack">
               <div class="rotation-wrapper-outer">
                 <div  class="rotation-wrapper-inner">
                   <img 
@@ -166,12 +166,12 @@
                 <p class="date">01.03.21</p>
                 <p class="subTitle">Droits des sociétés</p>
               </div>
-              <div class="containerNews">
-                <h3  data-aos="fade-left"  data-aos-duration="1250" class="newsTitle">
+              <div data-aos="fade-up"  data-aos-duration="1250" class="containerNews">
+                <h3  data-aos="fade-up"  data-aos-duration="1250" class="newsTitle">
                   Vos employés sont en télétravail ? Vérifier leurs contrats.
                 </h3>
                 <p class="newsAuthor">Par Bernad Labarre</p>
-                <div  data-aos="fade-left"  data-aos-duration="1250" class="containerNewsAllText">
+                <div data-aos="fade-up"  data-aos-duration="1250" class="containerNewsAllText">
                   Mauris non tempor quam, et lacinia sapien. Mauris accumsan
                   eros eget libero posuere vulputate. Etiam elit elit, elementum
                   sed varius at, adipiscing vitae est. Sed nec felis
@@ -215,7 +215,7 @@
               </div>
             </section>
 
-            <div  data-aos="fade-down"  data-aos-duration="1250" id="mc_embed_signup" class="sectionLima">
+            <div  data-aos="fade-up"  data-aos-duration="1250" id="mc_embed_signup" class="sectionLima">
                         
               <form
                   action="https://voxteneo.us5.list-manage.com/subscribe/post?u=8997332610305bf8025effc3a&amp;id=d7573cb811"
@@ -338,7 +338,11 @@
 
     <!-- custom js -->
     <script>
-      
+      if ($(window).width() < 992) {
+            document.getElementById("myLink").disabled = true;
+        } else {
+            document.getElementById("myLink").disabled = false;
+        }
       AOS.init();
       $(document).ready(function () {
         $(".navbar-toggler").click(function () {

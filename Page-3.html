@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
-    <link
+    <link id="myLink"
     href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css"
     rel="stylesheet"
   />
@@ -141,7 +141,7 @@
                                 <br><br>La mise en place de ces outils se discutent avec vous afin de mettre en place des outils personnalisés.             
                             </div>
 
-                            <div  data-aos="fade-left"  data-aos-duration="1250" class="wraperKiri-Five">
+                            <div  data-aos="fade-right"  data-aos-duration="1250" class="wraperKiri-Five">
                                     <h3>La gestion de patrimoine 
                                     </h3>
                                     <p>En plus de conseils professionnels sur les différents aspects de la gestion de vos entreprises, nous vous proposons de vous conseiller d’établir un inventaire de votre patrimoine et de vous conseiller dans ces différents domaines. Nous examinerons également avec vous l’aspect transmission de votre entreprise. Nous pouvons également vous constituer un coffre-fort sécurisé facilement accessible  de tous vos documents importants</p>
@@ -224,7 +224,7 @@
                         </div>
                     </div>
 
-                    <div  data-aos="fade-down"  data-aos-duration="1250" id="mc_embed_signup" class="sectionLima">
+                    <div  data-aos="fade-up"  data-aos-duration="1250" id="mc_embed_signup" class="sectionLima">
                         
                         <form
                             action="https://voxteneo.us5.list-manage.com/subscribe/post?u=8997332610305bf8025effc3a&amp;id=d7573cb811"
@@ -356,6 +356,11 @@
 
         <!-- custom js -->
         <script>
+            if ($(window).width() < 992) {
+            document.getElementById("myLink").disabled = true;
+        } else {
+            document.getElementById("myLink").disabled = false;
+        }
              AOS.init();
             $(document).ready(function () {
             $(".navbar-toggler").click(function () {

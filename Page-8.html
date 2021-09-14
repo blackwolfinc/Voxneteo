@@ -7,8 +7,9 @@
     <!-- bootstrap css -->
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"> -->
     <link
+      id="myLink"
+      href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -30,11 +31,7 @@
 
   <div class="cookies">
     <div class="container">
-      <div
-        data-aos="fade-up"
-        data-aos-duration="1250"
-        class="row cookiesContainer"
-      >
+      <div class="row cookiesContainer">
         <div class="col cookieskiri">
           <h1>Ce site web utilise des cookies.</h1>
           <p id="start">
@@ -531,6 +528,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- custom js -->
     <script>
+      if ($(window).width() < 992) {
+        document.getElementById("myLink").disabled = true;
+      } else {
+        document.getElementById("myLink").disabled = false;
+      }
       AOS.init();
       $(document).ready(function () {
         $(".navbar-toggler").click(function () {
