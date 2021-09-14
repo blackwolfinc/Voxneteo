@@ -16,6 +16,10 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link
+      href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css"
+      rel="stylesheet"
+    />
     <!-- custom css -->
     <link rel="stylesheet" href="css/page-1/introduction.css" />
     <link rel="stylesheet" href="css/page-8/page-8.css" />
@@ -26,7 +30,11 @@
 
   <div class="cookies">
     <div class="container">
-      <div class="row cookiesContainer">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1250"
+        class="row cookiesContainer"
+      >
         <div class="col cookieskiri">
           <h1>Ce site web utilise des cookies.</h1>
           <p id="start">
@@ -519,9 +527,11 @@
     <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script> -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- custom js -->
     <script>
+      AOS.init();
       $(document).ready(function () {
         $(".navbar-toggler").click(function () {
           $(".drop").hide();
