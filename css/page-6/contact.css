@@ -2229,13 +2229,13 @@
   .container .sectionSatu .sectionSatuKanan {
     position: block;
     margin-left: 0;
-    margin-top: 1.625rem;
   }
   .container .sectionSatu .sectionSatuKanan img.mobile {
     display: none;
   }
   .container .sectionSatu .sectionSatuKanan img.desktop {
-    height: 12rem;
+    -o-object-fit: contain;
+       object-fit: contain;
     width: 100%;
   }
   .container .sectionDua {

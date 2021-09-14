@@ -2058,14 +2058,14 @@ $size1: 1.6rem;
       .sectionSatuKanan {
         position: block;
         margin-left: 0;
-        margin-top: 1.625rem;
+        // margin-top: 1.625rem;
 
         img.mobile {
           display: none;
         }
 
         img.desktop {
-          height: 12rem;
+          object-fit: contain;
           width: 100%;
         }
       }
