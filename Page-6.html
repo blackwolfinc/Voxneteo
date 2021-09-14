@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="assets/fonts/webfont-ibm-plex/stylesheet.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link
+    href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css"
+    rel="stylesheet"
+  />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
@@ -24,7 +28,7 @@
             <div class="col p-0">
 
                 <!-- Navbar -->
-                <nav class="navbar navbar-expand-lg navbar-black">
+                <nav data-aos="fade-down"  data-aos-duration="1250" class="navbar navbar-expand-lg navbar-black">
                     <div class="container-fluid">
                         <div class="container">
                         <nav class="navbar navbar-light bg-white">
@@ -86,7 +90,7 @@
                 <div class="container">
                     <div class="sectionSatu">
                         <div class="sectionSatuKiri">
-                            <div class="text">
+                            <div data-aos="fade-right"  data-aos-duration="1250"  class="text">
                                 <h1>Contact
                                 </h1>
                                 <h5>de la fiduciaire
@@ -95,7 +99,7 @@
     
                             </div>
                         </div>
-                        <div class="sectionSatuKanan">
+                        <div data-aos="fade-left"  data-aos-duration="1250"  class="sectionSatuKanan">
                             <img src="./assets/images/apropos.png" alt="" class="img-fluid desktop">
                             <img src="./assets/images/apropos-mobile.png" alt="" class="img-fluid mobile">
                         </div>
@@ -104,30 +108,30 @@
                     <div class="sectionDua">
                         <div class="sectionDuaKiri">
                             <div class="detailContact brussels">
-                                <div class="kiri">
+                                <div data-aos="fade-right"  data-aos-duration="1250"  class="kiri">
                                     <h6>Brussels</h6>
                                 </div>
-                                <div class="kanan">
+                                <div  data-aos="fade-left"  data-aos-duration="1250"  class="kanan">
                                     <p>Chaussée de la Hulpe 177</p>
                                     <p>1170 Watermael-Boitsfort - Belgique</p>
                                     <p>brussels@fmg.be - Tel: +32 2 738 70 80</p>
                                 </div>
                             </div>
                             <div class="detailContact louvainLaNeuve">
-                                <div class="kiri">
+                                <div data-aos="fade-right"  data-aos-duration="1250"  class="kiri">
                                     <h6>Louvain-La-Neuve</h6>
                                 </div>
-                                <div class="kanan">
+                                <div  data-aos="fade-left"  data-aos-duration="1250"  class="kanan">
                                     <p>Rue de Clairvaux, 40 / 204</p>
                                     <p>1348 LOUVAIN-LA-NEUVE</p>
                                     <p>Tel: 010/84.98.90 - Fax: 010/84.98.99</p>
                                 </div>
                             </div>
                             <div class="detailContact tournai">
-                                <div class="kiri">
+                                <div data-aos="fade-right"  data-aos-duration="1250"  class="kiri">
                                     <h6>Tournai</h6>
                                 </div>
-                                <div class="kanan">
+                                <div data-aos="fade-left"  data-aos-duration="1250"  class="kanan">
                                     <p>Rue Madame,14</p>
                                     <p>7500 TOURNAI</p>
                                     <p>GSM : 0475/44.88.32</p>
@@ -135,7 +139,7 @@
                             </div>
                         </div>
 
-                        <div class="sectionDuaKanan">
+                        <div  data-aos="fade-up"  data-aos-duration="1250"  class="sectionDuaKanan">
                             <div class="linkMenujuLinkedln">
                                 <a href="">Let's stay in touch on Linkedln</a>
                                 <img src="assets/Icons/icon-linkedin-orange.svg" alt="Linkedln">
@@ -143,11 +147,11 @@
                         </div>
                     </div>
 
-                    <div class="sectionTiga">
+                    <div data-aos="fade-up"  data-aos-duration="1250"  class="sectionTiga">
                         <img src="assets/images/map-in-contact-page.PNG" alt="Map-image">
                     </div>
 
-                    <div id="mc_embed_signup" class="sectionLima">
+                    <div data-aos="fade-up"  data-aos-duration="1250"  id="mc_embed_signup" class="sectionLima">
                         
                         <form
                             action="https://voxteneo.us5.list-manage.com/subscribe/post?u=8997332610305bf8025effc3a&amp;id=d7573cb811"
@@ -257,12 +261,14 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
             </script>
+              <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
             <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
             <!-- end -->
     
             <!-- custom js -->
             <script>
+                     AOS.init();
                 $(document).ready(function () {
 
                     $(".navbar-toggler").click(function () {
