@@ -57,6 +57,12 @@ $size1: 1.6rem;
   font-family: $minionBold;
   src: url("../../assets/fonts/webfont-minion/Minion-Bold.ttf");
 }
+.nav-link {
+  transition: none !important;
+}
+.email {
+  outline: none !important;
+}
 
 @media (max-width: 319.98px) {
   .navbar-nav {
@@ -3425,12 +3431,12 @@ $size1: 1.6rem;
 
   .sectionTiga {
     display: block;
-    width: 80%;
-    background-color: #000000;
+    width: 30%;
+    // background-color: #000000;
     margin: 100px auto;
 
     img {
-      height: 29rem;
+      width: 100%;
     }
   }
 
@@ -4059,9 +4065,15 @@ $size1: 1.6rem;
 
   .sectionTiga {
     display: block;
-    width: 80%;
-    background-color: #000000;
+
     margin: 100px auto;
+    width: 83%;
+    // background-color: #000000;
+    margin: 10rem auto 0px auto;
+
+    img {
+      width: 100%;
+    }
   }
 
   .sectionEmpat {

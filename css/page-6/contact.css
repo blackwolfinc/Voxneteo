@@ -43,6 +43,15 @@
   src: url("../../assets/fonts/webfont-minion/Minion-Bold.ttf");
 }
 
+.nav-link {
+  -webkit-transition: none !important;
+  transition: none !important;
+}
+
+.email {
+  outline: none !important;
+}
+
 @media (max-width: 319.98px) {
   .navbar-nav {
     top: 0;
@@ -3700,12 +3709,11 @@
   }
   .sectionTiga {
     display: block;
-    width: 80%;
-    background-color: #000000;
+    width: 30%;
     margin: 100px auto;
   }
   .sectionTiga img {
-    height: 29rem;
+    width: 100%;
   }
   .sectionEmpat {
     display: -webkit-box;
@@ -4384,9 +4392,12 @@
   }
   .sectionTiga {
     display: block;
-    width: 80%;
-    background-color: #000000;
     margin: 100px auto;
+    width: 83%;
+    margin: 10rem auto 0px auto;
+  }
+  .sectionTiga img {
+    width: 100%;
   }
   .sectionEmpat {
     display: -webkit-box;
