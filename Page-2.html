@@ -7,7 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="width=device-width, initial-scale=1.0">
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link
+      href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/page-2/csscustom.css">
     <!-- <link rel="stylesheet" href="css/page-2/Halaman2.css"> -->
@@ -28,7 +31,7 @@
             <div class="col p-0">
 
                 <!-- Navbar -->
-                <nav class="navbar navbar-expand-lg navbar-black">
+                <nav   data-aos="fade-down"  data-aos-duration="1250" class="navbar navbar-expand-lg navbar-black">
                     <div class="container-fluid">
                         <div class="container">
                         <nav class="navbar navbar-light bg-white">
@@ -88,9 +91,9 @@
 
               
                 <div class="container">
-                    <div class="sectionSatu">
+                    <div    class="sectionSatu ">
                         <div class="sectionSatuKiri">
-                            <div class="text">
+                            <div  data-aos="fade-right"  data-aos-duration="1250" class="text">
                                 <h1>A propos
                                 </h1>
                                 <h5>de la fiduciaire
@@ -99,7 +102,7 @@
     
                             </div>
                         </div>
-                        <div class="sectionSatuKanan">
+                        <div  data-aos="fade-left"  data-aos-duration="1250" class="sectionSatuKanan">
                             <div class="overlay d-flex">
                             <img src="./assets/images/header-about.jpg" alt="" class="img-fluid">
                             </div>
@@ -107,7 +110,7 @@
                     </div>
                     <div class="sectionDua">
                         <div class="sectionDuaKiri">
-                            <div class="wraperKiri-One">
+                            <div  data-aos="fade-right"  data-aos-duration="1250" class="wraperKiri-One">
                                 <h3>Depuis 1998, la Fiduciaire Montgomery (FMG) n’a cessé de développer son expertise
                                     dans le domaine des services juridiques, fiscaux et comptable.
                                 </h3>
@@ -131,12 +134,12 @@
 
 
                             </div>
-                            <div class="wraperKiri-Three">
+                            <div  data-aos="fade-right"  data-aos-duration="1250" class="wraperKiri-Three">
                                 <span></span>
                                 <img src="assets/images/aboutb1.jpg" alt="" class="img-fluid">
                             </div>
 
-                            <div class="wraperKiri-Four">
+                            <div  data-aos="fade-up"  data-aos-duration="1250" class="wraperKiri-Four">
                                 <h3>Notre objectif
                                 </h3>
                                 <p>Offrir un service qualitatif, transparent, personnalisé où chaque client, grand ou
@@ -145,7 +148,7 @@
                         </div>
 
 
-                        <div class="sectionDuaKanan">
+                        <div  data-aos="fade-up"  data-aos-duration="1250" class="sectionDuaKanan">
                             <div class="wraperKanan-One">
                                 <p>Notre maîtres mots
                                 </p>
@@ -203,7 +206,7 @@
 
 
 
-                    <div class="sectionTiga">
+                    <div  data-aos="fade-down"  data-aos-duration="1250" class="sectionTiga">
                         <div class="sectionTigaAtas">
 
                             <h1>Les associés
@@ -441,7 +444,7 @@
                         <div class="sectionEmpatAtas">
                             <h5>Nos services</h5>
                         </div>
-                        <div class="sectionEmpatBawah">
+                        <div  data-aos="fade-right"  data-aos-duration="1250" class="sectionEmpatBawah">
                             <div class="sectionEmpatBawahKiri">
                             <ul>
                                 <li><div class="strip "> - </div>
@@ -468,7 +471,7 @@
                         </div>
                     </div>
 
-                    <div id="mc_embed_signup" class="sectionLima">
+                    <div  data-aos="fade-down"  data-aos-duration="1250" id="mc_embed_signup" class="sectionLima">
                         
                         <form
                             action="https://voxteneo.us5.list-manage.com/subscribe/post?u=8997332610305bf8025effc3a&amp;id=d7573cb811"
@@ -593,12 +596,14 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
         </script>
+          <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
         <!-- end -->
 
         <!-- custom js -->
         <script>
+               AOS.init();
             $(document).ready(function () {
             $(".navbar-toggler").click(function () {
                 $(".drop").hide();
