@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Minion';
+    src: url('Minion-DisplayItalic.eot');
+    src: url('Minion-DisplayItalic.eot?#iefix') format('embedded-opentype'),
+        url('Minion-DisplayItalic.woff2') format('woff2'),
+        url('Minion-DisplayItalic.woff') format('woff'),
+        url('Minion-DisplayItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Minion';
+    src: url('Minion-DisplayRegular.eot');
+    src: url('Minion-DisplayRegular.eot?#iefix') format('embedded-opentype'),
+        url('Minion-DisplayRegular.woff2') format('woff2'),
+        url('Minion-DisplayRegular.woff') format('woff'),
+        url('Minion-DisplayRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Minion';
+    src: url('Minion-Bold.eot');
+    src: url('Minion-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Minion-Bold.woff2') format('woff2'),
+        url('Minion-Bold.woff') format('woff'),
+        url('Minion-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
