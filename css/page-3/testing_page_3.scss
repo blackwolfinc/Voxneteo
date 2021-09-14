@@ -2359,7 +2359,7 @@ $size1: 1.6rem;
         }
     
         .navbar-collapse {
-          margin-left: 15rem;
+          margin-left: 10rem;
           justify-content: space-around;
         }
     
@@ -2420,7 +2420,6 @@ $size1: 1.6rem;
             letter-spacing: -0.26px;
             line-height: 23px;
             margin-right: 5.3125rem;
-            margin-left: 0.75rem;
             margin-bottom: -10rem;
             padding-left: 0;
             padding-right: 0;
@@ -2438,6 +2437,11 @@ $size1: 1.6rem;
           // .nav-link.dropdown-toggle {
           //   margin-left: 1.875rem;
           // }
+
+          .nav-link.dropdown-toggle {
+            margin-left: 3.75rem;
+            margin-right: 0;
+          }
     
           &.dropdown {
             .nav-link {

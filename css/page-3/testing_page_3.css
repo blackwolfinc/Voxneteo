@@ -2370,7 +2370,7 @@
     left: 10%;
   }
   .navbar .navbar-collapse {
-    margin-left: 15rem;
+    margin-left: 10rem;
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
@@ -2420,7 +2420,6 @@
     letter-spacing: -0.26px;
     line-height: 23px;
     margin-right: 5.3125rem;
-    margin-left: 0.75rem;
     margin-bottom: -10rem;
     padding-left: 0;
     padding-right: 0;
@@ -2431,6 +2430,10 @@
   .navbar .nav-item img {
     background-color: rebeccapurple;
     color: #0a2939;
+  }
+  .navbar .nav-item .nav-link.dropdown-toggle {
+    margin-left: 3.75rem;
+    margin-right: 0;
   }
   .navbar .nav-item.dropdown .nav-link {
     border: 2px solid #e5e5e5;
