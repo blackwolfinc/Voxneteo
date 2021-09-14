@@ -2473,7 +2473,7 @@
     font-style: italic;
     letter-spacing: 1.27px;
     line-height: 29px;
-    margin-top: 1.7rem;
+    margin-top: 2.4375rem;
   }
   .sectionSatu .sectionSatuKanan {
     z-index: -1;
@@ -2483,16 +2483,21 @@
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    margin-right: -2rem;
-    height: 390px;
+    height: 405px;
+    margin-left: 18.5rem;
+    width: 100%;
   }
   .sectionSatu .sectionSatuKanan .overlay {
     background-color: #f05e36;
-    margin-left: 16.8125rem;
+    width: 100%;
   }
   .sectionSatu .sectionSatuKanan .overlay img {
-    width: 100%;
     padding-right: 6.25rem;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .sectionDua {
     width: 100%;
