@@ -9,6 +9,10 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
+    <link
+    href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css"
+    rel="stylesheet"
+  />
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="css/page-2/csscustom.css" />
     <link rel="stylesheet" href="css/page-2/testing_page_2.css">
@@ -33,7 +37,7 @@
       <div class="row">
         <div class="col p-0">
           <!-- Navbar -->
-          <nav class="navbar navbar-expand-lg navbar-black">
+          <nav  data-aos="fade-down"  data-aos-duration="1250" class="navbar navbar-expand-lg navbar-black">
             <div class="container-fluid">
               <div class="container">
                 <nav class="navbar navbar-light bg-white">
@@ -116,20 +120,20 @@
 
           <div class="container">
             <div class="sectionSatu">
-              <div class="sectionSatuKiri">
-                  <div class="text">
+              <div  class="sectionSatuKiri">
+                  <div  data-aos="fade-right"  data-aos-duration="1250" class="text">
                     <h1>Actualités</h1>
                     <h5>pour votre fiscalité</h5>
                   </div>
               </div>
-              <div class="sectionSatuKanan">
+              <div  data-aos="fade-left"  data-aos-duration="1250" class="sectionSatuKanan">
                   <div class="overlay d-flex">
                   <img src="./assets/images/header-news.jpg" alt="" class="img-fluid">
                   </div>
               </div>
             </div>
             <section class="sectionBody">
-              <div class="containerCategoriesCornerBlur">
+              <div  class="containerCategoriesCornerBlur">
                 <div></div>
               </div>
               <ul class="containerCategories">
@@ -140,9 +144,9 @@
                 <li>actualité</li>
                 <li>contact</li>
               </ul>
-              <ul class="containerCards">
+              <ul   data-aos="fade-up"  data-aos-duration="1250"   class="containerCards">
                 <!-- add height if items will be added -->
-                <li class="item">
+                <li  data-aos="fade-up"  data-aos-duration="1250"   class="item">
                   <span class="containerImage">
                     <img
                       src="./dist/Images/visual-news-04.jpg"
@@ -156,14 +160,14 @@
                     ressius
                   </h6>
                 </li>
-                <li class="item quotes darkBlue">
+                <li  data-aos="fade-up"  data-aos-duration="1250"  class="item quotes darkBlue">
                   <p class="subQuotes">regime fiscal</p>
                   <p class="quotes">
                     Les droit auteur, quel plafond maximum pour votre situation
                     ?
                   </p>
                 </li>
-                <li class="item">
+                <li  data-aos="fade-up"  data-aos-duration="1250"  class="item">
                   <span class="containerImage">
                     <img
                       src="./dist/Images/visual-news-01.jpg"
@@ -177,7 +181,7 @@
                     ressius
                   </h6>
                 </li>
-                <li class="item center top-center">
+                <li  data-aos="fade-up"  data-aos-duration="1250"  class="item center top-center">
                   <span class="containerImage">
                     <img
                       src="./dist/Images/visual-news-05.jpg"
@@ -190,7 +194,7 @@
                     Donec facilisis tortor ut augue lacinia, at viverra semper
                   </h6>
                 </li>
-                <li class="item center">
+                <li  data-aos="fade-up"  data-aos-duration="1250"  class="item center">
                   <span class="containerImage">
                     <img
                       src="./dist/Images/visual-news-07.jpg"
@@ -204,7 +208,7 @@
                   </h6>
                 </li>
 
-                <li class="item quotes pink top-right">
+                <li  data-aos="fade-up"  data-aos-duration="1250"  class="item quotes pink top-right">
                   <p class="subQuotes">conseil pratique</p>
                   <p class="quotes">
                     Le trimeste se termine bientôt, lorem est ipsum tremes
@@ -212,7 +216,7 @@
                   </p>
                 </li>
 
-                <li class="item">
+                <li  data-aos="fade-up"  data-aos-duration="1250"  class="item">
                   <span class="containerImage">
                     <img
                       src="./dist/Images/visual-news-06.jpg"
@@ -226,7 +230,7 @@
                   </h6>
                 </li>
 
-                <li class="item quotes orange">
+                <li  data-aos="fade-up"  data-aos-duration="1250"  class="item quotes orange">
                   <p class="subQuotes">regime fiscal</p>
                   <p class="quotes">
                     Nam dapibus nisl vitae elit fringilla rutrum. Aenean
@@ -245,7 +249,7 @@
               <p><span>voir PLUS d’actualités</span></p>
             </div>
 
-            <div id="mc_embed_signup" class="sectionLima">
+            <div  data-aos="fade-down"  data-aos-duration="1250"  id="mc_embed_signup" class="sectionLima">
                         
               <form
                   action="https://voxteneo.us5.list-manage.com/subscribe/post?u=8997332610305bf8025effc3a&amp;id=d7573cb811"
@@ -361,12 +365,14 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- end -->
 
     <!-- custom js -->
     <script>
+          AOS.init();
       $(document).ready(function () {
         $(".navbar-toggler").click(function () {
           $(".drop").hide();

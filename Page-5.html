@@ -9,6 +9,10 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
+    <link
+    href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css"
+    rel="stylesheet"
+  />
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="css/page-2/csscustom.css" />
     <link rel="stylesheet" href="css/page-2/testing_page_2.css">
@@ -32,7 +36,7 @@
       <div class="row">
         <div class="col p-0">
           <!-- Navbar -->
-          <nav class="navbar navbar-expand-lg navbar-black">
+          <nav data-aos="fade-down"  data-aos-duration="1250" class="navbar navbar-expand-lg navbar-black">
             <div class="container-fluid">
               <div class="container">
                 <nav class="navbar navbar-light bg-white">
@@ -128,12 +132,12 @@
           <div class="container">
             <div class="sectionSatu">
               <div class="sectionSatuKiri">
-                <div class="text">
+                <div  data-aos="fade-right"  data-aos-duration="1250" class="text">
                   <h1>Actualités</h1>
                   <h5>pour votre fiscalité</h5>
                 </div>
               </div>
-              <div class="sectionSatuKanan">
+              <div  data-aos="fade-left"  data-aos-duration="1250" class="sectionSatuKanan">
                 <div class="overlay d-flex">
                 <img src="./assets/images/header-news.jpg" alt="" class="img-fluid">
                 </div>
@@ -141,19 +145,19 @@
             </div>
             <section class="containerBack">
               <div class="rotation-wrapper-outer">
-                <div class="rotation-wrapper-inner">
-                  <img
+                <div  class="rotation-wrapper-inner">
+                  <img 
                     src="assets/Icons/arrow-line3.svg"
                     class="icon-back"
                     alt="Icon Back"
                   />
                 </div>
               </div>
-              <span>les actualités</span>
+              <span  > les actualités</span>
             </section>
             <section class="sectionBody">
               <div class="containerCard">
-                <span class="containerImage">
+                <span  data-aos="fade-up"  data-aos-duration="1250" class="containerImage">
                   <img
                     src="./dist/Images/visual-news-04.jpg"
                     alt="Visual News 2"
@@ -163,11 +167,11 @@
                 <p class="subTitle">Droits des sociétés</p>
               </div>
               <div class="containerNews">
-                <h3 class="newsTitle">
+                <h3  data-aos="fade-left"  data-aos-duration="1250" class="newsTitle">
                   Vos employés sont en télétravail ? Vérifier leurs contrats.
                 </h3>
                 <p class="newsAuthor">Par Bernad Labarre</p>
-                <div class="containerNewsAllText">
+                <div  data-aos="fade-left"  data-aos-duration="1250" class="containerNewsAllText">
                   Mauris non tempor quam, et lacinia sapien. Mauris accumsan
                   eros eget libero posuere vulputate. Etiam elit elit, elementum
                   sed varius at, adipiscing vitae est. Sed nec felis
@@ -211,7 +215,7 @@
               </div>
             </section>
 
-            <div id="mc_embed_signup" class="sectionLima">
+            <div  data-aos="fade-down"  data-aos-duration="1250" id="mc_embed_signup" class="sectionLima">
                         
               <form
                   action="https://voxteneo.us5.list-manage.com/subscribe/post?u=8997332610305bf8025effc3a&amp;id=d7573cb811"
@@ -323,16 +327,19 @@
 
     <!-- Javascript -->
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- end -->
 
     <!-- custom js -->
     <script>
+      
+      AOS.init();
       $(document).ready(function () {
         $(".navbar-toggler").click(function () {
           $(".drop").hide();
