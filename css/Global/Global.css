@@ -1,4 +1,9 @@
 .container {
   padding: 0px !important;
 }
+
+.nav-link {
+  -webkit-transition: none;
+  transition: none;
+}
 /*# sourceMappingURL=Global.css.map */

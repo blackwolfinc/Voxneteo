@@ -869,7 +869,7 @@
     width: 3.75rem;
     height: 5.625rem;
     top: 2.0625rem;
-    margin-left: .625rem;
+    margin-left: 0.625rem;
   }
   .sectionSatu {
     margin-top: 4.375rem;
@@ -922,7 +922,7 @@
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    height: 390px;
+    height: 405px;
     width: 100%;
   }
   .sectionSatu .sectionSatuKanan .overlay {
@@ -1336,6 +1336,7 @@
     border: none;
     width: 12.8rem;
     padding-bottom: 1.25rem;
+    outline: none;
   }
   .sectionLima .sectionLimaBody .SectionLimaTengah ::-webkit-input-placeholder {
     border-left: 2px solid #002f39;
@@ -1695,7 +1696,7 @@
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    height: 390px;
+    height: 405px;
     width: 100%;
   }
   .sectionSatu .sectionSatuKanan .overlay {
@@ -2113,6 +2114,7 @@
     border: none;
     width: 12.8rem;
     padding-bottom: 1.25rem;
+    outline: none;
   }
   .sectionLima .sectionLimaBody .SectionLimaTengah ::-webkit-input-placeholder {
     border-left: 2px solid #002f39;
@@ -2468,11 +2470,11 @@
         -ms-flex-pack: end;
             justify-content: flex-end;
     margin-right: -2rem;
-    height: 390px;
+    height: 405px;
+    margin-left: 17.8125rem;
   }
   .sectionSatu .sectionSatuKanan .overlay {
     background-color: #f05e36;
-    margin-left: 16.8125rem;
   }
   .sectionSatu .sectionSatuKanan .overlay img {
     width: 100%;
@@ -2880,6 +2882,7 @@
     border: none;
     width: 12.8rem;
     padding-bottom: 1.25rem;
+    outline: none;
   }
   .sectionLima .sectionLimaBody .SectionLimaTengah ::-webkit-input-placeholder {
     border-left: 2px solid #002f39;

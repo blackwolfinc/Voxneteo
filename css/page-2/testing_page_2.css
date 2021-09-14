@@ -884,7 +884,7 @@
   .navbar .nav-item .nav-link {
     color: #0a2939;
     font-family: "IBMPlexSans-Medium";
-    font-size: .75rem;
+    font-size: 0.75rem;
     font-weight: 600;
     letter-spacing: -0.26px;
     line-height: 23px;
@@ -917,7 +917,7 @@
     width: 60px;
     height: 60px;
     top: 3.125rem;
-    margin-left: .75rem;
+    margin-left: 0.75rem;
   }
   .sectionSatu {
     margin-top: 4.375rem;
@@ -1352,7 +1352,7 @@
     letter-spacing: 0;
     line-height: 48px;
     margin-right: 0.625rem;
-    padding-top: 0.625rem;
+    padding-top: 0.125rem;
   }
   .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri li p {
     color: #0a2939;
@@ -1384,7 +1384,7 @@
     letter-spacing: 0;
     line-height: 48px;
     margin-right: 0.625rem;
-    padding-top: 0.625rem;
+    padding-top: 0.125rem;
   }
   .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan li p {
     color: #0a2939;
@@ -1486,6 +1486,7 @@
     border: none;
     width: 12.8rem;
     padding-bottom: 1.25rem;
+    outline: none;
   }
   .sectionLima .sectionLimaBody .SectionLimaTengah ::-webkit-input-placeholder {
     border-left: 2px solid #002f39;
@@ -1712,7 +1713,7 @@
     left: 10%;
   }
   .navbar .navbar-collapse {
-    margin-left: 15.625rem;
+    margin-left: 14.625rem;
     margin-right: 2.5rem;
   }
   .navbar .bg-white {
@@ -2244,7 +2245,7 @@
     letter-spacing: 0;
     line-height: 48px;
     margin-right: 0.625rem;
-    padding-top: 0.625rem;
+    padding-top: 0.125rem;
   }
   .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri li p {
     color: #0a2939;
@@ -2276,7 +2277,7 @@
     letter-spacing: 0;
     line-height: 48px;
     margin-right: 0.625rem;
-    padding-top: 0.625rem;
+    padding-top: 0.125rem;
   }
   .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan li p {
     color: #0a2939;
@@ -2374,6 +2375,7 @@
     border: none;
     width: 12.8rem;
     padding-bottom: 1.25rem;
+    outline: none;
   }
   .sectionLima .sectionLimaBody .SectionLimaTengah ::-webkit-input-placeholder {
     border-left: 2px solid #002f39;
@@ -2602,7 +2604,7 @@
   .navbar .navbar-collapse {
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    margin-left: 14.375rem;
+    margin-left: 13.475rem;
   }
   .navbar .bg-white {
     background-color: transparent !important;
@@ -3132,7 +3134,7 @@
     letter-spacing: 0;
     line-height: 48px;
     margin-right: 0.625rem;
-    padding-top: 0.625rem;
+    padding-top: 0.125rem;
   }
   .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri li p {
     color: #0a2939;
@@ -3165,7 +3167,7 @@
     letter-spacing: 0;
     line-height: 48px;
     margin-right: 0.625rem;
-    padding-top: 0.625rem;
+    padding-top: 0.125rem;
   }
   .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan li p {
     color: #0a2939;
@@ -3263,6 +3265,7 @@
     border: none;
     width: 12.8rem;
     padding-bottom: 1.25rem;
+    outline: none;
   }
   .sectionLima .sectionLimaBody .SectionLimaTengah ::-webkit-input-placeholder {
     border-left: 2px solid #002f39;
