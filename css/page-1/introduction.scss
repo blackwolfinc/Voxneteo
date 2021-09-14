@@ -57,6 +57,30 @@ $size1: 1.6rem;
   src: url("../../assets/fonts/webfont-minion/Minion-DisplayItalic.ttf");
 }
 
+.section-5 {
+  background-image: url(../../assets/images/visual-who-we-are.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar {
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 .show425 {
   display: none !important;
 
@@ -833,7 +857,7 @@ li.hidden ul li {
       }
     }
 
-    .section-5 {
+    .section-5Body {
       display: none;
     }
 
@@ -917,7 +941,7 @@ li.hidden ul li {
       }
     }
 
-    .section-5 {
+    .section-5Body {
       display: none;
     }
 
@@ -1680,7 +1704,7 @@ li.hidden ul li {
       }
     }
 
-    .section-5 {
+    .section-5Body {
       display: none;
     }
 
@@ -1927,6 +1951,8 @@ li.hidden ul li {
           a {
             color: #113d53 !important;
             text-decoration: none;
+            display: flex;
+            align-items: center;
           }
 
           img {
@@ -2484,7 +2510,7 @@ li.hidden ul li {
       }
     }
 
-    .section-5 {
+    .section-5Body {
       display: none;
     }
 
@@ -2637,6 +2663,8 @@ li.hidden ul li {
           a {
             color: #113d53 !important;
             text-decoration: none;
+            display: flex;
+            align-items: center;
           }
 
           img {
@@ -3194,7 +3222,7 @@ li.hidden ul li {
       }
     }
 
-    .section-5 {
+    .section-5Body {
       display: none;
     }
 
@@ -3500,7 +3528,7 @@ li.hidden ul li {
       color: #0a2939;
     }
     .SliderOnMobile {
-      overflow-x: scroll;
+      overflow-x: overlay;
       display: block !important;
       width: 51.6125rem;
     }
@@ -3551,7 +3579,7 @@ li.hidden ul li {
       width: 100%;
     }
   }
-  .section-5 {
+  .section-5Body {
     display: none;
     visibility: hidden;
   }
@@ -4244,7 +4272,7 @@ li.hidden ul li {
     }
   }
 
-  .section-5 {
+  .section-5Body {
     display: none;
   }
 
@@ -5018,7 +5046,7 @@ li.hidden ul li {
     }
   }
 
-  .section-5 {
+  .section-5Body {
     display: none;
   }
 
@@ -5672,12 +5700,10 @@ li.hidden ul li {
     }
   }
 
-  .section-5 {
+  .section-5Body {
     width: 100%;
     padding: 0px !important;
-    background-image: url(../../assets/images/visual-who-we-are.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+
     display: flex;
     justify-content: flex-end;
     height: 55rem;
