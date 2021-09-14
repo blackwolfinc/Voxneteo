@@ -224,12 +224,12 @@
   }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 1000px) {
+@media only screen and (min-width: 0px) and (max-width: 992px) {
   .sectionBody {
     .containerCards {
-      height: 104.2rem;
+      height: 132rem;
       .item {
-        width: 200px;
+        width: 40%;
         &.center {
           .containerImage {
             &::after {
@@ -237,9 +237,15 @@
             }
           }
         }
+        &.top-center {
+          margin-top: 0;
+        }
+        &.top-right {
+          margin-top: 0;
+        }
         .containerImage {
           img {
-            width: 200px;
+            width: 100%;
           }
         }
       }
@@ -247,22 +253,6 @@
   }
   .sectionAddActuals {
     margin-top: -3rem;
-  }
-}
-
-@media only screen and (min-width: 0px) and (max-width: 813px) {
-  .sectionBody {
-    .containerCards {
-      height: 106rem;
-      .item {
-        width: 180px;
-        .containerImage {
-          img {
-            width: 180px;
-          }
-        }
-      }
-    }
   }
 }
 
