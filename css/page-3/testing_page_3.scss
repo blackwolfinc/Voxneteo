@@ -2341,6 +2341,7 @@ $size1: 1.6rem;
     .container {
         padding-left: 0px;
         padding-right: 0px;
+        max-width: 87.5rem;
       }
     
       .navbar {
@@ -2358,8 +2359,8 @@ $size1: 1.6rem;
         }
     
         .navbar-collapse {
-          justify-content: flex-end;
-          padding-left: 10%;
+          margin-left: 15rem;
+          justify-content: space-around;
         }
     
         .bg-white {
@@ -2406,6 +2407,10 @@ $size1: 1.6rem;
             display: none;
             background-color: transparent;
           }
+
+          .nav-link.contact {
+            margin-right: 7.5rem;
+          }
     
           .nav-link {
             color: #0a2939;
@@ -2429,6 +2434,10 @@ $size1: 1.6rem;
             background-color: rebeccapurple;
             color: #0a2939;
           }
+
+          // .nav-link.dropdown-toggle {
+          //   margin-left: 1.875rem;
+          // }
     
           &.dropdown {
             .nav-link {
@@ -2496,12 +2505,12 @@ $size1: 1.6rem;
           z-index: -1;
           display: flex;
           justify-content: flex-end;
-          margin-right: -2rem;
           height: 390px;
-    
+          margin-left: 17.5rem;
+          width: 100%;
           .overlay {
             background-color: #f05e36;
-            margin-left: 16.8125rem;
+            width: 100%;
             img {
               width: 100%;
               padding-right: 6.25rem;
@@ -2699,7 +2708,7 @@ $size1: 1.6rem;
           padding-top: 0;
           padding-bottom: 0;
           padding-left: 3.125rem;
-          padding-right: 4rem;
+          padding-right: 6.25rem;
     
           .wraperKanan-One {
             background-color: #0a2939;
