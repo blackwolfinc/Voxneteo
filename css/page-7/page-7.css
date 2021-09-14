@@ -426,6 +426,7 @@ html, body {
   width: 13rem;
   padding-bottom: 1.25rem;
   font-family: "IBMPlexSans";
+  outline: none;
 }
 
 .sectionTiga .sectionTigaBody .SectionTigaTengah ::-webkit-input-placeholder {
