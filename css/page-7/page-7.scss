@@ -81,6 +81,9 @@ html,body
     padding: 0px;
     overflow-x: hidden; 
 }
+.row {
+    min-height: 100vh;
+}
 
 .container {
     max-width: 1440px;
@@ -516,6 +519,7 @@ html,body
     background-color: #021925;
     height: 40rem;
     margin-top: 8.1rem;
+    margin-bottom: -16rem;
 
     .container {
         background-color: #021925;
@@ -2119,15 +2123,15 @@ html,body
 }
 
 //dekstop
-@media (min-width: 1400px) and (max-width: 1440px){
+@media (min-width: 1400px) {
     // Navbar
     .navbar {
         margin-top: 1rem;
         margin-right: 0;
 
         .navbar-collapse {
-            width: 100%;
             justify-content: space-around;
+            margin-left: 5.2rem;
         }
         .container {
             .navbar {
@@ -2143,12 +2147,19 @@ html,body
                 }
             }
         }
-        .nav-item {
-            .nav-link {
-                margin-right: 3.5rem;
-                // margin-left: 0.2rem;
-            }
+        .nav-item.start {
+            margin-right: 0;
         }
+        .nav-item.end {
+            margin-right: -3rem;
+        }
+        // .nav-item.drop {
+        //     margin-right: -10rem;
+        //     margin-left: 10rem;
+        // }
+    }
+    .navbar-nav {
+        width: 100%;
     }
 
     // Section 1
@@ -2202,40 +2213,3 @@ html,body
         }
     }
 }
-
-//dekstop
-// @media (min-width: 1400px) and (max-width: 1440px) {
-//     // Navbar
-//     .navbar {
-//         .container {
-//             .navbar {
-//                 span.line {
-//                     margin-left: 12.8rem;
-//                 }
-//                 .navbar-brand {
-//                     img {
-//                         margin-left: 4.3rem;
-//                     }
-//                 }
-//             }
-//         }
-//         .nav-item {
-//             .nav-link {
-//                 margin-right: 3.5rem;
-//                 // margin-left: 0.2rem;
-//             }
-//         }
-//     }
-//     // Section 1
-//     .sectionSatu {
-//         .sectionSatuKiri {
-//             .text {
-//                 margin-left: 10.5rem;
-//             }
-//         }  
-//     }
-//     // Section 2 
-//     .sectionDua {
-//         margin-left: 4rem;
-//     }
-// }
