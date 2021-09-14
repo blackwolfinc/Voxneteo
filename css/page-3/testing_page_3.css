@@ -43,6 +43,15 @@
   src: url("../../assets/fonts/webfont-minion/Minion-Bold.ttf");
 }
 
+.nav-link {
+  -webkit-transition: none !important;
+  transition: none !important;
+}
+
+.email {
+  outline: none !important;
+}
+
 @media (max-width: 990.98px) {
   .container {
     margin-left: 0;
@@ -61,6 +70,7 @@
     display: flex;
     border-bottom: 1px solid #e3e3e3;
     padding-bottom: 20px;
+    margin-bottom: 2rem;
   }
   .container .navbar .line {
     display: none;
@@ -791,7 +801,7 @@
   .navbar .navbar-collapse {
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    margin-left: 12.5rem;
+    margin-left: 11.9rem;
   }
   .navbar .bg-white {
     background-color: transparent !important;
@@ -869,7 +879,7 @@
     width: 3.75rem;
     height: 5.625rem;
     top: 2.0625rem;
-    margin-left: .625rem;
+    margin-left: 0.625rem;
   }
   .sectionSatu {
     margin-top: 4.375rem;
@@ -1511,6 +1521,9 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .Footer .container .foooterBody .footerBodyKanan a {
+    color: none !important;
   }
   .Footer .container .foooterBody .footerBodyKanan .linkedIn {
     display: -webkit-box;
@@ -2289,6 +2302,9 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .Footer .container .foooterBody .footerBodyKanan a {
+    color: none !important;
+  }
   .Footer .container .foooterBody .footerBodyKanan .linkedIn {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3055,6 +3071,9 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .Footer .container .foooterBody .footerBodyKanan a {
+    color: none !important;
   }
   .Footer .container .foooterBody .footerBodyKanan .linkedIn {
     display: -webkit-box;
