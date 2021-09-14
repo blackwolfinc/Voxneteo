@@ -43,6 +43,15 @@
   src: url("../../assets/fonts/webfont-minion/Minion-Bold.ttf");
 }
 
+.nav-link {
+  -webkit-transition: none !important;
+  transition: none !important;
+}
+
+.email {
+  outline: none !important;
+}
+
 @media (max-width: 990.98px) {
   .navbar-nav {
     top: 0;
@@ -884,7 +893,7 @@
   .navbar .nav-item .nav-link {
     color: #0a2939;
     font-family: "IBMPlexSans-Medium";
-    font-size: .75rem;
+    font-size: 0.75rem;
     font-weight: 600;
     letter-spacing: -0.26px;
     line-height: 23px;
@@ -917,7 +926,7 @@
     width: 60px;
     height: 60px;
     top: 3.125rem;
-    margin-left: .75rem;
+    margin-left: 0.75rem;
   }
   .sectionSatu {
     margin-top: 4.375rem;
@@ -1352,7 +1361,7 @@
     letter-spacing: 0;
     line-height: 48px;
     margin-right: 0.625rem;
-    padding-top: 0.625rem;
+    padding-top: 0.125rem;
   }
   .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri li p {
     color: #0a2939;
@@ -1384,7 +1393,7 @@
     letter-spacing: 0;
     line-height: 48px;
     margin-right: 0.625rem;
-    padding-top: 0.625rem;
+    padding-top: 0.125rem;
   }
   .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan li p {
     color: #0a2939;
@@ -2244,7 +2253,7 @@
     letter-spacing: 0;
     line-height: 48px;
     margin-right: 0.625rem;
-    padding-top: 0.625rem;
+    padding-top: 0.125rem;
   }
   .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri li p {
     color: #0a2939;
@@ -2276,7 +2285,7 @@
     letter-spacing: 0;
     line-height: 48px;
     margin-right: 0.625rem;
-    padding-top: 0.625rem;
+    padding-top: 0.125rem;
   }
   .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan li p {
     color: #0a2939;
@@ -2602,7 +2611,7 @@
   .navbar .navbar-collapse {
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    margin-left: 14.375rem;
+    margin-left: 13.675rem;
   }
   .navbar .bg-white {
     background-color: transparent !important;
@@ -3132,7 +3141,7 @@
     letter-spacing: 0;
     line-height: 48px;
     margin-right: 0.625rem;
-    padding-top: 0.625rem;
+    padding-top: 0.125rem;
   }
   .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri li p {
     color: #0a2939;
@@ -3165,7 +3174,7 @@
     letter-spacing: 0;
     line-height: 48px;
     margin-right: 0.625rem;
-    padding-top: 0.625rem;
+    padding-top: 0.125rem;
   }
   .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan li p {
     color: #0a2939;
