@@ -285,6 +285,9 @@ $size1: 1.6rem;
   .containerBack {
     margin-top: 1.5rem;
   }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1399.98px) {
   .sectionLima {
     .sectionLimaBody {
       .title-1 {
@@ -296,7 +299,8 @@ $size1: 1.6rem;
     }
   }
 }
-@media only screen and (min-width: 0px) and (max-width: 991.9px) {
+
+@media only screen and (min-width: 721px) and (max-width: 991.9px) {
   .navbar-nav {
     width: 100%;
     height: 100%;
@@ -326,6 +330,10 @@ $size1: 1.6rem;
     }
     .containerNewsAllText {
       width: 100%;
+    }
+    .sideButton {
+      display: flex;
+      justify-content: center;
     }
   }
   .sectionLima {
@@ -369,10 +377,15 @@ $size1: 1.6rem;
   }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 720px) {
+@media only screen and (min-width: 0px) and (max-width: 720.9px) {
   .navbar-nav {
     width: 100%;
     height: 100%;
+  }
+  .sideButton button {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
   }
   .sectionDuaJudul {
     margin-left: 0rem;
@@ -394,6 +407,9 @@ $size1: 1.6rem;
     .sectionDuaJudul {
       margin-left: 0rem !important;
       margin-bottom: 4rem;
+    }
+    .containerNewsAllText {
+      width: 100%;
     }
   }
   .containerBack {
@@ -530,6 +546,7 @@ $size1: 1.6rem;
     }
   }
   .sectionLima {
+    
     .SectionLimaTengah {
       .email {
         width: 14.3rem;
