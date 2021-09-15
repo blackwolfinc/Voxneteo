@@ -67,7 +67,7 @@ $size1: 1.6rem;
 a {
   text-decoration: none !important;
 }
-@media (max-width: 990.98px) {
+@media (max-width: 991.98px) {
   .navbar-nav {
     top: 0;
     left: 0;
@@ -835,7 +835,7 @@ a {
   }
 }
 
-@media (min-width: 991px) and (max-width: 1207.98px) {
+@media (min-width: 992px) and (max-width: 1207.98px) {
   .container {
     padding-left: 0px;
     padding-right: 0px;
@@ -866,7 +866,7 @@ a {
 
     .dropdown-menu {
       top: 45px;
-      left: 20px;
+      left: 0;
     }
 
     nav {

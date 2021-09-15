@@ -1,3 +1,65 @@
+$ibmReguler: "IBMPlexSans";
+$ibmBold: "IBMPlexSans-Bold";
+$ibmSemiBold: "IBMPlexSans-SemiBold";
+$ibmSemiBoldItalic: "IBMPlexSans-SemiBoldItalic";
+$ibmLight: "IBMPlexSans-Light";
+$ibmMedium: "IBMPlexSans-Medium";
+$butlerLight: "Butler-Light";
+$butler: "Butler";
+$minionItalic: "Minion-DisplayItalic";
+$minionBold: "Minion-Bold";
+$size1: 1.6rem;
+
+@font-face {
+    font-family: $ibmReguler;
+    src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans.ttf");
+}
+
+@font-face {
+    font-family: $ibmBold;
+    src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: $ibmSemiBold;
+    src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: $ibmLight;
+    src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Light.ttf");
+}
+
+@font-face {
+    font-family: $ibmMedium;
+    src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Medium.ttf");
+}
+
+@font-face {
+    font-family: $ibmSemiBoldItalic;
+    src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBoldItalic.ttf");
+}
+
+@font-face {
+    font-family: $butlerLight;
+    src: url("../../assets/fonts/webfont-butler/Butler-Light.ttf");
+}
+
+@font-face {
+    font-family: $butler;
+    src: url("../../assets/fonts/webfont-butler/Butler.ttf");
+}
+
+@font-face {
+    font-family: $minionItalic;
+    src: url("../../assets/fonts/webfont-minion/Minion-DisplayItalic.ttf");
+}
+
+@font-face {
+    font-family: $minionBold;
+    src: url("../../assets/fonts/webfont-minion/Minion-Bold.ttf");
+}
+
 .container {
   .navbar-nav {
     z-index: 1;
@@ -111,7 +173,7 @@
       height: fit-content;
       width: 49%;
       color: #0a2939;
-      font-family: "IBMPlexSans-Light";
+      font-family: $ibmLight!important;
       font-weight: 300;
       letter-spacing: -0.42px;
       line-height: 41.8px;
@@ -139,6 +201,9 @@
     color: #0a2939;
     font-weight: 300;
     margin-bottom: 3rem;
+    margin-top: 2rem;
+    font-family: $ibmLight!important;
+    width: 75%;
   }
   .visitWebsite {
     font-size: 1rem;
@@ -157,11 +222,41 @@
     background-color: #e3e3e3;
   }
 }
-
+.sideButton {
+  margin-top: 50px;
+}
 .sectionSatu {
   .sectionSatuKanan {
     img {
       width: 1019px;
+    }
+  }
+  .sectionSatuKiri {
+    h1 {
+      font-family: $butler!important;
+    }
+    h5 {
+      font-family: $minionItalic!important;
+    }
+  }
+}
+
+.sectionLima {
+  .sectionLimaBody {
+    h2 {
+      font-family: $minionBold!important;
+    }
+    p {
+      font-family: $ibmReguler!important;
+    }
+  }
+  .SectionLimaTengah {
+    .terms {
+      text-decoration: underline!important;
+      font-family: $ibmMedium!important;
+    }
+    ::placeholder, .text, .terms {
+      font-family: $ibmReguler!important;
     }
   }
 }
@@ -190,13 +285,29 @@
   .containerBack {
     margin-top: 1.5rem;
   }
+  .sectionLima {
+    .sectionLimaBody {
+      .title-1 {
+        margin-top: -4rem!important;
+      }
+    }
+    .SectionLimaBawahDua {
+      margin: 4rem 0!important;
+    }
+  }
 }
-@media only screen and (min-width: 0px) and (max-width: 992px) {
+@media only screen and (min-width: 0px) and (max-width: 991.9px) {
+  .navbar-nav {
+    width: 100%;
+    height: 100%;
+  }
   .sectionDuaJudul {
     margin-left: 0rem;
   }
   .sectionBody {
     padding-left: 0rem;
+    margin-top: 2rem!important;
+    margin-bottom: 3rem;
   }
   .containerBack {
     margin-top: 1.5rem;
@@ -211,11 +322,58 @@
     margin-left: 0.5rem;
     .sectionDuaJudul {
       margin-left: 0rem !important;
-      margin-bottom: 4rem;
+      margin-bottom: 5rem;
+    }
+    .containerNewsAllText {
+      width: 100%;
+    }
+  }
+  .sectionLima {
+    margin-bottom: 3rem;
+    .sectionLimaBody {
+      .logo {
+        justify-content: end!important;
+      }
+      .title .title-1 {
+        h2 {
+          margin-bottom: 2rem;
+        }
+      }
+      p {
+        width: 100%!important;
+      }
+    }
+    .SectionLimaTengah {
+      .email {
+        width: 14.3rem;
+      }
+      ::placeholder{
+        color: #363636!important;
+      }
+    }
+    .SectionLimaBawah {
+      p {
+        margin: auto;
+      }
+    }
+    .SectionLimaBawahDua {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      button {
+        width: 50%!important;
+      }
     }
   }
 }
+
 @media only screen and (min-width: 0px) and (max-width: 720px) {
+  .navbar-nav {
+    width: 100%;
+    height: 100%;
+  }
   .sectionDuaJudul {
     margin-left: 0rem;
   }
@@ -297,6 +455,7 @@
       margin-bottom: 1.5rem;
       letter-spacing: -0.09px;
       font-size: 14px;
+      width: 100%;
     }
     .visitWebsite {
       margin-bottom: 3rem;
@@ -305,9 +464,28 @@
       margin-top: 2rem;
     }
   }
+  .sectionLima {
+    .SectionLimaTengah {
+      .email {
+        width: 14.3rem;
+      }
+      ::placeholder{
+        color: #363636!important;
+      }
+    }
+    .SectionLimaBawah {
+      p {
+        margin: auto;
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 425px) {
+  .navbar-nav {
+    width: 100%;
+    height: 100%;
+  }
   .sideButton button {
     width: 100%;
     margin-top: 1rem;
@@ -335,6 +513,9 @@
       margin-left: 0rem !important;
       margin-bottom: 8rem;
     }
+    .containerNewsAllText {
+      width: 100%;
+    }
   }
   .sectionBody {
     .containerCard {
@@ -345,6 +526,24 @@
           width: 100%;
           height: auto;
         }
+      }
+    }
+  }
+  .sectionLima {
+    .SectionLimaTengah {
+      .email {
+        width: 14.3rem;
+      }
+      ::placeholder{
+        color: #363636!important;
+      }
+      h6 {
+        //display: none;
+      }
+    }
+    .SectionLimaBawah {
+      p {
+        margin: auto;
       }
     }
   }
