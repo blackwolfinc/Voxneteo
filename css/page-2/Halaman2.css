@@ -44,6 +44,10 @@
 }
 
 @media (max-width: 319.98px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
   .navbar-nav {
     top: 0;
     left: 0;
@@ -812,6 +816,10 @@
 }
 
 @media (min-width: 320px) and (max-width: 374.98px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
   .navbar-nav {
     top: 0;
     left: 0;
@@ -1580,6 +1588,10 @@
 }
 
 @media (min-width: 375px) and (max-width: 574.98px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
   .navbar-nav {
     top: 0;
     left: 0;

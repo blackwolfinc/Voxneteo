@@ -63,6 +63,10 @@ $size1: 1.6rem;
 .email {
   outline: none !important;
 }
+
+a {
+  text-decoration: none !important;
+}
 @media (max-width: 990.98px) {
   .navbar-nav {
     top: 0;
@@ -410,9 +414,11 @@ $size1: 1.6rem;
 
       .sectionTigaBawah {
         img {
+          border-radius: 12px;
           height: 50%;
           width: 100%;
           margin-top: 1rem;
+          margin-bottom: 2rem;
         }
 
         .cardSlider {

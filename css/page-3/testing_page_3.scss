@@ -65,6 +65,9 @@ $size1: 1.6rem;
   outline: none !important;
 }
 
+a {
+  text-decoration: none !important;
+}
 @media (max-width: 990.98px) {
   .container {
     margin-left: 0;
@@ -3050,7 +3053,7 @@ $size1: 1.6rem;
         margin-bottom: 6rem;
 
         img {
-          width: 12.5rem;
+          width: 18.5rem;
           opacity: 0.8;
         }
       }

@@ -1,42 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="width=device-width, initial-scale=1.0"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- bootstrap css -->
+    <title></title>
+    <link id="myLink"
+      href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/page-2/csscustom.css" />
+    <link rel="stylesheet" href="css/page-2/testing_page_2.css">
+    <link rel="stylesheet" href="css/page-7/Halaman7.css" />
+    <link rel="stylesheet" href="css/page-7/Halaman7.css" />
+
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      href="assets/fonts/webfont-ibm-plex/stylesheet.css"
     />
+    <link rel="stylesheet" href="assets/fonts/webfont-minion/stylesheet.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <!-- custom css -->
-    <link
-      id="myLink"
-      href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/page-7/page-7.css" />
-    <link rel="stylesheet" href="css/Global/Global.css" />
-    <title>Simple Page</title>
   </head>
-
   <body>
+    <!-- Carousel Col -->
+
     <div class="container-fluid">
       <div class="row">
         <div class="col p-0">
           <!-- Navbar -->
-          <nav
-            data-aos="fade-down"
-            data-aos-duration="1250"
-            class="navbar navbar-expand-lg"
-          >
+          <nav data-aos="fade-down"  data-aos-duration="1250" class="navbar navbar-expand-lg navbar-black">
             <div class="container-fluid">
               <div class="container">
-                <nav class="navbar navbar-light">
+                <nav class="navbar navbar-light bg-white">
                   <span class="line"></span>
                   <a class="navbar-brand" href="#">
                     <img
@@ -44,7 +47,7 @@
                       width="50"
                       height="50"
                       alt=""
-                      class=""
+                      class="img-fluid"
                     />
                   </a>
                   <button
@@ -59,16 +62,9 @@
                     <span class="navbar-toggler-icon"> </span>
                   </button>
                 </nav>
-                <button
-                  class="navbar-toggler custom-toggler p-0"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#main-navigation"
-                >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
                 <div class="collapse navbar-collapse" id="main-navigation">
                   <ul class="navbar-nav">
+                    <!-- hide icon -->
                     <li class="nav-item d-none" id="hidebtn">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -86,25 +82,26 @@
                         />
                       </svg>
                     </li>
+                    <!-- end -->
                     <li class="nav-item">
                       <a class="nav-link" aria-current="page" href="#"
                         >Nos services</a
                       >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">A propos de FMG</a>
+                      <a class="nav-link active" href="#">A propos de FMG</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Actualité fiscale</a>
+                      <a class="nav-link" href="#">Simple page
+                      </a>
                     </li>
                     <li class="nav-item start">
                       <a class="nav-link contact" href="#">Contact</a>
                     </li>
-                    <hr />
                     <li class="nav-item hidden d-none" id="listhide">
                       <ul class="dash">
                         <li class="first">Français</li>
-                        <li class="last">English</li>
+                        <li>English</li>
                       </ul>
                     </li>
                     <li class="nav-item end dropdown drop">
@@ -113,8 +110,7 @@
                         href="#"
                         id="navbarDropdown"
                         role="button"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
+                        data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
                         Français
@@ -124,8 +120,8 @@
                         class="dropdown-menu"
                         aria-labelledby="navbarDropdown"
                       >
-                        <a class="dropdown-item first" href="#">Français</a>
-                        <a class="dropdown-item" href="#">English</a>
+                        <li><a class="dropdown-item" href="#">Francais</a></li>
+                        <li><a class="dropdown-item" href="#">English</a></li>
                       </ul>
                     </li>
                   </ul>
@@ -135,39 +131,27 @@
           </nav>
 
           <div class="container">
-            <!-- Section 1 -->
             <div class="sectionSatu">
               <div class="sectionSatuKiri">
-                <div
-                  data-aos="fade-right"
-                  data-aos-duration="1250"
-                  class="text"
-                >
-                  <h1>Simple page</h1>
-                  <h5>Lorem dolores est ipsum</h5>
+                <div  data-aos="fade-right"  data-aos-duration="1250" class="text">
+                  <h1>Simple page
+                  </h1>
+                  <h5>Lorem dolores est ipsum
+
+                  </h5>
                 </div>
               </div>
-
-              <div
-                data-aos="fade-left"
-                data-aos-duration="1250"
-                class="sectionSatuKanan"
-              >
-                <img
-                  src="./assets/images/header-about.jpg"
-                  alt=""
-                  class="img-fluid dekstop"
-                />
-                <img
-                  src="./assets/images/header-about.jpg"
-                  alt=""
-                  class="img-fluid mobile"
-                />
-              </div>
+              <div  data-aos="fade-left"  data-aos-duration="1250" class="sectionSatuKanan">
+                <div class="overlay d-flex">
+                <img src="./assets/images/header-news.jpg" alt="" class="img-fluid">
+                </div>
             </div>
-            <!-- Section 2 -->
-            <div class="sectionDua">
-              <div
+            </div>
+      
+            <section class="sectionBody">
+        
+              <div data-aos="fade-up"  data-aos-duration="1250" class="containerNews">
+                <div
                 data-aos="fade-up"
                 data-aos-duration="1250"
                 class="sectionDuaJudul"
@@ -177,226 +161,130 @@
                   développer.
                 </h3>
               </div>
-              <div class="sectionDuaText">
-                <div
-                  data-aos="fade-up"
-                  data-aos-duration="1250"
-                  class="sideAtas"
-                >
-                  <p>
-                    Cras quis nulla commodo, aliquam lectus sed, blandit augue.
-                    Cras ullamcorper bibendum bibendum. Duis tincidunt urna non
-                    pretium porta. Nam condimentum vitae ligula vel ornare.
-                    Phasellus at semper turpis. Nunc eu tellus tortor. Etiam at
-                    condimentum nisl, vitae sagittis orci. Donec id dignissim
-                    nunc. Donec elit ante, eleifend a dolor et, venenatis
-                    facilisis dolor. In feugiat orci odio, sed lacinia sem
-                    elementum quis. Aliquam consectetur, eros et vulputate
-                    euismod, nunc leo tempor lacus, ac rhoncus neque eros nec
-                    lacus. Cras lobortis molestie faucibus.
+                <h3  data-aos="fade-up"  data-aos-duration="1250" class="newsTitle">
+            
+                </h3>
+             
+                <div data-aos="fade-up"  data-aos-duration="1250" class="containerNewsAllText">
+                  Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare. Phasellus at semper turpis. Nunc eu tellus tortor. Etiam at condimentum nisl, vitae sagittis orci. Donec id dignissim nunc. Donec elit ante, eleifend a dolor et, venenatis facilisis dolor. In feugiat orci odio, sed lacinia sem elementum quis. Aliquam consectetur, eros et vulputate euismod, nunc leo tempor lacus, ac rhoncus neque eros nec lacus. Cras lobortis molestie faucibus.
+                  <br />
+                  Mauris molestie sit amet metus mattis varius. Donec sit amet
+                  ligula eget nisi sodales egestas. Aliquam interdum dolor
+                  aliquet dolor sollicitudin fermentum. Donec congue lorem a
+                  molestie bibendum. Etiam nisi ante, consectetur eget placerat
+                  a, tempus a neque. Donec ut elit urna. Etiam venenatis
+                  eleifend urna eget scelerisque. Aliquam in nunc quis dui
+                  sollicitudin ornare ac vitae lectus.
+                  <br />
+                  <br />
+                  <p
+                    style="
+                     margin-top: 35px;
+                  margin-bottom: 35px;
+                  font-family: 'IBMPlexSans-SemiBold';
+                  color: #0a2939;
+                  line-height: 30px;
+                  font-size: 18px;
+                  font-weight: 600;
+                    "
+                  >
+                    <b>This is a subtitle lorem dolores tremens </b>
                   </p>
-                  <h5>This is a subtitle lorem dolores tremens</h5>
+                  <br />
                   <p>
-                    Fusce vehicula dolor arcu, sit amet blandit dolor mollis
-                    nec. Donec viverra eleifend lacus, vitae ullamcorper metus.
-                    Sed sollicitudin ipsum quis nunc sollicitudin ultrices.
-                    Donec euismod scelerisque ligula. Maecenas eu varius risus,
-                    eu aliquet arcu. Curabitur fermentum suscipit est, tincidunt
-                    mattis lorem luctus id. Donec eget massa a diam condimentum
-                    pretium. Aliquam erat volutpat. Integer ut tincidunt orci.
-                    Etiam tristique, elit ut consectetur iaculis, metus lectus
-                    mattis justo, vel mollis eros neque quis augue. Sed lobortis
-                    ultrices lacus, a placerat metus rutrum sit amet. Aenean ut
-                    suscipit justo.
+                    Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Curabitur fermentum suscipit est, tincidunt mattis lorem luctus id. Donec eget massa a diam condimentum pretium. Aliquam erat volutpat. Integer ut tincidunt orci. Etiam tristique, elit ut consectetur iaculis, metus lectus mattis justo, vel mollis eros neque quis augue. Sed lobortis ultrices lacus, a placerat metus rutrum sit amet. Aenean ut suscipit justo.
                   </p>
                 </div>
                 <div class="sideButton">
                   <button>Go back to homepage</button>
                 </div>
+         
               </div>
-            </div>
-            <!-- Section newsletter -->
-            <div
-              data-aos="fade-up"
-              data-aos-duration="1250"
-              id="mc_embed_signup"
-              class="sectionTiga"
-            >
+            </section>
+
+            <div  data-aos="fade-up"  data-aos-duration="1250" id="mc_embed_signup" class="sectionLima">
+                        
               <form
-                action="https://voxteneo.us5.list-manage.com/subscribe/post?u=8997332610305bf8025effc3a&amp;id=d7573cb811"
-                method="post"
-                id="mc-embedded-subscribe-form"
-                name="mc-embedded-subscribe-form"
-                class="validate"
-                target="_blank"
-                novalidate="novalidate"
-              >
-                <div class="sectionTigaBody" id="mc_embed_signup_scroll">
-                  <div class="logo">
-                    <img src="assets/Icons/icon-stamp.svg" alt="" />
-                  </div>
-                  <div class="title d-flex flex-row">
-                    <div class="title-1">
-                      <h2>Newsletter</h2>
-                      <p>Moures non tempor quam, et lacinia sapien mauris</p>
-                      <p>Accumsan erros eget libero posur vulputat</p>
-                    </div>
-                  </div>
-                  <div class="SectionTigaTengah">
-                    <div class="mc-field-group">
-                      <input
-                        type="email"
-                        value=""
-                        name="EMAIL"
-                        class="required email"
-                        id="mce-EMAIL"
-                        placeholder="Enterer votre addrese email"
-                        aria-required="true"
-                        autocomplete="off"
-                      /><span class="bintang"></span>
-                    </div>
-                    <div
-                      id="mergeRow-gdpr"
-                      class="mergeRow gdpr-mergeRow content__gdprBlock"
-                    >
-                      <div class="content__gdpr">
-                        <div
-                          class="
-                            mc_fieldset
-                            gdprRequired
-                            d-flex
-                            flex-row
-                            align-items-center
-                          "
-                          name="interestgroup_field"
-                        >
-                          <input
-                            type="checkbox"
-                            id="gdpr_348641"
-                            name="gdpr[348641]"
-                            value="Y"
-                            class="av-checkbox gdpr"
-                          />
-                          <div class="text">J'accepte les</div>
-                          <a
-                            class="terms"
-                            href="https://app-fmg.php8-01.dev.voxteneo.com/fr/conditions-generales"
-                            target="_blank"
-                            >conditions générales</a
-                          >
-                        </div>
+                  action="https://voxteneo.us5.list-manage.com/subscribe/post?u=8997332610305bf8025effc3a&amp;id=d7573cb811"
+                  method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                  class="validate" target="_blank" novalidate="novalidate">
+                  <div class="sectionLimaBody" id="mc_embed_signup_scroll">
+                      <div class="logo">
+                          <img src="assets/Icons/icon-stamp.svg" alt="">
                       </div>
-                    </div>
-                    <h6>ENVOYER</h6>
-                  </div>
-                  <div class="SectionTigaBawah">
-                    <p>Aidez-nous à mieux vous connaître</p>
-
-                    <div class="mc-field-group">
-                      <input
-                        type="text"
-                        value=""
-                        name="FNAME"
-                        class=""
-                        id="mce-FNAME"
-                        placeholder="Votre nom"
-                        autocomplete="off"
-                      />
-                    </div>
-                    <div class="mc-field-group">
-                      <input
-                        type="text"
-                        value=""
-                        name="LNAME"
-                        class=""
-                        id="mce-LNAME"
-                        placeholder="Votre prenom"
-                        autocomplete="off"
-                      />
-                    </div>
-                    <div class="mc-field-group">
-                      <input
-                        type="text"
-                        value=""
-                        name="COMPANY"
-                        class=""
-                        id="mce-COMPANY"
-                        placeholder="Societe"
-                        autocomplete="off"
-                      />
-                    </div>
-                  </div>
-                  <div class="SectionTigaBawahDua">
-                    <div
-                      class="g-recaptcha"
-                      data-sitekey="6LehUfkbAAAAAJmPAbkWQx4tJbW-fKiqjvP22XzC"
-                    >
-                      <div style="width: 304px; height: 78px">
-                        <div>
-                          <iframe
-                            title="reCAPTCHA"
-                            src="./assets/html/anchor.html"
-                            width="304"
-                            height="78"
-                            role="presentation"
-                            name="a-4ouob3yp8ta3"
-                            frameborder="0"
-                            scrolling="no"
-                            sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"
-                          ></iframe>
-                        </div>
-                        <textarea
-                          id="g-recaptcha-response"
-                          name="g-recaptcha-response"
-                          class="g-recaptcha-response"
-                          style="
-                            width: 250px;
-                            height: 40px;
-                            border: 1px solid rgb(193, 193, 193);
-                            margin: 10px 25px;
-                            padding: 0px;
-                            resize: none;
-                            display: none;
-                          "
-                        ></textarea>
+                      <div class="title d-flex flex-row">
+                          <div class="title-1">
+                              <h2>Newsletter</h2>
+                          <p>Moures non tempor quam, et lacinia sapien mauris</p>
+                          <p>Accumsan erros eget libero posur vulputat</p>
+                          </div>
                       </div>
-                    </div>
-                    <button
-                      type="submit"
-                      value=""
-                      name="subscribe"
-                      id="mc-embedded-subscribe"
-                      class="button"
-                    >
-                      Incrivez-moi
-                    </button>
-                  </div>
-                </div>
-                <div id="mce-responses" class="clear">
-                  <div
-                    class="response"
-                    id="mce-error-response"
-                    style="display: none"
-                  ></div>
-                  <div
-                    class="response"
-                    id="mce-success-response"
-                    style="display: none"
-                  ></div>
-                </div>
+                      <div class="SectionLimaTengah">
+                          <div class="mc-field-group">
+                              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"
+                                  placeholder="Enterer votre addrese email" aria-required="true"><span></span> 
+                          </div>
+                          <div id="mergeRow-gdpr"
+                              class="mergeRow gdpr-mergeRow content__gdprBlock">
+                              <div class="content__gdpr">
+                                  <div class="mc_fieldset gdprRequired d-flex flex-row align-items-center"
+                                      name="interestgroup_field">
+                                      <input type="checkbox" id="gdpr_348641" name="gdpr[348641]" value="Y"
+                                          class="av-checkbox gdpr">
+                                      <div class="text">J'accepte les </div>
+                                      <a class="terms" href="https://app-fmg.php8-01.dev.voxteneo.com/fr/conditions-generales"
+                                          target="_blank"> condition generales</a></div>
+                              </div>
+                          </div>
+                          <h6>ENVOYER</h6>
+                      </div>
 
-                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                      <div class="SectionLimaBawah">
+                          <p>Aidez-nous a mieux vous conaitre</p>
+
+                          <div class="mc-field-group"><input type="text" value="" name="FNAME" class=""
+                                  id="mce-FNAME" placeholder="Votre nom"></div>
+                          <div class="mc-field-group"><input type="text" value="" name="LNAME" class=""
+                                  id="mce-LNAME" placeholder="Votre prenom"></div>
+                          <div class="mc-field-group"><input type="text" value="" name="COMPANY" class=""
+                                  id="mce-COMPANY" placeholder="Societe"></div>
+                      </div>
+                  </div>
+
+                  <div id="mce-responses" class="clear">
+                      <div class="response" id="mce-error-response" style="display:none"></div>
+                      <div class="response" id="mce-success-response" style="display:none"></div>
+                  </div>
+
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+
+
+                  <div class="SectionLimaBawahDua">
+                      <div class="g-recaptcha" data-sitekey="6LehUfkbAAAAAJmPAbkWQx4tJbW-fKiqjvP22XzC">
+                          <div style="width: 304px; height: 78px;">
+                              <div><iframe title="reCAPTCHA" src="./assets/html/anchor.html" width="304"
+                                      height="78" role="presentation" name="a-4ouob3yp8ta3" frameborder="0"
+                                      scrolling="no"
+                                      sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+                              </div><textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                                  class="g-recaptcha-response"
+                                  style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+                          </div>
+                      </div>
+                   <button type="submit" value="" name="subscribe"
+                              id="mc-embedded-subscribe" class="button">Incrivez-moi</button>
               </form>
-            </div>
-            <!-- end container -->
+              
+          </div>
+
+            <!-- end continer  -->
           </div>
         </div>
-        <!-- Footer -->
         <div class="Footer">
           <div class="container">
             <div class="footerHeader">
               <img
-                src="assets/logos/logo-fmg-v01.svg"
+              src="assets/logos/logo-fmg-v01.svg"
                 alt="My Happy SVG"
                 class="img-fluid"
               />
@@ -426,20 +314,22 @@
 
     <!-- Javascript -->
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- end -->
+
+    <!-- custom js -->
     <script>
       if ($(window).width() < 992) {
-        document.getElementById("myLink").disabled = true;
-      } else {
-        document.getElementById("myLink").disabled = false;
-      }
+            document.getElementById("myLink").disabled = true;
+        } else {
+            document.getElementById("myLink").disabled = false;
+        }
       AOS.init();
       $(document).ready(function () {
         $(".navbar-toggler").click(function () {
@@ -459,23 +349,24 @@
           $("#main-navigation").toggle();
         });
 
-        let sectionTigaBawah = $(".SectionTigaBawah");
-        let sectionTigaBawahDua = $(".SectionTigaBawahDua");
-        sectionTigaBawah.hide();
-        sectionTigaBawahDua.hide();
-        $("#mce-EMAIL").keyup(function () {
-          let bintang = $(".bintang");
+        let SectionLimaBawah = $(".SectionLimaBawah");
+            let SectionLimaBawahDua = $(".SectionLimaBawahDua");
+                SectionLimaBawah.hide();
+                SectionLimaBawahDua.hide();
+            $("#mce-EMAIL").keyup(function() {
+                let bintang = $(".bintang");
 
-          if ($("#mce-EMAIL").val().length > 0) {
-            sectionTigaBawah.show();
-            sectionTigaBawahDua.show();
-            bintang.hide();
-          } else {
-            sectionTigaBawah.hide();
-            sectionTigaBawahDua.hide();
-            bintang.show();
-          }
-        });
+                if($("#mce-EMAIL").val().length > 0) {
+                    SectionLimaBawah.show()
+                    SectionLimaBawahDua.show();
+                    bintang.hide();
+                } else {
+                    SectionLimaBawah.hide();
+                    SectionLimaBawahDua.hide();
+                    bintang.show()
+                }
+                
+            });
 
         // $("#tombol_pre").click(function() {
         //   $("#box").before("<p>Learning jQuery...</p>");
