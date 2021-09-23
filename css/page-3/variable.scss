@@ -1,0 +1,59 @@
+$color1: #ffffff;
+$color2: #e5e5e5;
+$color3: #f05e36;
+$color4: #0a2939;
+$color5: #002f39;
+$color6: #f66e49;
+$color7: #021925;
+$colorLine: #113d53;
+$maxWidth: 144rem;
+$ibmReguler: "IBMPlexSans";
+$ibmSemiBold: "IBMPlexSans-SemiBold";
+$ibmSemiBoldItalic: "IBMPlexSans-SemiBoldItalic";
+$ibmLight: "IBMPlexSans-Light";
+$ibmMedium: "IBMPlexSans-Medium";
+$butlerLight: "Butler-Light";
+$butler: "Butler";
+$minionItalic: "Minion-DisplayItalic";
+$minionBold: "Minion-Bold";
+$size1: 1.6rem;
+
+@font-face {
+  font-family: $ibmReguler;
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans.ttf");
+}
+@font-face {
+  font-family: $ibmSemiBold;
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBold.ttf");
+}
+@font-face {
+  font-family: $ibmLight;
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Light.ttf");
+}
+@font-face {
+  font-family: $ibmMedium;
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Medium.ttf");
+}
+@font-face {
+  font-family: $ibmSemiBoldItalic;
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBoldItalic.ttf");
+}
+
+@font-face {
+  font-family: $butlerLight;
+  src: url("../../assets/fonts/webfont-butler/Butler-Light.ttf");
+}
+@font-face {
+  font-family: $butler;
+  src: url("../../assets/fonts/webfont-butler/Butler.ttf");
+}
+
+@font-face {
+  font-family: $minionItalic;
+  src: url("../../assets/fonts/webfont-minion/Minion-DisplayItalic.ttf");
+}
+
+@font-face {
+  font-family: $minionBold;
+  src: url("../../assets/fonts/webfont-minion/Minion-Bold.ttf");
+}
