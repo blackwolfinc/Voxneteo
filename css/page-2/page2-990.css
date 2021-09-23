@@ -1,48 +1,40 @@
+@charset "UTF-8";
 @font-face {
   font-family: "IBMPlexSans";
   src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans.ttf");
 }
-
 @font-face {
   font-family: "IBMPlexSans-SemiBold";
   src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBold.ttf");
 }
-
 @font-face {
   font-family: "IBMPlexSans-Light";
   src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Light.ttf");
 }
-
 @font-face {
   font-family: "IBMPlexSans-Medium";
   src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Medium.ttf");
 }
-
 @font-face {
   font-family: "IBMPlexSans-SemiBoldItalic";
   src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBoldItalic.ttf");
 }
-
 @font-face {
   font-family: "Butler-Light";
   src: url("../../assets/fonts/webfont-butler/Butler-Light.ttf");
 }
-
 @font-face {
   font-family: "Butler";
   src: url("../../assets/fonts/webfont-butler/Butler.ttf");
 }
-
 @font-face {
   font-family: "Minion-DisplayItalic";
   src: url("../../assets/fonts/webfont-minion/Minion-DisplayItalic.ttf");
 }
-
 @font-face {
   font-family: "Minion-Bold";
   src: url("../../assets/fonts/webfont-minion/Minion-Bold.ttf");
 }
-
 @media (max-width: 990.98px) {
   .navbar-nav {
     top: 0;
@@ -88,7 +80,7 @@
     color: #f05e36;
   }
   .navbar-nav li ul.dash li:before {
-    content: "\2015";
+    content: "―";
     text-indent: -5px;
     margin-right: 13px;
     color: #f05e36;
@@ -101,9 +93,11 @@
     margin-left: -0.25rem;
     margin-bottom: 1.25rem;
   }
+
   .navbar-light .navbar-toggler {
     border: none;
   }
+
   .container {
     margin-left: 0;
     margin-right: 0;
@@ -125,7 +119,7 @@
   .container .navbar .line {
     display: none;
   }
-  .container .sectionSatu {
+  .container .sectionOne {
     margin-top: 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -135,15 +129,15 @@
     display: -ms-flexbox;
     display: flex;
   }
-  .container .sectionSatu .sectionSatuKiri {
+  .container .sectionOne .sectionOneLeft {
     background-color: transparent;
   }
-  .container .sectionSatu .sectionSatuKiri .text {
+  .container .sectionOne .sectionOneLeft .text {
     margin-left: 0;
     position: block;
     margin-top: 1.375rem;
   }
-  .container .sectionSatu .sectionSatuKiri .text h1 {
+  .container .sectionOne .sectionOneLeft .text h1 {
     height: auto;
     color: #f05e36;
     font-family: "Butler";
@@ -151,7 +145,7 @@
     letter-spacing: -0.03875rem;
     line-height: 2.375rem;
   }
-  .container .sectionSatu .sectionSatuKiri .text h5 {
+  .container .sectionOne .sectionOneLeft .text h5 {
     margin-top: 0.75rem;
     color: #021925;
     font-family: "Minion-DisplayItalic";
@@ -160,16 +154,16 @@
     letter-spacing: 0.00625rem;
     line-height: 1.125rem;
   }
-  .container .sectionSatu .sectionSatuKanan {
+  .container .sectionOne .sectionOneRight {
     position: block;
     margin-left: 0;
     margin-top: 1.625rem;
   }
-  .container .sectionSatu .sectionSatuKanan .overlay {
+  .container .sectionOne .sectionOneRight .overlay {
     background-color: #f05e36;
     margin-bottom: 1.25rem;
   }
-  .container .sectionSatu .sectionSatuKanan .overlay img {
+  .container .sectionOne .sectionOneRight .overlay img {
     height: 100%;
     width: 100%;
     margin-bottom: 20px;
@@ -177,7 +171,7 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .container .sectionDua {
+  .container .sectionTwo {
     margin-top: 2.0625rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -187,7 +181,7 @@
     display: -ms-flexbox;
     display: flex;
   }
-  .container .sectionDua .sectionDuaKiri .wraperKiri-One h3 {
+  .container .sectionTwo .sectionTwoLeft .contentLeftOne h3 {
     color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 18px;
@@ -195,7 +189,7 @@
     letter-spacing: -0.26px;
     line-height: 28px;
   }
-  .container .sectionDua .sectionDuaKiri .wraperKiri-Two p {
+  .container .sectionTwo .sectionTwoLeft .contentLeftTwo p {
     color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 14px;
@@ -204,19 +198,19 @@
     line-height: 26px;
     margin-bottom: 1.375rem;
   }
-  .container .sectionDua .sectionDuaKiri .wraperKiri-Three {
+  .container .sectionTwo .sectionTwoLeft .contentLeftThree {
     margin-right: -1.5rem;
   }
-  .container .sectionDua .sectionDuaKiri .wraperKiri-Three img {
+  .container .sectionTwo .sectionTwoLeft .contentLeftThree img {
     width: 100%;
     margin-left: -1.5rem;
   }
-  .container .sectionDua .sectionDuaKiri .wraperKiri-Four {
+  .container .sectionTwo .sectionTwoLeft .contentLeftFour {
     margin-top: 2rem;
     background-color: #0a2939;
     padding: 2rem;
   }
-  .container .sectionDua .sectionDuaKiri .wraperKiri-Four h3 {
+  .container .sectionTwo .sectionTwoLeft .contentLeftFour h3 {
     color: #f05e36;
     font-family: Butler;
     font-size: 32px;
@@ -224,7 +218,7 @@
     letter-spacing: -0.47px;
     line-height: 36px;
   }
-  .container .sectionDua .sectionDuaKiri .wraperKiri-Four p {
+  .container .sectionTwo .sectionTwoLeft .contentLeftFour p {
     color: #ffffff;
     font-family: "IBM Plex Sans";
     font-size: 18px;
@@ -232,13 +226,13 @@
     letter-spacing: -0.11px;
     line-height: 28px;
   }
-  .container .sectionDua .sectionDuaKanan {
+  .container .sectionTwo .sectionTwoRight {
     margin-top: 1.4375rem;
   }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-One {
+  .container .sectionTwo .sectionTwoRight .contentRightOne {
     display: none;
   }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-One p {
+  .container .sectionTwo .sectionTwoRight .contentRightOne p {
     color: #0a2939;
     font-family: "IBMPlexSans-Light";
     font-size: 0.875rem;
@@ -246,10 +240,10 @@
     letter-spacing: -0.005625rem;
     line-height: 1.625rem;
   }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-One ul {
+  .container .sectionTwo .sectionTwoRight .contentRightOne ul {
     list-style: square;
   }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-One ul li {
+  .container .sectionTwo .sectionTwoRight .contentRightOne ul li {
     color: #ffffff;
     font-family: "Butler";
     font-size: 1.5rem;
@@ -257,7 +251,7 @@
     letter-spacing: -0.036875rem;
     line-height: 3.125rem;
   }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-Two p {
+  .container .sectionTwo .sectionTwoRight .contentRightTwo p {
     color: #0a2939;
     font-family: "IBMPlexSans-Light";
     font-size: 0.875rem;
@@ -265,7 +259,7 @@
     letter-spacing: -0.005625rem;
     line-height: 1.625rem;
   }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-Three h3 {
+  .container .sectionTwo .sectionTwoRight .contentRightThree h3 {
     color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 20px;
@@ -274,7 +268,7 @@
     line-height: 28px;
     margin-top: 2.125rem;
   }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-Three p {
+  .container .sectionTwo .sectionTwoRight .contentRightThree p {
     margin-top: 1.25rem;
     color: #0a2939;
     font-family: "IBMPlexSans-Light";
@@ -283,14 +277,14 @@
     letter-spacing: -0.005625rem;
     line-height: 1.625rem;
   }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-Four {
+  .container .sectionTwo .sectionTwoRight .contentRightFour {
     padding: 1.5rem;
     padding-left: 0;
     padding-right: 0;
     margin-top: 2.4375rem;
     padding-bottom: 0;
   }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-Four h1 {
+  .container .sectionTwo .sectionTwoRight .contentRightFour h1 {
     color: #f05e36;
     font-family: "IBM Plex Sans";
     font-size: 20px;
@@ -299,12 +293,12 @@
     line-height: 28px;
     margin-bottom: 1.25rem;
   }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul {
+  .container .sectionTwo .sectionTwoRight .contentRightFour ul {
     margin-left: 0;
     padding-left: 0;
     margin-left: 1.5rem;
   }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul li {
+  .container .sectionTwo .sectionTwoRight .contentRightFour ul li {
     color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 14px;
@@ -316,7 +310,7 @@
     display: -ms-flexbox;
     display: flex;
   }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul .strip {
+  .container .sectionTwo .sectionTwoRight .contentRightFour ul .strip {
     text-indent: -20px;
     color: #f05e36;
     font-size: 40px;
@@ -327,7 +321,7 @@
     display: -ms-inline-flexbox;
     display: inline-flex;
   }
-  .container .sectionDua .sectionDuaKanan .wraperKanan-Four ul p {
+  .container .sectionTwo .sectionTwoRight .contentRightFour ul p {
     color: #0a2939;
     font-family: "IBM Plex Sans";
     font-size: 14px;
@@ -338,10 +332,10 @@
     display: -ms-inline-flexbox;
     display: inline-flex;
   }
-  .container .sectionTiga {
+  .container .sectionThree {
     margin-top: 1.875rem;
   }
-  .container .sectionTiga .sectionTigaAtas h1 {
+  .container .sectionThree .sectionThreeHeader h1 {
     margin: 1.5rem;
     margin-left: 0;
     margin-left: 0;
@@ -351,25 +345,25 @@
     letter-spacing: -0.5px;
     line-height: 38px;
   }
-  .container .sectionTiga .sectionTigaBawah img {
+  .container .sectionThree .sectionThreeContent img {
     height: 50%;
     width: 100%;
     margin-top: 1rem;
   }
-  .container .sectionTiga .sectionTigaBawah .cardSlider {
+  .container .sectionThree .sectionThreeContent .cardSlider {
     opacity: 0.9;
     background-color: #f05e36;
     padding: 1.5rem;
     margin-top: 1rem;
   }
-  .container .sectionTiga .sectionTigaBawah .cardSlider h2 {
+  .container .sectionThree .sectionThreeContent .cardSlider h2 {
     color: #0a2939;
     font-family: Butler;
     font-size: 28px;
     letter-spacing: 0;
     line-height: 34px;
   }
-  .container .sectionTiga .sectionTigaBawah .cardSlider a {
+  .container .sectionThree .sectionThreeContent .cardSlider a {
     color: #ffffff;
     font-family: "IBM Plex Sans";
     font-size: 14px;
@@ -377,20 +371,20 @@
     line-height: 24px;
     text-decoration: none;
   }
-  .container .sectionTiga .sectionTigaBawah .cardSlider p a {
+  .container .sectionThree .sectionThreeContent .cardSlider p a {
     padding: 0;
   }
-  .container .sectionTiga .sectionTigaBawah .cardSlider .link {
+  .container .sectionThree .sectionThreeContent .cardSlider .link {
     margin-bottom: -0.625rem;
   }
-  .container .sectionTiga .sectionTigaBawah .cardSlider p {
+  .container .sectionThree .sectionThreeContent .cardSlider p {
     color: white;
     font-family: "IBM Plex Sans";
     font-size: 0.875rem;
     letter-spacing: 0;
     line-height: 2.125rem;
   }
-  .container .sectionEmpat .sectionEmpatAtas h5 {
+  .container .sectionFour .sectionFourHeader h5 {
     margin-top: 3rem;
     color: #f05e36;
     font-family: "IBM Plex Sans";
@@ -400,17 +394,17 @@
     line-height: 28px;
     margin-bottom: 1.25rem;
   }
-  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul {
+  .container .sectionFour .sectionFourContent .contentLeft ul {
     padding-left: 0;
     margin-bottom: 0;
   }
-  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul li {
+  .container .sectionFour .sectionFourContent .contentLeft ul li {
     list-style: none;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul li .strip {
+  .container .sectionFour .sectionFourContent .contentLeft ul li .strip {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
@@ -419,7 +413,7 @@
     padding-right: 0.8125rem;
     margin-top: -0.625rem;
   }
-  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul li p {
+  .container .sectionFour .sectionFourContent .contentLeft ul li p {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
@@ -430,19 +424,19 @@
     letter-spacing: 0;
     line-height: 34px;
   }
-  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKiri ul li p:hover {
+  .container .sectionFour .sectionFourContent .contentLeft ul li p:hover {
     color: #f05e36;
   }
-  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul {
+  .container .sectionFour .sectionFourContent .contentRight ul {
     padding-left: 0;
   }
-  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul li {
+  .container .sectionFour .sectionFourContent .contentRight ul li {
     list-style: none;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul li .strip {
+  .container .sectionFour .sectionFourContent .contentRight ul li .strip {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
@@ -451,7 +445,7 @@
     padding-right: 0.8125rem;
     margin-top: -0.625rem;
   }
-  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul li p {
+  .container .sectionFour .sectionFourContent .contentRight ul li p {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
@@ -462,14 +456,14 @@
     letter-spacing: 0;
     line-height: 34px;
   }
-  .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul li p:hover {
+  .container .sectionFour .sectionFourContent .contentRight ul li p:hover {
     color: #f05e36;
   }
-  .container .sectionLima {
+  .container .sectionFive {
     margin-top: 1.875rem;
     border: 4px solid rgba(246, 110, 73, 0.15);
   }
-  .container .sectionLima .sectionLimaBody .logo {
+  .container .sectionFive .sectionFiveContent .logo {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -481,10 +475,10 @@
     padding-right: 3.75rem;
     padding-bottom: 2.3125rem;
   }
-  .container .sectionLima .sectionLimaBody .logo img {
+  .container .sectionFive .sectionFiveContent .logo img {
     width: 11.625rem;
   }
-  .container .sectionLima .sectionLimaBody .title {
+  .container .sectionFive .sectionFiveContent .title {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -493,7 +487,7 @@
             justify-content: center;
     margin-bottom: 1.5625rem;
   }
-  .container .sectionLima .sectionLimaBody h2 {
+  .container .sectionFive .sectionFiveContent h2 {
     color: #002f39;
     font-family: "Minion-Bold";
     font-size: 1.1875rem;
@@ -504,7 +498,7 @@
     text-transform: uppercase;
     margin-bottom: 1rem;
   }
-  .container .sectionLima .sectionLimaBody p {
+  .container .sectionFive .sectionFiveContent p {
     margin-top: 1rem;
     width: 256px;
     color: #f66e49;
@@ -516,7 +510,7 @@
     margin-bottom: 0;
     margin-top: 0;
   }
-  .container .sectionLima .SectionLimaTengah .mc-field-group {
+  .container .sectionFive .sectionFiveMid .mc-field-group {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -524,7 +518,7 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .container .sectionLima .SectionLimaTengah .mc-field-group input {
+  .container .sectionFive .sectionFiveMid .mc-field-group input {
     color: #363636;
     font-family: "IBM Plex Sans";
     font-size: 16px;
@@ -543,7 +537,7 @@
     margin-top: 0;
     padding-bottom: 1rem;
   }
-  .container .sectionLima .SectionLimaTengah .mc-field-group ::-webkit-input-placeholder {
+  .container .sectionFive .sectionFiveMid .mc-field-group ::-webkit-input-placeholder {
     height: 30px;
     width: 256px;
     color: #f05e36;
@@ -553,7 +547,7 @@
     line-height: 30px;
     text-align: center;
   }
-  .container .sectionLima .SectionLimaTengah .mc-field-group :-ms-input-placeholder {
+  .container .sectionFive .sectionFiveMid .mc-field-group ::-moz-placeholder {
     height: 30px;
     width: 256px;
     color: #f05e36;
@@ -563,7 +557,7 @@
     line-height: 30px;
     text-align: center;
   }
-  .container .sectionLima .SectionLimaTengah .mc-field-group ::-ms-input-placeholder {
+  .container .sectionFive .sectionFiveMid .mc-field-group :-ms-input-placeholder {
     height: 30px;
     width: 256px;
     color: #f05e36;
@@ -573,7 +567,7 @@
     line-height: 30px;
     text-align: center;
   }
-  .container .sectionLima .SectionLimaTengah .mc-field-group ::placeholder {
+  .container .sectionFive .sectionFiveMid .mc-field-group ::-ms-input-placeholder {
     height: 30px;
     width: 256px;
     color: #f05e36;
@@ -583,17 +577,27 @@
     line-height: 30px;
     text-align: center;
   }
-  .container .sectionLima .SectionLimaTengah .mc-field-group [placeholder] + span::after {
+  .container .sectionFive .sectionFiveMid .mc-field-group ::placeholder {
+    height: 30px;
+    width: 256px;
+    color: #f05e36;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .container .sectionFive .sectionFiveMid .mc-field-group [placeholder] + span::after {
     content: "*";
     color: red;
   }
-  .container .sectionLima .SectionLimaTengah h6 {
+  .container .sectionFive .sectionFiveMid h6 {
     text-align: center;
     font-family: "IBMPlexSans-Medium";
     color: #002f39;
     margin-bottom: 1.9375rem;
   }
-  .container .sectionLima .SectionLimaTengah .mc_fieldset {
+  .container .sectionFive .sectionFiveMid .mc_fieldset {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -603,14 +607,14 @@
     margin-top: 1.3125rem;
     margin-bottom: 1.875rem;
   }
-  .container .sectionLima .SectionLimaTengah .mc_fieldset input {
+  .container .sectionFive .sectionFiveMid .mc_fieldset input {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     width: 10.85px;
     border: 2px solid #ffffff;
     margin-right: 0.5rem;
   }
-  .container .sectionLima .SectionLimaTengah .mc_fieldset .text {
+  .container .sectionFive .sectionFiveMid .mc_fieldset .text {
     color: #002f39;
     font-family: "IBM Plex Sans";
     font-size: 14px;
@@ -618,17 +622,26 @@
     line-height: 18px;
     margin-right: 0.3125rem;
   }
-  .container .sectionLima .SectionLimaTengah .mc_fieldset a {
+  .container .sectionFive .sectionFiveMid .mc_fieldset a {
     color: #002f39;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     letter-spacing: -0.21px;
     line-height: 18px;
   }
-  .container .sectionLima .SectionLimaBawah {
+  .container .sectionFive .sectionFiveBottom {
     margin-top: 1.875rem;
   }
-  .container .sectionLima .SectionLimaBawah p {
+  .container .sectionFive .sectionFiveBottom .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .sectionFive .sectionFiveBottom .header p {
     height: 48px;
     width: 256px;
     color: #f66e49;
@@ -638,7 +651,7 @@
     line-height: 24px;
     text-align: center;
   }
-  .container .sectionLima .SectionLimaBawah .mc-field-group {
+  .container .sectionFive .sectionFiveBottom .mc-field-group {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -647,7 +660,7 @@
             justify-content: center;
     margin-top: 2rem;
   }
-  .container .sectionLima .SectionLimaBawah input {
+  .container .sectionFive .sectionFiveBottom input {
     color: #363636;
     font-family: "IBM Plex Sans";
     font-size: 16px;
@@ -670,7 +683,7 @@
     padding-bottom: 1rem;
     width: 90%;
   }
-  .container .sectionLima .SectionLimaBawah ::-webkit-input-placeholder {
+  .container .sectionFive .sectionFiveBottom ::-webkit-input-placeholder {
     color: #363636;
     font-family: "IBM Plex Sans";
     font-size: 16px;
@@ -679,7 +692,7 @@
     text-align: left;
     width: 100%;
   }
-  .container .sectionLima .SectionLimaBawah :-ms-input-placeholder {
+  .container .sectionFive .sectionFiveBottom ::-moz-placeholder {
     color: #363636;
     font-family: "IBM Plex Sans";
     font-size: 16px;
@@ -688,7 +701,7 @@
     text-align: left;
     width: 100%;
   }
-  .container .sectionLima .SectionLimaBawah ::-ms-input-placeholder {
+  .container .sectionFive .sectionFiveBottom :-ms-input-placeholder {
     color: #363636;
     font-family: "IBM Plex Sans";
     font-size: 16px;
@@ -697,7 +710,7 @@
     text-align: left;
     width: 100%;
   }
-  .container .sectionLima .SectionLimaBawah ::placeholder {
+  .container .sectionFive .sectionFiveBottom ::-ms-input-placeholder {
     color: #363636;
     font-family: "IBM Plex Sans";
     font-size: 16px;
@@ -706,10 +719,19 @@
     text-align: left;
     width: 100%;
   }
-  .container .sectionLima .SectionLimaBawahDua {
+  .container .sectionFive .sectionFiveBottom ::placeholder {
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: left;
+    width: 100%;
+  }
+  .container .sectionFive .sectionFiveBottomHide {
     padding: 1.5625rem;
   }
-  .container .sectionLima .SectionLimaBawahDua button {
+  .container .sectionFive .sectionFiveBottomHide button {
     margin-top: 2rem;
     border: 1px solid #fff;
     border-radius: 24px;
@@ -724,6 +746,7 @@
     background-color: #f05e36;
     width: 100%;
   }
+
   .Footer {
     margin-top: 1.875rem !important;
     background-color: #021925 !important;
@@ -754,7 +777,7 @@
     width: 100% !important;
     height: auto !important;
   }
-  .Footer .container .foooterBody .footerBodyKiri {
+  .Footer .container .foooterBody .contentLeft {
     width: 100% !important;
     -webkit-box-sizing: border-box !important;
             box-sizing: border-box !important;
@@ -771,12 +794,12 @@
             flex-direction: column !important;
     padding-bottom: 0 !important;
   }
-  .Footer .container .foooterBody .footerBodyKiri .footerBodyKiriOne {
+  .Footer .container .foooterBody .contentLeft .contentOne, .Footer .container .foooterBody .contentLeft .contentTwo {
     padding-right: 0 !important;
     margin-right: 0 !important;
     width: 100%;
   }
-  .Footer .container .foooterBody .footerBodyKiri li {
+  .Footer .container .foooterBody .contentLeft li {
     color: #ffffff;
     font-family: "IBMPlexSans-Light";
     font-size: 12px;
@@ -788,7 +811,7 @@
     padding-bottom: 1.5rem;
     list-style: none;
   }
-  .Footer .container .foooterBody .footerBodyKanan {
+  .Footer .container .foooterBody .contentRight {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -804,30 +827,10 @@
             justify-content: center;
     border: none;
   }
-  .Footer .container .foooterBody .footerBodyKanan img {
+  .Footer .container .foooterBody .contentRight img {
     padding-right: 1rem;
   }
-  .Footer .container .foooterBody .footerBodyKanan h5 {
-    display: inline-block;
-    color: #ffffff;
-    font-family: "IBMPlexSans-Light";
-    font-size: 15px;
-    letter-spacing: -0.22px;
-    line-height: 19.5px;
-  }
-}
-/*# sourceMappingURL=page2-990.css.map */rem;
-    margin-top: 1.9375rem;
-    width: 100%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    border: none;
-  }
-  .Footer .container .foooterBody .footerBodyKanan img {
-    padding-right: 1rem;
-  }
-  .Footer .container .foooterBody .footerBodyKanan h5 {
+  .Footer .container .foooterBody .contentRight h5 {
     display: inline-block;
     color: #ffffff;
     font-family: "IBMPlexSans-Light";

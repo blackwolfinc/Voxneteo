@@ -22,7 +22,6 @@
       }
   
       .navbar-collapse {
-        // justify-content: flex-end;
         margin-left: 15.625rem;
         margin-right: 2.5rem;
       }
@@ -71,6 +70,7 @@
             margin-top: -1rem;
           }
         }
+
         .dropdown-toggle::after {
           display: none;
           background-color: transparent;
@@ -125,14 +125,13 @@
       }
     }
   
-    .sectionSatu {
+    .sectionOne {
       margin-top: 4.375rem;
       display: flex;
       justify-content: space-between;
       width: 100%;
-      // height: 30rem;
   
-      .sectionSatuKiri {
+      .sectionOneLeft {
         background-color: blue;
         display: flex;
         flex-direction: row;
@@ -163,7 +162,7 @@
         }
       }
   
-      .sectionSatuKanan {
+      .sectionOneRight {
         z-index: -1;
         display: flex;
         justify-content: flex-end;
@@ -187,13 +186,13 @@
       }
     }
   
-    .sectionDua {
+    .sectionTwo {
       width: 100%;
       display: flex;
       justify-content: space-between;
       padding-right: 6.25rem;
   
-      .sectionDuaKiri {
+      .sectionTwoLeft {
         width: 50%;
         padding: 2rem;
         padding-top: 0;
@@ -201,8 +200,8 @@
         flex-direction: column;
         padding-left: 0;
         padding-left: 1.5rem;
-  
-        .wraperKiri-One {
+
+        .contentLeftOne {
           margin-left: 7.75rem;
           margin-top: 6.75rem;
   
@@ -216,7 +215,7 @@
           }
         }
   
-        .wraperKiri-Two {
+        .contentLeftTwo {
           margin-left: 7.75rem;
           margin-top: 1.875rem;
   
@@ -230,7 +229,7 @@
           }
         }
   
-        .wraperKiri-Three {
+        .contentLeftThree {
           margin-left: -3.75rem;
   
           span {
@@ -250,7 +249,7 @@
           }
         }
   
-        .wraperKiri-Four {
+        .contentLeftFour {
           margin-top: 7.625rem;
           margin-left: 7.75rem;
           color: #fff;
@@ -280,19 +279,17 @@
         }
       }
   
-      .sectionDuaKanan {
+      .sectionTwoRight {
         padding: 2rem;
-        // margin-right: 7.75rem;
         padding-top: 0;
         padding-bottom: 0;
         margin-top: 7.1875rem;
-        // padding-left: 6.25rem;
         padding-left: 0px;
         padding-right: 0px;
         margin-left: 0px;
         margin-right: 0px;
           
-        .wraperKanan-One {
+        .contentRightOne {
           height: 352px;
           width: 488px;
           background-color: rgba(240, 94, 54, 0.9);
@@ -324,7 +321,7 @@
           }
         }
   
-        .wraperKanan-Two {
+        .contentRightTwo {
           p {
             height: 241px;
             width: 486px;
@@ -339,7 +336,7 @@
           margin-bottom: 5rem;
         }
   
-        .wraperKanan-Three {
+        .contentRightThree {
           display: flex;
           flex-direction: column;
   
@@ -368,7 +365,7 @@
         }
       }
   
-      .wraperKanan-Four {
+      .contentRightFour {
         h1 {
           height: 36px;
           width: 497px;
@@ -412,13 +409,13 @@
       }
     }
   
-    .sectionTiga {
+    .sectionThree {
       margin-top: 1.25rem;
       margin-bottom: 0;
       width: 100%;
       margin-left: 7.75rem;
   
-      .sectionTigaAtas {
+      .sectionThreeHeader {
         margin-left: 0;
         display: flex;
         color: #fff;
@@ -435,7 +432,6 @@
       }
   
       .carousel-indicators {
-        //   background-color: red;
         left: auto;
         bottom: auto;
         right: -9rem;
@@ -521,12 +517,12 @@
           }
         }
       }
-      .sectionTigaBawah {
+      .sectionThreeContent {
         margin-top: 5rem;
       }
     }
   
-    .sectionEmpat {
+    .sectionFour {
       display: flex;
       flex-direction: column;
       padding: 2rem;
@@ -545,7 +541,7 @@
         line-height: 48px;
       }
   
-      .sectionEmpatAtas {
+      .sectionFourHeader {
         h5 {
           height: 20px;
           width: 417px;
@@ -559,12 +555,11 @@
         }
       }
   
-      .sectionEmpatBawah {
+      .sectionFourContent {
         display: flex;
   
-        .sectionEmpatBawahKiri {
-        //   width: 50%;
-        margin-right: 3.125rem;
+        .contentLeft {
+         margin-right: 3.125rem;
   
           ul {
             padding-left: 0;
@@ -598,7 +593,7 @@
           }
         }
   
-        .sectionEmpatBawahKanan {
+        .contentRight {
           margin-right: 12.5rem;
   
           ul {
@@ -635,7 +630,7 @@
       }
     }
   
-    .sectionLima {
+    .sectionFive {
       border: 10px solid #f66f4933;
       display: flex;
       justify-content: center;
@@ -648,7 +643,7 @@
         width: 90%;
       }
   
-      .sectionLimaBody {
+      .sectionFiveContent {
         .title-1 {
           margin-top: -5.3125rem;
         }
@@ -658,8 +653,8 @@
         }
   
         .title,
-        .SectionLimaTengah,
-        .SectionLimaBawah {
+        .sectionFiveMid,
+        .sectionFiveBottom {
           margin: 0 5rem;
         }
         text-align: center;
@@ -700,7 +695,7 @@
           }
         }
   
-        .SectionLimaTengah {
+        .sectionFiveMid {
           display: flex;
           align-items: center;
           justify-content: space-between;
@@ -751,7 +746,7 @@
           border-bottom: 1px solid #e8d4cf;
         }
   
-        .SectionLimaBawah {
+        .sectionFiveBottom {
           input {
             margin: 2rem 0rem;
             width: 100%;
@@ -765,7 +760,7 @@
         }
       }
   
-      .SectionLimaBawahDua {
+      .sectionFiveBottomHide {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
@@ -797,7 +792,6 @@
   
       .container {
         background-color: #021925;
-  
         height: 100%;
         color: #e8d4cf;
         display: flex;
@@ -805,7 +799,6 @@
         align-items: center;
         flex-direction: column;
   
-        // justify-content: center;
         .footerHeader {
           margin-top: 8rem;
           margin-bottom: 6rem;
@@ -825,7 +818,7 @@
           height: 10rem;
           justify-content: space-evenly;
   
-          .footerBodyKiri {
+          .contentLeft {
             display: flex;
             flex-direction: row;
             width: 65%;
@@ -845,21 +838,20 @@
               text-transform: uppercase;
             }
   
-            .footerBodyKiriOne {
+            .contentOne {
               flex-direction: column;
               display: flex;
               padding-right: 8rem;
               margin-right: 6rem;
             }
   
-            .footerBodyKiriTwo {
+            .contentTwo {
               display: flex;
               flex-direction: column;
             }
           }
   
-          .footerBodyKanan {
-            // border-left: 2px #113D53 solid;
+          .contentRight {
             display: flex;
             justify-content: center;
   
