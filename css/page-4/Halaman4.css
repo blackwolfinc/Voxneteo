@@ -8,7 +8,6 @@
   display: flex;
   margin-top: 4.6rem;
 }
-
 .sectionBody .containerCategories {
   list-style: none;
   text-align: right;
@@ -16,7 +15,6 @@
   padding: 0;
   width: 123px;
 }
-
 .sectionBody .containerCategories li {
   color: #0a2939;
   margin-bottom: 2.3125rem;
@@ -28,15 +26,12 @@
   font-weight: 500;
   line-height: 15px;
 }
-
 .sectionBody .containerCategories li.active {
   color: #f05e36;
 }
-
 .sectionBody .containerCategories li:hover {
   color: #f05e36;
 }
-
 .sectionBody .containerCards {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -53,33 +48,26 @@
   margin-bottom: 0;
   padding-left: 2.6125rem;
 }
-
 .sectionBody .containerCards .item {
   width: 314px;
   margin-bottom: 4.5rem;
 }
-
 .sectionBody .containerCards .item.center .containerImage::after {
   bottom: 5.5rem;
 }
-
 .sectionBody .containerCards .item.top-center {
   margin-top: 6.5rem;
 }
-
 .sectionBody .containerCards .item.top-right {
   margin-top: 3.5rem;
 }
-
 .sectionBody .containerCards .item .containerImage {
   position: relative;
   display: block;
 }
-
 .sectionBody .containerCards .item .containerImage img {
   width: 314px;
 }
-
 .sectionBody .containerCards .item .containerImage::after {
   content: "";
   width: 2px;
@@ -89,7 +77,6 @@
   bottom: -1.98rem;
   right: 2.5rem;
 }
-
 .sectionBody .containerCards .item .date {
   color: #0a2939;
   font-size: 3.4rem;
@@ -99,13 +86,11 @@
   margin-bottom: 1.5rem;
   letter-spacing: -0.79px;
 }
-
 .sectionBody .containerCards .item .subTitle {
   font-size: 0.9rem;
   font-family: IBM Plex Sans;
   color: #f05e36;
 }
-
 .sectionBody .containerCards .item .title {
   font-size: 1.15rem;
   color: #0a2939;
@@ -115,11 +100,9 @@
   font-family: IBM Plex Sans;
   letter-spacing: -0.26px;
 }
-
 .sectionBody .containerCards .item.quotes {
   padding: 2.5rem 1.8375rem;
 }
-
 .sectionBody .containerCards .item.quotes .quotes {
   font-family: Butler;
   color: #0a2939;
@@ -128,7 +111,6 @@
   line-height: 2.5rem;
   letter-spacing: -0.53px;
 }
-
 .sectionBody .containerCards .item.quotes .subQuotes {
   font-family: IBM Plex Sans;
   margin-bottom: 0.7rem;
@@ -138,33 +120,26 @@
   color: #f05e36;
   font-weight: bold;
 }
-
 .sectionBody .containerCards .item.quotes.pink {
   background-color: #f66f4933;
   color: #0a2939;
 }
-
 .sectionBody .containerCards .item.quotes.orange {
   background-color: #f05e36;
   color: white;
 }
-
 .sectionBody .containerCards .item.quotes.orange .subQuotes {
   color: #0a2939;
 }
-
 .sectionBody .containerCards .item.quotes.orange .quotes {
   color: white;
 }
-
 .sectionBody .containerCards .item.quotes.darkBlue {
   background-color: #1e5875;
 }
-
 .sectionBody .containerCards .item.quotes.darkBlue .subQuotes {
   color: #f66e49;
 }
-
 .sectionBody .containerCards .item.quotes.darkBlue .quotes {
   color: white;
 }
@@ -175,7 +150,6 @@
   margin-top: -8rem;
   position: relative;
 }
-
 .sectionAddActuals .icon-plus {
   -webkit-filter: invert(56%) sepia(34%) saturate(6580%) hue-rotate(339deg) brightness(96%) contrast(96%);
           filter: invert(56%) sepia(34%) saturate(6580%) hue-rotate(339deg) brightness(96%) contrast(96%);
@@ -183,7 +157,6 @@
   height: 24px;
   cursor: pointer;
 }
-
 .sectionAddActuals p {
   text-transform: uppercase;
   font-size: 0.75rem;
@@ -191,7 +164,6 @@
   font-family: IBM Plex Sans;
   letter-spacing: 2px;
 }
-
 .sectionAddActuals p span {
   cursor: pointer;
 }
@@ -209,14 +181,15 @@
     -webkit-transition: border-color 0.3s ease-in-out;
     transition: border-color 0.3s ease-in-out;
   }
+
   .sectionSatu .sectionSatuKiri .text {
     top: 23.875rem;
   }
+
   .sectionSatu .sectionSatuKanan img {
     width: 1019px;
   }
 }
-
 @media only screen and (min-width: 0px) and (max-width: 1184px) {
   .sectionBody .containerCards .item {
     width: 257px;
@@ -228,7 +201,6 @@
     width: 257px;
   }
 }
-
 @media only screen and (min-width: 0px) and (max-width: 1000px) {
   .sectionBody .containerCards {
     height: 103rem;
@@ -242,11 +214,11 @@
   .sectionBody .containerCards .item .containerImage img {
     width: 200px;
   }
+
   .sectionAddActuals {
     margin-top: -3rem;
   }
 }
-
 @media only screen and (min-width: 0px) and (max-width: 813px) {
   .sectionBody .containerCards {
     height: 106rem;
@@ -258,11 +230,11 @@
     width: 180px;
   }
 }
-
 @media only screen and (min-width: 0px) and (max-width: 720px) {
   .sectionAddActuals {
     margin-top: -1rem;
   }
+
   .sectionBody {
     margin-top: 2rem;
     display: block;
@@ -334,7 +306,6 @@
     margin-bottom: 2.36625rem;
   }
 }
-
 @media only screen and (min-width: 620px) and (max-width: 719px) {
   .sectionBody .containerCategories li:last-child {
     margin-right: 0;
