@@ -185,8 +185,8 @@
       
       .Footer {
         .container {
-          .foooterBody {
-            .footerBodyKanan {
+          .footerBody {
+            .bodyRight {
               min-width: 242px;
             }
           }
@@ -935,7 +935,7 @@
           margin: 0 6.25rem;
           border-bottom: 1.5px solid #113d53;
           border-top: 1.5px solid #113d53;
-          .footerBodyKiri {
+          .bodyLeft {
             display: flex;
             width: 50%;
             margin-right: auto;
@@ -958,11 +958,11 @@
               padding-bottom: 1.5rem;
               list-style: none;
             } 
-            .footerBodyKiriOne {
+            .bodyLeftOne {
               padding-right: 10rem;
             }
           }
-          .footerBodyKanan {
+          .bodyRight {
             flex-direction: row;
             width: 50%;
             display: flex;

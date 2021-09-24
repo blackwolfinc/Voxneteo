@@ -1081,8 +1081,7 @@
           margin: 0 auto;
           border-bottom: 1.5px solid #113d53;
           border-top: 1.5px solid #113d53;
-  
-          .footerBodyKiri {
+          .bodyLeft {
             display: flex;
             width: 50%;
             height: 10rem;
@@ -1093,10 +1092,7 @@
             -webkit-box-sizing: border-box;
             box-sizing: border-box;
             text-align-last: start;
-            // border-top: 1.5px solid #113d53;
             padding-top: 1.9375rem;
-            // border-bottom: 1.5px solid #113d53;
-  
             li {
               color: #ffffff;
               font-family: $ibmLight;
@@ -1109,13 +1105,11 @@
               padding-bottom: 1.5rem;
               list-style: none;
             }
-  
-            .footerBodyKiriOne {
+            .bodyLeftOne{
               padding-right: 10rem;
             }
           }
-  
-          .footerBodyKanan {
+          .bodyRight {
             padding-bottom: 0;
             flex-direction: row;
   

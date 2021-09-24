@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "IBMPlexSans";
   src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans.ttf");
@@ -64,8 +65,8 @@
     margin-bottom: 48px;
   }
   li.hidden ul.dash li:before {
-    content: "-";
-    text-indent: -5px;
+    content: "―";
+    text-indent: -20px;
     margin-right: 13px;
     color: #f05e36;
   }
@@ -219,7 +220,7 @@ li.nav-item .dropdown-item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 100%;
+    width: 95%;
     margin-top: 0rem !important;
     z-index: 100;
     z-index: 100;
@@ -242,8 +243,8 @@ li.nav-item .dropdown-item {
   }
   li.nav-item .nav-link {
     color: #ffffff !important;
-    font-family: "IBMPlexSans-Medium";
-    font-size: 16px;
+    font-family: "IBM Plex Sans";
+    font-size: 18px;
     font-weight: 600;
     letter-spacing: -0.26px;
     line-height: 23px;
@@ -262,6 +263,10 @@ li.nav-item .dropdown-item {
 
   li.hidden {
     margin-top: 0;
+    border-top: 1.5px solid #113d53;
+    margin-left: 2.1875rem;
+    margin-top: 1.5625rem;
+    margin-right: 2.1875rem;
   }
 
   .section-2 .content-right .overlay-img img {
@@ -546,23 +551,23 @@ li.nav-item .dropdown-item {
             justify-content: center !important;
     border-top: 1.5px solid #113d53;
   }
-  .Footer .footerBody .footerBodyKiri .footerBodyKiriOne {
+  .Footer .footerBody .bodyLeft .bodyLeftOne {
     list-style: none;
   }
-  .Footer .footerBody .footerBodyKiri .footerBodyKiriOne li {
+  .Footer .footerBody .bodyLeft .bodyLeftOne li {
     padding-top: 1.9375rem;
     color: white;
     text-align: center;
   }
-  .Footer .footerBody .footerBodyKiri .footerBodyKiriTwo {
+  .Footer .footerBody .bodyLeft .bodyLeftTwo {
     list-style: none;
   }
-  .Footer .footerBody .footerBodyKiri .footerBodyKiriTwo li {
+  .Footer .footerBody .bodyLeft .bodyLeftTwo li {
     padding-top: 1.9375rem;
     color: white;
     text-align: center;
   }
-  .Footer .footerBody .footerBodyKanan {
+  .Footer .footerBody .bodyRight {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -577,16 +582,16 @@ li.nav-item .dropdown-item {
     margin-top: 1.9375rem;
     border-top: 1.5px solid #113d53;
   }
-  .Footer .footerBody .footerBodyKanan a {
+  .Footer .footerBody .bodyRight a {
     margin-top: 1.9375rem;
   }
-  .Footer .footerBody .footerBodyKanan a img {
+  .Footer .footerBody .bodyRight a img {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
     padding-right: 1rem;
   }
-  .Footer .footerBody .footerBodyKanan a h5 {
+  .Footer .footerBody .bodyRight a h5 {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;

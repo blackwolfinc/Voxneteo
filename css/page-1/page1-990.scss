@@ -39,8 +39,8 @@
           }
       
           li:before {
-            content: "-";
-            text-indent: -5px;
+            content: "\2015";
+            text-indent: -20px;
             margin-right: 13px;
             color: $color3;
           }
@@ -230,7 +230,7 @@
       background-color: #021925;
       height: 100vh;
       display: flex;
-      width: 100%;
+      width: 95%;
       margin-top: 0rem !important;
       z-index: 100;
       z-index: 100;
@@ -252,8 +252,8 @@
       }
       .nav-link {
         color: #ffffff !important;
-        font-family: $ibmMedium;
-        font-size: 16px;
+        font-family: "IBM Plex Sans";
+        font-size: 18px;
         font-weight: 600;
         letter-spacing: -0.26px;
         line-height: 23px;
@@ -275,6 +275,10 @@
   
     li.hidden {
       margin-top: 0;
+      border-top: 1.5px solid #113d53;
+      margin-left: 2.1875rem;
+      margin-top: 1.5625rem;
+      margin-right: 2.1875rem;
     }
     .section-2 {
       .content-right {
@@ -571,8 +575,8 @@
         flex-direction: column !important;
         justify-content: center !important;
         border-top: 1.5px solid #113d53;
-         .footerBodyKiri {
-          .footerBodyKiriOne {
+         .bodyLeft {
+          .bodyLeftOne {
             list-style: none;
             li {
               padding-top: 1.9375rem;
@@ -580,7 +584,7 @@
               text-align: center;
             }
           }
-          .footerBodyKiriTwo {
+          .bodyLeftTwo {
             list-style: none;
             li {
               padding-top: 1.9375rem;
@@ -589,7 +593,7 @@
             }
           }
         }
-        .footerBodyKanan {
+        .bodyRight {
           display: flex;
           justify-content: center;
           flex-direction: row;
