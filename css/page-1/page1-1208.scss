@@ -102,9 +102,11 @@
         .nav-link,
         button span,
         .dropdown-item {
-          font-family: $ibmSemiBold;
-          font-weight: 600;
-          font-size: 18px;
+          font-family: "IBM Plex Sans";
+          font-size: 16px;
+          font-weight: bold;
+          letter-spacing: 0;
+          line-height: 20px;
         }
       }
       
@@ -126,7 +128,8 @@
       
         button.btn {
           border-radius: 2.4rem;
-          padding: 0.7rem 1.6rem;
+          margin-top: .5rem;
+          padding: .5rem 1.5625rem;
           background-color: transparent;
         }
       
@@ -156,10 +159,8 @@
       .navbar-expand-lg .navbar-nav .dropdown-menu {
         position: absolute;
         top: 3.9rem;
-        left: 1.25rem;
+        left: 0;
         padding-bottom: 1rem;
-        padding-right: 1.5rem;
-        width: 13rem;
       }
       
       .navbar-light .navbar-nav .nav-link:focus,
@@ -233,14 +234,22 @@
         .nav-item {
           padding-right: 0.5rem;
           padding-left: 0.5rem;
+          margin-left: 0;
+          margin-right: 2.625rem;
           .nav-link {
             padding-right: 0;
             padding-left: 0;
-            color: #ffffff;
+            color: #FFFFFF;
+            font-family: "IBM Plex Sans";
+            font-size: 18px;
+            font-weight: 600;
             &:hover {
               border-bottom: #f05e36 2px solid;
             }
           }
+        }
+        .nav-item.drop {
+          padding: 0;
         }
       }
     }
@@ -276,7 +285,7 @@
       .sett-line-section-1-top {
         justify-content: flex-start;
         width: 100%;
-        padding-left: 17%;
+        padding-left: 17.5%;
         padding-bottom: 0;
         margin-bottom: 0px;
         margin-top: -5.625rem;
@@ -340,9 +349,6 @@
           .ml-auto {
             float: right;
           }
-  
-          a {
-          }
         }
   
         li.dropdown {
@@ -373,7 +379,7 @@
   
       .sett-line-section-1 {
         justify-content: flex-start;
-        padding-left: 17%;
+        padding-left: 17.5%;
         width: 100%;
   
         .line-section-1 {
@@ -469,7 +475,8 @@
           width: 100%;
           height: auto;
           display: flex;
-          padding-left: 50%;
+          padding-left: 0;
+          margin-left: 28%;
           padding-top: 8%;
           position: relative;
           span {

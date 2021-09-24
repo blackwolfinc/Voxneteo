@@ -102,9 +102,11 @@
         .nav-link,
         button span,
         .dropdown-item {
-          font-family: $ibmSemiBold;
-          font-weight: 600;
-          font-size: 18px;
+									font-family: "IBM Plex Sans";
+									font-size: 16px;
+									font-weight: bold;
+									letter-spacing: 0;
+									line-height: 20px;
         }
       }
       
@@ -125,8 +127,9 @@
         }
       
         button.btn {
-          border-radius: 2.4rem;
-          padding: 0.7rem 1.6rem;
+										border-radius: 2.4rem;
+										margin-top: .5rem;
+          padding: .5rem 1.5625rem;
           background-color: transparent;
         }
       
@@ -155,11 +158,10 @@
       
       .navbar-expand-lg .navbar-nav .dropdown-menu {
         position: absolute;
-        top: 3.9rem;
-        left: 1.25rem;
+        top: 3.4375rem;
+								left: 0;
+								padding-top: 1rem;
         padding-bottom: 1rem;
-        padding-right: 1.5rem;
-        width: 13rem;
       }
       
       .navbar-light .navbar-nav .nav-link:focus,
@@ -232,21 +234,32 @@
         .nav-item {
           padding-right: 0.5rem;
           padding-left: 0.5rem;
+          margin-right: 2.625rem;
           .nav-link {
             padding-right: 0;
             padding-left: 0;
-            color: #ffffff;
+            color: #FFFFFF;
+            font-family: "IBM Plex Sans";
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: -0.26px;
+            line-height: 23px;
             &:hover {
               border-bottom: #f05e36 2px solid;
             }
           }
+        }
+        .nav-item.drop {
+									margin-right: 0;
+									margin-left: 5rem;
         }
       }
     }
   
     .navbar-collapse {
       justify-content: flex-start;
-      padding-left: 25%;
+      width: 100%;
+      padding-left: 18.75rem;
     }
   
     .navbar-light {
@@ -261,6 +274,7 @@
     }
   
     .drop {
+      margin-right: 0;
       .btn-group {
         margin-top: 0;
         margin-left: 20%;
@@ -282,7 +296,7 @@
         padding-bottom: 0;
   
         .line-section-1-top {
-          border-right-width: 0.0625rem;
+          border-right-width: .125rem;
           border-right-style: solid;
           border-color: white;
           height: 7.5rem;
@@ -309,8 +323,6 @@
   
       ul {
         height: auto;
-        width: 80%;
-        justify-content: space-around;
   
         li {
           color: #ffffff;
@@ -337,7 +349,7 @@
         padding-left: 20%;
   
         .line-section-1 {
-          border-right-width: 0.0625rem;
+          border-right-width: .125rem;
           border-right-style: solid;
           border-color: white;
           height: 3.8125rem;
@@ -367,7 +379,7 @@
         justify-content: flex-start;
         width: 100%;
         margin-bottom: -3.75rem;
-        padding-left: 20%;
+        padding-left: 19%;
       }
     }
   
@@ -1104,7 +1116,7 @@
           }
   
           .footerBodyKanan {
-            padding-bottom: 30px;
+            padding-bottom: 0;
             flex-direction: row;
   
             a {

@@ -135,7 +135,8 @@ li.nav-item .dropdown-item {
   }
   li.drop button.btn {
     border-radius: 2.4rem;
-    padding: 0.7rem 1.6rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1.5625rem;
     background-color: transparent;
   }
   li.drop button.btn-danger {
@@ -156,11 +157,10 @@ li.nav-item .dropdown-item {
 
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     position: absolute;
-    top: 3.9rem;
-    left: 1.25rem;
+    top: 3.4375rem;
+    left: 0;
     padding-bottom: 1rem;
-    padding-right: 1.5rem;
-    width: 13rem;
+    padding-top: 1rem;
   }
 
   .navbar-light .navbar-nav .nav-link:focus,
@@ -214,9 +214,17 @@ li.nav-item .dropdown-item {
     max-width: 144rem;
   }
 
+  .navbar-light .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
   .navbar-light .navbar-nav .nav-item {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
+    margin-left: 0;
   }
   .navbar-light .navbar-nav .nav-item .nav-link {
     padding-right: 0;
@@ -240,12 +248,12 @@ li.nav-item .dropdown-item {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    padding-left: 20%;
+    padding-left: 11.25rem;
   }
 
   .drop .btn-group {
     margin-top: 0;
-    margin-left: 40%;
+    margin-left: 0;
   }
 
   .section-1 {
@@ -258,7 +266,7 @@ li.nav-item .dropdown-item {
         -ms-flex-pack: start;
             justify-content: flex-start;
     width: 100%;
-    padding-left: 17%;
+    padding-left: 17.3%;
     padding-bottom: 0;
     margin-bottom: 0px;
     margin-top: -5.625rem;
@@ -282,7 +290,8 @@ li.nav-item .dropdown-item {
     line-height: 6.25rem;
     text-align: left;
     margin-left: 5rem;
-    margin-right: 20%;
+    margin-right: 0;
+    padding-right: 0;
   }
   .section-1 .sett_img {
     display: -webkit-box !important;
@@ -348,7 +357,7 @@ li.nav-item .dropdown-item {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    padding-left: 17%;
+    padding-left: 17.3%;
     width: 100%;
   }
   .section-1 .sett-line-section-1 .line-section-1 {
@@ -371,13 +380,13 @@ li.nav-item .dropdown-item {
     line-height: 6.25rem;
     text-align: left;
     margin-left: 5rem;
-    padding-right: 20%;
+    padding-right: 0;
   }
   .section-1 .sett_arrow_section-1 {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    padding-left: 17%;
+    padding-left: 16.5%;
     width: 100%;
     margin-bottom: -3.75rem;
   }
@@ -438,7 +447,7 @@ li.nav-item .dropdown-item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-left: 50%;
+    margin-left: 27%;
     padding-top: 8%;
     position: relative;
   }
@@ -836,8 +845,7 @@ li.nav-item .dropdown-item {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 70%;
-    margin: 0 auto;
+    margin: 0 6.25rem;
     border-bottom: 1.5px solid #113d53;
     border-top: 1.5px solid #113d53;
   }
@@ -846,8 +854,7 @@ li.nav-item .dropdown-item {
     display: -ms-flexbox;
     display: flex;
     width: 50%;
-    height: 10rem;
-    margin-right: 2rem;
+    margin-right: auto;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -881,6 +888,13 @@ li.nav-item .dropdown-item {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .Footer .container .footerBody .footerBodyKanan a {
     color: #113d53 !important;
