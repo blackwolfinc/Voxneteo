@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,GAAG,OAAO,SAAS,EAAE,SAAS;EAC7D,AAAA,cAAc,CAAC;IACb,UAAU,EAAE,MAAM;GACnB",
+    "sources": [
+        "page5-1399.scss"
+    ],
+    "names": [],
+    "file": "page5-1399.css"
+}

@@ -1,0 +1,292 @@
+@font-face {
+  font-family: "IBMPlexSans";
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans.ttf");
+}
+
+@font-face {
+  font-family: "IBMPlexSans-Bold";
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "IBMPlexSans-SemiBold";
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "IBMPlexSans-Light";
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Light.ttf");
+}
+
+@font-face {
+  font-family: "IBMPlexSans-Medium";
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: "IBMPlexSans-SemiBoldItalic";
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "Butler-Light";
+  src: url("../../assets/fonts/webfont-butler/Butler-Light.ttf");
+}
+
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/fonts/webfont-butler/Butler.ttf");
+}
+
+@font-face {
+  font-family: "Minion-DisplayItalic";
+  src: url("../../assets/fonts/webfont-minion/Minion-DisplayItalic.ttf");
+}
+
+@font-face {
+  font-family: "Minion-Bold";
+  src: url("../../assets/fonts/webfont-minion/Minion-Bold.ttf");
+}
+
+.nav-link {
+  -webkit-transition: none !important;
+  transition: none !important;
+}
+
+.email {
+  outline: none !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+.container .navbar-nav {
+  z-index: 1;
+}
+
+.sideButton button {
+  border-radius: 2.4rem;
+  padding: 0.75rem 2rem;
+  background-color: #f05e36;
+  color: #ffffff;
+  border: 1px solid #f05e36;
+  font-size: 16px;
+  font-family: "IBMPlexSans-Medium";
+}
+
+.sectionBody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5rem;
+  padding-left: 10%;
+}
+
+.containerBack {
+  text-align: center;
+  margin-top: 4.0625rem;
+  margin-bottom: 2.5625rem;
+  position: relative;
+  overflow: hidden;
+  font-family: IBM Plex Sans;
+}
+
+.containerBack span {
+  color: #f66e49;
+  font-size: 0.75rem;
+  margin-left: 1rem;
+  text-transform: uppercase;
+  line-height: 0.9375rem;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.containerBack .rotation-wrapper-outer {
+  display: table;
+  width: 100%;
+  position: absolute;
+  top: 0.4rem;
+  right: 4.6rem;
+}
+
+.containerBack .rotation-wrapper-inner {
+  height: 0;
+}
+
+.containerBack img {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  display: block;
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+  white-space: nowrap;
+  margin: 0 auto;
+  cursor: pointer;
+  width: 13px;
+}
+
+.containerCard {
+  width: 320px;
+  margin-right: 8.9%;
+  padding-top: 0.7rem;
+}
+
+.containerCard .containerImage {
+  position: relative;
+  display: block;
+}
+
+.containerCard .containerImage img {
+  height: 320px;
+  width: 320px;
+}
+
+.containerCard .containerImage::after {
+  content: "";
+  width: 2px;
+  background-color: #f05e36;
+  height: 4.8rem;
+  position: absolute;
+  bottom: -1.98rem;
+  right: 2.5rem;
+}
+
+.containerCard .date {
+  color: #0a2939;
+  font-family: Minion Display;
+  font-size: 3.4rem;
+  line-height: 45px;
+  margin-top: 1.6rem;
+  margin-bottom: 1rem;
+  letter-spacing: -0.79px;
+}
+
+.containerCard .subTitle {
+  font-size: 0.9rem;
+  color: #f05e36;
+  font-family: IBM Plex Sans;
+}
+
+.containerCard .title {
+  font-size: 1.15rem;
+  color: #0a2939;
+  margin-bottom: 0;
+  line-height: 1.6rem;
+  font-family: IBM Plex Sans;
+}
+
+.containerNews {
+  font-family: IBM Plex Sans;
+  margin-left: 9rem;
+}
+
+.containerNews .section-two-title {
+  margin-left: -8rem;
+  width: 100%;
+}
+
+.containerNews .section-two-title h3 {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 49%;
+  color: #0a2939;
+  font-family: "IBMPlexSans-Light" !important;
+  font-weight: 300;
+  letter-spacing: -0.42px;
+  line-height: 41.8px;
+}
+
+.containerNews .newsTitle {
+  color: #0a2939;
+  line-height: 2.6125rem;
+  margin-bottom: 1.275rem;
+  font-size: 2rem;
+  letter-spacing: -0.44px;
+}
+
+.containerNews .newsAuthor {
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #e3e3e3;
+  margin-bottom: 1.9375rem;
+  color: #3891a5;
+  line-height: 1.875rem;
+  font-weight: 300;
+  letter-spacing: -0.1px;
+}
+
+.containerNews .containerNewsAllText {
+  line-height: 1.875rem;
+  color: #0a2939;
+  font-weight: 300;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+  font-family: "IBMPlexSans-Light" !important;
+  width: 75%;
+}
+
+.containerNews .visitWebsite {
+  font-size: 1rem;
+  line-height: 1.875rem;
+  color: #f05e36;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.containerNews .visitWebsite:hover {
+  color: #0a2939;
+}
+
+.containerNews .dividerVisitWebsite {
+  margin-top: 3.125rem;
+  height: 2px;
+  background-color: #e3e3e3;
+}
+
+.sideButton {
+  margin-top: 50px;
+}
+
+.section-one .section-one-right img {
+  width: 1019px;
+}
+
+.section-one .section-one-left h1 {
+  font-family: "Butler" !important;
+}
+
+.section-one .section-one-left h5 {
+  font-family: "Minion-DisplayItalic" !important;
+}
+
+.section-five .section-five-body h2 {
+  font-family: "Minion-Bold" !important;
+}
+
+.section-five .section-five-body p {
+  font-family: "IBMPlexSans" !important;
+}
+
+.section-five .section-five-center .terms {
+  text-decoration: underline !important;
+  font-family: "IBMPlexSans-Medium" !important;
+}
+
+.section-five .section-five-center ::-webkit-input-placeholder, .section-five .section-five-center .text, .section-five .section-five-center .terms {
+  font-family: "IBMPlexSans" !important;
+}
+
+.section-five .section-five-center :-ms-input-placeholder, .section-five .section-five-center .text, .section-five .section-five-center .terms {
+  font-family: "IBMPlexSans" !important;
+}
+
+.section-five .section-five-center ::-ms-input-placeholder, .section-five .section-five-center .text, .section-five .section-five-center .terms {
+  font-family: "IBMPlexSans" !important;
+}
+
+.section-five .section-five-center ::placeholder, .section-five .section-five-center .text, .section-five .section-five-center .terms {
+  font-family: "IBMPlexSans" !important;
+}
+/*# sourceMappingURL=page-7.css.map */

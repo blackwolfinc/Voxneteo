@@ -1,0 +1,629 @@
+@import "../page-6/contact";
+
+@media (min-width: 375px) and (max-width: 574.98px) {
+    .navbar-nav {
+      top: 0;
+      left: 0;
+      position: fixed;
+      background-color: #021925;
+      height: 100%;
+      display: inline-block;
+      width: 90%;
+      padding: 1.5rem;
+      color: white;
+      li {
+        .nav-link {
+          font-family: $ibmSemiBold;
+          font-size: 18px;
+          color: $color1;
+          line-height: 23px;
+          margin-bottom: 24px;
+  
+          &:hover {
+            color: orange;
+          }
+        }
+  
+        .nav-link.contact {
+          margin-bottom: 50px;
+        }
+  
+        ul.dash {
+          list-style-type: none;
+          margin-top: 30px;
+          padding-left: 10px;
+  
+          li {
+            font-family: $ibmReguler;
+            font-size: 14px;
+            color: $color1;
+            line-height: 18px;
+            margin-bottom: 24px;
+            text-indent: -5px;
+  
+            &:hover {
+              color: $color3;
+            }
+          }
+          li.first {
+            color: $color3;
+          }
+          li:before {
+            content: "\2015";
+            text-indent: -5px;
+            margin-right: 13px;
+            color: $color3;
+          }
+        }
+      }
+  
+      #listhide {
+        border-top: 1.5px solid #113d53;
+      }
+  
+      #hidebtn {
+        width: 1.875rem;
+        margin-left: -0.25rem;
+        margin-bottom: 1.25rem;
+      }
+    }
+  
+    .navbar-light {
+      .navbar-toggler {
+        border: none;
+      }
+    }
+  
+    .container {
+      margin-left: 0;
+      margin-right: 0;
+      max-width: 100%;
+  
+      .navbar {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-left: -1.5rem;
+        margin-right: -1.5rem;
+        border-bottom: 1px solid #e3e3e3;
+        padding-bottom: 20px;
+  
+        .line {
+          display: none;
+        }
+      }
+  
+      .section-one {
+        margin-top: 25px;
+        flex-direction: column;
+        display: flex;
+  
+        .section-one-left {
+          background-color: transparent;
+  
+          .text {
+            margin-left: 0;
+            position: block;
+  
+            h1 {
+              height: auto;
+              color: #f05e36;
+              font-family: $butler;
+              font-size: 2.625rem;
+              letter-spacing: -0.03875rem;
+              line-height: 2.375rem;
+            }
+  
+            h5 {
+              display: none;
+            }
+          }
+        }
+  
+        .section-one-right {
+          position: block;
+          margin-left: 0;
+          margin-top: 1.625rem;
+  
+          img.mobile {
+            object-fit: cover;
+            object-position: left;
+            width: 100%;
+            height: 192px;
+            border-bottom: 16px solid $color3;
+          }
+  
+          img.desktop {
+            display: none;
+          }
+        }
+      }
+  
+      .section-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        padding: 50px 0;
+        border-top: 2px solid #e3e3e3;
+  
+        .section-two-left {
+          width: 100%;
+          border-bottom: 2px solid #e3e3e3;
+          padding: 0 8%;
+  
+          .detailContact {
+            margin-bottom: 50px;
+  
+            .left {
+              margin-bottom: 25px;
+  
+              h6 {
+                font-size: 1rem;
+                color: $color6;
+                letter-spacing: 0.1rem;
+                text-transform: uppercase;
+              }
+            }
+  
+            .right {
+              line-height: 0.5rem;
+  
+              p {
+                font-size: 0.8rem;
+              }
+            }
+          }
+        }
+  
+        .section-two-right {
+          margin-top: 25px;
+          margin-bottom: 40px;
+  
+          .goToLinkedln {
+            display: flex;
+  
+            a,
+            img {
+              margin: 0 5px;
+            }
+  
+            a {
+              color: $color3;
+              font-size: 0.8rem;
+            }
+  
+            img {
+              width: 24px;
+            }
+          }
+        }
+      }
+  
+      .section-three {
+        display: none;
+      }
+  
+      .sectionEmpat {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        font-family: $butler;
+        position: relative;
+        width: 100%;
+        max-width: 560px;
+        border: 10px solid #f66f4933;
+        margin: 0 auto 50px auto;
+  
+        .stamp {
+          padding: 25px;
+  
+          img {
+            width: 200px;
+          }
+        }
+  
+        form {
+          margin-top: 25px;
+  
+          .sectionEmpatBody {
+            padding: 0 25px 0 25px;
+            line-height: 1.5rem;
+  
+            h2 {
+              color: $color5;
+              font-family: "Minion";
+              font-size: 22px;
+              text-align: center;
+              font-weight: bold;
+              letter-spacing: 8px;
+              text-transform: uppercase;
+              margin: 0 0 25px 0;
+            }
+  
+            p.body-text {
+              color: $color6;
+              font-size: 18px;
+              letter-spacing: -0.26px;
+              font-family: "IBM Plex Sans";
+              line-height: 24px;
+            }
+  
+            .sectionEmpatTengah {
+              display: flex;
+              flex-direction: column;
+              justify-content: space-evenly;
+              align-items: center;
+              width: fit-content;
+              margin: 50px auto 25px auto;
+              padding-bottom: 25px;
+  
+              .mc-field-group,
+              .gdpr-mergeRow,
+              .envoyer {
+                margin: 0 30px;
+              }
+  
+              .mc-field-group {
+                width: 100%; // seharusnya 261 px tapi setelah diimplementasikan malah tidak rapi
+                height: 50px;
+                margin-bottom: 25px;
+                border-bottom: 1px solid $color2;
+  
+                input[type="email"] {
+                  width: 100%;
+                  text-align: center;
+                  background-color: transparent;
+                  border: transparent;
+                  color: #363636;
+                  font-family: "IBM Plex Sans";
+                  font-size: 16px;
+                  letter-spacing: -0.24px;
+                }
+  
+                input[type="email"]:hover,
+                input[type="email"]:focus,
+                input[type="email"]:active {
+                  outline: $color1;
+                }
+  
+                input::placeholder {
+                  font-size: 0.9rem;
+                  color: #363636;
+                  font-family: "IBM Plex Sans";
+                  font-size: 16px;
+                  letter-spacing: -0.24px;
+                }
+              }
+  
+              .gdpr-mergeRow {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+  
+                .content__gdpr {
+                  .mc_fieldset {
+                    input,
+                    .text,
+                    a.terms {
+                      margin: 0 2px;
+                    }
+  
+                    .text,
+                    a.terms {
+                      font-size: 14px;
+                      font-family: "IBM Plex Sans";
+                      color: $color5;
+                      letter-spacing: -0.24px;
+                    }
+                  }
+                }
+              }
+  
+              .envoyer {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 25px;
+  
+                h6 {
+                  color: $color5;
+                  text-transform: uppercase;
+                  font-size: 16px;
+                  font-weight: 500;
+                  letter-spacing: 1px;
+                  font-family: "IBM Plex Sans";
+                }
+              }
+            }
+          }
+        }
+      }
+  
+      .section-five {
+        margin-top: 1.875rem;
+        border: 4px solid rgba(246, 110, 73, 0.15);
+  
+        .section-five-body{
+          .logo {
+            display: flex;
+            justify-content: center;
+            padding-top: 1.25rem;
+            padding-left: 3.75rem;
+            padding-right: 3.75rem;
+            padding-bottom: 2.3125rem;
+  
+            img {
+              width: 11.625rem;
+            }
+          }
+  
+          .title {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1.5625rem;
+          }
+  
+          h2 {
+            color: #002f39;
+            font-family: $minionBold;
+            font-size: 1.1875rem;
+            font-weight: bold;
+            letter-spacing: 8px;
+            line-height: 24px;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+          }
+  
+          p {
+            margin-top: 1rem;
+            width: 256px;
+            color: #f66e49;
+            font-family: $ibmLight;
+            font-size: 1.0625rem;
+            letter-spacing: -0.26px;
+            line-height: 24px;
+            text-align: center;
+            margin-bottom: 0;
+            margin-top: 0;
+          }
+        }
+  
+        .section-five-center {
+          .mc-field-group {
+            display: flex;
+            justify-content: center;
+  
+            input {
+              color: #363636;
+              font-family: "IBM Plex Sans";
+              font-size: 16px;
+              letter-spacing: -0.24px;
+              line-height: 30px;
+              text-align: center;
+  
+              margin: auto;
+              display: block;
+              border: none;
+              border-top: none;
+              border-left: none;
+              border-right: none;
+              border-bottom: 1px solid #e8d4cf;
+              margin-left: 0;
+              margin-right: 0;
+              margin-top: 0;
+              padding-bottom: 1rem;
+              width: 80%;
+            }
+  
+            ::placeholder {
+              height: 30px;
+              width: 256px;
+              color: #f05e36;
+              font-family: "IBM Plex Sans";
+              font-size: 16px;
+              letter-spacing: -0.24px;
+              line-height: 30px;
+              text-align: center;
+            }
+  
+            [placeholder] + span::after {
+              content: "*";
+              color: red;
+            }
+  
+            // input[type=email]+span::before{
+            //     content:" *";
+            //     color: red;
+            //     display: inline;
+            //     margin-left: -20px;
+            //  }
+          }
+  
+          h6 {
+            text-align: center;
+            font-family: $ibmMedium;
+            color: #002f39;
+          }
+  
+          .mc_fieldset {
+            display: flex;
+            justify-content: center;
+            margin-top: 1.3125rem;
+            margin-bottom: 1.875rem;
+  
+            input {
+              box-sizing: border-box;
+              width: 10.85px;
+              border: 2px solid #ffffff;
+              margin-right: 0.5rem;
+            }
+  
+            .text {
+              color: #002f39;
+              font-family: "IBM Plex Sans";
+              font-size: 14px;
+              letter-spacing: -0.21px;
+              line-height: 18px;
+              margin-right: 0.3125rem;
+            }
+  
+            a {
+              color: #002f39;
+              font-family: "IBM Plex Sans";
+              font-size: 14px;
+              letter-spacing: -0.21px;
+              line-height: 18px;
+            }
+          }
+        }
+  
+        .section-five-bottom {
+          margin-top: 1.875rem;
+  
+          p {
+            height: 48px;
+            width: 100%;
+            color: #f66e49;
+            font-family: "IBM Plex Sans";
+            font-size: 18px;
+            letter-spacing: -0.26px;
+            line-height: 24px;
+            text-align: center;
+          }
+  
+          .mc-field-group {
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+          }
+  
+          input {
+            color: #363636;
+            font-family: "IBM Plex Sans";
+            font-size: 16px;
+            letter-spacing: -0.24px;
+            line-height: 30px;
+            text-align: left;
+            margin: auto;
+            margin-top: auto;
+            margin-right: auto;
+            margin-left: auto;
+            display: block;
+            border: none;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 1px solid #e8d4cf;
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 0;
+            padding-bottom: 1rem;
+            width: 80%;
+          }
+  
+          ::placeholder {
+            color: #363636;
+            font-family: "IBM Plex Sans";
+            font-size: 16px;
+            letter-spacing: -0.24px;
+            line-height: 30px;
+            text-align: left;
+            width: 100%;
+          }
+        }
+  
+        .section-five-bottom-2 {
+          padding: 1.5625rem;
+  
+          button {
+            margin-top: 2rem;
+            border: 1px solid #fff;
+            border-radius: 24px;
+            padding-top: 0.9375rem;
+            padding-bottom: 0.9375rem;
+            color: #ffffff;
+            font-family: "IBM Plex Sans";
+            font-size: 16px;
+            font-weight: 500;
+            letter-spacing: 0;
+            line-height: 20px;
+            background-color: #f05e36;
+            width: 100%;
+          }
+        }
+      }
+    }
+  
+    .Footer {
+      margin-top: 1.875rem;
+      background-color: #021925;
+  
+      .container {
+        .footerHeader {
+          img {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            padding-top: 2.9375rem;
+            width: 11.625rem;
+            padding-bottom: 3rem;
+          }
+        }
+  
+        .foooterBody {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+  
+          .footerBodyLeft {
+            width: 100%;
+            box-sizing: border-box;
+            border-top: 1.5px solid #113d53;
+            padding-top: 1.9375rem;
+            border-bottom: 1.5px solid #113d53;
+  
+            li {
+              color: #ffffff;
+              font-family: $ibmLight;
+              font-size: 12px;
+              font-weight: 500;
+              letter-spacing: 0.5px;
+              line-height: 15px;
+              text-align: center;
+              text-transform: uppercase;
+              padding-bottom: 1.5rem;
+              list-style: none;
+            }
+          }
+  
+          .footerBodyRight {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 3.6875rem;
+            margin-top: 1.9375rem;
+            width: 100%;
+            justify-content: center;
+            border: none;
+  
+            img {
+              padding-right: 1rem;
+            }
+  
+            h5 {
+              display: inline-block;
+              color: #ffffff;
+              font-family: $ibmLight;
+              font-size: 15px;
+              letter-spacing: -0.22px;
+              line-height: 19.5px;
+            }
+          }
+        }
+      }
+    }
+  }

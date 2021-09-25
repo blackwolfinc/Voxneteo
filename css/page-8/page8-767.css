@@ -1,0 +1,74 @@
+@media all and (max-width: 767px) {
+  .cookies .cookiesContainer {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .cookies .cookiesContainer .cookies-left {
+    width: 100% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 0rem !important;
+    margin-top: 1rem;
+  }
+  .cookies .cookiesContainer .cookies-left h1 {
+    height: auto;
+    width: 100%;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.29px;
+    line-height: 26px;
+  }
+  .cookies .cookiesContainer .cookies-left p,
+  .cookies .cookiesContainer .cookies-left span.terms-cookies {
+    height: auto !important;
+    width: auto !important;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 26px;
+    text-align: justify;
+  }
+  .cookies .cookiesContainer .cookies-right {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .cookies .cookiesContainer .cookies-right button {
+    color: #ffffff;
+    margin-left: 0rem !important;
+    padding: 0.7rem 1rem;
+    background-color: #f05e36;
+    width: 10rem;
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+    font-size: 16px;
+    margin-right: 0;
+  }
+  .cookies .cookiesContainer .cookies-right :hover {
+    background-color: #ffffff;
+    color: #0a2939;
+  }
+  .cookies .cookiesContainer .cookies-right button.plus {
+    margin-right: auto;
+  }
+}
+/*# sourceMappingURL=page8-767.css.map */

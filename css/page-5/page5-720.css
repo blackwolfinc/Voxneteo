@@ -1,0 +1,66 @@
+@media only screen and (min-width: 0px) and (max-width: 720px) {
+  .containerBack {
+    text-align: left;
+  }
+  .containerBack span {
+    margin-left: 4.5rem;
+  }
+  .containerBack img {
+    margin: 0;
+  }
+  .containerBack .rotation-wrapper-outer {
+    left: 3rem;
+    right: unset;
+  }
+  .sectionBody {
+    display: block;
+    padding: 0;
+  }
+  .containerCard {
+    padding-top: 0;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+  .containerCard .date {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.47px;
+  }
+  .containerCard .subTitle {
+    margin-bottom: 0;
+    font-size: 1rem;
+  }
+  .containerCard .containerImage::after {
+    display: none;
+    visibility: hidden;
+  }
+  .containerCard .containerImage img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 100%;
+    height: auto;
+  }
+  .containerNews .newsTitle {
+    font-size: 1.875rem;
+    margin-bottom: 2.3125rem;
+  }
+  .containerNews .newsAuthor {
+    margin-bottom: 1.6875rem;
+    line-height: 1.125rem;
+  }
+  .containerNews .containerNewsAllText {
+    line-height: 1.625rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.09px;
+    font-size: 14px;
+  }
+  .containerNews .visitWebsite {
+    margin-bottom: 3rem;
+  }
+  .containerNews .dividerVisitWebsite {
+    margin-top: 2rem;
+  }
+}
+/*# sourceMappingURL=page5-720.css.map */

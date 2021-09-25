@@ -1,0 +1,1159 @@
+@font-face {
+  font-family: "IBMPlexSans";
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans.ttf");
+}
+
+@font-face {
+  font-family: "IBMPlexSans-SemiBold";
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "IBMPlexSans-Medium";
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Medium.ttf");
+}
+
+.cookies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+}
+
+.cookies .cookiesContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 352px;
+  padding: 0 110px 40px 110px;
+  font-family: "IBMPlexSans";
+  background-color: #f05e36;
+}
+
+.cookies .cookiesContainer .title {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 46.04px;
+  padding-bottom: 15px;
+}
+
+.cookies .cookiesContainer .title h1 {
+  color: #ffffff;
+  font-family: "IBMPlexSans-SemiBold";
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.29px;
+  text-transform: uppercase;
+}
+
+.cookies .cookiesContainer span.line {
+  width: 100%;
+  height: 1px;
+  background-color: #f78b6e;
+  z-index: 1200;
+}
+
+.cookies .cookiesContainer .detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 252px;
+  padding-top: 15px;
+}
+
+.cookies .cookiesContainer .detail .cookieskiri {
+  height: 192px;
+}
+
+.cookies .cookiesContainer .detail .cookieskiri p, .cookies .cookiesContainer .detail .cookieskiri span {
+  width: 800px;
+  height: 26px;
+  color: #ffffff;
+  font-family: "IBMPlexSans";
+  font-size: 16px;
+  letter-spacing: -0.24px;
+  line-height: 26px;
+}
+
+.cookies .cookiesContainer .detail .cookieskiri p span#read-more, .cookies .cookiesContainer .detail .cookieskiri span span#read-more {
+  display: none;
+}
+
+.cookies .cookiesContainer .detail .cookieskanan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 100%;
+}
+
+.cookies .cookiesContainer .detail .cookieskanan button {
+  color: #ffffff;
+  font-family: "IBMPlexSans-Medium";
+  background-color: #f05e36;
+  height: 48px;
+  width: 176px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0 8px;
+  border: 1px solid #ffffff;
+  border-radius: 24px;
+}
+
+.cookies .cookiesContainer .detail .cookieskanan :hover {
+  background-color: #ffffff;
+  color: #0a2939;
+}
+
+@media (min-width: 1271px) and (max-width: 1373px) {
+  .cookies {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+  }
+  .cookies .cookiesContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 352px;
+    padding: 0 50px 40px 50px;
+    font-family: "IBMPlexSans";
+    background-color: #f05e36;
+  }
+  .cookies .cookiesContainer .title {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 46.04px;
+    padding-bottom: 15px;
+  }
+  .cookies .cookiesContainer .title h1 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.29px;
+    text-transform: uppercase;
+  }
+  .cookies .cookiesContainer span.line {
+    width: 100%;
+    height: 1px;
+    background-color: #f78b6e;
+    z-index: 1200;
+  }
+  .cookies .cookiesContainer .detail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 252px;
+    padding-top: 15px;
+  }
+  .cookies .cookiesContainer .detail .cookieskiri {
+    height: 192px;
+  }
+  .cookies .cookiesContainer .detail .cookieskiri p {
+    width: 800px;
+    height: 26px;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 26px;
+  }
+  .cookies .cookiesContainer .detail .cookieskiri p span#read-more {
+    display: none;
+  }
+  .cookies .cookiesContainer .detail .cookieskanan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    height: 100%;
+  }
+  .cookies .cookiesContainer .detail .cookieskanan button {
+    color: #ffffff;
+    background-color: #f05e36;
+    height: 48px;
+    width: 176px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 8px;
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+  }
+  .cookies .cookiesContainer .detail .cookieskanan :hover {
+    background-color: #ffffff;
+    color: #0a2939;
+  }
+}
+
+@media (min-width: 1143px) and (max-width: 1271px) {
+  .cookies {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+  }
+  .cookies .cookiesContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    padding: 0 110px 0 110px;
+    font-family: "IBMPlexSans";
+    background-color: #f05e36;
+  }
+  .cookies .cookiesContainer .title {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 46.04px;
+    padding-bottom: 15px;
+  }
+  .cookies .cookiesContainer .title h1 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.29px;
+    text-transform: uppercase;
+  }
+  .cookies .cookiesContainer span.line {
+    width: 100%;
+    height: 1px;
+    background-color: #f78b6e;
+    z-index: 1200;
+  }
+  .cookies .cookiesContainer .detail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 100%;
+    height: 252px;
+    margin-top: 15px;
+    margin-bottom: 46.04px;
+  }
+  .cookies .cookiesContainer .detail .cookieskiri {
+    height: 192px;
+  }
+  .cookies .cookiesContainer .detail .cookieskiri p {
+    width: 100%;
+    height: 26px;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 26px;
+  }
+  .cookies .cookiesContainer .detail .cookieskiri p span#read-more {
+    display: none;
+  }
+  .cookies .cookiesContainer .detail .cookieskanan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    width: 100%;
+    height: 100%;
+  }
+  .cookies .cookiesContainer .detail .cookieskanan button {
+    color: #ffffff;
+    background-color: #f05e36;
+    height: 48px;
+    width: 176px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 8px;
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+  }
+  .cookies .cookiesContainer .detail .cookieskanan :hover {
+    background-color: #ffffff;
+    color: #0a2939;
+  }
+}
+
+@media (min-width: 912px) and (max-width: 1143px) {
+  .cookies {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+  }
+  .cookies .cookiesContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    padding: 0 110px 0 110px;
+    font-family: "IBMPlexSans";
+    background-color: #f05e36;
+  }
+  .cookies .cookiesContainer .title {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 46.04px;
+    padding-bottom: 15px;
+  }
+  .cookies .cookiesContainer .title h1 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.29px;
+    text-transform: uppercase;
+  }
+  .cookies .cookiesContainer span.line {
+    width: 100%;
+    height: 1px;
+    background-color: #f78b6e;
+    z-index: 1200;
+  }
+  .cookies .cookiesContainer .detail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 46.04px;
+  }
+  .cookies .cookiesContainer .detail .cookieskiri {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    margin-bottom: 46.04px;
+  }
+  .cookies .cookiesContainer .detail .cookieskiri p {
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 26px;
+  }
+  .cookies .cookiesContainer .detail .cookieskiri p span#read-more {
+    display: none;
+  }
+  .cookies .cookiesContainer .detail .cookieskanan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    width: 100%;
+  }
+  .cookies .cookiesContainer .detail .cookieskanan button {
+    color: #ffffff;
+    background-color: #f05e36;
+    height: 48px;
+    width: 176px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 8px;
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+  }
+  .cookies .cookiesContainer .detail .cookieskanan :hover {
+    background-color: #ffffff;
+    color: #0a2939;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 912px) {
+  .cookies {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+  }
+  .cookies .cookiesContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    padding: 0 110px 0 110px;
+    font-family: "IBMPlexSans";
+    background-color: #f05e36;
+  }
+  .cookies .cookiesContainer .title {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 46.04px;
+    padding-bottom: 15px;
+  }
+  .cookies .cookiesContainer .title h1 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.29px;
+    text-transform: uppercase;
+  }
+  .cookies .cookiesContainer span.line {
+    width: 100%;
+    height: 1px;
+    background-color: #f78b6e;
+    z-index: 1200;
+  }
+  .cookies .cookiesContainer .detail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 46.04px;
+  }
+  .cookies .cookiesContainer .detail .cookieskiri {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    margin-bottom: 23.02px;
+  }
+  .cookies .cookiesContainer .detail .cookieskiri p {
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 26px;
+  }
+  .cookies .cookiesContainer .detail .cookieskiri p span#read-more {
+    display: inline;
+    font-weight: bold;
+    color: #113d53;
+    cursor: pointer;
+  }
+  .cookies .cookiesContainer .detail .cookieskiri p span#text-read-more {
+    display: none;
+  }
+  .cookies .cookiesContainer .detail .cookieskanan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    width: 100%;
+  }
+  .cookies .cookiesContainer .detail .cookieskanan button {
+    color: #ffffff;
+    background-color: #f05e36;
+    height: 48px;
+    width: 176px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 8px;
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+  }
+  .cookies .cookiesContainer .detail .cookieskanan :hover {
+    background-color: #ffffff;
+    color: #0a2939;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+  .cookies {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+  }
+  .cookies .cookiesContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    padding: 0 50px 0 50px;
+    font-family: "IBMPlexSans";
+    background-color: #f05e36;
+  }
+  .cookies .cookiesContainer .title {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 46.04px;
+    padding-bottom: 15px;
+  }
+  .cookies .cookiesContainer .title h1 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.29px;
+    text-transform: uppercase;
+  }
+  .cookies .cookiesContainer span.line {
+    width: 100%;
+    height: 1px;
+    background-color: #f78b6e;
+    z-index: 1200;
+  }
+  .cookies .cookiesContainer .detail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 46.04px;
+  }
+  .cookies .cookiesContainer .detail .cookieskiri {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    margin-bottom: 23.02px;
+  }
+  .cookies .cookiesContainer .detail .cookieskiri p {
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 26px;
+  }
+  .cookies .cookiesContainer .detail .cookieskiri p span#read-more {
+    display: inline;
+    font-weight: bold;
+    color: #113d53;
+    cursor: pointer;
+  }
+  .cookies .cookiesContainer .detail .cookieskiri p span#text-read-more {
+    display: none;
+  }
+  .cookies .cookiesContainer .detail .cookieskanan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    width: 100%;
+  }
+  .cookies .cookiesContainer .detail .cookieskanan button {
+    color: #ffffff;
+    background-color: #f05e36;
+    height: 48px;
+    width: 176px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 8px;
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+  }
+  .cookies .cookiesContainer .detail .cookieskanan :hover {
+    background-color: #ffffff;
+    color: #0a2939;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 400px) {
+  .cookies {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+  }
+  .cookies .cookiesContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    padding: 0 50px 0 50px;
+    font-family: "IBMPlexSans";
+    background-color: #f05e36;
+  }
+  .cookies .cookiesContainer .title {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+  .cookies .cookiesContainer .title h1 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.29px;
+    text-transform: uppercase;
+  }
+  .cookies .cookiesContainer span.line {
+    width: 100%;
+    height: 1px;
+    background-color: #f78b6e;
+    z-index: 1200;
+  }
+  .cookies .cookiesContainer .detail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+  .cookies .cookiesContainer .detail .cookieskiri {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    margin-bottom: 23.02px;
+  }
+  .cookies .cookiesContainer .detail .cookieskiri p, .cookies .cookiesContainer .detail .cookieskiri span {
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: -0.24px;
+    line-height: 26px;
+  }
+  .cookies .cookiesContainer .detail .cookieskiri p span#read-more, .cookies .cookiesContainer .detail .cookieskiri span span#read-more {
+    display: inline;
+    font-weight: bold;
+    color: #113d53;
+    cursor: pointer;
+  }
+  .cookies .cookiesContainer .detail .cookieskiri p span#text-read-more, .cookies .cookiesContainer .detail .cookieskiri span span#text-read-more {
+    display: none;
+  }
+  .cookies .cookiesContainer .detail .cookieskanan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    width: 100%;
+  }
+  .cookies .cookiesContainer .detail .cookieskanan button {
+    color: #ffffff;
+    background-color: #f05e36;
+    height: 48px;
+    width: 176px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 8px;
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+  }
+  .cookies .cookiesContainer .detail .cookieskanan :hover {
+    background-color: #ffffff;
+    color: #0a2939;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 320px) {
+  .cookies {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+  }
+  .cookies .cookiesContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    padding: 0 25px 0 25px;
+    font-family: "IBMPlexSans";
+    background-color: #f05e36;
+  }
+  .cookies .cookiesContainer .title {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 25px;
+    padding-bottom: 15px;
+  }
+  .cookies .cookiesContainer .title h1 {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.29px;
+    text-transform: uppercase;
+  }
+  .cookies .cookiesContainer span.line {
+    width: 100%;
+    height: 1px;
+    background-color: #f78b6e;
+    z-index: 1200;
+  }
+  .cookies .cookiesContainer .detail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .cookies .cookiesContainer .detail .cookieskiri {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    margin-bottom: 23.02px;
+  }
+  .cookies .cookiesContainer .detail .cookieskiri p, .cookies .cookiesContainer .detail .cookieskiri span {
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: -0.24px;
+    line-height: 26px;
+  }
+  .cookies .cookiesContainer .detail .cookieskiri p span#read-more, .cookies .cookiesContainer .detail .cookieskiri span span#read-more {
+    display: inline;
+    font-weight: bold;
+    color: #113d53;
+    cursor: pointer;
+  }
+  .cookies .cookiesContainer .detail .cookieskiri p span#text-read-more, .cookies .cookiesContainer .detail .cookieskiri span span#text-read-more {
+    display: none;
+  }
+  .cookies .cookiesContainer .detail .cookieskanan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    width: 100%;
+  }
+  .cookies .cookiesContainer .detail .cookieskanan button {
+    color: #ffffff;
+    background-color: #f05e36;
+    height: auto;
+    width: 50%;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 8px;
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+    padding: 0.3rem 1rem;
+  }
+  .cookies .cookiesContainer .detail .cookieskanan :hover {
+    background-color: #ffffff;
+    color: #0a2939;
+  }
+}
+
+@media (min-width: 912px) and (max-width: 1143px) {
+  .cookies {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+  }
+  .cookies .cookiesContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    padding: 0 110px 0 110px;
+    font-family: "IBMPlexSans";
+    background-color: #f05e36;
+  }
+  .cookies .cookiesContainer .title {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 46.04px;
+    padding-bottom: 15px;
+  }
+  .cookies .cookiesContainer .title h1 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.29px;
+    text-transform: uppercase;
+  }
+  .cookies .cookiesContainer span.line {
+    width: 100%;
+    height: 1px;
+    background-color: #f78b6e;
+    z-index: 1200;
+  }
+  .cookies .cookiesContainer .detail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 46.04px;
+  }
+  .cookies .cookiesContainer .detail .cookies-left {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    margin-bottom: 46.04px;
+  }
+  .cookies .cookiesContainer .detail .cookies-left p {
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 26px;
+  }
+  .cookies .cookiesContainer .detail .cookies-left p span#read-more {
+    display: none;
+  }
+  .cookies .cookiesContainer .detail .cookies-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    width: 100%;
+  }
+  .cookies .cookiesContainer .detail .cookies-right button {
+    color: #ffffff;
+    background-color: #f05e36;
+    height: 48px;
+    width: 176px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 8px;
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+  }
+  .cookies .cookiesContainer .detail .cookies-right :hover {
+    background-color: #ffffff;
+    color: #0a2939;
+  }
+}
+/*# sourceMappingURL=page9-1143.css.map */

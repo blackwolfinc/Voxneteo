@@ -1,0 +1,90 @@
+@media only screen and (min-width: 721px) and (max-width: 991.9px) {
+  .navbar-nav {
+    width: 100%;
+    height: 100%;
+  }
+  .section-two-title {
+    margin-left: 0rem;
+  }
+  .sectionBody {
+    padding-left: 0rem;
+    margin-top: 2rem !important;
+    margin-bottom: 3rem;
+  }
+  .containerBack {
+    margin-top: 1.5rem;
+  }
+  .section-two-title h3 {
+    width: 100% !important;
+    height: 2rem !important;
+  }
+  .containerNews {
+    margin-left: 0.5rem;
+  }
+  .containerNews .section-two-title {
+    margin-left: 0rem !important;
+    margin-bottom: 5rem;
+  }
+  .containerNews .containerNewsAllText {
+    width: 100%;
+  }
+  .containerNews .sideButton {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section-five {
+    margin-bottom: 3rem;
+  }
+  .section-five .section-five-body .logo {
+    -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+            justify-content: end !important;
+  }
+  .section-five .section-five-body .title .title-1 h2 {
+    margin-bottom: 2rem;
+  }
+  .section-five .section-five-body p {
+    width: 100% !important;
+  }
+  .section-five .section-five-center .email {
+    width: 14.3rem;
+  }
+  .section-five .section-five-center ::-webkit-input-placeholder {
+    color: #363636 !important;
+  }
+  .section-five .section-five-center :-ms-input-placeholder {
+    color: #363636 !important;
+  }
+  .section-five .section-five-center ::-ms-input-placeholder {
+    color: #363636 !important;
+  }
+  .section-five .section-five-center ::placeholder {
+    color: #363636 !important;
+  }
+  .section-five .section-five-bottom p {
+    margin: auto;
+  }
+  .section-five .section-five-bottom-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section-five .section-five-bottom-2 button {
+    width: 50% !important;
+  }
+}
+/*# sourceMappingURL=page7-721.css.map */
