@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,GAAG,OAAO,SAAS,EAAE,KAAK;EACzD,AACE,YADU,CACV,cAAc,CAAC;IACb,KAAK,EAAE,IAAI;GAOZ;EATH,AAIM,YAJM,CACV,cAAc,CAEZ,eAAe,CACb,GAAG,CAAC;IACF,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI;GACb",
+    "sources": [
+        "page5-373.scss"
+    ],
+    "names": [],
+    "file": "page5-373.css"
+}

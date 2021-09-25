@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,SAAS;EAC/D,AAEI,aAFS,CACX,kBAAkB,CAChB,QAAQ,CAAC;IACP,UAAU,EAAG,KAAI,CAAA,UAAU;GAC5B;EAJL,AAME,aANW,CAMX,sBAAsB,CAAA;IACpB,MAAM,EAAE,IAAI,CAAC,CAAC,CAAA,UAAU;GACzB",
+    "sources": [
+        "page7-993.scss"
+    ],
+    "names": [],
+    "file": "page7-993.css"
+}

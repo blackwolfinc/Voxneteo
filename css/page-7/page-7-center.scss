@@ -1,0 +1,76 @@
+$ibmReguler: "IBMPlexSans";
+$ibmBold: "IBMPlexSans-Bold";
+$ibmSemiBold: "IBMPlexSans-SemiBold";
+$ibmSemiBoldItalic: "IBMPlexSans-SemiBoldItalic";
+$ibmLight: "IBMPlexSans-Light";
+$ibmMedium: "IBMPlexSans-Medium";
+$butlerLight: "Butler-Light";
+$butler: "Butler";
+$minionItalic: "Minion-DisplayItalic";
+$minionBold: "Minion-Bold";
+$size1: 1.6rem;
+
+@font-face {
+    font-family: $ibmReguler;
+    src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans.ttf");
+}
+
+@font-face {
+    font-family: $ibmBold;
+    src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: $ibmSemiBold;
+    src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: $ibmLight;
+    src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Light.ttf");
+}
+
+@font-face {
+    font-family: $ibmMedium;
+    src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Medium.ttf");
+}
+
+@font-face {
+    font-family: $ibmSemiBoldItalic;
+    src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBoldItalic.ttf");
+}
+
+@font-face {
+    font-family: $butlerLight;
+    src: url("../../assets/fonts/webfont-butler/Butler-Light.ttf");
+}
+
+@font-face {
+    font-family: $butler;
+    src: url("../../assets/fonts/webfont-butler/Butler.ttf");
+}
+
+@font-face {
+    font-family: $minionItalic;
+    src: url("../../assets/fonts/webfont-minion/Minion-DisplayItalic.ttf");
+}
+
+@font-face {
+    font-family: $minionBold;
+    src: url("../../assets/fonts/webfont-minion/Minion-Bold.ttf");
+}
+  
+  .nav-link {
+    -webkit-transition: none !important;
+    transition: none !important;
+  }
+  
+  .email {
+    outline: none !important;
+  }
+  
+  a {
+    text-decoration: none !important;
+  }
+  
+  /*# sourceMappingURL=testing_page_2.css.map */

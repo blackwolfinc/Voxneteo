@@ -1,0 +1,68 @@
+@media only screen and (min-width: 0px) and (max-width: 720px) {
+    .containerBack {
+      text-align: left;
+      span {
+        margin-left: 4.5rem;
+      }
+      img {
+        margin: 0;
+      }
+      .rotation-wrapper-outer {
+        left: 3rem;
+        right: unset;
+      }
+    }
+    .sectionBody {
+      display: block;
+      padding: 0;
+    }
+    .containerCard {
+      padding-top: 0;
+      margin: 0 auto;
+      margin-bottom: 2rem;
+      width: 100%;
+      .date {
+        font-size: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        letter-spacing: -0.47px;
+      }
+      .subTitle {
+        margin-bottom: 0;
+        font-size: 1rem;
+      }
+      .containerImage {
+        &::after {
+          display: none;
+          visibility: hidden;
+        }
+        img {
+          object-fit: contain;
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+    .containerNews {
+      .newsTitle {
+        font-size: 1.875rem;
+        margin-bottom: 2.3125rem;
+      }
+      .newsAuthor {
+        margin-bottom: 1.6875rem;
+        line-height: 1.125rem;
+      }
+      .containerNewsAllText {
+        line-height: 1.625rem;
+        margin-bottom: 1.5rem;
+        letter-spacing: -0.09px;
+        font-size: 14px;
+      }
+      .visitWebsite {
+        margin-bottom: 3rem;
+      }
+      .dividerVisitWebsite {
+        margin-top: 2rem;
+      }
+    }
+  }
