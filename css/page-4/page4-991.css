@@ -209,7 +209,7 @@
     width: 1019px;
   }
 
-  .container .sectionLima {
+  .container .sectionFive {
     margin-top: 2rem;
   }
 
@@ -815,7 +815,7 @@
     color: #f05e36;
   }
 
-  .sectionLima {
+  .sectionFive {
     border: 10px solid #f66f4933;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -828,24 +828,24 @@
     margin-left: 7.75rem;
     margin-right: 7.75rem;
   }
-  .sectionLima form {
+  .sectionFive form {
     width: 90%;
   }
-  .sectionLima .sectionLimaBody {
+  .sectionFive .sectionFiveContent {
     text-align: center;
   }
-  .sectionLima .sectionLimaBody .title-1 {
+  .sectionFive .sectionFiveContent .title-1 {
     margin-top: -5.3125rem;
   }
-  .sectionLima .sectionLimaBody .title {
+  .sectionFive .sectionFiveContent .title {
     margin-bottom: 3.125rem;
   }
-  .sectionLima .sectionLimaBody .title,
-.sectionLima .sectionLimaBody .SectionLimaTengah,
-.sectionLima .sectionLimaBody .SectionLimaBawah {
+  .sectionFive .sectionFiveContent .title,
+.sectionFive .sectionFiveContent .sectionFiveContent,
+.sectionFive .sectionFiveContent .sectionFiveBottom {
     margin: 0;
   }
-  .sectionLima .sectionLimaBody p {
+  .sectionFive .sectionFiveContent p {
     color: #f66e49;
     font-family: "IBMPlexSans";
     font-size: 22px;
@@ -853,7 +853,7 @@
     line-height: 30px;
     margin-bottom: 0;
   }
-  .sectionLima .sectionLimaBody .logo {
+  .sectionFive .sectionFiveContent .logo {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -861,21 +861,21 @@
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
-  .sectionLima .sectionLimaBody .logo img {
+  .sectionFive .sectionFiveContent .logo img {
     width: 15.625rem;
     height: 100%;
   }
-  .sectionLima .sectionLimaBody .title {
+  .sectionFive .sectionFiveContent .title {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     margin-bottom: 3.125rem;
   }
-  .sectionLima .sectionLimaBody .title .title-1 {
+  .sectionFive .sectionFiveContent .title .title-1 {
     width: 48rem;
     text-align: center;
   }
-  .sectionLima .sectionLimaBody .title .title-1 h2 {
+  .sectionFive .sectionFiveContent .title .title-1 h2 {
     height: 81px;
     color: #002f39;
     font-family: "Minion-Bold";
@@ -886,7 +886,7 @@
     text-align: center;
     text-transform: uppercase;
   }
-  .sectionLima .sectionLimaBody .SectionLimaTengah {
+  .sectionFive .sectionFiveContent .sectionFiveMid {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -899,60 +899,60 @@
     margin-bottom: 4rem;
     border-bottom: 1px solid #e8d4cf;
   }
-  .sectionLima .sectionLimaBody .SectionLimaTengah .email {
+  .sectionFive .sectionFiveContent .sectionFiveMid .email {
     padding: 0.5rem;
     border: none;
     width: 12.8rem;
     padding-bottom: 1.25rem;
   }
-  .sectionLima .sectionLimaBody .SectionLimaTengah ::-webkit-input-placeholder {
+  .sectionFive .sectionFiveContent .sectionFiveMid ::-webkit-input-placeholder {
     border-left: 2px solid #002f39;
     margin-left: 1rem;
     width: 13rem;
   }
-  .sectionLima .sectionLimaBody .SectionLimaTengah ::-moz-placeholder {
+  .sectionFive .sectionFiveContent .sectionFiveMid ::-moz-placeholder {
     border-left: 2px solid #002f39;
     margin-left: 1rem;
     width: 13rem;
   }
-  .sectionLima .sectionLimaBody .SectionLimaTengah :-ms-input-placeholder {
+  .sectionFive .sectionFiveContent .sectionFiveMid :-ms-input-placeholder {
     border-left: 2px solid #002f39;
     margin-left: 1rem;
     width: 13rem;
   }
-  .sectionLima .sectionLimaBody .SectionLimaTengah ::-ms-input-placeholder {
+  .sectionFive .sectionFiveContent .sectionFiveMid ::-ms-input-placeholder {
     border-left: 2px solid #002f39;
     margin-left: 1rem;
     width: 13rem;
   }
-  .sectionLima .sectionLimaBody .SectionLimaTengah ::placeholder {
+  .sectionFive .sectionFiveContent .sectionFiveMid ::placeholder {
     border-left: 2px solid #002f39;
     margin-left: 1rem;
     width: 13rem;
   }
-  .sectionLima .sectionLimaBody .SectionLimaTengah [placeholder] + span::after {
+  .sectionFive .sectionFiveContent .sectionFiveMid [placeholder] + span::after {
     content: "*";
     color: red;
   }
-  .sectionLima .sectionLimaBody .SectionLimaTengah .av-checkbox a {
+  .sectionFive .sectionFiveContent .sectionFiveMid .av-checkbox a {
     padding-left: 2rem;
   }
-  .sectionLima .sectionLimaBody .SectionLimaTengah .text {
+  .sectionFive .sectionFiveContent .sectionFiveMid .text {
     margin-right: 0.3rem;
     margin-left: 0.5rem;
   }
-  .sectionLima .sectionLimaBody .SectionLimaTengah .text,
-.sectionLima .sectionLimaBody .SectionLimaTengah .terms {
+  .sectionFive .sectionFiveContent .sectionFiveMid .text,
+.sectionFive .sectionFiveContent .sectionFiveMid .terms {
     color: #002f39;
     font-family: "IBMPlexSans";
     font-size: 16px;
   }
-  .sectionLima .sectionLimaBody .SectionLimaTengah h6 {
+  .sectionFive .sectionFiveContent .sectionFiveMid h6 {
     font-family: "IBMPlexSans-Medium";
     color: #002f39;
     margin-bottom: 0;
   }
-  .sectionLima .sectionLimaBody .SectionLimaBawah input {
+  .sectionFive .sectionFiveContent .sectionFiveBottom input {
     margin: 2rem 0rem;
     width: 100%;
     border-top: none;
@@ -962,7 +962,7 @@
     border-bottom: 1px solid #e8d4cf;
     outline: none;
   }
-  .sectionLima .SectionLimaBawahDua {
+  .sectionFive .sectionFiveBottomHide {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -979,7 +979,7 @@
     margin: 4rem 0;
     margin-bottom: 4rem;
   }
-  .sectionLima .SectionLimaBawahDua .button {
+  .sectionFive .sectionFiveBottomHide .button {
     border: 1px solid #fff;
     padding: 1rem 4rem;
     border-radius: 2.4rem;

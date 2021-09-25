@@ -210,7 +210,7 @@
     width: 1019px;
   }
 
-  .container .sectionLima {
+  .container .sectionFive {
     margin-top: 2rem;
   }
 
@@ -322,7 +322,7 @@
     width: 1019px;
   }
 
-  .container .sectionLima {
+  .container .sectionFive {
     margin-top: 2rem;
   }
 
@@ -755,11 +755,11 @@
   .container .sectionEmpat .sectionEmpatBawah .sectionEmpatBawahKanan ul li p:hover {
     color: #f05e36;
   }
-  .container .sectionLima {
+  .container .sectionFive {
     margin-top: 1.875rem;
     border: 4px solid rgba(246, 110, 73, 0.15);
   }
-  .container .sectionLima .sectionLimaBody .logo {
+  .container .sectionFive .sectionFiveContent .logo {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -771,10 +771,10 @@
     padding-right: 3.75rem;
     padding-bottom: 2.3125rem;
   }
-  .container .sectionLima .sectionLimaBody .logo img {
+  .container .sectionFive .sectionFiveContent .logo img {
     width: 11.625rem;
   }
-  .container .sectionLima .sectionLimaBody .title {
+  .container .sectionFive .sectionFiveContent .title {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -783,7 +783,7 @@
             justify-content: center;
     margin-bottom: 1.5625rem;
   }
-  .container .sectionLima .sectionLimaBody h2 {
+  .container .sectionFive .sectionFiveContent h2 {
     color: #002f39;
     font-family: "Minion-Bold";
     font-size: 1.1875rem;
@@ -794,7 +794,7 @@
     text-transform: uppercase;
     margin-bottom: 1rem;
   }
-  .container .sectionLima .sectionLimaBody p {
+  .container .sectionFive .sectionFiveContent p {
     margin-top: 1rem;
     width: 256px;
     color: #f66e49;
@@ -806,10 +806,10 @@
     margin-bottom: 0;
     margin-top: 0;
   }
-  .container .sectionLima .SectionLimaTengah {
+  .container .sectionFive .sectionFiveMid {
     margin: 0 5rem;
   }
-  .container .sectionLima .SectionLimaTengah .mc-field-group {
+  .container .sectionFive .sectionFiveMid .mc-field-group {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -817,7 +817,7 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .container .sectionLima .SectionLimaTengah .mc-field-group input {
+  .container .sectionFive .sectionFiveMid .mc-field-group input {
     color: #363636;
     font-family: "IBM Plex Sans";
     font-size: 16px;
@@ -836,10 +836,10 @@
     margin-top: 0;
     padding-bottom: 1rem;
   }
-  .container .sectionLima .SectionLimaTengah .mc-field-group .email {
+  .container .sectionFive .sectionFiveMid .mc-field-group .email {
     width: 100%;
   }
-  .container .sectionLima .SectionLimaTengah .mc-field-group ::-webkit-input-placeholder {
+  .container .sectionFive .sectionFiveMid .mc-field-group ::-webkit-input-placeholder {
     height: 30px;
     width: 256px;
     color: black;
@@ -849,7 +849,7 @@
     line-height: 30px;
     text-align: center;
   }
-  .container .sectionLima .SectionLimaTengah .mc-field-group ::-moz-placeholder {
+  .container .sectionFive .sectionFiveMid .mc-field-group ::-moz-placeholder {
     height: 30px;
     width: 256px;
     color: black;
@@ -859,7 +859,7 @@
     line-height: 30px;
     text-align: center;
   }
-  .container .sectionLima .SectionLimaTengah .mc-field-group :-ms-input-placeholder {
+  .container .sectionFive .sectionFiveMid .mc-field-group :-ms-input-placeholder {
     height: 30px;
     width: 256px;
     color: black;
@@ -869,7 +869,7 @@
     line-height: 30px;
     text-align: center;
   }
-  .container .sectionLima .SectionLimaTengah .mc-field-group ::-ms-input-placeholder {
+  .container .sectionFive .sectionFiveMid .mc-field-group ::-ms-input-placeholder {
     height: 30px;
     width: 256px;
     color: black;
@@ -879,7 +879,7 @@
     line-height: 30px;
     text-align: center;
   }
-  .container .sectionLima .SectionLimaTengah .mc-field-group ::placeholder {
+  .container .sectionFive .sectionFiveMid .mc-field-group ::placeholder {
     height: 30px;
     width: 256px;
     color: black;
@@ -889,17 +889,17 @@
     line-height: 30px;
     text-align: center;
   }
-  .container .sectionLima .SectionLimaTengah .mc-field-group [placeholder] + span::after {
+  .container .sectionFive .sectionFiveMid .mc-field-group [placeholder] + span::after {
     content: "*";
     color: red;
   }
-  .container .sectionLima .SectionLimaTengah h6 {
+  .container .sectionFive .sectionFiveMid h6 {
     text-align: center;
     font-family: "IBMPlexSans-Medium";
     color: #002f39;
     margin-bottom: 1.9375rem;
   }
-  .container .sectionLima .SectionLimaTengah .mc_fieldset {
+  .container .sectionFive .sectionFiveMid .mc_fieldset {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -909,14 +909,14 @@
     margin-top: 1.3125rem;
     margin-bottom: 1.875rem;
   }
-  .container .sectionLima .SectionLimaTengah .mc_fieldset input {
+  .container .sectionFive .sectionFiveMid .mc_fieldset input {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     width: 10.85px;
     border: 2px solid #ffffff;
     margin-right: 0.5rem;
   }
-  .container .sectionLima .SectionLimaTengah .mc_fieldset .text {
+  .container .sectionFive .sectionFiveMid .mc_fieldset .text {
     color: #002f39;
     font-family: "IBM Plex Sans";
     font-size: 14px;
@@ -924,19 +924,19 @@
     line-height: 18px;
     margin-right: 0.3125rem;
   }
-  .container .sectionLima .SectionLimaTengah .mc_fieldset a {
+  .container .sectionFive .sectionFiveMid .mc_fieldset a {
     color: #002f39;
     font-family: "IBM Plex Sans";
     font-size: 14px;
     letter-spacing: -0.21px;
     line-height: 18px;
   }
-  .container .sectionLima .SectionLimaBawah {
+  .container .sectionFive .sectionFiveBottom {
     margin-top: 1.875rem;
     margin-right: 3.75rem;
     margin-left: 3.75rem;
   }
-  .container .sectionLima .SectionLimaBawah p {
+  .container .sectionFive .sectionFiveBottom p {
     height: 48px;
     width: 100%;
     color: #f66e49;
@@ -946,7 +946,7 @@
     line-height: 24px;
     text-align: center;
   }
-  .container .sectionLima .SectionLimaBawah .mc-field-group {
+  .container .sectionFive .sectionFiveBottom .mc-field-group {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -955,7 +955,7 @@
             justify-content: center;
     margin-top: 2rem;
   }
-  .container .sectionLima .SectionLimaBawah input {
+  .container .sectionFive .sectionFiveBottom input {
     color: #363636;
     font-family: "IBM Plex Sans";
     font-size: 16px;
@@ -978,7 +978,7 @@
     padding-bottom: 1rem;
     width: 90%;
   }
-  .container .sectionLima .SectionLimaBawah ::-webkit-input-placeholder {
+  .container .sectionFive .sectionFiveBottom ::-webkit-input-placeholder {
     color: #363636;
     font-family: "IBM Plex Sans";
     font-size: 16px;
@@ -987,7 +987,7 @@
     text-align: left;
     width: 100%;
   }
-  .container .sectionLima .SectionLimaBawah ::-moz-placeholder {
+  .container .sectionFive .sectionFiveBottom ::-moz-placeholder {
     color: #363636;
     font-family: "IBM Plex Sans";
     font-size: 16px;
@@ -996,7 +996,7 @@
     text-align: left;
     width: 100%;
   }
-  .container .sectionLima .SectionLimaBawah :-ms-input-placeholder {
+  .container .sectionFive .sectionFiveBottom :-ms-input-placeholder {
     color: #363636;
     font-family: "IBM Plex Sans";
     font-size: 16px;
@@ -1005,7 +1005,7 @@
     text-align: left;
     width: 100%;
   }
-  .container .sectionLima .SectionLimaBawah ::-ms-input-placeholder {
+  .container .sectionFive .sectionFiveBottom ::-ms-input-placeholder {
     color: #363636;
     font-family: "IBM Plex Sans";
     font-size: 16px;
@@ -1014,7 +1014,7 @@
     text-align: left;
     width: 100%;
   }
-  .container .sectionLima .SectionLimaBawah ::placeholder {
+  .container .sectionFive .sectionFiveBottom ::placeholder {
     color: #363636;
     font-family: "IBM Plex Sans";
     font-size: 16px;
@@ -1023,12 +1023,12 @@
     text-align: left;
     width: 100%;
   }
-  .container .sectionLima .SectionLimaBawahDua {
+  .container .sectionFive .sectionFiveBottomHide {
     padding: 1.5625rem;
     padding-right: 6.25rem;
     padding-left: 6.25rem;
   }
-  .container .sectionLima .SectionLimaBawahDua button {
+  .container .sectionFive .sectionFiveBottomHide button {
     margin-top: 2rem;
     border: 1px solid #fff;
     border-radius: 24px;

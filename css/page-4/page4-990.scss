@@ -178,7 +178,7 @@
   }
   
   .container {
-    .sectionLima {
+    .sectionFive {
       //parent: halaman 2
       margin-top: 2rem;
     }
@@ -293,7 +293,7 @@
   }
   
   .container {
-    .sectionLima {
+    .sectionFive {
       //parent: halaman 2
       margin-top: 2rem;
     }
@@ -784,11 +784,11 @@
         }
       }
   
-      .sectionLima {
+      .sectionFive {
         margin-top: 1.875rem;
         border: 4px solid rgba(246, 110, 73, 0.15);
   
-        .sectionLimaBody {
+        .sectionFiveContent {
           .logo {
             display: flex;
             justify-content: center;
@@ -834,7 +834,7 @@
           }
         }
   
-        .SectionLimaTengah {
+        .sectionFiveMid {
           margin: 0 5rem;
           .mc-field-group {
             display: flex;
@@ -922,7 +922,7 @@
           }
         }
   
-        .SectionLimaBawah {
+        .sectionFiveBottom {
           margin-top: 1.875rem;
           margin-right: 3.75rem;
           margin-left: 3.75rem;  
@@ -978,7 +978,7 @@
           }
         }
   
-        .SectionLimaBawahDua {
+        .sectionFiveBottomHide {
           padding: 1.5625rem;
           padding-right: 6.25rem;
           padding-left: 6.25rem;

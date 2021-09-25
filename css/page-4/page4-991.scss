@@ -177,7 +177,7 @@
   }
   
   .container {
-    .sectionLima {
+    .sectionFive {
       //parent: halaman 2
       margin-top: 2rem;
     }
@@ -810,7 +810,7 @@
       }
     }
   
-    .sectionLima {
+    .sectionFive {
       border: 10px solid #f66f4933;
       display: flex;
       justify-content: center;
@@ -823,7 +823,7 @@
         width: 90%;
       }
   
-      .sectionLimaBody {
+      .sectionFiveContent {
         .title-1 {
           margin-top: -5.3125rem;
         }
@@ -833,8 +833,8 @@
         }
   
         .title,
-        .SectionLimaTengah,
-        .SectionLimaBawah {
+        .sectionFiveContent,
+        .sectionFiveBottom {
           margin: 0;
         }
         text-align: center;
@@ -879,7 +879,7 @@
           }
         }
   
-        .SectionLimaTengah {
+        .sectionFiveMid {
           display: flex;
           align-items: center;
           justify-content: space-between;
@@ -930,7 +930,7 @@
           border-bottom: 1px solid #e8d4cf;
         }
   
-        .SectionLimaBawah {
+        .sectionFiveBottom {
           input {
             margin: 2rem 0rem;
             width: 100%;
@@ -944,7 +944,7 @@
         }
       }
   
-      .SectionLimaBawahDua {
+      .sectionFiveBottomHide {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
