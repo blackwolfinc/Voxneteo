@@ -417,7 +417,7 @@
             ::placeholder {
               height: 30px;
               width: 256px;
-              color: #f05e36;
+              color: black !important;
               font-family: "IBM Plex Sans";
               font-size: 16px;
               letter-spacing: -0.24px;
@@ -603,6 +603,10 @@
             margin-bottom: 3.6875rem;
             margin-top: 1.9375rem;
             border: none;
+
+            a {
+              color: transparent;
+            }
   
             img {
               padding-right: 1rem;

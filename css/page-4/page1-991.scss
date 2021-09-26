@@ -749,6 +749,12 @@
             width: 100%;
             justify-content: center;
             border: none;
+
+            a {
+              display: flex;
+              flex-direction: row;
+              color: transparent;
+            }
   
             img {
               padding-right: 1rem;
@@ -761,6 +767,8 @@
               font-size: 15px;
               letter-spacing: -0.22px;
               line-height: 19.5px;
+              margin-bottom: 0;
+              margin-top: .3125rem;
             }
           }
         }

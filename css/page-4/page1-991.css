@@ -818,6 +818,16 @@
             justify-content: center;
     border: none;
   }
+  .footer .container .footerBody .contentRight a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    color: transparent;
+  }
   .footer .container .footerBody .contentRight img {
     padding-right: 1rem;
   }
@@ -828,6 +838,8 @@
     font-size: 15px;
     letter-spacing: -0.22px;
     line-height: 19.5px;
+    margin-bottom: 0;
+    margin-top: 0.3125rem;
   }
 }
 /*# sourceMappingURL=page1-991.css.map */

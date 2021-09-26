@@ -98,11 +98,9 @@
   .section-1 {
     background-image: url("../../assets/images/header-homepage.jpg");
     max-height: 100%;
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* Needed to position the navbar */
   }
   .section-1 .navbar .container .navbar-toggler {
     margin-left: -1rem;
@@ -603,23 +601,33 @@ li.nav-item .dropdown-item {
   }
   .Footer .footerBody .bodyRight a {
     margin-top: 1.9375rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    text-decoration: none;
   }
   .Footer .footerBody .bodyRight a img {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     padding-right: 1rem;
   }
   .Footer .footerBody .bodyRight a h5 {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     color: #ffffff;
     font-family: "IBMPlexSans-Light";
     font-size: 15px;
     letter-spacing: -0.22px;
     line-height: 19.5px;
     text-decoration: none;
+    margin-top: 0.3125rem;
+    margin-bottom: 0;
   }
 }
 /*# sourceMappingURL=page1-990.css.map */

@@ -78,11 +78,9 @@
   .section-1 {
     background-image: url("../../assets/images/header-homepage.jpg");
     max-height: 100%;
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* Needed to position the navbar */
   }
   .section-1 .navbar .container .navbar-toggler {
     margin-left: -1rem;
@@ -719,7 +717,7 @@ li.nav-item .dropdown-item {
     border-color: #0a2939;
   }
   .section-4 button {
-    height: 3.5srem;
+    height: 3.5rem;
     border-radius: 1.5rem;
     background-color: #0a2939;
     font-size: 1rem;

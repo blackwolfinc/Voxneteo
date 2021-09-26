@@ -4,41 +4,33 @@
   ::-webkit-scrollbar {
     height: 5px;
   }
-  
   /* Track */
   ::-webkit-scrollbar-track {
     background: #f1f1f1;
   }
-  
   /* Handle */
   ::-webkit-scrollbar-thumb {
     background: #888;
   }
-  
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
-  
     .show425 {
         display: none !important;
-      
         img {
           width: inherit;
         }
       }
-      
       hr {
         border: 1.5px solid #113d53;
         padding: 0 10px;
-      }
-      
+      } 
       li.hidden {
         ul.dash {
           list-style-type: none;
           margin-top: 30px;
           padding-left: 10px;
-      
           li {
             font-family: $ibmReguler;
             font-size: 14px;
@@ -48,15 +40,12 @@
             text-indent: -5px;
             font-weight: 400;
           }
-      
           li.first {
             color: $color3;
           }
-      
           li.last {
             margin-bottom: 48px;
           }
-      
           li:before {
             content: "\2015";
             text-indent: -20px;
@@ -65,33 +54,25 @@
           }
         }
       }
-      
       .custom-toggler .navbar-toggler-icon {
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
         border: none;
       }
-      
       .section-1 {
         background-image: url("../../assets/images/header-homepage.jpg");
         max-height: 100%;
-        /* Center and scale the image nicely */
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        /* Needed to position the navbar */
-      
         .navbar .container .navbar-toggler {
           margin-left: -1rem;
         }
-      
         ul li a {
           width: auto;
         }
       }
-      
       li.nav-item {
         margin-left: 0;
-      
         svg {
           width: 30px;
           margin-top: 2rem;
@@ -105,19 +86,16 @@
             margin-bottom: 0.5rem;
           }
         }
-      
         .dropdown-toggle::after {
           display: none;
           background-color: transparent;
         }
-      
         #dropdownMenuButton.nav-link {
           border: 2px solid #e5e5e5;
           padding-left: 2.4375rem;
           padding-right: 3.4375rem;
           border-radius: 1.25rem;
         }
-      
         .nav-link,
         button span,
         .dropdown-item {
@@ -126,52 +104,43 @@
           font-size: 18px;
         }
       }
-      
       li.drop {
         .btn-group {
           margin-top: -0.5rem;
-      
           .dropdown-menu {
             .dropdown-item {
               font-size: 1rem;
             }
-      
             .dropdown-item.first {
               color: $color3;
               margin-bottom: 0.5rem;
             }
           }
         }
-      
         button.btn {
           border-radius: 2.4rem;
           padding: 0.7rem 1.6rem;
           background-color: transparent;
         }
-      
         button.btn-danger {
           border: 2px solid white;
         }
-      
         button.dropdown-toggle {
           color: $color3;
         }
-      
         button {
           span {
             color: white;
           }
         }
-      }
-      
+      } 
       .show {
         .btn-danger.dropdown-toggle {
           background-color: transparent;
           border: 2px solid white;
           color: $color3;
         }
-      }
-      
+      }  
       .navbar-expand-lg .navbar-nav .dropdown-menu {
         position: absolute;
         top: 3.9rem;
@@ -180,18 +149,15 @@
         padding-right: 1.5rem;
         width: 13rem;
       }
-      
       .navbar-light .navbar-nav .nav-link:focus,
       .navbar-light .navbar-nav .nav-link:hover {
         color: $color1;
       }
-      
       li.hidden ul li {
         font-family: $ibmSemiBold;
         font-weight: 600;
         font-size: 1rem;
       }
-      
       .section-4 {
         display: flex;
         flex-direction: column;
@@ -201,7 +167,6 @@
           }
         }
       }
-      
       .Footer {
         .container {
           .foooterBody {
@@ -211,7 +176,6 @@
           }
         }
       }
-      
       .section-3 {
         .content {
           .row {
@@ -241,7 +205,6 @@
           }
         }
       }
-
     .navbar-nav {
       top: 0;
       left: 0;
@@ -257,11 +220,9 @@
         margin-top: 1rem;
       }
     }
-  
     .nav-item.one {
       margin-top: 0;
     }
-  
     li.nav-item {
       margin-top: 3rem;
       margin-left: 1.5rem;
@@ -286,12 +247,10 @@
           color: $color6 !important;
         }
       }
-  
       .contact {
         margin-bottom: 0;
       }
     }
-  
     li.hidden {
       margin-top: 0;
       border-top: 1.5px solid #113d53;
@@ -621,18 +580,23 @@
           border-top: 1.5px solid #113d53;
           a {
            margin-top: 1.9375rem;
+           display: flex;
+           flex-direction: row;
+           text-decoration: none;
             img {
-              display: inline-flex;
+              display: flex;
               padding-right: 1rem;
             }
             h5 {
-              display: inline-flex;
+              display: flex;
               color: #ffffff;
               font-family: "IBMPlexSans-Light";
               font-size: 15px;
               letter-spacing: -0.22px;
               line-height: 19.5px;
               text-decoration: none;
+              margin-top: .3125rem;
+              margin-bottom: 0;
             }
           }
         }

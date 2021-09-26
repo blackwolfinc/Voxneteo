@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @media (max-width: 991.98px) {
   .navbar-nav {
     top: 0;
@@ -10,6 +11,7 @@
     padding: 1.5rem;
     color: white;
   }
+
   .navbar-nav li .nav-link {
     font-family: "IBMPlexSans-SemiBold";
     font-size: 18px;
@@ -17,17 +19,21 @@
     line-height: 23px;
     margin-bottom: 24px;
   }
+
   .navbar-nav li .nav-link:hover {
     color: orange;
   }
+
   .navbar-nav li .nav-link.contact {
     margin-bottom: 50px;
   }
+
   .navbar-nav li ul.dash {
     list-style-type: none;
     margin-top: 30px;
     padding-left: 10px;
   }
+
   .navbar-nav li ul.dash li {
     font-family: "IBMPlexSans";
     font-size: 14px;
@@ -36,34 +42,42 @@
     margin-bottom: 24px;
     text-indent: -5px;
   }
+
   .navbar-nav li ul.dash li:hover {
     color: #f05e36;
   }
+
   .navbar-nav li ul.dash li.first {
     color: #f05e36;
   }
+
   .navbar-nav li ul.dash li:before {
-    content: "\2015";
+    content: "―";
     text-indent: -5px;
     margin-right: 13px;
     color: #f05e36;
   }
+
   .navbar-nav #listhide {
     border-top: 1.5px solid #113d53;
   }
+
   .navbar-nav #hidebtn {
     width: 1.875rem;
     margin-left: -0.25rem;
     margin-bottom: 1.25rem;
   }
+
   .navbar-light .navbar-toggler {
     border: none;
   }
+
   .container {
     margin-left: 0;
     margin-right: 0;
     max-width: 100%;
   }
+
   .container .navbar {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -77,9 +91,11 @@
     border-bottom: 1px solid #e3e3e3;
     padding-bottom: 20px;
   }
+
   .container .navbar .line {
     display: none;
   }
+
   .container .section-one {
     margin-top: 0;
     -webkit-box-orient: vertical;
@@ -90,14 +106,17 @@
     display: -ms-flexbox;
     display: flex;
   }
+
   .container .section-one .section-one-left {
     background-color: transparent;
   }
+
   .container .section-one .section-one-left .text {
     margin-left: 0;
     position: block;
     margin-top: 1.375rem;
   }
+
   .container .section-one .section-one-left .text h1 {
     height: auto;
     color: #f05e36;
@@ -106,6 +125,7 @@
     letter-spacing: -0.03875rem;
     line-height: 2.375rem;
   }
+
   .container .section-one .section-one-left .text h5 {
     margin-top: 0.75rem;
     color: #021925;
@@ -115,15 +135,18 @@
     letter-spacing: 0.00625rem;
     line-height: 1.125rem;
   }
+
   .container .section-one .section-one-right {
     position: block;
     margin-left: 0;
     margin-top: 1.625rem;
   }
+
   .container .section-one .section-one-right .overlay {
     background-color: #f05e36;
     margin-bottom: 1.25rem;
   }
+
   .container .section-one .section-one-right .overlay img {
     height: 100%;
     width: 100%;
@@ -132,6 +155,7 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
   .container .section-two {
     margin-top: 2.0625rem;
     -webkit-box-orient: vertical;
@@ -142,6 +166,7 @@
     display: -ms-flexbox;
     display: flex;
   }
+
   .container .section-two .section-two-left .wrapper-left-one h3 {
     color: #0a2939;
     font-family: "IBM Plex Sans";
@@ -150,6 +175,7 @@
     letter-spacing: -0.26px;
     line-height: 28px;
   }
+
   .container .section-two .section-two-left .wrapper-left-two p {
     color: #0a2939;
     font-family: "IBM Plex Sans";
@@ -159,18 +185,22 @@
     line-height: 26px;
     margin-bottom: 1.375rem;
   }
+
   .container .section-two .section-two-left .wrapper-left-three {
     margin-right: -1.5rem;
   }
+
   .container .section-two .section-two-left .wrapper-left-three img {
     width: 100%;
     margin-left: -1.5rem;
   }
+
   .container .section-two .section-two-left .wrapper-left-four {
     margin-top: 2rem;
     background-color: #0a2939;
     padding: 2rem;
   }
+
   .container .section-two .section-two-left .wrapper-left-four h3 {
     color: #f05e36;
     font-family: Butler;
@@ -179,6 +209,7 @@
     letter-spacing: -0.47px;
     line-height: 36px;
   }
+
   .container .section-two .section-two-left .wrapper-left-four p {
     color: #ffffff;
     font-family: "IBM Plex Sans";
@@ -187,12 +218,15 @@
     letter-spacing: -0.11px;
     line-height: 28px;
   }
+
   .container .section-two .section-two-right {
     margin-top: 1.4375rem;
   }
+
   .container .section-two .section-two-right .wrapper-right-one {
     display: none;
   }
+
   .container .section-two .section-two-right .wrapper-right-one p {
     color: #0a2939;
     font-family: "IBMPlexSans-Light";
@@ -201,9 +235,11 @@
     letter-spacing: -0.005625rem;
     line-height: 1.625rem;
   }
+
   .container .section-two .section-two-right .wrapper-right-one ul {
     list-style: square;
   }
+
   .container .section-two .section-two-right .wrapper-right-one ul li {
     color: #ffffff;
     font-family: "Butler";
@@ -212,6 +248,7 @@
     letter-spacing: -0.036875rem;
     line-height: 3.125rem;
   }
+
   .container .section-two .section-two-right .wrapper-right-two p {
     color: #0a2939;
     font-family: "IBMPlexSans-Light";
@@ -220,6 +257,7 @@
     letter-spacing: -0.005625rem;
     line-height: 1.625rem;
   }
+
   .container .section-two .section-two-right .wrapper-right-three h3 {
     color: #f05e36;
     font-family: "IBM Plex Sans";
@@ -229,6 +267,7 @@
     line-height: 28px;
     margin-top: 2.125rem;
   }
+
   .container .section-two .section-two-right .wrapper-right-three p {
     margin-top: 1.25rem;
     color: #0a2939;
@@ -238,6 +277,7 @@
     letter-spacing: -0.005625rem;
     line-height: 1.625rem;
   }
+
   .container .section-two .section-two-right .wrapper-right-four {
     padding: 1.5rem;
     padding-left: 0;
@@ -245,6 +285,7 @@
     margin-top: 2.4375rem;
     padding-bottom: 0;
   }
+
   .container .section-two .section-two-right .wrapper-right-four h1 {
     color: #f05e36;
     font-family: "IBM Plex Sans";
@@ -254,11 +295,13 @@
     line-height: 28px;
     margin-bottom: 1.25rem;
   }
+
   .container .section-two .section-two-right .wrapper-right-four ul {
     margin-left: 0;
     padding-left: 0;
     margin-left: 1.5rem;
   }
+
   .container .section-two .section-two-right .wrapper-right-four ul li {
     color: #0a2939;
     font-family: "IBM Plex Sans";
@@ -271,6 +314,7 @@
     display: -ms-flexbox;
     display: flex;
   }
+
   .container .section-two .section-two-right .wrapper-right-four ul .strip {
     text-indent: -20px;
     color: #f05e36;
@@ -282,6 +326,7 @@
     display: -ms-inline-flexbox;
     display: inline-flex;
   }
+
   .container .section-two .section-two-right .wrapper-right-four ul p {
     color: #0a2939;
     font-family: "IBM Plex Sans";
@@ -293,9 +338,11 @@
     display: -ms-inline-flexbox;
     display: inline-flex;
   }
+
   .container .section-three {
     margin-top: 1.875rem;
   }
+
   .container .section-three .section-three-top h1 {
     margin: 1.5rem;
     margin-left: 0;
@@ -306,6 +353,7 @@
     letter-spacing: -0.5px;
     line-height: 38px;
   }
+
   .container .section-three .section-three-bottom img {
     border-radius: 12px;
     height: 50%;
@@ -313,12 +361,14 @@
     margin-top: 1rem;
     margin-bottom: 2rem;
   }
+
   .container .section-three .section-three-bottom .cardSlider {
     opacity: 0.9;
     background-color: #f05e36;
     padding: 1.5rem;
     margin-top: 1rem;
   }
+
   .container .section-three .section-three-bottom .cardSlider h2 {
     color: #0a2939;
     font-family: Butler;
@@ -326,6 +376,7 @@
     letter-spacing: 0;
     line-height: 34px;
   }
+
   .container .section-three .section-three-bottom .cardSlider a {
     color: #ffffff;
     font-family: "IBM Plex Sans";
@@ -334,12 +385,15 @@
     line-height: 24px;
     text-decoration: none;
   }
+
   .container .section-three .section-three-bottom .cardSlider p a {
     padding: 0;
   }
+
   .container .section-three .section-three-bottom .cardSlider .link {
     margin-bottom: -0.625rem;
   }
+
   .container .section-three .section-three-bottom .cardSlider p {
     color: white;
     font-family: "IBM Plex Sans";
@@ -347,6 +401,7 @@
     letter-spacing: 0;
     line-height: 2.125rem;
   }
+
   .container .section-four .section-four-top h5 {
     margin-top: 3rem;
     color: #f05e36;
@@ -357,16 +412,19 @@
     line-height: 28px;
     margin-bottom: 1.25rem;
   }
+
   .container .section-four .section-four-bottom .section-four-bottom-left ul {
     padding-left: 0;
     margin-bottom: 0;
   }
+
   .container .section-four .section-four-bottom .section-four-bottom-left ul li {
     list-style: none;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
+
   .container .section-four .section-four-bottom .section-four-bottom-left ul li .strip {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -375,6 +433,7 @@
     font-size: 1.875rem;
     padding-right: 0.8125rem;
   }
+
   .container .section-four .section-four-bottom .section-four-bottom-left ul li p {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -386,18 +445,22 @@
     letter-spacing: 0;
     line-height: 34px;
   }
+
   .container .section-four .section-four-bottom .section-four-bottom-left ul li p:hover {
     color: #f05e36;
   }
+
   .container .section-four .section-four-bottom .section-four-bottom-right ul {
     padding-left: 0;
   }
+
   .container .section-four .section-four-bottom .section-four-bottom-right ul li {
     list-style: none;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
+
   .container .section-four .section-four-bottom .section-four-bottom-right ul li .strip {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -406,6 +469,7 @@
     font-size: 1.875rem;
     padding-right: 0.8125rem;
   }
+
   .container .section-four .section-four-bottom .section-four-bottom-right ul li p {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -417,13 +481,16 @@
     letter-spacing: 0;
     line-height: 34px;
   }
+
   .container .section-four .section-four-bottom .section-four-bottom-right ul li p:hover {
     color: #f05e36;
   }
+
   .container .section-five {
     margin-top: 1.875rem;
     border: 4px solid rgba(246, 110, 73, 0.15);
   }
+
   .container .section-five .section-five-body .logo {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -436,9 +503,11 @@
     padding-right: 3.75rem;
     padding-bottom: 2.3125rem;
   }
+
   .container .section-five .section-five-body .logo img {
     width: 11.625rem;
   }
+
   .container .section-five .section-five-body .title {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -448,6 +517,7 @@
     justify-content: center;
     margin-bottom: 1.5625rem;
   }
+
   .container .section-five .section-five-body h2 {
     color: #002f39;
     font-family: "Minion-Bold";
@@ -459,6 +529,7 @@
     text-transform: uppercase;
     margin-bottom: 1rem;
   }
+
   .container .section-five .section-five-body p {
     margin-top: 1rem;
     width: 256px;
@@ -471,6 +542,7 @@
     margin-bottom: 0;
     margin-top: 0;
   }
+
   .container .section-five .section-five-center .mc-field-group {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -479,6 +551,7 @@
     -ms-flex-pack: center;
     justify-content: center;
   }
+
   .container .section-five .section-five-center .mc-field-group input {
     color: #363636;
     font-family: "IBM Plex Sans";
@@ -498,56 +571,74 @@
     margin-top: 0;
     padding-bottom: 1rem;
   }
+
   .container .section-five .section-five-center .mc-field-group ::-webkit-input-placeholder {
     height: 30px;
     width: 256px;
-    color: #f05e36;
+    color: black;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     letter-spacing: -0.24px;
     line-height: 30px;
     text-align: center;
   }
+
   .container .section-five .section-five-center .mc-field-group :-ms-input-placeholder {
     height: 30px;
     width: 256px;
-    color: #f05e36;
+    color: black;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     letter-spacing: -0.24px;
     line-height: 30px;
     text-align: center;
   }
+
   .container .section-five .section-five-center .mc-field-group ::-ms-input-placeholder {
     height: 30px;
     width: 256px;
-    color: #f05e36;
+    color: black;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     letter-spacing: -0.24px;
     line-height: 30px;
     text-align: center;
   }
+
+  .container .section-five .section-five-center .mc-field-group ::-moz-placeholder {
+    height: 30px;
+    width: 256px;
+    color: black;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: center;
+  }
+
   .container .section-five .section-five-center .mc-field-group ::placeholder {
     height: 30px;
     width: 256px;
-    color: #f05e36;
+    color: black;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     letter-spacing: -0.24px;
     line-height: 30px;
     text-align: center;
   }
+
   .container .section-five .section-five-center .mc-field-group [placeholder] + span::after {
     content: "*";
     color: red;
   }
+
   .container .section-five .section-five-center h6 {
     text-align: center;
     font-family: "IBMPlexSans-Medium";
     color: #002f39;
     margin-bottom: 1.9375rem;
   }
+
   .container .section-five .section-five-center .mc_fieldset {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -558,6 +649,7 @@
     margin-top: 1.3125rem;
     margin-bottom: 1.875rem;
   }
+
   .container .section-five .section-five-center .mc_fieldset input {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -565,6 +657,7 @@
     border: 2px solid #ffffff;
     margin-right: 0.5rem;
   }
+
   .container .section-five .section-five-center .mc_fieldset .text {
     color: #002f39;
     font-family: "IBM Plex Sans";
@@ -573,6 +666,7 @@
     line-height: 18px;
     margin-right: 0.3125rem;
   }
+
   .container .section-five .section-five-center .mc_fieldset a {
     color: #002f39;
     font-family: "IBM Plex Sans";
@@ -580,12 +674,14 @@
     letter-spacing: -0.21px;
     line-height: 18px;
   }
+
   .container .section-five .section-five-bottom {
     margin-top: 1.875rem;
   }
+
   .container .section-five .section-five-bottom p {
     height: 48px;
-    width: 256px;
+    width: 100%;
     color: #f66e49;
     font-family: "IBM Plex Sans";
     font-size: 18px;
@@ -593,6 +689,7 @@
     line-height: 24px;
     text-align: center;
   }
+
   .container .section-five .section-five-bottom .mc-field-group {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -602,6 +699,7 @@
     justify-content: center;
     margin-top: 2rem;
   }
+
   .container .section-five .section-five-bottom input {
     color: #363636;
     font-family: "IBM Plex Sans";
@@ -625,6 +723,7 @@
     padding-bottom: 1rem;
     width: 90%;
   }
+
   .container .section-five .section-five-bottom ::-webkit-input-placeholder {
     color: #363636;
     font-family: "IBM Plex Sans";
@@ -634,6 +733,7 @@
     text-align: left;
     width: 100%;
   }
+
   .container .section-five .section-five-bottom :-ms-input-placeholder {
     color: #363636;
     font-family: "IBM Plex Sans";
@@ -643,6 +743,7 @@
     text-align: left;
     width: 100%;
   }
+
   .container .section-five .section-five-bottom ::-ms-input-placeholder {
     color: #363636;
     font-family: "IBM Plex Sans";
@@ -652,6 +753,17 @@
     text-align: left;
     width: 100%;
   }
+
+  .container .section-five .section-five-bottom ::-moz-placeholder {
+    color: #363636;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    text-align: left;
+    width: 100%;
+  }
+
   .container .section-five .section-five-bottom ::placeholder {
     color: #363636;
     font-family: "IBM Plex Sans";
@@ -661,9 +773,11 @@
     text-align: left;
     width: 100%;
   }
+
   .container .section-five .section-five-bottom-2 {
     padding: 1.5625rem;
   }
+
   .container .section-five .section-five-bottom-2 button {
     margin-top: 2rem;
     border: 1px solid #fff;
@@ -679,10 +793,12 @@
     background-color: #f05e36;
     width: 100%;
   }
+
   .Footer {
     margin-top: 1.875rem !important;
     background-color: #021925 !important;
   }
+
   .Footer .container .footerHeader img {
     margin-left: auto !important;
     margin-right: auto !important;
@@ -691,6 +807,7 @@
     width: 11.625rem !important;
     padding-bottom: 3rem !important;
   }
+
   .Footer .container .foooterBody {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
@@ -709,6 +826,7 @@
     width: 100% !important;
     height: auto !important;
   }
+
   .Footer .container .foooterBody .footerBodyLeft {
     width: 100% !important;
     -webkit-box-sizing: border-box !important;
@@ -726,11 +844,13 @@
     flex-direction: column !important;
     padding-bottom: 0 !important;
   }
+
   .Footer .container .foooterBody .footerBodyLeft .footerBodyLeftOne {
     padding-right: 0 !important;
     margin-right: 0 !important;
     width: 100%;
   }
+
   .Footer .container .foooterBody .footerBodyLeft li {
     color: #ffffff;
     font-family: "IBMPlexSans-Light";
@@ -743,6 +863,7 @@
     padding-bottom: 1.5rem;
     list-style: none;
   }
+
   .Footer .container .foooterBody .footerBodyRight {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -759,9 +880,11 @@
     justify-content: center;
     border: none;
   }
+
   .Footer .container .foooterBody .footerBodyRight img {
     padding-right: 1rem;
   }
+
   .Footer .container .foooterBody .footerBodyRight h5 {
     display: inline-block;
     color: #ffffff;

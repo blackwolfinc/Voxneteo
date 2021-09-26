@@ -320,12 +320,19 @@
             width: 100%;
             margin-top: 1rem;
           }
+
+          .carousel-indicators {
+            display: none;
+          }
           .cardSlider {
             opacity: 0.9;
-            background-color: #f05e36;
-            padding: 1.5rem;
-            margin-top: 1rem;
+            .overlay {
+              background-color: #f05e36;
+              margin-top: 1rem;
+              padding: 2rem 2.125rem;
+            }
             h2 {
+              width: 240px;
               color: #0a2939;
               font-family: Butler;
               font-size: 28px;
@@ -678,6 +685,11 @@
             width: 100%;
             justify-content: center;
             border: none;
+            a {
+              display: flex;
+              flex-direction: row;
+              color: transparent;
+            }
             img {
               padding-right: 1rem;
             }
@@ -688,6 +700,9 @@
               font-size: 15px;
               letter-spacing: -0.22px;
               line-height: 19.5px;
+              margin-bottom: 0;
+              margin-top: .3125rem;
+              text-decoration: none;
           }
         }
       }

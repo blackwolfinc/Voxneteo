@@ -669,6 +669,7 @@
       border: none;
       width: 12.8rem;
       padding-bottom: 1.25rem;
+      padding-left: 0;
     }
     .section-five .section-five-body .section-five-center ::-webkit-input-placeholder {
       border-left: 2px solid #002f39;
@@ -736,7 +737,7 @@
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center;
-      margin: 4rem 5rem;
+      margin: 4rem 0;
       margin-bottom: 4rem;
     }
     .section-five .section-five-bottom-2 .button {

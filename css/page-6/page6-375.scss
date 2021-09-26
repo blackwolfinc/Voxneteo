@@ -422,7 +422,7 @@
             ::placeholder {
               height: 30px;
               width: 256px;
-              color: #f05e36;
+              color: black !important;
               font-family: "IBM Plex Sans";
               font-size: 16px;
               letter-spacing: -0.24px;
@@ -434,13 +434,6 @@
               content: "*";
               color: red;
             }
-  
-            // input[type=email]+span::before{
-            //     content:" *";
-            //     color: red;
-            //     display: inline;
-            //     margin-left: -20px;
-            //  }
           }
   
           h6 {
@@ -609,6 +602,10 @@
             width: 100%;
             justify-content: center;
             border: none;
+
+            a {
+              color: transparent;
+            }
   
             img {
               padding-right: 1rem;
