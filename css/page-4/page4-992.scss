@@ -1,0 +1,33 @@
+@import 'variable';
+
+@media only screen and (min-width: 720px) and (max-width: 992px) {
+    .sectionBody {
+      .containerCards {
+        height: 132rem;
+        .item {
+          width: 40%;
+          &.center {
+            .containerImage {
+              &::after {
+                bottom: 0.5rem;
+              }
+            }
+          }
+          &.top-center {
+            margin-top: 0;
+          }
+          &.top-right {
+            margin-top: 0;
+          }
+          .containerImage {
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+    .sectionAddActuals {
+      margin-top: -3rem;
+    }
+  }

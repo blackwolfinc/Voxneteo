@@ -1,0 +1,17 @@
+@import 'variable';
+
+@media only screen and (min-width: 620px) and (max-width: 719px) {
+    .sectionBody {
+      .containerCategories {
+        li {
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+      .containerCategoriesCornerBlur {
+        display: none;
+        visibility: hidden;
+      }
+    }
+  }

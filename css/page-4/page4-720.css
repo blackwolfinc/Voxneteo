@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "IBMPlexSans";
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans.ttf");
+}
+@font-face {
+  font-family: "IBMPlexSans-SemiBold";
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBold.ttf");
+}
+@font-face {
+  font-family: "IBMPlexSans-Light";
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Light.ttf");
+}
+@font-face {
+  font-family: "IBMPlexSans-Medium";
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-Medium.ttf");
+}
+@font-face {
+  font-family: "IBMPlexSans-SemiBoldItalic";
+  src: url("../../assets/fonts/webfont-ibm-plex/IBMPlexSans-SemiBoldItalic.ttf");
+}
+@font-face {
+  font-family: "Butler-Light";
+  src: url("../../assets/fonts/webfont-butler/Butler-Light.ttf");
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/fonts/webfont-butler/Butler.ttf");
+}
+@font-face {
+  font-family: "Minion-DisplayItalic";
+  src: url("../../assets/fonts/webfont-minion/Minion-DisplayItalic.ttf");
+}
+@font-face {
+  font-family: "Minion-Bold";
+  src: url("../../assets/fonts/webfont-minion/Minion-Bold.ttf");
+}
+@media only screen and (min-width: 0px) and (max-width: 720px) {
+  .sectionAddActuals {
+    margin-top: -1rem;
+  }
+
+  .sectionBody {
+    margin-top: 2rem;
+    display: block;
+  }
+  .sectionBody .containerCategoriesCornerBlur {
+    position: relative;
+  }
+  .sectionBody .containerCategoriesCornerBlur div {
+    right: 0;
+    height: 60px;
+    width: 20%;
+    z-index: 1;
+    position: absolute;
+    background: transparent;
+    background: -webkit-gradient(linear, left top, right top, from(transparent), to(white));
+    background: linear-gradient(90deg, transparent 0%, white 100%);
+  }
+  .sectionBody .containerCategories {
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: auto;
+  }
+  .sectionBody .containerCategories li {
+    margin-right: 1rem;
+    display: inline-block;
+  }
+  .sectionBody .containerCards {
+    height: auto;
+    width: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+  }
+  .sectionBody .containerCards .item {
+    margin-bottom: 3.4375rem;
+    width: 100%;
+  }
+  .sectionBody .containerCards .item .date {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.47px;
+  }
+  .sectionBody .containerCards .item .title {
+    letter-spacing: -0.26px;
+  }
+  .sectionBody .containerCards .item .subTitle {
+    margin-bottom: 0.8rem;
+  }
+  .sectionBody .containerCards .item .containerImage::after {
+    display: none;
+    visibility: hidden;
+  }
+  .sectionBody .containerCards .item .containerImage img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 100%;
+  }
+  .sectionBody .containerCards .item.top-center {
+    margin-top: 0;
+  }
+  .sectionBody .containerCards .item.top-right {
+    margin-top: 0;
+  }
+  .sectionBody .containerCards .item.quotes.pink {
+    margin-bottom: 2.36625rem;
+  }
+}
+/*# sourceMappingURL=page4-720.css.map */

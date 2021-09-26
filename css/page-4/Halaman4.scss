@@ -1,3 +1,5 @@
+@import 'variable';
+
 .container {
   .navbar-nav {
     z-index: 2;
@@ -165,8 +167,8 @@
   }
 }
 
-.sectionSatu {
-  .sectionSatuKanan {
+.sectionOne {
+  .contentRight {
     img {
       width: 1019px;
     }
@@ -174,177 +176,10 @@
 }
 
 .container {
-  .sectionLima {
-    //parent: halaman 2
+  .sectionFive {
     margin-top: 2rem;
   }
 }
 
-@media only screen and (min-width: 1400px) {
-  .navbar {
-    .nav-item {
-      .nav-link {
-        transition: border-color 0.3s ease-in-out;
-      }
-    }
-  }
-  .sectionSatu .sectionSatuKiri .text {
-    //parent: halaman 2
-    top: 23.875rem;
-  }
 
-  .sectionSatu {
-    .sectionSatuKanan {
-      img {
-        width: 1019px;
-      }
-    }
-  }
-}
 
-@media only screen and (min-width: 0px) and (max-width: 1184px) {
-  .sectionBody {
-    .containerCards {
-      .item {
-        &.center {
-          .containerImage {
-            &::after {
-              bottom: 2.5rem;
-            }
-          }
-        }
-        width: 257px;
-        .containerImage {
-          img {
-            width: 257px;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media only screen and (min-width: 0px) and (max-width: 992px) {
-  .sectionBody {
-    .containerCards {
-      height: 132rem;
-      .item {
-        width: 40%;
-        &.center {
-          .containerImage {
-            &::after {
-              bottom: 0.5rem;
-            }
-          }
-        }
-        &.top-center {
-          margin-top: 0;
-        }
-        &.top-right {
-          margin-top: 0;
-        }
-        .containerImage {
-          img {
-            width: 100%;
-          }
-        }
-      }
-    }
-  }
-  .sectionAddActuals {
-    margin-top: -3rem;
-  }
-}
-
-@media only screen and (min-width: 0px) and (max-width: 720px) {
-  .sectionAddActuals {
-    margin-top: -1rem;
-  }
-  .sectionBody {
-    margin-top: 2rem;
-    display: block;
-    .containerCategoriesCornerBlur {
-      position: relative;
-      div {
-        right: 0;
-        height: 60px;
-        width: 20%;
-        z-index: 1;
-        position: absolute;
-        background: transparent;
-        background: linear-gradient(90deg, transparent 0%, white 100%);
-      }
-    }
-    .containerCategories {
-      position: relative;
-      overflow-x: scroll;
-      overflow-y: hidden;
-      white-space: nowrap;
-      width: auto;
-      li {
-        margin-right: 1rem;
-        display: inline-block;
-      }
-    }
-    .containerCards {
-      height: auto;
-      width: auto;
-      align-items: center;
-      padding: 0;
-
-      .item {
-        margin-bottom: 3.4375rem;
-        width: 100%;
-        .date {
-          font-size: 2rem;
-          margin-top: 1rem;
-          margin-bottom: 0.5rem;
-          letter-spacing: -0.47px;
-        }
-        .title {
-          letter-spacing: -0.26px;
-        }
-        .subTitle {
-          margin-bottom: 0.8rem;
-        }
-        .containerImage {
-          &::after {
-            display: none;
-            visibility: hidden;
-          }
-          img {
-            object-fit: contain;
-            width: 100%;
-          }
-        }
-        &.top-center {
-          margin-top: 0;
-        }
-        &.top-right {
-          margin-top: 0;
-        }
-        &.quotes {
-          &.pink {
-            margin-bottom: 2.36625rem;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media only screen and (min-width: 620px) and (max-width: 719px) {
-  .sectionBody {
-    .containerCategories {
-      li {
-        &:last-child {
-          margin-right: 0;
-        }
-      }
-    }
-    .containerCategoriesCornerBlur {
-      display: none;
-      visibility: hidden;
-    }
-  }
-}

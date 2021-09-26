@@ -1,0 +1,78 @@
+@import 'variable';
+
+@media only screen and (min-width: 0px) and (max-width: 720px) {
+    .sectionAddActuals {
+      margin-top: -1rem;
+    }
+    .sectionBody {
+      margin-top: 2rem;
+      display: block;
+      .containerCategoriesCornerBlur {
+        position: relative;
+        div {
+          right: 0;
+          height: 60px;
+          width: 20%;
+          z-index: 1;
+          position: absolute;
+          background: transparent;
+          background: linear-gradient(90deg, transparent 0%, white 100%);
+        }
+      }
+      .containerCategories {
+        position: relative;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        width: auto;
+        li {
+          margin-right: 1rem;
+          display: inline-block;
+        }
+      }
+      .containerCards {
+        height: auto;
+        width: auto;
+        align-items: center;
+        padding: 0;
+  
+        .item {
+          margin-bottom: 3.4375rem;
+          width: 100%;
+          .date {
+            font-size: 2rem;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.47px;
+          }
+          .title {
+            letter-spacing: -0.26px;
+          }
+          .subTitle {
+            margin-bottom: 0.8rem;
+          }
+          .containerImage {
+            &::after {
+              display: none;
+              visibility: hidden;
+            }
+            img {
+              object-fit: contain;
+              width: 100%;
+            }
+          }
+          &.top-center {
+            margin-top: 0;
+          }
+          &.top-right {
+            margin-top: 0;
+          }
+          &.quotes {
+            &.pink {
+              margin-bottom: 2.36625rem;
+            }
+          }
+        }
+      }
+    }
+}
