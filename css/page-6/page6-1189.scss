@@ -1,6 +1,6 @@
 @import "../page-6/contact";
 
-@media (min-width: 1189px) and (max-width: 1399.98px) {
+@media (min-width: 1200px) and (max-width: 1399.98px) {
     .container {
       padding-left: 0px;
       padding-right: 0px;
@@ -21,8 +21,8 @@
       }
   
       .navbar-collapse {
-        justify-content: flex-end;
-        padding-left: 10%;
+        justify-content: flex-start;
+        margin-left: 12.5rem;
       }
   
       .bg-white {
@@ -156,7 +156,7 @@
         z-index: -1;
         display: flex;
         justify-content: flex-end;
-        // margin-right: -3.75rem;
+        margin-left: 12.5rem;
         height: 350px;
   
         img.mobile {
@@ -457,6 +457,7 @@
             border: none;
             width: 12.8rem;
             padding-bottom: 1.25rem;
+            padding-left: 0 !important;
           }
   
           ::placeholder {
