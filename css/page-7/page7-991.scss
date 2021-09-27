@@ -663,6 +663,13 @@
     }
     .container .section-five .section-five-bottom-2 {
       padding: 1.5625rem;
+       .g-recaptcha {
+        display: flex;
+        justify-content: center;
+       }
+       button {
+         width: 100% !important;
+       }
     }
     .container .section-five .section-five-bottom-2 button {
       margin-top: 2rem;
