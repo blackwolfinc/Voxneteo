@@ -506,15 +506,17 @@
           .mc-field-group {
             display: flex;
             justify-content: center;
-  
+            margin-right: 3.75rem;
+            margin-left: 3.75rem;
+
             input {
+              width: 100%;
               color: #363636;
               font-family: "IBM Plex Sans";
               font-size: 16px;
               letter-spacing: -0.24px;
               line-height: 30px;
               text-align: center;
-  
               margin: auto;
               display: block;
               border: none;
@@ -644,7 +646,10 @@
           margin-right: 3.75rem;
           padding-left: 0;
           padding-right: 0;
-  
+            .g-recaptcha {
+              display: flex;
+              justify-content: center;
+            }
           button {
             margin-top: 1.5625rem;
             border: 1px solid #fff;

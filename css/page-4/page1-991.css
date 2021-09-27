@@ -517,6 +517,8 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-right: 3.75rem;
+    margin-left: 3.75rem;
   }
   .container .sectionFive .sectionFiveMid .mc-field-group input {
     color: #363636;
@@ -525,6 +527,7 @@
     letter-spacing: -0.24px;
     line-height: 30px;
     text-align: center;
+    width: 100%;
     margin: auto;
     display: block;
     border: none;
@@ -540,7 +543,7 @@
   .container .sectionFive .sectionFiveMid .mc-field-group ::-webkit-input-placeholder {
     height: 30px;
     width: 256px;
-    color: #f05e36;
+    color: black;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     letter-spacing: -0.24px;
@@ -550,7 +553,7 @@
   .container .sectionFive .sectionFiveMid .mc-field-group ::-moz-placeholder {
     height: 30px;
     width: 256px;
-    color: #f05e36;
+    color: black;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     letter-spacing: -0.24px;
@@ -560,7 +563,7 @@
   .container .sectionFive .sectionFiveMid .mc-field-group :-ms-input-placeholder {
     height: 30px;
     width: 256px;
-    color: #f05e36;
+    color: black;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     letter-spacing: -0.24px;
@@ -570,7 +573,7 @@
   .container .sectionFive .sectionFiveMid .mc-field-group ::-ms-input-placeholder {
     height: 30px;
     width: 256px;
-    color: #f05e36;
+    color: black;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     letter-spacing: -0.24px;
@@ -580,7 +583,7 @@
   .container .sectionFive .sectionFiveMid .mc-field-group ::placeholder {
     height: 30px;
     width: 256px;
-    color: #f05e36;
+    color: black;
     font-family: "IBM Plex Sans";
     font-size: 16px;
     letter-spacing: -0.24px;
@@ -634,7 +637,7 @@
   }
   .container .sectionFive .sectionFiveBottom p {
     height: 48px;
-    width: 256px;
+    width: 100%;
     color: #f66e49;
     font-family: "IBM Plex Sans";
     font-size: 18px;
@@ -721,6 +724,14 @@
   }
   .container .sectionFive .sectionFiveBottomHide {
     padding: 1.5625rem;
+  }
+  .container .sectionFive .sectionFiveBottomHide .g-recaptcha {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .container .sectionFive .sectionFiveBottomHide button {
     margin-top: 2rem;

@@ -493,8 +493,11 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-right: 3.75rem;
+    margin-left: 3.75rem;
   }
   .container .sectionFive .sectionFiveMid .mc-field-group input {
+    width: 100%;
     color: #363636;
     font-family: "IBM Plex Sans";
     font-size: 16px;
@@ -696,6 +699,14 @@
     margin-right: 3.75rem;
     padding-left: 0;
     padding-right: 0;
+  }
+  .container .sectionFive .sectionFiveBottomHide .g-recaptcha {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .container .sectionFive .sectionFiveBottomHide button {
     margin-top: 1.5625rem;

@@ -412,7 +412,7 @@
             justify-content: flex-end;
     padding-top: 1.25rem;
     padding-left: 3.75rem;
-    padding-right: 3.75rem;
+    padding-right: 1.25rem;
     padding-bottom: 2.3125rem;
   }
   .container .section-five .section-five-body .logo img {
@@ -449,6 +449,9 @@
     text-align: center;
     margin-bottom: 0;
     margin-top: 0;
+  }
+  .container .section-five .section-five-center {
+    margin-bottom: 1.5625rem;
   }
   .container .section-five .section-five-center .mc-field-group {
     display: -webkit-box;

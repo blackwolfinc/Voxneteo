@@ -550,9 +550,12 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    margin-right: 3.75rem;
+    margin-left: 3.75rem;
   }
 
   .container .section-five .section-five-center .mc-field-group input {
+    width: 100%;
     color: #363636;
     font-family: "IBM Plex Sans";
     font-size: 16px;
@@ -776,6 +779,14 @@
 
   .container .section-five .section-five-bottom-2 {
     padding: 1.5625rem;
+  }
+  .container .section-five .section-five-bottom-2 .g-recaptcha {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
   .container .section-five .section-five-bottom-2 button {
